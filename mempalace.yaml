@@ -1,0 +1,45 @@
+wing: knowledge
+rooms:
+- name: inbox
+  description: Files from INBOX/
+  keywords:
+  - inbox
+  - inbox
+- name: inspiration
+  description: Files from INSPIRATION/
+  keywords:
+  - inspiration
+  - inspiration
+- name: ican
+  description: Files from ICAN/
+  keywords:
+  - ican
+  - ican
+- name: templates
+  description: Files from TEMPLATES/
+  keywords:
+  - templates
+  - templates
+- name: design
+  description: Files from ASSETS/
+  keywords:
+  - design
+  - assets
+- name: sordulo
+  description: Files from SORDULO/
+  keywords:
+  - sordulo
+  - sordulo
+- name: unowhy
+  description: Files from UNOWHY/
+  keywords:
+  - unowhy
+  - unowhy
+- name: frontend
+  description: Files from CLIENT/
+  keywords:
+  - frontend
+  - client
+- name: general
+  description: Files that don't fit other rooms
+  keywords: []

@@ -1,0 +1,236 @@
+{
+  "main": {
+    "id": "7935d07675472740",
+    "type": "split",
+    "children": [
+      {
+        "id": "91bacc03d587e0cf",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "29e7cedb9660d3c7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SORDULO/CLIENT/RAW-STUDIO/_RAW-STUDIO.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "_RAW-STUDIO"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "00da6faeee3b9f0e",
+    "type": "split",
+    "children": [
+      {
+        "id": "05c3007d9dcb0848",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4eb8387fd8c14e0f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "938004789c1500ee",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Rechercher"
+            }
+          },
+          {
+            "id": "a63b8fbb0b2f25d5",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Signets"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 369.5
+  },
+  "right": {
+    "id": "b69fbdc2497b197a",
+    "type": "split",
+    "children": [
+      {
+        "id": "2b258211ede98aa3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f77f97a08c83bb6b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "SORDULO/DEVIS-FACTURES/_DEVIS-FACTURES.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Rétrolien pour _DEVIS-FACTURES"
+            }
+          },
+          {
+            "id": "53c767fa5a366099",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "SORDULO/DEVIS-FACTURES/_DEVIS-FACTURES.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Liens sortants de _DEVIS-FACTURES"
+            }
+          },
+          {
+            "id": "483b5f05423310c5",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Mots-clés"
+            }
+          },
+          {
+            "id": "a208898006788cce",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "Toutes les propriétés"
+            }
+          },
+          {
+            "id": "3f6db6a360798a96",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "SORDULO/DEVIS-FACTURES/_DEVIS-FACTURES.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Plan de _DEVIS-FACTURES"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "templater-obsidian:Templater": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "29e7cedb9660d3c7",
+  "lastOpenFiles": [
+    "INSPIRATION/WEBDESIGN/newpeace/newpeace.md",
+    "INSPIRATION/WEBDESIGN/newpeace/cases.png",
+    "INSPIRATION/WEBDESIGN/newpeace/about.png",
+    "ASSETS/FONTS/_FICHES/Blackletter-HPLHS.md",
+    "SORDULO/CLIENT/RAW-STUDIO/_RAW-STUDIO.md",
+    "SORDULO/DEVIS-FACTURES/Sacha-Moricet/RAW-STUDIO/Devis RAW STUDIO App 2026-007.md",
+    "SORDULO/DEVIS-FACTURES/Sacha-Moricet/RAW-STUDIO/2026-007_devis_raw-studio_app.pdf",
+    "INSPIRATION/WEBDESIGN/ribbit/composants/footer_ribbit.png",
+    "INSPIRATION/WEBDESIGN/eliotdewolf/eliotdewolf.md.tmp.88450.971a682d90e2",
+    "INSPIRATION/ANIMATIONS/_ANIMATIONS.md",
+    "INSPIRATION/ANIMATIONS",
+    "INSPIRATION/WEBDESIGN/ribbit/composants/header_ribbit.gif",
+    "INSPIRATION/WEBDESIGN/eliotdewolf/animations/loader_eliotdewolf.gif",
+    "INSPIRATION/WEBDESIGN/eliotdewolf/animations",
+    "INSPIRATION/WEBDESIGN/more-nutrition/animations/loader_more-nutrition.mp4",
+    "INSPIRATION/WEBDESIGN/more-nutrition/animations",
+    "INSPIRATION/WEBDESIGN/air-inc/animations/sidebar-toggle_air-inc.gif",
+    "INSPIRATION/WEBDESIGN/air-inc/animations/reveal_air-inc.gif",
+    "INSPIRATION/WEBDESIGN/air-inc/animations/intro-3d_air-inc.gif",
+    "INSPIRATION/WEBDESIGN/air-inc/animations",
+    "INSPIRATION/WEBDESIGN/ribbit/animations/process_ribbit.gif",
+    "INSPIRATION/WEBDESIGN/ribbit/animations/header_ribbit.gif",
+    "INSPIRATION/WEBDESIGN/ribbit/animations",
+    "INSPIRATION/WEBDESIGN/ribbit/ribbit.md",
+    "INSPIRATION/WEBDESIGN/newpeace/walkthrough.mp4",
+    "INSPIRATION/WEBDESIGN/newpeace/composants",
+    "INSPIRATION/COMPOSANTS/_COMPOSANTS.md",
+    "SORDULO/DEVIS-FACTURES/Mael-Auzenet/RAW-STUDIO/Devis RAW STUDIO Site-Portfolio 2026-001.md",
+    "SORDULO/DEVIS-FACTURES/Mael-Auzenet/RAW-STUDIO/Facture RAW STUDIO 2026-001.md",
+    "SORDULO/DEVIS-FACTURES/Mael-Auzenet/RAW-STUDIO/Devis RAW STUDIO Drive 2026-005.md",
+    "SORDULO/DEVIS-FACTURES/Mael-Auzenet/MAISON-TERRACOTTA/Devis Maison Terracotta 2026-006.md",
+    "SORDULO/DEVIS-FACTURES/Mael-Auzenet/MAISON-TERRACOTTA/Devis Maison Terracotta 2026-004.md",
+    "SORDULO/CLIENT/WANAFOOT/_WANAFOOT.md",
+    "SORDULO/CLIENT/MAISON-TERRACOTTA/_MAISON-TERRACOTTA.md",
+    "SORDULO/ADMINISTRATIF/Micro-Sacha-Moricet.md",
+    "SORDULO/ADMINISTRATIF/Micro-Mael-Auzenet.md",
+    "INSPIRATION/WEBDESIGN/more-nutrition/more-nutrition.md",
+    "INSPIRATION/WEBDESIGN/air-inc/air-inc.md",
+    "INSPIRATION/WEBDESIGN/eliotdewolf/eliotdewolf.md",
+    "INSPIRATION/GRAPHISME/alien-hominid/alien-hominid.md",
+    "INSPIRATION/BRAND-DESIGN/coupe-du-monde-2026/coupe-du-monde-2026.md",
+    "ASSETS/FONTS/_FICHES/Outfit.md",
+    "ASSETS/FONTS/_FICHES/Freigeist.md",
+    "INSPIRATION/_INSPIRATION.md",
+    "UNOWHY/_UNOWHY.md",
+    "Sans titre.canvas"
+  ]
+}

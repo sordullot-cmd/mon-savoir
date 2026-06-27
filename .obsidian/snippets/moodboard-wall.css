@@ -1,0 +1,27 @@
+/* ===========================================================
+   moodboard-wall — mur d'images pur (Are.na / Eagle style)
+   S'applique UNIQUEMENT aux notes avec cssclasses: [moodboard-wall]
+   N'affecte aucune autre note du vault.
+   =========================================================== */
+
+/* Masquer titre, propriétés et marges → que les images */
+.moodboard-wall .inline-title,
+.moodboard-wall .metadata-container,
+.moodboard-wall .frontmatter,
+.moodboard-wall .mod-header {
+  display: none !important;
+}
+
+/* Pleine largeur + retirer la limite de lecture confortable */
+.moodboard-wall.markdown-preview-view,
+.moodboard-wall .markdown-preview-sizer,
+.moodboard-wall .cm-sizer {
+  max-width: 100% !important;
+  width: 100% !important;
+  padding: 8px !important;
+}
+
+/* La grille Gallery Pro occupe tout l'espace */
+.moodboard-wall .media-gallery-container {
+  margin: 0 !important;
+}
