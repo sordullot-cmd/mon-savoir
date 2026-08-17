@@ -1,0 +1,42 @@
+[
+  {
+    "fichier": "palette-coeur-de-marque.svg",
+    "titre": "Couleurs cœur de marque",
+    "sous_titre": "Prises directement sur Duo. Hiérarchie d'usage officielle.",
+    "colonnes": 4,
+    "groupes": [
+      {
+        "nom": "",
+        "couleurs": [
+          { "nom": "Feather Green", "hex": "#58CC02", "note": "PMS 361 C / 2421 U|CMJN 58 0 96 0" },
+          { "nom": "Mask Green", "hex": "#89E219", "note": "PMS 368 C / 2293 U|CMJN 42 0 87 0" },
+          { "nom": "Eel", "hex": "#4B4B4B", "note": "PMS 418 C / Black 6 U|CMJN 3 0 21 88" },
+          { "nom": "Snow", "hex": "#FFFFFF", "note": "Fond de toutes les apps|et services" }
+        ]
+      }
+    ]
+  },
+  {
+    "fichier": "palette-observee-dans-l-app.svg",
+    "titre": "Couleurs relevées dans l'app",
+    "sous_titre": "Comptage des pixels des 8 captures App Store, rapproché de la palette officielle.",
+    "colonnes": 5,
+    "largeur_case": 214,
+    "hauteur_case": 126,
+    "groupes": [
+      {
+        "nom": "Verts — progression et validation",
+        "couleurs": [
+          { "nom": "Feather Green", "hex": "#58CC02", "note": "Bouton principal, coche,|barre de progression" },
+          { "nom": "Tree Frog", "hex": "#58A700", "note": "Ombre solide sous le|bouton vert" }
+        ]
+      },
+      {
+        "nom": "Relevé hors charte — l'app a évolué",
+        "couleurs": [
+          { "nom": "Vert menthe", "hex": "#01CC9C", "note": "Cours d'échecs — absent|de la charte publiée" }
+        ]
+      }
+    ]
+  }
+]

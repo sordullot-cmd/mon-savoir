@@ -7,21 +7,18 @@ tags: [moc, accueil]
 
 > Point d'entrée unique. Tout part d'ici.
 
-## Les 5 domaines
+## Les 6 domaines
 
-| Domaine | Quoi | Index |
-| --- | --- | --- |
-| **Unowhy** | Mon travail salarié | [[_UNOWHY\|Ouvrir]] |
-| **Sordulo** | Mon agence avec Maël (2 micro-entreprises) | [[_SORDULO\|Ouvrir]] |
-| **ICAN** | Mon école | [[_ICAN\|Ouvrir]] |
-| **Inspiration** | Refs visuelles, liens, vidéos | [[_INSPIRATION\|Ouvrir]] |
-| **Assets** | Fonts, mockups, icônes, textures… | [[_ASSETS\|Ouvrir]] |
+| Domaine         | Quoi                                               | Index                    |
+| --------------- | -------------------------------------------------- | ------------------------ |
+| **Perso**       | Mes projets personnels (side-projects, portfolio…) | [[_PERSO\|Ouvrir]]       |
+| **Inspiration** | Refs visuelles, liens, vidéos                      | [[_INSPIRATION\|Ouvrir]] |
+
 
 ## Accès rapides
 
 - [[INBOX/À-PROPOS|Inbox]] — tout ce qui n'est pas encore rangé
 - Templates: [[Template-Projet]] · [[Template-Client]] · [[Template-Devis]] · [[Template-Inspiration]]
-- [[_DEVIS-FACTURES|Suivi devis & factures Sordulo]]
 
 ## En cours
 

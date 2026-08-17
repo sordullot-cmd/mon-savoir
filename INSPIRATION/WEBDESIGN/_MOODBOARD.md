@@ -11,6 +11,6 @@ tags:
 ---
 
 ```gallery-pro
-paths: INSPIRATION/WEBDESIGN/eliotdewolf
+paths: INSPIRATION/WEBDESIGN
 sort: date-desc
 ```

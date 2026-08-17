@@ -33,6 +33,7 @@ def slugify(path):
 
 def dump_dom(url, budget):
     r = subprocess.run([shoot.CHROME, "--headless=new", "--disable-gpu", "--hide-scrollbars",
+        f"--user-agent={shoot.UA}",  # évite le 403/crash HeadlessChrome (pas de swiftshader ici : hang virtual-time)
         f"--virtual-time-budget={budget}", "--dump-dom", url], capture_output=True, text=True, timeout=90)
     return r.stdout or ""
 

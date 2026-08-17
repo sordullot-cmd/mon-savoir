@@ -17,9 +17,17 @@ import shoot  # capteur pleine hauteur (CDP), même dossier
 
 CHROME = "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
 
+UA = ("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
+      "(KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36")  # évite la détection HeadlessChrome (403/crash)
+
 def chrome(args, timeout=90):
+    # Pas de --enable-unsafe-swiftshader ici : la découverte utilise --dump-dom +
+    # --virtual-time-budget, or un WebGL actif (boucle rAF) empêche le virtual-time
+    # de se terminer → hang. Les liens de nav sont dans le HTML sans rendu 3D.
+    # (SwiftShader reste dans shoot.py pour les captures, en temps réel.)
     return subprocess.run([CHROME, "--headless=new", "--disable-gpu",
-        "--hide-scrollbars", *args], capture_output=True, text=True, timeout=timeout)
+        "--hide-scrollbars", f"--user-agent={UA}", *args],
+        capture_output=True, text=True, timeout=timeout)
 
 def rendered_html(url, budget):
     r = chrome([f"--virtual-time-budget={budget}", "--dump-dom", url])
@@ -44,7 +52,10 @@ def discover(url, budget, max_n):
             continue
         path = pu.path or "/"
         if any(path.lower().endswith(e) for e in
-               (".pdf",".zip",".png",".jpg",".jpeg",".svg",".mp4",".webp",".gif")):
+               (".pdf",".zip",".png",".jpg",".jpeg",".svg",".mp4",".webp",".gif",
+                ".css",".js",".woff",".woff2",".ttf",".otf",".ico",".json",".xml",".txt")):
+            continue
+        if "/_next/" in path or path.startswith("/static/"):  # assets build (Next.js…)
             continue
         if path not in seen:
             seen.add(path); paths.append(path)

@@ -36,7 +36,7 @@ Deux modes selon la charge (cf. § Procédure) : **léger/séquentiel** pour que
    > L'agent lit TOUT (toutes les pages, tout le contenu) et ne présume rien — c'est le cœur du gain. Les items légers, l'orchestrateur les fait lui-même en parallèle de l'attente.
 4O. **Agent “relations & dédup”** (après réception de tous les rapports) : il lit **les rapports** (pas les fichiers bruts) et renvoie les **doublons** à supprimer, les **regroupements** (même client/projet → même sous-dossier + fiches reliées), et les **liens croisés** à poser. C'est lui qui aurait attrapé « Maison Terracotta » (2 devis liés) et un vrai doublon.
 5O. **Plan consolidé** : l'orchestrateur fusionne les rapports + les relations en un tableau récap ; items ambigus → UNE question groupée (§ Quand demander).
-6O. **Exécution centralisée et SÉQUENTIELLE** (orchestrateur seul, jamais les agents) : tous les `mv`, créations de fiches et surtout les **éditions d'index/MOC partagés** (`_DEVIS-FACTURES.md`, `_ASSETS.md`, fiches client) se font **un par un** — les fichiers partagés ne doivent jamais être écrits par deux agents en parallèle (sinon écrasement). Fonts → `/font`, sites → `/inspi`, lancés **un à la fois** pour la partie qui touche l'index.
+6O. **Exécution centralisée et SÉQUENTIELLE** (orchestrateur seul, jamais les agents) : tous les `mv`, créations de fiches et surtout les **éditions d'index/MOC partagés** (`_DEVIS-FACTURES.md`, `_ASSETS.md`, fiches client) se font **un par un** — les fichiers partagés ne doivent jamais être écrits par deux agents en parallèle (sinon écrasement). Fonts → `/font`, sites / apps / posts → `/inspi`, lancés **un à la fois** pour la partie qui touche l'index.
 7O. **Réindexer MemPalace une seule fois** à la fin, puis **récapituler**.
 
 > Pourquoi ce découpage : le coûteux (rendre/lire des PDF, analyser des polices) est **parallélisable et isolable** → agents. Le fragile (état partagé : index, fiches client) doit rester **sérialisé** → orchestrateur. Les agents ne corrigent l'erreur de lecture que s'ils ont le mandat strict « lis tout, ne présume rien » — il est dans le § Inspection.
@@ -76,6 +76,8 @@ Après avoir lu *tous* les items, avant de ranger : repérer les **liens** dans 
 | Image ressource réutilisable (mockup, icône, texture, logo, kit) | `ASSETS/{MOCKUPS \| ICONS \| TEXTURES-PATTERNS \| LOGOS \| TEMPLATES-DESIGN}/` | aucune | — |
 | Vidéo / motion (`.mp4`, `.mov`…) ou lien vidéo d'inspi | `INSPIRATION/MOTION/` | `Template-Inspiration` (`media: vidéo`) si pertinent | — |
 | Lien de **site / inspiration visuelle** (`.url`, `.webloc`, ou note ne contenant qu'une URL) | `INSPIRATION/<DISCIPLINE>/<slug>/` (webdesign, ui-design, brand-design, graphisme, motion) | **déléguer à `/inspi`** (capture tout le site + fiche) | — |
+| Lien de **post social** (x.com/twitter, instagram, pinterest/pin.it, tiktok, behance, dribbble, youtube/vimeo…) | `INSPIRATION/<DISCIPLINE>/<slug>/` selon ce que le post **montre** | **déléguer à `/inspi`** (mode post social : télécharge le média + fiche `Template-Inspiration-Post`) | — |
+| Lien de **store d'app** (`apps.apple.com`, `play.google.com`) ou note ne contenant qu'un **nom d'app** | `INSPIRATION/UI-DESIGN/<slug>/` | **déléguer à `/inspi`** (mode app : écrans des stores en pleine qualité + bases type Mobbin + dossier par aspect, fiche `Template-Produit`) | `INSPIRATION/UI-DESIGN/_APPS.md` |
 | Image d'inspiration (UI, brand, print…) | `INSPIRATION/<DISCIPLINE>/` selon le sujet | `Template-Inspiration` | — |
 | Police (`.otf`, `.ttf`, `.woff`, ou dossier/zip de fonts) | `ASSETS/FONTS/` | `Template-Font` → `ASSETS/FONTS/_FICHES/<Famille>.md` | tableau « Index des fonts » de `ASSETS/_ASSETS.md` |
 | Note texte / idée / réunion | domaine deviné `UNOWHY/` `SORDULO/` `ICAN/` | `Template-Projet` si c'est un projet | relier dans le `_MOC` du domaine |
@@ -133,3 +135,9 @@ Poser une question seulement dans ces cas, et **groupées** en un seul message :
 - En cas de doute sur l'écrasement d'un fichier existant : renommer, ne pas écraser.
 - **Ne jamais inventer une donnée d'un document.** Si un PDF ne s'extrait pas en texte (police « sous-ensemble », glyphes brouillés), **le regarder** : le convertir en image (`qlmanage -t -s 2000 "fichier.pdf" -o <scratchpad>`, fallback `sips -s format png`) et lire le `.png`. On ne remplit montants/dates/client qu'à partir de ce qu'on a réellement lu.
 - Toujours finir par un récap clair et l'état de l'INBOX.
+
+## Étape finale — sync vault-gallery
+
+Après toute création ou mise à jour de fiche, lancer
+`npm run index --prefix ~/Documents/GitHub/vault-gallery`
+et inclure son récap (ajouté / mis à jour / supprimé) dans le compte-rendu.

@@ -11,15 +11,25 @@ import sys, os, json, time, base64, socket, subprocess, argparse, urllib.request
 import websocket  # websocket-client
 
 CHROME = "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
+# UA réaliste : beaucoup de sites (Next.js/SPA) plantent ou renvoient 403 si l'UA
+# contient "HeadlessChrome" (détection anti-bot). On se fait passer pour un Chrome normal.
+UA = ("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
+      "(KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36")
 
 def free_port():
     s = socket.socket(); s.bind(("", 0)); p = s.getsockname()[1]; s.close(); return p
 
 def launch(port, width):
     return subprocess.Popen([CHROME, "--headless=new", "--disable-gpu",
+        # WebGL logiciel : les sites Three.js/WebGL plantent ("Application error")
+        # sans contexte WebGL ; Chrome récent l'exige pour le fallback SwiftShader.
+        "--enable-unsafe-swiftshader",
+        # masque navigator.webdriver : la connexion CDP le met à true et certains
+        # sites (Next.js/SPA) plantent alors avec une "Application error".
+        "--disable-blink-features=AutomationControlled",
         "--hide-scrollbars", "--no-first-run", "--no-default-browser-check",
         "--remote-allow-origins=*", "--autoplay-policy=no-user-gesture-required",
-        "--mute-audio",
+        "--mute-audio", f"--user-agent={UA}",
         f"--remote-debugging-port={port}", f"--window-size={width},1080", "about:blank"],
         stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
 

@@ -13,71 +13,70 @@ Emails :
 - Unowhy : `smoricet@unowhy.com` (uniquement pour le travail salarié)
 - Sordulo : `sordulo.contact@gmail.com` (l'agence)
 
-Ses univers :
+Ses univers professionnels (dans sa vie, pas forcément dans le vault) :
 - **Unowhy** : son travail salarié.
-- **Sordulo**: son agence avec son co-fondateur **Maël Auzenet**. Pas d'entité juridique « Sordulo »: ce sont **2 micro-entreprises** distinctes (*Sacha Moricet* & *Maël Auzenet*). Les devis/factures partent de l'une OU l'autre micro selon le projet.
+- **Sordulo** : son agence avec son co-fondateur **Maël Auzenet**. Pas d'entité juridique « Sordulo » : ce sont **2 micro-entreprises** distinctes (*Sacha Moricet* & *Maël Auzenet*). Les devis/factures partent de l'une OU l'autre micro selon le projet.
 - **ICAN** : son école (2e année en 2026).
-- **Inspiration** & **Assets** : ressources de designer.
+- **Perso** : ses projets personnels (side-projects, portfolio, expérimentations).
 
 ---
 
 ## 2. Le projet
 
-Construire un **second cerveau** = **vault Obsidian** local en markdown, dans `/Users/smoricet/Documents/KNOWLEDGE`.
+Construire un **second cerveau** = **vault Obsidian** local en markdown, dans `~/Documents/KNOWLEDGE`.
 
 Décisions validées avec lui :
 - Support : **Obsidian** (markdown local).
-- Usages : référence/archive + gestion de projets + suivi business/devis + veille inspi.
-- Sordulo : **marque unifiée en façade**, mais devis séparés par micro-entreprise (Sacha / Maël).
-- Inspiration & Assets : rangés **par type** puis par **tags**.
-- **Inbox** unique de capture rapide. **Templates** : Projet, Client, Devis, Inspiration.
-- Il voulait **remplir avec son vrai contenu** (pas juste une structure vide).
+- Usages : référence/archive + gestion de projets + veille inspi.
+- Inspiration : rangée **par discipline** puis par **tags**.
+- **Inbox** unique de capture rapide. **Templates** : Projet, Client, Devis, Inspiration, Font, Univers.
+- Convention : **dossiers top-niveau en UPPERCASE**, notes d'index nommées **`_NOM.md`** (MOC), tableau de bord = **`ACCUEIL.md`**.
 
 ---
 
-## 3. Ce qui a DÉJÀ été fait
-
-Structure montée **par-dessus son existant** (il avait déjà des dossiers UPPERCASE). Convention : **dossiers top-niveau en UPPERCASE**, notes d'index nommées **`_NOM.md`** (MOC), tableau de bord = **`ACCUEIL.md`**.
+## 3. État actuel du vault (août 2026)
 
 ```
-ACCUEIL.md                 ← dashboard central
-INBOX/À-PROPOS.md          ← capture rapide
-UNOWHY/_UNOWHY.md          ← Projets: Hackthon, Powerbank, Self-care | BRAND/ | DS/
-SORDULO/_SORDULO.md
-   ├─ CLIENT/RAW-STUDIO/   ← client (app iOS + site)
-   ├─ DEVIS-FACTURES/_DEVIS-FACTURES.md  ← split Sacha-Moricet / Maël-Auzenet
-   ├─ DA/  ├─ ADMINISTRATIF/
-ICAN/_ICAN.md              ← 2e année / 3e trimestre / Motion Design, Soutenance
-INSPIRATION/_INSPIRATION.md ← IMAGES / VIDÉOS / LIENS-ARTICLES + système de tags
-ASSETS/_ASSETS.md          ← FONTS (déjà fourni) / MOCKUPS / ICONS / TEXTURES-PATTERNS / TEMPLATES-DESIGN / LOGOS
-TEMPLATES/                 ← Template-Projet / -Client / -Devis / -Inspiration
+ACCUEIL.md                      ← dashboard central
+INBOX/À-PROPOS.md               ← capture rapide
+PERSO/_PERSO.md                 ← projets personnels (vide pour l'instant)
+INSPIRATION/_INSPIRATION.md     ← index des disciplines + vocabulaire de descripteurs
+   ├─ WEBDESIGN/       (vide, + _MOODBOARD.md)
+   ├─ UI-DESIGN/       (vide)
+   ├─ BRAND-DESIGN/    (vide)
+   ├─ GRAPHISME/       (vide)
+   ├─ MOTION/          (vide)
+   ├─ COMPOSANTS/_COMPOSANTS.md   ← index transversal, tableau vide
+   ├─ ANIMATIONS/_ANIMATIONS.md   ← index transversal, tableau vide
+   └─ UNIVERS/_UNIVERS.md
+        └─ duolingo/   ← 206 fichiers, seul contenu réel du vault
+TEMPLATES/                      ← Projet / Client / Devis / Inspiration / Inspiration-Post / Font / Univers
 ```
 
-Détails utiles :
-- Typo corrigé : `SORDULO/ADMINSTRATIF` → `SORDULO/ADMINISTRATIF`.
-- Aucun contenu réel n'a été déplacé/supprimé.
-- Mémoire persistante écrite : `user-sacha-profile`, `project-second-brain` (+ index MEMORY.md).
+**Important — suppressions d'août 2026.** Sacha a supprimé les domaines `UNOWHY/`, `SORDULO/` (dont `DEVIS-FACTURES/`), `ICAN/` et `ASSETS/` (dont `FONTS/`), ainsi que toutes les inspirations de sites (ribbit, air-inc, sanrita, podium, tesoroxp, newpeace, standards, more-nutrition, eliotdewolf). C'est **volontaire et définitif** : ne pas les recréer sans demande explicite. Les liens morts qui en résultaient ont été nettoyés dans `ACCUEIL.md`, `_PERSO.md`, `_COMPOSANTS.md`, `_ANIMATIONS.md`, `_MOODBOARD.md` et `duolingo.md`.
+
+Les dossiers de discipline vides sont **conservés à dessein** : ce sont les catégories de base décrites dans `_INSPIRATION.md`, elles attendent du contenu.
 
 ---
 
-## 4. RÈGLE D'ARCHITECTURE (résolu) — code vs notes
+## 4. RÈGLE D'ARCHITECTURE — code vs notes
 
 **Le code ne vit PAS dans le vault. Le cerveau ne contient que des notes + assets design.**
 - Le **code** vit hors du vault, dans ses dossiers de dev locaux.
 - **`~/Documents/UNOWHY/Projet/`** = projets Unowhy (Powerbank, Hackthon, Self-care).
-- Le vault `KNOWLEDGE` garde une **fiche projet** par projet qui pointe vers le dossier local (`file://...`). Voir les fiches créées: `UNOWHY/Projet/{Powerbank,Hackthon,Self-care}.md`, `SORDULO/CLIENT/RAW-STUDIO/_RAW-STUDIO.md`.
+- Une fiche projet dans le vault pointe vers le dossier local via un lien `file://…`.
 - Pourquoi : `node_modules` (auto-généré, régénérable via `npm install`) faisait exploser Obsidian. Obsidian ignore déjà les dossiers en `.` (`.git`, `.next`). Si un projet doit rester dans le vault, exclure `node_modules` via Réglages → Fichiers et liens → Fichiers exclus.
-
-**Fait :** vault nettoyé de **723 Mo / 70 413 fichiers → 125 Mo / 541 fichiers**. Doublons de code retirés (Hackthon, Self-care, Powerbank, RAW-STUDIO) après vérif `diff` = 0 différence.
 
 ---
 
-## 5. Reste à faire ensuite (remplissage réel)
+## 5. Skills du vault
 
-L'utilisateur veut créer ses vraies fiches. Lui demander / récupérer :
-1. **Devis Sordulo** (RAW-STUDIO + autres) : montants, statut, rattachés à quelle micro (Sacha/Maël).
-2. **Projets en cours** à épingler dans « En cours » de `ACCUEIL.md`.
-3. **ICAN** : liste des matières/rendus du trimestre.
-4. **Contact client RAW-STUDIO** pour sa fiche.
+`/ranger` (vide l'INBOX), `/inspi` (site ou post social → inspiration rangée par discipline), `/univers` (dossier de référence complet sur un univers créatif), `/font` (fiche de police).
 
-Plugins Obsidian conseillés : **Templates** (core) et **Dataview** (communautaire, pour auto-générer les tableaux devis/inspi).
+**Attention :** `/font` écrit dans `ASSETS/FONTS/`, qui n'existe plus. Le skill recréera l'arborescence au premier usage — vérifier avec Sacha si c'est bien ce qu'il veut avant de le lancer.
+
+---
+
+## 6. Recherche dans le vault
+
+**MemPalace en priorité** (`mempalace_search`) : recherche sémantique sur le contenu, pas seulement les noms de fichiers. `grep`/`find` en secours uniquement.

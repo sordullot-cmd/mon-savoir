@@ -1,0 +1,19 @@
+---
+type: moc
+tags: [moc, inspiration, ui]
+---
+
+# Apps & produits numériques
+
+> Index des **dossiers de référence** sur des produits numériques (apps mobiles, apps web, SaaS) : écrans en pleine qualité, flows, branding, couleurs, crédits. Créés par **`/inspi`** en mode app. L'équivalent de [[_UNIVERS]] pour le numérique.
+
+| Produit | Type | Plateformes | Aspects couverts | Fiche |
+| --- | --- | --- | --- | --- |
+|  |  |  |  |  |
+
+## Où chercher des écrans
+
+Bases d'UI utilisées par `/inspi` (la plupart demandent un compte — passer par le Chrome de Sacha) : Mobbin · Refero · Appshots · Page Flows · UXArchive · Screensdesign · Banani · Adapty (paywalls) · Webframe et SaaS Landing Page (web) · WWIT (Corée) · Game UI Database (jeux). Les **stores** (App Store, Google Play) restent la source publique et fiable pour les écrans phares en résolution native.
+
+---
+[[_INSPIRATION|← Inspiration]] · [[ACCUEIL|← Accueil]]

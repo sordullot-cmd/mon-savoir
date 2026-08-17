@@ -1,0 +1,1674 @@
+{
+  "lastSyncTime": 1786838357083,
+  "files": {
+    "mempalace.yaml": {
+      "mtime": 1782282553000,
+      "hash": "b130e907833987106ed44eda805c3214cd9707b320626668c7d2e3f17fdc811a"
+    },
+    "entities.json": {
+      "mtime": 1782282549000,
+      "hash": "813618fb7714d4bc0410e66fe57035805a854558888763cb410bd9d9a385e1c6"
+    },
+    "TEMPLATES/Template-Projet.md": {
+      "mtime": 1783845058000,
+      "hash": "dfe8597efafbb4578481176347b8e40daf0ee543cb9462feb8cd81895df04d1d"
+    },
+    "TEMPLATES/Template-Univers.md": {
+      "mtime": 1786793359000,
+      "hash": "382a307d09ca77592cab85f5e67a83f3736ddfc4424d1dcd3f00a7a1a5bdf8c8"
+    },
+    "TEMPLATES/Template-Inspiration.md": {
+      "mtime": 1786456563000,
+      "hash": "b3515f7f7f73976b47f99739ae159fd3ba699619a25de253be312359a92e97c2"
+    },
+    "TEMPLATES/Template-Inspiration-Post.md": {
+      "mtime": 1786456513000,
+      "hash": "a80052fe82bb2388c50ea17f9493773157acc64370c77e11b258fb6d13212cb9"
+    },
+    "TEMPLATES/Template-Font.md": {
+      "mtime": 1786530067000,
+      "hash": "3b9d26b58d0fcdebdca0c85dd69cddd7f7533fec66cbec7781a67ec276cca965"
+    },
+    "TEMPLATES/Template-Devis.md": {
+      "mtime": 1782294449000,
+      "hash": "d2765f1b3a53aad78e3af50773784a1db06ec41cca7cfde97c96672445bb2920"
+    },
+    "TEMPLATES/Template-Client.md": {
+      "mtime": 1782294449000,
+      "hash": "8f41e0aa22945a39f4e06faa26e254dcd62cbf11324572411fc79168dc2444a8"
+    },
+    "PERSO/_PERSO.md": {
+      "mtime": 1786805977319,
+      "hash": "7ea0ea8dfd5d11ee1c5c5146e58848e0d6cda12e7f288edd94801f2e92ab1f01"
+    },
+    "INSPIRATION/_INSPIRATION.md": {
+      "mtime": 1786625964000,
+      "hash": "6e3de991fd9db920c167411e7a4922e77b0ac50e2a235f2376fb5303735f130f"
+    },
+    "INSPIRATION/WEBDESIGN/_MOODBOARD.md": {
+      "mtime": 1786805991085,
+      "hash": "d6791d19b15ba88c5b641a576f54ca53e8fa3219cc37c59de8749b7de1eeafc0"
+    },
+    "INSPIRATION/UNIVERS/kraken/kraken.md": {
+      "mtime": 1786824137416,
+      "hash": "fa6420406da0cf0814172224dc92294b3880f835e33a8f8306eb40e23d2f9833"
+    },
+    "INSPIRATION/UNIVERS/kraken/web/site-staking.png": {
+      "mtime": 1786823424495,
+      "hash": "9b0f3d9043b23900fe9fd8168d36be958be5fa1bc18cf87952d57f1bcbaf0f59"
+    },
+    "INSPIRATION/UNIVERS/kraken/web/site-krak.png": {
+      "mtime": 1786823424473,
+      "hash": "4c86a58c4ae08eaeb1211ef5b986378b642d03d6406240315752272e11eaf4f4"
+    },
+    "INSPIRATION/UNIVERS/kraken/web/site-institutions.png": {
+      "mtime": 1786823424485,
+      "hash": "484e29f753ff7e8f097893bc2e31e352cf85e56d45a0439da17cdc7d8f27de99"
+    },
+    "INSPIRATION/UNIVERS/kraken/web/site-home.png": {
+      "mtime": 1786823424464,
+      "hash": "3f18886a515c7e0436c4677bda85714e984f1d9f638c768342c71765a411232e"
+    },
+    "INSPIRATION/UNIVERS/kraken/web/site-desktop.png": {
+      "mtime": 1786823424508,
+      "hash": "d885d7bf8cacda65849968115ab2a2c6f328eecca1e2c00ae83fcb9408c079e2"
+    },
+    "INSPIRATION/UNIVERS/kraken/ui/web-onboarding-creation-compte.jpg": {
+      "mtime": 1786823396456,
+      "hash": "254fda3356a9f5aaf466bf8a8ef0d9351ae2262728394005f142f8679d667b1f"
+    },
+    "INSPIRATION/UNIVERS/kraken/ui/web-onboarding-verification-identite.jpg": {
+      "mtime": 1786823396185,
+      "hash": "e018cf47b94eb35bbf03d4a491e1732e3d9e9c52cf5a86bdf1419f6651a5271a"
+    },
+    "INSPIRATION/UNIVERS/kraken/ui/web-krak-grab-the-app-4.png": {
+      "mtime": 1786823395844,
+      "hash": "8f8ac5f5312a8ffb7f565c919e96c9440dbd11ceace2b297210efdd53e5ec11b"
+    },
+    "INSPIRATION/UNIVERS/kraken/ui/web-krak-grab-the-app-3.png": {
+      "mtime": 1786823395715,
+      "hash": "e34823f56f5497d8b2762bb663941892936e2d6728780a2acb447259f952a188"
+    },
+    "INSPIRATION/UNIVERS/kraken/ui/web-krak-grab-the-app-2.png": {
+      "mtime": 1786823395636,
+      "hash": "764d10770993365fd9666c3f60679923f6de13d63a3877841d440c8019236a1a"
+    },
+    "INSPIRATION/UNIVERS/kraken/ui/web-krak-grab-the-app-1.png": {
+      "mtime": 1786823395442,
+      "hash": "fe4d77d2d89c667c437995a18f0e82825708c6b36548f1dd72f8dda45db9b1c2"
+    },
+    "INSPIRATION/UNIVERS/kraken/ui/web-krak-earn.png": {
+      "mtime": 1786823395127,
+      "hash": "3d384a22743e91bc2ebdb4e5a6e2b6de2dfd7c59dcb20ea87b1bab0587558ddf"
+    },
+    "INSPIRATION/UNIVERS/kraken/ui/web-krak-telephone.png": {
+      "mtime": 1786823394957,
+      "hash": "319505fcdafe2f681a6c7c8635e544ed766e612094b2514e8b99d3eb4dd044ea"
+    },
+    "INSPIRATION/UNIVERS/kraken/ui/web-app-levier-10x.png": {
+      "mtime": 1786823394777,
+      "hash": "df7ac9705f0083e70efe5448bcacf75fda3118f55ba01385a5031261a2f2dd86"
+    },
+    "INSPIRATION/UNIVERS/kraken/ui/web-app-consumer-1506px.png": {
+      "mtime": 1786823394666,
+      "hash": "8aebbdec25a9336c727d7982f578bfcdeadb39541063d7a1dc1934f2ab6d9c6d"
+    },
+    "INSPIRATION/UNIVERS/kraken/ui/web-institutional-market-data.png": {
+      "mtime": 1786823394577,
+      "hash": "cb0278600d47a472acbfb2e59af60205d0108e2297ac2da31b0478b10872d0d4"
+    },
+    "INSPIRATION/UNIVERS/kraken/ui/web-institutional-api.png": {
+      "mtime": 1786823394161,
+      "hash": "1c8e77ebd1deeb79552402e0602d7202c4b003f66409ab6a063a14aa7bb697af"
+    },
+    "INSPIRATION/UNIVERS/kraken/ui/web-institutional-subaccounts.png": {
+      "mtime": 1786823393695,
+      "hash": "7dcce017fcdd2a6b36ebc3defa7a53f3b2023c8706d876a51077e365f5798c7e"
+    },
+    "INSPIRATION/UNIVERS/kraken/ui/web-institutional-exchange.png": {
+      "mtime": 1786823393302,
+      "hash": "81ccae225ecb1ef69e2f4eba64e7443cdcc1777ccbac92ec189ac14c63cfa69e"
+    },
+    "INSPIRATION/UNIVERS/kraken/ui/web-desktop-performance.png": {
+      "mtime": 1786823392708,
+      "hash": "22c520dca0bd5d0a3f75711ccbb99f596bcb120557aa405fc6f0a2041f5dc1fc"
+    },
+    "INSPIRATION/UNIVERS/kraken/ui/web-desktop-share-board.png": {
+      "mtime": 1786823392612,
+      "hash": "edc9cfffc30d825af3f637b5e8286d27ff8b3d75b43b2cb005da052d57f7416d"
+    },
+    "INSPIRATION/UNIVERS/kraken/ui/web-desktop-themes-4.png": {
+      "mtime": 1786823392534,
+      "hash": "9890f94291e379a79044711a71a17c0207ab89099ea6690499e38d3d651f8dd5"
+    },
+    "INSPIRATION/UNIVERS/kraken/ui/web-desktop-themes-3.png": {
+      "mtime": 1786823392046,
+      "hash": "7fb8fa6a6b9d5b839ef8c50a6ab11c54ab98bcfd8fe6c54a40a05f969b656784"
+    },
+    "INSPIRATION/UNIVERS/kraken/ui/web-desktop-themes-2.png": {
+      "mtime": 1786823391965,
+      "hash": "d9519f61719a83426121584ea55c3a265d3b87db7282eadf71a10786b0a75abe"
+    },
+    "INSPIRATION/UNIVERS/kraken/ui/web-desktop-themes-1.png": {
+      "mtime": 1786823391792,
+      "hash": "68c9df8fb84c3a8b8da82e7059681fefc1b85ac6afb5f92c8273825dc1528638"
+    },
+    "INSPIRATION/UNIVERS/kraken/ui/web-desktop-layouts-modulaires.png": {
+      "mtime": 1786823391634,
+      "hash": "745393bc924b4c4dbb7befbece33c133ef4273cb33c8b070a14aa81fe5694cb7"
+    },
+    "INSPIRATION/UNIVERS/kraken/ui/web-desktop-ladder-trading.png": {
+      "mtime": 1786823391531,
+      "hash": "2303454b2ec0266f363471bd8c3f3db8611fdf3671f8e504d68ce1df9e735941"
+    },
+    "INSPIRATION/UNIVERS/kraken/ui/web-desktop-multifenetres-vertical.png": {
+      "mtime": 1786823391421,
+      "hash": "17173dfc6fbbd1cf2aff83bc5481c79dfe369349660db7e1765269237a8d7616"
+    },
+    "INSPIRATION/UNIVERS/kraken/ui/web-desktop-multifenetres-3083px.png": {
+      "mtime": 1786823391196,
+      "hash": "3a726c520c1d164ec962ba15e386f7f7b7ac6cc8a3ae792a7c86fd7fbe67dd09"
+    },
+    "INSPIRATION/UNIVERS/kraken/ui/web-kraken-pro-terminal-3528px.png": {
+      "mtime": 1786823391069,
+      "hash": "2150cf9373e91e959db8769033335a4dced81cf07fdd146aa317886f85b24675"
+    },
+    "INSPIRATION/UNIVERS/kraken/ui/krak-screen-09.png": {
+      "mtime": 1786823043328,
+      "hash": "0a055b78017f0049a58ced58cacb569df658a45664fa771210ee6a77a8d0efd5"
+    },
+    "INSPIRATION/UNIVERS/kraken/ui/krak-screen-08.png": {
+      "mtime": 1786823043054,
+      "hash": "696b98141a4f5fcc31c89e16e061f518ceec888c2ebb82e650fb5a43c50e48cf"
+    },
+    "INSPIRATION/UNIVERS/kraken/ui/krak-screen-07.png": {
+      "mtime": 1786823042959,
+      "hash": "6e0dfb238a58019c8bf32f1dc31afbc14e00bfa4ed712a53cc9335e0602148cc"
+    },
+    "INSPIRATION/UNIVERS/kraken/ui/krak-screen-06.png": {
+      "mtime": 1786823042806,
+      "hash": "deefbd65a15bba522d0ae3c30140f861eb66e0b543695ef790599e8b0cfe3e3e"
+    },
+    "INSPIRATION/UNIVERS/kraken/ui/krak-screen-05.png": {
+      "mtime": 1786823042551,
+      "hash": "ff1417a795779d908375aa02e698b4531df15d87e638c9ca294aa87b50ed4309"
+    },
+    "INSPIRATION/UNIVERS/kraken/ui/krak-screen-04.png": {
+      "mtime": 1786823041486,
+      "hash": "20a8279383bfc6107449257e4c26ded674e171568b329f19707597546e95ec02"
+    },
+    "INSPIRATION/UNIVERS/kraken/ui/krak-screen-03.png": {
+      "mtime": 1786823041336,
+      "hash": "236572acbe73d9889aadbd866195e74359993362dfd1832bd57a023bd24e01d4"
+    },
+    "INSPIRATION/UNIVERS/kraken/ui/krak-screen-02.png": {
+      "mtime": 1786823041066,
+      "hash": "e833dbf7151d58eb72b5a7e1abcbf1c5a64492271de37af50ebdc6099624a1f7"
+    },
+    "INSPIRATION/UNIVERS/kraken/ui/krak-screen-01.png": {
+      "mtime": 1786823040908,
+      "hash": "8ac1dbbac8b406917976617b98724d8ff6e395160d22b1c43f333c15a5721369"
+    },
+    "INSPIRATION/UNIVERS/kraken/ui/kraken-wallet-screen-06.png": {
+      "mtime": 1786823040335,
+      "hash": "0c761eb2b4d3f82399f5d5929b2564b379a64af951b4df0cb60e45a4f1022e85"
+    },
+    "INSPIRATION/UNIVERS/kraken/ui/kraken-wallet-screen-05.png": {
+      "mtime": 1786823038835,
+      "hash": "7cf0944e6d18473357919f2a1bfd8a8f5bd87a4782e5057b330e1a44657aec2b"
+    },
+    "INSPIRATION/UNIVERS/kraken/ui/kraken-wallet-screen-04.png": {
+      "mtime": 1786823037600,
+      "hash": "9b3ce0608fe84a873acf53455518f5dfc6e7c365a0441b9ebd2c632a607b446f"
+    },
+    "INSPIRATION/UNIVERS/kraken/ui/kraken-wallet-screen-03.png": {
+      "mtime": 1786823036236,
+      "hash": "2397aecdaf6be69379a03cc9ed35679b4cd966d178c66cab73f430f2f1b51a2d"
+    },
+    "INSPIRATION/UNIVERS/kraken/ui/kraken-wallet-screen-02.png": {
+      "mtime": 1786823034292,
+      "hash": "82068a28357f00b8c3a5093a77ddddd8a5719cc7e08d0408ab4a43c01cc055db"
+    },
+    "INSPIRATION/UNIVERS/kraken/ui/kraken-wallet-screen-01.png": {
+      "mtime": 1786823032866,
+      "hash": "8f8cee1274c3e28c8986649aa27c49ebb1dcd383b5d823cadada41cdf9ab6a30"
+    },
+    "INSPIRATION/UNIVERS/kraken/ui/kraken-pro-screen-08.png": {
+      "mtime": 1786823031236,
+      "hash": "fa463ea3a75f22df7db1476c4da8ff8232ac73f555f3631a764e43a3801c3caf"
+    },
+    "INSPIRATION/UNIVERS/kraken/ui/kraken-pro-screen-07.png": {
+      "mtime": 1786823029729,
+      "hash": "a4d2b096dd113e48d1446cd043dc0a2fd0b46d35869c52e69f2a45ba6d0262ae"
+    },
+    "INSPIRATION/UNIVERS/kraken/ui/kraken-pro-screen-06.png": {
+      "mtime": 1786823028665,
+      "hash": "1e01d3f7ff872feaa6799e493dc51d02246caa4f48f8348e9d91b829d5846985"
+    },
+    "INSPIRATION/UNIVERS/kraken/ui/kraken-pro-screen-05.png": {
+      "mtime": 1786823027112,
+      "hash": "6692096bb8ac39f40add712be70900a0f099069d861c21f8f2b1985941601bdb"
+    },
+    "INSPIRATION/UNIVERS/kraken/ui/kraken-pro-screen-04.png": {
+      "mtime": 1786823025760,
+      "hash": "aded926a4b930ff2e385aa986c7e9979b6a436633ed331282cd6452ecd834650"
+    },
+    "INSPIRATION/UNIVERS/kraken/ui/kraken-pro-screen-03.png": {
+      "mtime": 1786823024523,
+      "hash": "c18231f4d44afb4a2617c2aaa43cb5f22d3d71da279244262ec9291e72505f6b"
+    },
+    "INSPIRATION/UNIVERS/kraken/ui/kraken-pro-screen-02.png": {
+      "mtime": 1786823022904,
+      "hash": "2f15d3991c71d581181165d4912c04ad1f233368d2304d322db22c663e9bd961"
+    },
+    "INSPIRATION/UNIVERS/kraken/ui/kraken-pro-screen-01.png": {
+      "mtime": 1786823021557,
+      "hash": "19dd400c0c3eef07d17724da74b4be1c14c26062c9b7a9007f2bde9cdcf29cc0"
+    },
+    "INSPIRATION/UNIVERS/kraken/ui/kraken-app-screen-08.png": {
+      "mtime": 1786823019610,
+      "hash": "52a861de2dde42dfc09dc9a031d77fe2b41cc9352ca10d929189d6f603e9309b"
+    },
+    "INSPIRATION/UNIVERS/kraken/ui/kraken-app-screen-07.png": {
+      "mtime": 1786823018551,
+      "hash": "5e39918224253f859caf9eed9309364aa9db12788c0e6e4ed882c72bf68b0ee1"
+    },
+    "INSPIRATION/UNIVERS/kraken/ui/kraken-app-screen-06.png": {
+      "mtime": 1786823017636,
+      "hash": "23928dddc9e72288ca5598eadd4b1fa230e390cd75b81a11fd56ab24cb9169b7"
+    },
+    "INSPIRATION/UNIVERS/kraken/ui/kraken-app-screen-05.png": {
+      "mtime": 1786823016695,
+      "hash": "8cb427d67dcf92ba3643447119f8e99aa05b861272d7c336d420b9f4564a972f"
+    },
+    "INSPIRATION/UNIVERS/kraken/ui/kraken-app-screen-04.png": {
+      "mtime": 1786823015570,
+      "hash": "cadbbc01e37dda140f768f77b96baa5f1f3f0cf7e04b087cef8825368515d6a3"
+    },
+    "INSPIRATION/UNIVERS/kraken/ui/kraken-app-screen-03.png": {
+      "mtime": 1786823013828,
+      "hash": "b79837a5d32f87deb0cb65f4263872f4c49c2a459a0d954e73cb1d5793a2e7d1"
+    },
+    "INSPIRATION/UNIVERS/kraken/ui/kraken-app-screen-02.png": {
+      "mtime": 1786823013082,
+      "hash": "1e1b5c6dbaf415e903a73a82076fa5238d5eb37b2e45543c369a05f36e8f3b16"
+    },
+    "INSPIRATION/UNIVERS/kraken/ui/kraken-app-screen-01.png": {
+      "mtime": 1786823011835,
+      "hash": "9a000c70a6dc13ddb32de57b53d1de3d29b980f73b19d9183fa201a04c524b6b"
+    },
+    "INSPIRATION/UNIVERS/kraken/produit/kraken-desktop-icones-os.png": {
+      "mtime": 1786823397169,
+      "hash": "5c5b4c599889459883257313abda278036fd09c96a10b1ec0c0e1a8422a42bf6"
+    },
+    "INSPIRATION/UNIVERS/kraken/produit/krak-card-vertical.png": {
+      "mtime": 1786823396935,
+      "hash": "8fb5756017a504f7d142a252c581a76ad1cdb3b5948a2676120c009c180c5289"
+    },
+    "INSPIRATION/UNIVERS/kraken/produit/krak-card-1200px.png": {
+      "mtime": 1786823396796,
+      "hash": "83a4eab6113e72ca7aad8b982850780aabf52a3cb365952f4621a5758a39607f"
+    },
+    "INSPIRATION/UNIVERS/kraken/produit/krak-card-2176px.png": {
+      "mtime": 1786823396677,
+      "hash": "c5e5430a60a6976fd7f278a845043ddc675a5a4b03fa073d27b4ffbea7afeda9"
+    },
+    "INSPIRATION/UNIVERS/kraken/produit/press-visual-kraken-bank.png": {
+      "mtime": 1786823068241,
+      "hash": "cff1ea3a371b0ad67df0cf130523fe810fbd8c2c71ef4608e93f534b473920ec"
+    },
+    "INSPIRATION/UNIVERS/kraken/produit/press-visual-kraken-institutional-b.png": {
+      "mtime": 1786823068235,
+      "hash": "01f120ebb71e4d1c77eed708ec300fc3cafbdc25235532b5c3c6ba7db13dc6f1"
+    },
+    "INSPIRATION/UNIVERS/kraken/produit/press-visual-kraken-institutional.png": {
+      "mtime": 1786823068229,
+      "hash": "b705fd8dc19774754507abe4c349b9ce547b5db75b9bf9e2925fb677270b1fc5"
+    },
+    "INSPIRATION/UNIVERS/kraken/produit/press-visual-kraken-wallet-b.png": {
+      "mtime": 1786823068222,
+      "hash": "ae1558e292b8223a8bd33263933cdf95e88a473bd3abb01f7a0d8a55dc56ed1f"
+    },
+    "INSPIRATION/UNIVERS/kraken/produit/press-visual-kraken-wallet.png": {
+      "mtime": 1786823068216,
+      "hash": "a9a7a394f209e23e0eb593d117c032165365dc29b939a8fe595a5a4b6429dd85"
+    },
+    "INSPIRATION/UNIVERS/kraken/produit/press-visual-kraken-desktop-b.png": {
+      "mtime": 1786823068210,
+      "hash": "af9d848374287ff8ac6208ba6798c5fd42224539fe81e67db6650bf3eeb27ea1"
+    },
+    "INSPIRATION/UNIVERS/kraken/produit/press-visual-kraken-desktop.png": {
+      "mtime": 1786823068204,
+      "hash": "69cdef349ae122cd5f66394a2e632f1e8ccd196c3482ee87cbd89ca0669d77da"
+    },
+    "INSPIRATION/UNIVERS/kraken/produit/press-visual-kraken-pro-b.png": {
+      "mtime": 1786823068198,
+      "hash": "41370e740e14724cf95e8f3b05eee00d3ee3d691c85bd8d61d4ceb6b610b4106"
+    },
+    "INSPIRATION/UNIVERS/kraken/produit/press-visual-kraken-pro.png": {
+      "mtime": 1786823068193,
+      "hash": "fca6a0c0f02698242f8f538f38db9922a2aceefad30833247fed73055900999c"
+    },
+    "INSPIRATION/UNIVERS/kraken/produit/press-visual-app-consumer-b.png": {
+      "mtime": 1786823068187,
+      "hash": "29cbc7342e9887dd57a8f454edbb1a9e629423f5a4a9ed3ba0cf424d73b82f99"
+    },
+    "INSPIRATION/UNIVERS/kraken/produit/press-visual-app-consumer.png": {
+      "mtime": 1786823068181,
+      "hash": "ca60299185a95cea0c2ef2e4532b05ebfcff672d40f7047d6b9dec98fcb2602d"
+    },
+    "INSPIRATION/UNIVERS/kraken/produit/press-visual-app-consumer-2x.jpg": {
+      "mtime": 1786823068174,
+      "hash": "adf1b34e8a47fdc98a9d80846dd43c6b35c80863733ca938a7bdda49a28fa9fc"
+    },
+    "INSPIRATION/UNIVERS/kraken/illustrations/krak-lettrage-send.svg": {
+      "mtime": 1786823390918,
+      "hash": "db87fc66197816046c3542f4a7abe944d97e65cfd6f6cae43d06fcf4c4532216"
+    },
+    "INSPIRATION/UNIVERS/kraken/illustrations/krak-lettrage-spend.svg": {
+      "mtime": 1786823390758,
+      "hash": "442f7ca10d4bf8c5405f79fec290abae020f1c26cc49dd687c32d99d4ad0cd42"
+    },
+    "INSPIRATION/UNIVERS/kraken/illustrations/krak-fleche-symbole.png": {
+      "mtime": 1786823390602,
+      "hash": "b144420fd80746214157a1a03a17d919c1f68f907419724619ee10289dae5f8b"
+    },
+    "INSPIRATION/UNIVERS/kraken/illustrations/decor-vip-4800px.png": {
+      "mtime": 1786823390530,
+      "hash": "29e06572aa6f8b1187dd5279abf312ab26092c91e678d20bcb76287574197d74"
+    },
+    "INSPIRATION/UNIVERS/kraken/illustrations/spot-illustration-beast.png": {
+      "mtime": 1786823390365,
+      "hash": "408d61a909acf6804fc107e7fe7cd5a9281756a6591cffad4cf27577ea42848a"
+    },
+    "INSPIRATION/UNIVERS/kraken/illustrations/eclats-de-verre-2800px.png": {
+      "mtime": 1786823390139,
+      "hash": "e4e4d0f6988aa7016e3139602d507c22eaf3c39f6c7d323d560b0e27fced69f8"
+    },
+    "INSPIRATION/UNIVERS/kraken/illustrations/eclats-de-verre-2908px.png": {
+      "mtime": 1786823390014,
+      "hash": "08cf549c58a1ef41a8ee11bbd2a8c3f6b6de9691c393d9e3745d95c4bb5f72b3"
+    },
+    "INSPIRATION/UNIVERS/kraken/illustrations/eclats-de-verre-institutional-4109px.png": {
+      "mtime": 1786823389851,
+      "hash": "75791157ac6643feea0b893d2fc97041641d7caa37c52948a79430c2762c3906"
+    },
+    "INSPIRATION/UNIVERS/kraken/illustrations/eclats-de-verre-home-4109px.png": {
+      "mtime": 1786823388890,
+      "hash": "60b36b1e2efb4baff81230daf3b2f0b75e1f2b12e1d0b7ebe16aff20d07ed7d5"
+    },
+    "INSPIRATION/UNIVERS/kraken/couleurs/palette.json": {
+      "mtime": 1786823876783,
+      "hash": "23f3a2df8e2d3661a0de58ccbee7c68fb078d77ad0f69302eaf322e30c050e14"
+    },
+    "INSPIRATION/UNIVERS/kraken/couleurs/palette-relevee.svg": {
+      "mtime": 1786823876764,
+      "hash": "9b41a978ee99470c8531f47395d4f9c005eded27a1739a89affc4bd18ef6530a"
+    },
+    "INSPIRATION/UNIVERS/kraken/couleurs/palette-krak-corail.svg": {
+      "mtime": 1786823876762,
+      "hash": "be534e7294e56fb9b292be7434e4e6400f0fc3646292a01eb983d62a449c3571"
+    },
+    "INSPIRATION/UNIVERS/kraken/couleurs/palette-etats-hausse-baisse.svg": {
+      "mtime": 1786823876761,
+      "hash": "ab5db82c66a1d006263d6aec29d00a97e0fae07ea7f3fd787878d4f27f89997b"
+    },
+    "INSPIRATION/UNIVERS/kraken/couleurs/palette-neutres.svg": {
+      "mtime": 1786823876759,
+      "hash": "8044fd13c64b52f740767b734f9f0076d0e880c90f4a4a058079a2988ef9ba07"
+    },
+    "INSPIRATION/UNIVERS/kraken/couleurs/palette-semantique-light.svg": {
+      "mtime": 1786823876758,
+      "hash": "1918f6aada08fa8d615ef6ebe0294afbbe5a36177c84c84bea046b4788925b2a"
+    },
+    "INSPIRATION/UNIVERS/kraken/couleurs/palette-coeur-de-marque.svg": {
+      "mtime": 1786823876757,
+      "hash": "39d8f8d19088714397814e30b5ca4e767b08f483fb5a8a6769079c0b7ab407ad"
+    },
+    "INSPIRATION/UNIVERS/kraken/branding/krak-symbole.svg": {
+      "mtime": 1786823388639,
+      "hash": "699b1956b23408b0b9aed382eaabaf5d8b13aeefaa65d6323806156d37e195e2"
+    },
+    "INSPIRATION/UNIVERS/kraken/branding/payward-services-icone.svg": {
+      "mtime": 1786823388489,
+      "hash": "c9d33edb10f3b4894904bbe686bd5780302166361e90efc48a0b05686208f41d"
+    },
+    "INSPIRATION/UNIVERS/kraken/branding/kraken-360-protocoles-icone.svg": {
+      "mtime": 1786823388420,
+      "hash": "98fee684c0a4af69bc8a15ecf6e2f1bf0bee331939742dbda7af752b0947e4e6"
+    },
+    "INSPIRATION/UNIVERS/kraken/branding/icone-produit-krak.svg": {
+      "mtime": 1786823388344,
+      "hash": "14b898385ab5f23656f582aff9f96499eed3aa2130ba4e0d80130009de0090e7"
+    },
+    "INSPIRATION/UNIVERS/kraken/branding/icone-produit-kraken-institutional.svg": {
+      "mtime": 1786823388278,
+      "hash": "367a66452e597779b6f1cd2b271f4369b2fbbfe1eecafdcbc940092d4206dbea"
+    },
+    "INSPIRATION/UNIVERS/kraken/branding/icone-produit-kraken-cli.svg": {
+      "mtime": 1786823388124,
+      "hash": "3fd1f41a41cafd6a37c15b4b930ee4a38d4c1ba1476b76e73226ed71dca11bf1"
+    },
+    "INSPIRATION/UNIVERS/kraken/branding/icone-produit-kraken-desktop.svg": {
+      "mtime": 1786823388058,
+      "hash": "c288ded59e049a9ae5c86746f1133f3433f5781697aa07b79c31e8030a020bb6"
+    },
+    "INSPIRATION/UNIVERS/kraken/branding/icone-produit-kraken-pro.svg": {
+      "mtime": 1786823387980,
+      "hash": "5201d9ddfc7578de84ac8344bf15e0608139a6cf7141eac0218ae3dc179f64f8"
+    },
+    "INSPIRATION/UNIVERS/kraken/branding/icone-produit-kraken.svg": {
+      "mtime": 1786823387900,
+      "hash": "354e4d6933caf28fc87c584ec660a188f23445f1cce0cb72d47bf34d53b7f9ce"
+    },
+    "INSPIRATION/UNIVERS/kraken/branding/icone-app-kraken-desktop-1024.svg": {
+      "mtime": 1786823387827,
+      "hash": "8ba305568241c3a8b732f5f8096b9381b6992814c6962b17eb426ad1a3953416"
+    },
+    "INSPIRATION/UNIVERS/kraken/branding/icone-app-krak-1024.svg": {
+      "mtime": 1786823387758,
+      "hash": "1d2cdd81590e22bcd2f2ce6877ed77a73698dfc0f6e7fbc28e2de40e07954bbf"
+    },
+    "INSPIRATION/UNIVERS/kraken/branding/icone-app-kraken-pro-1024.svg": {
+      "mtime": 1786823387592,
+      "hash": "e84a9490dec19d2d56feb9d366156365231e31e951f69f7cf28117d3f817cbfb"
+    },
+    "INSPIRATION/UNIVERS/kraken/branding/icone-app-kraken-1024.svg": {
+      "mtime": 1786823387438,
+      "hash": "ca91bbec180f787373b68367c9ff112779fbfe1df3bcc8b99f563afeab57c8c3"
+    },
+    "INSPIRATION/UNIVERS/kraken/branding/krak-logo-site.svg": {
+      "mtime": 1786823387362,
+      "hash": "a1c2775a48ab706b35c287a387b0ed55e94a4e1535da802c6d972d67d9b37084"
+    },
+    "INSPIRATION/UNIVERS/kraken/branding/kraken-prime-logo.svg": {
+      "mtime": 1786823387272,
+      "hash": "ee00fd23b17f7cc3623ec681518601bc4e7d36d6bda6a56c8accce8f8c8cfa78"
+    },
+    "INSPIRATION/UNIVERS/kraken/branding/kraken-otc-logo.svg": {
+      "mtime": 1786823387201,
+      "hash": "7456fe3e370ed07dce303de4fd12f5fae5443704d7dfdd7bbcb6af9b502dc3c9"
+    },
+    "INSPIRATION/UNIVERS/kraken/branding/kraken-institutional-logo.svg": {
+      "mtime": 1786823387021,
+      "hash": "0e7c0670b66738309d0427f41045d47a8d4e12c7a20bf304b847f65ccedfef36"
+    },
+    "INSPIRATION/UNIVERS/kraken/branding/kraken-vip-logo.svg": {
+      "mtime": 1786823386940,
+      "hash": "fa83263163583b186f9d1671d1da0aa44cb11add96d6e2dcff8964d9b5b739cc"
+    },
+    "INSPIRATION/UNIVERS/kraken/branding/kraken-pro-logo.svg": {
+      "mtime": 1786823386871,
+      "hash": "ef479a5de9544ed0df5d70ed0f146a16e1e5013bb7c8d9d570993d0ff095e2ed"
+    },
+    "INSPIRATION/UNIVERS/kraken/branding/kraken-logo-horizontal.svg": {
+      "mtime": 1786823386789,
+      "hash": "27c810011d284be3c2de294efe983036e854bad64a76d4cb2bfaca91908fa4c6"
+    },
+    "INSPIRATION/UNIVERS/kraken/branding/kraken-logotype-officiel.svg": {
+      "mtime": 1786823068323,
+      "hash": "94590706232db304f4f531e3c9147ecf190d89c609f4b417f39f5a7dd35f7df4"
+    },
+    "INSPIRATION/UNIVERS/kraken/branding/krak-logo-duotone-fond-clair.png": {
+      "mtime": 1786823068166,
+      "hash": "fd3cf190108e75cd95cca2c1ca683b6de6b3452735246e21dcf84bd4f09e023b"
+    },
+    "INSPIRATION/UNIVERS/kraken/branding/krak-logo-duotone-fond-sombre.png": {
+      "mtime": 1786823068161,
+      "hash": "58d811e0c32991b49e9810b3af0c59d780486cf61fad359fa7cf29748304e7d4"
+    },
+    "INSPIRATION/UNIVERS/kraken/branding/krak-logo-duotone-fond-clair.svg": {
+      "mtime": 1786823068156,
+      "hash": "a544b0a3f6b8b3983258e0a9f18a5d720aa1d2e96bc5e97a5ca161e69069d56f"
+    },
+    "INSPIRATION/UNIVERS/kraken/branding/krak-logo-duotone-fond-sombre.svg": {
+      "mtime": 1786823068151,
+      "hash": "3df2a466fb364785f18d32b9480455e04a252c1595a8103aa8312c146b3052e0"
+    },
+    "INSPIRATION/UNIVERS/kraken/branding/krak-logo-white.png": {
+      "mtime": 1786823068146,
+      "hash": "ab5301012393f339464e04fb878254781120147c647aacdf0fd8b9886b53f4fd"
+    },
+    "INSPIRATION/UNIVERS/kraken/branding/krak-icone-white.png": {
+      "mtime": 1786823068142,
+      "hash": "c0f54e62688ee91668f63a084ec623dd2545f6825d188103b64566f91113632e"
+    },
+    "INSPIRATION/UNIVERS/kraken/branding/krak-logo-white.svg": {
+      "mtime": 1786823068137,
+      "hash": "5e1882ca623c76b93437a61a8b45a4e9c39c2b2f567588bef7d1890d24d0d785"
+    },
+    "INSPIRATION/UNIVERS/kraken/branding/krak-icone-white.svg": {
+      "mtime": 1786823068132,
+      "hash": "7be06fce8e96c92ef7c015f5c0c8d44f2841121bb6a9a35eff44726bfddda17c"
+    },
+    "INSPIRATION/UNIVERS/kraken/branding/krak-logo-coral.png": {
+      "mtime": 1786823068121,
+      "hash": "18e529df889a1b5ed1ac9d4e53030a52668bf6712bbe334c2c09c2fec777f17a"
+    },
+    "INSPIRATION/UNIVERS/kraken/branding/krak-icone-coral.png": {
+      "mtime": 1786823068116,
+      "hash": "8b600783c164165c25f3b4e07ea317b7f9466deb14af70f8982402e3cab9e1d7"
+    },
+    "INSPIRATION/UNIVERS/kraken/branding/krak-logo-coral.svg": {
+      "mtime": 1786823068111,
+      "hash": "be61fb82e8ec4759cea09668f796680f3311de4f2540e8e75ddd6db8fc91937f"
+    },
+    "INSPIRATION/UNIVERS/kraken/branding/krak-icone-coral.svg": {
+      "mtime": 1786823068107,
+      "hash": "5a87cb61a1405696d401df8ef725fb226a38366abcea6368f32248019569a74b"
+    },
+    "INSPIRATION/UNIVERS/kraken/branding/krak-logo-black.png": {
+      "mtime": 1786823068096,
+      "hash": "3340344f19f76d50ab4c187e9d35534cbfbbc4f3946d67abc658e4c3499affed"
+    },
+    "INSPIRATION/UNIVERS/kraken/branding/krak-icone-black.png": {
+      "mtime": 1786823068091,
+      "hash": "49cfb2adfdc003cffc5b5cc98bf2eeba8d8226f1c7bfd1991e5c880229731070"
+    },
+    "INSPIRATION/UNIVERS/kraken/branding/krak-logo-black.svg": {
+      "mtime": 1786823068086,
+      "hash": "5b62d09f244af42654ae085c5572df4e4f12c97800c7ad3bf075c2e47f2ba661"
+    },
+    "INSPIRATION/UNIVERS/kraken/branding/krak-icone-black.svg": {
+      "mtime": 1786823068082,
+      "hash": "8003d24d91c8e3d4f4711b3ba1dba9118a8e66c934f32de1eda5a64c4c9963d8"
+    },
+    "INSPIRATION/UNIVERS/kraken/branding/krak-icone-app@2x.png": {
+      "mtime": 1786823068069,
+      "hash": "4d87abac9b55c25ab0bac7af09a2cdf6563cfc69bb0c22e298e60ab6faf8b454"
+    },
+    "INSPIRATION/UNIVERS/kraken/branding/krak-icone-app.svg": {
+      "mtime": 1786823068064,
+      "hash": "257c8459ec1ca1dc61c3924662a17707b07d24f8ab6df4e19c4b0de644adf377"
+    },
+    "INSPIRATION/UNIVERS/kraken/branding/icone-app-krak.png": {
+      "mtime": 1786823043399,
+      "hash": "29b32fe6074a4b9287abaa1aaa20a005ad28e46b4a71275aae350284b50fbbf3"
+    },
+    "INSPIRATION/UNIVERS/kraken/branding/icone-app-kraken-wallet.png": {
+      "mtime": 1786823040405,
+      "hash": "8d12bb6af8f79d05e252e3499d662d6b8b7ef2f817de7a6fd6bd0164292608c2"
+    },
+    "INSPIRATION/UNIVERS/kraken/branding/icone-app-kraken-pro.png": {
+      "mtime": 1786823031307,
+      "hash": "f128de109c3c53e6c5163e5a69a479bcf15c3580059d3661c5b602552fdb0b2e"
+    },
+    "INSPIRATION/UNIVERS/kraken/branding/icone-app-kraken-app.png": {
+      "mtime": 1786823019744,
+      "hash": "fdc172c9dd85dfd64db771dea7b32827f35cc6e19d01cd2daebeb6ac41343999"
+    },
+    "INSPIRATION/UNIVERS/kraken/animations/institutional-hero.webm": {
+      "mtime": 1786823468096,
+      "hash": "3f1de2ab4b33e0a73d9535ccf1fbef510b29e131304ba9e5d21bbebd592f64e5"
+    },
+    "INSPIRATION/UNIVERS/kraken/animations/institutional-hero.mov": {
+      "mtime": 1786823467910,
+      "hash": "8b3eeab6e2510b0e5067b766a0c9d7fe9ee42dc397be5926dee76dcd13d2fd56"
+    },
+    "INSPIRATION/UNIVERS/kraken/animations/krak-demo.mp4": {
+      "mtime": 1786823467771,
+      "hash": "8201c9d3f4e747bf65f719087b70b6090a4a43adc2ec485f65bd10bd823496c7"
+    },
+    "INSPIRATION/UNIVERS/kraken/animations/desktop-demo.mp4": {
+      "mtime": 1786823467644,
+      "hash": "50563d985a1aecb430e904664c787cb56374afe88650226d4c54bc5afe3e3eb0"
+    },
+    "INSPIRATION/UNIVERS/bitepal/bitepal.md": {
+      "mtime": 1786824002649,
+      "hash": "bb8a212780d886a7f1b9acbbeaf296efac3a1bd2e216a290d9f9ea0b5b319d91"
+    },
+    "INSPIRATION/UNIVERS/bitepal/site/badges-laurels.svg": {
+      "mtime": 1786823219752,
+      "hash": "b8f7c8f7f9e1afaef412f27237b453aec77f08e5c2cbd1c829bf14dc86034bf9"
+    },
+    "INSPIRATION/UNIVERS/bitepal/site/review-3.webp": {
+      "mtime": 1786823158286,
+      "hash": "d1e3e0b48fabae7336b8465de6a49e6b038f3a773af6cbccc64ede9ee799f5d7"
+    },
+    "INSPIRATION/UNIVERS/bitepal/site/review-2.webp": {
+      "mtime": 1786823157982,
+      "hash": "2fceb0ce219fbfd3c83448264116ceb0cd343350aac78e08871e17baa8f0f04a"
+    },
+    "INSPIRATION/UNIVERS/bitepal/site/review-1.webp": {
+      "mtime": 1786823157702,
+      "hash": "660c39f07113eb5baa6a691c6404e46f8e4ef31ba313a408125a01be1f64e344"
+    },
+    "INSPIRATION/UNIVERS/bitepal/site/feature-3.webp": {
+      "mtime": 1786823157601,
+      "hash": "4ce5e4a423f695db97e26d57a6dc3eaf9a8f8888fba5e700ea11d91eb7dd7789"
+    },
+    "INSPIRATION/UNIVERS/bitepal/site/feature-2.webp": {
+      "mtime": 1786823156728,
+      "hash": "10c8a085db63c32fbd88fb39bf4a987a6b8714977e00490fc8a4f6e1206879a8"
+    },
+    "INSPIRATION/UNIVERS/bitepal/site/feature-1.webp": {
+      "mtime": 1786823156238,
+      "hash": "36a41eea460709510388a7cef0cc5ac893aada138c87e3f1d7d02760e72d01b4"
+    },
+    "INSPIRATION/UNIVERS/bitepal/site/hero-bg.webp": {
+      "mtime": 1786823156166,
+      "hash": "43d47e625cc447d058769b5cb1d5217308718342085c13fd04c8a4c184d6f9c9"
+    },
+    "INSPIRATION/UNIVERS/bitepal/illustrations/site-og-image.jpg": {
+      "mtime": 1786823156092,
+      "hash": "19be5efd89926c232bc6a3528f0fb354f82e8f0770d99ec07f0d338bd999569b"
+    },
+    "INSPIRATION/UNIVERS/bitepal/illustrations/play-editorial-banner.jpg": {
+      "mtime": 1786823114510,
+      "hash": "203327825f480545d045adc31dfae6860a4abb27081945be7cef63d6a463e62f"
+    },
+    "INSPIRATION/UNIVERS/bitepal/character-design/mascotte-clin-doeil.png": {
+      "mtime": 1786823605758,
+      "hash": "8b4aefbf096e629f2fbe0711268de9cd4c34f3de2235cf0842890af7e3befdc3"
+    },
+    "INSPIRATION/UNIVERS/bitepal/character-design/mascotte-outfit-manuela.png": {
+      "mtime": 1786823605606,
+      "hash": "be62c6d8ff12473360b870bb70312dfe3c6be1e6ff6686686654614ea4bd20eb"
+    },
+    "INSPIRATION/UNIVERS/bitepal/character-design/mascotte-boudeur-streak.png": {
+      "mtime": 1786823605397,
+      "hash": "9b95452104785ad2925951a4545a13d62ef09bca276ff2bff1107d431e419138"
+    },
+    "INSPIRATION/UNIVERS/bitepal/character-design/mascotte-essouffle-sport.png": {
+      "mtime": 1786823605207,
+      "hash": "4646299323d479507cec71f3023fbb320d32a5f121cf82f206924f3675e6dc48"
+    },
+    "INSPIRATION/UNIVERS/bitepal/ui/appstore-04-calories-brulees.png": {
+      "mtime": 1786823053825,
+      "hash": "3c6335a66499e10319821833a72b83bb15c0565978ae6060a7e601bc6c0eefc6"
+    },
+    "INSPIRATION/UNIVERS/bitepal/ui/appstore-03-progres.png": {
+      "mtime": 1786823052618,
+      "hash": "f901927ed1100e26365f7c39f207c9157a25a7c64a75d1e16b8aa925b488ff36"
+    },
+    "INSPIRATION/UNIVERS/bitepal/ui/appstore-02-scan-repas.png": {
+      "mtime": 1786823051320,
+      "hash": "46e39f8df690c31a922c4ba3d3457be7d7036218a7d4448d575232582b3267d7"
+    },
+    "INSPIRATION/UNIVERS/bitepal/ui/flow-resultat-scan-macros.webp": {
+      "mtime": 1786823687748,
+      "hash": "815f3c79516aa247ea98d56bd681d113aa7adabee75ffc3a110d5d4e6fd11c4f"
+    },
+    "INSPIRATION/UNIVERS/bitepal/ui/flow-home-dashboard.webp": {
+      "mtime": 1786823687481,
+      "hash": "8d69b041e86a25e41871ef0346357c407a69537689bae9cbc77c4df69e69efe2"
+    },
+    "INSPIRATION/UNIVERS/bitepal/ui/flow-scanner-camera.webp": {
+      "mtime": 1786823687408,
+      "hash": "4eb4998b2ff29a5c3a4230ab4cdcbdeca9852f0a5a0cb4868826b18f370301e8"
+    },
+    "INSPIRATION/UNIVERS/bitepal/ui/flow-onboarding-intro-scan.webp": {
+      "mtime": 1786823687313,
+      "hash": "919b6321d178dbcf76df24f3a7ce72925b996e2dac54a905a70b413a8e353a64"
+    },
+    "INSPIRATION/UNIVERS/bitepal/ui/flow-paywall-plus.webp": {
+      "mtime": 1786823687210,
+      "hash": "439b502ec2494167febd9ff76a89b4b164907e75fb4839216dcd5b653620ab2e"
+    },
+    "INSPIRATION/UNIVERS/bitepal/ui/flow-onboarding-attribution.webp": {
+      "mtime": 1786823687047,
+      "hash": "bd9b845ce390439c635ccb8a7c1540b65e35a6e52182aea25197a38d507be3e2"
+    },
+    "INSPIRATION/UNIVERS/bitepal/ui/flow-onboarding-adoption-raton.webp": {
+      "mtime": 1786823686965,
+      "hash": "19344c151d858baf7071b91b4fb37b02114b5aa5045ccdf8bbbdad13564e8e84"
+    },
+    "INSPIRATION/UNIVERS/bitepal/ui/flow-onboarding-resume-bmi.webp": {
+      "mtime": 1786823686882,
+      "hash": "1cd2453627fc8b9426ba06d61fa0869d52e337fb084b00e22c8e1ff2ecee0cdf"
+    },
+    "INSPIRATION/UNIVERS/bitepal/ui/play-08.jpg": {
+      "mtime": 1786823114098,
+      "hash": "f42cb9f6eb5098d30afb4d708ac7fe030bda99243f8de4098aeb21bef8d00f28"
+    },
+    "INSPIRATION/UNIVERS/bitepal/ui/play-07.jpg": {
+      "mtime": 1786823113734,
+      "hash": "123e12d7548ed473e84ef2e10efd07c86c15e93ddb2a12ea9dedaf90fc585f3b"
+    },
+    "INSPIRATION/UNIVERS/bitepal/ui/play-06.jpg": {
+      "mtime": 1786823113589,
+      "hash": "24538607c40a73b26b875a378c1d33bae55dc0d60f31e644d04626f212e56d9d"
+    },
+    "INSPIRATION/UNIVERS/bitepal/ui/play-05.jpg": {
+      "mtime": 1786823113320,
+      "hash": "b46c89e9e5217ccd23828bf30844653dd65a9efbd9ceaf0137a6c58d15818113"
+    },
+    "INSPIRATION/UNIVERS/bitepal/ui/play-04.jpg": {
+      "mtime": 1786823113187,
+      "hash": "c7ef3a98255aa4e2a4f47ca88519372f8fc4cc2be60d9ae159a45f2d108ad115"
+    },
+    "INSPIRATION/UNIVERS/bitepal/ui/play-03.jpg": {
+      "mtime": 1786823113025,
+      "hash": "c73e6af5733c5a0fdab5ad67579f47dce21417b37e0c6e3898977a52a7e47da8"
+    },
+    "INSPIRATION/UNIVERS/bitepal/ui/play-02.jpg": {
+      "mtime": 1786823112632,
+      "hash": "5770b3106202e2d492f32ab5ebaff488239b7b122e6daebfe5f48db4f3aa9f79"
+    },
+    "INSPIRATION/UNIVERS/bitepal/ui/play-01.png": {
+      "mtime": 1786823112369,
+      "hash": "e71fe6c80a76c52ffa5a4ece272c42e8f49ab9324004b53b9e28b9d16f06c631"
+    },
+    "INSPIRATION/UNIVERS/bitepal/ui/appstore-10-streak.png": {
+      "mtime": 1786823061409,
+      "hash": "87ed559dace8fb326510a6823d8e731c7fd8d06430402e740ea267acad8ac554"
+    },
+    "INSPIRATION/UNIVERS/bitepal/ui/appstore-09-outfits.png": {
+      "mtime": 1786823060145,
+      "hash": "2c8f294e1791b5695e0425c2e37afc9a16f71ca3b9542938f2baa7409b197a27"
+    },
+    "INSPIRATION/UNIVERS/bitepal/ui/appstore-08-challenges.png": {
+      "mtime": 1786823058810,
+      "hash": "f7020a523e3047647779bce73687cb052e8fad398aeec7c6a9e8d741e6496490"
+    },
+    "INSPIRATION/UNIVERS/bitepal/ui/appstore-07-fasting.png": {
+      "mtime": 1786823057501,
+      "hash": "da211659ae91bb53d6664e324280845a2f528ffff293940631a9ed66c1d0c96c"
+    },
+    "INSPIRATION/UNIVERS/bitepal/ui/appstore-06-plans.png": {
+      "mtime": 1786823056044,
+      "hash": "430a13878d32b677879c68e4e313528d4694cd9ea13126b8f174a6aa05e0a520"
+    },
+    "INSPIRATION/UNIVERS/bitepal/ui/appstore-05-water.png": {
+      "mtime": 1786823054884,
+      "hash": "d9cc142496d1ebfd61b2da9758e3ba73d531779cc3eace5f31ac0f5dbe54da64"
+    },
+    "INSPIRATION/UNIVERS/bitepal/ui/appstore-01-scanner.png": {
+      "mtime": 1786823049722,
+      "hash": "c3b1765808c00697bd3cf30d38c7232e8bd04c61e5d35651b7981240a7dacdeb"
+    },
+    "INSPIRATION/UNIVERS/bitepal/couleurs/palette-observee-ecrans.svg": {
+      "mtime": 1786823806341,
+      "hash": "e082bb489a1430f41e029c5ae07434c2cd06e1803ac48cc5d66afd6f65a678e3"
+    },
+    "INSPIRATION/UNIVERS/bitepal/couleurs/palette-neutres.svg": {
+      "mtime": 1786823806340,
+      "hash": "67dbfdd5085cc4c2cdd0bdd552a4151e75eac360b96bdf5a9be775adbaffeda3"
+    },
+    "INSPIRATION/UNIVERS/bitepal/couleurs/palette-accents-site.svg": {
+      "mtime": 1786823806340,
+      "hash": "98338c271c54e57b992ceff19dc760763a66f09a7465ae0b724cdb197680ce37"
+    },
+    "INSPIRATION/UNIVERS/bitepal/couleurs/palette-mascotte.svg": {
+      "mtime": 1786823806339,
+      "hash": "01f1f03f1530710fc6b24bb5e7cd63573645ba19056be66c7fc3614672e26b4a"
+    },
+    "INSPIRATION/UNIVERS/bitepal/couleurs/palette-coeur-de-marque.svg": {
+      "mtime": 1786823806339,
+      "hash": "a729b5e173c6f6ebf4695e6f080863e879e474671d77d0c7c6222ad978288014"
+    },
+    "INSPIRATION/UNIVERS/bitepal/branding/logo-wordmark.svg": {
+      "mtime": 1786823219752,
+      "hash": "9989152ae913fd46afe42b3a40659f3ab4ff4bd3e50897e84ff855252c6e5564"
+    },
+    "INSPIRATION/UNIVERS/bitepal/branding/logo-lockup-mascotte-wordmark.svg": {
+      "mtime": 1786823219754,
+      "hash": "d53279f37d7045198b730ccb6aeba544ed7da6b7147691d2010603a9a72c1eb7"
+    },
+    "INSPIRATION/UNIVERS/bitepal/branding/favicon.ico": {
+      "mtime": 1786823158379,
+      "hash": "3cfb2534dbc62a48fa186e931ef650c61994ea309d34c49bfa22bb4a63d09bf7"
+    },
+    "INSPIRATION/UNIVERS/bitepal/branding/play-icon.png": {
+      "mtime": 1786823114399,
+      "hash": "a2e8674a3f8abce7a1d09f542bccba4101941ec66e98a2f28b387e0061b13a92"
+    },
+    "INSPIRATION/UNIVERS/bitepal/branding/play-feature-graphic.png": {
+      "mtime": 1786823114322,
+      "hash": "22dc27b30470f2e294732ed45b80d6b1e46037321dd6db6fac3247b12d8d288b"
+    },
+    "INSPIRATION/UNIVERS/bitepal/branding/app-icon-1024.png": {
+      "mtime": 1786823048370,
+      "hash": "b3af8ec7770703104721dbeb85f47255fb7a3c4ee5322ca63bbe4415f28fcd56"
+    },
+    "INSPIRATION/UNIVERS/duolingo/ui/icone-validation-correct.svg": {
+      "mtime": 1786799000827,
+      "hash": "039ec023374b7ccb481fab61735031a01b8b55c2003e3463122b89dcfc5f0e77"
+    },
+    "INSPIRATION/UNIVERS/duolingo/ui/icone-erreur-incorrect.svg": {
+      "mtime": 1786799047792,
+      "hash": "d2e1f45d90709010505eb03a31f5fb8cc1a6a14aaaa2fe9b92b974126a4d7608"
+    },
+    "INSPIRATION/UNIVERS/duolingo/ui/icone-chevron-suivant.svg": {
+      "mtime": 1786799098909,
+      "hash": "5fc357bfe459f93bbca2438d7f9f2b89603025f0382033ef6155d0f871bb7a53"
+    },
+    "INSPIRATION/UNIVERS/duolingo/ui/composant-notifications-push-2.png": {
+      "mtime": 1786799041507,
+      "hash": "097846f99bf68052be91232abe4310ccbbe171a1567582b09e65e158a2c6eb67"
+    },
+    "INSPIRATION/UNIVERS/duolingo/ui/composant-notifications-push-1.png": {
+      "mtime": 1786799028919,
+      "hash": "fe02315a4820e18066f6cc29eb3e8fb2ffe1ca2bf4059572c7671eff60121833"
+    },
+    "INSPIRATION/UNIVERS/duolingo/ui/composant-bandeau-personnages.svg": {
+      "mtime": 1786799104695,
+      "hash": "7e3146f4dab389e6bc53d90c9f4803a47952bd6fe82c1fc05b40a9f1f943215c"
+    },
+    "INSPIRATION/UNIVERS/duolingo/ui/app-store-08-exercice-musique-partition.png": {
+      "mtime": 1786798963630,
+      "hash": "a7a6a8d76215be1b6db85e08c29157acdac8636924f93562d961e298847b543f"
+    },
+    "INSPIRATION/UNIVERS/duolingo/ui/app-store-07-exercice-math-nombres.png": {
+      "mtime": 1786798963472,
+      "hash": "5d811929d4fdc310497fa50f2fca50788bcb74edf2e5fa2b9310245940e0f9d5"
+    },
+    "INSPIRATION/UNIVERS/duolingo/ui/app-store-06-serie-streak-3-jours.png": {
+      "mtime": 1786798963125,
+      "hash": "82f298b2695ad8ab8824e8c6dbe42812680907b43dee419c321ddeb222cc63c2"
+    },
+    "INSPIRATION/UNIVERS/duolingo/ui/app-store-05-conversation-video-personnages.png": {
+      "mtime": 1786798962974,
+      "hash": "3d5508ad138482bb52a9e357380820ea64a1ae9b382aa095a7025d4f2ab66e71"
+    },
+    "INSPIRATION/UNIVERS/duolingo/ui/app-store-04-exercice-traduction-mots.png": {
+      "mtime": 1786798962618,
+      "hash": "9ebf00a8f410b538671148c80bba532263b4e819e739ec128907e9161fac12e4"
+    },
+    "INSPIRATION/UNIVERS/duolingo/ui/app-store-03-puzzle-echecs.png": {
+      "mtime": 1786798962469,
+      "hash": "054e185a9f31c8d3499395d5fe8a82857e14dba9d6e54dbeebdd6cf6a1e53330"
+    },
+    "INSPIRATION/UNIVERS/duolingo/ui/app-store-02-exercice-image-a-choisir.png": {
+      "mtime": 1786798962083,
+      "hash": "39cd9893d5d9314ee6b5fc935c8ef0ffc4ecbe52b39f6890a3534e52a5dfbf7c"
+    },
+    "INSPIRATION/UNIVERS/duolingo/ui/app-store-01-selecteur-de-cours.png": {
+      "mtime": 1786798961939,
+      "hash": "84f0a6c3f287818e1e5385814e851abb6334edf9082d98391c4ac8e43088e9c0"
+    },
+    "INSPIRATION/UNIVERS/duolingo/photographie/scene-velo-mur-logo.png": {
+      "mtime": 1786799046741,
+      "hash": "b95bf0e28f87c9a5380f36feb7039767406da6e6ff9d173fbe78239409e19645"
+    },
+    "INSPIRATION/UNIVERS/duolingo/photographie/portrait-homme-tablier-fond-orange.png": {
+      "mtime": 1786799109849,
+      "hash": "9df880a9e987622a9f7434238cd87f48295d34d547f69160f48f962af78597c3"
+    },
+    "INSPIRATION/UNIVERS/duolingo/photographie/portrait-homme-chapeau-polo-vert.png": {
+      "mtime": 1786799070872,
+      "hash": "98f6e75795e8ac4516d1f92b8200af3fe4afd82b6ed09456ce07e9b11ce892ef"
+    },
+    "INSPIRATION/UNIVERS/duolingo/photographie/portrait-femme-tresses-rue.png": {
+      "mtime": 1786799061595,
+      "hash": "f2da127c4b20e526e0dd10b27bb10b5b82fdb3fa9e2f12a879b13a30eb0fff64"
+    },
+    "INSPIRATION/UNIVERS/duolingo/photographie/portrait-femme-motif-bleu.png": {
+      "mtime": 1786799111885,
+      "hash": "6ab2e6b92ffcea2f9583e6fa64446b2833fca56665e6f74e742978fc0322d9b6"
+    },
+    "INSPIRATION/UNIVERS/duolingo/photographie/portrait-femme-devanture-verte.png": {
+      "mtime": 1786799023183,
+      "hash": "7292a95d5ca2164b1702508e89458e48302dce0bdcf303a4d9d001e95b8f8e86"
+    },
+    "INSPIRATION/UNIVERS/duolingo/illustrations/scene-teletravail-bureau.svg": {
+      "mtime": 1786799038071,
+      "hash": "4913e72828de455688ffa0dadbbb6e263143bd4a74d053b3a67e601634dc974d"
+    },
+    "INSPIRATION/UNIVERS/duolingo/illustrations/scene-musiciens-fanfare.svg": {
+      "mtime": 1786799024722,
+      "hash": "3bbc3f001fe89bb7bfbc24e53caff5fb0cf6551b03ecba8d6639a8019fff6f30"
+    },
+    "INSPIRATION/UNIVERS/duolingo/illustrations/scene-metro-rencontre.svg": {
+      "mtime": 1786799031766,
+      "hash": "4781d3e644ba98bd4fedeb53e8bcfd224fcd158ec967af85787c03cfb52d346b"
+    },
+    "INSPIRATION/UNIVERS/duolingo/illustrations/scene-fete-ballons.svg": {
+      "mtime": 1786799080043,
+      "hash": "5dd2f431b36747d6af5df00a5936834ec18e9508191f4ce5c57a9ca1b0fa8bb0"
+    },
+    "INSPIRATION/UNIVERS/duolingo/illustrations/scene-duo-a-la-plage.svg": {
+      "mtime": 1786799030490,
+      "hash": "db88e3e5c9cd6b237c3cd65afe74d8c7c5138c4134525bb77cd2d121c581aee8"
+    },
+    "INSPIRATION/UNIVERS/duolingo/illustrations/scene-cuisine-chef.svg": {
+      "mtime": 1786799083643,
+      "hash": "cfafa4755134dea21f719f186c20616dbe8f5dced304e35f462ef728701f5acc"
+    },
+    "INSPIRATION/UNIVERS/duolingo/illustrations/scene-couple-voyage.svg": {
+      "mtime": 1786799044706,
+      "hash": "af6b380fdcf3878a6a34d426c274e52302e24a449fdc928b79654cf297747977"
+    },
+    "INSPIRATION/UNIVERS/duolingo/illustrations/scene-arret-de-bus.svg": {
+      "mtime": 1786799112723,
+      "hash": "83d566cb73716755c5b495b03c0aef291a5a8f65d943d896ccfb15d3f22dcbc2"
+    },
+    "INSPIRATION/UNIVERS/duolingo/illustrations/ponctuation-typographique.svg": {
+      "mtime": 1786799011615,
+      "hash": "1db69460172f6605f8ecfc26ee0c3b0fadcab549ee02ca578cf8a1c16085cf74"
+    },
+    "INSPIRATION/UNIVERS/duolingo/illustrations/pile-de-livres-colores.svg": {
+      "mtime": 1786799001339,
+      "hash": "9906ffe5c3101d22a2dbaf2488e0048c5b93a76ca7763ec8a522e415a7357390"
+    },
+    "INSPIRATION/UNIVERS/duolingo/illustrations/objets-materiel-artistique.svg": {
+      "mtime": 1786799077407,
+      "hash": "7798ca1933db339d955dff75db13375a0b24c4b0724043d1d12dc3897e535931"
+    },
+    "INSPIRATION/UNIVERS/duolingo/illustrations/objets-livres-rangee.svg": {
+      "mtime": 1786799065617,
+      "hash": "46361e95fc1363ddfc9ea113ddd8de134cfe2bdf743ae1b62cc4ba1a1cce9e59"
+    },
+    "INSPIRATION/UNIVERS/duolingo/illustrations/objets-instruments-musique.svg": {
+      "mtime": 1786799051164,
+      "hash": "d1c2c507dc884a1e3f9af98924c99518fc19bface7c63d359af69b9efb5dbdfa"
+    },
+    "INSPIRATION/UNIVERS/duolingo/illustrations/objets-fruits-fond-couleur.svg": {
+      "mtime": 1786799097075,
+      "hash": "5bc82fcf9b0962df9f695912b795b53f75ba4a0105b0b6d1b1f212db7cf06e12"
+    },
+    "INSPIRATION/UNIVERS/duolingo/illustrations/objets-fruits-assiette.svg": {
+      "mtime": 1786799105680,
+      "hash": "f47e6d370aab09838bdd88ab7baa78de271c184207e9929ba2fe4c2bd2945475"
+    },
+    "INSPIRATION/UNIVERS/duolingo/illustrations/objets-cartons-livraison.svg": {
+      "mtime": 1786799083199,
+      "hash": "dd9782f88ebf27ab45f462452e47d9d41a028688ee94293857a71f668c37c246"
+    },
+    "INSPIRATION/UNIVERS/duolingo/illustrations/objet-voiture-jaune.svg": {
+      "mtime": 1786799052245,
+      "hash": "2fa0d68c9e19979506e9e82c2a224f4e3c2da126783bbe29260923045d35b062"
+    },
+    "INSPIRATION/UNIVERS/duolingo/illustrations/objet-scooter-vert.svg": {
+      "mtime": 1786799042266,
+      "hash": "3f6f3d504c0c2d76d300c9683450130b72eb31ca6cda45c86a4c7ef618bfd073"
+    },
+    "INSPIRATION/UNIVERS/duolingo/illustrations/objet-bol-de-ramen.svg": {
+      "mtime": 1786799067448,
+      "hash": "76890cdb92efd22b1309cb6a73c5399a2b0002c00ad802f967810ad0ac72f20c"
+    },
+    "INSPIRATION/UNIVERS/duolingo/illustrations/bouquet-de-fleurs.svg": {
+      "mtime": 1786799001651,
+      "hash": "995924c73ccba4301ac6d163d88ab1a02ea66cd12a22a3fd9a74efd447f841a7"
+    },
+    "INSPIRATION/UNIVERS/duolingo/duolingo.md": {
+      "mtime": 1786806078583,
+      "hash": "df8b96a62df9bb1c686e3aa4cafaeb9c04428cd00f9cd29af543c63f75b3a209"
+    },
+    "INSPIRATION/UNIVERS/duolingo/couleurs/palette-teintes-completes.svg": {
+      "mtime": 1786805578859,
+      "hash": "f1859b2c17a5092b8e9ed62106dda930f477f40944e13908b4e0b79189bf58c0"
+    },
+    "INSPIRATION/UNIVERS/duolingo/couleurs/palette-secondaires.svg": {
+      "mtime": 1786805578856,
+      "hash": "6233581f75db781b81219ebcd5ed426f6bdc8421e8df9b4cd6e94e6b5ea1b136"
+    },
+    "INSPIRATION/UNIVERS/duolingo/couleurs/palette-observee-dans-l-app.svg": {
+      "mtime": 1786805578859,
+      "hash": "e5e0f02d305cd635064231380a15ffa96c88a890e01d57eb936033c0989901dd"
+    },
+    "INSPIRATION/UNIVERS/duolingo/couleurs/palette-neutres.svg": {
+      "mtime": 1786805578857,
+      "hash": "0bffa94256d3bd1939c2dba8dec02c9ce3a8562d18c0429fd2b570c4bbc026f8"
+    },
+    "INSPIRATION/UNIVERS/duolingo/couleurs/palette-de-duo.svg": {
+      "mtime": 1786805578858,
+      "hash": "ab6ad9a0f5e0feceba4e1774403c7db0c4cf2b1229e2c76aa265a854f594e744"
+    },
+    "INSPIRATION/UNIVERS/duolingo/couleurs/palette-coeur-de-marque.svg": {
+      "mtime": 1786805578856,
+      "hash": "8dc002fe4f05a616fb2931090e7e1e4d58da686c4d11ff585c1fac8859b59bb2"
+    },
+    "INSPIRATION/UNIVERS/duolingo/character-design/regle-stylisation-visage-avant-apres.svg": {
+      "mtime": 1786799008075,
+      "hash": "aa00a36fbd064acfbe53da6de48f88727616c48ab8cff59d917442e7bc7b6a1b"
+    },
+    "INSPIRATION/UNIVERS/duolingo/character-design/regle-quatre-formes-de-base.svg": {
+      "mtime": 1786799418133,
+      "hash": "2b7da7f69336c7e150b995b60a601b53b8146a8579038c9079caecf830b8469f"
+    },
+    "INSPIRATION/UNIVERS/duolingo/character-design/regle-stylisation-visage-avant-apres-2.svg": {
+      "mtime": 1786799071151,
+      "hash": "d462cf29084e8a92fccddade04db310078fdf4fbba077ad1dd5c44760ea6522c"
+    },
+    "INSPIRATION/UNIVERS/duolingo/character-design/regle-proportions-silhouettes.svg": {
+      "mtime": 1786799003226,
+      "hash": "22cd96fadf48e7dd9ed730e0bf8762f3e1cfcd4edbbe034d3f1ab42b26761e5b"
+    },
+    "INSPIRATION/UNIVERS/duolingo/character-design/regle-formes-de-base-rose.svg": {
+      "mtime": 1786799070055,
+      "hash": "53135ffde54f7edddb898ecd81feec546a497fdc62ec4b3e690db6a2e2d6af5d"
+    },
+    "INSPIRATION/UNIVERS/duolingo/character-design/regle-forme-duo-symetrie.svg": {
+      "mtime": 1786799043237,
+      "hash": "b0e4d0a974f88395958ad2ea62818888f6903c85945229c594e8596c39fae571"
+    },
+    "INSPIRATION/UNIVERS/duolingo/character-design/regle-forme-duo-interdite.svg": {
+      "mtime": 1786799078868,
+      "hash": "e683d0adbc9666b2f6e75c55cc8f82b14345eab5174c72fd2733a739adb61dfe"
+    },
+    "INSPIRATION/UNIVERS/duolingo/character-design/regle-forme-duo-cotee.svg": {
+      "mtime": 1786799080977,
+      "hash": "01ad18bb4eeaeed256bf05aa561096132515f3744bcab21ddf5f45c668e3a95b"
+    },
+    "INSPIRATION/UNIVERS/duolingo/character-design/regle-forme-corps-duo.svg": {
+      "mtime": 1786799012138,
+      "hash": "ba4fcd121e0a1e5f0a38cbd2801e6b03e4ac06fae9de6972debf889c332ee390"
+    },
+    "INSPIRATION/UNIVERS/duolingo/character-design/regle-filaire-vers-duo-final.svg": {
+      "mtime": 1786799105928,
+      "hash": "42df6ac65f61d334cd4c001de09c6c3bcc1bfbfc2dbbfa2e99f664baecfed291"
+    },
+    "INSPIRATION/UNIVERS/duolingo/character-design/regle-couleurs-peau-do-not.svg": {
+      "mtime": 1786799048027,
+      "hash": "6cb68ee00cab6d38e5932d61050efe9dc1455467077afc01fde8edac2b8d0322"
+    },
+    "INSPIRATION/UNIVERS/duolingo/character-design/regle-construction-yeux.svg": {
+      "mtime": 1786799099230,
+      "hash": "13ac2ec447540972aaa17447bf542d354b1b122e9beae151f092aecb449165d6"
+    },
+    "INSPIRATION/UNIVERS/duolingo/character-design/regle-construction-torse-articulations.svg": {
+      "mtime": 1786799046110,
+      "hash": "929b72d3e51165b2c60191b313db3fa29f8ae9b67f796666e2c1e007cebac513"
+    },
+    "INSPIRATION/UNIVERS/duolingo/character-design/regle-construction-personnage-debout.svg": {
+      "mtime": 1786799078455,
+      "hash": "6387c5b5d8ca0f9f33e81b702128cc7dfc2cf9d62b2037cddc303ecfbfa556e9"
+    },
+    "INSPIRATION/UNIVERS/duolingo/character-design/regle-construction-ours-filaire.svg": {
+      "mtime": 1786799418133,
+      "hash": "f374337dbb53aea51493c37af4ec6582fb05f857fa0452c3601fca1289de09bd"
+    },
+    "INSPIRATION/UNIVERS/duolingo/character-design/regle-construction-humain-filaire.svg": {
+      "mtime": 1786799040974,
+      "hash": "fcf33ae7807ad0fe597854e1febb8ee1e42edc3444b8dbaa57f8d5944e56deef"
+    },
+    "INSPIRATION/UNIVERS/duolingo/character-design/regle-construction-gorille-filaire.svg": {
+      "mtime": 1786799016579,
+      "hash": "01927f6e526113c8fb05e3cd168a2f469fd66015a44f596c8a277568a9321c8f"
+    },
+    "INSPIRATION/UNIVERS/duolingo/character-design/regle-construction-duo-grand-format.svg": {
+      "mtime": 1786799054082,
+      "hash": "716a8ef3b7ea8bf7e3831489c8693c7a92ae4cdf80ca4b6b949f57b761283cdf"
+    },
+    "INSPIRATION/UNIVERS/duolingo/character-design/regle-construction-duo-filaire.svg": {
+      "mtime": 1786799010314,
+      "hash": "e3f18925af87465fceb64f6276195ec53b61bd8cbe4eb4dc73e60663b3470b4b"
+    },
+    "INSPIRATION/UNIVERS/duolingo/character-design/regle-construction-duo-de-dos.svg": {
+      "mtime": 1786799022626,
+      "hash": "d24ad9a29795fd0136608b34f68bfedc30efcb62a60fab236e8df1bee6c28205"
+    },
+    "INSPIRATION/UNIVERS/duolingo/character-design/regle-construction-duo-ailes.svg": {
+      "mtime": 1786799053032,
+      "hash": "00a61e5bec6015e0fb1fdaf3df5a3a119b5e6a8fe3948e5a122278bec314a36e"
+    },
+    "INSPIRATION/UNIVERS/duolingo/character-design/regle-construction-corps-humain.svg": {
+      "mtime": 1786798999763,
+      "hash": "2c5d088d4bd7dbcfa9815c64a01ec1357e3110903e4884fd0405421614cd926f"
+    },
+    "INSPIRATION/UNIVERS/duolingo/character-design/regle-construction-chien-filaire.svg": {
+      "mtime": 1786799016333,
+      "hash": "4d54ab2386c51f3a3d0480d44820001e88d51528f460ce285622d836abe199d1"
+    },
+    "INSPIRATION/UNIVERS/duolingo/character-design/regle-construction-animal-filaire.svg": {
+      "mtime": 1786799106684,
+      "hash": "8172e704de836da23898aecd284f1c38b20a3f379cf0a7cf474b08cef3a1e9d8"
+    },
+    "INSPIRATION/UNIVERS/duolingo/character-design/pose-personnage-porte-carton.svg": {
+      "mtime": 1786799043841,
+      "hash": "c2967fb583024519c16c0c9961d5aad35bfc073e8dc2269b81e6ef9feb0fa621"
+    },
+    "INSPIRATION/UNIVERS/duolingo/character-design/pose-personnage-mange-baguettes.svg": {
+      "mtime": 1786799001915,
+      "hash": "e92acfb014c16c408c658c31e8bc320e60a0fe7f00d28d5a58be5a59aa5cb7b2"
+    },
+    "INSPIRATION/UNIVERS/duolingo/character-design/pose-personnage-haussement-epaules.svg": {
+      "mtime": 1786799077151,
+      "hash": "ff6f52dd30381dc11db8f7d313a4af1285265462ae2f6f9fb08a80db4adc0500"
+    },
+    "INSPIRATION/UNIVERS/duolingo/character-design/pose-personnage-geste-ok.svg": {
+      "mtime": 1786799068763,
+      "hash": "630f1947c2f5fe335a3cb4e1155ce548472185bba9edd0272ed544a7e376f65d"
+    },
+    "INSPIRATION/UNIVERS/duolingo/character-design/pose-personnage-designe.svg": {
+      "mtime": 1786799008599,
+      "hash": "0eba5bff1b267479d507f3d4ed5fd2f3172f6e702e825c796649098baf7e8877"
+    },
+    "INSPIRATION/UNIVERS/duolingo/character-design/pose-personnage-bras-leve.svg": {
+      "mtime": 1786799107757,
+      "hash": "a6987ec59508199dc9f70831d989c23f2a7cda4e8854d41706bf59ed68764b81"
+    },
+    "INSPIRATION/UNIVERS/duolingo/character-design/pose-personnage-bras-croise.svg": {
+      "mtime": 1786799011089,
+      "hash": "312eec687c1e7d9a272e8e863b61c300ecff32b62ec384796a814c6196a5de1b"
+    },
+    "INSPIRATION/UNIVERS/duolingo/character-design/main-pouce-leve.svg": {
+      "mtime": 1786799090260,
+      "hash": "9cc2db34277ea4f8d7390376efb386454ca3aa8c6098953ae620763d6e4e98fe"
+    },
+    "INSPIRATION/UNIVERS/duolingo/character-design/main-index-pointe.svg": {
+      "mtime": 1786799043598,
+      "hash": "51b90d661ef8b6fea672c05b5402f57e26a53d3818b8b82ba0fccaefd6031164"
+    },
+    "INSPIRATION/UNIVERS/duolingo/character-design/main-doigts-ecartes.svg": {
+      "mtime": 1786799100222,
+      "hash": "ca88565d48dae7cd2cda9fc014621952177cbe388649b05b89d1e50d700d5a1b"
+    },
+    "INSPIRATION/UNIVERS/duolingo/character-design/main-bras-tendu.svg": {
+      "mtime": 1786799067189,
+      "hash": "d83da4d2e082ed6906a7a64686c046a929451632066a496c320d010a440a1c77"
+    },
+    "INSPIRATION/UNIVERS/duolingo/character-design/main-bras-plie.svg": {
+      "mtime": 1786799017606,
+      "hash": "d4abe71e9b460c940a6ed3bcf85e086e9d6788d1c4a0f4576097f883877fc75f"
+    },
+    "INSPIRATION/UNIVERS/duolingo/character-design/expression-yeux-rectangles.svg": {
+      "mtime": 1786799000081,
+      "hash": "03c487cebb34958c80946e36ba994aa08fe6e521cd594a08425873d08c4de8da"
+    },
+    "INSPIRATION/UNIVERS/duolingo/character-design/expression-yeux-nez-rouge.svg": {
+      "mtime": 1786799015042,
+      "hash": "216da48bda6229a6f9379fdb3717fcf7e3b081b60bc3a188f4459f81c9420d10"
+    },
+    "INSPIRATION/UNIVERS/duolingo/character-design/expression-yeux-fermes-plisses.svg": {
+      "mtime": 1786799004798,
+      "hash": "9230aed066f91d5b9692a72939bc86b85e0c4a539f6cbd250c52b6bfa26e0e65"
+    },
+    "INSPIRATION/UNIVERS/duolingo/character-design/expression-yeux-brillants.svg": {
+      "mtime": 1786799018707,
+      "hash": "4b4281f637d2a0aac00661bfdf9c81d87e61b0de728bec9f065e922b8aee6d4c"
+    },
+    "INSPIRATION/UNIVERS/duolingo/character-design/expression-tete-hibou-brun.svg": {
+      "mtime": 1786799080532,
+      "hash": "6ade3ee91234440af666aa3223b6e387f8dfccf0a82f40adf86506c199422b1e"
+    },
+    "INSPIRATION/UNIVERS/duolingo/character-design/expression-tete-base-vierge.svg": {
+      "mtime": 1786799104487,
+      "hash": "2ab34e6fdcadc079d462c3a68ba3fbfa90995511bd07044e8b64ee8e678890bc"
+    },
+    "INSPIRATION/UNIVERS/duolingo/character-design/expression-sourire-large.svg": {
+      "mtime": 1786799048840,
+      "hash": "9182bf8a8ba49c996bdbd14d8253c2af467050cfde4701f081f93c3037cb90fe"
+    },
+    "INSPIRATION/UNIVERS/duolingo/character-design/expression-regard-colere.svg": {
+      "mtime": 1786799074799,
+      "hash": "50d84d4cba76cf5574fcbd3de002b378b5918711d6467e42fe408d03390098ee"
+    },
+    "INSPIRATION/UNIVERS/duolingo/character-design/expression-lunettes-rondes.svg": {
+      "mtime": 1786799037832,
+      "hash": "c21b73047433950ff042cf66a91d2b3b3e617124a8f6d869f05443186d150f21"
+    },
+    "INSPIRATION/UNIVERS/duolingo/character-design/expression-lunettes-carrees.svg": {
+      "mtime": 1786799057479,
+      "hash": "7a75e015ea74e2d97c05078f214ec1d6a304c7ec27db5035b22e433007031ee7"
+    },
+    "INSPIRATION/UNIVERS/duolingo/character-design/expression-dents-serrees-colere.svg": {
+      "mtime": 1786799085724,
+      "hash": "be7167ef781b18990e27574e39382bd40ece39b85e2f7eb74430bae8b7cf558f"
+    },
+    "INSPIRATION/UNIVERS/duolingo/character-design/expression-cri.svg": {
+      "mtime": 1786799035976,
+      "hash": "033c5226435d3602bd6095a7032e1ed075644da58a3f8e41c9f2c5401a720fc9"
+    },
+    "INSPIRATION/UNIVERS/duolingo/character-design/expression-bouche-ouverte-surprise.svg": {
+      "mtime": 1786799029473,
+      "hash": "993a25143ca0a37f67b58e0a7b7465c6e0dc592559bf4ed9be61197b6cdfcd03"
+    },
+    "INSPIRATION/UNIVERS/duolingo/character-design/expression-bouche-dents-inquiete.svg": {
+      "mtime": 1786799039050,
+      "hash": "1f5681139c394b5e31b8112e14b983aa2b18012b7871ee5b80a3443ebe4b6d82"
+    },
+    "INSPIRATION/UNIVERS/duolingo/character-design/duo-yeux-larmoyants.svg": {
+      "mtime": 1786799018140,
+      "hash": "7486beda5b52dd99ead5383b3159109d232e13f56e169c0e57a76371d196761c"
+    },
+    "INSPIRATION/UNIVERS/duolingo/character-design/duo-variante-plongeur.svg": {
+      "mtime": 1786799110868,
+      "hash": "c77d53cfa9d64c48e4f5c79be7a2f57394ee404334a00cc2d12b9d3e8f249358"
+    },
+    "INSPIRATION/UNIVERS/duolingo/character-design/duo-triste-en-pleurs.svg": {
+      "mtime": 1786799020754,
+      "hash": "6c145baa6cdfa8696903001943f1011357f03f1c49541bec3946fae741c94a0a"
+    },
+    "INSPIRATION/UNIVERS/duolingo/character-design/duo-tire-la-langue.svg": {
+      "mtime": 1786799077881,
+      "hash": "555d7d62ec3adc7b07541b8476b13a5cfb2b13ed5de0a1fb7f7a58d6ae365d23"
+    },
+    "INSPIRATION/UNIVERS/duolingo/character-design/duo-sur-un-livre.svg": {
+      "mtime": 1786799009517,
+      "hash": "d45833c26ddef569bdfbe153a36d644c2cdf89c81494105493b028a1b69f635b"
+    },
+    "INSPIRATION/UNIVERS/duolingo/character-design/duo-pose-neutre-de-face.svg": {
+      "mtime": 1786799066849,
+      "hash": "b3e0f1114744c8d0327cf9d63d1e1f1ce66a2763dff604e89bb54c78ef85bd58"
+    },
+    "INSPIRATION/UNIVERS/duolingo/character-design/duo-portrait-trois-quarts.svg": {
+      "mtime": 1786799002868,
+      "hash": "18ff61fd7b35d123ea9994941e9eeef77e435aada1e5848e8471952b10b154fa"
+    },
+    "INSPIRATION/UNIVERS/duolingo/character-design/duo-note-de-musique.svg": {
+      "mtime": 1786799112215,
+      "hash": "28c6542f9febe0ce8dd2762bae33475a3b5e248a3bed23fe2f5321903c25fd81"
+    },
+    "INSPIRATION/UNIVERS/duolingo/character-design/duo-grand-sourire-gros-plan.svg": {
+      "mtime": 1786799049890,
+      "hash": "61c85502bfd2d3448ddf174f46c15fd9c4c4c16d7e53c61db007c309785fc5fc"
+    },
+    "INSPIRATION/UNIVERS/duolingo/character-design/duo-fache-sourcils.svg": {
+      "mtime": 1786799088687,
+      "hash": "9c1506004fc9c96a4029919f3253b777a8cad52276c01619f4c8bfebb7891227"
+    },
+    "INSPIRATION/UNIVERS/duolingo/character-design/duo-en-vol.svg": {
+      "mtime": 1786799013187,
+      "hash": "6f678b0093aaf37fbf8cbf840447028b4f0c6397cbb191248df9227d35ebd104"
+    },
+    "INSPIRATION/UNIVERS/duolingo/character-design/duo-en-marche.svg": {
+      "mtime": 1786799107250,
+      "hash": "cf6b2037d6c7e4c6df31547531e06339d4ac6c1db9dfebff26c16ad61a0407cf"
+    },
+    "INSPIRATION/UNIVERS/duolingo/character-design/duo-en-colere.svg": {
+      "mtime": 1786799049583,
+      "hash": "4b4c6c656fc269d5276ac37b26657585cac2e541e4135c2df569fe21f3dfa788"
+    },
+    "INSPIRATION/UNIVERS/duolingo/character-design/duo-de-profil.svg": {
+      "mtime": 1786799082597,
+      "hash": "dcae7a3df942bee8bff98c01f214310e308e90bc2a06b4a931830da1b75f1a21"
+    },
+    "INSPIRATION/UNIVERS/duolingo/character-design/duo-chante.svg": {
+      "mtime": 1786799048471,
+      "hash": "205652fa2bb89b0df5e9e4bbb78aa3c24fdab71af2b1b0f00de67f1a41e4d6e5"
+    },
+    "INSPIRATION/UNIVERS/duolingo/character-design/duo-celebration-confettis.svg": {
+      "mtime": 1786799016005,
+      "hash": "286fb93450cb2c12750500488f3aeeb5e0b6e20b868e85116dd53e1f67553f7e"
+    },
+    "INSPIRATION/UNIVERS/duolingo/character-design/duo-bulle-de-parole.svg": {
+      "mtime": 1786799015587,
+      "hash": "baa67ee21f7c0fb173da09ce5693a68900985015fbe1319412d4312ea4bd3b97"
+    },
+    "INSPIRATION/UNIVERS/duolingo/character-design/duo-blesse-pansement.svg": {
+      "mtime": 1786799111236,
+      "hash": "ce7ee184aac4a8a749be5fee73de86beb175b7f7d2f635c593a89650f4c3e55e"
+    },
+    "INSPIRATION/UNIVERS/duolingo/character-design/duo-blase-paupieres-basses.svg": {
+      "mtime": 1786799054375,
+      "hash": "dcc3e7678e12dca1aa99e17d17682598b645a25e44d1bf7508ba3b5e62aa8f60"
+    },
+    "INSPIRATION/UNIVERS/duolingo/character-design/duo-assis-yeux-brillants.svg": {
+      "mtime": 1786799003421,
+      "hash": "9b579e70c58c9516c6dfc70700771f6ddef066d36891ee17d939b5eacf37da38"
+    },
+    "INSPIRATION/UNIVERS/duolingo/character-design/duo-amoureux-coeurs.svg": {
+      "mtime": 1786799033635,
+      "hash": "d28db7a90c5e97a52f4436b42688abe4bc67ce8e55c3a351ac93ebbbdba35e0f"
+    },
+    "INSPIRATION/UNIVERS/duolingo/character-design/duo-ailes-ouvertes.svg": {
+      "mtime": 1786799017092,
+      "hash": "8dc1c56756221bcba01a86fc4df57c842111563cdbbcd8f8a1851794f9a57118"
+    },
+    "INSPIRATION/UNIVERS/duolingo/character-design/cast-zari-pose-dynamique.svg": {
+      "mtime": 1786799039402,
+      "hash": "ba30174aff53d38ca5d40b2d3f0e236a8eee4da423a5ad2f750f7b461519d799"
+    },
+    "INSPIRATION/UNIVERS/duolingo/character-design/cast-groupe-quatre-personnages.svg": {
+      "mtime": 1786799057001,
+      "hash": "7025ad94b6e38f92c495d2cf8ee90280672502b0ce284db61e8d4c23973b5a40"
+    },
+    "INSPIRATION/UNIVERS/duolingo/character-design/cast-zari-corps-entier.svg": {
+      "mtime": 1786799034325,
+      "hash": "6a1ab8db0e281ecd28641b0b609c79981892d22b6914212f48f984c39b33fff0"
+    },
+    "INSPIRATION/UNIVERS/duolingo/character-design/cast-homme-moustache-rousse.svg": {
+      "mtime": 1786799007631,
+      "hash": "5f53905addcc4f9f45f6b77d66d6af364a670c5561e148684fe79472400d9f50"
+    },
+    "INSPIRATION/UNIVERS/duolingo/character-design/cast-vikram-portrait.svg": {
+      "mtime": 1786799005509,
+      "hash": "67867a5cdee3cc1f10a1f2cd2215a8eaa35a5afce52c7abc0632f04783611400"
+    },
+    "INSPIRATION/UNIVERS/duolingo/character-design/cast-ours-brun-portrait.svg": {
+      "mtime": 1786799009819,
+      "hash": "5d4c74af216e69b54450ed2e77f7a7274835a947f0e6f29b38b85983e7e2bce5"
+    },
+    "INSPIRATION/UNIVERS/duolingo/character-design/cast-ours-brun-echarpe.svg": {
+      "mtime": 1786799027588,
+      "hash": "d7ed2a1d15c2742c046033b2b35d130b9815c555897985500fda52369b3769fd"
+    },
+    "INSPIRATION/UNIVERS/duolingo/character-design/cast-oscar-lunettes-beret.svg": {
+      "mtime": 1786799025771,
+      "hash": "b6dcdcfa87e35e283ea02538c65e2ab467ff2c81b75e876fdd2a10354078ec46"
+    },
+    "INSPIRATION/UNIVERS/duolingo/character-design/cast-loup-portrait.svg": {
+      "mtime": 1786799418134,
+      "hash": "e8d3ce901a55026dfe60c5e8583cb2ae431308121ea4bbaa393a4e4994ac21c3"
+    },
+    "INSPIRATION/UNIVERS/duolingo/character-design/cast-lin-portrait-buste.svg": {
+      "mtime": 1786799054914,
+      "hash": "b233e0a1216c139f596a4c725d1d3c75fcee28aba53c77886aa35f2fe6744ca2"
+    },
+    "INSPIRATION/UNIVERS/duolingo/character-design/cast-lily-agacee.svg": {
+      "mtime": 1786799073188,
+      "hash": "18d512b814f51aaa4425afad567f9e744baa3f612a6370c3b9911774e3f861eb"
+    },
+    "INSPIRATION/UNIVERS/duolingo/character-design/cast-lapin-rose.svg": {
+      "mtime": 1786799103288,
+      "hash": "8ca4b242a93d21b6bdfd1dfc65e991530b98d0b5231cbc3b97ff5ac37c3a60b6"
+    },
+    "INSPIRATION/UNIVERS/duolingo/character-design/cast-lapin-gris.svg": {
+      "mtime": 1786799062650,
+      "hash": "3d2bcad49afdc1b5ddcae0507f964a2e6436334038d25aeb749943842ac546f5"
+    },
+    "INSPIRATION/UNIVERS/duolingo/character-design/cast-homme-turban-corps-entier.svg": {
+      "mtime": 1786799045929,
+      "hash": "8f3302d977a11481d2ce13359004df0c0f0b82649b9c8855663ecd47c641e987"
+    },
+    "INSPIRATION/UNIVERS/duolingo/character-design/cast-junior-boude.svg": {
+      "mtime": 1786799081871,
+      "hash": "2b1724a745649c0dbd3186c8285b29236d75424ccc4228dff413c1a983cad957"
+    },
+    "INSPIRATION/UNIVERS/duolingo/character-design/cast-homme-salut-de-la-main.svg": {
+      "mtime": 1786799051460,
+      "hash": "6ce1ec2e675df209690c4e7acd3895621a178a169b8fd33c3d280c6302df970f"
+    },
+    "INSPIRATION/UNIVERS/duolingo/character-design/cast-chien-bleu-os.svg": {
+      "mtime": 1786799006526,
+      "hash": "8639c3234070f267a58651ddf26eaf4ec1f322ff3a536b71226d29dca93e9490"
+    },
+    "INSPIRATION/UNIVERS/duolingo/character-design/cast-homme-moustache-coeurs.svg": {
+      "mtime": 1786799035456,
+      "hash": "6f649cac22756141d7dd416041b438541a3f4aa2d036b371cbc3e848f40b4725"
+    },
+    "INSPIRATION/UNIVERS/duolingo/character-design/cast-grenouille-palette-verts.svg": {
+      "mtime": 1786799051760,
+      "hash": "a49087959434f50c08f56aa49aef8f19a180c99557f50eb596c1da2b3d23bbca"
+    },
+    "INSPIRATION/UNIVERS/duolingo/character-design/cast-grenouille-palette-verts-2.svg": {
+      "mtime": 1786799089213,
+      "hash": "00795da4d48444c895478691ae51fdcbef9c812f8d6b48c50e10ae49b093b942"
+    },
+    "INSPIRATION/UNIVERS/duolingo/character-design/cast-gorille-debout.svg": {
+      "mtime": 1786799000605,
+      "hash": "662465a66db7aa08ceca14d707fa78bdbe109c398f08b6708a8630545f1cbcd2"
+    },
+    "INSPIRATION/UNIVERS/duolingo/character-design/cast-gorille-assis.svg": {
+      "mtime": 1786799018430,
+      "hash": "0b7f77dbf105760a6a80e953d1883a3aeab78bb371258dc7e56d1d387f7803bb"
+    },
+    "INSPIRATION/UNIVERS/duolingo/character-design/cast-foule-diversite.svg": {
+      "mtime": 1786799047436,
+      "hash": "c94e97ad8236c7886a20a9fc9d873117244bea65a40f02b53241a9be9bddc321"
+    },
+    "INSPIRATION/UNIVERS/duolingo/character-design/cast-femme-chignon-portrait.svg": {
+      "mtime": 1786799012664,
+      "hash": "1463ab7ef54d55a54dd781c17a33c10ebb25122fa95597dbca05611d67fa1f3c"
+    },
+    "INSPIRATION/UNIVERS/duolingo/character-design/cast-duo-personnages-bea-lily.svg": {
+      "mtime": 1786799034957,
+      "hash": "ecabf42d6f3a6bf59e59f4366f1c98b06e78ba6792af3fcff771cb4f5114dd58"
+    },
+    "INSPIRATION/UNIVERS/duolingo/character-design/cast-chien-brun-portrait.svg": {
+      "mtime": 1786799024369,
+      "hash": "fef427343af7fbb642a10a4d9f519daa2fcbdee28a3dec203b536848f263ab77"
+    },
+    "INSPIRATION/UNIVERS/duolingo/character-design/cast-chat-gris-assis.svg": {
+      "mtime": 1786799038529,
+      "hash": "68729e0b27c43a576a4cb292f1c95e9f266ba507ccb6179e554538a6b311499d"
+    },
+    "INSPIRATION/UNIVERS/duolingo/character-design/cast-bea-en-marche.svg": {
+      "mtime": 1786799013483,
+      "hash": "2b890fba89822a715bc0a70ceebb6653d4ee1e0cbca325461f8d444657433e6b"
+    },
+    "INSPIRATION/UNIVERS/duolingo/character-design/cast-bea-corps-entier.svg": {
+      "mtime": 1786799040608,
+      "hash": "f7561289b8eef572c8f1f63835f15598c01f312de642fe07f29539d024891aec"
+    },
+    "INSPIRATION/UNIVERS/duolingo/character-design/cast-bea-assise.svg": {
+      "mtime": 1786799088162,
+      "hash": "1bc37120a2567d8d2c3467c6e3297276345ee42139323ae5b756393696e8c889"
+    },
+    "INSPIRATION/UNIVERS/duolingo/campagnes/signature-we-have-seen-the-future-vert.svg": {
+      "mtime": 1786799091794,
+      "hash": "ba13f577487562e355a59b111a29d1a06ee22f7ae9d9757e3908f3a60f4edd9e"
+    },
+    "INSPIRATION/UNIVERS/duolingo/campagnes/signature-we-have-seen-the-future-noir.svg": {
+      "mtime": 1786799100525,
+      "hash": "216b924c808a1c7b5e39252076934c9a1991804d6c24cf9165ee9f0fe2048b3b"
+    },
+    "INSPIRATION/UNIVERS/duolingo/campagnes/signature-we-have-seen-the-future-multicolore.svg": {
+      "mtime": 1786799097492,
+      "hash": "cf9e3595e54ff2d042d204fbdfe195bef0563bac6c4fac266db95e0f7bdb9034"
+    },
+    "INSPIRATION/UNIVERS/duolingo/campagnes/signature-we-have-seen-the-future-fond-vert.svg": {
+      "mtime": 1786799066380,
+      "hash": "cf2b7d41799ffd5cdc40020cfa8f8c4a050a17ffbddd3356765204b2b12c562d"
+    },
+    "INSPIRATION/UNIVERS/duolingo/campagnes/construction-as-easy-as-uno-dos-tres.svg": {
+      "mtime": 1786799000314,
+      "hash": "f6a21560b4f0d86fe0e5800d432ab79540be320f31f489cc535c8e6bc8d88b32"
+    },
+    "INSPIRATION/UNIVERS/duolingo/campagnes/capture-tweet-pittsburgh-proud.png": {
+      "mtime": 1786799418265,
+      "hash": "5a0d928b269c892c996c23c886abb40afbf10a2a64c2aed1450bfb2d66124093"
+    },
+    "INSPIRATION/UNIVERS/duolingo/campagnes/affiche-as-easy-as-uno-dos-tres.svg": {
+      "mtime": 1786799101405,
+      "hash": "613be7d465c63a2716e93784b6e9d05babd3053e287bea232d801394f5a80edb"
+    },
+    "INSPIRATION/UNIVERS/duolingo/campagnes/affiche-as-easy-as-uno-dos-tres-grille.svg": {
+      "mtime": 1786799100779,
+      "hash": "b6d622a12273cbf6ec0a51839f4dc15b475060b6908a163af7f9e2f5a2c31bd8"
+    },
+    "INSPIRATION/UNIVERS/duolingo/branding/wordmark-violet-plus.svg": {
+      "mtime": 1786799076401,
+      "hash": "3133d44ff71f7f6496d3fd6dee616476787d154e8740b0de8a5ca16e4f60ced7"
+    },
+    "INSPIRATION/UNIVERS/duolingo/branding/wordmark-vert-clair-variante.svg": {
+      "mtime": 1786799050139,
+      "hash": "b0aa8bdee4687b48a1beda57bdb41b8af7fe6abc7789a97a7b4570f3490c475a"
+    },
+    "INSPIRATION/UNIVERS/duolingo/branding/wordmark-rotation-dynamique.svg": {
+      "mtime": 1786799418133,
+      "hash": "4b67dc432e8f0a88773df21cd827b4c6f4abb57001f31c26937113604cdb32c6"
+    },
+    "INSPIRATION/UNIVERS/duolingo/branding/wordmark-noir.svg": {
+      "mtime": 1786799025395,
+      "hash": "08cd6397a8d539e2ea427c20d706a693cabbd69f3eaca6254a772519987d99b1"
+    },
+    "INSPIRATION/UNIVERS/duolingo/branding/wordmark-feather-green.svg": {
+      "mtime": 1786799045035,
+      "hash": "78d63e7ad8f2b378a19b2093d2e479d0f4967fdeb54cd63589646991d163ffcf"
+    },
+    "INSPIRATION/UNIVERS/duolingo/branding/wordmark-eel-gris-fonce.svg": {
+      "mtime": 1786799045719,
+      "hash": "a2e9c49900235b3ff1509749723640f229dbabe203f2427ee81c657824b9424f"
+    },
+    "INSPIRATION/UNIVERS/duolingo/branding/sous-marque-university-programs.svg": {
+      "mtime": 1786799105493,
+      "hash": "2e70e6747caeb8bed734ca1c48d225f82946c8829a60ddd96ced93b144733d07"
+    },
+    "INSPIRATION/UNIVERS/duolingo/branding/sous-marque-push.svg": {
+      "mtime": 1786799418133,
+      "hash": "e70fcc4a862b334d8fb4e4b07855b62a479e0b721fce50a16269f80da50a3f99"
+    },
+    "INSPIRATION/UNIVERS/duolingo/branding/sous-marque-podcasts.svg": {
+      "mtime": 1786799073624,
+      "hash": "7b99757b22716cfcfc9af2938a4ca3ee041d5bd7d4826d84dc371129e6457f58"
+    },
+    "INSPIRATION/UNIVERS/duolingo/branding/sous-marque-noir-alternatif.svg": {
+      "mtime": 1786799060613,
+      "hash": "c8a14be47ea05548b35bddf2329421d1c3fd4d9f9227a9ad5bc336dc9be1e09f"
+    },
+    "INSPIRATION/UNIVERS/duolingo/branding/sous-marque-lockup-vert-exemple.svg": {
+      "mtime": 1786799036446,
+      "hash": "341755d7a0787d255daf0d2840247cdb84cc7d728fb067e4738c8ac06b9bf9fd"
+    },
+    "INSPIRATION/UNIVERS/duolingo/branding/sous-marque-lockup-noir-exemple.svg": {
+      "mtime": 1786799036780,
+      "hash": "1ad3869d7817a753d0cb8bf84160a93abe6ca69f1ee17a1a2ca2cd2203f1a09d"
+    },
+    "INSPIRATION/UNIVERS/duolingo/branding/sous-marque-incubator.svg": {
+      "mtime": 1786799107010,
+      "hash": "e9abd940cb1124ca7d81dd3ee66a40fce2a12d10952ac443492fc9066c9840b8"
+    },
+    "INSPIRATION/UNIVERS/duolingo/branding/sous-marque-gear.svg": {
+      "mtime": 1786799103091,
+      "hash": "f4bef4e6773da60f3eb9c7eb3d1c01439b38665caf9205da8b9ade090c2c18d6"
+    },
+    "INSPIRATION/UNIVERS/duolingo/branding/sous-marque-events.svg": {
+      "mtime": 1786799023422,
+      "hash": "16b16bbab0d337aa8035e7b2247d488a63b9ca55ff9b6af7fb6be1f9b99915c7"
+    },
+    "INSPIRATION/UNIVERS/duolingo/branding/sous-marque-design-studio.svg": {
+      "mtime": 1786799056482,
+      "hash": "abc4b79db9e791522f045ce05435fc14fa6b4621aa803c82cba2d395eec10ada"
+    },
+    "INSPIRATION/UNIVERS/duolingo/branding/sous-marque-duolingo-plus.svg": {
+      "mtime": 1786799033301,
+      "hash": "57adb38492af28a91a9cef59d1dfb99ba3675a8dd9ce3bcd8ea58fedd797a414"
+    },
+    "INSPIRATION/UNIVERS/duolingo/branding/sous-marque-community.svg": {
+      "mtime": 1786799106507,
+      "hash": "5e0ab80e57341058b6e9a8b658717d94c29fc966c344dd6b3b14f100ad192971"
+    },
+    "INSPIRATION/UNIVERS/duolingo/branding/sous-marque-cefr-checker.svg": {
+      "mtime": 1786799020217,
+      "hash": "a8877823b26f7581457ee4ac26438839360b42e562b998bb276355b00efc6cef"
+    },
+    "INSPIRATION/UNIVERS/duolingo/branding/sous-marque-ai.svg": {
+      "mtime": 1786799109558,
+      "hash": "f7adc5559af4ce30671da06d619fb32bef6fb8d6a494722279e5afaca260aeb9"
+    },
+    "INSPIRATION/UNIVERS/duolingo/branding/signature-everyone-can-duolingo.svg": {
+      "mtime": 1786799040152,
+      "hash": "e9560c894d1d1ef1e3760b514a68680a1c07fce821daac3c264ff08ef96185f5"
+    },
+    "INSPIRATION/UNIVERS/duolingo/branding/logo-lockup-portrait-duo-wordmark.svg": {
+      "mtime": 1786799002701,
+      "hash": "60fc0480853d87db62d2551408c151491cc47e7fee49e7dcae37b6611531b4f0"
+    },
+    "INSPIRATION/UNIVERS/duolingo/branding/logo-avatar-cercle-duo.svg": {
+      "mtime": 1786799032812,
+      "hash": "1b1784dc406502b651ff1b3ecb8272fcef8a708b4bcc78b92ae8e05d4b50b674"
+    },
+    "INSPIRATION/UNIVERS/duolingo/branding/logo-avatar-carre-duo.svg": {
+      "mtime": 1786799004021,
+      "hash": "62e7376915f1dbd6488fc97f43086d993854fcb4ea1064906e4c1f7d61af567f"
+    },
+    "INSPIRATION/UNIVERS/duolingo/branding/logo-avatar-arrondi-duo.svg": {
+      "mtime": 1786799005087,
+      "hash": "ae633b4f66f1314d04f1cb8358787e52d5a6b2411994346fba88993ab862de14"
+    },
+    "INSPIRATION/UNIVERS/duolingo/branding/lockup-wordmark-duo-a-droite.svg": {
+      "mtime": 1786799039926,
+      "hash": "0e7f0ff05f1c7c9d050bbeffbf48f608e5cfa3c1ec10674b357ce1eeb3b5ea11"
+    },
+    "INSPIRATION/UNIVERS/duolingo/branding/lockup-paysage-wordmark-duo.svg": {
+      "mtime": 1786799021251,
+      "hash": "fd17303e9c4edd70e21943989068ab113ab6eef2e41af82c795c95b5661ea07d"
+    },
+    "INSPIRATION/UNIVERS/duolingo/branding/lockup-paysage-duo-wordmark.svg": {
+      "mtime": 1786799064568,
+      "hash": "791bd5742bdd0623f08f67bf0146b82b98f866c093bec3b218bc892bc214be78"
+    },
+    "INSPIRATION/UNIVERS/duolingo/branding/do-not-wordmark-texture.svg": {
+      "mtime": 1786799087756,
+      "hash": "838391224f2e2b16df57436393bfd8e556ebd67fca1fdd0060fcded536af980b"
+    },
+    "INSPIRATION/UNIVERS/duolingo/branding/do-not-wordmark-multicolore.svg": {
+      "mtime": 1786799086589,
+      "hash": "cf29f86670fac460ae490786c10097eb5014e83e926606c712562a3f50fc5df3"
+    },
+    "INSPIRATION/UNIVERS/duolingo/branding/do-not-wordmark-espacement.svg": {
+      "mtime": 1786799086874,
+      "hash": "58e5ed7efa9be5b68dd19f904b8326a640854965e4625e144f3e03c6fd9d9950"
+    },
+    "INSPIRATION/UNIVERS/duolingo/branding/do-not-wordmark-contour.svg": {
+      "mtime": 1786799091243,
+      "hash": "60c145ff39021bbe4dd204d61670daa72156b073b860febc074b6b16d4e8f475"
+    },
+    "INSPIRATION/UNIVERS/duolingo/branding/construction-wordmark-vertical-rotation.svg": {
+      "mtime": 1786799107519,
+      "hash": "7fce54b46854473e01544f3b45a5d68c23fd7462968bc1f016283399984f5140"
+    },
+    "INSPIRATION/UNIVERS/duolingo/branding/construction-wordmark-points-cles.svg": {
+      "mtime": 1786799104016,
+      "hash": "80ac4934bc1da990b7a95e44042e806e34fbb4b021e884e46b7f411218e22519"
+    },
+    "INSPIRATION/UNIVERS/duolingo/branding/construction-wordmark-clear-space.svg": {
+      "mtime": 1786799037072,
+      "hash": "ef06d1584180c960168757c902db4d717b026b165a984980e6aadb3387c6e8a5"
+    },
+    "INSPIRATION/UNIVERS/duolingo/branding/construction-sous-marque-proportions.svg": {
+      "mtime": 1786799057903,
+      "hash": "66477130832ab4cd86fa9719d1f7abb8112b6638d6b266e7ac468ac6575f8bea"
+    },
+    "INSPIRATION/UNIVERS/duolingo/branding/construction-sous-marque-lockup-alternatif.svg": {
+      "mtime": 1786799013945,
+      "hash": "ef912fb6a55d8f8af739e51c7f28e2a7e908168f4ca58f4b6c34b8b386cba215"
+    },
+    "INSPIRATION/UNIVERS/duolingo/branding/construction-repetition-wordmark.svg": {
+      "mtime": 1786799030741,
+      "hash": "5bf8f9fc2bfa1c1b300f2ed9ccff4e7bb541b33fd5e6f8d4492c570b62e0d104"
+    },
+    "INSPIRATION/UNIVERS/duolingo/branding/construction-positionnement-page.svg": {
+      "mtime": 1786799098476,
+      "hash": "33bd8070bf27e416cad8e0066ec5dc2e8394a0d6b0db9576e51c61f395056f73"
+    },
+    "INSPIRATION/UNIVERS/duolingo/branding/construction-placement-quatre-coins.svg": {
+      "mtime": 1786799090789,
+      "hash": "93bbe16a87cda01c91cdf4ae18659c8bc02901177267857ab5d28d41fe84b17d"
+    },
+    "INSPIRATION/UNIVERS/duolingo/branding/construction-lockup-portrait-grille.svg": {
+      "mtime": 1786799009211,
+      "hash": "b0dbd3608ce804401db587ecf5333b95648e6d004866161c24493ed3bad7dbf4"
+    },
+    "INSPIRATION/UNIVERS/duolingo/branding/construction-lockup-paysage-grille.svg": {
+      "mtime": 1786799011289,
+      "hash": "e21be7b46263067637449567d31f8ea4cfeb36e8d9b11914411adfe76cd663f2"
+    },
+    "INSPIRATION/UNIVERS/duolingo/branding/construction-espacement-logotype.svg": {
+      "mtime": 1786799084788,
+      "hash": "ee699bc9dff51bfa9c2ffa15c935d94a814f97b594bbd4dc044bc2b9235b389d"
+    },
+    "INSPIRATION/UNIVERS/duolingo/branding/construction-duolingo-plus-grille.svg": {
+      "mtime": 1786799063795,
+      "hash": "8b075c5d68453657e90de6ca92a3e963fd37e319e630d01a34206f117a802449"
+    },
+    "INSPIRATION/UNIVERS/duolingo/branding/construction-duolingo-plus-detail.svg": {
+      "mtime": 1786799099947,
+      "hash": "b3aece4c69dbe2a32702c0af2deef2f9377f5e9593c531c685cc91bcdc5e91c4"
+    },
+    "INSPIRATION/UNIVERS/duolingo/branding/construction-clear-space-zone-protection.svg": {
+      "mtime": 1786799092544,
+      "hash": "fd1b97659d468cb08e8335326c25f86118e8fd8116a3e0c0dea34596e6d6ec2f"
+    },
+    "INSPIRATION/UNIVERS/duolingo/branding/app-icon-duo-vert-fond-plein.svg": {
+      "mtime": 1786799102313,
+      "hash": "9a93befbe619672b3129eb5c484b154f43dd42dec58d92402b15853969476968"
+    },
+    "INSPIRATION/UNIVERS/duolingo/branding/app-icon-duo-carre-arrondi.svg": {
+      "mtime": 1786799067991,
+      "hash": "0d0ff645903fac97ef79d0fab4bc34798c29101bb9fd3a072c68075534fdfd9e"
+    },
+    "INSPIRATION/UNIVERS/_UNIVERS.md": {
+      "mtime": 1786824142543,
+      "hash": "1adaea373d2a19037c0882a5321501cf3a26eb149b444d6f1ae346fe766f95e8"
+    },
+    "INSPIRATION/COMPOSANTS/_COMPOSANTS.md": {
+      "mtime": 1786805973063,
+      "hash": "55b74a53ff4b6b87b432e6a894c57531a41dbf7a32be9e83e450148702e6ddb7"
+    },
+    "INSPIRATION/ANIMATIONS/_ANIMATIONS.md": {
+      "mtime": 1786805955878,
+      "hash": "13f69d6f763c12fae425c223d6a6bcd5ab5bf7ab290aea7dad852984cd45e041"
+    },
+    "INBOX/À-PROPOS.md": {
+      "mtime": 1782294449000,
+      "hash": "579d03e05b5a510f0143f7d7564cd0ceb86387130c2155ee3c78c2d59c3dfee7"
+    },
+    "CONTEXTE-POUR-CLAUDE.md": {
+      "mtime": 1786806050638,
+      "hash": "23d50c744f06542e8ee92115b0bd5567dd90d0504fa3d90374bde28fd671f54c"
+    },
+    "CLAUDE.md": {
+      "mtime": 1786822088724,
+      "hash": "c2518369dbd2ee8e8f8f1cc6b41242f90b3f6d03faa8fb216c722240653c1457"
+    },
+    "ACCUEIL.md": {
+      "mtime": 1786805980209,
+      "hash": "71b6dbe8c343363fa167e76d38dc30e4da2fdcc36b9c60d5dacca4d555e5e229"
+    }
+  },
+  "lastSyncedUrl": "https://whefznboycfxoiebeifl.supabase.co"
+}

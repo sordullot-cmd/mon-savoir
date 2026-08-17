@@ -1,6 +1,6 @@
 ---
 type: projet
-domaine:        # unowhy | sordulo | ican
+domaine:        # unowhy | sordulo | ican | perso
 statut: actif   # idée | actif | en-pause | livré | archivé
 client:         # [[Nom du client]] si Sordulo
 deadline:

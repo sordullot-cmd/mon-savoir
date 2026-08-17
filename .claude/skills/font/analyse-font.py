@@ -67,6 +67,25 @@ def analyse(path):
             p = getattr(os2,"panose",None)
             if p is not None and getattr(p,"bProportion",0) == 9:
                 mono = True
+        # dernier repli : MESURER les avances. Certaines fontes (ex. PP Supply Mono)
+        # ne posent ni isFixedPitch ni PANOSE bProportion alors qu'elles sont bien
+        # à chasse fixe. On teste a-z A-Z 0-9 : mêmes avances => monospace.
+        if not mono:
+            try:
+                cmap = ft.getBestCmap() or {}
+                hmtx = ft["hmtx"]
+                chars = ([chr(c) for c in range(ord("a"), ord("z")+1)] +
+                         [chr(c) for c in range(ord("A"), ord("Z")+1)] +
+                         [chr(c) for c in range(ord("0"), ord("9")+1)])
+                adv = set()
+                for c in chars:
+                    g = cmap.get(ord(c))
+                    if g and g in hmtx.metrics:
+                        w = hmtx[g][0]
+                        if w: adv.add(w)
+                if len(adv) == 1 and len(chars) >= 40:
+                    mono = True
+            except Exception: pass
         out["metriques"]["mono"] = mono
         if os2:
             wc = getattr(os2,"usWidthClass",5)

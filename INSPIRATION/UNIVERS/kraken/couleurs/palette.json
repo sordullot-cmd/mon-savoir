@@ -1,0 +1,164 @@
+[
+ {
+  "fichier": "palette-coeur-de-marque.svg",
+  "titre": "Kraken — cœur de marque",
+  "sous_titre": "Le violet et ses états, relevés dans les tokens du design system servi par kraken.com (--colors-ds-brand et dérivés).",
+  "colonnes": 4,
+  "groupes": [
+   {"nom": "Le violet Kraken", "couleurs": [
+     {"nom": "Brand", "hex": "#7132F5", "note": "--colors-ds-brand|Boutons primaires, liens, badges|269 occurrences dans le CSS"},
+     {"nom": "Brand hover", "hex": "#5B1ECF", "note": "--background-color-ds-button-primary-high-hover|Survol du bouton primaire"},
+     {"nom": "Brand press", "hex": "#471CA0", "note": "--colors-ds-textlink-hover-brand|État le plus foncé"},
+     {"nom": "Brand clair", "hex": "#855BFB", "note": "--background-color-ds-progressbar-primary|Base des voiles translucides (29 / 3d / 52 en alpha)"}
+   ]},
+   {"nom": "Violets des thèmes sombres", "couleurs": [
+     {"nom": "Trade dark brand", "hex": "#8A61FF", "note": "--colors-ds-brand (.trade-dark-theme)|Le violet de Kraken Pro"},
+     {"nom": "Magic dark brand", "hex": "#9D82FE", "note": "--colors-ds-brand (.magic-dark-theme)|Le plus clair des quatre"},
+     {"nom": "Inverted magic", "hex": "#F1EFFF", "note": "--colors-ds-inverted (.magic-light-theme)|Blanc teinté violet"}
+   ]},
+   {"nom": "Breakout", "couleurs": [
+     {"nom": "Brand breakout", "hex": "#00ADFE", "note": "--text-color-ds-brand-breakout|Identique dans les 8 thèmes|Le seul accent non violet du système"}
+   ]}
+  ]
+ },
+ {
+  "fichier": "palette-semantique-light.svg",
+  "titre": "Rôles sémantiques — thème clair",
+  "sous_titre": "Les onze tokens --colors-ds-* de .light-theme : la grammaire de couleur de tout le produit.",
+  "colonnes": 4,
+  "groupes": [
+   {"nom": "", "couleurs": [
+     {"nom": "Brand", "hex": "#7132F5", "note": "--colors-ds-brand"},
+     {"nom": "Primary", "hex": "#101114", "note": "--colors-ds-primary|Texte principal"},
+     {"nom": "Neutral", "hex": "#686B82", "note": "--colors-ds-neutral|Texte secondaire, gris bleuté"},
+     {"nom": "Dimmed", "hex": "#9497A9", "note": "--colors-ds-dimmed|Texte tertiaire"},
+     {"nom": "Disabled", "hex": "#C6C7D2", "note": "--colors-ds-disabled"},
+     {"nom": "Inverted", "hex": "#FFFFFF", "note": "--colors-ds-inverted"},
+     {"nom": "Positive", "hex": "#08844F", "note": "--colors-ds-positive|Hausse, succès"},
+     {"nom": "Negative", "hex": "#D11D45", "note": "--colors-ds-negative|Baisse, erreur"},
+     {"nom": "Warning", "hex": "#C39621", "note": "--colors-ds-warning"},
+     {"nom": "Info", "hex": "#0079B4", "note": "--colors-ds-info"},
+     {"nom": "Fond de page", "hex": "#F6F5F9", "note": "--ds-bg-color|26,1 % de la home relevée au pixel"}
+   ]}
+  ]
+ },
+ {
+  "fichier": "palette-neutres.svg",
+  "titre": "Rampe de neutres",
+  "sous_titre": "Aucun gris pur : toute la rampe est tirée vers le bleu-violet. C'est ce qui empêche l'interface de paraître froide.",
+  "colonnes": 5,
+  "groupes": [
+   {"nom": "Neutres Kraken (violet)", "couleurs": [
+     {"nom": "Blanc", "hex": "#FFFFFF", "note": "--colors-ds-inverted|Cartes, 17,0 % de la home"},
+     {"nom": "Fond de page", "hex": "#F6F5F9", "note": "--ds-bg-color|La couleur la plus présente : 26,1 %"},
+     {"nom": "Datepicker light", "hex": "#F7F7FA", "note": "--text-color-ds-datepicker-selected|= primary de .trade-dark-theme"},
+     {"nom": "Disabled", "hex": "#C6C7D2", "note": "--colors-ds-disabled"},
+     {"nom": "Dimmed", "hex": "#9497A9", "note": "--colors-ds-dimmed"},
+     {"nom": "Neutral", "hex": "#686B82", "note": "--colors-ds-neutral|730 occurrences : le gris de travail"},
+     {"nom": "Neutral foncé", "hex": "#484B5E", "note": "--text-color-ds-accordion-disabled|= disabled des thèmes sombres"},
+     {"nom": "Noir hover", "hex": "#22232D", "note": "--background-color-ds-button-neutral-high-hover"},
+     {"nom": "Primary", "hex": "#101114", "note": "--colors-ds-primary|Le noir du système"}
+   ]},
+   {"nom": "Neutres Payward / Krak (gris purs)", "couleurs": [
+     {"nom": "Inverted", "hex": "#F5F5F5", "note": "--colors-ds-inverted (.pay-*)"},
+     {"nom": "Dimmed", "hex": "#9E9E9E", "note": "--colors-ds-dimmed (.pay-*)"},
+     {"nom": "Neutral", "hex": "#757575", "note": "--colors-ds-neutral (.pay-*)"},
+     {"nom": "Primary", "hex": "#0D0D0D", "note": "--colors-ds-primary (.pay-*)|13,5 % des écrans Krak"}
+   ]}
+  ]
+ },
+ {
+  "fichier": "palette-etats-hausse-baisse.svg",
+  "titre": "Hausse, baisse, alerte",
+  "sous_titre": "Chaque rôle a sa rampe complète : version claire pour les thèmes sombres, version foncée pour le thème clair.",
+  "colonnes": 5,
+  "groupes": [
+   {"nom": "Positive (hausse)", "couleurs": [
+     {"nom": "Positive clair", "hex": "#35DF8D", "note": "--colors-ds-positive des 4 thèmes sombres|Relevé à 0,45 % sur les écrans Kraken Pro"},
+     {"nom": "Positive badge", "hex": "#149E61", "note": "--background-color-ds-badge-positive-high"},
+     {"nom": "Positive", "hex": "#08844F", "note": "--colors-ds-positive (.light-theme)"},
+     {"nom": "Positive hover", "hex": "#026B3F", "note": "--background-color-ds-button-positive-high-hover"},
+     {"nom": "Positive press", "hex": "#005531", "note": "--colors-ds-textlink-hover-positive"}
+   ]},
+   {"nom": "Negative (baisse)", "couleurs": [
+     {"nom": "Negative clair", "hex": "#FF7386", "note": "--colors-ds-negative des thèmes sombres"},
+     {"nom": "Negative erreur", "hex": "#F5395E", "note": "--outline-color-ds-input-error|Le contour des champs en erreur"},
+     {"nom": "Negative", "hex": "#D11D45", "note": "--colors-ds-negative (.light-theme)"},
+     {"nom": "Negative hover", "hex": "#AA0132", "note": "--background-color-ds-button-negative-high-hover"},
+     {"nom": "Negative press", "hex": "#840125", "note": "--colors-ds-textlink-hover-negative"}
+   ]},
+   {"nom": "Warning", "couleurs": [
+     {"nom": "Warning clair", "hex": "#FFCD60", "note": "--colors-ds-warning des thèmes sombres"},
+     {"nom": "Warning bouton", "hex": "#E8B100", "note": "--background-color-ds-button-warning-high"},
+     {"nom": "Warning", "hex": "#C39621", "note": "--colors-ds-warning|Identique dans les 8 thèmes"},
+     {"nom": "Warning texte", "hex": "#A67C1D", "note": "--text-color-ds-button-warning-medium"},
+     {"nom": "Warning foncé", "hex": "#553C00", "note": "--text-color-ds-badge-warning"},
+     {"nom": "Warning très foncé", "hex": "#3B2A00", "note": "--text-color-ds-button-warning-high|Texte sur bouton jaune"}
+   ]},
+   {"nom": "Info", "couleurs": [
+     {"nom": "Info clair", "hex": "#00ADFE", "note": "= brand breakout|--colors-ds-info des thèmes sombres"},
+     {"nom": "Info badge", "hex": "#0092D8", "note": "--background-color-ds-badge-info-high"},
+     {"nom": "Info", "hex": "#0079B4", "note": "--colors-ds-info (.light-theme)"},
+     {"nom": "Info texte", "hex": "#006394", "note": "--text-color-ds-badge-info"}
+   ]}
+  ]
+ },
+ {
+  "fichier": "palette-krak-corail.svg",
+  "titre": "Krak — le système corail",
+  "sous_titre": "Le seul produit de la maison qui n'est pas violet. Thèmes .pay-light-theme / .pay-dark-theme du même design system.",
+  "colonnes": 4,
+  "groupes": [
+   {"nom": "Marque", "couleurs": [
+     {"nom": "Krak Coral", "hex": "#FF3B29", "note": "--colors-ds-brand (.pay-*)|Identique en clair et en sombre|Le logo officiel s'appelle KRAK LOGO CORAL"},
+     {"nom": "Negative clair", "hex": "#FF6557", "note": "--colors-ds-negative (.pay-dark-theme)|Très proche du corail de marque : chez Krak, la baisse et la marque partagent la même famille de rouge"},
+     {"nom": "Negative", "hex": "#E51806", "note": "--colors-ds-negative (.pay-light-theme)"}
+   ]},
+   {"nom": "Neutres purs", "couleurs": [
+     {"nom": "Blanc cassé", "hex": "#F5F5F5", "note": "--colors-ds-inverted|1,28 % des écrans relevés"},
+     {"nom": "Dimmed", "hex": "#9E9E9E", "note": "--colors-ds-dimmed"},
+     {"nom": "Neutral", "hex": "#757575", "note": "--colors-ds-neutral"},
+     {"nom": "Primary", "hex": "#0D0D0D", "note": "--colors-ds-primary|13,5 % des écrans Krak releves"}
+   ]},
+   {"nom": "Payward (la maison mère)", "couleurs": [
+     {"nom": "Neutral", "hex": "#A7A7A7", "note": "--bg-payward-neutral"},
+     {"nom": "Dimmed", "hex": "#7D7D7D", "note": "--bg-payward-dimmed"},
+     {"nom": "Neutral inversé", "hex": "#414141", "note": "--bg-payward-neutral-inverted"},
+     {"nom": "Dimmed inversé", "hex": "#717171", "note": "--bg-payward-dimmed-inverted"}
+   ]}
+  ]
+ },
+ {
+  "fichier": "palette-relevee.svg",
+  "titre": "Ce que les pixels disent vraiment",
+  "sous_titre": "Comptage au pixel (palette.py relevé) sur la home capturée, les 8 visuels App Store, les 8 écrans Kraken Pro et les 9 écrans Krak. Aucune valeur n'est inventée ; celles marquées HORS CHARTE n'existent dans aucun token.",
+  "colonnes": 4,
+  "groupes": [
+   {"nom": "Home kraken.com — le violet est une ponctuation", "couleurs": [
+     {"nom": "Fond de page", "hex": "#F6F5F9", "note": "26,11 % de la page|= --ds-bg-color, au hex exact"},
+     {"nom": "Cartes", "hex": "#FFFFFF", "note": "16,98 %|Les blocs posés sur le fond"},
+     {"nom": "Noir de section", "hex": "#141414", "note": "4,28 %|HORS CHARTE : plus neutre que le token #101114"},
+     {"nom": "Violet-noir", "hex": "#0B041A", "note": "4,08 %|HORS CHARTE : fond des sections sombres"},
+     {"nom": "Primary", "hex": "#101114", "note": "1,30 %|Le token officiel arrive derrière deux noirs non documentés"},
+     {"nom": "Brand", "hex": "#7132F5", "note": "0,57 %|La couleur de marque tient sur un demi pour cent de la page"}
+   ]},
+   {"nom": "Visuels App Store (Kraken consumer)", "couleurs": [
+     {"nom": "Violet-noir profond", "hex": "#09041A", "note": "47,14 % en moyenne|HORS CHARTE : le fond marketing, jamais le token produit"},
+     {"nom": "Fond clair", "hex": "#F6F5FA", "note": "16,21 %|À un chiffre de --ds-bg-color #F6F5F9"},
+     {"nom": "Violet saturé", "hex": "#2B1464", "note": "0,56 % sur l'écran 8|HORS CHARTE : violet profond des dégradés"}
+   ]},
+   {"nom": "Kraken Pro — un sombre teinté violet", "couleurs": [
+     {"nom": "Fond principal", "hex": "#161220", "note": "14,40 %|HORS CHARTE : le sombre de Pro est violet, pas gris"},
+     {"nom": "Fond profond", "hex": "#0C0612", "note": "6,31 %|HORS CHARTE"},
+     {"nom": "Surface élevée", "hex": "#201E2C", "note": "3,35 %|HORS CHARTE : les panneaux du terminal"},
+     {"nom": "Vert de hausse", "hex": "#36DF8E", "note": "0,45 %|À un chiffre du token #35DF8D"}
+   ]},
+   {"nom": "Krak — noir pur, corail invisible", "couleurs": [
+     {"nom": "Noir", "hex": "#000000", "note": "39,34 %|Plus noir que le token primary #0D0D0D"},
+     {"nom": "Primary", "hex": "#0D0D0D", "note": "13,54 %|= --colors-ds-primary (.pay-*), au hex exact"},
+     {"nom": "Surface", "hex": "#1F1F1F", "note": "4,50 %|HORS CHARTE"},
+     {"nom": "Corail", "hex": "#FF3B29", "note": "Sous le seuil du top 20|La couleur de marque de Krak n'apparaît quasiment pas à l'écran"}
+   ]}
+  ]
+ }
+]
