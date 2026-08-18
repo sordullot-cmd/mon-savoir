@@ -1,3 +1,12 @@
 __pycache__/
 *.pyc
 .DS_Store
+
+# Etat et session de la synchro Supabase : contient les jetons d'auth, ne doit
+# jamais partir dans git. Et ce sont des fichiers de machine, pas du contenu.
+.obsidian/plugins/supabase-vault-sync/data.json
+.obsidian/plugins/obsidian-supabase-sync/sync-metadata.json
+.obsidian/plugins/obsidian-supabase-sync/sync-queue.json
+
+# Copies laissees par les conflits de synchro : du bruit, pas du contenu.
+notes/conflicts/

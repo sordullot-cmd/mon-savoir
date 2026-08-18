@@ -1,7 +1,7 @@
 ---
 tr4de-id: "1785099429914.526"
 created: 2026-07-26T20:57:09.914Z
-updated: 2026-08-18T14:01:07.547Z
+updated: 2026-08-18T14:48:35.532Z
 pinned: true
 tags:
   - appart
@@ -16,7 +16,7 @@ courses :
 - fruits : banane, pommes
 - laitier : skyr, lait, gruyere
 - condiments : sucre, sel, miel, herbe de provinces / curry, beurre de cacahuete
-- maison : papier toilette, sac poubelle
+- maison : papier toilette, sac poubelle, eponge
 
 repas :
 - patates douces = patate / douches
@@ -29,3 +29,4 @@ repas :
 voir aussi : [[achat]]
 
 #appart
+# dadaddaa
