@@ -136,8 +136,11 @@ Poser une question seulement dans ces cas, et **groupées** en un seul message :
 - **Ne jamais inventer une donnée d'un document.** Si un PDF ne s'extrait pas en texte (police « sous-ensemble », glyphes brouillés), **le regarder** : le convertir en image (`qlmanage -t -s 2000 "fichier.pdf" -o <scratchpad>`, fallback `sips -s format png`) et lire le `.png`. On ne remplit montants/dates/client qu'à partir de ce qu'on a réellement lu.
 - Toujours finir par un récap clair et l'état de l'INBOX.
 
-## Étape finale — sync vault-gallery
+## Étape finale — publier
 
-Après toute création ou mise à jour de fiche, lancer
-`npm run index --prefix ~/Documents/GitHub/vault-gallery`
-et inclure son récap (ajouté / mis à jour / supprimé) dans le compte-rendu.
+Après toute création ou mise à jour de fiche, dérouler
+**`.claude/skills/_lib/publier.md`** : réindexer le site
+(`npm run index --prefix ~/Documents/GitHub/vault-gallery`), puis **commiter et
+pousser les deux dépôts** — le vault (`~/Documents/brain^2`) et le site
+(`~/Documents/GitHub/vault-gallery`, dont le push déclenche le déploiement Vercel).
+Non bloquant : un échec se signale dans le récap, il ne fait pas échouer le run.

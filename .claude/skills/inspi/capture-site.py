@@ -93,22 +93,41 @@ def group_templates(paths, collapse=True):
     selection.sort(key=lambda t: (t[1] != "home", t[1]))
     return selection, report
 
-def capture(url, outdir, path, budget, name=None, width=1920):
+def capture(url, outdir, path, budget, name=None, width=1920,
+            mobile=False, sombre=False, suffixe=""):
     target = urljoin(url, path)
-    name = name or slugify(path)
+    name = (name or slugify(path)) + suffixe
     out = os.path.join(outdir, f"{name}.png")
     # éviter collision de noms
     i = 2
     while os.path.exists(out):
         out = os.path.join(outdir, f"{name}-{i}.png"); i += 1
     try:
-        r = shoot.shoot(target, out, width, budget, 20000)  # PLEINE HAUTEUR
+        r = shoot.shoot(target, out, width, budget, 20000, mobile, sombre)  # PLEINE HAUTEUR
         ok = os.path.exists(out) and os.path.getsize(out) > 0
         return {"chemin": path, "url": target,
                 "fichier": os.path.basename(out) if ok else None,
-                "hauteur": r.get("hauteur"), "tronquee_a_max": r.get("tronquee_a_max")}
+                "rendu": r.get("rendu"),
+                "hauteur": r.get("hauteur"), "tronquee_a_max": r.get("tronquee_a_max"),
+                "polices": r.get("polices")}
     except Exception as e:
         return {"chemin": path, "url": target, "fichier": None, "erreur": str(e)}
+
+
+def fusionner_polices(captures):
+    """Union des polices relevées sur toutes les pages, la plus utilisée d'abord."""
+    total, chargees = {}, set()
+    for c in captures:
+        p = c.get("polices") or {}
+        for f in p.get("rendues") or []:
+            total[f["famille"]] = total.get(f["famille"], 0) + f.get("elements", 0)
+        for f in p.get("chargees") or []:
+            chargees.add(f)
+    rendues = [{"famille": k, "elements": v}
+               for k, v in sorted(total.items(), key=lambda kv: -kv[1])]
+    if not rendues and not chargees:
+        return None
+    return {"rendues": rendues[:8], "chargees": sorted(chargees)[:12]}
 
 if __name__ == "__main__":
     ap = argparse.ArgumentParser()
@@ -119,8 +138,14 @@ if __name__ == "__main__":
     ap.add_argument("--width", type=int, default=1920)
     ap.add_argument("--all-pages", action="store_true",
                     help="capturer CHAQUE page (désactive le regroupement par template)")
+    ap.add_argument("--viewports", default="desktop",
+                    help="desktop | mobile | desktop,mobile (def desktop). "
+                         "Le mobile émule un iPhone → mise en page responsive réelle.")
+    ap.add_argument("--dark", action="store_true",
+                    help="capturer AUSSI la home en thème sombre (home-dark.png)")
     a = ap.parse_args()
     os.makedirs(a.outdir, exist_ok=True)
+    viewports = [v.strip() for v in a.viewports.split(",") if v.strip()]
 
     report = {}
     if a.pages.strip():
@@ -134,11 +159,27 @@ if __name__ == "__main__":
         selection, report = group_templates(paths, collapse=not a.all_pages)
         mode = "toutes-les-pages" if a.all_pages else "1-page-par-template"
 
-    captured = [capture(a.url, a.outdir, p, a.budget, name, a.width) for p, name in selection]
+    captured = []
+    if "desktop" in viewports:
+        captured += [capture(a.url, a.outdir, p, a.budget, name, a.width)
+                     for p, name in selection]
+    if "mobile" in viewports:
+        captured += [capture(a.url, a.outdir, p, a.budget, name, a.width,
+                             mobile=True, suffixe="-mobile")
+                     for p, name in selection]
+    # Thème sombre : la home seule. Comparer avec home.png dit si le site en a un ;
+    # un site sans thème sombre rend une image identique au clair (à signaler, pas à garder).
+    if a.dark:
+        home = next((s for s in selection if s[1] == "home"), selection[0] if selection else None)
+        if home:
+            captured.append(capture(a.url, a.outdir, home[0], a.budget, home[1], a.width,
+                                    sombre=True, suffixe="-dark"))
     print(json.dumps({
         "mode": mode,
+        "viewports": viewports + (["dark(home)"] if a.dark else []),
         "n_pages": len(captured),
         "pages": captured,
+        "polices": fusionner_polices(captured),
         "templates_regroupés": report or None,
         "troncature": (f"{truncated} page(s) au-delà de --max={a.max} NON capturées"
                        if truncated else None),

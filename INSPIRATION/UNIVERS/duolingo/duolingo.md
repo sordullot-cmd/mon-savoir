@@ -18,6 +18,8 @@ tags: [inspiration, univers, brand, ui, illustration, mascotte, gamification, pl
 
 **Sources principales :** [design.duolingo.com](https://design.duolingo.com) (brand guidelines officielles, assets SVG) · [Johnson Banks — case study](https://johnsonbanks.co.uk) · [Beth Johnson — Identity & Bespoke Typeface for Duolingo](https://bethjohnson.design/duolingo) · App Store (captures produit)
 
+> **Lecture** : chaque famille de visuels est montrée par **une planche** (`<aspect>/planches/`), légendée juste dessous. Les fichiers vectoriels individuels restent dans leur dossier d'aspect (`branding/`, `character-design/`…) — c'est de là qu'on récupère un asset précis.
+
 ---
 
 ## Le système en bref
@@ -115,40 +117,40 @@ Ce que le relevé montre, et qui ne se lit nulle part dans les guidelines :
 
 Logotype, lockups, avatars, sous-marques et **toutes les grilles de construction officielles** (48 fichiers dans `branding/`).
 
-![[logo-lockup-portrait-duo-wordmark.svg]]
+![[logo-lockup-portrait-duo-wordmark.svg|380]]
 Le lockup portrait : Duo au-dessus du wordmark. C'est la version à fournir aux tiers — la notoriété de Duo fait le travail dans un espace carré ou vertical.
 
-![[lockup-paysage-duo-wordmark.svg]] ![[lockup-paysage-wordmark-duo.svg]] ![[lockup-wordmark-duo-a-droite.svg]]
+![[planche-lockups-paysage.png]]
 Lockups paysage. Duo à côté du logotype sert surtout en application tierce, où sa reconnaissance aide.
 
-![[construction-lockup-portrait-grille.svg]] ![[construction-lockup-paysage-grille.svg]]
+![[planche-construction-lockups.png]]
 Les grilles de construction des deux lockups — proportions et alignements figés.
 
-![[construction-wordmark-clear-space.svg]] ![[construction-clear-space-zone-protection.svg]] ![[construction-espacement-logotype.svg]]
+![[planche-clear-space.png]]
 Zone de protection et espacement. À réutiliser tel quel comme méthode dans une charte.
 
-![[construction-placement-quatre-coins.svg]] ![[construction-positionnement-page.svg]] ![[construction-repetition-wordmark.svg]] ![[construction-wordmark-vertical-rotation.svg]] ![[construction-wordmark-points-cles.svg]]
+![[planche-placement-en-page.png]]
 Règles de placement en page : les quatre coins, la répétition, la rotation verticale autorisée, et les points d'accroche du logotype.
 
-![[do-not-wordmark-multicolore.svg]] ![[do-not-wordmark-espacement.svg]] ![[do-not-wordmark-texture.svg]] ![[do-not-wordmark-contour.svg]]
+![[planche-do-not.png]]
 Les « do-nots » du logotype : pas de multicolore, pas de ré-espacement, pas de texture, pas de contour.
 
-![[logo-avatar-carre-duo.svg]] ![[logo-avatar-arrondi-duo.svg]] ![[logo-avatar-cercle-duo.svg]] ![[app-icon-duo-carre-arrondi.svg]] ![[app-icon-duo-vert-fond-plein.svg]]
+![[planche-avatars-app-icon.png]]
 Avatars. Règle précise : dans un carré, le masque des yeux de Duo doit **toucher** les bords gauche et droit ; plus la forme approche du cercle, plus on laisse de l'air.
 
-![[wordmark-feather-green.svg]] ![[wordmark-vert-clair-variante.svg]] ![[wordmark-eel-gris-fonce.svg]] ![[wordmark-noir.svg]] ![[wordmark-violet-plus.svg]] ![[wordmark-rotation-dynamique.svg]]
+![[planche-wordmark-declinaisons.png]]
 Déclinaisons du wordmark.
 
-![[sous-marque-duolingo-plus.svg]] ![[construction-duolingo-plus-grille.svg]] ![[construction-duolingo-plus-detail.svg]]
+![[planche-duolingo-plus.png]]
 Duolingo Plus : la seule sous-marque à changer radicalement de gamme chromatique (bleu/violet) pour signaler l'expérience premium.
 
-![[construction-sous-marque-proportions.svg]] ![[construction-sous-marque-lockup-alternatif.svg]] ![[sous-marque-lockup-vert-exemple.svg]] ![[sous-marque-lockup-noir-exemple.svg]] ![[sous-marque-noir-alternatif.svg]]
+![[planche-construction-sous-marque.png]]
 La construction d'une sous-marque : proportions du descripteur par rapport au logotype, et le lockup alternatif — utilisé quand le public ne connaît pas encore Duolingo et qu'il faut appuyer davantage sur la marque mère.
 
-![[sous-marque-community.svg]] ![[sous-marque-events.svg]] ![[sous-marque-podcasts.svg]] ![[sous-marque-incubator.svg]] ![[sous-marque-design-studio.svg]] ![[sous-marque-university-programs.svg]] ![[sous-marque-cefr-checker.svg]] ![[sous-marque-ai.svg]] ![[sous-marque-gear.svg]] ![[sous-marque-push.svg]]
+![[planche-sous-marques.png]]
 Le système de sous-marques : logotype vert + descripteur en DIN. Un modèle de brand architecture lisible — la marque mère ne se dilue jamais.
 
-![[signature-everyone-can-duolingo.svg]]
+![[signature-everyone-can-duolingo.svg|520]]
 La signature de marque : « everyone can duolingo » — le verbe comme promesse.
 
 ---
@@ -159,22 +161,22 @@ Le morceau le plus fort du dossier : **le système entier**, des formes de base 
 
 ### Les règles de construction
 
-![[regle-quatre-formes-de-base.svg]] ![[regle-formes-de-base-rose.svg]]
+![[planche-formes-de-base.png]]
 Les quatre formes de base : rectangle arrondi, cercle, triangle arrondi, demi-cercle. Tout Duolingo sort de là.
 
-![[regle-construction-duo-filaire.svg]] ![[regle-forme-corps-duo.svg]] ![[regle-forme-duo-symetrie.svg]] ![[regle-forme-duo-cotee.svg]] ![[regle-forme-duo-interdite.svg]]
+![[planche-construction-duo.png]]
 La construction de Duo, cotée, avec la forme interdite en rouge.
 
-![[regle-filaire-vers-duo-final.svg]] ![[regle-construction-duo-de-dos.svg]] ![[regle-construction-duo-ailes.svg]] ![[regle-construction-duo-grand-format.svg]]
+![[planche-duo-angles.png]]
 Du filaire au rendu final, et Duo sous plusieurs angles. Ses ailes prennent un vert plus sombre quand elles passent devant ou derrière le corps.
 
-![[regle-construction-corps-humain.svg]] ![[regle-construction-humain-filaire.svg]] ![[regle-construction-personnage-debout.svg]] ![[regle-proportions-silhouettes.svg]] ![[regle-construction-torse-articulations.svg]]
+![[planche-construction-humains.png]]
 La construction des humains : le même rig modulaire, décliné.
 
-![[regle-construction-gorille-filaire.svg]] ![[regle-construction-chien-filaire.svg]] ![[regle-construction-ours-filaire.svg]] ![[regle-construction-animal-filaire.svg]]
+![[planche-construction-animaux.png]]
 Les animaux suivent le même principe. Note de la charte : toutes les poses ne marchent pas pour tous les personnages — le gorille, fait de gros blocs de couleur, ne supporte que celles qui gardent ses masses séparées.
 
-![[regle-construction-yeux.svg]] ![[regle-stylisation-visage-avant-apres.svg]] ![[regle-stylisation-visage-avant-apres-2.svg]] ![[regle-couleurs-peau-do-not.svg]]
+![[planche-yeux-et-stylisation.png]]
 Les yeux (cinq styles principaux, **toujours géométriques — pas d'ovales**), et le passage d'un visage réel à sa version Duolingo.
 
 **Les règles écrites, résumées :**
@@ -188,33 +190,25 @@ Les yeux (cinq styles principaux, **toujours géométriques — pas d'ovales**),
 
 ### Duo
 
-![[duo-pose-neutre-de-face.svg]] ![[duo-portrait-trois-quarts.svg]] ![[duo-de-profil.svg]] ![[duo-ailes-ouvertes.svg]]
-![[duo-en-vol.svg]] ![[duo-en-marche.svg]] ![[duo-assis-yeux-brillants.svg]] ![[duo-sur-un-livre.svg]]
-![[duo-celebration-confettis.svg]] ![[duo-amoureux-coeurs.svg]] ![[duo-chante.svg]] ![[duo-note-de-musique.svg]]
-![[duo-grand-sourire-gros-plan.svg]] ![[duo-tire-la-langue.svg]] ![[duo-bulle-de-parole.svg]] ![[duo-variante-plongeur.svg]]
-![[duo-en-colere.svg]] ![[duo-fache-sourcils.svg]] ![[duo-blase-paupieres-basses.svg]] ![[duo-yeux-larmoyants.svg]] ![[duo-triste-en-pleurs.svg]] ![[duo-blesse-pansement.svg]]
+![[planche-duo-poses.png]]
 
 Duo est décrit dans la charte comme « quirky », et la consigne est explicite : explorer un maximum de poses et d'émotions. Il peut se plier à la taille, aux coudes et aux poignets — pour le buste, on **superpose un rectangle arrondi** plutôt que de déformer sa forme existante. Ses pattes peuvent se détacher du corps en mouvement, s'allonger, onduler ; s'il marchait dans le sable, ses empreintes seraient des cercles parfaits. Il n'apparaît que sur une sélection de fonds secondaires : son vert vibre et devient dur sur les autres.
 
 ### Le cast
 
-![[cast-bea-corps-entier.svg]] ![[cast-bea-en-marche.svg]] ![[cast-bea-assise.svg]] ![[cast-lily-agacee.svg]] ![[cast-zari-corps-entier.svg]] ![[cast-zari-pose-dynamique.svg]]
-![[cast-oscar-lunettes-beret.svg]] ![[cast-lin-portrait-buste.svg]] ![[cast-junior-boude.svg]] ![[cast-vikram-portrait.svg]] ![[cast-duo-personnages-bea-lily.svg]]
-![[cast-femme-chignon-portrait.svg]] ![[cast-homme-moustache-rousse.svg]] ![[cast-homme-moustache-coeurs.svg]] ![[cast-homme-turban-corps-entier.svg]] ![[cast-homme-salut-de-la-main.svg]]
-![[cast-groupe-quatre-personnages.svg]] ![[cast-foule-diversite.svg]]
+![[planche-cast-humains.png]]
 
 Les personnages de l'app : Bea, Lily, Zari, Oscar, Lin, Junior, Vikram… « Everyone can Duolingo », donc le cast doit refléter le monde. Contrairement à Duo, ils supportent une gamme de fonds beaucoup plus large : ils portent plus de teintes et vibrent moins.
 
-![[cast-gorille-debout.svg]] ![[cast-gorille-assis.svg]] ![[cast-ours-brun-portrait.svg]] ![[cast-ours-brun-echarpe.svg]] ![[cast-chien-bleu-os.svg]] ![[cast-chien-brun-portrait.svg]] ![[cast-chat-gris-assis.svg]] ![[cast-loup-portrait.svg]] ![[cast-lapin-gris.svg]] ![[cast-lapin-rose.svg]] ![[cast-grenouille-palette-verts.svg]] ![[cast-grenouille-palette-verts-2.svg]]
+![[planche-cast-animaux.png]]
 
 ### Expressions, mains et poses
 
-![[expression-tete-base-vierge.svg]] ![[expression-yeux-rectangles.svg]] ![[expression-yeux-brillants.svg]] ![[expression-yeux-fermes-plisses.svg]] ![[expression-sourire-large.svg]] ![[expression-bouche-ouverte-surprise.svg]] ![[expression-cri.svg]] ![[expression-bouche-dents-inquiete.svg]] ![[expression-regard-colere.svg]] ![[expression-dents-serrees-colere.svg]] ![[expression-lunettes-rondes.svg]] ![[expression-lunettes-carrees.svg]] ![[expression-yeux-nez-rouge.svg]] ![[expression-tete-hibou-brun.svg]]
+![[planche-expressions.png]]
 
 Le catalogue d'expressions sur une même tête : la démonstration la plus nette qu'un système de traits suffit à produire une émotion.
 
-![[main-pouce-leve.svg]] ![[main-index-pointe.svg]] ![[main-doigts-ecartes.svg]] ![[main-bras-plie.svg]] ![[main-bras-tendu.svg]]
-![[pose-personnage-bras-leve.svg]] ![[pose-personnage-designe.svg]] ![[pose-personnage-geste-ok.svg]] ![[pose-personnage-haussement-epaules.svg]] ![[pose-personnage-bras-croise.svg]] ![[pose-personnage-porte-carton.svg]] ![[pose-personnage-mange-baguettes.svg]]
+![[planche-mains-et-poses.png]]
 
 ---
 
@@ -222,31 +216,30 @@ Le catalogue d'expressions sur une même tête : la démonstration la plus nette
 
 Écrans produit (App Store, pleine résolution 1242 × 2688) et composants de la charte.
 
-![[app-store-01-selecteur-de-cours.png]] ![[app-store-02-exercice-image-a-choisir.png]] ![[app-store-04-exercice-traduction-mots.png]]
+![[planche-ecrans-cours-exercices.png]]
 Le sélecteur de cours (drapeaux en tuiles arrondies), l'exercice à choix d'images, l'exercice de traduction par blocs de mots. Toute l'UI tient sur : fond blanc, cartes à bordure `#E5E5E5`, boutons à ombre portée solide (le fameux effet « touche de clavier »), typo arrondie.
 
-![[app-store-06-serie-streak-3-jours.png]] ![[app-store-05-conversation-video-personnages.png]]
+![[planche-streak-conversation.png]]
 La série (streak) — flamme orange, semainier à pastilles — et la conversation vidéo avec les personnages. Deux piliers de la gamification.
 
-![[app-store-03-puzzle-echecs.png]] ![[app-store-07-exercice-math-nombres.png]] ![[app-store-08-exercice-musique-partition.png]]
+![[planche-verticales.png]]
 L'extension hors langues (échecs, math, musique) : chaque verticale garde exactement le même système, seule la couleur d'accent change.
 
-![[icone-validation-correct.svg]] ![[icone-erreur-incorrect.svg]] ![[icone-chevron-suivant.svg]]
+![[planche-icones-feedback.png]]
 Le feedback binaire : coche Feather Green, croix Cardinal. Formes épaisses, extrémités arrondies.
 
-![[composant-notifications-push-1.png]] ![[composant-notifications-push-2.png]] ![[composant-bandeau-personnages.svg]]
+![[planche-notifications.png]]
 Les notifications push — Duo en avatar, ton familier — et le bandeau de personnages.
 
 ---
 
 ## Illustrations
 
-![[pile-de-livres-colores.svg]] ![[objets-livres-rangee.svg]] ![[objets-instruments-musique.svg]] ![[objets-materiel-artistique.svg]] ![[objets-cartons-livraison.svg]]
-![[objet-voiture-jaune.svg]] ![[objet-scooter-vert.svg]] ![[objet-bol-de-ramen.svg]] ![[objets-fruits-assiette.svg]] ![[objets-fruits-fond-couleur.svg]] ![[bouquet-de-fleurs.svg]] ![[ponctuation-typographique.svg]]
+![[planche-objets.png]]
 
 Les objets : même grammaire de formes que les personnages, sans contour, ombre en pilule.
 
-![[scene-metro-rencontre.svg]] ![[scene-arret-de-bus.svg]] ![[scene-teletravail-bureau.svg]] ![[scene-cuisine-chef.svg]] ![[scene-musiciens-fanfare.svg]] ![[scene-fete-ballons.svg]] ![[scene-couple-voyage.svg]] ![[scene-duo-a-la-plage.svg]]
+![[planche-scenes.png]]
 
 Les scènes : « des illustrations simples qui reflètent l'idée de communication », posées sur blanc ou sur Feather Green.
 
@@ -254,7 +247,7 @@ Les scènes : « des illustrations simples qui reflètent l'idée de communicati
 
 ## Photographie
 
-![[portrait-homme-chapeau-polo-vert.png]] ![[portrait-femme-tresses-rue.png]] ![[portrait-homme-tablier-fond-orange.png]] ![[portrait-femme-motif-bleu.png]] ![[portrait-femme-devanture-verte.png]] ![[scene-velo-mur-logo.png]]
+![[planche-portraits.png]]
 
 Le volet le moins connu de la marque, et pourtant très cadré : **des portraits authentiques de gens qui apprennent**, partout dans le monde, chacun raconté par son histoire. Consigne littérale de la charte : « quand c'est possible, choisir des images avec un élément vert dans les vêtements ou le décor ». Le vert de marque revient donc dans la photo sans qu'on ait à l'ajouter. Photographies de **Niall McDiarmid** pour le rebrand.
 
@@ -262,13 +255,13 @@ Le volet le moins connu de la marque, et pourtant très cadré : **des portraits
 
 ## Campagnes
 
-![[affiche-as-easy-as-uno-dos-tres.svg]] ![[construction-as-easy-as-uno-dos-tres.svg]] ![[affiche-as-easy-as-uno-dos-tres-grille.svg]]
+![[planche-affiche-uno-dos-tres.png]]
 « As easy as uno, dos, tres » — et sa grille de construction, qui montre comment le logotype se pose dans une affiche.
 
-![[signature-we-have-seen-the-future-vert.svg]] ![[signature-we-have-seen-the-future-multicolore.svg]] ![[signature-we-have-seen-the-future-noir.svg]] ![[signature-we-have-seen-the-future-fond-vert.svg]]
+![[planche-we-have-seen-the-future.png]]
 « We have seen the future » en quatre traitements — dont la version où chaque mot prend une couleur de la palette.
 
-![[capture-tweet-pittsburgh-proud.png]]
+![[capture-tweet-pittsburgh-proud.png|520]]
 La marque sur les réseaux : le ton de voix en action.
 
 ---

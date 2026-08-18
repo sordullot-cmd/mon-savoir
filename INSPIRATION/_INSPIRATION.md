@@ -41,6 +41,8 @@ Dans le frontmatter (`media:`, `mood:`) ou en `#tag`.
 - `animations` — types présents : `scroll-reveal` · `parallaxe` · `sticky-pin` · `loader` · `hover` · `curseur-custom` · `transitions-page` · `webgl-3d` · `video-bg` · `marquee` · `drag` · `morphing` · `text-anim` · `canvas`
 - `layout` — structure : `grille` · `asymétrique` · `plein-écran` · `split` · `magazine` · `bento` · `centré`
 - `mood` — ambiance : `minimal` · `bold` · `editorial` · `brutalist` · `retro` · `organic` · `playful` · `luxe` · `dark` …
+- `typos` — polices **réellement rendues**, relevées automatiquement à la capture (pas devinées). Lier `[[la fiche font]]` si elle existe dans le vault, sinon la citer telle quelle.
+- `date_capture` — date de la capture (`AAAA-MM-JJ`) : un site change, une inspi datée reste lisible des années après.
 
 > **Manque une valeur** (un `type_site` ou un type d'`animations` non listé) ? On peut l'**ajouter ici** — cf. règle de création de catégories dans `CLAUDE.md` (rester sobre, signaler l'ajout, ne pas multiplier).
 
@@ -51,7 +53,7 @@ Dans le frontmatter (`media:`, `mood:`) ou en `#tag`.
 - `type_app` — `productivité` · `social` · `finance` · `santé` · `média` · `commerce` · `outil` · `jeu` · `ia`
 - `plateformes` — `[ios, android, web, macos]`
 - `editeur` · `version` · `url_store` — relevés automatiquement depuis le store
-- `patterns` — écrans/parcours présents : `onboarding` · `paywall` · `tab-bar` · `navigation-gestuelle` · `feed` · `recherche` · `parametres` · `empty-state` · `mode-sombre`
+- `patterns` — écrans/parcours présents : `onboarding` · `paywall` · `tab-bar` · `navigation-gestuelle` · `feed` · `recherche` · `parametres` · `empty-state` · `mode-sombre` · `gamification`
 
 ## Inspirations site (dossier + captures)
 Une inspi web = un **dossier** dans sa discipline contenant la **fiche + 1 screenshot par page** :
@@ -79,7 +81,8 @@ UI-DESIGN/<slug>/
 ├── couleurs/      ← nuanciers (palette.py)
 ├── composants/    ← blocs UI remarquables (→ [[_COMPOSANTS]])
 ├── animations/    ← transitions, micro-anims (→ [[_ANIMATIONS]])
-└── marketing/     ← site du produit, landing, page store
+├── marketing/     ← site du produit, landing, page store
+└── archive/       ← états antérieurs du produit (refontes passées, versions historiques du site), seulement si la matière existe
 ```
 Créé par **`/inspi`** en mode app (ou sur un site quand Sacha demande « le dossier complet »).
 

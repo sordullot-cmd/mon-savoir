@@ -9,7 +9,8 @@ tags: [moc, inspiration, ui]
 
 | Produit | Type | Plateformes | Aspects couverts | Fiche |
 | --- | --- | --- | --- | --- |
-|  |  |  |  |  |
+| **Kraken** | finance / crypto | iOS · Android · web | écrans (3 millésimes) · flows KYC · branding · couleurs · composants · marketing · archive 2019-2022 | [[kraken]] |
+| **Yazio** | santé / nutrition | iOS · Android · web | écrans réels · flows onboarding · paywalls 2023-2026 · branding complet (press kit + charte) · typo sur mesure · couleurs · composants · 15 films Koto · marketing · archive de l'identité d'avant | [[yazio]] |
 
 ## Où chercher des écrans
 

@@ -18,6 +18,7 @@ tags: [moc, accueil]
 ## Accès rapides
 
 - [[INBOX/À-PROPOS|Inbox]] — tout ce qui n'est pas encore rangé
+- [[_NOTES|Notes]] — les notes prises sur le tas, synchronisées avec l'app
 - Templates: [[Template-Projet]] · [[Template-Client]] · [[Template-Devis]] · [[Template-Inspiration]]
 
 ## En cours

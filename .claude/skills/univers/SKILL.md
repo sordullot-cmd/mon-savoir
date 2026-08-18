@@ -15,7 +15,7 @@ Marche pour **n'importe quel univers** : jeu vidéo, marque, studio, film, séri
 
 1. **Identifier l'univers.** Si le nom est ambigu (plusieurs jeux/marques homonymes), demander. Noter le **focus** éventuel de Sacha (« surtout la DA », « juste les logos ») → il pondère la recherche.
 
-2. **Recherche en éventail** (WebSearch/WebFetch ; pour un gros univers, lancer des **agents parallèles**, un par angle). Chercher dans cet ordre de fiabilité :
+2. **Recherche en éventail** — **un sous-agent par source, tous lancés dans un seul message**, puis table ronde (fusion, dédup, jury qualité/pertinence/couverture) : le protocole commun est décrit dans **`.claude/skills/inspi/references/recolte.md`**, le catalogue des sources dans **`.claude/skills/inspi/references/sources.md`**. Angles propres à un univers, par ordre de fiabilité :
    - **Sources officielles** : site officiel, press kit (souvent `presskit()` / page « press »), comptes officiels, pages stores (Steam, App Store…).
    - **Artistes crédités** : identifier qui a fait quoi (art director, character designer, illustrateurs, studios d'animation des trailers) et retrouver leurs **portfolios** (ArtStation, Behance, site perso) — c'est là que vivent les concept arts et process.
    - **Bases spécialisées** : Game UI Database (gameuidatabase.com) pour les UI de jeux, wikis de fans (screenshots, sprites), Fonts In Use / Brands of the World pour les marques, Art of the Title pour les génériques…
@@ -34,12 +34,21 @@ Marche pour **n'importe quel univers** : jeu vidéo, marque, studio, film, séri
    - **Nommage descriptif en kebab** : `logo-principal.png`, `menu-principal.jpg`, `concept-narinder.jpg`, `trailer-lancement.mp4`… jamais `image(3).jpg`.
    - **Volume** : viser la qualité, pas l'exhaustivité — **~30 à 60 médias forts** par défaut (plus si Sacha demande « tout »). Toute troncature/échec de téléchargement → **signaler, jamais silencieux**.
 
-5. **Vérifier un échantillon** (`Read` sur quelques images par aspect) : bonne résolution, bon contenu, rien de hors-sujet. Virer les doublons et les vignettes basse qualité.
+5. **Regarder les images, puis ranger** — obligatoire, et pas sur un échantillon : faire la **planche de contact** de chaque aspect, la lire, et classer d'après ce qu'on voit (jamais d'après le nom du fichier ni l'ordre des pages du PDF source) :
+   ```
+   python3 .claude/skills/_lib/planche.py "<scratchpad>/vu-<aspect>.png" "INSPIRATION/UNIVERS/<slug>/<aspect>/*" --cols 6 --tile 200
+   ```
+   Ce qu'on en tire : les doublons et les visuels vides (à virer), la bonne résolution, et surtout les **familles de variantes** — même visuel à la couleur / au cadre / à la rotation près. Une famille ne donne **pas** N références : elle donne **une planche**
+   ```
+   python3 .claude/skills/_lib/planche.py "<aspect>/planches/planche-<famille>.png" <fichiers…> --cols 3 --bg clair --titre "…"
+   ```
+   qui sera le **seul embed** de la fiche pour cette famille (les fichiers restent en place comme assets). Détail de la règle : § « Gestion des images » de `.claude/skills/inspi/SKILL.md`.
+   **Pourquoi c'est non négociable** : dans Obsidian un SVG sans dimensions s'affiche **pleine largeur**, donc dix embeds du même wordmark = dix pleines pages qui n'apprennent rien (cas vécu, `duolingo/branding`, août 2026). Un visuel seul se cadre avec `![[x.svg|500]]`.
 
 6. **Faire les couleurs — en images, pas en texte.** Deux commandes, avec `palette.py` (livré avec ce skill, sans dépendance) :
    ```
-   python3 .claude/skills/univers/palette.py releve "INSPIRATION/UNIVERS/<slug>/ui/*.png"
-   python3 .claude/skills/univers/palette.py nuancier palette.json "INSPIRATION/UNIVERS/<slug>/couleurs/"
+   python3 .claude/skills/_lib/palette.py releve "INSPIRATION/UNIVERS/<slug>/ui/*.png"
+   python3 .claude/skills/_lib/palette.py nuancier palette.json "INSPIRATION/UNIVERS/<slug>/couleurs/"
    ```
    Relever aussi la **charte publiée** si elle existe (brand guidelines, press kit, tokens du site) avec ses vrais noms et références (Pantone, CMJN). Chaque pastille porte nom + hex + une note d'usage. Reporter dans `couleur_principale` / `couleurs` et intégrer les planches dans la fiche.
    **Ne jamais inventer un hex ni un nom** : charte sourcée ou relevé de pixels — et la fiche distingue les deux (une teinte relevée absente de la charte se signale comme telle).
@@ -56,7 +65,9 @@ Marche pour **n'importe quel univers** : jeu vidéo, marque, studio, film, séri
 
 9. **Réindexer MemPalace** : `mempalace mine "$HOME/Documents/brain^2" --agent sacha`.
 
-10. **Sync vault-gallery** : `npm run index --prefix ~/Documents/GitHub/vault-gallery` et inclure son récap.
+10. **Publier** : dérouler `.claude/skills/_lib/publier.md` — réindexer le site
+    (`npm run index --prefix ~/Documents/GitHub/vault-gallery`), puis commiter et pousser
+    **le vault et le site** (le push du site déclenche le déploiement Vercel). Non bloquant.
 
 11. **Récapituler** : slug, aspects créés, nb de médias par aspect, artistes identifiés, vidéos (taille), source des couleurs (charte publiée / relevé / les deux), et tout échec/troncature/source inaccessible.
 

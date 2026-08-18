@@ -1,1 +1,416 @@
-[]
+[
+  {
+    "action": "upload",
+    "path": "attachments/apprentissage de la journée-schema.svg",
+    "timestamp": 1787016748456,
+    "isBinary": true
+  },
+  {
+    "action": "delete",
+    "path": "attachments/apprentissage de la journée-schema.svg.crswap",
+    "timestamp": 1787016748557,
+    "isBinary": true
+  },
+  {
+    "action": "delete",
+    "path": "attachments/apprentissage de la journée-schema.svg.1.crswap",
+    "timestamp": 1787016748573,
+    "isBinary": true
+  },
+  {
+    "action": "delete",
+    "path": "social media.md",
+    "timestamp": 1787016784715,
+    "isBinary": false
+  },
+  {
+    "action": "delete",
+    "path": "anime manga film.md",
+    "timestamp": 1787016784720,
+    "isBinary": false
+  },
+  {
+    "action": "delete",
+    "path": "app.md",
+    "timestamp": 1787016784726,
+    "isBinary": false
+  },
+  {
+    "action": "delete",
+    "path": "appartement.md",
+    "timestamp": 1787016784730,
+    "isBinary": false
+  },
+  {
+    "action": "delete",
+    "path": "apprentissage de la journée.md",
+    "timestamp": 1787016784742,
+    "isBinary": false
+  },
+  {
+    "action": "delete",
+    "path": "base trading.md",
+    "timestamp": 1787016784745,
+    "isBinary": false
+  },
+  {
+    "action": "delete",
+    "path": "glow uppp.md",
+    "timestamp": 1787016784750,
+    "isBinary": false
+  },
+  {
+    "action": "delete",
+    "path": "plan pour passer a 100k mensuelle.md",
+    "timestamp": 1787016784754,
+    "isBinary": false
+  },
+  {
+    "action": "delete",
+    "path": "powell.md",
+    "timestamp": 1787016784757,
+    "isBinary": false
+  },
+  {
+    "action": "delete",
+    "path": "recette et ingrediens.md",
+    "timestamp": 1787016784761,
+    "isBinary": false
+  },
+  {
+    "action": "delete",
+    "path": "sdtv.md",
+    "timestamp": 1787016784769,
+    "isBinary": false
+  },
+  {
+    "action": "upload",
+    "path": "INSPIRATION/UI-DESIGN/yazio/couleurs/palette-coeur-de-marque-yazio.svg",
+    "timestamp": 1787017636839,
+    "isBinary": true
+  },
+  {
+    "action": "upload",
+    "path": "INSPIRATION/UI-DESIGN/yazio/couleurs/palette-rampe-verte-yazio.svg",
+    "timestamp": 1787017636841,
+    "isBinary": true
+  },
+  {
+    "action": "upload",
+    "path": "INSPIRATION/UI-DESIGN/yazio/couleurs/palette-neutres-yazio.svg",
+    "timestamp": 1787017636842,
+    "isBinary": true
+  },
+  {
+    "action": "upload",
+    "path": "INSPIRATION/UI-DESIGN/yazio/couleurs/palette-semantiques-yazio.svg",
+    "timestamp": 1787017636843,
+    "isBinary": true
+  },
+  {
+    "action": "upload",
+    "path": "INSPIRATION/UI-DESIGN/yazio/couleurs/palette-relevee-yazio.svg",
+    "timestamp": 1787017636845,
+    "isBinary": true
+  },
+  {
+    "action": "delete",
+    "path": "INSPIRATION/UI-DESIGN/yazio/couleurs/palette-design-system-yettie.svg",
+    "timestamp": 1787017636877,
+    "isBinary": true
+  },
+  {
+    "action": "delete",
+    "path": "INSPIRATION/UI-DESIGN/yazio/couleurs/palette-relevee-dans-les-ecrans.svg",
+    "timestamp": 1787017636879,
+    "isBinary": true
+  },
+  {
+    "action": "upload",
+    "path": "INSPIRATION/UI-DESIGN/yazio/yazio.md",
+    "timestamp": 1787017811671,
+    "isBinary": false
+  },
+  {
+    "action": "upload",
+    "path": "CONTEXTE-POUR-CLAUDE.md",
+    "timestamp": 1787017973642,
+    "isBinary": false
+  },
+  {
+    "action": "upload",
+    "path": "ACCUEIL.md",
+    "timestamp": 1787018953257,
+    "isBinary": false
+  },
+  {
+    "action": "upload",
+    "path": "notes/conflicts/achat (app 2026-08-18T12-54-47-440).md",
+    "timestamp": 1787057687542,
+    "isBinary": false
+  },
+  {
+    "action": "upload",
+    "path": "notes/conflicts/achat (app 2026-08-18T12-54-47-445).md",
+    "timestamp": 1787057687543,
+    "isBinary": false
+  },
+  {
+    "action": "upload",
+    "path": "notes/attachments/apprentissage de la journée-schema.svg",
+    "timestamp": 1787057687780,
+    "isBinary": true
+  },
+  {
+    "action": "upload",
+    "path": "notes/conflicts/glow uppp (app 2026-08-18T12-54-47-440).md",
+    "timestamp": 1787057687838,
+    "isBinary": false
+  },
+  {
+    "action": "upload",
+    "path": "notes/conflicts/glow uppp (app 2026-08-18T12-54-47-445).md",
+    "timestamp": 1787057687841,
+    "isBinary": false
+  },
+  {
+    "action": "upload",
+    "path": "notes/conflicts/sdtv (obsidian 2026-08-18T12-54-47-440).md",
+    "timestamp": 1787057687885,
+    "isBinary": false
+  },
+  {
+    "action": "upload",
+    "path": "notes/conflicts/sdtv (obsidian 2026-08-18T12-54-47-445).md",
+    "timestamp": 1787057687891,
+    "isBinary": false
+  },
+  {
+    "action": "upload",
+    "path": "notes/conflicts/powell (obsidian 2026-08-18T12-54-47-440).md",
+    "timestamp": 1787057687919,
+    "isBinary": false
+  },
+  {
+    "action": "delete",
+    "path": "notes/attachments/apprentissage de la journée-schema.svg.1.crswap",
+    "timestamp": 1787057687925,
+    "isBinary": true
+  },
+  {
+    "action": "delete",
+    "path": "notes/attachments/apprentissage de la journée-schema.svg.crswap",
+    "timestamp": 1787057687927,
+    "isBinary": true
+  },
+  {
+    "action": "upload",
+    "path": "notes/conflicts/powell (obsidian 2026-08-18T12-54-47-445).md",
+    "timestamp": 1787057687943,
+    "isBinary": false
+  },
+  {
+    "action": "delete",
+    "path": "notes/fiscalité.md",
+    "timestamp": 1787057688953,
+    "isBinary": false
+  },
+  {
+    "action": "delete",
+    "path": "notes/appartement.md",
+    "timestamp": 1787057688958,
+    "isBinary": false
+  },
+  {
+    "action": "delete",
+    "path": "notes/recettes et ingrédients.md",
+    "timestamp": 1787057689008,
+    "isBinary": false
+  },
+  {
+    "action": "delete",
+    "path": "notes/recette et ingrediens.md",
+    "timestamp": 1787057737345,
+    "isBinary": false
+  },
+  {
+    "action": "delete",
+    "path": "notes/recette et courses.md.crswap",
+    "timestamp": 1787058194383,
+    "isBinary": true
+  },
+  {
+    "action": "delete",
+    "path": "notes/trading/base trading.md",
+    "timestamp": 1787060307964,
+    "isBinary": false
+  },
+  {
+    "action": "delete",
+    "path": "notes/trading/plan pour passer a 100k mensuelle.md",
+    "timestamp": 1787060307965,
+    "isBinary": false
+  },
+  {
+    "action": "delete",
+    "path": "notes/trading/powell.md",
+    "timestamp": 1787060307966,
+    "isBinary": false
+  },
+  {
+    "action": "delete",
+    "path": "notes/trading/sdtv.md",
+    "timestamp": 1787060307968,
+    "isBinary": false
+  },
+  {
+    "action": "delete",
+    "path": "notes/trading/social media.md",
+    "timestamp": 1787060307970,
+    "isBinary": false
+  },
+  {
+    "action": "delete",
+    "path": "notes/trading/synthese trading.md",
+    "timestamp": 1787060307973,
+    "isBinary": false
+  },
+  {
+    "action": "delete",
+    "path": "notes/glow/bien communiquer.md",
+    "timestamp": 1787060307994,
+    "isBinary": false
+  },
+  {
+    "action": "delete",
+    "path": "notes/glow/bien s'habiller.md",
+    "timestamp": 1787060307997,
+    "isBinary": false
+  },
+  {
+    "action": "delete",
+    "path": "notes/glow/glow uppp.md",
+    "timestamp": 1787060307998,
+    "isBinary": false
+  },
+  {
+    "action": "delete",
+    "path": "notes/glow/meta learning.md",
+    "timestamp": 1787060307999,
+    "isBinary": false
+  },
+  {
+    "action": "delete",
+    "path": "notes/appart/achat.md",
+    "timestamp": 1787060308005,
+    "isBinary": false
+  },
+  {
+    "action": "delete",
+    "path": "notes/appart/recette et courses.md",
+    "timestamp": 1787060308007,
+    "isBinary": false
+  },
+  {
+    "action": "upload",
+    "path": "notes/achat.md",
+    "timestamp": 1787060343611,
+    "isBinary": false
+  },
+  {
+    "action": "upload",
+    "path": "notes/base trading.md",
+    "timestamp": 1787060343615,
+    "isBinary": false
+  },
+  {
+    "action": "upload",
+    "path": "notes/glow uppp.md",
+    "timestamp": 1787060343616,
+    "isBinary": false
+  },
+  {
+    "action": "upload",
+    "path": "notes/social media.md",
+    "timestamp": 1787060343659,
+    "isBinary": false
+  },
+  {
+    "action": "upload",
+    "path": "notes/sdtv.md",
+    "timestamp": 1787060343661,
+    "isBinary": false
+  },
+  {
+    "action": "upload",
+    "path": "notes/plan pour passer a 100k mensuelle.md",
+    "timestamp": 1787060343710,
+    "isBinary": false
+  },
+  {
+    "action": "upload",
+    "path": "notes/meta learning.md",
+    "timestamp": 1787060343712,
+    "isBinary": false
+  },
+  {
+    "action": "upload",
+    "path": "notes/bien communiquer.md",
+    "timestamp": 1787060343713,
+    "isBinary": false
+  },
+  {
+    "action": "upload",
+    "path": "notes/bien s'habiller.md",
+    "timestamp": 1787060343714,
+    "isBinary": false
+  },
+  {
+    "action": "upload",
+    "path": "_NOTES.md",
+    "timestamp": 1787060357736,
+    "isBinary": false
+  },
+  {
+    "action": "upload",
+    "path": "notes/apprentissage de la journée.md",
+    "timestamp": 1787060648249,
+    "isBinary": false
+  },
+  {
+    "action": "upload",
+    "path": "notes/app.md",
+    "timestamp": 1787060648250,
+    "isBinary": false
+  },
+  {
+    "action": "upload",
+    "path": "notes/anime manga film.md",
+    "timestamp": 1787060882287,
+    "isBinary": false
+  },
+  {
+    "action": "upload",
+    "path": "notes/synthese trading.md",
+    "timestamp": 1787060883528,
+    "isBinary": false
+  },
+  {
+    "action": "upload",
+    "path": "notes/powell.md",
+    "timestamp": 1787061392218,
+    "isBinary": false
+  },
+  {
+    "action": "upload",
+    "path": "CLAUDE.md",
+    "timestamp": 1787061613870,
+    "isBinary": false
+  },
+  {
+    "action": "upload",
+    "path": "notes/recette et courses.md",
+    "timestamp": 1787061693540,
+    "isBinary": false
+  }
+]

@@ -62,8 +62,11 @@ La cohérence du vocabulaire prime sur l'expressivité. Donc :
 - Ne pas dupliquer une fiche existante : si la famille a déjà une fiche, la **mettre à jour** (y compris compléter la provenance web si elle manque).
 - Le specimen est un fichier temporaire (scratchpad), pas à ranger dans le vault. Les images « in use », elles, sont du contenu durable : elles vivent dans `ASSETS/FONTS/<Famille>/in-use/` et sont référencées par la fiche.
 
-## Étape finale — sync vault-gallery
+## Étape finale — publier
 
-Après toute création ou mise à jour de fiche, lancer
-`npm run index --prefix ~/Documents/GitHub/vault-gallery`
-et inclure son récap (ajouté / mis à jour / supprimé) dans le compte-rendu.
+Après toute création ou mise à jour de fiche, dérouler
+**`.claude/skills/_lib/publier.md`** : réindexer le site
+(`npm run index --prefix ~/Documents/GitHub/vault-gallery`), puis **commiter et
+pousser les deux dépôts** — le vault (`~/Documents/brain^2`) et le site
+(`~/Documents/GitHub/vault-gallery`, dont le push déclenche le déploiement Vercel).
+Non bloquant : un échec se signale dans le récap, il ne fait pas échouer le run.

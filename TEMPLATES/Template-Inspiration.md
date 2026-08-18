@@ -11,6 +11,8 @@ anime:               # oui | non | léger
 animations:          # [scroll-reveal, parallaxe, sticky-pin, loader, hover, curseur-custom, transitions-page, webgl-3d, video-bg, marquee, drag, morphing, text-anim, canvas]
 layout:              # grille | asymétrique | plein-écran | split | magazine | bento | centré
 mood:                # [minimal, bold, organic, retro, editorial, brutalist, ...]
+typos:               # polices réellement rendues, relevées à la capture : [Inter Variable, Berkeley Mono] — lier [[fiche]] si elle existe
+date_capture:        # AAAA-MM-JJ — un site change, la capture date
 tags: [inspiration]
 ---
 
