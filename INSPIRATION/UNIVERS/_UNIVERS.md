@@ -13,7 +13,6 @@ tags: [moc, inspiration, univers]
 | ---------------- | --------- | ------------------------------------------------------------------------------- | -------------------- |
 | BitePal          | app       | branding, couleurs, ui, character-design, illustrations, site                    | [[bitepal]]          |
 | Duolingo         | app       | branding, couleurs, ui, character-design, illustrations, photographie, campagnes | [[duolingo]]         |
-| Kraken           | marque    | branding, couleurs, illustrations, ui, web, animations, produit                  | [[kraken]]           |
 
 
 ---
