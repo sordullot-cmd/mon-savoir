@@ -57,6 +57,8 @@ Plus : `ACCUEIL.md` (dashboard central) · `INBOX/` (capture rapide) · `TEMPLAT
 - **`/inspi`** — dossier de référence d'un **produit numérique**, à partir d'une **URL** ou d'un nom : site, app, ou post social. **Appelé par `/ranger`** quand un lien arrive.
 
 > **Frontière `/univers` ↔ `/inspi`** : *un monde qu'on regarde* (jeu, film, studio, marque) → `/univers` ; *un produit numérique qu'on utilise* (app, SaaS, site) → `/inspi`.
+>
+> **Même sortie pour les deux** : un dossier rangé **par aspect** (`ecrans/` ou `visuels/`, `flows/`, `branding/`, `couleurs/`, `composants/`, `animations/`, `marketing/`, `process/`, `archive/`) plus une fiche avec une section par aspect, `## Sources` et `## Crédits` nominatifs. `/inspi` le fait dans **tous** ses modes et **toutes** les disciplines — jamais un dossier plat de captures. Structure détaillée dans `INSPIRATION/_INSPIRATION.md`.
 
 Le détail de chaque skill — sources, protocole, outils, garde-fous — vit dans son `SKILL.md` et se charge à l'invocation. Ne pas le recopier ici : la description du frontmatter suffit au routage.
 

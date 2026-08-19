@@ -95,9 +95,14 @@ et les **planches de contact**. Trois lentilles, trois agents :
   Verdict par média : garder / remplacer par la version d'une autre source / jeter.
 - **Pertinence** — est-ce que ça apprend quelque chose à un designer product/UI/brand ?
   Un écran de plus qui répète le précédent ne vaut pas une ligne dans la fiche.
-- **Couverture** — l'inverse des deux autres : **quel aspect n'a rien ?** Pas de
-  branding ? Pas un seul flow ? Aucune couleur relevée ? Il désigne les trous et
-  propose la source à relancer.
+- **Couverture** — l'inverse des deux autres : **quel aspect n'a rien ?** Il juge sur la
+  grille du socle (§ Étape 2 du SKILL) — `ecrans/` ou `visuels/`, `flows/`, `branding/`,
+  `couleurs/`, `composants/`, `animations/`, `marketing/`, `process/`, `archive/` — et
+  pour chaque aspect vide il dit **quelle source** aurait dû le remplir (voir le tableau
+  aspect → source dans `sources.md`) et **quel agent relancer** avec quelle consigne.
+  Il vérifie aussi deux choses qu'on oublie : le **press kit** a-t-il vraiment été
+  cherché et son API explorée ? l'**équipe design nommée** a-t-elle été trouvée (compte
+  Dribbble/Behance de la marque, case studies signés) ?
 
 Le juge « couverture » peut **rouvrir l'éventail** : s'il manque un aspect entier,
 relancer 1 ou 2 agents ciblés plutôt que de livrer un dossier borgne.

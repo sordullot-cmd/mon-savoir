@@ -1,13 +1,17 @@
 ---
 name: inspi
-description: Transforme un lien OU un nom de produit numérique en référence rangée dans INSPIRATION, en récoltant sur PLUSIEURS sources en parallèle (officiel + bases d'UI type Mobbin + galeries + auteur + presse), jamais une seule. Site web → captures pleine hauteur desktop/mobile/sombre + typos + composants + animations + walkthrough. App (nom ou lien de store) → dossier complet : écrans pleine qualité, flows, branding, couleurs, crédits. Post social (X, Instagram, Pinterest, TikTok, Behance, Dribbble, YouTube…) → média pleine qualité + le projet complet dont il est extrait. Appelé par /ranger quand un lien arrive, ou directement « ajoute ce site/post en inspi », « fais-moi le dossier de telle app ».
+description: Transforme un lien OU un nom de produit numérique en DOSSIER DE RÉFÉRENCE RANGÉ PAR ASPECT dans INSPIRATION — même forme de dossier que /univers, pour les trois modes et toutes les disciplines (ui-design, webdesign, brand-design, graphisme, motion) : ecrans (ou visuels), flows, branding, couleurs, composants, animations, marketing, process, archive. Récolte sur PLUSIEURS sources en parallèle (officiel + press kit + bases d'UI type Mobbin + galeries + auteur/équipe design + presse), jamais une seule. Site web → captures pleine hauteur desktop/mobile/sombre + typos rendues + walkthrough. App (nom ou lien de store) → écrans pleine qualité, flows, métadonnées d'éditeur. Post social (X, Instagram, Pinterest, TikTok, Behance, Dribbble, YouTube…) → le média puis le projet complet dont il est extrait. Fiche avec une section par aspect, Sources et Crédits nominatifs. Appelé par /ranger quand un lien arrive, ou directement « ajoute ce site/post en inspi », « fais-moi le dossier de telle app ».
 ---
 
-# /inspi — Référence d'un produit numérique (site, app, post)
+# /inspi — Dossier de référence d'un produit numérique (site, app, post)
 
-Transforme une **URL** ou un **nom de produit** en référence rangée : un **dossier**
-dans sa discipline, contenant les **sources + les visuels + une fiche** décrite,
-cherchable par allure.
+Transforme une **URL** ou un **nom de produit** en **dossier de référence rangé par
+aspect** : les médias en pleine qualité, classés par nature, plus une fiche cherchable
+par allure qui cite toutes ses sources et nomme ses auteurs.
+
+C'est **le même objet que produit `/univers`**, appliqué aux produits numériques. Les
+deux skills ne se distinguent que par la cible et par les outils de récolte, jamais par
+la profondeur ni par la forme de la sortie.
 
 Pour un **univers de marque ou de fiction** (jeu, film, studio) → **`/univers`**.
 Frontière : *un produit qu'on utilise* → `/inspi` ; *un monde qu'on regarde* → `/univers`.
@@ -21,11 +25,15 @@ récolte multi-sources** (§ Étape 1) avant qu'on écrive quoi que ce soit.
 
 ## Router
 
-| Ce que donne Sacha | Mode | Sortie |
+Le mode change **ce qu'on va chercher et avec quels outils**. Il ne change **jamais la
+forme de la sortie** : c'est toujours un **dossier de référence par aspect** (§ Étape 2),
+comme celui de `/univers`.
+
+| Ce que donne Sacha | Mode | Ce que le mode change |
 | --- | --- | --- |
-| URL de site web | **site** | dossier plat dans sa discipline |
-| Nom d'app, `apps.apple.com/…`, `play.google.com/…` | **app** | dossier par aspect |
-| URL de post/pin/vidéo (`x.com`, `instagram.com`, `pinterest.*`/`pin.it`, `tiktok.com`, `behance.net`, `dribbble.com`, `tumblr.com`, `bsky.app`, `threads.net`, `youtube.com`/`youtu.be`, `vimeo.com`…) | **post** | dossier du projet dont le post est extrait |
+| URL de site web | **site** | captures pleine hauteur maison (`capture-site.py`), relevé des typos rendues, walkthrough |
+| Nom d'app, `apps.apple.com/…`, `play.google.com/…` | **app** | écrans de store en natif (`grab-app.py`), métadonnées d'éditeur, bases d'UI mobile |
+| URL de post/pin/vidéo (`x.com`, `instagram.com`, `pinterest.*`/`pin.it`, `tiktok.com`, `behance.net`, `dribbble.com`, `tumblr.com`, `bsky.app`, `threads.net`, `youtube.com`/`youtu.be`, `vimeo.com`…) | **post** | le média du post (`grab-post.py`), puis **le projet entier** dont il est extrait |
 
 Cas hybrides — je tranche seul et je le signale dans le récap :
 - **post qui pointe vers un produit** → le produit devient la cible, le post est une source parmi d'autres ;
@@ -83,15 +91,80 @@ jusqu'à ce que la fiche soit écrite.
 
 ---
 
-## Étape 2 — le travail propre à chaque mode
+## Étape 2 — le dossier par aspect (toujours, tous les modes)
+
+**La sortie de `/inspi` est un dossier de référence rangé par aspect** — exactement la
+forme que produit `/univers`, transposée aux produits numériques. Jamais un dossier plat
+de captures, jamais un dossier de deux fichiers parce que la cible était « juste un
+post ». Un post est le fil qu'on tire ; le dossier est ce qu'il y a au bout.
+
+Un dossier plat coûte cher plus tard : on ne sait plus si `image-4.png` est un écran, un
+logo ou une pub, la fiche ne peut plus grouper par famille, et l'index transversal
+(`_COMPOSANTS`, `_ANIMATIONS`) n'a rien à référencer. L'aspect est ce qui rend le dossier
+relisable dans deux ans.
+
+### Socle commun — quelle que soit la discipline
+
+Un sous-dossier n'est créé **que s'il a du contenu**. Aucun dossier vide, aucun
+placeholder.
+
+| Aspect | Ce qui y va |
+| --- | --- |
+| `<slug>.md` | la fiche, une section par aspect |
+| `couleurs/` | nuanciers SVG : charte publiée **et/ou** relevé de pixels (§ Étape 4) |
+| `branding/` | logo, lockups, icône, fichiers de police récupérés, évolutions du logotype |
+| `composants/` | blocs remarquables, suffixés `_<slug>` → [[_COMPOSANTS]] |
+| `animations/` | GIF/MP4 de sections et micro-anims, suffixés `_<slug>` → [[_ANIMATIONS]] |
+| `marketing/` | site du produit, landing, page store, visuels sociaux, campagnes |
+| `process/` | ce que l'éditeur publie de sa fabrication : diagnostic, explorations, directions écartées, avant/après. **Rare et précieux** — la plupart des produits ne publient rien |
+| `archive/` | états antérieurs : refonte passée, ancienne UI, ancien site, millésimes datés |
+| `<aspect>/planches/` | les planches de famille, dans chaque aspect qui en a besoin |
+
+### Aspect principal — selon la discipline
+
+Le socle ne suffit pas : il faut le dossier qui porte **la matière même** de la cible. Il
+dépend de la discipline, pas du mode.
+
+| Discipline | Aspect principal | En plus, quand la matière existe |
+| --- | --- | --- |
+| `UI-DESIGN` | `ecrans/` | `flows/` (parcours numérotés ou vidéos) |
+| `WEBDESIGN` | `ecrans/` (les captures pleine hauteur) | `flows/`, `walkthrough.mp4` à la racine |
+| `BRAND-DESIGN` | `branding/` devient le cœur | `applications/` (identité en situation), `typographie/` |
+| `GRAPHISME` | `visuels/` | `typographie/`, `impression/` |
+| `MOTION` | `animations/` devient le cœur | `frames/` (arrêts sur image commentés), `storyboard/` |
+
+**Un aspect manque au tableau ?** On peut le créer — même règle que partout dans le
+vault (`CLAUDE.md`) : réutiliser en priorité, ne créer que si c'est vraiment justifié,
+**et le signaler dans le récap**. `process/` est né comme ça (`/inspi duolingo`,
+août 2026). Un aspect nouveau qui se révèle utile deux fois se documente dans
+`INSPIRATION/_INSPIRATION.md`.
+
+### Ce que ça exige de la récolte
+
+Le dossier par aspect n'est pas un rangement de fin de course : il **pilote l'éventail**
+de l'étape 1. Le juré « couverture » juge sur cette grille — un aspect vide est un trou
+à combler par une relance ciblée, pas une fatalité.
+
+Et si un aspect reste vide malgré tout, il n'existe pas dans le dossier et **le récap le
+dit**. Un dossier honnêtement borgne vaut mieux qu'un dossier rempli de hors-sujet : on
+ne met pas une illustration de campagne dans `ecrans/` pour que la case soit cochée.
+
+**Volume** : ~30 à 60 médias forts par défaut, plus si Sacha dit « tout ». La qualité,
+pas l'exhaustivité.
+
+---
+
+## Étape 3 — ce que chaque mode va chercher
 
 ### Mode site
 
 1. **Discipline** (= dossier) : `WEBDESIGN` (défaut), `UI-DESIGN`, `BRAND-DESIGN`,
    `GRAPHISME`, `MOTION`. **Slug** : `<domaine>` ou `<domaine>-<sujet>` en kebab.
-2. **Capturer** — pleine hauteur, 1 page par template, **desktop + mobile + home sombre** :
+2. **Capturer** — pleine hauteur, 1 page par template, **desktop + mobile + home sombre**.
+   Les captures sont la matière de l'aspect principal : elles vont dans **`<slug>/ecrans/`**,
+   pas à la racine du dossier.
    ```
-   python3 .claude/skills/inspi/capture-site.py "<url>" "INSPIRATION/<DISCIPLINE>/<slug>" \
+   python3 .claude/skills/inspi/capture-site.py "<url>" "INSPIRATION/<DISCIPLINE>/<slug>/ecrans" \
        --viewports desktop,mobile --dark
    ```
    - Pages racine uniques toutes capturées ; pages d'un même template (`/works/*`)
@@ -105,13 +178,19 @@ jusqu'à ce que la fiche soit écrite.
      rapprocher des fiches du vault → `[[nom-de-la-font]]` si elle existe, sinon
      mentionner la typo et proposer `/font`.
 3. **Regarder les captures** (`Read` la home + 1-2 pages clés) : style, mood, couleurs.
-4. **Composants + animations**, **walkthrough**, **couleurs** — § Étape 3.
-5. **Fiche** depuis `TEMPLATES/Template-Inspiration.md` (§ Fiche).
+4. **Le site n'est qu'un aspect du dossier.** L'éventail de l'étape 1 doit remplir les
+   autres : `branding/` (press kit du studio ou de la marque, logotype, fichiers de
+   police servis par le site), `process/` (le case study du studio sur son propre
+   projet — Awwwards, Behance, article), `archive/` (le site d'avant, via Wayback ou
+   une galerie qui l'a indexé), `marketing/`. Un site capturé sans rien autour, c'est
+   le dossier plat qu'on ne veut plus.
+5. **Composants + animations**, **walkthrough**, **couleurs** — § Étape 4.
+6. **Fiche** depuis `TEMPLATES/Template-Inspiration.md` (§ Fiche).
 
 ### Mode app
 
-Les écrans d'une app vivent dans les stores et les bases d'UI ; la sortie est toujours
-un **dossier par aspect** dans `INSPIRATION/UI-DESIGN/<slug>/`.
+Les écrans d'une app vivent dans les stores et les bases d'UI. Le dossier va dans
+`INSPIRATION/UI-DESIGN/<slug>/`.
 
 1. **Écrans de store en résolution native** (source publique la plus fiable) :
    ```
@@ -135,19 +214,27 @@ un **dossier par aspect** dans `INSPIRATION/UI-DESIGN/<slug>/`.
 Un post = **le média d'abord**, et surtout **le projet dont il est extrait** : c'est
 l'agent « auteur » de l'éventail qui transforme un pin en dossier de 30 visuels.
 
-1. **Télécharger le média** :
+1. **Télécharger le média dans le scratchpad**, pas encore dans le vault — on ne connaît
+   ni la discipline ni l'aspect avant d'avoir regardé :
    ```
-   python3 .claude/skills/inspi/grab-post.py "<url>" "INSPIRATION/<DISCIPLINE>/<slug>/"
+   python3 .claude/skills/inspi/grab-post.py "<url>" "<scratchpad>/post/"
    ```
    `--cookies` si login (Instagram surtout ; macOS demande UNE FOIS l'accès trousseau).
    Échec malgré les cookies → `references/fallback-tuiles.md`.
 2. **Discipline d'après ce que MONTRE le post**, pas d'après la plateforme : dashboard
    → `UI-DESIGN`, affiche → `GRAPHISME`, reel de motion → `MOTION`, identité →
-   `BRAND-DESIGN`. On ne le sait qu'après avoir regardé → télécharger d'abord dans le
-   scratchpad, puis déplacer.
+   `BRAND-DESIGN`.
 3. **Slug** = ce que le post montre (`bartolomeu-moveis`), **jamais la plateforme**
    (elle vit dans `plateforme:`).
-4. **Fiche** depuis `TEMPLATES/Template-Inspiration-Post.md`, avec la légende du post
+4. **Le post n'est pas la cible, c'est l'indice.** Dédoubler l'agent « auteur » de
+   l'éventail (un sur le compte lui-même, un sur « ce projet publié ailleurs ») et
+   remonter jusqu'au projet complet : Behance, portfolio du studio, press kit du client,
+   article de presse. C'est ce qui remplit `visuels/` ou `ecrans/`, `branding/`,
+   `process/` et `animations/` — sans quoi il n'y a pas de dossier, juste une image.
+5. **Le média du post trouve sa place comme les autres** : dans l'aspect qui correspond
+   à ce qu'il montre, nommé d'après son contenu. `post.jpg` à la racine n'est acceptable
+   que si le projet est resté introuvable — et le récap le dit.
+6. **Fiche** depuis `TEMPLATES/Template-Inspiration-Post.md`, avec la légende du post
    en citation si elle éclaire le contenu.
 
 Cas particuliers : carrousel → tout garder (`post-1.jpg`…) ; board Pinterest entier →
@@ -156,7 +243,7 @@ stories et posts supprimés → non récupérables.
 
 ---
 
-## Étape 3 — commun à tous les modes
+## Étape 4 — commun à tous les modes
 
 ### Couleurs
 
@@ -262,12 +349,31 @@ l'officielle), quoi (chaque visuel décrit en une ligne), style, « Pourquoi je 
 FR/EN) — carburant de la recherche MemPalace. Le frontmatter reste contrôlé ; les
 mots-clés sont libres.
 
+**La fiche suit les aspects du dossier** : une section `##` par aspect, dans l'ordre du
+dossier, chaque famille montrée par **une planche** légendée juste dessous, et les
+fichiers isolés cités par leur chemin quand ils méritent une mention. Un aspect qui
+existe sur le disque et n'a pas sa section dans la fiche est un aspect perdu.
+
+**Deux sections sont obligatoires**, reprises de `/univers` parce qu'elles font la
+valeur d'un dossier de référence :
+
+- `## Sources` — **toutes** les sources de l'éventail, avec ce que chacune a apporté et
+  son URL. Un média sans provenance traçable ne rentre pas dans le dossier.
+- `## Crédits` — qui a fait quoi, **avec les liens vers les portfolios** (Dribbble,
+  Behance, site perso, agence, foundry). Sur un produit numérique, c'est souvent une
+  équipe nommée : chercher le compte de l'équipe design, les case studies signés, les
+  interviews. Nommer les gens est la moitié de l'intérêt du dossier.
+
 Une valeur manque au vocabulaire ? l'ajouter à `_INSPIRATION.md` et le signaler.
 
 ### Clôture
 
-1. **Indexer** : `_APPS.md` (app), `_MOODBOARD.md` (site), + `_COMPOSANTS.md` /
-   `_ANIMATIONS.md` pour ce qui a été extrait.
+1. **Indexer** — la ligne d'index nomme **les aspects couverts**, pas seulement la cible :
+   - `_APPS.md` dès que la cible est **un produit** (app mobile, app web, SaaS), qu'on soit
+     arrivé par un store, une URL ou un post ;
+   - `_MOODBOARD.md` quand la cible est un **site de référence** (portfolio, agence, studio,
+     éditorial) — c'est une inspi qu'on regarde, pas un produit qu'on utilise ;
+   - `+ _COMPOSANTS.md` / `_ANIMATIONS.md` pour ce qui a été extrait.
 2. **Réindexer MemPalace** : `mempalace mine "$HOME/Documents/brain^2" --agent sacha`
    (absent → sauter, le dire).
 3. **Publier** — dérouler `.claude/skills/_lib/publier.md` : réindexer le site
@@ -275,32 +381,44 @@ Une valeur manque au vocabulaire ? l'ajouter à `_INSPIRATION.md` et le signaler
    le vault ET le site** ; le push du site déclenche le déploiement Vercel.
    **Non bloquant** : un échec ne fait pas échouer un run réussi, il se signale.
 4. **Récap** : sources interrogées et ce que chacune a apporté · discipline / slug ·
-   nb de médias récoltés → retenus · descripteurs remplis · typos détectées ·
-   composants et anims gardés (ou « aucun ») · décisions prises seul · **toute limite
-   rencontrée** (troncature, cookie-wall, login, aspect resté vide).
+   **aspects créés avec le nb de médias par aspect, et les aspects restés vides** ·
+   nb de médias récoltés → retenus, et pourquoi les autres sont partis · descripteurs
+   remplis · typos détectées · **auteurs et studios identifiés** · composants et anims
+   gardés (ou « aucun ») · décisions prises seul (dont tout aspect ou toute valeur de
+   vocabulaire créé) · **toute limite rencontrée** (troncature, cookie-wall, login,
+   source inaccessible).
 
 ---
 
-## Structures produites
+## Structure produite
+
+**Une seule structure, pour les trois modes et toutes les disciplines.** Ce qui varie,
+c'est quels sous-dossiers ont de la matière — jamais la forme.
 
 ```
-INSPIRATION/<DISCIPLINE>/<slug>/          — site
-├── <slug>.md · home.png · <page>.png · <groupe>-template.png
-├── home-mobile.png · <page>-mobile.png · home-dark.png
-├── walkthrough.mp4 · composants/ · animations/
-
-INSPIRATION/UI-DESIGN/<slug>/             — app / produit
-├── <slug>.md · icone.png
-├── ecrans/ flows/ branding/ couleurs/ composants/ animations/ marketing/
-    (sous-dossier créé seulement s'il a du contenu)
-
-INSPIRATION/<DISCIPLINE>/<slug>/          — post
-├── <slug>.md · post.jpg (post-2.jpg… si carrousel) · post.mp4
-    (+ les aspects du projet complet si l'agent « auteur » l'a trouvé)
+INSPIRATION/<DISCIPLINE>/<slug>/
+├── <slug>.md            ← fiche : une section par aspect + Sources + Crédits
+├── icone.png            ← si la cible a une icône d'app
+├── walkthrough.mp4      ← mode site
+│
+├── ecrans/              ← UI-DESIGN, WEBDESIGN — l'aspect principal
+│   └── planches/        ← une planche par famille (le seul embed de la fiche)
+├── visuels/             ← GRAPHISME (à la place de ecrans/)
+├── flows/               ← parcours numérotés ou vidéos
+├── branding/            ← logo, lockups, icônes, fichiers de police
+├── couleurs/            ← nuanciers SVG (charte publiée et/ou relevé)
+├── composants/          ← blocs remarquables, suffixés _<slug> → [[_COMPOSANTS]]
+├── animations/          ← GIF/MP4, suffixés _<slug> → [[_ANIMATIONS]]
+├── marketing/           ← landing, page store, visuels sociaux, campagnes
+├── process/             ← ce que l'éditeur publie de sa fabrication
+└── archive/             ← états antérieurs, millésimes datés
 ```
+
+Sous-dossier **créé seulement s'il a du contenu**. Aspect manquant au tableau de
+l'étape 2 → on peut le créer, en le signalant.
 
 Nommage descriptif en kebab (`onboarding-03-permissions.png`), jamais `image(3).jpg`.
-Volume : la qualité, pas l'exhaustivité — ~20 à 50 médias forts, plus si Sacha dit « tout ».
+Volume : la qualité, pas l'exhaustivité — ~30 à 60 médias forts, plus si Sacha dit « tout ».
 
 ## Limites (à signaler, pas à cacher)
 
@@ -330,6 +448,13 @@ Volume : la qualité, pas l'exhaustivité — ~20 à 50 médias forts, plus si S
 - Usage = **référence personnelle**, pas de republication ; **sourcer** chaque famille
   de médias et créditer la base d'UI quand un écran en vient.
 - Toute limite se **signale**, jamais ne se cache.
+- **Surveiller le poids du dossier.** Un dossier par aspect systématique, c'est plus de
+  médias à chaque run, et les deux dépôts sont **déjà au bord** : `/inspi duolingo`
+  (août 2026) a produit 168 Mo, le push du vault a d'abord renvoyé un `HTTP 408` et
+  celui du site n'est pas passé. Les gros postes sont toujours les mêmes : les MP4 de
+  flows et les GIF surdimensionnés. Annoncer le poids dans le récap dès qu'il dépasse
+  ~50 Mo, et si un push échoue, **remonter l'arbitrage à Sacha** (cf. § « la taille » de
+  `_lib/publier.md`) — ne jamais supprimer de médias pour faire de la place.
 
 ## Outils
 

@@ -25,7 +25,15 @@ tags: [inspiration, ui]
 
 ![icone](icone.png)
 
-**Sources :** site officiel · page store · bases d'UI utilisées (Mobbin, Refero, Appshots…)
+**Sources :** site officiel · press kit · page store · bases d'UI utilisées (Mobbin, Refero, Page Flows, Appshots…)
+
+> **Lecture** : chaque famille d'écrans est montrée par **une planche**
+> (`<aspect>/planches/`), légendée juste dessous. Les fichiers individuels restent dans
+> leur dossier d'aspect — c'est de là qu'on récupère un écran précis.
+
+## En bref
+<!-- 4 à 6 puces : ce que le système fait, en observations vérifiables -->
+-
 
 ## Écrans
 <!-- ![[ecrans/...]] + une ligne par écran marquant (ce qu'il montre, ce qui est singulier) -->
@@ -46,10 +54,23 @@ tags: [inspiration, ui]
 <!-- transitions, micro-anims — aussi référencées dans [[_ANIMATIONS]] -->
 
 ## Marketing
-<!-- site du produit, landing, page store -->
+<!-- site du produit, landing, page store, visuels sociaux -->
+
+## Process
+<!-- ce que l'éditeur publie de sa fabrication : diagnostic, explorations, directions
+     écartées, avant/après. Rare — supprimer la section s'il n'y a rien -->
+
+## Archive
+<!-- états antérieurs : refonte passée, ancienne UI, ancien site, millésimes datés -->
+
+## Sources
+<!-- une entrée par source de l'éventail : ce qu'elle a apporté + l'URL.
+     Un média sans provenance traçable ne rentre pas dans le dossier. -->
 
 ## Crédits
-<!-- designers / studio identifiés, avec liens portfolio -->
+<!-- qui a fait quoi, AVEC les liens vers les portfolios (Dribbble, Behance, site perso,
+     agence, foundry). Chercher le compte de l'équipe design de la marque, pas seulement
+     des individus : chaque shot y est crédité nominativement. -->
 
 ## Pourquoi je l'aime
 -

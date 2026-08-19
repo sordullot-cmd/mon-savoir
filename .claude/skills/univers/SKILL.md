@@ -9,7 +9,7 @@ Transforme un **nom** (pas une URL — pour une URL, c'est `/inspi`) en **dossie
 
 Marche pour **n'importe quel univers** : jeu vidéo, marque, studio, film, série, musicien, événement…
 
-**Frontière avec `/inspi`** : *un monde qu'on regarde* (jeu, film, studio, marque) → `/inspi` ne suffit pas, c'est ici. *Un produit numérique qu'on utilise* (app, SaaS, site) → **`/inspi`**, qui produit le même genre de dossier par aspect en tirant les écrans des stores et des bases type Mobbin. Si un univers a une app ou un site à documenter, appeler `/inspi` pour cette partie et ranger le résultat dans le dossier de l'univers.
+**Frontière avec `/inspi`** : *un monde qu'on regarde* (jeu, film, studio, marque) → c'est ici. *Un produit numérique qu'on utilise* (app, SaaS, site, post) → **`/inspi`**, qui produit **exactement le même dossier par aspect**, en tirant sa matière des stores, des press kits et des bases type Mobbin. Les deux skills se distinguent par la cible et par les outils de récolte, **jamais par la profondeur ni par la forme de la sortie** : si l'un des deux fait un dossier plus riche que l'autre, c'est un bug, pas une différence de nature. Si un univers a une app ou un site à documenter, appeler `/inspi` pour cette partie et ranger le résultat dans le dossier de l'univers.
 
 ## Procédure
 

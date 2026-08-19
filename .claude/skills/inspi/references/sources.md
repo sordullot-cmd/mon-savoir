@@ -81,3 +81,41 @@ Ne pas lancer les 5 blocs à chaque fois. **4 à 6 agents**, choisis selon la ci
 Toujours **au moins deux sources indépendantes** : une officielle et une tierce.
 Une seule source = angle mort garanti (l'officiel ne montre que ce qu'il veut vendre ;
 le tiers ne montre que ce qui a plu à un curateur).
+
+### Deux angles à ne jamais sauter, quel que soit le mode
+
+L'expérience de `/inspi duolingo` (août 2026) : ces deux-là ont rapporté plus que tous
+les autres réunis, et aucun des deux n'est évident à trouver.
+
+- **Le press kit / brand assets.** À chercher explicitement, dans le bloc 1 : `/press`,
+  `/brand`, `/media`, `/newsroom`, `/about/brand`, `design.<marque>.com`. Souvent une
+  SPA vide sans JavaScript → lire le bundle `main.js` pour trouver l'URL réelle du DAM.
+  Les DAM courants (Lingo, Frontify, Brandfolder, Bynder) ont une **API publique** : chez
+  Lingo, `api.lingoapp.com/v4/kits/{uuid}/outline` liste les sections,
+  `…/sections/{uuid}` les items, et `…/items/{uuid}?include=items` **le contenu d'une
+  galerie** — c'est de là que sortent les écrans officiels en résolution retina, avec
+  leurs légendes rédigées par la marque.
+- **L'équipe design nommée.** Chercher le **compte de l'équipe** sur Dribbble
+  (`dribbble.com/<Marque>`) et Behance, pas seulement des designers isolés : chaque shot
+  y est crédité « X for <Marque> », en pleine résolution, avec l'intention écrite par la
+  personne qui l'a dessiné. Puis remonter aux membres, à leurs case studies, aux
+  interviews, aux talks de conférence. C'est ce qui remplit `## Crédits` et souvent
+  `process/` et `composants/`.
+
+### L'éventail se compose contre la grille des aspects
+
+Les blocs ci-dessus sont des *sources* ; ce qu'il faut couvrir, ce sont des *aspects*
+(§ Étape 2 du SKILL). Avant de lancer les agents, se demander pour chaque aspect du socle
+qui va le remplir — et confier explicitement l'aspect à l'agent le mieux placé :
+
+| Aspect | Qui le remplit le plus souvent |
+| --- | --- |
+| `ecrans/` `visuels/` | press kit officiel (1), bases d'UI (2), captures maison |
+| `flows/` | Page Flows / UXArchive (2), blog produit (1) |
+| `branding/` | press kit (1), Wikimedia et logothèques (5), fichiers de police servis par le site |
+| `couleurs/` | relevé maison sur les écrans + charte publiée (1) |
+| `composants/` | équipe design (4), découpe maison dans les captures |
+| `animations/` | press kit (1), équipe design (4), Appshots (2) |
+| `marketing/` | site du produit (1), galeries web (3) |
+| `process/` | blog design de l'éditeur (1), case studies de l'équipe (4), presse (5) |
+| `archive/` | UXArchive et Wayback (2), galeries anciennes (3), presse d'époque (5) |
