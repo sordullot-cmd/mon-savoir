@@ -28,7 +28,7 @@ C'est ce qui rend ce cas rare, et ce pour quoi ce dossier existe. Trois maillons
 
 1. **Le coût d'animation dicte le personnage.** En 2018, Duo est redessiné en interne. Tyler Murphy (head of design) : « *He didn't have the full spectrum of emotions like you'd see in a videogame… So this Duo is designed to be more easily animated. We're using very simple geometry. His wings are just half circles hiding behind the body… He's more or less a cylinder with wings, and that made the animation and illustration time go down drastically.* » La forme n'est pas un choix de goût, c'est une décision de production.
 2. **Le personnage dicte la typographie.** En 2019, Johnson Banks refuse la sans-serif neutre de la tech. Michael Johnson : « *So many tech and Silicon Valley brands have adopted the same neutral, characterless sans-serif typography. We were determined to find something that stood out – and the answer was to use their mascot as our inspiration.* » L'aile de Duo devient la panse du `a`, son sourcil plumeté devient l'oreille du `g`.
-3. **L'animation redevient interne.** Gunner, studio de Detroit partenaire depuis 2020, est **racheté par Duolingo en octobre 2022** — quinze designers, illustrateurs et animateurs intégrés. La contrainte du départ finit par absorber son fournisseur.
+3. **L'animation redevient interne.** Gunner, studio de Detroit partenaire depuis 2020, est **racheté par Duolingo en octobre 2022** — quinze designers, illustrateurs et animateurs intégrés. Puis Hobbes en 2024, Animade en 2026. La contrainte du départ finit par absorber ses fournisseurs les uns après les autres.
 
 Le fil est cohérent de bout en bout : chaque décision de forme est adossée à une décision d'exploitation.
 
@@ -161,20 +161,35 @@ Le choix de cours, avec les drapeaux — et, en 2026, les matières non linguist
 
 ## Animations
 
+Duolingo a **internalisé toute sa chaîne de motion par rachats successifs** : Gunner (Detroit, octobre 2022, une quinzaine de designers, illustrateurs et animateurs), Hobbes (Detroit, juillet 2024, douze motion designers — création d'une équipe motion dédiée), Animade (Londres, août 2026, product storytelling et character animation). En interne, les personnages sont animés avec **Rive**, un moteur temps réel : fichiers légers, et passage direct de l'animateur à l'ingénieur sans ré-export.
+
 ![[spot-super-bowl-2024-no-buts.mp4]]
-Le spot Super Bowl 2024 — 5 secondes. Une notification Duo à l'écran, rien d'autre. Le format le plus court possible, qui ne fonctionne que parce que la mascotte est déjà connue.
+Le spot Super Bowl 2024 — 5 secondes. Une notification Duo, rien d'autre. Le format le plus court possible, qui ne tient que parce que la mascotte est déjà connue. **Pas de spot en 2025** : le budget est passé sur le social, avec la mort de Duo le dimanche du Super Bowl.
+
+![[campagne-mort-de-duo-2025.mp4]]
+**La mort de Duo** (février 2025), case study — 2 min. La marque tue sa mascotte, les autres personnages portent le cercueil, une page « Bring Back Duo » demande 50 milliards d'XP aux utilisateurs pour le ressusciter. « Legends never die. » Tuer son propre actif de marque pendant une semaine, et le faire racheter par l'audience. *(360p — voir la note de qualité plus bas.)*
 
 ![[film-de-marque-duolingo-world-gunner.mp4]]
-Le film de marque Duolingo World, par **Gunner** — 30 s. Transitions continues, le téléphone comme portail vers les pays dont on ne parle pas la langue.
+Le film de marque **Duolingo World**, par Gunner — 30 s, 1080p. Transitions continues, le téléphone comme portail vers les pays dont on ne parle pas la langue. Design : Chris Anderson et Andy Most ; direction d'animation : Ian Sigmon.
 
 ![[making-of-character-design-de-duo.mp4]]
-Le making-of du character design de Duo — 2 min 12. La logique de construction expliquée en mouvement.
+Le making-of du character design de Duo — 2 min 13, 1080p. Croquis d'origine, évolution de la silhouette, simplification des formes, passage à la version animable. C'est la pièce la plus instructive du lot.
+
+![[film-telenovela-why-is-duo-ripped.mp4]]
+**« Why Is Duo Ripped Now? A Duolingo Telenovela »** — 1 min 37. Live action et mascotte costumée, registre telenovela parodique. La marque hors de l'app, dans un genre qui n'a rien à voir avec son design system. *(360p.)*
+
+![[serie-anime-episode-1.mp4]]
+Le premier épisode de la **série animée** Duolingo — 2 min 3. Le cast redessiné en anime 2D : un registre graphique entièrement différent de l'app, sur les mêmes personnages. *(360p.)*
 
 ![[anim-affiche-duo-learn-spanish.gif]]
 L'affichage animé : Duo réagit, le message change.
 
 ![[anim-ecrans-lancement-app.gif]]
 Les écrans de lancement de l'identité 2019, animés.
+
+> **Qualité des vidéos** : trois fichiers sont en 640×360 — YouTube a bloqué les formats haute définition en cours de récolte. Les deux fichiers 1080p ont été pris avant le durcissement. À reprendre depuis une autre connexion pour les remonter en 1080p.
+
+**Piste non rapatriée** : le *Brand Motion Toolkit* de Duolingo, produit par **Noodle** (Chicago) — un toolkit After Effects avec trois ratios, animations de type, rig 3D de téléphone pour glisser n'importe quel enregistrement d'écran, compteur de série paramétrable, couleurs éditables et personnages interchangeables. Visible sur [noodleanimation.com/duolingo](https://noodleanimation.com/duolingo), rien de téléchargeable.
 
 ---
 
@@ -238,6 +253,11 @@ Les wordmarks : 2015 et 2016 en sans-serif neutre, puis 2019 en Feather Bold.
 | Tyler Murphy | head of design — Duolingo | la refonte 2018 de Duo, dictée par le coût d'animation |
 | Ryan Sims | VP of Design — Duolingo | « We're not an education company. We're a fun and motivation company. » |
 | [Gunner](https://www.stashmedia.tv/duolingo-world-brand-film-by-gunner/) | studio d'animation (Detroit) | partenaire depuis 2020, **racheté par Duolingo en octobre 2022** |
+| Chris Anderson, Andy Most | design — Gunner | le film Duolingo World |
+| Ian Sigmon | direction d'animation — Gunner | le film Duolingo World |
+| Hobbes | studio de motion (Detroit) | racheté en juillet 2024 — douze motion designers, création de l'équipe motion dédiée |
+| Animade | studio (Londres) | racheté en août 2026 — product storytelling, character animation |
+| [Noodle](https://noodleanimation.com/duolingo) | studio d'animation (Chicago) | le Brand Motion Toolkit (CD Doug Alberts, prod Lisa Burhanna, animation Axel Kinnear et Alex Deaton) |
 | [UltraSuperNew](https://ultrasupernew.com/work/duolingo) | agence créative (Tokyo) | Sumo Showdown, DUOMART, KFD, Wonky English Museum |
 | Tetsudau | production | Sumo Showdown |
 
@@ -265,7 +285,7 @@ Les wordmarks : 2015 et 2016 en sans-serif neutre, puis 2019 en Feather Bold.
 
 ## Mots-clés
 
-duolingo, duo, hibou, owl, mascotte, mascot, character design, personnage, cast, Lily, Oscar, Eddy, Zari, Falstaff, Vikram, gamification, apprentissage, langues, langage, éducation, edtech, app mobile, iOS, Android, streak, série, flamme, XP, ligues, gemmes, cœurs, paywall, Super Duolingo, Duolingo Plus, Duolingo Max, échecs, chess, maths, musique, Feather Bold, Fontsmith, Monotype, Krista Radoeva, typo sur mesure, bespoke typeface, custom font, lettrage, wordmark, logotype, lock-up, sous-marque, grille de construction, clearspace, zone de protection, Johnson Banks, Michael Johnson, Beth Johnson, rebrand, refonte, identité 2019, brand book, brand guidelines, design system, charte graphique, Feather Green, Mask Green, Eel, Macaw, Cardinal, Bee, Fox, Beetle, Humpback, noms d'animaux, palette, nuancier, Pantone, CMJN, vert, green, illustration plate, flat illustration, formes simples, rectangle arrondi, perspective plate, ombre en pilule, Gunner, Detroit, animation, motion design, character animation, trailer, spot, Super Bowl, film de marque, brand film, DuoCon, Duolingo World, UltraSuperNew, Tokyo, Japon, Japan, Sumo Showdown, DUOMART, konbini, KFD, Krispy Fried Duo, Wonky English Museum, OOH, affichage, métro, billboard, campagne, activation, TikTok, réseaux sociaux, social media, Greg Hartman, Tyler Murphy, Ryan Sims, Luis von Ahn, Apple Design Award, playful, fun, joyeux, coloré, arrondi, rond, friendly
+duolingo, duo, hibou, owl, mascotte, mascot, character design, personnage, cast, Lily, Oscar, Eddy, Zari, Falstaff, Vikram, gamification, apprentissage, langues, langage, éducation, edtech, app mobile, iOS, Android, streak, série, flamme, XP, ligues, gemmes, cœurs, paywall, Super Duolingo, Duolingo Plus, Duolingo Max, échecs, chess, maths, musique, Feather Bold, Fontsmith, Monotype, Krista Radoeva, typo sur mesure, bespoke typeface, custom font, lettrage, wordmark, logotype, lock-up, sous-marque, grille de construction, clearspace, zone de protection, Johnson Banks, Michael Johnson, Beth Johnson, rebrand, refonte, identité 2019, brand book, brand guidelines, design system, charte graphique, Feather Green, Mask Green, Eel, Macaw, Cardinal, Bee, Fox, Beetle, Humpback, noms d'animaux, palette, nuancier, Pantone, CMJN, vert, green, illustration plate, flat illustration, formes simples, rectangle arrondi, perspective plate, ombre en pilule, Gunner, Detroit, animation, motion design, character animation, trailer, spot, Super Bowl, film de marque, brand film, DuoCon, Duolingo World, UltraSuperNew, Tokyo, Japon, Japan, Sumo Showdown, DUOMART, konbini, KFD, Krispy Fried Duo, Wonky English Museum, OOH, affichage, métro, billboard, campagne, activation, TikTok, réseaux sociaux, social media, Greg Hartman, Tyler Murphy, Ryan Sims, Luis von Ahn, Apple Design Award, mort de Duo, death of Duo, Bring Back Duo, telenovela, anime, serie animee, Rive, Hobbes, Animade, Noodle, brand motion toolkit, After Effects, rachat studio, internalisation, playful, fun, joyeux, coloré, arrondi, rond, friendly
 
 ---
 
