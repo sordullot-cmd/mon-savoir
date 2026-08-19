@@ -11,6 +11,7 @@ tags: [moc, inspiration, ui]
 | --- | --- | --- | --- | --- |
 | **Kraken** | finance / crypto | iOS · Android · web | écrans (3 millésimes) · flows KYC · branding · couleurs · composants · marketing · archive 2019-2022 | [[kraken]] |
 | **Yazio** | santé / nutrition | iOS · Android · web | écrans réels · flows onboarding · paywalls 2023-2026 · branding complet (press kit + charte) · typo sur mesure · couleurs · composants · 15 films Koto · marketing · archive de l'identité d'avant | [[yazio]] |
+| **Duolingo (le produit)** | éducation / gamification | iOS · Android · web | 40 écrans officiels du press kit · 14 types d'exercice · onboarding · paywalls Super 2025-2026 · web app derrière login · branding produit (typo réelle relevée dans les binaires, chronologie d'icône 2011-2026) · couleurs relevées · composants · animations Rive · **process** (les 2 refontes publiées) · archive de l'UI d'avant 2022 | [[duolingo-app]] |
 
 ## Où chercher des écrans
 

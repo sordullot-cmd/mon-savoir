@@ -34,11 +34,11 @@ Dans le frontmatter (`media:`, `mood:`) ou en `#tag`.
 > Vocabulaire **contrôlé** (comme pour les fonts) : ces champs en frontmatter rendent l'inspi cherchable par caractéristique précise (« site agence animé bleu », « e-commerce minimal à parallaxe »). Réutiliser l'existant, ne pas inventer de synonyme. Rempli automatiquement par `/inspi`. Voir [[Template-Inspiration]].
 
 - `type_site` — nature du site : `portfolio` · `agence` · `studio` · `freelance` · `saas` · `produit` · `landing` · `e-commerce` · `marketplace` · `éditorial` · `magazine` · `événementiel` · `marque` · `food` · `immobilier` · `association` · `expérimental` · `showcase`
-- `secteur` — domaine métier (libre, mais privilégier un terme existant) : `tech` · `mode` · `beauté` · `food` · `sport` · `culture` · `finance` · `santé` · `immobilier` · `musique` · `luxe` · `gaming` · `web3` …
+- `secteur` — domaine métier (libre, mais privilégier un terme existant) : `tech` · `mode` · `beauté` · `food` · `sport` · `culture` · `éducation` · `finance` · `santé` · `immobilier` · `musique` · `luxe` · `gaming` · `web3` …
 - `couleur_principale` — couleur dominante, **nom + hex** (ex. `noir #0A0A0A`, `bleu électrique #1A3CFF`)
 - `couleurs` — palette complète (`[#000, #fff, ...]`)
 - `anime` — site animé ? `oui` · `non` · `léger`
-- `animations` — types présents : `scroll-reveal` · `parallaxe` · `sticky-pin` · `loader` · `hover` · `curseur-custom` · `transitions-page` · `webgl-3d` · `video-bg` · `marquee` · `drag` · `morphing` · `text-anim` · `canvas`
+- `animations` — types présents : `scroll-reveal` · `parallaxe` · `sticky-pin` · `loader` · `hover` · `curseur-custom` · `transitions-page` · `webgl-3d` · `video-bg` · `marquee` · `drag` · `morphing` · `text-anim` · `canvas` · `sheet` · `celebration` *(récompense jouée, célébration de fin)* · `lip-sync` *(personnage animé synchronisé à la parole)*
 - `layout` — structure : `grille` · `asymétrique` · `plein-écran` · `split` · `magazine` · `bento` · `centré`
 - `mood` — ambiance : `minimal` · `bold` · `editorial` · `brutalist` · `retro` · `organic` · `playful` · `luxe` · `dark` …
 - `typos` — polices **réellement rendues**, relevées automatiquement à la capture (pas devinées). Lier `[[la fiche font]]` si elle existe dans le vault, sinon la citer telle quelle.
@@ -50,7 +50,7 @@ Dans le frontmatter (`media:`, `mood:`) ou en `#tag`.
 
 > Voir [[Template-Produit]]. Rempli par `/inspi` en mode app.
 
-- `type_app` — `productivité` · `social` · `finance` · `santé` · `média` · `commerce` · `outil` · `jeu` · `ia`
+- `type_app` — `productivité` · `social` · `finance` · `santé` · `éducation` · `média` · `commerce` · `outil` · `jeu` · `ia`
 - `plateformes` — `[ios, android, web, macos]`
 - `editeur` · `version` · `url_store` — relevés automatiquement depuis le store
 - `patterns` — écrans/parcours présents : `onboarding` · `paywall` · `tab-bar` · `navigation-gestuelle` · `feed` · `recherche` · `parametres` · `empty-state` · `mode-sombre` · `gamification`
@@ -82,6 +82,7 @@ UI-DESIGN/<slug>/
 ├── composants/    ← blocs UI remarquables (→ [[_COMPOSANTS]])
 ├── animations/    ← transitions, micro-anims (→ [[_ANIMATIONS]])
 ├── marketing/     ← site du produit, landing, page store
+├── process/       ← étapes de fabrication publiées par l'éditeur : diagnostic, explorations, directions écartées, avant/après. Seulement quand le produit documente ses refontes (rare — cf. [[duolingo-app]])
 └── archive/       ← états antérieurs du produit (refontes passées, versions historiques du site), seulement si la matière existe
 ```
 Créé par **`/inspi`** en mode app (ou sur un site quand Sacha demande « le dossier complet »).
