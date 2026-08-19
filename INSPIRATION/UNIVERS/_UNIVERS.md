@@ -13,6 +13,7 @@ tags: [moc, inspiration, univers]
 | ---------------- | --------- | ------------------------------------------------------------------------------- | -------------------- |
 | BitePal          | app       | branding, couleurs, ui, character-design, illustrations, site                    | [[bitepal]]          |
 | Duolingo         | app       | branding, couleurs, ui, character-design, illustrations, photographie, campagnes | [[duolingo]]         |
+| Duolingo — 2026  | marque    | typographie, branding, couleurs, character-design, illustrations, ui, animations, campagnes, historique | [[duolingo-2026]]    |
 
 
 ---
