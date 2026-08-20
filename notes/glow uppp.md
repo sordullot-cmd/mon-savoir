@@ -43,7 +43,7 @@ muscu :
 - samedi : pec triceps
 - dimanche ; repos
 
-habits → [[bien s'habiller]]
+habits → [[habits]]
 
 symptome :
 - eloquence → [[bien communiquer]]

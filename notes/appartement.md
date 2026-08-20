@@ -7,24 +7,32 @@ tags:
   - appart
 ---
 
-recette et courses
+appartement
 
+achats :
+
+chambre :
 - couette bleu rayé
 - tapis cool
 - porte cintre
 - cintre
 
+salle de bain :
 - rideau de douche
 - porte serviette
 - tanquarville
 - pose savon
 - tapis de douche
-	machine a laver
+
+bureau :
 - clavier
 - souris
 - tapis de souris
-- iphone
 - enceinte
+
+a preciser :
+- machine a laver
+- iphone
 
 courses :
 - feculents : pate, patate / douches, lentilles, flocon d'avoine
@@ -42,7 +50,5 @@ repas :
 - pates + poulet = pate + poulet + sauces tomates
 - ramen chinois = nouilles + bouillon + oeuf + poulet + sauce soja
 - petit dej = oeuf + flocon d'avoine
-
-voir aussi : [[achat]]
 
 #appart

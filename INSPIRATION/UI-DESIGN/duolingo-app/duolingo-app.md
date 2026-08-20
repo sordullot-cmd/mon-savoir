@@ -182,15 +182,71 @@ Aussi : `branding/icones-historique/` contient les icônes en fichiers séparés
 
 ## Couleurs
 
-Aucun hex n'est inventé ici. La **charte publiée** (noms d'animaux, Pantone, CMJN) est déjà rangée dans [[duolingo]] ; ces deux planches sont un **relevé de pixels** sur les écrans de ce dossier, ce qui n'est pas la même information : elle dit ce que l'app fait vraiment de sa palette.
+Aucun hex n'est inventé ici. La **charte publiée** (noms d'animaux, Pantone, CMJN) est déjà rangée dans [[duolingo]] ; ces deux nuanciers sont un **relevé de pixels** sur les écrans de ce dossier, ce qui n'est pas la même information : ils disent ce que l'app fait vraiment de sa palette. Les noms d'animaux sont ceux de la charte officielle quand la couleur correspond ; les teintes sans nom publié sont décrites par leur rôle.
 
-![[releve-interface-de-lecon.svg]]
+![[couleurs/palette-relevee-interface-de-lecon.svg]]
 
-![[releve-premium-super-et-max.svg]]
+**Le blanc n'est pas un fond, c'est la structure** — 82,6 % de la surface sur les 20 écrans officiels, sans un seul gris de remplissage. Et le contre-pied de la marque : dans une leçon, le bleu Macaw est presque **quatre fois** plus présent que le vert Feather Green. Le vert est gardé pour la validation et le bouton Continuer ; le bleu porte toute l'interaction. Chaque bouton plein a aussi son arête basse d'un ton plus foncé — la paire `#1CB0F6` / `#1899D6` et la paire `#58CC02` / `#4EAD10`.
 
-Les noms d'animaux sont ceux de la charte officielle quand la couleur correspond ; les couleurs de dégradé du palier premium n'ont pas de nom publié et sont décrites par leur rôle.
+**Fond et structure**
 
-À noter : Mobbin publie une page couleurs de marque accessible sans compte qui donne, pour Duolingo, `#58CC02`, `#1CB0F6`, `#FFFFFF`, plus `#E6E6FA` et `#FF6F61` — ces deux derniers n'apparaissent nulle part dans mon relevé. Le relevé Refero de la landing donne aussi `#76CE00` comme couleur dominante moyenne perçue, plus jaune que le `#58CC02` canonique.
+| Nom | Hex | Part | Usage relevé |
+| --- | --- | --- | --- |
+| Snow | `#FFFFFF` | 82,6 % | le canevas, jamais un gris |
+| Swan | `#E5E5E5` | 7,1 % | bordures 2 px des cartes et des jetons |
+| Polar | `#F7F7F7` | 2,6 % | remplissage des champs de saisie |
+| Hare | `#AFAFAF` | 0,3 % | texte et boutons désactivés |
+
+**Interaction** — le bleu domine le vert
+
+| Nom | Hex | Part | Usage relevé |
+| --- | --- | --- | --- |
+| Macaw | `#1CB0F6` | 2,5 % | sélection, audio, micro : la couleur d'action dans la leçon |
+| Blue Whale | `#1899D6` | 0,1 % | arête basse du bouton bleu |
+| Feather Green | `#58CC02` | 0,7 % | validation et CTA Continuer |
+| Tree Frog | `#4EAD10` | — | arête basse du bouton vert |
+
+**Texte**
+
+| Nom | Hex | Part | Usage relevé |
+| --- | --- | --- | --- |
+| Eel | `#4B4B4B` | 0,9 % | texte courant et titres |
+| Wolf | `#3D3D3D` | 0,1 % | texte fort |
+| Gris moyen | `#787878` | — | libellés secondaires en capitales |
+| Noir | `#000000` | 0,4 % | présent surtout via les illustrations |
+
+**États et récompenses** — « splashes of delight », toujours en petite quantité
+
+| Nom | Hex | Part | Usage relevé |
+| --- | --- | --- | --- |
+| Cardinal | `#FF4B4B` | 0,3 % | erreur et compteur de cœurs |
+| Bee | `#FFD300` | 0,1 % | XP, combo, série |
+| Beetle | `#CE82FF` | 0,1 % | nouveauté, Super, quêtes |
+| Fox | `#F6B702` | — | or des jalons et des coffres |
+
+![[couleurs/palette-relevee-super-et-max.svg]]
+
+**Le palier payant inverse tout le système.** Le blanc tombe à 24,8 % et ne sert plus que de texte et de cartes ; le fond devient un dégradé de nuit ; le vert de marque disparaît complètement, remplacé par un bleu-violet. Super et Max s'autorisent des dégradés que le produit gratuit s'interdit — c'est la seule zone où la marque se contredit, et elle le fait exprès.
+
+**Fond de nuit dégradé** — aucun de ces tons n'a de nom publié
+
+| Nom de rôle | Hex | Usage relevé |
+| --- | --- | --- |
+| Bleu nuit | `#2D2473` | cœur du dégradé de fond |
+| Nuit chaude | `#352273` | haut du dégradé, vers le violet |
+| Nuit froide | `#152A73` | bas du dégradé, vers le bleu |
+| Marine profond | `#0B2F6F` | extrémité la plus froide |
+
+**Accents premium**
+
+| Nom de rôle | Hex | Part | Usage relevé |
+| --- | --- | --- | --- |
+| Bleu-violet vif | `#3C4DFF` | 2,0 % | CTA et cartes de plan Super |
+| Violet profond | `#4C1C73` | 0,8 % | fond des écrans Max et Video Call |
+| Cyan pâle | `#C7FFFE` | 0,7 % | étincelles et halos |
+| Snow | `#FFFFFF` | 24,8 % | texte et cartes claires du paywall 2026 |
+
+**Deux hex tiers à ne pas confondre avec la charte.** Mobbin publie une page couleurs de marque accessible sans compte qui ajoute `#E6E6FA` et `#FF6F61` — ils n'apparaissent nulle part dans mon relevé. Et Refero donne `#76CE00` comme couleur dominante moyenne perçue de la landing, plus jaune que le `#58CC02` canonique. Ce sont des mesures de tiers, pas des couleurs déclarées.
 
 ---
 
