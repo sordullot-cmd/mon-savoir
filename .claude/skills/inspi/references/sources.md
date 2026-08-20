@@ -29,7 +29,7 @@ Colonnes : ce qu'on y trouve · comment y entrer · ce qui bloque.
 | [Page Flows](https://pageflows.com) | parcours en **vidéo** + emails transactionnels | compte |
 | [Screensdesign](https://screensdesign.com) | écrans + signaux MRR + tagging paywalls | public partiel |
 | [Adapty](https://adapty.io) | collection dédiée aux **paywalls** (500+ apps) | public |
-| [WWIT](https://www.whatwasit.co) | apps **coréennes** par industrie et pattern (DA très différente) | public |
+| [WWIT](https://wwit.design) | apps **coréennes** par industrie et pattern (DA très différente) | public |
 | [Banani](https://www.banani.co/references) | écrans mobiles copiables | public |
 
 ## 3. Bases d'UI web / galeries de sites
