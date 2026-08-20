@@ -55,6 +55,7 @@ Plus : `ACCUEIL.md` (dashboard central) · `INBOX/` (capture rapide) · `TEMPLAT
 - **`/font`** — fiche d'une police, cherchable par allure. **Appelé par `/ranger`** quand une font arrive.
 - **`/univers`** — dossier de référence d'un univers créatif, à partir d'un **nom** (jeu, film, studio, marque).
 - **`/inspi`** — dossier de référence d'un **produit numérique**, à partir d'une **URL** ou d'un nom : site, app, ou post social. **Appelé par `/ranger`** quand un lien arrive.
+- **`/refonte`** — transforme un **dossier de référence** (source de DA) + une **cible** (site, app, dossier de code) en **prompt de refonte** précis pour un agent de code. Sortie : `<dossier-source>/prompts/<cible>.md`. Aucune valeur inventée : chaque hex, police, durée est sourcée.
 
 > **Frontière `/univers` ↔ `/inspi`** : *un monde qu'on regarde* (jeu, film, studio, marque) → `/univers` ; *un produit numérique qu'on utilise* (app, SaaS, site) → `/inspi`.
 >
