@@ -52,6 +52,7 @@ Marche pour **n'importe quel univers** : jeu vidéo, marque, studio, film, séri
    ```
    Relever aussi la **charte publiée** si elle existe (brand guidelines, press kit, tokens du site) avec ses vrais noms et références (Pantone, CMJN). Chaque pastille porte nom + hex + une note d'usage. Reporter dans `couleur_principale` / `couleurs` et intégrer les planches dans la fiche.
    **Ne jamais inventer un hex ni un nom** : charte sourcée ou relevé de pixels — et la fiche distingue les deux (une teinte relevée absente de la charte se signale comme telle).
+   **Présentation dans la fiche** : un fichier par famille nommé `couleurs/palette-<sujet>.svg`, l'embed préfixé de son dossier, un paragraphe en gras juste dessous qui dit ce que le nuancier **apprend**, puis un tableau par groupe pour pouvoir copier les valeurs. Les six règles détaillées sont dans `.claude/skills/inspi/SKILL.md`, § Couleurs — elles sont **communes aux deux skills**, ne pas en faire deux versions.
 
 7. **Créer la fiche** `INSPIRATION/UNIVERS/<slug>/<slug>.md` depuis `TEMPLATES/Template-Univers.md` :
    - Frontmatter : `type: univers`, `categorie` (jeu-vidéo/marque/studio/film…), `secteur`, `annee`, `createurs`, `source` (site officiel), `couleur_principale` + `couleurs` (observées sur les médias), `mood`, `tags`.

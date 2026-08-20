@@ -48,37 +48,37 @@ tags: [inspiration, ui, ux, gamification, playful, a-tester]
 
 ### Les 14 types d'exercice
 
-![[planche-exercices-duolingo.png]]
+![[ecrans/planches/planche-exercices-duolingo.png]]
 
 La grammaire complète de l'app, en résolution native depuis le press kit officiel. Chaque exercice réutilise le même châssis — barre de progression + croix de sortie + compteur de cœurs en haut, consigne, zone de réponse, barre d'action basse — et ne change que la zone du milieu. Écoute et réponds, mot manquant, syllabes entendues, son d'un kana, bonne image (label NEW WORD violet), phrase à prononcer avec révélation, tracé de caractère manquant, micro, paires à associer, banque de mots, jetons de traduction, saisie libre. Le bouton CONTINUER reste **gris désactivé** jusqu'à ce qu'une réponse existe : l'app ne laisse jamais partir à vide.
 
 ### Les six onglets, après le Tab Refresh 2026
 
-![[planche-onglets.png]]
+![[ecrans/planches/planche-onglets.png]]
 
 Chemin, Quêtes (objectif mensuel « Duo's Frozen Winter »), Ligue saphir, Feed d'amis, Profil, Video Call. C'est l'état livré de la refonte documentée plus bas dans [[#Process]] : taille de header hiérarchisée selon la fonction de l'onglet, titre toujours au même endroit, système typographique resserré.
 
 ### Les cours non linguistiques
 
-![[planche-cours-math-music-chess.png]]
+![[ecrans/planches/planche-cours-math-music-chess.png]]
 
 Math, Music et Chess sont trois **sous-univers chromatiques** greffés sur le même squelette : bleu quadrillé pour Math (hub « Math Games » en grille de six jeux), violet pour Music (chemin à nœuds de notes, carte de morceau à étoiles, clavier tactile), vert et blanc d'échiquier pour Chess. La preuve que le système encaisse un changement complet de matière sans changer de structure.
 
 ### Écrans réels derrière le login
 
-![[planche-ecrans-reels-android.png]]
+![[ecrans/planches/planche-ecrans-reels-android.png]]
 
 Ce que le press kit ne montre pas : la boutique et ses trois paliers de gemmes, la recharge de cœurs à 350 gemmes, le Streak Freeze équipé, le calendrier de série avec la Streak Society encore cadenassée, les réglages de notification, la modale violette « Double XP pendant 15 minutes », la ligue bronze avec sa Tour Eiffel, les records personnels. Captures d'un enregistrement Page Flows (Android, 2024).
 
 ### L'app web et le Duolingo English Test
 
-![[planche-app-web.png]]
+![[ecrans/planches/planche-app-web.png]]
 
 Deux leçons dans le navigateur, la recherche d'amis en trois colonnes, et surtout le **Duolingo English Test** — la sous-marque qui inverse la hiérarchie chromatique : l'item de nav actif y est une pilule **bleu clair**, le CTA principal est bleu `#1CB0F6`, le vert ne sert plus d'état. Même famille typographique arrondie, logo différent (un sceau festonné avec la silhouette de Duo évidée, pas la tête de Duo).
 
 ### Le paywall Super, six millésimes
 
-![[planche-paywalls-millesimes.png]]
+![[ecrans/planches/planche-paywalls-millesimes.png]]
 
 La chronologie tarifaire lue sur les captures datées :
 
@@ -97,7 +97,7 @@ Le tableau comparatif FREE vs SUPER, lui, ne bouge pas : cinq lignes dont **une 
 
 ### La créa App Store, août 2026
 
-![[planche-store-2026-08.png]]
+![[ecrans/planches/planche-store-2026-08.png]]
 
 Huit écrans habillés d'un bandeau de couleur pleine par promesse (orange, bleu, violet, jaune, rouge, vert). Millésime daté et intéressant à comparer avec les huit rangés dans [[duolingo]] : les échecs, le Video Call et la série ont disparu de la vitrine, remplacés par des exercices de **prononciation**. La créa store suit la feature qu'on pousse, pas la marque.
 
@@ -109,7 +109,7 @@ Huit écrans habillés d'un bandeau de couleur pleine par promesse (orange, bleu
 
 ### Onboarding — l'inscription arrive en dernier
 
-![[planche-onboarding-duolingo.png]]
+![[flows/planches/planche-onboarding-duolingo.png]]
 
 Le parcours le plus étudié du produit, et sa mécanique est explicite. L'engagement est **annoncé et minimisé** (« Just 7 quick questions before we start your first lesson! », « Here's your first 2 minute lesson. »), la création de compte est **repoussée après la première leçon** et sautable (une croix, pas une flèche retour), et elle arrive avec un levier de peur de perte : « Don't lose your progress! Let's create a profile. » Le paywall comparatif Super est glissé **dans** ce flux, avant toute inscription. Le même écran existe en clair et en sombre — utile comme paire.
 
@@ -117,7 +117,7 @@ Les trois écrans iOS (`onboarding-ios-*`) montrent la version longue : choix de
 
 ### La refonte du chemin, novembre 2022
 
-![[planche-refonte-du-chemin-2022.png]]
+![[flows/planches/planche-refonte-du-chemin-2022.png]]
 
 Déployée pour tous les apprenants le **1er novembre 2022**. L'arbre de compétences en grille (parcours libre) devient un **chemin unique linéaire** ; chaque compétence, qui valait six paliers de couronne, est condensée en trois niveaux posés directement dans le chemin ; les Stories quittent leur onglet violet pour devenir des nœuds ; les Tips sont regroupés dans un « guidebook » par unité.
 
@@ -160,7 +160,7 @@ Note de datation : Fonts In Use documentait encore, en mars 2024, un couple **Fe
 
 ### Feather Bold vient de la mascotte
 
-![[planche-feather-bold.png]]
+![[branding/planches/planche-feather-bold.png]]
 
 Le rebrand de 2019 est signé **Johnson Banks** (Londres), pas une équipe interne. Michael Johnson, son fondateur : « So many tech and Silicon Valley brands have adopted the same neutral, characterless sans-serif typography. We were determined to find something that stood out — and the answer was to use their mascot as our inspiration. » Les planches montrent la mécanique : l'aile de Duo devient la panse du `a`, la houppe de plumes au-dessus de son œil devient la boucle du `g à lunettes`. Le brief n'était pas esthétique mais d'unification — Duo, les couleurs et le style d'illustration marchaient **dans** l'app, mais il n'existait presque aucune règle pour les utiliser dehors.
 
@@ -168,7 +168,7 @@ Le rebrand de 2019 est signé **Johnson Banks** (Londres), pas une équipe inter
 
 ### L'icône de l'app n'est pas un asset de marque, c'est une surface de test
 
-![[planche-icone-chronologie-2011-2026.png]]
+![[branding/planches/planche-icone-chronologie-2011-2026.png]]
 
 Quinze ans d'icône, datée à la semaine. Trois régimes : le hibou dont **le visage est le mot « duo »** (2011), le 3D skeuomorphe (2012-2013), l'aplat (2013-2019), puis depuis 2018 le « Modern Duo » qui sert de base à une **série de variantes expressives**. Duolingo A/B-teste ses icônes directement sur la fiche App Store — d'où deux variantes le même mois (nov./déc. 2025, deux en février 2026).
 
@@ -292,7 +292,7 @@ Nouvel aspect dans le vault (voir [[_INSPIRATION]]) : Duolingo publie ses cas d'
 
 ### Tab Refresh, février 2026
 
-![[planche-tabs-refresh-directions.png]]
+![[process/planches/planche-tabs-refresh-directions.png]]
 
 Article du 4 février 2026, signé **Leah Lee** et **Lokesh Fulfagar** (Design). Le seul cas d'étude de design produit détaillé publié officiellement par Duolingo.
 
@@ -320,7 +320,7 @@ Article du 4 février 2026, signé **Leah Lee** et **Lokesh Fulfagar** (Design).
 
 L'état antérieur du produit, pour comparer.
 
-![[planche-ancienne-ui-de-lecon.png]]
+![[archive/planches/planche-ancienne-ui-de-lecon.png]]
 
 L'UI de leçon **avant** la refonte du chemin, capturée sur une build ancienne (Banani) : wordmark « duolingo » centré en header, barre de progression fine, boutons CHECK / CONTINUE en capitales, bannière de validation vert pâle collée en bas, bulles de dialogue des personnages sur les côtés, et l'écran de fin « Learning legend! » à trois badges (TOTAL XP jaune / SPEEDY bleu / GREAT vert) — remplacé depuis par une célébration animée. Le coach mark d'onboarding avec tout l'écran assombri sauf la bulle du personnage est un pattern qui a disparu.
 

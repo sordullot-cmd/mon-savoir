@@ -249,11 +249,35 @@ stories et posts supprimés → non récupérables.
 
 ```
 python3 .claude/skills/_lib/palette.py releve "<dossier>/ecrans/*.png"                 # hex réellement présents
-python3 .claude/skills/_lib/palette.py nuancier palette.json "<dossier>/couleurs/"     # planches SVG
+python3 .claude/skills/_lib/palette.py nuancier palette.json "<dossier>/couleurs/"     # nuanciers SVG
 ```
 Relever aussi la **charte publiée** si elle existe (press kit, tokens CSS) avec ses
-vrais noms. **Ne jamais inventer un hex ni un nom** : soit une charte sourcée, soit un
-relevé de pixels — et la fiche distingue les deux.
+vrais noms et ses références (Pantone, CMJN). **Ne jamais inventer un hex ni un nom** :
+soit une charte sourcée, soit un relevé de pixels — et la fiche distingue les deux.
+
+**Présentation — la même partout dans le vault.** C'est la forme de la section « Palette »
+d'un dossier `/univers` (cf. [[duolingo]]), reprise dans tous les dossiers produit :
+
+1. **Un fichier par famille**, nommé `couleurs/palette-<sujet>.svg`. Toujours le préfixe
+   `palette-`, même pour un relevé : `palette-declaree.svg`, `palette-relevee-dans-les-ecrans.svg`,
+   `palette-core-primaires-et-secondaires.svg`, `palette-ratios-officiels.svg`.
+2. **L'embed porte son dossier** : `![[couleurs/palette-<sujet>.svg]]`, jamais le nom nu.
+   Plusieurs dossiers ont un `palette-declaree.svg` — le chemin est ce qui les distingue.
+3. **Juste sous l'embed, un paragraphe qui commence en gras** et dit ce que le nuancier
+   apprend, pas ce qu'il contient. « Le blanc n'est pas un fond, c'est la structure — 82,6 %
+   de la surface » vaut mieux que « palette de gris et de blanc ».
+4. **Puis les tableaux, un par groupe**, en sous-titre gras : `| Nom | Hex | … | Usage |`.
+   Le nuancier se regarde, le tableau se **copie** — les deux sont nécessaires. Colonnes
+   selon ce qu'on a : `Pantone` / `CMYK` pour une charte publiée, `Part` (le pourcentage de
+   surface) pour un relevé. Les hex en `code inline`.
+5. **Une teinte sans nom publié se nomme par son rôle** et la colonne s'appelle
+   `Nom de rôle`, pour qu'on ne prenne jamais mon nom pour un nom officiel.
+6. **Les mesures de tiers se rangent à part**, en fin de section, explicitement signalées
+   comme telles (une page couleurs de Mobbin, une dominante moyenne calculée par Refero).
+   Ce ne sont ni une charte ni un relevé maison.
+
+Cette forme vaut pour **tous** les aspects, pas seulement les couleurs : un embed préfixé
+de son dossier, puis un paragraphe en gras qui dit ce qu'on apprend.
 
 ### Gestion des images — regarder, puis ranger
 

@@ -45,7 +45,38 @@ tags: [inspiration, ui]
 <!-- logo, icône, lockups, typo -->
 
 ## Couleurs
-<!-- ![[couleurs/...svg]] + tableau nom · hex · source (charte publiée / relevé) -->
+
+<!-- Présentation imposée (même forme que la section « Palette » d'un dossier /univers) :
+     un fichier par famille, nommé couleurs/palette-<sujet>.svg — toujours le préfixe
+     « palette- », même pour un relevé. L'embed porte son dossier. Sous chaque embed, un
+     paragraphe qui commence en gras et dit ce que le nuancier APPREND. Puis un tableau
+     par groupe, pour pouvoir copier les valeurs.
+     Ne jamais inventer un hex ni un nom : charte sourcée ou relevé de pixels. -->
+
+![[couleurs/palette-declaree.svg]]
+
+**<Ce que la charte révèle>** — <une observation, pas un inventaire>
+
+**<Nom du groupe>**
+
+| Nom | Hex | Pantone | CMYK | Usage |
+| --- | --- | --- | --- | --- |
+|  | `#` |  |  |  |
+
+![[couleurs/palette-relevee-dans-les-ecrans.svg]]
+
+**<Ce que le relevé révèle>** — <ce que le produit fait vraiment de sa palette>
+
+**<Nom du groupe>**
+
+| Nom | Hex | Part | Usage relevé |
+| --- | --- | --- | --- |
+|  | `#` |  |  |
+
+<!-- Teinte sans nom publié → colonne « Nom de rôle », pour qu'on ne prenne pas mon nom
+     pour un nom officiel. Mesures de tiers (page couleurs Mobbin, dominante Refero) →
+     à part, en fin de section, signalées comme telles. -->
+
 
 ## Composants
 <!-- blocs remarquables — aussi référencés dans [[_COMPOSANTS]] -->

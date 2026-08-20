@@ -86,7 +86,7 @@ référence :
 ├── visuels/       ← graphisme (à la place de ecrans/)
 ├── flows/         ← parcours numérotés (onboarding-01.png…) ou vidéos
 ├── branding/      ← logo, lockups, icône, fichiers de police récupérés
-├── couleurs/      ← nuanciers (palette.py) : charte publiée et/ou relevé de pixels
+├── couleurs/      ← nuanciers (palette.py), nommés `palette-<sujet>.svg` : charte publiée et/ou relevé de pixels. Dans la fiche : embed préfixé du dossier, paragraphe en gras dessous, puis un tableau par groupe (cf. section « Palette » de [[duolingo]])
 ├── composants/    ← blocs remarquables, suffixés _<slug> (→ [[_COMPOSANTS]])
 ├── animations/    ← transitions, micro-anims, suffixées _<slug> (→ [[_ANIMATIONS]])
 ├── marketing/     ← site du produit, landing, page store, visuels sociaux, campagnes
