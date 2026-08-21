@@ -46,6 +46,9 @@ tags: [moc, inspiration, composants]
 | Graphe de connaissances servi comme asset de marque | [[brilliant]] | Une cinquantaine de notions reliées par des courbes, chaque libellé surmonté d'une barre en dégradé qui code sa famille. Un objet de conception pédagogique livré en SVG vectoriel sur le site public. | `UI-DESIGN/brilliant/composants/graphe-de-connaissances-maths_brilliant.svg` |
 | Diagramme manipulable comme unique système illustré | [[brilliant]] | Pas d'illustration décorative : la figure du contenu **est** l'art. Question en sans gras, conteneur gris très clair, objets en cubes à léger biseau, formules en KaTeX au milieu d'une UI en CoFo. | `UI-DESIGN/brilliant/ecrans/planches/planche-diagrammes-interactifs.png` |
 | 17 illustrations de cours restées dans l'ancienne DA | [[brilliant]] | Bleu roi et jaune d'or, alors que les tokens et la mascotte sont passés au vert. La refonte inachevée, visible dans le produit courant — utile comme cas réel de dette de DA. | `UI-DESIGN/brilliant/composants/planche-dix-sept-illustrations-de-cours_brilliant.png` |
+| Nuage de bulles de sélection | [[ahead]] | Sélecteur multiple où chaque option est une bulle de taille variable, et la bulle choisie grossit. Ne ressemble à aucune liste à cocher — et le SVG vectoriel est fourni à côté. | `UI-DESIGN/ahead/composants/bulles-de-selection-de-signes_ahead.png` |
+| Graphe à barres coiffées de personnages | [[ahead]] | Chaque barre porte une tête d'émotion en guise de point de donnée : la légende EST le personnage. De la dataviz qui reste légère. | `UI-DESIGN/ahead/composants/graphe-a-barres-coiffees-de-tetes_ahead.png` |
+| Feuille modale à sélecteur de pays | [[ahead]] | Modale de recrutement (« Meet our WhatsApp Therapist ») avec indicatif pays, champ téléphone et CTA désactivé jusqu'à saisie valide. | `UI-DESIGN/ahead/composants/modale-et-selecteur-de-pays_ahead.png` |
 
 ---
 [[_INSPIRATION|← Inspiration]]

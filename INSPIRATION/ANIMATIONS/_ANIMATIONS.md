@@ -42,6 +42,7 @@ tags: [moc, inspiration, animations, motion]
 | Célébration de série faite en Rive | [[brilliant]] | Koji pulse, se déforme, puis fait apparaître son sourire, halo `pear` en expansion. Brilliant a quitté Lottie pour Rive afin que la State Machine évite l'aller-retour avec l'ingénierie. | `UI-DESIGN/brilliant/animations/new-streak-record-blob-vert-124_brilliant.mp4` |
 | Le personnage en marqueur de position | [[brilliant]] | Koji se pose sur le nœud courant du chemin de cours — la mascotte sert d'indicateur d'état, pas de décoration. | `UI-DESIGN/brilliant/animations/noeud-de-parcours-koji-en-marqueur_brilliant.mp4` |
 | Diagramme de leçon animé, pas à pas | [[brilliant]] | La multiplication babylonienne : les aires se soustraient étape par étape, cotes fines. Le fichier livré par le studio externe s'appelle `…_PIX.gif` — le nom du style maison, confirmé de l'extérieur. | `UI-DESIGN/brilliant/animations/diagramme-anime-multiplication-babylonienne_brilliant.gif` |
+| Compagnon IA qui respire | [[ahead]] | Le visage de « Kai » pulse en boucle sur un dégradé lavande→pêche, puis passe en overlay plein écran. Une attente d'IA transformée en respiration guidée. | `UI-DESIGN/ahead/animations/kai-respiration-et-transition_ahead.mp4` |
 
 ---
 [[_INSPIRATION|← Inspiration]]
