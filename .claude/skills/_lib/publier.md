@@ -20,21 +20,35 @@ Elle doit donc tourner **avant** le commit du site, jamais après.
 
 ## 2. Pousser le vault
 
+**Ne jamais `git add -A` ici.** Ajouter **uniquement les chemins qu'on a soi-même
+touchés** :
+
 ```bash
 cd ~/Documents/brain^2
-git add -A
+git add <les chemins de ce run>        # ex. INSPIRATION/UI-DESIGN/<slug> INSPIRATION/UI-DESIGN/_APPS.md
 git commit -m "<message>"
 git push
 ```
 
-Dépôt `sordulocontact-ux/KNOWLEDGE`, branche `main`. C'est l'archive du second
+Dépôt `sordullot-cmd/mon-savoir`, branche `main`. C'est l'archive du second
 cerveau — on commite sur `main`, pas de branche.
+
+**Pourquoi pas `-A`** : plusieurs sessions travaillent en même temps sur ce dépôt,
+et `git add -A` embarque leur travail en cours dans notre commit. C'est arrivé deux
+fois en deux jours (`/inspi duolingo` puis `/inspi ahead` se sont fait absorber par
+des commits voisins), et le `notes/` synchronisé avec l'app est particulièrement
+exposé : un `-A` peut committer une suppression de note que Sacha n'a pas validée.
+
+Corollaire : **vérifier `git status --short` avant de commiter**, et si des fichiers
+qu'on n'a pas touchés apparaissent en attente, les laisser. Et **après un push qui
+échoue, revérifier `git status -sb`** avant de conclure : une session voisine a
+peut-être poussé la branche entre-temps, en emportant nos commits.
 
 ## 3. Pousser le site → Vercel déploie
 
 ```bash
 cd ~/Documents/GitHub/vault-gallery
-git add -A
+git add <les chemins de ce run>
 git commit -m "<message>"
 git push
 ```
