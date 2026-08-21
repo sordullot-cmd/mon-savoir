@@ -48,10 +48,16 @@ peut-être poussé la branche entre-temps, en emportant nos commits.
 
 ```bash
 cd ~/Documents/GitHub/vault-gallery
-git add <les chemins de ce run>
+git add -A
 git commit -m "<message>"
 git push
 ```
+
+Ici `-A` est **légitime**, contrairement au vault : tout ce qui bouge sous `public/`
+est de la sortie régénérée par le `npm run index` de l'étape 1, pas du travail en
+cours. Et l'index est un artefact d'un seul bloc — le découper produirait un site
+incohérent. Si une session voisine a indexé en même temps, son dossier part avec le
+nôtre : le signaler dans le récap, ne pas chercher à le retirer.
 
 Dépôt `sordullot-cmd/brain-2`, branche `main`. **Le push suffit** : Vercel est
 branché sur le dépôt Git et redéploie tout seul. Pas de CLI `vercel`, pas de
