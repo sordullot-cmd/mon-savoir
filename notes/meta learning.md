@@ -1,9 +1,9 @@
 ---
 tr4de-id: "1787059443676.0757"
 created: 2026-08-18T13:23:48.502Z
-updated: 2026-08-18T14:05:07.415Z
+updated: 2026-08-20T19:26:30.671Z
 tags:
-  - glow
+  - glowup
 ---
 
 meta learning
@@ -27,4 +27,4 @@ video = (how to learn anything way faster than anyone, how to learn everything f
 
 voir aussi : [[glow uppp]], [[apprentissage de la journée]]
 
-#glow
+#glowup

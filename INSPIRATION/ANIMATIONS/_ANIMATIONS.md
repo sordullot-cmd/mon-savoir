@@ -38,6 +38,10 @@ tags: [moc, inspiration, animations, motion]
 | Film de marque en CG texturé feutre, sans IA | [[finch]] | Un kaiju rose, 900 453 mails non lus, et « every frame crafted by hand ». La contre-campagne wellness. | `UI-DESIGN/finch/animations/film-whatever-it-takes-to-get-through-the-day_finch.mp4` |
 | Motion de logo fourni pour usage tiers | [[toss]] | Deux fichiers 1920×1080, fond clair et fond sombre, distribués par le centre de marque. Peu de marques vont jusque-là. | `UI-DESIGN/toss/animations/logo-anime-fond-clair_toss.mp4` |
 | Cinq objets 3D pour cinq notions | [[toss]] | Simplicity, Obsession, Details, Paradigm Shift, Extra Mile — un objet par idée, chacun dérivé d'une construction géométrique au trait. | `UI-DESIGN/toss/animations/simplicity-21-cinq-objets-3d_toss.gif` |
+| Hero de refonte : les diagrammes manipulés en direct | [[brilliant]] | 15 s de curseur qui manipule un nuage de points, une grille pilotée par une boucle `while`, un cercle trigonométrique. Le produit se démontre au lieu de se décrire. | `UI-DESIGN/brilliant/animations/hero-de-refonte-diagrammes-manipules_brilliant.webm` |
+| Célébration de série faite en Rive | [[brilliant]] | Koji pulse, se déforme, puis fait apparaître son sourire, halo `pear` en expansion. Brilliant a quitté Lottie pour Rive afin que la State Machine évite l'aller-retour avec l'ingénierie. | `UI-DESIGN/brilliant/animations/new-streak-record-blob-vert-124_brilliant.mp4` |
+| Le personnage en marqueur de position | [[brilliant]] | Koji se pose sur le nœud courant du chemin de cours — la mascotte sert d'indicateur d'état, pas de décoration. | `UI-DESIGN/brilliant/animations/noeud-de-parcours-koji-en-marqueur_brilliant.mp4` |
+| Diagramme de leçon animé, pas à pas | [[brilliant]] | La multiplication babylonienne : les aires se soustraient étape par étape, cotes fines. Le fichier livré par le studio externe s'appelle `…_PIX.gif` — le nom du style maison, confirmé de l'extérieur. | `UI-DESIGN/brilliant/animations/diagramme-anime-multiplication-babylonienne_brilliant.gif` |
 
 ---
 [[_INSPIRATION|← Inspiration]]

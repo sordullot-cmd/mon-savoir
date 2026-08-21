@@ -1,9 +1,9 @@
 ---
 tr4de-id: "1787059443687.7456"
 created: 2026-08-18T13:23:48.496Z
-updated: 2026-08-18T15:25:47.947Z
+updated: 2026-08-20T19:27:03.009Z
 tags:
-  - glow
+  - glowup
 ---
 
 bien communiquer
@@ -50,4 +50,4 @@ humour :
 
 voir aussi : [[glow uppp]], [[apprentissage de la journée]]
 
-#glow
+#glowup

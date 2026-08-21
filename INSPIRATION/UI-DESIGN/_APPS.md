@@ -17,6 +17,7 @@ tags: [moc, inspiration, ui]
 | **Fortune City** | finance / jeu | iOS · Android | 269 bâtiments officiels (13 catégories × 8 niveaux) · 7 thèmes de terrain · ville en 4 états dont le cycle jour/nuit réel · saisie de dépense en 6000 px · fiches citoyen et bâtiment · wireframes papier · « concept PK » (le concept écarté publié) | [[fortune-city]] |
 | **Finch** | santé / self-care | iOS · Android | bundle d'assets public (11 372 SVG + ~3 000 Lottie) · 305 poses d'oiseau · 62 micropets · 106 décors · check-in d'humeur en 3 marches · 4 paywalls · session vidéo de 14 min (183 écrans) · campagne « Whatever It Takes » (Weirwork × Kirsten Lepore × Mathematic) | [[finch]] |
 | **Toss** | finance / super-app | iOS · Android | centre de marque officiel (.ai + 17 planches d'usages interdits) · **3 fontes maison** dont Tossface (3 600 emojis) · design system public à 45 composants · virement en 8 étapes · millésime 2021 (WWIT) · refonte du logo 2022 en 1 000 propositions · la controverse Tossface de bout en bout | [[toss]] |
+| **Brilliant** | éducation / maths et code | iOS · Android · web | 25 écrans store (le jeu iOS porte une couleur pastel par écran) · **4 millésimes datés 2022-2026** · onboarding en 12 étapes qualifié par de vraies équations · diagrammes interactifs, le seul système illustré · **tokens Panda CSS complets** (14 teintes × 11 crans) · 3 fontes dont 2 sur mesure de Contrast Foundry · Koji riggé dans Rive · **7 articles de fabrication** dont 25 explorations d'un bouton | [[brilliant]] |
 
 ## Où chercher des écrans
 
