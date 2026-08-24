@@ -1,13 +1,13 @@
 ---
 tr4de-id: "1785099429914.526"
 created: 2026-07-26T20:57:09.914Z
-updated: 2026-08-21T00:12:11.876Z
+updated: 2026-08-24T16:42:54.216Z
 pinned: true
 tags:
   - appart
 ---
 
-courses et recette 
+courses et recette
 
 
 courses :
@@ -21,7 +21,7 @@ courses :
 
 repas :
 - patates douces = patate / douches
-- lentilles = sel + poivre + saucisses +
+- lentilles = sel + poivre + saucisses
 - plat japonais = riz + sauce soja + oeuf + poulet
 - pates + poulet = pate + poulet + sauces tomates
 - ramen chinois = nouilles + bouillon + oeuf + poulet + sauce soja

@@ -1,7 +1,7 @@
 ---
 tr4de-id: "1787059443687.7456"
 created: 2026-08-18T13:23:48.496Z
-updated: 2026-08-20T19:27:03.009Z
+updated: 2026-08-24T16:42:20.880Z
 tags:
   - glowup
 ---
@@ -48,6 +48,6 @@ humour :
 - concepts clé de l'humour
 - personne a regarder : jonathan cohen, theobabac,
 
-voir aussi : [[glow uppp]], [[apprentissage de la journée]]
+voir aussi : [[apprentissage de la journée]], [[lock in]], [[meta learning]]
 
 #glowup
