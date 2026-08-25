@@ -324,6 +324,17 @@ Le knowledge graph du cursus informatique, deux blocs *Decomposition* et *Abstra
 - **Le diagramme comme seul système illustré** : pas d'illustration décorative, la figure du contenu *est* l'art. Applicable à tout produit qui explique quelque chose.
 - **Rive plutôt que Lottie** quand un personnage a des états — la State Machine évite l'aller-retour avec l'ingénierie.
 
+## Prompts de refonte
+
+- **tr4de (tao trade)** — 25 août 2026 — [[tr4de|prompts/tr4de]]. Refonte complète de l'app
+  de trading et de vie perso de Sacha (`~/Documents/GitHub/tr4de`, Next.js + Tauri) : rôles
+  de couleur clair et sombre, palette de catégories, accent réglable, typographie, rayons,
+  élévation, densité, motion, tous les états de composant, écran par écran, ton de voix.
+  La cible tourne aujourd'hui sur la charte **Duolingo** — le prompt est donc la
+  transposition littérale de l'opposition que décrit ce dossier. Axes laissés à l'agent :
+  durées de transition, crans de rayon intermédiaires, crans non publiés des 13 teintes
+  non-vertes.
+
 ## Mots-clés
 
 Brilliant · brilliant.org · Brilliant Worldwide · apprentissage · learning · edtech · éducation · maths · mathematics · informatique · computer science · programmation · data science · IA · AI · tuteur · tutor · tuteur IA · AI tutor · personal tutor · leçon interactive · interactive lesson · diagramme interactif · interactive diagram · diagramme manipulable · balance d'équation · triangle de Sierpinski · table de valeurs · pseudo-code · KaTeX · LaTeX · Computer Modern · Koji · mascotte · personnage · blob · losange · wings · Blorb · PIX · style d'illustration · illustration system · cube isométrique · isométrique · chemin d'apprentissage · learning path · nœud · node · coussin · streak · Streak Charge · série · LIFETIME XP · XP · Leagues · ligue · Hydrogen · Titanium · Xenon · Einsteinium · badge · classement · leaderboard · gamification · onboarding · qualification · comfort level · objectif quotidien · Casual Regular Serious Intense · mur d'inscription · signup wall · paywall · Premium · essai gratuit · free trial · frise d'essai · soft paywall · CoFo Brilliant · CoFo Robert · CoFo Brilliant Semi-Mono · Contrast Foundry · CoFo · Maria Doreuli · Elizaveta Rasskazova · typo sur mesure · bespoke typeface · serif · sans géométrique · Panda CSS · design tokens · token sémantique · double thème · dark mode · button3d · arête de bouton · green-500 · pear · mint · oat · gray-950 · lesson-feedback-correct · lesson-feedback-retryable · l'erreur pas en rouge · blanc dominant · 61 pour cent · Rive · state machine · Lottie · After Effects · Zack Davenport · Cody Bond · Juliana Chen · Isaac Kuula · Alex Penny · Habib Placencia · Lawrence Wilson · Pop & Strange · knowledge graph · graphe de connaissances · radar d'évaluation · principes du tuteur · explorations écartées · millésime · 2022 · 2024 · 2025 · refonte · rebrand · brand refresh · sponsoring YouTube · YouTube sponsorship · encart sponsorise · sponsor read · lower-third · gabarit sponsor · URL vanity · Veritasium · Numberphile · Karen Puzzles · Kurzgesagt · 3Blue1Brown · Tubefilter · Gospel Stats · QR code · Sue Khim · Hellosaurus · video interactive · climbing wall · Forbes 30 Under 30 · disque geodesique · gemme en fil de fer · main qui pince un graphe · 100-Day Challenge · blocs de code verts
