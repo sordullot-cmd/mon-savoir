@@ -338,6 +338,21 @@ Aussi : `archive/monetisation-2019-boutique-competence-bonus-verrouillee-plus.pn
 
 ---
 
+## Prompts de refonte
+
+Les prompts tirés de ce dossier, destinés à un agent de code. Chaque valeur y est sourcée
+(charte publiée, relevé, ou déduit) ; le détail du protocole est dans le skill `/refonte`.
+
+- [[prompts/tr4de|tr4de (taotrade)]] — 25 août 2026. Le journal de trading `~/Documents/GitHub/tr4de`
+  (Next.js 16 / React 19 / Tailwind v4 / Tauri). Couvre les couleurs par rôle, la typo, l'espacement,
+  les rayons, l'élévation, la densité, le motion, les composants et leurs états, le ton et
+  l'accessibilité. Le cœur du prompt est le passage de l'ombre floue à **l'arête basse solide**
+  et le retour du blanc comme structure. Complété par [[duolingo]] (charte publiée) et
+  [[duolingo-2026]] (identité 2026). **Attention** : [[brilliant]] porte un prompt concurrent
+  pour la même cible, écrit le même jour — les deux directions s'excluent.
+
+---
+
 ## Sources
 
 Aucune source unique : six pistes menées en parallèle, plus le press kit officiel exploité par son API.
