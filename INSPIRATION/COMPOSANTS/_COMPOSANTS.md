@@ -49,6 +49,11 @@ tags: [moc, inspiration, composants]
 | Nuage de bulles de sélection | [[ahead]] | Sélecteur multiple où chaque option est une bulle de taille variable, et la bulle choisie grossit. Ne ressemble à aucune liste à cocher — et le SVG vectoriel est fourni à côté. | `UI-DESIGN/ahead/composants/bulles-de-selection-de-signes_ahead.png` |
 | Graphe à barres coiffées de personnages | [[ahead]] | Chaque barre porte une tête d'émotion en guise de point de donnée : la légende EST le personnage. De la dataviz qui reste légère. | `UI-DESIGN/ahead/composants/graphe-a-barres-coiffees-de-tetes_ahead.png` |
 | Feuille modale à sélecteur de pays | [[ahead]] | Modale de recrutement (« Meet our WhatsApp Therapist ») avec indicatif pays, champ téléphone et CTA désactivé jusqu'à saisie valide. | `UI-DESIGN/ahead/composants/modale-et-selecteur-de-pays_ahead.png` |
+| Jalons verrouillés montrés en rochers bruts | [[opal]] | On ne voit pas la gemme avant de l'avoir gagnée — on voit la pierre. Cinq paliers nommés (Invested 3 j → Legendary 90 j), barre de progression fine, aucun cadenas. | `UI-DESIGN/opal/composants/grille-de-gemmes-verrouillees-en-rochers_opal.png` |
+| Section teintée par le halo de son objet 3D | [[opal]] | La flamme de série est ambre et tout le bloc l'est avec elle — titre, sous-titre, contour du bouton. La couleur ne vient pas d'un token d'interface mais de la lumière d'un objet. | `UI-DESIGN/opal/composants/serie-flamme-day-streak_opal.png` |
+| Le même mécanisme, en vert menthe | [[opal]] | Sablier 3D avec le chiffre dedans, section entière teintée. Deux blocs voisins, deux teintes, une seule règle. | `UI-DESIGN/opal/composants/focus-hours-sablier-vert_opal.png` |
+| Écrans de blocage à personnalités IA | [[opal]] | Rangés en « Curated by Opal » puis « AI Personalities » : *Brutal Insults* (« get roasted, zinged and smoked. PG13 ») et *Jane Austen*, qui vous cite quand vous ouvrez Instagram. | `UI-DESIGN/opal/composants/section-personnalites-ia_opal.png` |
+| Collection bornée et annoncée | [[opal]] | « 2/23 collected » et un trait de progression de 2 px. On sait combien il en reste avant de commencer. | `UI-DESIGN/opal/composants/entete-progression-2-sur-23_opal.png` |
 
 ---
 [[_INSPIRATION|← Inspiration]]
