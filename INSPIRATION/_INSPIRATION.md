@@ -51,7 +51,7 @@ Dans le frontmatter (`media:`, `mood:`) ou en `#tag`.
 > Voir [[Template-Produit]]. Rempli par `/inspi` en mode app.
 
 - `type_app` — `productivité` · `social` · `finance` · `santé` · `éducation` · `média` · `commerce` · `outil` · `jeu` · `ia`
-- `plateformes` — `[ios, android, web, macos]`
+- `plateformes` — `[ios, android, web, macos, windows]`
 - `editeur` · `version` · `url_store` — relevés automatiquement depuis le store
 - `patterns` — écrans/parcours présents : `onboarding` · `paywall` · `tab-bar` · `navigation-gestuelle` · `feed` · `recherche` · `parametres` · `empty-state` · `mode-sombre` · `gamification`
 

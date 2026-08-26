@@ -45,6 +45,6 @@ tags: [moc, inspiration, animations, motion]
 | Compagnon IA qui respire | [[ahead]] | Le visage de « Kai » pulse en boucle sur un dégradé lavande→pêche, puis passe en overlay plein écran. Une attente d'IA transformée en respiration guidée. | `UI-DESIGN/ahead/animations/kai-respiration-et-transition_ahead.mp4` |
 | Gemmes de jalon en rotation sur fond noir | [[opal]] | Chaque opale tourne sur elle-même et projette sa propre lumière sur le noir. L'objet est le sujet — c'est tout le produit en 8 secondes. | `UI-DESIGN/opal/animations/gemmes-de-jalon-en-rotation_opal.mp4` |
 | Trois films officiels livrés dans le brand kit | [[opal]] | Accueil, session de focus, série de jours, en 1920×1080. Une marque qui distribue son propre motion produit, prêt à l'emploi. | `UI-DESIGN/opal/animations/ecran-daccueil-gemme-et-score_opal.mp4` |
-
+| Une seule rupture chromatique sur 16 000 px | [[rize]] | La landing défile en noir sur toute sa hauteur, puis bascule d'un coup dans une section pleine largeur en violet saturé — et c'est là que tombe l'argument central. La première zone non noire de l'histoire du site. | `UI-DESIGN/rize/animations/scroll-bascule-vers-la-section-violette_rize.gif` |
 ---
 [[_INSPIRATION|← Inspiration]]

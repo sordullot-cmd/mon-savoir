@@ -54,6 +54,10 @@ tags: [moc, inspiration, composants]
 | Le même mécanisme, en vert menthe | [[opal]] | Sablier 3D avec le chiffre dedans, section entière teintée. Deux blocs voisins, deux teintes, une seule règle. | `UI-DESIGN/opal/composants/focus-hours-sablier-vert_opal.png` |
 | Écrans de blocage à personnalités IA | [[opal]] | Rangés en « Curated by Opal » puis « AI Personalities » : *Brutal Insults* (« get roasted, zinged and smoked. PG13 ») et *Jane Austen*, qui vous cite quand vous ouvrez Instagram. | `UI-DESIGN/opal/composants/section-personnalites-ia_opal.png` |
 | Collection bornée et annoncée | [[opal]] | « 2/23 collected » et un trait de progression de 2 px. On sait combien il en reste avant de commencer. | `UI-DESIGN/opal/composants/entete-progression-2-sur-23_opal.png` |
-
+| Maquettes d'UI livrées en SVG vectoriel | [[rize]] | Rize publie quatre de ses visuels produit en vectoriel plutôt qu'en capture : chaque hex, chaque rayon et chaque dégradé se lit directement dans le fichier. Rare, et précieux pour une refonte. | `UI-DESIGN/rize/composants/carte-coach-productivite_rize.svg` |
+| Jauges linéaires à segments dégradés | [[rize]] | Trois métriques de focus rendues par une barre segmentée bleue avec curseur blanc, au lieu d'un pourcentage. Composant qu'on ne croise nulle part ailleurs. Millésime 2022. | `UI-DESIGN/rize/composants/jauges-segmentees-focus-2022_rize.png` |
+| Palette de commandes en surimpression | [[rize]] | Cmd+K par-dessus le dashboard assombri, badges de raccourci alignés à droite, actions verbales (Start Session, Pause Tracking). | `UI-DESIGN/rize/composants/command-bar-cmd-k_rize.webp` |
+| Ligne de réglage titre + description + contrôle | [[rize]] | Le patron qui tient 19 rubriques de réglages : intitulé gras et explication grise à gauche, interrupteur ou sélecteur à droite. Le composant le plus réutilisé de l'app. | `UI-DESIGN/rize/composants/lignes-de-reglages-a-toggle_rize.webp` |
+| Lecteur de musique d'ambiance dans un outil de facturation | [[rize]] | Popover « Music & Sounds », grille 3x3 de vignettes illustrées (Lo-Fi Beats, Binaural 40 Hz, Coffee Shop). Vestige de l'époque où le produit visait le focus personnel. | `UI-DESIGN/rize/composants/popover-musique-ambiance_rize.webp` |
 ---
 [[_INSPIRATION|← Inspiration]]
