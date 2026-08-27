@@ -1,0 +1,364 @@
+40px icon - Fire_green	te
+40px icon - avocado_green	re
+40px icon - balance_green	ae
+40px icon - egg_green	se
+40px icon - female + heart_green-1	le
+40px icon - female + heart_green	de
+40px icon - gain weight_green	i
+40px icon - lose weight_green-1	a
+40px icon - lose weight_green	o
+40px icon - no carb_green	s
+40px icon - paleo_green	c
+40px icon - run_green	l
+40px icon - vegan_green	u
+40px icon - vegetarian_green	d
+40px_tick	f
+Award	p
+Baby bottle_green	m
+Balance_green	h
+Battery_green	g
+Calc	_
+Calc_green	v
+Chair	y
+Cheese and apple	b
+Close	x
+Converce	S
+Cycle	C
+Delivery_green	w
+Desserts	T
+Dine out_green	E
+End	D
+Energy_green	O
+Error	k
+Evening_green	A
+Exclamation	j
+Female_green	M
+Fire_green	N
+Flame	P
+Frame 1321316720_green	F
+Frame 1321316721_green-1	I
+Frame 1321316721_green-2	L
+Frame 1321316721_green	R
+Gaine weight_green	z
+GreenTick	B
+Gut_green	V
+Heart broken	H
+Heart_green-1	U
+Heart_green	W
+Hearts_bg	G
+Home cooked_green	K
+Home_cooked_time	q
+I gain and lose often_green	J
+Injury_green	Y
+It’s hard to tell_green	at
+Junk food_green	st
+Like	lt
+Lost_green	dt
+Magnifying glass_green	pt
+Male_green	ht
+Meals	_t
+Midnight snack_green	yt
+Moon sleep_green	xt
+Morning_green	Ct
+Night	Tt
+No_green-1	Dt
+No_green	kt
+Non-binary_green	jt
+None of the above_green	Nt
+Overeat_green	Ft
+Pizza_green	Lt
+Question	zt
+Rainbow	Vt
+Rocket_green	Ut
+Salad	Gt
+Salt_green	qt
+Sleep time	Yt
+Soda_green	Zt
+Stable weight_green	$t
+Star - rise_green	tn
+Sticker	rn
+Stress_green-1	on
+Stress_green-2	cn
+Stress_green-3	un
+Stress_green	fn
+Subtract	mn
+Sun_green	gn
+Sweets_green	vn
+Thumb down	bn
+Thumb up_green	Sn
+Thunder	wn
+Time_green-1	En
+Time_green	On
+Virus_green	An
+Vitamins_green	Mn
+Wine_green	Pn
+Work_green	In
+ai_stars	Rn
+apple	Bn
+bad_sleep	Hn
+bulb	Wn
+calc_yellow	Kn
+calendar	Jn
+calendar_blue	Xn
+calendar_green	Qn
+calendar_red	er
+checkbox	nr
+checked	ir
+cheese_and_egg	or
+cross	cr
+fasting	ur
+female_old	fr
+female_success	mr
+fire_shoes	gr
+food_arepa	vr
+food_bread_with_butter	br
+food_bunuelos	Sr
+food_burger	wr
+food_cheese	Er
+food_chicharron_preparado	Or
+food_churrasco	Ar
+food_crepes	Mr
+food_croissant	Pr
+food_currywurst	Ir
+food_eat_fork_food	Rr
+food_feijao_tutu	Br
+food_fries	Hr
+food_ice_cream	Wr
+food_jamon	Kr
+food_kebab	Jr
+food_mac_and_cheese	Xr
+food_nutella	Qr
+food_papas_rellenas	ei
+food_pasta	ni
+food_pizza	ii
+food_popcorn	oi
+food_rice	ci
+food_sweets	ui
+food_tacos	fi
+food_tortilla_de_patata	mi
+ic_2x	gi
+ic_activity_level_high	vi
+ic_activity_level_light	bi
+ic_activity_level_low	Si
+ic_activity_level_moderate	wi
+ic_adgoal_1	Ei
+ic_adgoal_2	Oi
+ic_adgoal_3	Ai
+ic_adgoal_4	Mi
+ic_adgoal_5	Pi
+ic_adgoal_6	Ii
+ic_adgoal_7	Ri
+ic_adgoal_8	Bi
+ic_adv_heart	Hi
+ic_arrow_right	Wi
+ic_baby_bottle	Ki
+ic_back	Ji
+ic_badge_document	Xi
+ic_badge_phone	Qi
+ic_bed	ea
+ic_better_digestion	na
+ic_bulb	ia
+ic_burn_calories	oa
+ic_calendar	ca
+ic_calorie_tracking_counting	ua
+ic_calorie_tracking_new	fa
+ic_calorie_tracking_quit	ma
+ic_celebration	ga
+ic_certified_quality_badge	va
+ic_checked	ba
+ic_chevron_down	Sa
+ic_chevron_left	wa
+ic_chevron_right	Ea
+ic_clean_energy	Oa
+ic_clock	Aa
+ic_confetti	Ma
+ic_cravings_control	Pa
+ic_curb_cravings	Ia
+ic_diet_balanced	Ra
+ic_diet_high_protein	Ba
+ic_diet_ketogenic	Ha
+ic_diet_low_carb	Wa
+ic_diet_paleo	Ka
+ic_diet_vegan	Ja
+ic_diet_vegetarian	Xa
+ic_dna	Qa
+ic_donut_no	eo
+ic_dumbbell	no
+ic_eat_place_delivery	io
+ic_eat_place_home	oo
+ic_eat_place_out	co
+ic_eating_style	uo
+ic_email	po
+ic_energy	ho
+ic_error	_o
+ic_error_404	yo
+ic_evening	xo
+ic_experience_1	Co
+ic_experience_2	To
+ic_experience_4	Do
+ic_experience_5	ko
+ic_experience_6	jo
+ic_feel_more_confident	No
+ic_female	X
+ic_fire	Io
+ic_fire_orange	Ro
+ic_forward_white	Bo
+ic_free_shipping_truck	Ho
+ic_gender_female	Wo
+ic_gender_male	Ko
+ic_gender_non_binary	Jo
+ic_getApp_download	Xo
+ic_getApp_mail	Qo
+ic_getApp_start	Z
+ic_gift	ts
+ic_graph	rs
+ic_gray_stars	as
+ic_green_star	ss
+ic_guarantee	ls
+ic_gut_health_probiotic	ds
+ic_habit_cook_at_home	ps
+ic_habit_eat_less_junk	hs
+ic_habit_eat_more_greens	_s
+ic_habit_reduce_salt	ys
+ic_habit_reduce_sugar	xs
+ic_habit_stop_binge_eating	Cs
+ic_habit_stop_stress_overeating	Ts
+ic_hairbrush	Ds
+ic_healthy_bowl	ks
+ic_heart	js
+ic_heart_empty	Ns
+ic_hight_bmi	Fs
+ic_home	Ls
+ic_injury	zs
+ic_journey_1	Vs
+ic_journey_2	Us
+ic_journey_3	Gs
+ic_journey_4	qs
+ic_journey_5	Ys
+ic_journey_stable weight	Zs
+ic_journey_unknown_weight	$s
+ic_junk_food	tc
+ic_leaves_green	rc
+ic_lose_graph	ac
+ic_lose_weight	sc
+ic_lost	lc
+ic_lower_blood_glucose	dc
+ic_male	pc
+ic_midnight_food	hc
+ic_midnight_snack	_c
+ic_money_back_guarantee	yc
+ic_money_back_shield	xc
+ic_moon	Cc
+ic_moon_sleep	Tc
+ic_more_balance	Dc
+ic_morning	kc
+ic_multiple_diets	jc
+ic_muscle	Nc
+ic_non_binary	Fc
+ic_none	Lc
+ic_normal_bmi	zc
+ic_overeat	Vc
+ic_password_invisible	Uc
+ic_password_visible	Gc
+ic_pay_am_ex	qc
+ic_pay_apple	Yc
+ic_pay_google	Zc
+ic_pay_masterCard	$c
+ic_pay_visa	tl
+ic_paypal	rl
+ic_paywall_gain_weight	al
+ic_paywall_maintain_weight	sl
+ic_paywall_weight_lose	ll
+ic_peech_pointer	dl
+ic_phone	pl
+ic_pizza	hl
+ic_progress_need_support	_l
+ic_progress_ready_to_go	yl
+ic_progress_tried	xl
+ic_progress_where_to_start	Cl
+ic_psycho_stars	Tl
+ic_question	Dl
+ic_racoon	kl
+ic_racoon_avatar	jl
+ic_radio	Nl
+ic_radio_selected	Fl
+ic_rainbow_stars	Ll
+ic_reduce_body_weight	zl
+ic_reduce_cholesterol	Vl
+ic_relationship	Ul
+ic_reload	Gl
+ic_reset_letter	ql
+ic_retry	Yl
+ic_salt	Zl
+ic_snack_1	$l
+ic_snack_3	tu
+ic_snack_4	ru
+ic_snack_5	au
+ic_soda	su
+ic_star	lu
+ic_star_full	du
+ic_star_yes	pu
+ic_stars_first_screen	hu
+ic_stats_union	_u
+ic_stats_union_14	yu
+ic_strary	xu
+ic_stress	Cu
+ic_sun	Tu
+ic_sweets	Du
+ic_target	ku
+ic_thumb_up	ju
+ic_thumb_up_right	Nu
+ic_time	Fu
+ic_trust_bg_stars	Lu
+ic_two_green_stars	zu
+ic_university	Vu
+ic_unstable_weight	Uu
+ic_vacation	Gu
+ic_veggies_plate	qu
+ic_virus	Yu
+ic_vitamins	Zu
+ic_wedding	$u
+ic_weight_gain	td
+ic_weight_lose	rd
+ic_weight_maintain	ad
+ic_weight_management	sd
+ic_whatsapp	ld
+ic_white_tick	dd
+ic_wine	pd
+ic_winter_tree	hd
+ic_work	_d
+ic_yes	yd
+lightning_average	xd
+lightning_fast	Cd
+lightning_slow	Td
+logo	Dd
+macros	kd
+meals_blue	jd
+normal-reaction	Nd
+obese-reaction	Fd
+overweight-reaction	Ld
+password_update	zd
+pcos	Vd
+playstore	Ud
+quote-left	Gd
+quote-right	qd
+racoonWatching	Yd
+rocket	Zd
+stress	$d
+stress2	tf
+tick (Stroke)	rf
+tick-green	of
+tick	Q
+tick_green	lf
+title_racoon	df
+trust_left_leaves	pf
+trust_rating	hf
+trust_right_leaves	_f
+trustpilot-logo	yf
+trustpilot-star	xf
+underweight-reaction	Cf
+weight_green	Tf
+winter_stars	Df
+work_out	kf
+work_out2	jf
+yellow_stars	Nf

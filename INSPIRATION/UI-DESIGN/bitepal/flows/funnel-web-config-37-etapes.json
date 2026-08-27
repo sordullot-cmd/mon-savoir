@@ -1,0 +1,2571 @@
+{
+ "config": {
+  "branch": "bitepal2",
+  "locales": [
+   "en",
+   "es",
+   "es-419",
+   "de",
+   "fr",
+   "it",
+   "pt-BR",
+   "ja",
+   "ko-KR"
+  ],
+  "onboarding": [
+   {
+    "config": {
+     "key": "age",
+     "components": [
+      {
+       "type": "FlexibleSpace",
+       "props": {
+        "maxHeight": 56,
+        "minHeight": 8
+       }
+      },
+      {
+       "type": "Background",
+       "props": {
+        "background": "linear-gradient(#E1FFD9, #EDEDF2)",
+        "decor": "ic_stars_first_screen"
+       }
+      },
+      {
+       "type": "SecondTitle",
+       "props": {
+        "text": "Personalized  weight-loss plan"
+       }
+      },
+      {
+       "type": "FlexibleSpace",
+       "props": {
+        "minHeight": 8,
+        "maxHeight": 8
+       }
+      },
+      {
+       "type": "SubTitle",
+       "props": {
+        "text": "Based on your age"
+       }
+      },
+      {
+       "type": "FlexibleSpace",
+       "props": {
+        "minHeight": 8
+       }
+      },
+      {
+       "type": "SelectAge",
+       "condition": {
+        "$isFeatureOff": "start_new"
+       }
+      },
+      {
+       "type": "SelectAge2",
+       "condition": {
+        "$isFeatureOn": "start_new"
+       },
+       "props": {
+        "choices": [
+         {
+          "text": "Age: 18-24",
+          "image": "age_18–24_female",
+          "value": "AGE_FROM_18_TO_24"
+         },
+         {
+          "text": "Age: 25-34",
+          "image": "age_25-34_female",
+          "value": "AGE_FROM_25_TO_34"
+         },
+         {
+          "text": "Age: 35-44",
+          "image": "age_35-45_female",
+          "value": "AGE_FROM_35_TO_44"
+         },
+         {
+          "text": "Age: 45+",
+          "image": "age_46+_female",
+          "value": "AGE_FROM_45_TO_54"
+         }
+        ]
+       }
+      },
+      {
+       "type": "FlexibleSpace",
+       "props": {
+        "minHeight": 8
+       }
+      },
+      {
+       "type": "Policy",
+       "props": {
+        "text": "By continuing you agree with our"
+       }
+      }
+     ]
+    }
+   },
+   {
+    "config": {
+     "key": "trusted_by_users",
+     "components": [
+      {
+       "type": "Fragment",
+       "condition": {
+        "$isFeatureOn": "start_new"
+       },
+       "children": [
+        {
+         "type": "Background",
+         "props": {
+          "background": "white"
+         }
+        },
+        {
+         "type": "NavBar",
+         "props": {
+          "progress": false
+         }
+        },
+        {
+         "type": "BigTitle",
+         "props": {
+          "text": "10+ million",
+          "subTitle": "Users have chosen us"
+         }
+        },
+        {
+         "type": "BackgroundImage",
+         "props": {
+          "name": "social_proof_famale"
+         }
+        },
+        {
+         "type": "Button",
+         "props": {
+          "text": "Continue",
+          "style": {
+           "bottom": "16px",
+           "position": "absolute"
+          }
+         }
+        }
+       ]
+      },
+      {
+       "type": "Fragment",
+       "condition": {
+        "$isFeatureOff": "start_new"
+       },
+       "children": [
+        {
+         "type": "NavBar",
+         "props": {
+          "progress": false
+         }
+        },
+        {
+         "type": "BackgroundWithStaticImage",
+         "props": {
+          "background": "linear-gradient(#E1FFD9, #EDEDF2)",
+          "decor": "ic_trust_bg_stars"
+         }
+        },
+        {
+         "type": "Button",
+         "props": {
+          "text": "Continue"
+         }
+        }
+       ]
+      }
+     ]
+    }
+   },
+   {
+    "config": {
+     "key": "gender",
+     "persist": true,
+     "components": [
+      {
+       "type": "NavBar"
+      },
+      {
+       "type": "OptionTitle",
+       "props": {
+        "text": "Select your gender"
+       }
+      },
+      {
+       "type": "OptionList",
+       "props": {
+        "manual": false,
+        "options": [
+         {
+          "title": "Female",
+          "icon": "ic_gender_female",
+          "value": "GENDER_FEMALE"
+         },
+         {
+          "title": "Male",
+          "icon": "ic_gender_male",
+          "value": "GENDER_MALE"
+         },
+         {
+          "title": "Non-binary",
+          "icon": "ic_gender_non_binary",
+          "value": "GENDER_NON_BINARY"
+         }
+        ]
+       }
+      }
+     ]
+    }
+   },
+   {
+    "config": {
+     "key": "pet_hello",
+     "components": [
+      {
+       "type": "Background",
+       "props": {
+        "background": "linear-gradient(#E1FFD9, #EDEDF2)",
+        "decor": "ic_strary"
+       }
+      },
+      {
+       "type": "NavBar",
+       "props": {
+        "progress": false
+       }
+      },
+      {
+       "type": "Racoon",
+       "props": {
+        "text": "Hi, I’m BitePal"
+       }
+      },
+      {
+       "type": "FlexibleSpace"
+      },
+      {
+       "type": "Button",
+       "props": {
+        "text": "Continue"
+       }
+      }
+     ]
+    }
+   },
+   {
+    "config": {
+     "key": "pet_help_reach",
+     "components": [
+      {
+       "type": "Background",
+       "props": {
+        "background": "linear-gradient(#E1FFD9, #EDEDF2)",
+        "decor": "ic_strary"
+       }
+      },
+      {
+       "type": "NavBar",
+       "props": {
+        "progress": false
+       }
+      },
+      {
+       "type": "Racoon",
+       "props": {
+        "text": "I’ll help you reach your weight goals"
+       }
+      },
+      {
+       "type": "FlexibleSpace"
+      },
+      {
+       "type": "Button",
+       "props": {
+        "text": "Continue"
+       }
+      }
+     ]
+    }
+   },
+   {
+    "config": {
+     "key": "two_min_quiz",
+     "components": [
+      {
+       "type": "Background",
+       "props": {
+        "background": "linear-gradient(#E1FFD9, #EDEDF2)",
+        "decor": "ic_strary"
+       }
+      },
+      {
+       "type": "NavBar",
+       "props": {
+        "progress": false
+       }
+      },
+      {
+       "type": "Racoon",
+       "props": {
+        "text": "Let's take a 2-min. quiz to personalise your plan"
+       }
+      },
+      {
+       "type": "FlexibleSpace"
+      },
+      {
+       "type": "Button",
+       "props": {
+        "text": "Continue"
+       }
+      }
+     ]
+    }
+   },
+   {
+    "config": {
+     "key": "main_goal",
+     "persist": true,
+     "components": [
+      {
+       "type": "NavBar"
+      },
+      {
+       "type": "OptionTitle",
+       "props": {
+        "text": "What is your main goal?"
+       }
+      },
+      {
+       "type": "OptionList",
+       "props": {
+        "manual": false,
+        "options": [
+         {
+          "title": "Lose weight",
+          "icon": "ic_weight_lose",
+          "value": "MAIN_GOAL_LOSE_WEIGHT"
+         },
+         {
+          "title": "Maintain weight",
+          "icon": "ic_weight_maintain",
+          "value": "MAIN_GOAL_MAINTAIN_WEIGHT"
+         },
+         {
+          "title": "Gain weight",
+          "icon": "ic_weight_gain",
+          "value": "MAIN_GOAL_GAIN_WEIGHT"
+         }
+        ]
+       }
+      }
+     ]
+    }
+   },
+   {
+    "config": {
+     "key": "additional_goals",
+     "persist": true,
+     "components": [
+      {
+       "type": "NavBar"
+      },
+      {
+       "type": "OptionTitle",
+       "props": {
+        "text": "Any additional goals?"
+       }
+      },
+      {
+       "type": "OptionList",
+       "props": {
+        "multiSelect": true,
+        "withoutChoice": true,
+        "options": [
+         {
+          "title": "Build healthy\nrelationship with food",
+          "icon": "ic_adgoal_1",
+          "value": "ADDITIONAL_GOAL_BUILD_HEALTHY_RELATIONSHIP_WITH_FOOD"
+         },
+         {
+          "title": "Improve overall wellbeing",
+          "icon": "ic_adgoal_2",
+          "value": "ADDITIONAL_GOAL_IMPROVE_OVERALL_WELLBEING"
+         },
+         {
+          "title": "Boost daily energy",
+          "icon": "ic_adgoal_3",
+          "value": "ADDITIONAL_GOAL_BOOST_DAILY_ENERGY"
+         },
+         {
+          "title": "Improve gut health",
+          "icon": "ic_adgoal_4",
+          "value": "ADDITIONAL_GOAL_IMPROVE_GUT_HEALTH"
+         },
+         {
+          "title": "Feel better about myself",
+          "icon": "ic_adgoal_5",
+          "value": "ADDITIONAL_GOAL_FEEL_BETTER_ABOUT_MYSELF"
+         },
+         {
+          "title": "Improve sport performance",
+          "icon": "ic_adgoal_6",
+          "value": "ADDITIONAL_GOAL_BE_STRONGER"
+         },
+         {
+          "title": "Reduce stress",
+          "icon": "ic_adgoal_7",
+          "value": "ADDITIONAL_GOAL_REDUCE_STRESS"
+         },
+         {
+          "title": "Learn more about nutrition",
+          "icon": "ic_adgoal_8",
+          "value": "ADDITIONAL_GOAL_LEARN_MORE_ABOUT_NUTRITION"
+         }
+        ]
+       }
+      }
+     ]
+    }
+   },
+   {
+    "config": {
+     "key": "long_term_results",
+     "components": [
+      {
+       "type": "Background",
+       "props": {
+        "background": "linear-gradient(#E1FFD9, #EDEDF2)",
+        "decor": "ic_strary"
+       }
+      },
+      {
+       "type": "NavBar",
+       "props": {
+        "progress": false
+       }
+      },
+      {
+       "type": "SecondTitle",
+       "props": {
+        "text": "BitePal provides long-term results"
+       }
+      },
+      {
+       "type": "FlexibleSpace",
+       "props": {
+        "minHeight": 24
+       }
+      },
+      {
+       "type": "Animation",
+       "props": {
+        "name": "lose_weight_in",
+        "idleName": "lose_weight_idle"
+       },
+       "condition": {
+        "main_goal": {
+         "$nin": [
+          "MAIN_GOAL_MAINTAIN_WEIGHT",
+          "MAIN_GOAL_GAIN_WEIGHT"
+         ]
+        }
+       }
+      },
+      {
+       "type": "Animation",
+       "props": {
+        "name": "maintain_weight_in",
+        "idleName": "maintain_weight_idle"
+       },
+       "condition": {
+        "main_goal": "MAIN_GOAL_MAINTAIN_WEIGHT"
+       }
+      },
+      {
+       "type": "Animation",
+       "props": {
+        "name": "gain_weight_in",
+        "idleName": "gain_weight_idle"
+       },
+       "condition": {
+        "main_goal": "MAIN_GOAL_GAIN_WEIGHT"
+       }
+      },
+      {
+       "type": "FlexibleSpace",
+       "props": {
+        "minHeight": 24
+       }
+      },
+      {
+       "type": "Button",
+       "props": {
+        "arrow": true
+       }
+      }
+     ]
+    }
+   },
+   {
+    "condition": {},
+    "config": {
+     "key": "weight_journey",
+     "persist": true,
+     "components": [
+      {
+       "type": "NavBar"
+      },
+      {
+       "type": "OptionTitle",
+       "props": {
+        "text": "What’s your weight journey like?"
+       }
+      },
+      {
+       "type": "OptionList",
+       "props": {
+        "manual": false,
+        "options": [
+         {
+          "icon": "ic_journey_1",
+          "title": "It stays pretty stable",
+          "value": "STABLE"
+         },
+         {
+          "icon": "ic_journey_2",
+          "title": "I gain and lose often",
+          "value": "GAIN_AND_LOSE"
+         },
+         {
+          "icon": "ic_journey_3",
+          "title": "I’ve been slowly gaining",
+          "value": "SLOWLY_GAINING"
+         },
+         {
+          "icon": "ic_journey_4",
+          "title": "I’ve been losing recently",
+          "value": "LOSING"
+         },
+         {
+          "icon": "ic_journey_5",
+          "title": "It’s hard to tell",
+          "value": "HARD_TO_TELL"
+         }
+        ]
+       }
+      }
+     ]
+    }
+   },
+   {
+    "condition": {},
+    "config": {
+     "key": "body_image",
+     "persist": true,
+     "components": [
+      {
+       "type": "NavBar"
+      },
+      {
+       "type": "OptionTitle",
+       "props": {
+        "text": "When was the last time you felt happy with your body image?"
+       }
+      },
+      {
+       "type": "OptionList",
+       "props": {
+        "manual": false,
+        "options": [
+         {
+          "title": "Less than a year ago",
+          "value": "LESS_THAN_1"
+         },
+         {
+          "title": "1 to 2 years ago",
+          "value": "1_2_YEARS"
+         },
+         {
+          "title": "More than 3 years ago",
+          "value": "MORE_THAN_3"
+         },
+         {
+          "title": "Never",
+          "value": "NEVER"
+         }
+        ]
+       }
+      }
+     ]
+    }
+   },
+   {
+    "config": {
+     "key": "calorie_counting",
+     "components": [
+      {
+       "type": "NavBar"
+      },
+      {
+       "type": "OptionTitle",
+       "props": {
+        "text": "Have you tried calorie counting before?"
+       }
+      },
+      {
+       "type": "OptionList",
+       "props": {
+        "manual": false,
+        "options": [
+         {
+          "title": "I’m new to calorie counting",
+          "icon": "ic_calorie_tracking_new",
+          "value": "I’m new to calorie counting"
+         },
+         {
+          "title": "I’ve tried it before but quit",
+          "icon": "ic_calorie_tracking_quit",
+          "value": "I’ve tried it before but quit"
+         },
+         {
+          "title": "I’m currently counting",
+          "icon": "ic_calorie_tracking_counting",
+          "value": "I’m currently counting"
+         }
+        ]
+       }
+      }
+     ]
+    }
+   },
+   {
+    "config": {
+     "key": "approach",
+     "components": [
+      {
+       "type": "Background",
+       "props": {
+        "background": "linear-gradient(#C7D8FB, #EDEDF2)"
+       }
+      },
+      {
+       "type": "NavBar",
+       "props": {
+        "progress": false
+       }
+      },
+      {
+       "type": "SecondTitle",
+       "props": {
+        "text": "Why BitePal’s approach works"
+       }
+      },
+      {
+       "type": "FlexibleSpace",
+       "props": {
+        "minHeight": 24
+       }
+      },
+      {
+       "type": "Animation",
+       "props": {
+        "name": "approach_in",
+        "idleName": "approach_idle"
+       }
+      },
+      {
+       "type": "FlexibleSpace",
+       "props": {
+        "minHeight": 24
+       }
+      },
+      {
+       "type": "Button",
+       "props": {
+        "arrow": true
+       }
+      }
+     ]
+    }
+   },
+   {
+    "config": {
+     "key": "daily_meals_count",
+     "persist": true,
+     "components": [
+      {
+       "type": "NavBar"
+      },
+      {
+       "type": "OptionTitle",
+       "props": {
+        "text": "How many meals do you eat per day?"
+       }
+      },
+      {
+       "type": "MealsPicker"
+      },
+      {
+       "type": "Button",
+       "props": {
+        "arrow": true
+       }
+      }
+     ]
+    }
+   },
+   {
+    "config": {
+     "key": "eating_window",
+     "persist": true,
+     "components": [
+      {
+       "type": "NavBar"
+      },
+      {
+       "type": "OptionTitle",
+       "props": {
+        "text": "Between what hours do you eat?"
+       }
+      },
+      {
+       "type": "EatingWindowPicker"
+      }
+     ]
+    }
+   },
+   {
+    "config": {
+     "key": "eating_place",
+     "components": [
+      {
+       "type": "NavBar"
+      },
+      {
+       "type": "OptionTitle",
+       "props": {
+        "text": "Where do you usually eat?"
+       }
+      },
+      {
+       "type": "OptionList",
+       "props": {
+        "options": [
+         {
+          "title": "Cook at home",
+          "icon": "ic_eat_place_home",
+          "value": "Cook at home"
+         },
+         {
+          "title": "Eat out",
+          "icon": "ic_eat_place_out",
+          "value": "Eat out"
+         },
+         {
+          "title": "Order delivery",
+          "icon": "ic_eat_place_delivery",
+          "value": "Order delivery"
+         }
+        ],
+        "multiSelect": true
+       }
+      }
+     ]
+    }
+   },
+   {
+    "config": {
+     "key": "diet",
+     "persist": true,
+     "components": [
+      {
+       "type": "NavBar"
+      },
+      {
+       "type": "OptionTitle",
+       "props": {
+        "text": "What type of diet do you prefer?"
+       }
+      },
+      {
+       "type": "OptionList",
+       "props": {
+        "manual": false,
+        "options": [
+         {
+          "title": "Balanced",
+          "icon": "ic_diet_balanced",
+          "value": "DIET_BALANCED"
+         },
+         {
+          "title": "Vegetarian",
+          "icon": "ic_diet_vegetarian",
+          "value": "DIET_VEGETARIAN"
+         },
+         {
+          "title": "Vegan",
+          "icon": "ic_diet_vegan",
+          "value": "DIET_VEGAN"
+         },
+         {
+          "title": "Paleo",
+          "icon": "ic_diet_paleo",
+          "value": "DIET_PALEO"
+         },
+         {
+          "title": "Ketogenic",
+          "icon": "ic_diet_ketogenic",
+          "value": "DIET_KETOGENIC"
+         },
+         {
+          "title": "High protein",
+          "icon": "ic_diet_high_protein",
+          "value": "DIET_HIGH_PROTEIN"
+         },
+         {
+          "title": "Low carb",
+          "icon": "ic_diet_low_carb",
+          "value": "DIET_LOW_CARB"
+         }
+        ]
+       }
+      }
+     ]
+    }
+   },
+   {
+    "config": {
+     "key": "excluded_ingredients",
+     "persist": true,
+     "components": [
+      {
+       "type": "NavBar"
+      },
+      {
+       "type": "OptionTitle",
+       "props": {
+        "text": "Do you have any food restrictions?"
+       }
+      },
+      {
+       "type": "FlexibleSpace"
+      },
+      {
+       "type": "FoodList",
+       "props": {
+        "options": [
+         {
+          "title": "Lactose"
+         },
+         {
+          "title": "Shellfish"
+         },
+         {
+          "title": "Honey"
+         },
+         {
+          "title": "Peanut"
+         },
+         {
+          "title": "Fish"
+         },
+         {
+          "title": "Wheat"
+         },
+         {
+          "title": "Seafood"
+         },
+         {
+          "title": "Gluten"
+         },
+         {
+          "title": "Dairy"
+         },
+         {
+          "title": "Eggs"
+         },
+         {
+          "title": "Nuts"
+         },
+         {
+          "title": "Soy"
+         },
+         {
+          "title": "Seeds"
+         },
+         {
+          "title": "Citrus fruits"
+         }
+        ]
+       }
+      },
+      {
+       "type": "FlexibleSpace"
+      }
+     ]
+    }
+   },
+   {
+    "config": {
+     "key": "eating_habits",
+     "components": [
+      {
+       "type": "NavBar"
+      },
+      {
+       "type": "OptionTitle",
+       "props": {
+        "text": "What would you like to change in your eating habits?"
+       }
+      },
+      {
+       "type": "OptionList",
+       "props": {
+        "options": [
+         {
+          "title": "Reduce sugar intake",
+          "icon": "ic_habit_reduce_sugar",
+          "value": "Reduce sugar intake"
+         },
+         {
+          "title": "Eat less junk food",
+          "icon": "ic_habit_eat_less_junk",
+          "value": "Eat less junk food"
+         },
+         {
+          "title": "Stop binge eating",
+          "icon": "ic_habit_stop_binge_eating",
+          "value": "Stop binge eating"
+         },
+         {
+          "title": "Eat more greens & veggies",
+          "icon": "ic_habit_eat_more_greens",
+          "value": "Eat more greens & veggies"
+         },
+         {
+          "title": "Stop stress overeating",
+          "icon": "ic_habit_stop_stress_overeating",
+          "value": "Stop stress overeating"
+         },
+         {
+          "title": "Cook at home more often",
+          "icon": "ic_habit_cook_at_home",
+          "value": "Cook at home more often"
+         },
+         {
+          "title": "Reduce salt intake",
+          "icon": "ic_habit_reduce_salt",
+          "value": "Reduce salt intake"
+         }
+        ],
+        "multiSelect": true
+       }
+      }
+     ]
+    }
+   },
+   {
+    "config": {
+     "key": "activity_level",
+     "persist": true,
+     "components": [
+      {
+       "type": "NavBar"
+      },
+      {
+       "type": "OptionTitle",
+       "props": {
+        "text": "What’s your activity level?"
+       }
+      },
+      {
+       "type": "OptionList",
+       "props": {
+        "manual": false,
+        "options": [
+         {
+          "title": "Not active",
+          "subTitle": "I quickly lose my breath climbing stairs",
+          "icon": "ic_activity_level_low",
+          "value": "ACTIVITY_LEVEL_NOT_ACTIVE"
+         },
+         {
+          "title": "Lightly active",
+          "subTitle": "Sometimes I do short workouts to keep myself moving",
+          "icon": "ic_activity_level_light",
+          "value": "ACTIVITY_LEVEL_LIGHTLY_ACTIVE"
+         },
+         {
+          "title": "Moderately active",
+          "subTitle": "I maintain a regular exercise routine of 2-3 times per week",
+          "icon": "ic_activity_level_moderate",
+          "value": "ACTIVITY_LEVEL_MODERATELY_ACTIVE"
+         },
+         {
+          "title": "Highly active",
+          "subTitle": "Fitness is a core part of my lifestyle",
+          "icon": "ic_activity_level_high",
+          "value": "ACTIVITY_LEVEL_HIGHLY_ACTIVE"
+         }
+        ]
+       }
+      }
+     ]
+    }
+   },
+   {
+    "condition": {},
+    "config": {
+     "key": "weight_gain",
+     "persist": true,
+     "components": [
+      {
+       "type": "NavBar"
+      },
+      {
+       "type": "OptionTitle",
+       "props": {
+        "text": "Were there any life events that led to your weight gain?"
+       }
+      },
+      {
+       "type": "OptionList",
+       "props": {
+        "options": [
+         {
+          "title": "A stressful job or burnout",
+          "value": "JOB_BURNOUT"
+         },
+         {
+          "title": "Moving or starting college",
+          "value": "MOVING_OR_COLLEGE"
+         },
+         {
+          "title": "A breakup or relationship change",
+          "value": "BREAKUP_RELATIONSHIP"
+         },
+         {
+          "title": "Mental health struggles",
+          "value": "MENTAL_HEALTH"
+         },
+         {
+          "title": "Hormonal changes",
+          "value": "HORMONAL_CHANGES"
+         },
+         {
+          "title": "Pregnancy or postpartum",
+          "value": "PREGNANCY_POSTPARTUM"
+         },
+         {
+          "title": "None of these",
+          "value": "NONE"
+         }
+        ],
+        "multiSelect": true
+       }
+      }
+     ]
+    }
+   },
+   {
+    "condition": {},
+    "config": {
+     "key": "reason_to_get_in_shape",
+     "persist": true,
+     "components": [
+      {
+       "type": "NavBar"
+      },
+      {
+       "type": "OptionTitle",
+       "props": {
+        "text": "What is your main reason to get in shape?"
+       }
+      },
+      {
+       "type": "OptionList",
+       "props": {
+        "manual": false,
+        "options": [
+         {
+          "icon": "ic_thumb_up_right",
+          "title": "Feel better in my body",
+          "value": "FEEL_BETTER"
+         },
+         {
+          "icon": "ic_adgoal_3",
+          "title": "Boost my energy and mood",
+          "value": "BOOST_ENERGY"
+         },
+         {
+          "icon": "ic_adgoal_2",
+          "title": "Improve my health",
+          "value": "IMPROVE_HEALTH"
+         },
+         {
+          "icon": "ic_adgoal_5",
+          "title": "Feel more confident",
+          "value": "FEEL_CONFIDENT"
+         },
+         {
+          "icon": "ic_diet_balanced",
+          "title": "I just want more balance",
+          "value": "MORE_BALANCE"
+         }
+        ]
+       }
+      }
+     ]
+    }
+   },
+   {
+    "config": {
+     "key": "pet_help",
+     "components": [
+      {
+       "type": "NavBar",
+       "props": {
+        "progress": false
+       }
+      },
+      {
+       "type": "Background",
+       "props": {
+        "background": "linear-gradient(#FBCDC6, #EDEDF2)"
+       }
+      },
+      {
+       "type": "SecondTitle",
+       "props": {
+        "text": "Got it! We'll help you reach your goals"
+       }
+      },
+      {
+       "type": "FlexibleSpace",
+       "props": {
+        "minHeight": 24
+       }
+      },
+      {
+       "type": "Animation",
+       "props": {
+        "name": "03_onboarding_pet"
+       }
+      },
+      {
+       "type": "FlexibleSpace",
+       "props": {
+        "minHeight": 24
+       }
+      },
+      {
+       "type": "Button",
+       "props": {
+        "text": "Set up your goal"
+       }
+      }
+     ]
+    }
+   },
+   {
+    "config": {
+     "key": "age_years",
+     "persist": true,
+     "components": [
+      {
+       "type": "NavBar"
+      },
+      {
+       "type": "OptionTitle",
+       "props": {
+        "text": "What’s your age?"
+       }
+      },
+      {
+       "type": "AgePicker"
+      },
+      {
+       "type": "Button",
+       "props": {
+        "text": "Next"
+       }
+      }
+     ]
+    }
+   },
+   {
+    "config": {
+     "key": "height",
+     "persist": true,
+     "components": [
+      {
+       "type": "NavBar"
+      },
+      {
+       "type": "OptionTitle",
+       "props": {
+        "text": "How tall are you?"
+       }
+      },
+      {
+       "type": "FlexibleSpace"
+      },
+      {
+       "type": "HeightPicker"
+      },
+      {
+       "type": "FlexibleSpace"
+      },
+      {
+       "type": "Button",
+       "props": {
+        "arrow": true
+       }
+      }
+     ]
+    }
+   },
+   {
+    "config": {
+     "key": "current_weight",
+     "persist": true,
+     "components": [
+      {
+       "type": "NavBar"
+      },
+      {
+       "type": "OptionTitle",
+       "props": {
+        "text": "What’s your current weight?"
+       }
+      },
+      {
+       "type": "WeightPicker",
+       "props": {
+        "key": "current_weight"
+       }
+      },
+      {
+       "type": "DynamicBmi"
+      },
+      {
+       "type": "Button",
+       "props": {
+        "arrow": true
+       }
+      }
+     ]
+    }
+   },
+   {
+    "condition": {
+     "main_goal": {
+      "$ne": "MAIN_GOAL_MAINTAIN_WEIGHT"
+     }
+    },
+    "config": {
+     "key": "target_weight",
+     "persist": true,
+     "components": [
+      {
+       "type": "NavBar"
+      },
+      {
+       "type": "OptionTitle",
+       "props": {
+        "text": "What’s your target weight?"
+       }
+      },
+      {
+       "type": "WeightPicker",
+       "props": {
+        "key": "target_weight",
+        "warning": true
+       }
+      },
+      {
+       "type": "DynamicTargetWeight"
+      },
+      {
+       "type": "Button",
+       "props": {
+        "arrow": true
+       }
+      }
+     ]
+    }
+   },
+   {
+    "condition": {
+     "$all": [
+      {
+       "main_goal": {
+        "$ne": "MAIN_GOAL_MAINTAIN_WEIGHT"
+       }
+      },
+      {
+       "$where": "this.current_weight !== this.target_weight"
+      }
+     ]
+    },
+    "config": {
+     "key": "weight_change_speed",
+     "persist": true,
+     "components": [
+      {
+       "type": "NavBar"
+      },
+      {
+       "type": "OptionTitle",
+       "props": {
+        "text": "How fast you want to achieve your goal?"
+       }
+      },
+      {
+       "type": "FlexibleSpace"
+      },
+      {
+       "type": "Range"
+      },
+      {
+       "type": "Button",
+       "props": {
+        "arrow": true
+       }
+      }
+     ]
+    }
+   },
+   {
+    "config": {
+     "key": "personal_summary",
+     "components": [
+      {
+       "type": "PersonalSummary"
+      }
+     ]
+    },
+    "condition": {}
+   },
+   {
+    "config": {
+     "key": "pet_realistic",
+     "components": [
+      {
+       "type": "NavBar",
+       "props": {
+        "progress": false
+       }
+      },
+      {
+       "type": "BackgroundWithImage",
+       "props": {
+        "image": "bgPlan"
+       }
+      },
+      {
+       "type": "DynamicTitle"
+      },
+      {
+       "type": "FlexibleSpace",
+       "props": {
+        "minHeight": 24
+       }
+      },
+      {
+       "type": "Animation",
+       "props": {
+        "name": "04_onboarding_pet"
+       }
+      },
+      {
+       "type": "FlexibleSpace",
+       "props": {
+        "minHeight": 24
+       }
+      },
+      {
+       "type": "Button",
+       "props": {
+        "text": "Get my personal plan"
+       }
+      }
+     ]
+    }
+   },
+   {
+    "condition": {},
+    "config": {
+     "key": "special_occasion",
+     "components": [
+      {
+       "type": "NavBar"
+      },
+      {
+       "type": "DynamicTitle2",
+       "props": {
+        "text": "<span class='block'>Is there a special occasion</span> <span class='block'>you want to lose weight for?</span>",
+        "subTitle": "You're more likely to reach your goal if you have something <span class='no-wrap'> important to aim for </span>",
+        "subTitlStyles": {
+         "fontSize": "18px"
+        }
+       }
+      },
+      {
+       "type": "FlexibleSpace"
+      },
+      {
+       "type": "OptionList",
+       "saveTitle": true,
+       "props": {
+        "manual": false,
+        "options": [
+         {
+          "icon": "ic_vacation",
+          "title": "Vacation",
+          "value": "Vacation"
+         },
+         {
+          "icon": "ic_wedding",
+          "title": "Wedding",
+          "value": "Wedding"
+         },
+         {
+          "icon": "ic_paywall_gain_weight",
+          "title": "Sporting event",
+          "value": "Sporting event"
+         },
+         {
+          "icon": "ic_sun",
+          "title": "Beach trip",
+          "value": "Beach trip"
+         },
+         {
+          "icon": "ic_celebration",
+          "title": "Reunion",
+          "value": "Reunion"
+         },
+         {
+          "icon": "ic_relationship",
+          "title": "Family occasion",
+          "value": "Family occasion"
+         },
+         {
+          "icon": "ic_snack_5",
+          "title": "No",
+          "value": "No"
+         },
+         {
+          "icon": "ic_question",
+          "title": "Other",
+          "value": "Other"
+         }
+        ]
+       }
+      }
+     ]
+    }
+   },
+   {
+    "config": {
+     "key": "selected_date",
+     "components": [
+      {
+       "type": "NavBar"
+      },
+      {
+       "type": "DynamicTitle2",
+       "props": {
+        "text": "When's your event?",
+        "subTitle": "Once we know this, we'll be able to put together a personalized plan to help you get in shape. Your data will not be shared with any third parties."
+       }
+      },
+      {
+       "type": "FlexibleSpace",
+       "props": {
+        "maxHeight": 32,
+        "minHeight": 32
+       }
+      },
+      {
+       "type": "DatePicker"
+      },
+      {
+       "type": "FlexibleSpace",
+       "props": {
+        "minHeight": 8
+       }
+      },
+      {
+       "type": "Button",
+       "props": {
+        "arrow": true
+       }
+      },
+      {
+       "type": "SkipButton",
+       "props": {
+        "clearKey": "selected_date"
+       }
+      }
+     ]
+    },
+    "condition": {
+     "special_occasion": {
+      "$ne": "No",
+      "$isFeatureOn": "occasion"
+     }
+    }
+   },
+   {
+    "condition": {},
+    "config": {
+     "key": "graph",
+     "components": [
+      {
+       "type": "NavBar"
+      },
+      {
+       "type": "MessageBanner",
+       "props": {
+        "text": "The last weight-loss program you'll ever need"
+       }
+      },
+      {
+       "type": "FlexibleSpace",
+       "props": {
+        "maxHeight": 16,
+        "minHeight": 16
+       }
+      },
+      {
+       "type": "TitleByUserData"
+      },
+      {
+       "type": "FlexibleSpace",
+       "props": {
+        "minHeight": 20
+       }
+      },
+      {
+       "type": "Graph"
+      },
+      {
+       "type": "FlexibleSpace"
+      },
+      {
+       "type": "TitleWithDynamicWeight"
+      },
+      {
+       "type": "Button",
+       "props": {
+        "arrow": true
+       }
+      }
+     ]
+    }
+   },
+   {
+    "config": {
+     "key": "personalizing_plan",
+     "components": [
+      {
+       "type": "FlexibleSpace",
+       "props": {
+        "minHeight": 10,
+        "maxHeight": 8
+       }
+      },
+      {
+       "type": "Background",
+       "props": {
+        "background": "#EBF7ED"
+       }
+      },
+      {
+       "type": "PersonalizingPlan"
+      },
+      {
+       "type": "FlexibleSpace",
+       "props": {
+        "minHeight": 8
+       }
+      },
+      {
+       "type": "ReviewsList",
+       "props": {
+        "reviews": [
+         {
+          "name": "A. Z.",
+          "text": "I lost 2 kg in 1 week of using this app.  BitePal helped me to learn more about calorie intake and the best meals for my body, without giving up ice cream or other foods that I like. 10/10! Totally recommend this app, and for quicker results, do some exercise!",
+          "rating": 5
+         },
+         {
+          "name": "Aistė K.",
+          "text": "I love love LOVE this app - the friendly atmosphere, the encouraging texts from your little racoon buddy, the genuinely educational and non-discriminatory eating suggestions. It's truely AMAZING!!",
+          "rating": 5
+         },
+         {
+          "name": "K.",
+          "text": "Has helped me so much through my calorie deficit. This app has made me feel like losing weight was a game and I enjoyed counting my calories.",
+          "rating": 5
+         }
+        ]
+       }
+      }
+     ]
+    }
+   },
+   {
+    "config": {
+     "key": "email",
+     "persist": true,
+     "components": [
+      {
+       "type": "NavBar"
+      },
+      {
+       "type": "OptionTitle",
+       "props": {
+        "text": "What's your email to send the plan?"
+       }
+      },
+      {
+       "type": "EmailInput"
+      }
+     ]
+    }
+   },
+   {
+    "config": {
+     "key": "personal_name",
+     "persist": true,
+     "components": [
+      {
+       "type": "NavBar"
+      },
+      {
+       "type": "OptionTitle",
+       "props": {
+        "text": "What's your name?"
+       }
+      },
+      {
+       "type": "NameInput"
+      }
+     ]
+    },
+    "condition": {}
+   },
+   {
+    "config": {
+     "key": "email_consent",
+     "components": [
+      {
+       "type": "NavBar"
+      },
+      {
+       "type": "OptionTitle",
+       "props": {
+        "text": "Do you want to receive emails with <span style='background-clip: text; color: transparent; background-image: linear-gradient(90deg, #C0D424 0%, #2E9963 100%)'>Weight-Loss</span> tips and product updates?"
+       }
+      },
+      {
+       "type": "FlexibleSpace",
+       "props": {
+        "minHeight": 24
+       }
+      },
+      {
+       "type": "ConsentButtons",
+       "props": {
+        "text": "Yes, I'm in"
+       }
+      }
+     ]
+    }
+   }
+  ],
+  "paywall": {
+   "components": [
+    {
+     "type": "Header"
+    },
+    {
+     "type": "BeforeAfter",
+     "children": [
+      {
+       "type": "BeforeAfterImages"
+      },
+      {
+       "type": "BodyFat"
+      },
+      {
+       "type": "MetabolismLevel"
+      }
+     ]
+    },
+    {
+     "type": "PersonalSummaryBmi"
+    },
+    {
+     "type": "WaterIntake"
+    },
+    {
+     "type": "PersonalPlan2"
+    },
+    {
+     "type": "PlanIncludesList",
+     "props": {
+      "title": "Your plan also targets",
+      "options": [
+       {
+        "text": "Self-confidence"
+       },
+       {
+        "text": "Energy boost"
+       },
+       {
+        "text": "Stress relief"
+       }
+      ]
+     }
+    },
+    {
+     "type": "InstructionToGet2",
+     "props": {
+      "topBlock": {
+       "image": "https://1204181278.rsc.cdn77.org/bitepal-funnel/screenshot1.webp",
+       "options": [
+        {
+         "icon": "meals_blue",
+         "text": "Personalized plan tailored to your needs and lifestyle"
+        },
+        {
+         "icon": "ai_stars",
+         "text": "AI-powered food scanner with personalized nutrition tips"
+        }
+       ]
+      },
+      "bottomBlock": {
+       "image": "https://1204181278.rsc.cdn77.org/bitepal-funnel/screenshot2.webp",
+       "options": [
+        {
+         "icon": "calc_yellow",
+         "text": "Easy-to-use calorie tracker"
+        },
+        {
+         "icon": "macros",
+         "text": "Macro tracker with smart food insights"
+        }
+       ]
+      }
+     }
+    },
+    {
+     "type": "UsersTrust"
+    },
+    {
+     "type": "PaywallWrapperCard",
+     "props": {
+      "title": "Real people. Real results with our little raccoon!",
+      "headingsCentered": true
+     },
+     "children": [
+      {
+       "type": "ReviewsList",
+       "props": {
+        "reviews": [
+         {
+          "name": "A. Z.",
+          "text": "I lost 2 kg in 1 week of using this app. I did exercises on the side, but I didn't feel like it was hard or difficult to stay consistent because of this app. BitePal helped me learn more about calorie intake and the best meals for my body, without giving up ice cream or other foods that I like. 10/10! Totally recommend this app, and for quicker results, do some exercise!",
+          "rating": 5
+         },
+         {
+          "name": "N.",
+          "text": "I love love love this app. It’s sooooo helpful, it really helped with my relationship with food, as well as with my calorie deficit! I also love how the team is constantly seeking feedback and following it up with improvements. Good job!",
+          "rating": 5
+         },
+         {
+          "name": "S.",
+          "text": "Really great app. I have already lost about 5 kg in 3 months. I have also checked its accuracy and it is usually off by 20–30 kcal, which really isn't bad.",
+          "rating": 5
+         },
+         {
+          "name": "L.",
+          "text": "I absolutely love this app, the character is so cute, it’s always kind to you no matter what you eat and encourages you to want to make changes on your own, finds the good in all things and has helped me with my relationship with food. Cannot recommend it enough.",
+          "rating": 5
+         }
+        ],
+        "reviewBorder": true,
+        "renderInPaywall": true
+       },
+       "condition": {
+        "$isFeatureOff": "new_paywall"
+       }
+      }
+     ]
+    },
+    {
+     "type": "ChoosePlanDecompose",
+     "children": [
+      {
+       "type": "ChoosePlanTitle"
+      },
+      {
+       "type": "ChoosePlanPromocode"
+      },
+      {
+       "type": "ChoosePlanListBase",
+       "condition": {
+        "$all": [
+         {
+          "$isFeatureOff": "pw_product_card_var1"
+         },
+         {
+          "$isFeatureOff": "pw_product_card_var3"
+         }
+        ]
+       }
+      },
+      {
+       "type": "ChoosePlanListBase",
+       "props": {
+        "productCardComponentName": "ChoosePlanCellSplit"
+       },
+       "condition": {
+        "$isFeatureOn": "pw_product_card_var1"
+       }
+      },
+      {
+       "type": "ChoosePlanListBase",
+       "props": {
+        "productCardComponentName": "ChoosePlanCellSplitVerbose"
+       },
+       "condition": {
+        "$isFeatureOn": "pw_product_card_var3"
+       }
+      },
+      {
+       "type": "ChoosePlanCheckoutButton",
+       "children": [
+        {
+         "type": "ExpressCheckoutStripePaywall",
+         "condition": {
+          "$all": [
+           {
+            "$featureValueEquals": {
+             "value": "stripe",
+             "feature": "provider"
+            }
+           },
+           {
+            "$isFeatureOn": "stripe_express"
+           }
+          ]
+         }
+        },
+        {
+         "type": "YunoExpress",
+         "condition": {
+          "$all": [
+           {
+            "$featureValueEquals": {
+             "value": "yuno",
+             "feature": "provider"
+            }
+           },
+           {
+            "$isFeatureOn": "yuno_express"
+           }
+          ]
+         }
+        }
+       ]
+      },
+      {
+       "type": "ChoosePlanSystemLogos"
+      },
+      {
+       "type": "ChoosePlanDisclaimer",
+       "props": {
+        "boldAccents": false
+       },
+       "condition": {
+        "$isFeatureOff": "pw_disclaimer_bold_accents"
+       }
+      },
+      {
+       "type": "ChoosePlanDisclaimer",
+       "props": {
+        "boldAccents": true
+       },
+       "condition": {
+        "$isFeatureOn": "pw_disclaimer_bold_accents"
+       }
+      },
+      {
+       "type": "ChoosePlanMoneyBackGuarantee"
+      }
+     ]
+    },
+    {
+     "type": "PopupAfterSkip"
+    }
+   ]
+  }
+ },
+ "remoteMedia": {
+  "lottie": [],
+  "images": [],
+  "components": []
+ },
+ "lottie": [
+  "home_3",
+  "home_3",
+  "home_3",
+  "lose_weight_in",
+  "lose_weight_idle",
+  "maintain_weight_in",
+  "maintain_weight_idle",
+  "gain_weight_in",
+  "gain_weight_idle",
+  "approach_in",
+  "approach_idle",
+  "03_onboarding_pet",
+  "04_onboarding_pet"
+ ],
+ "locale": "en",
+ "messages": {
+  "RhJFE2": "Ooops… Something went wrong",
+  "SY/4Na": "Please, try again later <3",
+  "w3fUU/": "Any questions? <0>Contact support</0>",
+  "9oe3G9": "Please enter a valid age between 18 and 100.",
+  "k5aadK": "Age",
+  "RNvlSa": "Please do not close this page",
+  "6/1YFg": "Analyzing your profile",
+  "6eQnv7": "<0>Trusted by</0><1>3 million+ users</1>",
+  "2RMJoW": "14K ratings",
+  "130fGm": "Black Friday starts now",
+  "dAx7Ub": "Get up to {discount}% OFF — limited time only.",
+  "vnXL0h": "Your BMI",
+  "KWENkV": "What makes BitePal unique",
+  "3IXxF6": "Building your plan",
+  "o35H59": "Next",
+  "BFo7R7": "{0, select, GENDER_MALE {Yes, I'm in} GENDER_FEMALE {Yes, I'm in} other {Yes, I'm in}}",
+  "kUQwx1": "No, thanks",
+  "l6Kbcj": "Reset password link is invalid or has expired",
+  "q5FRJy": "Error resetting password. Please try again",
+  "DKeVgZ": "Password updated!",
+  "mBY5n4": "Done! You can now open the app.",
+  "CBrAN9": "Open BitePal",
+  "TRhK/K": "Reset password",
+  "O3oNi5": "Email",
+  "vPAex+": "Create password",
+  "6Bh9Y4": "Password must be between 6 and 24 characters long.",
+  "0c0U4S": "Guiding you with care",
+  "BQ0U2J": "BitePal provides eating recommendations backed by AI technology. However, our app is not a substitute for professional medical advice.",
+  "y67kRY": "Before starting any new diet, or if you have any health concerns, always consult a qualified healthcare professional. Please learn here more about the applicable limitations.",
+  "scLzEq": "Got it!",
+  "UgKlNp": "{0} lbs",
+  "EzaEGf": "{0} kg",
+  "PDWd3u": "Underweight",
+  "H65xAd": "Almost there! Focus on balanced nutrition to boost your energy.",
+  "4hu9uL": "Healthy",
+  "imL6eU": "Great job! You’re in a range that supports overall health.",
+  "5SeWTk": "Overweight",
+  "4wHITr": "Almost there! Small changes can help you feel your best.",
+  "om2FtN": "Obesity",
+  "Q4gU/3": "We will create a personalized plan to help you achieve your goals.",
+  "9DZKik": "Severe obesity",
+  "VI9xRz": "Maintain weight",
+  "BRnzY1": "Stay consistent and keep making mindful choices to maintain your weight.",
+  "BDgFKx": "Realistic",
+  "mAvGYY": "Weight loss: {percentage}%",
+  "gnJ0ST": "A safe and achievable goal with noticeable health benefits.",
+  "ckMZT3": "Ambitious",
+  "w1xLMY": "Requires consistent effort and works best with guidance.",
+  "LX0DdC": "Challenging",
+  "2g2j4g": "A demanding goal recommended with medical supervision.",
+  "49q/tj": "Unhealthy",
+  "mFJMpX": "The goal you entered may be below the healthy range for your height. Aiming too low can affect your energy, mood, and long-term health.",
+  "W5n57H": "Weight gain: {percentage}%",
+  "ja6l8i": "A steady, manageable increase, great for muscle growth.",
+  "YBcSXT": "Challenging but achievable with careful planning.",
+  "s89sQK": "A significant gain, often used for athletic or specific medical reasons.",
+  "FfpCWS": "Maintaining {targetMaintain} is a realistic target",
+  "rEcOCv": "Losing {targetLose} is a realistic target",
+  "DNIlU2": "Gaining {targetGain} is a realistic target",
+  "Zca72y": "You are just one step away from getting your personalized plan",
+  "HnAuVN": "{0, select, GENDER_MALE {How sure are you} GENDER_FEMALE {How sure are you} other {How sure are you}} that you'll get to <0><1/></0> by <2>{date}</2>?",
+  "v7zoJS": "Start time and end time cannot be the same",
+  "yckdDO": "Start",
+  "KfLe8l": "Finish",
+  "7bRM6r": "{diffHours, plural,\none {Eating window: # hour}\nother {Eating window: # hours}\n}",
+  "H1oKL1": "Eating within an 8-10 hour window may support overall health.",
+  "OtjenF": "Please enter a valid email address",
+  "spbZnR": "Your personal information is safely stored and protected. We do not disclose information to anyone.",
+  "G90VoA": "<0>BitePal</0><1>Plus</1>",
+  "aF8glx": "Your personalized plan is ready to use",
+  "ss4K8Y": "Step 1: Download the app",
+  "n+Q2f3": "Open the app, tap “I already have an account” and “Continue with email”",
+  "pOOIUk": "Step 2: Sign in with your email",
+  "uR/Ip5": "{0, select, true {We’ve created an account for you with email: <0>{email}</0>} other {We’ve created an account for you with your email}}",
+  "nFcS4D": "Step 3: Start using your plan",
+  "6XqsFs": "Build healthy habits moving towards to your weight goals with BitePal",
+  "QFz7x6": "Download BitePal App",
+  "Ev2J3p": "Normal",
+  "C8pv12": "Obese",
+  "Fkn9jh": "You: {0}",
+  "EEZvNu": "Goal",
+  "Fi0puk": "Please, enter a value from 3′ to 7′ 11″",
+  "bKCDfK": "Please, enter a value from 90 cm to 243 cm",
+  "8goeQc": "cm",
+  "iMuwXp": "ft",
+  "PVfy9Y": "Height",
+  "RI7NuK": "Enter name",
+  "Zgju6t": "Name must contain at least one letter or valid character",
+  "jrfF7P": "Name contains invalid characters. Please only use letters, apostrophes, hyphens, or dots.",
+  "soIDO7": "No additional goals",
+  "GHRRU8": "Finish registration to get access to your plan",
+  "NSERG7": "Welcome Back! Your Plan is activated",
+  "1mnwnA": "Instructions",
+  "Smor9s": "How to access your plan",
+  "felvPV": "Account created, save the password",
+  "sIDSd0": "Use your account to log in",
+  "NMM3yx": "No need to create a password, we've done it for you. Just copy it and you're all set for next time.",
+  "sbyAfc": "This email is already connected to a BitePal account. If you don't remember your password, you can reset it inside the app.",
+  "kPvC8v": "Download the BitePal app",
+  "g6BIky": "Tap “I already have an account”",
+  "woSdnE": "Do not create a new account",
+  "Wkf7bT": "Log in to your account",
+  "cTUIiy": "With the email and password above",
+  "bmjoD+": "{label, select, Email {Email} Password {Password} other {{label}}}",
+  "eYlKhQ": "Copy",
+  "gkXcMr": "{label, select, Email {Email has been copied!} Password {Password has been copied!} other {{label} has been copied!}}",
+  "w5WxGl": "Buy Plan",
+  "YXWiDy": "Add Offer",
+  "MtzANc": "Log In",
+  "rJqdKS": "Finalizing order",
+  "tX5ljT": "You will be redirected soon...",
+  "sKHh9D": "Set up a password to activate subscription",
+  "ez48va": "Subscription will be linked to your email <0>{0}</0>",
+  "VpwcSk": "Enter new password",
+  "D3vovn": "Password must be at least 6 characters long",
+  "nRCenu": "Already registered? <0>Sign In</0> or <1>Contact Support</1>",
+  "l/+mxD": "Activate subscription",
+  "6F8doj": "Healthy BMI",
+  "qOJkU7": "A lower BMI can affect your body's strength and recovery. But every meal and mindful choice helps you move toward better balance.",
+  "upH43N": "Fast",
+  "nYduof": "burns energy easily, progress comes faster",
+  "g+K8HX": "You're right where you need to be! It's a perfect base to tone your body and build sustainable habits.",
+  "s4nPDV": "Balanced",
+  "8/pMQR": "needs steady habits to see change",
+  "b73TsK": "Risks of unhealthy BMI",
+  "V+XGop": "This range can be linked to increased risks of heart disease, type 2 diabetes, and joint discomfort (CDC), but small steps lead to big change!",
+  "b5Lmho": "Slow",
+  "PAausF": "progress takes time, stay consistent",
+  "LOFxjU": "No diet",
+  "QDVke1": "Your personal summary",
+  "P+Q8uf": "Body Mass Index (BMI)",
+  "2TVEW/": "Activity level",
+  "t/2eVF": "Diet type",
+  "Gi0YQT": "Metabolism",
+  "vfdoxm": "Balanced",
+  "09wH2E": "Vegetarian",
+  "9t2Te5": "Vegan",
+  "LW2UgE": "Paleo",
+  "dKjLg7": "Ketogenic",
+  "YoM3nO": "High protein",
+  "SAeOeo": "Low carb",
+  "uoo1TR": "Low",
+  "BFMMjB": "Intermediate",
+  "5NEoAm": "Very active",
+  "Givk1Q": "Analyzing your answers",
+  "N082RV": "Defining nutrient requirements",
+  "jQKplV": "Estimating weight progress",
+  "iOfbT2": "Adjusting nutrition tips",
+  "wCNe0V": "Personalizing plan",
+  "iZdlSh": "<0>Terms of Use</0> and <1>Privacy Notice</1>",
+  "FzK/+P": "How sure are you that you'll get to {displayTargetWeight} by <0>{date}</0>?",
+  "tkbKNO": "Slow",
+  "oYCiwF": "Optimal",
+  "0PwxJq": "Fast",
+  "01/Eij": "Weight gain per week",
+  "hlyjv/": "Weight loss per week",
+  "QypSfj": "kg",
+  "xddz7w": "lb",
+  "DSTNvI": "Recommended",
+  "zYQGxF": "Reach your goal by {date}",
+  "YBbk3U": "Requires a more structured calorie deficit and consistent activity.",
+  "qHMblU": "Reset link has been sent",
+  "aNj/cn": "A link to reset password has been sent to your email",
+  "ZsZeV2": "Email is required",
+  "fugrvV": "There was an error sending the reset link. Please try again",
+  "WUnb/E": "Request a password reset link",
+  "VoiKxU": "Send Link",
+  "wQuN5c": "What our users think",
+  "sR8XBw": "Age: 18–24",
+  "gVW9D2": "Age: 25–34",
+  "1BqgTj": "Age: 35–44",
+  "lArQnD": "Age: 45+",
+  "SdpIQi": "Log in",
+  "BKcp+k": "An error occurred. Please try again.",
+  "DnepCE": "Error: {e}",
+  "8ZsakT": "Password",
+  "UNMVei": "Forgot password?",
+  "GwOXZ7": "Skip this question",
+  "9d616U": "Not at all",
+  "EPoMQ3": "Yes, definitely",
+  "Wi83FK": "{0, select, GENDER_MALE {{numberVerbose} men aged {ageVerbose} have started their journey with us.} other {{numberVerbose} women aged {ageVerbose} have started their journey with us.}}",
+  "bOjd8m": "selected date",
+  "/lWXrG": "We predict that by<0/><1>{date} <2>,</2><3>you'll weigh </3>{weight}</1>",
+  "qkBZgv": "and gain ~{weightDiff} by your <0>{occasionLabel}</0>!<1/>",
+  "E0AXdD": "and lose ~{weightDiff} by your <0>{occasionLabel}</0>!<1/>",
+  "ZVdTk/": "Right on time for your <0>{occasionLabel}</0>!",
+  "M6omOy": "Good news! Based on BitePal's science-backed approach, you're likely to hit your weight goal by <0>{formattedDate}</0>.",
+  "D9Getm": "Please, enter a value from {0} lbs to {1} lbs",
+  "2tW8Pq": "Please, enter a value from 35 kg to 300 kg",
+  "L5HEJR": "Your BMI is too low. Please, enter a higher weight.",
+  "UHFfjw": "kg",
+  "KHDoKf": "lbs",
+  "USR/HC": "Weight",
+  "qohOxb": "Welcome to <0/> BitePal",
+  "zvn518": "Based on <0/> your answers",
+  "XndgR6": "we've created a <0>personalized plan</0>",
+  "zGNEIm": "designed <0/> to get you to {displayTargetWeigth}",
+  "Uj2Bkm": "and help you maintain weight",
+  "fc9SHC": "and help you lose {displayWeightDiff}",
+  "UCgTSX": "and help you gain {displayWeightDiff}",
+  "EFjLpx": "by your <0>{occasionNbsp}</0>",
+  "eFuUSY": "Let's get started!",
+  "TLDXkS": "30-day money-back <0/>guarantee",
+  "BFNkc3": "We believe that our plan will work for you, and you should see visible results in only 4 weeks! We're even ready to return your money if you can demonstrate that you followed the plan but didn't see any results.",
+  "eaQ5jF": "Get my personal plan",
+  "fW1Kaq": "Now",
+  "I1no8m": "Goal",
+  "pfMFvJ": "Body fat",
+  "NdQV0+": "Muscle mass",
+  "LglsSw": "Metabolism level",
+  "qk21kN": "Your Black Friday discount is applied!",
+  "sOIemQ": "{discountPercentOffer} OFF",
+  "uDRYKx": "New Black Friday <0/>promo code applied!",
+  "dEa6m0": "Your Mindful Weight Loss Plan is ready!",
+  "zkpQRj": "Get your plan with a bigger discount!",
+  "SeChFE": "Choose your plan",
+  "U3jSch": "Your personal plan is ready!",
+  "v3QZXs": "Get your personal plan with a {crossedOutDiscount} <0>{discountPercentOffer} discount</0>",
+  "Bk7DKV": "Black Friday Discount ends in: <0><1/></0> min",
+  "7t09nn": "Most popular",
+  "1v2pXh": "per day",
+  "6Dhr29": "30-day money-back guarantee",
+  "Fi1g5q": "Black Friday Discount ends in:",
+  "kMk5JF": "Time is up",
+  "23/zTo": "Get my plan",
+  "OypJhD": "with the discount price",
+  "tg2m88": "with the price",
+  "uq1ooX": " (excluding applicable taxes)",
+  "kyKOXZ": " for the {0}-day trial",
+  "rWMAGc": "{0, select, day {{1, plural, one {every day} two {every # days} few {every # days} many {every # days} other {}}} week {{2, plural, one {every week} two {every # weeks} few {every # weeks} many {every # weeks} other {}}} month {{3, plural, one {every month} two {every # months} few {every # months} many {every # months} other {}}} year {{4, plural, one {every year} two {every # years} few {every # years} many {every # years} other {}}} other {}}",
+  "4tHIZq": "By continuing, you are enrolling in automatic payments {withPrice} {price}{excludingTaxes}{forTrialDuration}.",
+  "wDLVT/": "You agree that the plan you selected will automatically be extended at the full price for successive renewal periods and you will be charged the full price of {fullPrice}{excludingTaxes} {frequency} until you cancel the subscription.",
+  "B7236y": "You can cancel the subscription by contacting our <0>customer support</0> team.",
+  "/7HwNB": " (including applicable taxes)",
+  "7okdS7": "This offer ends in: <0><1/></0> min",
+  "+A7bzH": "lbs",
+  "o78YNx": "Your personal plan is ready",
+  "teYAUh": "Maintain <0>{0}</0> sustainably",
+  "zG+iDD": "Reach <0>{0}</0> by {date}",
+  "lv8DNB": "{discount} discount reserved for:",
+  "AN2x3f": "Personalized plan",
+  "vyV9gA": "AI food scanner",
+  "qy0IRi": "Calories counter",
+  "LfHsbV": "Macro balance tracker",
+  "UqNe/r": "Statistics with insights",
+  "3DwO7L": "Personalized tips",
+  "JhfeI+": "What you’ll get?",
+  "gVNSSs": "We’ll provide you with powerful and easy-to-use app to keep track of your progress",
+  "SlfejT": "Error",
+  "oGLefa": "Transaction Error",
+  "znIg+z": "Checkout",
+  "D9zSwK": "Your discount is reserved for <0><1/></0> min",
+  "o+Fif/": "{discountInModal} discount!",
+  "JpohL9": "Tax",
+  "615Yx1": "Total today",
+  "kGxBZM": "You just saved {discountAmount} — don't miss out!",
+  "00ZeFz": "Fast Payment",
+  "ooW934": "Credit card",
+  "m6I25b": "Initializing...",
+  "Z3FXyt": "Loading...",
+  "Y0ThSK": "Subscription:",
+  "0iO872": "Discount:",
+  "jwTMCX": "Tax:",
+  "CUcuqa": "Total today:",
+  "E0USxy": "Tailored specifically for balanced diet",
+  "UCWFQn": "Tailored specifically for vegetarian diet",
+  "vHzGf3": "Tailored specifically for vegan diet",
+  "zTLUG5": "Tailored specifically for paleo diet",
+  "Mt3JmS": "Tailored specifically for ketogenic diet",
+  "guuQbV": "Tailored specifically for high-protein diet",
+  "vMWHIB": "Tailored specifically for low-carb diet",
+  "62B79r": "Tailored specifically for your diet",
+  "O4qqeA": "Adapted to not active lifestyle",
+  "GevLWQ": "Adapted to lightly active lifestyle",
+  "K0zoVl": "Adapted to moderately active lifestyle",
+  "PNIQkn": "Adapted to highly active lifestyle",
+  "lfLEmP": "Adapted to your lifestyle",
+  "6wbaB+": "Will help you lose weight",
+  "zwFMuT": "Will help you gain weight",
+  "BQ4EjX": "Will help you maintain weight",
+  "8Jz9Km": "Customized for men age {age_group}+",
+  "deab6P": "Customized for women age {age_group}+",
+  "YZEHWP": "Customized for people age {age_group}+",
+  "KJwNfR": "A plan that suits your needs",
+  "y5p2bQ": "Did you know?",
+  "jt/LVb": "Research indicates that adults who combine physical activity <0>with balanced nutrition can lose up to 3 times more weight</0> than those who rely on exercise alone.",
+  "JEV3pU": "That’s why we’re offering you an extra <0>25% off for the Weight Loss Plan</0> to help you reach your goals faster!",
+  "zCB4y9": "Continue",
+  "u0rXZS": "Your promo code is applied!",
+  "h2HWPW": "New promo <0/>code applied!",
+  "p4u4nw": "6K rating",
+  "ZI4PZg": "Checkout error",
+  "epJYuC": "Failed to initialize. Try again later.",
+  "AYfODO": "Error initializing checkout session. Please try again later.",
+  "O2ZGwW": "Trusted by <0>2 million+ </0> users",
+  "l8aDfu": "people trusted us to begin <0/>transforming their lives",
+  "XMMBdQ": "avg. rating",
+  "XwG3cv": "Join the community to start reaching your goals today",
+  "rs2E6O": "{frequencyFinal}-week Trial",
+  "xE3IkW": "{frequencyFinal}-week Plan",
+  "EIj3yw": "12-month Trial",
+  "4Q4VE/": "12-month Plan",
+  "dyT++3": "{frequency}-{interval} Trial",
+  "+m8B2V": "{frequency}-{interval} Plan",
+  "T+1NbI": "Bundle activated!",
+  "XU2L6Y": "Premium bundle was sent to your email <0>{email}</0>",
+  "310S70": "Create account",
+  "bMeto1": "4-week plan",
+  "1nmVZs": "{0} OFF",
+  "gSDBzm": "Get This for {priceString}/month",
+  "6Uau97": "Skip",
+  "bwjadL": "Oops, not available right now!",
+  "yxTTmY": "Looks like this option is not quite ready now. It is a part of testing our new product idea and we are still figuring out the final concept. <0>No charge</0>, of course — just exploring some ideas together 💛",
+  "xYhCaj": "Proceed to Account Creation",
+  "SMTIqO": "Create account",
+  "qEYpmV": "According to a 2022 study in the Journal of Nutrition and Behavior, combining calorie tracking with a personalized meal plan leads to <0>38% better weight loss results</0> compared to tracking alone.",
+  "tpsn90": "BitePal with Premium Bundle",
+  "ViLDsD": "That’s why we’re offering you an <0>extra 25% off for the Premium Bundle</0> to help you reach your goals faster!",
+  "HzspTz": "Nutrition Challenges",
+  "hzabXD": "Get Results Faster with Our Top 3 <0>Nutrition Challenges</0>",
+  "8TVq63": "7-Day Challenge",
+  "fpMcr/": "Balanced Plate",
+  "0VY2Tk": "Learn to build meals that fuel your energy without restrictions",
+  "7HWPjI": "10-Day Challenge",
+  "65dSdI": "Sugar Free",
+  "6Jlk64": "Cut cravings, improve focus and feel lighter by reducing hidden sugars.",
+  "6T3wle": "21-Day Challenge",
+  "xcFlDG": "Vitamin Boost Plan",
+  "O7mA9p": "Spot the missing nutrients in your diet and learn how to fix them with real food.",
+  "4FMTbj": "Zero overwhelm",
+  "yVN2GF": "Scientifically backed",
+  "bS6tOh": "Simple daily tips",
+  "juPlr+": "Motivational approach",
+  "9PQWP8": "By clicking “Get This for {priceString}/month” you are enrolling in automatic payments with the discount price {priceString}. You agree that the plan you selected will automatically be extended at the full price for successive renewal periods and you will be charged the full price of {oldPriceString} every {0} {1} until you cancel the subscription. You can cancel the subscription by contacting our customer support team. To cancel the auto-renewal, you may contact us at <0>support@bitepal.app.</0>",
+  "en0iX2": "Try it with {0} discount!",
+  "WChnZM": "Get This for {priceString}",
+  "c3+0YR": "Is this really different from just using the app?",
+  "mVljZE": "Yes - 1-on-1 coaching gives you structure, accountability, and tailored feedback you won’t get from self-guided tracking.",
+  "XacHhE": "How often will I get support?",
+  "8JhWvV": "You can reach out anytime. You’ll also get weekly check-ins and tips tailored to your progress.",
+  "296z0C": "Can it adapt to my dietary preferences or goals?",
+  "5FA21/": "Absolutely - your coaching plan is built around your lifestyle, preferences, and progress.",
+  "gPWgCm": "What if I lose motivation halfway through?",
+  "xmhn40": "That’s exactly what coaching is for - to keep you going when it gets hard and help you bounce back without guilt.",
+  "hA5ehj": "Is this included in my subscription?",
+  "7BWDlX": "1-on-1 coaching is an optional upgrade. You can cancel anytime.",
+  "zk3cgz": "People often ask",
+  "/o2XJo": "Personal Coach",
+  "XuSiDj": "Get extra help with your <0>Personal Coach</0>",
+  "ZnPIOs": "Why choose coaching",
+  "u1UqEj": "Message your coach anytime you need support",
+  "dCsnzp": "AI analysis of your eating habits",
+  "5Yd6Ps": "Feedback on your meals, habits, and progress",
+  "Zbvjrd": "Smart nutrition tracking for your needs",
+  "QASenW": "Stuck? Distracted? We’ll cheer you on",
+  "LaXFVB": "Why it works",
+  "FT0MpU": "People with a coach lose 44% more weight",
+  "oDq6VH": "Track smart, stay on target with expert help",
+  "UUdmAe": "No generic tips – your plan is made just for you",
+  "3E5U6K": "You’re not doing this alone – your coach is always here to chat",
+  "LUk4Ie": "How this works",
+  "Pprrm6": "Step 1: Start using your plan",
+  "lQEW28": "Build healthy habits with BitePal Plus",
+  "C5t5UM": "Step 2: Start your upgrade",
+  "h6YtIW": "Get access to personalized coaching",
+  "lxpA5l": "Step 3: Share your goals",
+  "8mBsf2": "Tell us what you want to achieve",
+  "RYEUkW": "Step 4: Follow your plan",
+  "dcq0xl": "Receive actionable guidance and regular check-ins",
+  "b6mbo5": "Step 5: Stay motivated",
+  "gwLnKu": "Ask questions, track wins, and get nudges when you need them",
+  "nu24yG": "Vitamin Guidance",
+  "pQRzNA": "Get extra help with our <0>Vitamin Guidance</0>",
+  "Ybf1yO": "Backed by nutrition science",
+  "R5itEs": "Weekly intake summary",
+  "zYYlEv": "3 minutes to read",
+  "ddZ2oE": "Focus, energy & immunity",
+  "6V28Zn": "Science-backed vitamin picks for everyday performance",
+  "s+AAYj": "What to take & why",
+  "dnQHCj": "Clear, no-fluff tips on essential nutrients",
+  "yWXdpH": "Weekly reporting",
+  "En/Xbd": "Get the summary of your vitamins intake and daily norm",
+  "YjQe7a": "Takes 3 minutes to read",
+  "axQIcG": "Actionable info without the overwhelm",
+  "ljoLU/": "Updated monthly",
+  "RpyS8t": "Tailored to your needs",
+  "lyHUir": "Custom Meal Plan and Vitamin Guide",
+  "nhhW6F": "Important: By clicking “Add to My Plan” you agree to an initial charge of {price} for the first {duration, select, month {month} quarter {quarter} other {renewal period}} of the Premium bundle. This payment will be automatically processed using the billing information you provided earlier. Your subscription will automatically renew at the regular price of {totalPrice} per {duration, select, month {month} quarter {quarter} other {renewal period}} until you cancel. This is a separate purchase from your main subscription. By proceeding, you confirm that you have read and agree to our Terms of Use and Privacy Policy.",
+  "23iBLG": "Get extra help with our <0>Premium bundle</0>",
+  "tUs7Bv": "An exclusive offer just for you to help you boost your results",
+  "dMf2uk": "Try now with {0} discount!",
+  "6PGpji": "Premium bundle includes:",
+  "AInvCe": "Fat-burning Fasting Plan",
+  "ItOdJ2": "Custom Meal Plan Workbook",
+  "g/u6cy": "12-week plan",
+  "cf7VUO": "Add to my plan",
+  "aoBdcs": "Additional 25% discount applied!",
+  "syyORD": "Custom Meal Plan",
+  "AQqtMg": "Vitamin Guide",
+  "Rwe/Lh": "One-time price of <0>{priceString}</0>",
+  "IzhInQ": "Full price is {0}. Save {1}",
+  "2ivPrk": "Get This for {priceString}",
+  "KENA2z": "One-time price",
+  "mDMQkU": "{0}<0>{priceString}</0><1>{1} OFF</1>",
+  "9nDA0c": "Unexpected error",
+  "IMlVeP": "An error occurred while processing your payment. Please try again later.",
+  "SU3Pah": " (including taxes)",
+  "2YnSrf": "Important: By clicking “Get This for {price}”{excludingTaxes}, you are agreeing to a one-time charge of {priceTotal}{includingTaxes} for the {name}. This payment will be automatically processed using the billing information you provided earlier. This is a separate purchase from your subscription.",
+  "aimCf+": "The best plan <0> to achieve your goal</0>",
+  "OcgABz": "The best plan <0/> to achieve your goal",
+  "gEfogj": "Best Value",
+  "S5nVXH": "People achieve their goals <0> twice as fast with a 12-week plan</0> compared to a 4‑week plan",
+  "c3kL8K": "Subscribe now",
+  "pLW4K+": "Buy Plan",
+  "y9Yc7t": "Add Offer",
+  "1hMWR6": "Create account",
+  "O5VzSd": "Spin & see <0/> what you get",
+  "rGAjAF": "You hit the jackpot! <0/> Code  ",
+  "Cx6zMJ": "Spin now",
+  "iodCuw": "Use at checkout",
+  "zTFnL4": "Scratch it off",
+  "5YXc8b": "for your personalized plan",
+  "EAYIUe": "I eat everything",
+  "h2xZYD": "Trusted by <0>3 million+ </0> users",
+  "3 000 000+": "3 000 000+",
+  "PJ/xCu": "Fast payment",
+  "p2292c": "You just saved {discountAmount} ({discountInModal} OFF)",
+  "IEo27T": "You hit the jackpot! <0/> Code ",
+  "PyR9jk": "Your promocode",
+  "V749xP": "Applied automatically during checkout",
+  "Iu1pY9": "Pay another way ",
+  "s0f0rC": "Your №1 blocker:",
+  "C6R5fJ": "We’ll use this information to create a <0>realistic plan that works for you</0>",
+  "3BGQIh": "Transaction in progress...",
+  "NF0e1Q": "Pending...",
+  "mAsxRX": "Almost there...",
+  "mCUPJ0": "Important: By clicking “Add to My Plan” you agree to an initial charge of {price} {excludingTaxes} for the first {duration, select, month {month} quarter {quarter} other {renewal period}} of the Premium bundle. This payment will be automatically processed using the billing information you provided earlier. Your subscription will automatically renew at the regular price of {totalPrice} {excludingTaxes} per {duration, select, month {month} quarter {quarter} other {renewal period}} until you cancel. This is a separate purchase from your main subscription. By proceeding, you confirm that you have read and agree to our Terms of Use and Privacy Policy.",
+  "MOa6su": "Your BMI:",
+  "k3W9YA": "Weight loss:",
+  "5Bqi/X": "Weight gain:",
+  "LefBZ+": "You’ve tried it before. Now let’s do it the smart way",
+  "TS6aU/": "Intermittent fasting is scientifically proven method for burning fat",
+  "NLBmwk": "Correct!",
+  "sgVY4E": "Incorrect!",
+  "/YuJTf": "kcal",
+  "em70z3": "Calories are sneaky!",
+  "gfvP6z": "You're not alone! Even nutritionists get surprised. Now you know where the hidden ones like to hide",
+  "47wu+E": "Perfect score!",
+  "RxLX7t": "You really know your food. Most people miss at least one — you didn't. That kind of awareness makes all the difference",
+  "Vfb/4U": "Correct answers",
+  "cApxhy": "Good start!",
+  "EP4Q4K": "Calories are trickier than they look! The sauces, the dressings, the \"healthy\" labels. You're already more aware than most people",
+  "Ov7WHP": "Impressive!",
+  "uNrUmY": "One sneaky dish got you. That's usually where most people slip up too",
+  "xdq4rU": "Most people don't actually realize how caloric their meals are. Dressings, sauces and toppings account for up to 40% of hidden calories in \"healthy\" meals",
+  "4eUuT5": "Cortisol Detox Guide",
+  "wsT//a": "Important: By clicking \"Add to My Plan\" you agree to a one-time charge of {price} for the Cortisol Detox Guide. This payment will be automatically processed using the billing information you provided earlier. This is a separate purchase from your main subscription. By proceeding, you confirm that you have read and agree to our Terms of Use and Privacy Policy.",
+  "IQ+J7J": "Fat burning faster with the <0> 21-Day Cortisol Detox</0>",
+  "PqmnlW": "days to reset stress",
+  "3w0KK+": "daily action steps",
+  "h8sw5A": "reflection questions",
+  "AREk7i": "min per day",
+  "W2gNse": " What's included",
+  "CZ3b10": "<0>Progress tracker</0> - so you actually stick with it",
+  "dyD8Tv": "<0>21 daily practices</0> - food + lifestyle in one",
+  "+8wdfI": "Stress, mood and emotion <0>trackers</0>",
+  "Fh/IBT": "<0>Daily journal</0> - meals, mood & reflection",
+  "VlxcoB": "Habit Workbook",
+  "NFFM64": "Important: By clicking \"Add to My Plan\" you agree to a one-time charge of {price} for the Meal Plan Workbook. This payment will be automatically processed using the billing information you provided earlier. This is a separate purchase from your main subscription. By proceeding, you confirm that you have read and agree to our Terms of Use and Privacy Policy.",
+  "xVO27t": "Break bad habits with a proven system",
+  "OA9nx6": " The cycle stops here:",
+  "CWdYuF": "10+ ready-made <0>challenges to start today</0>",
+  "mHhOh+": "Habits<0>trackers, reflections, reviews </0>",
+  "Km/Qc2": "You were not charged",
+  "6SpHhw": "Paid with {methodLabel}",
+  "5MipQO": "Payment confirmed",
+  "6hLrQe": "Subscription already active",
+  "CfbSQH": "Redirecting you to your account…",
+  "OuyDnR": "Setting up your account…",
+  "XxSiEG": "<0>A system that works</0> when motivation doesn't",
+  "FveswX": "Habits <0>trackers, reflections, reviews</0>",
+  "qwU6TW": "One-time payment",
+  "j7ahQn": "You already have an account!",
+  "JNd0qm": "Your subscription is active.",
+  "EKMviE": "Redirecting you to your account",
+  "un6BgJ": "Important: By clicking \"Add to My Plan\" you agree to a one-time charge of {price} for the Habits & Challenges Workbook. This payment will be automatically processed using the billing information you provided earlier. This is a separate purchase from your main subscription. By proceeding, you confirm that you have read and agree to our Terms of Use and Privacy Policy.",
+  "lCGY2J": "Important: By clicking \"Add to My Plan\" you agree to a one-time charge of {price}{excludingTaxes} for the Cortisol Detox Guide. This payment will be automatically processed using the billing information you provided earlier. This is a separate purchase from your main subscription. By proceeding, you confirm that you have read and agree to our Terms of Use and Privacy Policy.",
+  "Q5GhlT": "Important: By clicking \"Add to My Plan\" you agree to a one-time charge of {price}{excludingTaxes} for the Habits & Challenges Workbook. This payment will be automatically processed using the billing information you provided earlier. This is a separate purchase from your main subscription. By proceeding, you confirm that you have read and agree to our Terms of Use and Privacy Policy.",
+  "Analyzing your activity level": "Analyzing your activity level",
+  "Predicting your metabolic baseline": "Predicting your metabolic baseline",
+  "Factoring in your experience": "Factoring in your experience",
+  "Setting your calorie target": "Setting your calorie target",
+  "3DXPRK": "Done!",
+  "mIgDIv": "Calculating",
+  "OI84wi": "Your maintenance",
+  "Rhiq7O": "Calorie deficit",
+  "a0/8ck": "Goal weight",
+  "j+of82": "Goal date",
+  "Zgmu4g": "kilocalories/day",
+  "ZPcKAo": "Kilocalories per day",
+  "tQFei+": "Deficit",
+  "6aqLXr": "Lose 7 kg in 21 day with <0> 21-Day Cortisol Detox</0>",
+  "plan_name": "{formatType, select, week {{planType, select, trial {{frequencyFinal}-week Trial} plan {{frequencyFinal}-week Plan} other {}}} 12months {{planType, select, trial {12-month Trial} plan {12-month Plan} other {}}} other {}}",
+  "kiu0IT": "Sleep quality",
+  "2U55Rg": "Water intake",
+  "+9GB2/": "Maintain weight",
+  "IzxGBU": "Primary goal",
+  "L8cJMZ": "Your profile based on answers",
+  "nGnCQl": "Gain weight",
+  "N9qXj0": "liters/day",
+  "kEUmC7": "Sufficient",
+  "82k+aF": "What you'll get to reach your weight goals",
+  "Xfu79l": "Lose weight",
+  "wdrmfg": "Need improvement",
+  "qTCPEQ": "fl oz/day",
+  "LRb61G": "Last minute offer!",
+  "jYwbPS": "<0>{dailyPriceString}</0><1>/day</1>",
+  "imceEx": "No thanks, I’m not interested",
+  "QfCe9C": "This offer ends in: <0>{minutes}:{seconds}</0> min",
+  "iOQT6g": "It's your lucky day!",
+  "e22cf2": "Add Premium bundle to your order and get an additional discount",
+  "AGkyLE": "SAVE {0}",
+  "rXc2p+": "<0>This offer ends in: <1>{minutes}:{seconds}</1> min</0>",
+  "{formatType, select, week {{frequencyFinal, plural, one {First week} other {First # weeks}}} months {{frequencyFinal, plural, one {First month} other {First # months}}} other {{frequencyFinal, plural, one {First period} other {First # periods}}}} for {price}": "{formatType, select, week {{frequencyFinal, plural, one {First week} other {First # weeks}}} months {{frequencyFinal, plural, one {First month} other {First # months}}} other {{frequencyFinal, plural, one {First period} other {First # periods}}}} for {price}",
+  "You agree that the plan you selected will automatically be extended at the full price for successive renewal periods and you will be charged the full price of <strong>{fullPrice}</strong>{excludingTaxes} {frequency} until you cancel the subscription.": "You agree that the plan you selected will automatically be extended at the full price for successive renewal periods and you will be charged the full price of <strong>{fullPrice}</strong>{excludingTaxes} {frequency} until you cancel the subscription.",
+  "You can cancel the subscription by contacting our <strong><link>customer support</link></strong> team.": "You can cancel the subscription by contacting our <strong><link>customer support</link></strong> team.",
+  "{0, select, day {{1, plural, one {every <strong>day</strong>} two {every <strong># days</strong>} few {every <strong># days</strong>} many {every <strong># days</strong>} other {}}} week {{2, plural, one {every <strong>week</strong>} two {every <strong># weeks</strong>} few {every <strong># weeks</strong>} many {every <strong># weeks</strong>} other {}}} month {{3, plural, one {every <strong>month</strong>} two {every <strong># months</strong>} few {every <strong># months</strong>} many {every <strong># months</strong>} other {}}} year {{4, plural, one {every <strong>year</strong>} two {every <strong># years</strong>} few {every <strong># years</strong>} many {every <strong># years</strong>} other {}}} other {}}": "{0, select, day {{1, plural, one {every <strong>day</strong>} two {every <strong># days</strong>} few {every <strong># days</strong>} many {every <strong># days</strong>} other {}}} week {{2, plural, one {every <strong>week</strong>} two {every <strong># weeks</strong>} few {every <strong># weeks</strong>} many {every <strong># weeks</strong>} other {}}} month {{3, plural, one {every <strong>month</strong>} two {every <strong># months</strong>} few {every <strong># months</strong>} many {every <strong># months</strong>} other {}}} year {{4, plural, one {every <strong>year</strong>} two {every <strong># years</strong>} few {every <strong># years</strong>} many {every <strong># years</strong>} other {}}} other {}}",
+  "By continuing, you are enrolling in automatic payments {withPrice} <strong>{price}</strong>{excludingTaxes}<strong>{forTrialDuration}</strong>.": "By continuing, you are enrolling in automatic payments {withPrice} <strong>{price}</strong>{excludingTaxes}<strong>{forTrialDuration}</strong>.",
+  "register_whatsapp_cta": "Get link in WhatsApp",
+  "register_whatsapp_manual": "Set up manually",
+  "register_whatsapp_title": "Your plan is active!",
+  "Download app via link in WhatsApp": "Download app via link in WhatsApp",
+  "Easy access anytime": "Easy access anytime",
+  "Get 24/7 personal support": "Get 24/7 personal support",
+  "Get link in WhatsApp": "Get link in WhatsApp",
+  "Set up manually": "Set up manually",
+  "Your plan is active!": "Your plan is active!",
+  "100% money-back guarantee": "100% money-back guarantee",
+  "We believe that our plan will work for you, and you should see visible results in only a month! And if you're not satisfied with the app or your results, we'll return your money within 30 days — no questions asked.": "We believe that our plan will work for you, and you should see visible results in only a month! And if you're not satisfied with the app or your results, we'll return your money within 30 days — no questions asked.",
+  "You can cancel the subscription through the app settings in section Help & Membership or by contacting our <link>customer support</link> team.": "You can cancel the subscription through the app settings in section Help & Membership or by contacting our <link>customer support</link> team.",
+  "You can cancel the subscription through the app settings in section Help & Membership or by contacting our <strong><link>customer support</link></strong> team.": "You can cancel the subscription through the app settings in section Help & Membership or by contacting our <strong><link>customer support</link></strong> team.",
+  "Good news! Based on BitePal's data-driven approach, you're likely to hit your weight goal by <0>{formattedDate}</0>.": "Good news! Based on BitePal's data-driven approach, you're likely to hit your weight goal by <0>{formattedDate}</0>.",
+  "Important: By clicking \"Add to My Plan\" you agree to a one-time charge of {price}{excludingTaxes} for the Cortisol Detox Guide. This payment will be automatically processed using the billing information you provided earlier. This is a separate purchase from your main subscription. By proceeding, you confirm that you have read and agree to our <termsLink>Terms of Use</termsLink> and <privacyLink>Privacy Notice</privacyLink>.": "Important: By clicking \"Add to My Plan\" you agree to a one-time charge of {price}{excludingTaxes} for the Cortisol Detox Guide. This payment will be automatically processed using the billing information you provided earlier. This is a separate purchase from your main subscription. By proceeding, you confirm that you have read and agree to our <termsLink>Terms of Use</termsLink> and <privacyLink>Privacy Notice</privacyLink>.",
+  "Important: By clicking \"Add to My Plan\" you agree to an initial charge of {price} for the first {duration, select, month {month} quarter {quarter} other {renewal period}} of the Premium bundle. This payment will be automatically processed using the billing information you provided earlier. Your subscription will automatically renew at the regular price of {totalPrice} per {duration, select, month {month} quarter {quarter} other {renewal period}} until you cancel. This is a separate purchase from your main subscription. By proceeding, you confirm that you have read and agree to our <termsLink>Terms of Use</termsLink> and <privacyLink>Privacy Notice</privacyLink>.": "Important: By clicking \"Add to My Plan\" you agree to an initial charge of {price} for the first {duration, select, month {month} quarter {quarter} other {renewal period}} of the Premium bundle. This payment will be automatically processed using the billing information you provided earlier. Your subscription will automatically renew at the regular price of {totalPrice} per {duration, select, month {month} quarter {quarter} other {renewal period}} until you cancel. This is a separate purchase from your main subscription. By proceeding, you confirm that you have read and agree to our <termsLink>Terms of Use</termsLink> and <privacyLink>Privacy Notice</privacyLink>.",
+  "Important: By clicking \"Add to My Plan\" you agree to an initial charge of {price} {excludingTaxes} for the first {duration, select, month {month} quarter {quarter} other {renewal period}} of the Premium bundle. This payment will be automatically processed using the billing information you provided earlier. Your subscription will automatically renew at the regular price of {totalPrice} {excludingTaxes} per {duration, select, month {month} quarter {quarter} other {renewal period}} until you cancel. This is a separate purchase from your main subscription. By proceeding, you confirm that you have read and agree to our <termsLink>Terms of Use</termsLink> and <privacyLink>Privacy Notice</privacyLink>.": "Important: By clicking \"Add to My Plan\" you agree to an initial charge of {price} {excludingTaxes} for the first {duration, select, month {month} quarter {quarter} other {renewal period}} of the Premium bundle. This payment will be automatically processed using the billing information you provided earlier. Your subscription will automatically renew at the regular price of {totalPrice} {excludingTaxes} per {duration, select, month {month} quarter {quarter} other {renewal period}} until you cancel. This is a separate purchase from your main subscription. By proceeding, you confirm that you have read and agree to our <termsLink>Terms of Use</termsLink> and <privacyLink>Privacy Notice</privacyLink>.",
+  "We predict that by<0/><1>{date} <2>,</2><3>you may reach </3>{weight}</1>": "We predict that by<0/><1>{date} <2>,</2><3>you may reach </3>{weight}</1>",
+  "We respect your privacy and are committed to protecting your personal data, which will be processed in accordance with our <privacyLink>Privacy Notice</privacyLink>.": "We respect your privacy and are committed to protecting your personal data, which will be processed in accordance with our <privacyLink>Privacy Notice</privacyLink>.",
+  "Important: By clicking \"Add to My Plan\" you agree to a one-time charge of {price}{excludingTaxes} for the Meal Plan Workbook. This payment will be automatically processed using the billing information you provided earlier. This is a separate purchase from your main subscription. By proceeding, you confirm that you have read and agree to our <termsLink>Terms of Use</termsLink> and <privacyLink>Privacy Notice</privacyLink>.": "Important: By clicking \"Add to My Plan\" you agree to a one-time charge of {price}{excludingTaxes} for the Meal Plan Workbook. This payment will be automatically processed using the billing information you provided earlier. This is a separate purchase from your main subscription. By proceeding, you confirm that you have read and agree to our <termsLink>Terms of Use</termsLink> and <privacyLink>Privacy Notice</privacyLink>.",
+  "{interval, select, day {{frequency, plural, one {every <strong>day</strong>} two {every <strong># days</strong>} few {every <strong># days</strong>} many {every <strong># days</strong>} other {every <strong># days</strong>}}} week {{frequency, plural, one {every <strong>week</strong>} two {every <strong># weeks</strong>} few {every <strong># weeks</strong>} many {every <strong># weeks</strong>} other {every <strong># weeks</strong>}}} month {{frequency, plural, one {every <strong>month</strong>} two {every <strong># months</strong>} few {every <strong># months</strong>} many {every <strong># months</strong>} other {every <strong># months</strong>}}} year {{frequency, plural, one {every <strong>year</strong>} two {every <strong># years</strong>} few {every <strong># years</strong>} many {every <strong># years</strong>} other {every <strong># years</strong>}}} other {}}": "{interval, select, day {{frequency, plural, one {every <strong>day</strong>} two {every <strong># days</strong>} few {every <strong># days</strong>} many {every <strong># days</strong>} other {every <strong># days</strong>}}} week {{frequency, plural, one {every <strong>week</strong>} two {every <strong># weeks</strong>} few {every <strong># weeks</strong>} many {every <strong># weeks</strong>} other {every <strong># weeks</strong>}}} month {{frequency, plural, one {every <strong>month</strong>} two {every <strong># months</strong>} few {every <strong># months</strong>} many {every <strong># months</strong>} other {every <strong># months</strong>}}} year {{frequency, plural, one {every <strong>year</strong>} two {every <strong># years</strong>} few {every <strong># years</strong>} many {every <strong># years</strong>} other {every <strong># years</strong>}}} other {}}",
+  "{interval, select, day {{frequency, plural, one {every day} two {every # days} few {every # days} many {every # days} other {every # days}}} week {{frequency, plural, one {every week} two {every # weeks} few {every # weeks} many {every # weeks} other {every # weeks}}} month {{frequency, plural, one {every month} two {every # months} few {every # months} many {every # months} other {every # months}}} year {{frequency, plural, one {every year} two {every # years} few {every # years} many {every # years} other {every # years}}} other {}}": "{interval, select, day {{frequency, plural, one {every day} two {every # days} few {every # days} many {every # days} other {every # days}}} week {{frequency, plural, one {every week} two {every # weeks} few {every # weeks} many {every # weeks} other {every # weeks}}} month {{frequency, plural, one {every month} two {every # months} few {every # months} many {every # months} other {every # months}}} year {{frequency, plural, one {every year} two {every # years} few {every # years} many {every # years} other {every # years}}} other {}}",
+  "<accent>{priceFirstPeriod}</accent> now, then <accent>{priceRenewal} {interval, select, day {{frequency, plural, one {every day} two {every # days} few {every # days} many {every # days} other {every # days}}} week {{frequency, plural, one {every week} two {every # weeks} few {every # weeks} many {every # weeks} other {every # weeks}}} month {{frequency, plural, one {every month} two {every # months} few {every # months} many {every # months} other {every # months}}} year {{frequency, plural, one {every year} two {every # years} few {every # years} many {every # years} other {every # years}}} other {}}</accent>": "<accent>{priceFirstPeriod}</accent> now, then <accent>{priceRenewal} {interval, select, day {{frequency, plural, one {every day} two {every # days} few {every # days} many {every # days} other {every # days}}} week {{frequency, plural, one {every week} two {every # weeks} few {every # weeks} many {every # weeks} other {every # weeks}}} month {{frequency, plural, one {every month} two {every # months} few {every # months} many {every # months} other {every # months}}} year {{frequency, plural, one {every year} two {every # years} few {every # years} many {every # years} other {every # years}}} other {}}</accent>",
+  "Buy now for {priceString}": "Buy now for {priceString}",
+  "Important: By clicking \"Buy now for {priceString}\" you agree to a one-time charge of {priceString}{excludingTaxes} for the Custom Meal Plan and Vitamin Guide. This payment will be automatically processed using the billing information you provided earlier. This is a separate purchase from your subscription. By proceeding, you confirm that you have read and agree to our <termsLink>Terms of Use</termsLink> and <privacyLink>Privacy Notice</privacyLink>.": "Important: By clicking \"Buy now for {priceString}\" you agree to a one-time charge of {priceString}{excludingTaxes} for the Custom Meal Plan and Vitamin Guide. This payment will be automatically processed using the billing information you provided earlier. This is a separate purchase from your subscription. By proceeding, you confirm that you have read and agree to our <termsLink>Terms of Use</termsLink> and <privacyLink>Privacy Notice</privacyLink>.",
+  "One-time <br></br>payment": "One-time <br></br>payment",
+  "By continuing, you authorize an initial charge of <strong>{initialPrice}</strong>{excludingTaxes} for the introductory period of the plan you selected.": "By continuing, you authorize an initial charge of <strong>{initialPrice}</strong>{excludingTaxes} for the introductory period of the plan you selected.",
+  "By continuing, you authorize an initial charge of {initialPrice}{excludingTaxes} for the introductory period of the plan you selected.": "By continuing, you authorize an initial charge of {initialPrice}{excludingTaxes} for the introductory period of the plan you selected.",
+  "By continuing, you authorize an initial discounted charge of <strong>{initialPrice}</strong>{excludingTaxes} for the introductory period of the plan you selected.": "By continuing, you authorize an initial discounted charge of <strong>{initialPrice}</strong>{excludingTaxes} for the introductory period of the plan you selected.",
+  "By continuing, you authorize an initial discounted charge of {initialPrice}{excludingTaxes} for the introductory period of the plan you selected.": "By continuing, you authorize an initial discounted charge of {initialPrice}{excludingTaxes} for the introductory period of the plan you selected.",
+  "Following the expiry of the introductory period, your subscription will renew automatically at the full price of <strong>{fullPrice}</strong>{excludingTaxes} {frequency}, and you will be charged that amount for each successive renewal period until you cancel the subscription.": "Following the expiry of the introductory period, your subscription will renew automatically at the full price of <strong>{fullPrice}</strong>{excludingTaxes} {frequency}, and you will be charged that amount for each successive renewal period until you cancel the subscription.",
+  "Following the expiry of the introductory period, your subscription will renew automatically at the full price of {fullPrice}{excludingTaxes} {frequency}, and you will be charged that amount for each successive renewal period until you cancel the subscription.": "Following the expiry of the introductory period, your subscription will renew automatically at the full price of {fullPrice}{excludingTaxes} {frequency}, and you will be charged that amount for each successive renewal period until you cancel the subscription.",
+  "You may cancel it at any time through the app settings in section Help & Membership, or by contacting our <link>customer support</link> team.": "You may cancel it at any time through the app settings in section Help & Membership, or by contacting our <link>customer support</link> team.",
+  "{interval, select, day {{frequency, plural, one {per <strong>day</strong>} two {per <strong># days</strong>} few {per <strong># days</strong>} many {per <strong># days</strong>} other {per <strong># days</strong>}}} week {{frequency, plural, one {per <strong>week</strong>} two {per <strong># weeks</strong>} few {per <strong># weeks</strong>} many {per <strong># weeks</strong>} other {per <strong># weeks</strong>}}} month {{frequency, plural, one {per <strong>month</strong>} two {per <strong># months</strong>} few {per <strong># months</strong>} many {per <strong># months</strong>} other {per <strong># months</strong>}}} year {{frequency, plural, one {per <strong>year</strong>} two {per <strong># years</strong>} few {per <strong># years</strong>} many {per <strong># years</strong>} other {per <strong># years</strong>}}} other {}}": "{interval, select, day {{frequency, plural, one {per <strong>day</strong>} two {per <strong># days</strong>} few {per <strong># days</strong>} many {per <strong># days</strong>} other {per <strong># days</strong>}}} week {{frequency, plural, one {per <strong>week</strong>} two {per <strong># weeks</strong>} few {per <strong># weeks</strong>} many {per <strong># weeks</strong>} other {per <strong># weeks</strong>}}} month {{frequency, plural, one {per <strong>month</strong>} two {per <strong># months</strong>} few {per <strong># months</strong>} many {per <strong># months</strong>} other {per <strong># months</strong>}}} year {{frequency, plural, one {per <strong>year</strong>} two {per <strong># years</strong>} few {per <strong># years</strong>} many {per <strong># years</strong>} other {per <strong># years</strong>}}} other {}}",
+  "{interval, select, day {{frequency, plural, one {per day} two {per # days} few {per # days} many {per # days} other {per # days}}} week {{frequency, plural, one {per week} two {per # weeks} few {per # weeks} many {per # weeks} other {per # weeks}}} month {{frequency, plural, one {per month} two {per # months} few {per # months} many {per # months} other {per # months}}} year {{frequency, plural, one {per year} two {per # years} few {per # years} many {per # years} other {per # years}}} other {}}": "{interval, select, day {{frequency, plural, one {per day} two {per # days} few {per # days} many {per # days} other {per # days}}} week {{frequency, plural, one {per week} two {per # weeks} few {per # weeks} many {per # weeks} other {per # weeks}}} month {{frequency, plural, one {per month} two {per # months} few {per # months} many {per # months} other {per # months}}} year {{frequency, plural, one {per year} two {per # years} few {per # years} many {per # years} other {per # years}}} other {}}",
+  "<accent>{priceRenewal} {interval, select, day {{frequency, plural, one {every day} two {every # days} few {every # days} many {every # days} other {every # days}}} week {{frequency, plural, one {every week} two {every # weeks} few {every # weeks} many {every # weeks} other {every # weeks}}} month {{frequency, plural, one {every month} two {every # months} few {every # months} many {every # months} other {every # months}}} year {{frequency, plural, one {every year} two {every # years} few {every # years} many {every # years} other {every # years}}} other {}}</accent>": "<accent>{priceRenewal} {interval, select, day {{frequency, plural, one {every day} two {every # days} few {every # days} many {every # days} other {every # days}}} week {{frequency, plural, one {every week} two {every # weeks} few {every # weeks} many {every # weeks} other {every # weeks}}} month {{frequency, plural, one {every month} two {every # months} few {every # months} many {every # months} other {every # months}}} year {{frequency, plural, one {every year} two {every # years} few {every # years} many {every # years} other {every # years}}} other {}}</accent>",
+  "Important: By clicking \"Buy now for {priceString}\" you agree to a one-time charge of {priceString}{excludingTaxes} for the Meal Plan and Vitamin Guide. This payment will be automatically processed using the billing information you provided earlier. This is a separate purchase from your subscription. By proceeding, you confirm that you have read and agree to our <termsLink>Terms of Use</termsLink> and <privacyLink>Privacy Notice</privacyLink>.": "Important: By clicking \"Buy now for {priceString}\" you agree to a one-time charge of {priceString}{excludingTaxes} for the Meal Plan and Vitamin Guide. This payment will be automatically processed using the billing information you provided earlier. This is a separate purchase from your subscription. By proceeding, you confirm that you have read and agree to our <termsLink>Terms of Use</termsLink> and <privacyLink>Privacy Notice</privacyLink>.",
+  "Meal Plan": "Meal Plan",
+  "Meal Plan and Vitamin Guide": "Meal Plan and Vitamin Guide",
+  "{date}<2>,</2><3>you may reach </3>{weight}": "{date}<2>,</2><3>you may reach </3>{weight}",
+  "Trusted by <accent>10 million+</accent> users": "Trusted by <accent>10 million+</accent> users",
+  "<accent1>Trusted by</accent1><accent2>10 million users</accent2>": "<accent1>Trusted by</accent1><accent2>10 million users</accent2>",
+  "App Store": "App Store",
+  "App of the day": "App of the day",
+  "Excellent": "Excellent",
+  "Google Play": "Google Play",
+  "<div1>10+ Million</div1><div2>users worldwide</div2>": "<div1>10+ Million</div1><div2>users worldwide</div2>",
+  "{days, plural, one {First day for {price}} other {First # days for {price}}}": "{days, plural,\none {First day for {price}}\nother {First # days for {price}}\n}",
+  "{formatType, select, day {{frequencyFinal, plural, one {{price} every day} other {{price} every # days}}} week {{frequencyFinal, plural, one {{price} every week} other {{price} every # weeks}}} month {{frequencyFinal, plural, one {{price} every month} other {{price} every # months}}} other {{price} per period}}": "{formatType, select, day {{frequencyFinal, plural, one {{price} every day} other {{price} every # days}}} week {{frequencyFinal, plural, one {{price} every week} other {{price} every # weeks}}} month {{frequencyFinal, plural, one {{price} every month} other {{price} every # months}}} other {{price} per period}}",
+  "{weeks, plural, one {First week for {price}} other {First # weeks for {price}}}": "{weeks, plural,\none {First week for {price}}\nother {First # weeks for {price}}\n}",
+  "/day": "/day",
+  "You can cancel the subscription through the app settings in the Help & Membership section, or by contacting our <link>customer support</link> team.": "You can cancel the subscription through the app settings in the Help & Membership section, or by contacting our <link>customer support</link> team.",
+  "By continuing, you are enrolling in automatic payments of <strong>{price}</strong>{excludingTaxes} {frequency}.": "By continuing, you are enrolling in automatic payments of <strong>{price}</strong>{excludingTaxes} {frequency}.",
+  "By continuing, you are enrolling in automatic payments of {price}{excludingTaxes} {frequency}.": "By continuing, you are enrolling in automatic payments of {price}{excludingTaxes} {frequency}.",
+  "Your subscription will automatically renew at <strong>{price}</strong>{excludingTaxes} {frequency} until you cancel.": "Your subscription will automatically renew at <strong>{price}</strong>{excludingTaxes} {frequency} until you cancel.",
+  "Your subscription will automatically renew at {price}{excludingTaxes} {frequency} until you cancel.": "Your subscription will automatically renew at {price}{excludingTaxes} {frequency} until you cancel.",
+  "in 64 countries": "in 64 countries",
+  "{formatType, select, week {{planType, select, trial {{frequencyFinal, plural, one {1-week Trial} other {#-week Trial}}} plan {{frequencyFinal, plural, one {1-week Plan} other {#-week Plan}}} other {}}} 12months {{planType, select, trial {12-month Trial} plan {12-month Plan} other {}}} other {}}": "{formatType, select, week {{planType, select, trial {{frequencyFinal, plural, one {1-week Trial} other {#-week Trial}}} plan {{frequencyFinal, plural, one {1-week Plan} other {#-week Plan}}} other {}}} 12months {{planType, select, trial {12-month Trial} plan {12-month Plan} other {}}} other {}}",
+  "4-Week Workout Plan": "4-Week Workout Plan",
+  "<accent>87% users</accent> add this to their routine": "<accent>87% users</accent> add this to their routine",
+  "<accent>Home & Gym workouts</accent>, train anywhere anytime": "<accent>Home & Gym workouts</accent>, train anywhere anytime",
+  "<accent>Progressive overload</accent> keeps you growing": "<accent>Progressive overload</accent> keeps you growing",
+  "<accent>Weekly tracker</accent> to see your progress": "<accent>Weekly tracker</accent> to see your progress",
+  "Train smarter, not harder:": "Train smarter, not harder:",
+  "Get <accent>the dream body</accent><br></br> you've always wanted": "Get <accent>the dream body</accent><br></br> you've always wanted",
+  "Important: By clicking \"Buy now for {price}\" you agree to a one-time charge of {price}{excludingTaxes} for the 4-Week Workout Plan. This payment will be automatically processed using the billing information you provided earlier. This is a separate purchase from your main subscription. By proceeding, you confirm that you have read and agree to our <termsLink>Terms of Use</termsLink> and <privacyLink>Privacy Notice</privacyLink>.": "Important: By clicking \"Buy now for {price}\" you agree to a one-time charge of {price}{excludingTaxes} for the 4-Week Workout Plan. This payment will be automatically processed using the billing information you provided earlier. This is a separate purchase from your main subscription. By proceeding, you confirm that you have read and agree to our <termsLink>Terms of Use</termsLink> and <privacyLink>Privacy Notice</privacyLink>.",
+  "Lose weight without excluding foods you love": "Lose weight without excluding foods you love",
+  "Lose weight without giving up {food}": "Lose weight without giving up {food}",
+  "Please select a date at least 7 days from today": "Please select a date at least 7 days from today",
+  "We couldn't verify this email address. Please check it or try another one.": "We couldn't verify this email address. Please check it or try another one.",
+  "Please enter a valid email address.": "Please enter a valid email address.",
+  "6xVWQr": "Best deal",
+  "8jS2xL": "In-app feature",
+  "Zt3vKz": "PDF Guide",
+  "a2fVQm": "PDF Guide",
+  "b5tKqe": "PDF Guide",
+  "dP0m4o": "Meal plan",
+  "hR3wYd": "Kickstart your journey to your goal weight",
+  "jH2wOb": "In-app",
+  "k8QwZ1": "Exclusive offer",
+  "lXk8mQ": "Lifetime access",
+  "mN4kQ2": "Add to my plan for {price}",
+  "nC4pZq": "or choose separately",
+  "qN1xLm": "Important: By clicking \"Add to my plan for {price}\", you are agreeing to a one-time charge of {price} for the {name}. This payment will be automatically processed using the billing information you provided earlier. This is a separate purchase from your subscription. By proceeding, you confirm that you have read and agree to our <termsLink>Terms of Use</termsLink> and <privacyLink>Privacy Notice</privacyLink>.",
+  "qOfB1x": "That’s why we’re offering you an <0>extra {discountPercent}% off for the Premium Bundle</0> to help you reach your goals faster!",
+  "qk3Yh1": "Weight Loss Bundle",
+  "tQ7uWs": "Personalized for you",
+  "wR6Xnt": "+ Vitamin Guide + Cortisol Detox + Habit Workbook",
+  "yV3nRb": "Effortless nutrition",
+  "zP9lHc": "Kickstart your journey to {targetWeightDisplay}",
+  "pV3xNq": " only!",
+  "eoQuNJ": "Confirming your payment",
+  "k4SoOG": "This can take up to a minute...",
+  "Important: By clicking “Add to my plan” you are enrolling in automatic payments of {price} {excludingTaxes} every {duration, select, month {month} quarter {quarter} other {renewal period}} for the Premium bundle. This payment will be automatically processed using the billing information you provided earlier. Your subscription will automatically renew at {price} {excludingTaxes} every {duration, select, month {month} quarter {quarter} other {renewal period}} until you cancel. This is a separate purchase from your main subscription. By proceeding, you confirm that you have read and agree to our <termsLink>Terms of Use</termsLink> and <privacyLink>Privacy Notice</privacyLink>.": "Important: By clicking “Add to my plan” you are enrolling in automatic payments of {price} {excludingTaxes} every {duration, select, month {month} quarter {quarter} other {renewal period}} for the Premium bundle. This payment will be automatically processed using the billing information you provided earlier. Your subscription will automatically renew at {price} {excludingTaxes} every {duration, select, month {month} quarter {quarter} other {renewal period}} until you cancel. This is a separate purchase from your main subscription. By proceeding, you confirm that you have read and agree to our <termsLink>Terms of Use</termsLink> and <privacyLink>Privacy Notice</privacyLink>."
+ }
+}
