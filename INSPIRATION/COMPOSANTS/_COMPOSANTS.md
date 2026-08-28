@@ -65,5 +65,10 @@ tags: [moc, inspiration, composants]
 | Menu d'ajout rapide en cartes noires empilées | [[bitepal]] | Déplié depuis le bouton flottant : Weight / Water / Fasting / Food, chaque ligne avec sa valeur courante et son action propre — dont Food qui offre deux entrées (clavier et caméra). | `UI-DESIGN/bitepal/composants/menu-d-ajout-rapide_bitepal.png` |
 | 364 icônes alimentaires localisées par cuisine | [[bitepal]] | Le set dessine l'arepa, le churrasco, le feijão tutu, les papas rellenas et le currywurst plutôt qu'un burger générique. La localisation descend jusqu'à l'icône. | `UI-DESIGN/bitepal/branding/planches/planche-echantillon-du-systeme-d-icones.png` |
 
+| Barre d'enregistrement logée dans l'encoche | [[amie]] | Une pilule sombre « Amie Weekly · 00:07 · play · pause · Stop » posée par-dessus Google Meet, dans l'encoche du Mac. Matérialise en un seul objet la promesse « pas de bot dans l'appel » — et se replie en UI flottante sur les machines sans encoche. | `UI-DESIGN/amie/composants/barre-enregistrement-notch_amie.png` |
+| Todo reliée à son créneau par un pointillé | [[amie]] | La tâche « Send newsletter » et le bloc de calendrier qu'elle vient de créer, joints par un trait pointillé bleu. Le lien de cause à effet est dessiné, pas expliqué. | `UI-DESIGN/amie/composants/todo-vers-creneau_amie.png` |
+| Carte de todo à pilule minuteur | [[amie]] | Case, titre, description sur deux lignes, et une pilule « 48m » avec bouton pause. Le minuteur est un attribut de la tâche, pas un mode à part. | `UI-DESIGN/amie/composants/todo-minuteur_amie.png` |
+| Champ de prompt IA en pilule fine | [[amie]] | Pilule blanche à bord de 1 px, icônes `@` et trombone à gauche, bouton rond bleu à flèche montante à droite. Le minimum viable d'un champ de prompt, sans aucune fioriture. | `UI-DESIGN/amie/composants/champ-de-prompt_amie.png` |
+
 ---
 [[_INSPIRATION|← Inspiration]]

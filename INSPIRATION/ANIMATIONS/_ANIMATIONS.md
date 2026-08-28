@@ -49,5 +49,8 @@ tags: [moc, inspiration, animations, motion]
 | Mascotte riggée en Lottie, 17 fichiers | [[bitepal]] | Calques nommés os par os (`3_eye`, `3_eye_closed`, `mouth`, `ear_l`, `Hand_l`, `tail 2 Comp 1`, `Head :M`) et **quatre paires entrée/boucle** — une par objectif de poids. Le rig complet, en vectoriel, servi publiquement par le funnel. | `UI-DESIGN/bitepal/animations/lottie/raton-hero-site-life-3-hearts.json` |
 | Onboarding complet en mouvement, 80 s | [[bitepal]] | Le parcours de décembre 2025 filmé bout en bout : les transitions de carte, le rythme du carrousel, et l'étape d'adoption de l'animal. | `UI-DESIGN/bitepal/flows/onboarding-en-mouvement-2025-12.mp4` |
 
+| Signature de pied de page remplie par une vague | [[amie]] | « Designed by the beach » : le lettrage n'est pas coloré, il est **rempli par un motif de vague SVG** qui défile en boucle de 1,5 s (`animateTransform`, translate 0 → 40), doublé d'un dégradé `#000` → `#595447` à 40 %. Personne ne le remarque, tout le monde le ressent. | `UI-DESIGN/amie/branding/signature-designed-by-the-beach.svg` |
+| Convergence des intégrations vers le symbole | [[amie]] | Les icônes Gmail, Calendar, Slack, Notion et Drive envoient des chemins de points animés vers le squircle corail, qui morphe ensuite vers le tableau d'auto-tagging. Le positionnement de la marque — tout converge vers Amie — dit en dix secondes. | `UI-DESIGN/amie/animations/integrations-vers-logo_amie.mp4` |
+
 ---
 [[_INSPIRATION|← Inspiration]]
