@@ -52,5 +52,8 @@ tags: [moc, inspiration, animations, motion]
 | Signature de pied de page remplie par une vague | [[amie]] | « Designed by the beach » : le lettrage n'est pas coloré, il est **rempli par un motif de vague SVG** qui défile en boucle de 1,5 s (`animateTransform`, translate 0 → 40), doublé d'un dégradé `#000` → `#595447` à 40 %. Personne ne le remarque, tout le monde le ressent. | `UI-DESIGN/amie/branding/signature-designed-by-the-beach.svg` |
 | Convergence des intégrations vers le symbole | [[amie]] | Les icônes Gmail, Calendar, Slack, Notion et Drive envoient des chemins de points animés vers le squircle corail, qui morphe ensuite vers le tableau d'auto-tagging. Le positionnement de la marque — tout converge vers Amie — dit en dix secondes. | `UI-DESIGN/amie/animations/integrations-vers-logo_amie.mp4` |
 
+| Le fond bascule, pas les objets | [[tradezella]] | Le défilement fait alterner sections blanches et sections noires plein écran, chaque bascule ré-éclairant les captures produit posées dessus. Aucun objet ne bouge : c'est le décor qui change. | `UI-DESIGN/tradezella/animations/scroll-six-produits-un-hub_tradezella.gif` |
+| Une mascotte dont il ne reste que les keyframes | [[rizetrade]] | `mascot-blink`, `mascot-hop` (squash-and-stretch en 8 étapes), `mascot-breathe` et trois blobs `mascot-liquid` déphasés vivent dans la CSS de production — mais le markup n'est nulle part côté public. Le personnage est derrière le login. | `UI-DESIGN/rizetrade/rizetrade.md` |
+
 ---
 [[_INSPIRATION|← Inspiration]]
