@@ -20,14 +20,14 @@ Notes prises sur le tas, dans `notes/` — dossier synchronisé avec l'app tr4de
 
 ## glow up — `#glowup`
 
-- [[lock in]] — objectif, commencer petit, etre obsedé, repetition et routines, routine du jour, process
+- [[lock in]] — objectif, commencer petit, etre obsedé, delusion et discipline, repetition et routines, routine du jour, process
 - [[bien communiquer]] — symptomes, les 5 exercices, routine, humour
 - [[meta learning]] — savoir ou on va, le pourquoi / quoi / comment, 80/20, feedback
 - [[habits]] — vêtements et chaussures
 
 ## appart — `#appart`
 
-- [[courses et recette]] — les courses par type, puis les repas avec leurs ingrédients (épinglée)
+- [[courses et recette]] — les courses par type, puis les repas avec leurs ingrédients
 - [[achats]] — ce qu'il reste à acheter, classé par pièce
 
 ## hors famille
@@ -36,8 +36,4 @@ Notes prises sur le tas, dans `notes/` — dossier synchronisé avec l'app tr4de
 - [[app]] — les demandes de dev sur l'app tr4de — **vidée dans l'app**, ne reste que le titre (`#top3`)
 - [[anime manga film]] — animes notés, liste à regarder, films (`#a_regarder`)
 
-## notes vides, en attente
-
-- `bien s'habiller` et `bien s'habiller 2` — deux notes créées dans l'app le 20 août, sans contenu. Le contenu du sujet est dans [[habits]].
-
-> Supprimées dans l'app en août 2026, à ne pas recréer : `glow uppp` (le chapeau `#glowup`, ses liens pointent maintenant vers les notes de la famille), `math`, `application inspiration`, `appartement` (scindée par Sacha en `courses et recette` + `achats`).
+> Supprimées en août 2026, à ne pas recréer : `glow uppp` (le chapeau `#glowup`, ses liens pointent maintenant vers les notes de la famille), `math`, `application inspiration`, `appartement` (scindée par Sacha en `courses et recette` + `achats`), `bien s'habiller` et `bien s'habiller 2` (restées vides, le sujet est dans [[habits]]), `my lock in` (une seule ligne, `nqsimon`, supprimée sur décision de Sacha le 2 septembre).

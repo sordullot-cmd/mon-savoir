@@ -1,7 +1,7 @@
 ---
 tr4de-id: "1787585392878.8884"
 created: 2026-08-24T15:29:52.878Z
-updated: 2026-08-24T16:41:58.311Z
+updated: 2026-08-25T14:18:31.276Z
 tags:
   - glowup
 ---
@@ -18,6 +18,7 @@ objectif :
 - noter les plan / etapes / habitudes necessaire pour arriver a ton objectif
 - etre concentré sur une tache / un objectif
 - take action
+- travailler avec une direction, rends tout plus simple, savoir ou on va et comment aide pour mettre en
 
 commencer petit :
 - pas besoin de faire 4h de deepwork au debut, on peut commencer avec 10 ou 20m, l'objectif etant que notre futur nous puisse faire 4h de deepwork
@@ -27,7 +28,10 @@ etre obsedé :
 - vouloir reelement etre bon dans le domaine souhaité, pas juste attendre la reussite de notre objectif
 - tout faire pour maximiser nos chance de reussite
 - il faut essayer de devenir la personne dont on veut devenir, il faut faire ce que cette personne ferait a notre place, il faut la devenir petit a petit
+- il faut imaginer que la vie qu'on veut existe deja
+- il faut etre si obsédé, que on a pas le choix de lock in
 - etre delusionel
+- delusion et discipline doivent travailler ensemble
 
 repetition et routines :
 - la repetition et les routines sont les meilleurs choses a mettre en place

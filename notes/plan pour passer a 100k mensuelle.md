@@ -1,7 +1,7 @@
 ---
 tr4de-id: "1777255268193.9534"
 created: 2026-04-27T02:01:08.193Z
-updated: 2026-08-21T00:10:26.131Z
+updated: 2026-08-25T01:28:13.813Z
 pinned: true
 tags:
   - trading

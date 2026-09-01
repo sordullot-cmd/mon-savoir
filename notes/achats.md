@@ -1,17 +1,20 @@
 ---
 tr4de-id: "1787271047462.2998"
 created: 2026-08-21T00:10:47.462Z
-updated: 2026-08-21T00:12:29.917Z
+updated: 2026-08-26T18:26:33.370Z
+tags:
+  - appart
 ---
 
 achats :
 
 chambre :
-- couette bleu rayé
+- housse de couette et d'oreiller bleu rayé
 - tapis cool
 - porte cintre
 - cintre
 - tableau en liege
+- tableau blanc
 
 salle de bain :
 - rideau de douche
@@ -29,3 +32,5 @@ bureau :
 a preciser :
 - machine a laver
 - iphone
+
+#appart
