@@ -1,4 +1,16 @@
 {
+ "bruts": {
+  "eco gestion/_brut/gestion.md": {
+   "fiche": "eco gestion/Gestion - Introduction UE 12A.md",
+   "hash": "191100950174",
+   "integre": "2026-09-07 22:30"
+  },
+  "eco gestion/_brut/introduction a l'economie.md": {
+   "fiche": "eco gestion/Economie - Introduction UE 11A.md",
+   "hash": "e8ece8ce2302",
+   "integre": "2026-09-07 22:30"
+  }
+ },
  "pages": {
   "eco gestion/00 - Plan L1 Angers.md": {
    "fait": "essentiel, bloc Controle, incoherences signalees ; alignement des tableaux restaure",
@@ -13,6 +25,22 @@
    "mots": 3063,
    "passage": "2026-09-07 21:15",
    "statut": "à créer"
+  },
+  "eco gestion/Economie - Introduction UE 11A.md": {
+   "fait": "brut integre : 37 mots, fiche squelette, tout le cours reste a recuperer",
+   "hash": "164bd4ca6857",
+   "mots": 328,
+   "passage": "2026-09-07 22:30",
+   "source": "_brut/introduction a l'economie.md",
+   "statut": "à faire"
+  },
+  "eco gestion/Gestion - Introduction UE 12A.md": {
+   "fait": "brut integre en fiche : essentiel, 6 paires, methode, 24 cartes Anki, 10 controles, 9 trous signales",
+   "hash": "27f1ab949f6b",
+   "mots": 3335,
+   "passage": "2026-09-07 22:30",
+   "source": "_brut/gestion.md",
+   "statut": "à faire"
   }
  }
 }

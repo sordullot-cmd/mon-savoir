@@ -281,6 +281,7 @@ Prolongement direct du [[Cycle 0 - Fondations|cycle 0]]. Les prérequis y sont a
 # 🎁 UE 11A — le cadeau de la période 1
 
 **3 coefficients · CT écrit 1 h · période 1 · 18 h de CM, pas de TD**
+📄 Fiche de cours : [[Economie - Introduction UE 11A]] *(presque vide — le contenu du cours reste à rapatrier)*
 
 C'est une UE de **vocabulaire et de grandes questions**, entièrement recoupée par 11B et 11C. Elle ne demande pas de travail séparé — **mais elle tombe en premier**.
 

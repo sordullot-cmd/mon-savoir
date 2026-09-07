@@ -192,6 +192,7 @@ Ici on ne calcule plus, **on argumente**. Le travail n'est plus l'exercice mais 
 # 💼 MODULE GESTION — UE 12A (coef 3, période 1 ⚠️)
 
 **18 h de CM, pas de TD, CT écrit 1 h 30.** UE d'introduction — large mais peu profonde.
+📄 Fiche de cours : [[Gestion - Introduction UE 12A]] *(organisations, stratégie, classements, contextes)*
 
 - [ ] L'entreprise : définition, finalités, classification (taille, secteur, statut)
 - [ ] Les **formes juridiques** : entreprise individuelle, EURL, SARL, SAS, SA — responsabilité, capital, gouvernance

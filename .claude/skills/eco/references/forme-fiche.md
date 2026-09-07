@@ -1,30 +1,38 @@
 # La forme d'une fiche de révision — exemples pris dans les vraies pages
 
-À lire **avant** de toucher une page. Les avant/après ci-dessous viennent de
-`eco gestion/`, pas d'un exemple inventé.
+À lire **avant** de toucher une page, avec `apprendre.md` qui dit *pourquoi*
+chaque bloc existe. Les avant/après ci-dessous viennent de `eco gestion/`, pas
+d'un exemple inventé.
 
 ---
 
-## Les six blocs, dans cet ordre
+## Les blocs, dans cet ordre
 
-Une page d'éco gestion qui se révise a toujours cette anatomie. Un bloc absent
-se crée **à partir du contenu de la page** ; un bloc déjà là ne se refait pas.
+L'ordre et le levier d'apprentissage de chaque bloc sont dans le tableau de
+`apprendre.md`. Un bloc absent se crée **à partir du contenu de la page** ; un
+bloc déjà là ne se refait pas ; **un bloc sans matière ne se remplit pas**.
 
-1. **Frontmatter** — `tags`, `statut`, et les champs propres à la page
-   (`notion`, `prerequis`, `nb_cartes`, `modules`…). Intouchables sauf `statut`.
+1. **Frontmatter** — `tags`, `statut`, `source:` si la fiche vient d'un brut, et
+   les champs propres à la page (`notion`, `prerequis`, `modules`…).
+   Intouchables sauf `statut`.
 2. **Titre + ligne de contexte** — `# 📊 Cours — Indices et déflation`, puis la
-   ligne des liens : module, durée, série d'exercices, retour au hub.
-3. **`> [!abstract] L'essentiel`** — 3 à 6 lignes, la fiche dans la fiche.
-   Uniquement des phrases dérivées du corps. C'est ce qu'on relit à J-1.
-4. **Le corps du cours** — préservé. On corrige la langue et la structure, on ne
-   réécrit pas l'explication.
-5. **`> [!warning] Les pièges`** — les erreurs classiques **déjà dites** dans la
-   page, remontées en un seul endroit.
-6. **`## ✅ Contrôle`** — les questions de restitution, chacune avec le lien vers
-   l'endroit de la page qui répond. Jamais de réponse inventée.
-
-Et, seulement s'il y a matière : **`> [!question] À vérifier`** pour les
-incohérences relevées (cf. § Ce qu'on signale sans corriger).
+   ligne des liens : module, durée, coefficient et mode d'évaluation si la MCC
+   les donne, série d'exercices, retour au hub.
+3. **`> [!abstract] L'essentiel`** — 5 lignes max, ce qu'il doit pouvoir dire en
+   30 secondes. Uniquement des phrases dérivées du corps.
+4. **Le corps du cours** — préservé, en sections numérotées, une idée par ligne,
+   **ses exemples gardés**. On corrige la langue et la structure, on ne réécrit
+   pas l'explication.
+5. **`## 🔁 À ne pas confondre`** — un tableau par paire voisine réellement
+   présente dans la page. C'est là que les points se perdent en examen.
+6. **`## 🧮 Méthode`** — la procédure numérotée, si la page en contient une,
+   suivie d'un exemple déroulé.
+7. **`## 🃏 Cartes à créer`** — format `Recto ; Verso ; Tags`, définitions,
+   formules, procédures et distinctions seulement.
+8. **`## ✅ Contrôle`** — questions d'abord, **réponses repliées** dans
+   `> [!question]- …`, ou l'ancre de la section qui répond.
+9. **`> [!question] À vérifier / à récupérer`** — trous et incohérences
+   (cf. § Ce qu'on signale sans corriger).
 
 ---
 
@@ -51,23 +59,54 @@ limite** : ce n'est pas écrit dans la page.
 
 ---
 
-## Bloc 6 — le contrôle, avec l'ancre qui répond
+## Bloc 5 — à ne pas confondre, le bloc qui rapporte le plus
+
+Deux notions voisines côte à côte se retiennent ; deux définitions séparées par
+trois pages se confondent le jour de l'examen.
+
+```md
+## 🔁 À ne pas confondre
+
+| Structure formelle | Structure informelle |
+|---|---|
+| L'organigramme, décidé | Les relations réelles, spontanées |
+| Division verticale (hiérarchie) et horizontale (fonctions) | Affinités, réseaux d'entraide, circuits d'information |
+| **Ce qui les sépare** : l'une est écrite et voulue, l'autre est observée. |
+
+| Entreprise individuelle | Société |
+|---|---|
+| Pas de personne morale distincte | Personne morale, patrimoine propre |
+| Impôt sur le revenu | Impôt sur les sociétés |
+| **Ce qui les sépare** : les deux questions de choix du statut — responsabilité limitée ou non, IR ou IS. |
+```
+
+Chaque paire vient de la page. La ligne « ce qui les sépare » se dérive de ses
+lignes, elle n'ajoute pas de savoir.
+
+## Bloc 8 — le contrôle, réponses repliées
 
 ```md
 ## ✅ Contrôle
 
-Réponds sans rouvrir le cours, puis vérifie au lien.
+Réponds à voix haute avant d'ouvrir la réponse.
 
-1. Écris l'indice de $x$ en base 100 sur l'année 0. → [[#💡 L'idée : ramener à une base commune]]
-2. Laspeyres ou Paasche : lequel garde les pondérations de l'année de base ? → [[#PARTIE 2 — Les indices synthétiques]]
-3. Un salaire monte de 15 %, les prix de 18 %. Le pouvoir d'achat ? → [[#Déflater]]
+> [!question]- Les trois éléments que réunit toute organisation ?
+> Un objectif, une mobilisation d'individus avec des rôles, une structure.
+
+> [!question]- Laspeyres ou Paasche : lequel garde les pondérations de l'année de base ?
+> Laspeyres. → [[#PARTIE 2 — Les indices synthétiques]]
+
+> [!question]- Un salaire monte de 15 %, les prix de 18 %. Le pouvoir d'achat ?
+> Il baisse : il faut déflater. → [[#Déflater]]
 ```
 
 Règles du bloc :
+- le `-` après `[!question]` **replie** le callout : la réponse est cachée. Sans
+  lui, il n'y a pas de test, juste une relecture ;
 - une question par notion réellement traitée, **8 maximum** ;
-- toujours l'ancre de la section qui répond, jamais la réponse recopiée ;
-- une question qui n'a pas de réponse dans la page ne va **pas** dans Contrôle :
-  elle va dans `À vérifier`.
+- la réponse est **dans la page**, plus l'ancre de la section quand elle existe ;
+- une question sans réponse dans la page ne va **pas** dans Contrôle : elle va
+  dans `À vérifier`.
 
 ---
 

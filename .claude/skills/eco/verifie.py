@@ -2,20 +2,29 @@
 """Vérifie qu'un passage de /eco n'a rien cassé sur une page de cours.
 
     python3 verifie.py <page-avant.md> "<page-apres.md>"
+    python3 verifie.py <brut.md> "<fiche.md>" --integration
 
-`page-avant.md` est la copie prise dans le scratchpad avant d'écrire.
+`page-avant.md` est la copie prise avant d'écrire (ou le brut, en intégration).
 `page-apres.md` est le chemin réel dans le vault (relatif ou absolu).
+
+`--integration` = on transforme des notes d'amphi brutes en fiche : la page
+grossit forcément, et le brut n'a ni tableaux alignés ni frontmatter. Les
+invariants de CONTENU restent, eux : aucun chiffre, aucune formule, aucun nom
+propre du cours ne doit disparaître au passage.
 
 Ce que ça refuse (ERREUR — on restaure depuis le snapshot) :
   - un chiffre, une formule, une clé de frontmatter, un tag ou un lien disparus
   - un titre supprimé/renommé alors qu'un lien du vault pointe sur son ancre
   - un lien [[...]] qui ne résout vers aucune page du vault
+  - une ancre interne [[#…]] qui ne correspond à aucun titre de la page
   - une case à cocher cochée ou une cellule de suivi remplie à la place de Sacha
-  - une page qui gonfle de plus de 30 %
+  - un tableau reformaté à contenu identique (hors intégration)
+  - une page qui gonfle de plus de 30 % (hors intégration)
 
 Ce que ça signale (ALERTE — à justifier dans le récap) :
-  - une page qui gonfle de plus de 15 %
+  - une page qui gonfle de plus de 15 % (hors intégration)
   - des blocs de code ou de maths non refermés
+  - une fiche sans bloc « Contrôle » : elle ne permet pas de se tester
 """
 import io
 import os
@@ -30,6 +39,7 @@ IGNORE = {".git", ".claude", ".obsidian", ".trash", "attachments", "conflicts"}
 NOMBRE = re.compile(r"-?\d+(?:[.,]\d+)?")
 MATHS = re.compile(r"\$\$.*?\$\$|\$[^$\n]+\$", re.S)
 LIEN = re.compile(r"\[\[([^\]|#]+)(#[^\]|]+)?(\|[^\]]+)?\]\]")
+LIEN_INTERNE = re.compile(r"\[\[#([^\]|]+)(\|[^\]]+)?\]\]")
 TITRE = re.compile(r"^#{1,6}\s+(.+?)\s*$", re.M)
 COCHEE = re.compile(r"^\s*[-*]\s+\[[xX]\]", re.M)
 AVIDE = re.compile(r"^\s*[-*]\s+\[ \]", re.M)
@@ -146,6 +156,7 @@ def main():
         print(__doc__)
         return 2
     p_avant, p_apres = sys.argv[1], sys.argv[2]
+    integration = "--integration" in sys.argv[3:]
     if not os.path.isabs(p_apres):
         p_apres_abs = os.path.join(VAULT, p_apres)
     else:
@@ -168,8 +179,12 @@ def main():
     if t_perdus:
         erreurs.append("tags perdus : %s" % ", ".join(sorted(t_perdus)))
 
-    # chiffres du cours
-    n_av, n_ap = Counter(NOMBRE.findall(c_av)), Counter(NOMBRE.findall(c_ap))
+    # chiffres du cours — hors numérotation de listes et de sections, qui est
+    # de la structure : « 1. micro entreprise » peut devenir une puce.
+    def donnees(t):
+        return NOMBRE.findall(re.sub(r"(?m)^\s*(?:#{1,6}\s+)?\d+[.)]\s+", "", t))
+
+    n_av, n_ap = Counter(donnees(c_av)), Counter(donnees(c_ap))
     manquants = {k: v - n_ap.get(k, 0) for k, v in n_av.items() if v > n_ap.get(k, 0)}
     if manquants:
         erreurs.append("chiffres disparus (occurrences) : %s"
@@ -207,7 +222,16 @@ def main():
         erreurs.append("des cases ont été cochées à la place de Sacha")
     if len(AVIDE.findall(c_ap)) < len(AVIDE.findall(c_av)):
         erreurs.append("des tâches non faites ont disparu")
-    reform = reformatees(c_av, c_ap)
+    # ancres internes : un bloc Contrôle qui pointe vers un titre inexistant
+    # est un bloc inutilisable — c'est le cœur de la révision active.
+    t_ap_titres = titres(c_ap)
+    mortes = sorted(set(ancre(m.group(1)) for m in LIEN_INTERNE.finditer(c_ap))
+                    - t_ap_titres)
+    if mortes:
+        erreurs.append("ancres internes qui ne pointent sur aucun titre de la "
+                       "page : %s" % " · ".join(mortes[:8]))
+
+    reform = reformatees(c_av, c_ap) if not integration else []
     if reform:
         erreurs.append("%d ligne(s) de tableau reformatée(s) à contenu identique "
                        "— garder l'alignement des colonnes d'Obsidian : %s"
@@ -221,12 +245,22 @@ def main():
     # volume
     mo_av, mo_ap = len(c_av.split()), len(c_ap.split())
     croissance = (mo_ap - mo_av) / float(mo_av or 1) * 100
-    if croissance > 30:
+    if integration:
+        # une fiche fait forcément plus de mots que les notes d'amphi dont elle
+        # sort : ce qu'on surveille ici, c'est le délayage.
+        if croissance > 250:
+            alertes.append("fiche %.0f %% plus longue que le brut (%d → %d mots) "
+                           "— vérifier qu'on n'a pas délayé" % (croissance, mo_av, mo_ap))
+    elif croissance > 30:
         erreurs.append("page gonflée de %.0f %% (%d → %d mots)"
                        % (croissance, mo_av, mo_ap))
     elif croissance > 15:
         alertes.append("page gonflée de %.0f %% (%d → %d mots) — à justifier"
                        % (croissance, mo_av, mo_ap))
+
+    if "contrôle" not in c_ap.lower() and "controle" not in c_ap.lower():
+        alertes.append("pas de bloc « Contrôle » : la fiche ne permet pas de se "
+                       "tester, elle ne sert qu'à relire")
 
     # syntaxe
     if c_ap.count("```") % 2:
