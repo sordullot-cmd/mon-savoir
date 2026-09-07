@@ -136,6 +136,12 @@ La convention, en trois pièces :
    - **Entreprise privée** : l'État en détient moins de la moitié. ➕
    ```
 
+   Le marqueur signale du **contenu** ajouté : une ligne, une intro de bloc, une
+   cellule de tableau. Jamais un titre de section (le `➕` entrerait dans le slug
+   de l'ancre) ni l'étiquette d'un bloc — sinon le compteur ne veut plus rien
+   dire. Pour une section entière ajoutée, le `➕` va sur sa **ligne d'intro**,
+   qui dit aussi pourquoi elle est là.
+
 2. **Le compteur `ajouts: n`** dans le frontmatter — c'est ce qui alimente le
    tableau de bord et ce que `verifie.py` recoupe.
 

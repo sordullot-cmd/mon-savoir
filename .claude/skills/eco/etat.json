@@ -3,7 +3,7 @@
   "eco gestion/_brut/gestion.md": {
    "fiche": "eco gestion/Gestion - Introduction UE 12A.md",
    "hash": "191100950174",
-   "integre": "2026-09-07 22:59"
+   "integre": "2026-09-07 23:56"
   },
   "eco gestion/_brut/introduction a l'economie.md": {
    "fiche": "eco gestion/Economie - Introduction UE 11A.md",
@@ -35,10 +35,10 @@
    "statut": "à faire"
   },
   "eco gestion/Gestion - Introduction UE 12A.md": {
-   "fait": "5 trous ajoutes au bloc A verifier : 7400 vs 7 442 ETI, total des secteurs 98,6, secteur vs branche non defini, amorces Renault et cycle de produit, denomination interrompue ; a_verifier 9 -> 14",
-   "hash": "7f8adb4ff8e2",
-   "mots": 3491,
-   "passage": "2026-09-07 22:59",
+   "fait": "13 complements traces (fonctions, parties prenantes, valeur ajoutee, performance, cycles, formes juridiques, RSE, seuils ETI) + 12 cartes + 5 controles",
+   "hash": "2f59d0d4415f",
+   "mots": 5451,
+   "passage": "2026-09-07 23:56",
    "source": "_brut/gestion.md",
    "statut": "à faire"
   }
