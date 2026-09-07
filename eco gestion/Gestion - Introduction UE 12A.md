@@ -11,7 +11,7 @@ statut: à faire
 coef: 3
 periode: 1
 revu: 2026-09-07
-a_verifier: 9
+a_verifier: 14
 cartes: 24
 ---
 
@@ -359,11 +359,16 @@ Réponds à voix haute, puis ouvre la réponse.
 > - **« copier ce que j'ai ecris sur mon cahier »** : le début du cours est resté sur ton cahier, il n'est pas dans ces notes. C'est le premier bloc à rapatrier.
 > - **Niveau stratégique** : ta ligne « construction ? » est interrompue — à reprendre en cours.
 > - **La stratégie** : « c'et un jeu de compétition télévisions » est incompréhensible tel quel, je ne l'ai pas reformulé pour ne pas inventer. Que disait le prof ?
+> - **Renault et le cycle de produit** : « plan a 5 ans - o », puis « cycle de produit. e » — deux amorces coupées net, il manque la fin des deux.
 > - **Culture d'entreprise** : tes notes annoncent « il y a **deux niveaux** : » et un seul est écrit. Le deuxième manque.
 > - **ETI** : tes notes disent « 5 000 salariées et 15000 M ». Les seuils voisins (PME < 250 salariés, GE > 5 000) laissent un trou entre 250 et 5 000 salariés, qui est justement la place de l'ETI — la ligne semble mal recopiée. Le chiffre n'a **pas** été corrigé.
+> - **ETI, le nombre d'entreprises** : tes notes donnent **7400** entreprises, puis **7 442** pour 0,14 % — deux valeurs pour le même compte, à trancher.
 > - **Micro-entreprise** : « 17% des emploies = 2millions d'emloie », soit 2 millions d'emplois pour 17 % du total — vérifier le total implicite.
+> - **Secteurs d'activité** : 2,5 + 20 + 76,1 = **98,6**, il manque 1,4 point pour faire 100. Et le tertiaire est le seul des trois noté sans unité (« = 76,1 »).
+> - **Secteur ou branche ?** : tes notes posent « branche de l'economie = Quaternaire » à la suite des trois secteurs, sans jamais dire ce qui distingue une **branche** d'un **secteur**. C'est une paire classique en examen.
 > - **Secteur associatif** : « concurence entre associations pour ces » — phrase coupée.
 > - **Les points essentiels à retenir** : la liste s'arrête au point 1. Le prof en a sûrement donné plusieurs.
+> - **Entreprise individuelle** : « nom : une denomination ... » — la définition s'arrête sur les points de suspension.
 > - **Loi du 14 février** : mentionnée deux fois, avec l'année (2022) une seule fois. Même loi ?
 
 > [!info]- Pourquoi je n'ai pas corrigé les chiffres qui semblent faux
