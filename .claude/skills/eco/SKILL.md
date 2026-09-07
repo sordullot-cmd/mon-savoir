@@ -142,6 +142,43 @@ de page, avec les deux valeurs en conflit et où elles sont écrites.
 Le bloc `À vérifier` est **remplacé** à chaque passage, jamais empilé. Une ligne
 que Sacha a supprimée reste supprimée : sa suppression est une décision.
 
+## L'automatisation horaire — installation et pannes
+
+Le passage tourne via un **LaunchAgent macOS**, `~/Library/LaunchAgents/com.sacha.eco-fiches.plist`,
+qui lance `passage.sh` **toutes les heures à :17** (pas à :00 : tout le monde y
+est). Il n'est pas dans le dépôt — c'est un fichier de machine.
+
+```
+launchctl load -w   ~/Library/LaunchAgents/com.sacha.eco-fiches.plist   # activer
+launchctl unload -w ~/Library/LaunchAgents/com.sacha.eco-fiches.plist   # couper
+launchctl list | grep eco-fiches                                       # état
+launchctl kickstart -k gui/$(id -u)/com.sacha.eco-fiches               # forcer un tir
+bash .claude/skills/eco/passage.sh                                     # un passage à la main
+```
+
+**Le piège d'installation, vécu le 7 septembre 2026 :** `launchctl list` renvoyait
+un statut **126** et `launchd.log` disait
+`getcwd: cannot access parent directories: Operation not permitted`.
+Ce n'est ni le plist ni le script : c'est **TCC**, la protection de macOS. Un job
+lancé par launchd n'a **aucun accès à `~/Documents`** — donc au vault — tant que
+son exécutable n'a pas l'**Accès complet au disque**.
+
+Correctif : Réglages Système → Confidentialité et sécurité → Accès complet au
+disque → `+` → `Cmd+Shift+G` → `/bin/bash` → activer l'interrupteur. Puis
+`launchctl kickstart -k gui/$(id -u)/com.sacha.eco-fiches` pour vérifier.
+
+Sans cet accès, l'automatisation ne peut passer que par une **session Claude Code
+ouverte** (`/loop 1h /eco`), qui hérite des droits du terminal.
+
+**Diagnostic dans l'ordre** : `launchd.log` (le job a-t-il pu démarrer),
+`passages.log` (qu'a fait le passage), `launchctl list | grep eco` (dernier code),
+`git log --oneline` (a-t-il commité).
+
+Deux journaux et un verrou, tous git-ignorés : `passages.log`, `launchd.log`,
+`.verrou/` (un dossier, créé par `mkdir` atomique — deux passages ne peuvent pas
+se chevaucher). Un verrou de plus d'une heure est considéré comme mort et cassé
+automatiquement.
+
 ## Garde-fous
 
 - **Jamais `rm`**, jamais de renommage de fichier, jamais de suppression de
