@@ -3,6 +3,7 @@
 
     python3 verifie.py <page-avant.md> "<page-apres.md>"
     python3 verifie.py <brut.md> "<fiche.md>" --integration
+    python3 verifie.py <avant.md> "<fiche.md>" --complement
 
 `page-avant.md` est la copie prise avant d'écrire (ou le brut, en intégration).
 `page-apres.md` est le chemin réel dans le vault (relatif ou absolu).
@@ -12,6 +13,13 @@ grossit forcément, et le brut n'a ni tableaux alignés ni frontmatter. Les
 invariants de CONTENU restent, eux : aucun chiffre, aucune formule, aucun nom
 propre du cours ne doit disparaître au passage.
 
+`--complement` = on comble des trous du cours. Sacha l'a demandé le 7 septembre
+2026 : « si tu vois qu'il manque des grosses informations, des trous, des idées
+capitales, notes les ». La fiche grossit donc légitimement — mais chaque ajout
+reste TRAÇABLE : marqueur ➕ sur la ligne ajoutée, compteur `ajouts:` dans le
+frontmatter, et un récapitulatif en fin de fiche. Sans cette trace, il
+réviserait comme du cours quelque chose que son prof n'a peut-être pas dit.
+
 Ce que ça refuse (ERREUR — on restaure depuis le snapshot) :
   - un chiffre, une formule, une clé de frontmatter, un tag ou un lien disparus
   - un titre supprimé/renommé alors qu'un lien du vault pointe sur son ancre
@@ -19,7 +27,9 @@ Ce que ça refuse (ERREUR — on restaure depuis le snapshot) :
   - une ancre interne [[#…]] qui ne correspond à aucun titre de la page
   - une case à cocher cochée ou une cellule de suivi remplie à la place de Sacha
   - un tableau reformaté à contenu identique (hors intégration)
-  - une page qui gonfle de plus de 30 % (hors intégration)
+  - une page qui gonfle de plus de 30 % (60 % en complément, libre en intégration)
+  - un compteur `ajouts:` qui ne correspond pas aux marqueurs ➕ du corps
+  - des ajouts ➕ sans récapitulatif en fin de fiche
 
 Ce que ça signale (ALERTE — à justifier dans le récap) :
   - une page qui gonfle de plus de 15 % (hors intégration)
@@ -43,6 +53,8 @@ LIEN_INTERNE = re.compile(r"\[\[#([^\]|]+)(\|[^\]]+)?\]\]")
 TITRE = re.compile(r"^#{1,6}\s+(.+?)\s*$", re.M)
 COCHEE = re.compile(r"^\s*[-*]\s+\[[xX]\]", re.M)
 AVIDE = re.compile(r"^\s*[-*]\s+\[ \]", re.M)
+AJOUT = "\u2795"          # ➕ : marque une ligne que Sacha n'avait pas notée
+RECAP = re.compile(r"(?i)ce que j'ai (?:compl|ajout)")
 
 
 def lit(p):
@@ -157,6 +169,7 @@ def main():
         return 2
     p_avant, p_apres = sys.argv[1], sys.argv[2]
     integration = "--integration" in sys.argv[3:]
+    complement = "--complement" in sys.argv[3:]
     if not os.path.isabs(p_apres):
         p_apres_abs = os.path.join(VAULT, p_apres)
     else:
@@ -245,7 +258,14 @@ def main():
     # volume
     mo_av, mo_ap = len(c_av.split()), len(c_ap.split())
     croissance = (mo_ap - mo_av) / float(mo_av or 1) * 100
-    if integration:
+    if complement:
+        # combler des trous allonge la fiche : ce qu'on surveille, c'est que
+        # l'ajout reste minoritaire face à ce que Sacha a noté lui-même.
+        if croissance > 60:
+            erreurs.append("fiche gonflée de %.0f %% (%d → %d mots) : les "
+                           "compléments pèsent plus que le cours"
+                           % (croissance, mo_av, mo_ap))
+    elif integration:
         # une fiche fait forcément plus de mots que les notes d'amphi dont elle
         # sort : ce qu'on surveille ici, c'est le délayage.
         if croissance > 250:
@@ -258,6 +278,23 @@ def main():
         alertes.append("page gonflée de %.0f %% (%d → %d mots) — à justifier"
                        % (croissance, mo_av, mo_ap))
 
+    # Traçabilité des compléments : un ajout non marqué ou non recensé serait
+    # révisé comme du cours du prof. C'est la contrepartie de l'autorisation de
+    # compléter, donnée le 7 septembre 2026.
+    marques = c_ap.count(AJOUT)
+    declares = re.search(r"^ajouts:\s*(\d+)", e_ap, re.M)
+    declares = int(declares.group(1)) if declares else None
+    a_recap = bool(RECAP.search(c_ap))
+    if marques and not a_recap:
+        erreurs.append("%d ajout(s) ➕ dans le corps mais aucun récapitulatif "
+                       "« Ce que j'ai complété » en fin de fiche" % marques)
+    if declares is not None and declares != marques:
+        erreurs.append("frontmatter annonce ajouts: %d, le corps porte %d "
+                       "marqueur(s) ➕" % (declares, marques))
+    if marques and declares is None:
+        erreurs.append("%d ajout(s) ➕ dans le corps mais pas de champ "
+                       "`ajouts:` dans le frontmatter" % marques)
+
     if "contrôle" not in c_ap.lower() and "controle" not in c_ap.lower():
         alertes.append("pas de bloc « Contrôle » : la fiche ne permet pas de se "
                        "tester, elle ne sert qu'à relire")
@@ -268,13 +305,16 @@ def main():
     if c_ap.count("$$") % 2:
         alertes.append("bloc de maths non refermé ($$ en nombre impair)")
 
-    print("%s  %d → %d mots (%+.0f %%)" % (p_apres, mo_av, mo_ap, croissance))
+    print("%s  %d → %d mots (%+.0f %%)%s"
+          % (p_apres, mo_av, mo_ap, croissance,
+             "  ·  %d ajout(s) ➕" % marques if marques else ""))
     for e in erreurs:
         print("  ERREUR  %s" % e)
     for a in alertes:
         print("  alerte  %s" % a)
     if not erreurs and not alertes:
-        print("  ok — chiffres, formules, liens, ancres, grilles et volume préservés")
+        print("  ok — chiffres, formules, liens, ancres, grilles et volume "
+              "préservés%s" % (", ajouts tracés" if marques else ""))
     return 1 if erreurs else 0
 
 

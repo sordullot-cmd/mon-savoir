@@ -114,18 +114,63 @@ autorise davantage que du nettoyage — mais pas de fabriquer du cours.
 - fabriquer les questions du bloc Contrôle, dont la réponse est dans la page ;
 - extraire les cartes Anki de ses définitions.
 
-**Autorisé, avec marquage obligatoire** — quand une notion est indispensable
-pour comprendre et absente de ses notes :
+**Attendu, avec marquage obligatoire** — combler les trous du cours.
 
-```md
-> [!info]- Complément (absent de tes notes)
-> Les seuils INSEE de l'ETI : 250 à 4 999 salariés, CA < 1,5 Md€.
-> À confronter à ton cours : tes notes disent « 5 000 salariées et 15000 M ».
-```
+Sacha l'a demandé le 7 septembre 2026, et c'est un renversement de la règle
+précédente : « n'hésite pas à rajouter des informations capitales si tu vois
+qu'elles manquent […] il y avait d'autres choses dans le cours mais je n'ai pas
+eu le temps de noter […] si tu vois qu'il manque des grosses informations, des
+trous, des idées capitales, notes les ».
 
-Le callout `[!info]-` est **replié** et dit « absent de tes notes ». Il ne se
-confond donc jamais avec son cours — ce qui compte, parce qu'en examen c'est le
-cours du prof qui est évalué, pas la culture générale.
+Donc : **une information capitale absente de ses notes s'ajoute, à sa place dans
+le cours, et se marque.** Elle ne part plus dans un callout replié en fin de
+page — une notion cachée ne se révise pas.
+
+La convention, en trois pièces :
+
+1. **Le marqueur ➕ en fin de ligne ajoutée**, dans le corps, à l'endroit
+   pertinent :
+
+   ```md
+   - **Entreprise publique** : l'État détient **> 50 % du capital**.
+   - **Entreprise privée** : l'État en détient moins de la moitié. ➕
+   ```
+
+2. **Le compteur `ajouts: n`** dans le frontmatter — c'est ce qui alimente le
+   tableau de bord et ce que `verifie.py` recoupe.
+
+3. **Le récapitulatif en fin de fiche**, déplié, qui liste chaque ajout avec sa
+   section, pour qu'il puisse confronter à son cours d'un coup d'œil :
+
+   ```md
+   > [!info] Ce que j'ai complété (6)
+   > Ces points ne viennent pas de tes notes. Vérifie-les en cours ou sur Moodle.
+   > - **Les formes juridiques** (§ 11c) : SARL, SAS, SA — tes notes s'arrêtent à EI / EURL.
+   > - **Les fonctions de l'entreprise** (§ 8) : le programme de l'UE les demande, tes notes n'en parlent pas.
+   ```
+
+`verifie.py --complement` refuse le passage si le compte des ➕ ne correspond pas
+au frontmatter, ou si le récapitulatif manque. **Un ajout non tracé serait
+révisé comme du cours du prof** — c'est la seule chose qui rende cette
+autorisation sûre.
+
+**Ce qui reste non négociable** : un ajout est du savoir **standard et vérifiable**
+(seuils légaux, définitions de manuel, listes canoniques), jamais une opinion ni
+une reconstitution de ce que le prof « a dû dire ». En cas de doute sur ce qui
+est au programme, l'ajout va dans le récapitulatif avec une réserve explicite.
+
+## Le programme de l'UE est la liste de contrôle
+
+C'est ce qui permet de repérer les trous **objectivement**, au lieu de deviner :
+chaque page de cycle contient le programme officiel de l'UE.
+[[Cycle 3 - Gestion et debats]] liste pour l'UE 12A : l'entreprise (définition,
+finalités, classification), les formes juridiques, les fonctions, les parties
+prenantes, la création de valeur, les cycles d'exploitation et
+d'investissement, les notions de performance, la RSE.
+
+**Procédure** : confronter les sections de la fiche à cette liste. Un point du
+programme absent des notes est un trou — donc soit un complément marqué ➕, soit
+une ligne dans `À vérifier` quand le compléter demanderait d'inventer.
 
 **Interdit** :
 - corriger en silence un chiffre, une date, un nom d'auteur, une formule ;

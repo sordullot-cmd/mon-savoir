@@ -1,6 +1,6 @@
 ---
 name: eco
-description: Transforme les pages « eco gestion » du vault (Licence 1 Économie & Gestion, Angers) en fiches avec lesquelles on révise vraiment, pour réussir les examens de fin d'année. Intègre les notes d'amphi brutes déposées dans `eco gestion/_brut/` (fautes, structure en vrac, phrases interrompues) en fiches complètes, et améliore les fiches existantes. Chaque fiche est bâtie sur ce qui fait retenir : questions à réponses repliées pour se tester, tableaux de paires confusables, méthodes pas à pas, cartes Anki extraites, et les trous du cours signalés au lieu d'être comblés. Corrige la langue et le markdown, répare liens et ancres. Ne touche jamais un chiffre, une formule, un nom d'auteur : ce qui cloche est signalé, pas corrigé. Périmètre = toute page taguée `L1-eco-gestion`, dans `eco gestion/`, ou liant `[[00 - Plan L1 Angers]]`. Tourne aussi seul toutes les heures (LaunchAgent `com.sacha.eco-fiches`) : une page par passage, un commit par passage. À utiliser quand Sacha dit « corrige / synthétise / améliore mes cours d'éco », « fais-moi les fiches de révision », « mets mes notes d'amphi au propre », ou quand le passage horaire se déclenche.
+description: Transforme les pages « eco gestion » du vault (Licence 1 Économie & Gestion, Angers) en fiches avec lesquelles on révise vraiment, pour réussir les examens de fin d'année. Intègre les notes d'amphi brutes déposées dans `eco gestion/_brut/` (fautes, structure en vrac, phrases interrompues) en fiches complètes, et améliore les fiches existantes. Chaque fiche est bâtie sur ce qui fait retenir : questions à réponses repliées pour se tester, tableaux de paires confusables, méthodes pas à pas, cartes Anki extraites, les informations capitales manquantes ajoutées et tracées (marqueur ➕), et les trous restants signalés. Corrige la langue et le markdown, répare liens et ancres. Ne touche jamais un chiffre, une formule, un nom d'auteur : ce qui cloche est signalé, pas corrigé. Périmètre = toute page taguée `L1-eco-gestion`, dans `eco gestion/`, ou liant `[[00 - Plan L1 Angers]]`. Tourne aussi seul toutes les heures (LaunchAgent `com.sacha.eco-fiches`) : une page par passage, un commit par passage. À utiliser quand Sacha dit « corrige / synthétise / améliore mes cours d'éco », « fais-moi les fiches de révision », « mets mes notes d'amphi au propre », ou quand le passage horaire se déclenche.
 ---
 
 # /eco — Des cours d'éco gestion avec lesquels on révise
@@ -74,7 +74,8 @@ Quand `etat.py` dit `rien`, le passage s'arrête là — une ligne de récap suf
 | Transformer deux paragraphes opposés en tableau de contraste | Modifier une valeur dans un tableau, remplir une cellule de suivi |
 | Ajouter les blocs qui servent à réviser (`L'essentiel`, `À ne pas confondre`, `Méthode`, `Cartes à créer`, `Contrôle`) | Remplir un de ces blocs sans matière dans la page — un bloc vide est du décor |
 | Dérouler un exemple **calculable depuis une formule de la page** | Inventer un exemple, un chiffre, un coefficient, une date de partiel |
-| Ajouter une notion manquante **dans un `> [!info]- Complément (absent de tes notes)`**, replié | Ajouter du cours sans ce marquage : en examen c'est le cours du prof qui est évalué |
+| **Combler un trou du cours** : ajouter l'information capitale manquante à sa place, marquée `➕`, comptée dans `ajouts:` et reprise dans le récapitulatif de fin | Ajouter du cours **sans** cette trace : il réviserait comme parole du prof une information qui ne l'est pas |
+| S'appuyer sur le programme officiel de l'UE (dans la page de cycle) pour repérer les trous | Reconstituer « ce que le prof a dû dire », ou ajouter une opinion plutôt qu'un savoir standard |
 | Signaler un trou ou une incohérence dans `> [!question] À vérifier` | Corriger un chiffre, une date, un nom d'auteur, une formule |
 | Garder ses exemples et ses remarques (`ex Decathlon`, `licornes : Doctolib`) | Supprimer un exemple au nom de la concision |
 | Laisser les tableaux valides tels quels, alignement compris | Reformater un tableau qui marche (`verifie.py` le refuse) |
@@ -83,7 +84,8 @@ Quand `etat.py` dit `rien`, le passage s'arrête là — une ligne de récap suf
 Test de relecture : **est-ce qu'il peut se tester avec cette page, seul, sans
 son cahier ?** Si non, la fiche n'est pas finie. Et : **est-ce qu'il peut
 distinguer ce qui vient de son amphi de ce que j'ai ajouté ?** Si non, c'est un
-défaut grave — tout ajout de contenu est replié et marqué.
+défaut grave — tout ajout porte son `➕`, son compteur et sa ligne de
+récapitulatif.
 
 ## Procédure d'un passage
 
@@ -103,6 +105,7 @@ défaut grave — tout ajout de contenu est replié et marqué.
    ```
    python3 .claude/skills/eco/verifie.py <avant> "<page>"                 # fiche
    python3 .claude/skills/eco/verifie.py "eco gestion/_brut/x.md" "<fiche>" --integration
+   python3 .claude/skills/eco/verifie.py <avant> "<page>" --complement    # si on a comblé des trous
    ```
    **ERREUR** → restaurer depuis le snapshot, ne pas acter, le dire. **Alerte**
    → la justifier dans le récap ou revenir en arrière.
@@ -130,9 +133,15 @@ défaut grave — tout ajout de contenu est replié et marqué.
 - **Rendre révisable** — les blocs qui servent les six leviers : `L'essentiel`
   (5 lignes), `À ne pas confondre`, `Méthode`, `Cartes à créer`, `Contrôle` avec
   réponses repliées `> [!question]-`. Uniquement là où il y a matière.
-- **Compléter, marqué** — une notion indispensable et absente part dans un
-  `> [!info]- Complément (absent de tes notes)`, replié, jamais fondue dans le
-  cours. Toujours annoncé dans le récap.
+- **Compléter les trous** — autorisé et attendu depuis le 7 septembre 2026 :
+  « n'hésite pas à rajouter des informations capitales si tu vois qu'elles
+  manquent […] je n'ai pas eu le temps de noter ». L'information va **à sa place
+  dans le cours**, pas dans un encadré caché — une notion qu'on ne voit pas ne se
+  révise pas. Trois pièces obligatoires : le marqueur **`➕`** en fin de ligne,
+  le compteur **`ajouts: n`** au frontmatter, et le bloc
+  **`> [!info] Ce que j'ai complété (n)`** en fin de fiche qui liste chaque ajout
+  avec sa section. La **liste de contrôle des trous, c'est le programme de l'UE**
+  écrit dans la page de cycle. Détail et frontière : `references/apprendre.md`.
 - **Relier** — vérifier que la fiche pointe vers son hub, son cycle, sa série
   d'exercices, sa fiche Anki, et que ces liens résolvent.
 - **Laisser tel quel** — un choix à part entière pour une page déjà finie. On
@@ -217,9 +226,10 @@ absents : il ne peut rien écraser. Trois règles qui en découlent :
   snapshot, et on le dit au lieu de forcer.
 - **Ne rien remplir à sa place** : grilles d'essais, scores, cases `- [ ]`,
   `statut:`. `verifie.py` refuse une cellule de suivi remplie.
-- **Tout ajout de contenu est replié et marqué.** Un complément fondu dans le
-  cours est un défaut grave : il réviserait quelque chose que son prof n'a pas
-  dit.
+- **Tout ajout de contenu est marqué `➕`, compté et récapitulé.** Un complément
+  fondu dans le cours sans trace est un défaut grave : il réviserait comme parole
+  du prof une information qui ne l'est pas. `verifie.py --complement` refuse le
+  passage si le compte ne tombe pas juste.
 - **Ne pas se battre contre lui** : si une amélioration est défaite au passage
   suivant, c'est qu'il n'en voulait pas — ne pas la réappliquer, le noter.
 - **Ne pas toucher au reste du vault** : ni `notes/`, ni les fiches d'autres
