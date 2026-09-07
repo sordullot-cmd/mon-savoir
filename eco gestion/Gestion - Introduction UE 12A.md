@@ -8,6 +8,11 @@ source: _brut/gestion.md
 notion: Introduction à la gestion — organisations, stratégie, classements, contextes
 ue: 12A
 statut: à faire
+coef: 3
+periode: 1
+revu: 2026-09-07
+a_verifier: 9
+cartes: 24
 ---
 
 # 💼 Cours — Introduction à la gestion (UE 12A)

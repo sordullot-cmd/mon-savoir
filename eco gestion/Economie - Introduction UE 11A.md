@@ -7,6 +7,11 @@ source: _brut/introduction a l'economie.md
 notion: Introduction à l'économie — objectifs du cours
 ue: 11A
 statut: à faire
+coef: 3
+periode: 1
+revu: 2026-09-07
+a_verifier: 3
+cartes: 0
 ---
 
 # 📘 Cours — Introduction à l'économie (UE 11A)

@@ -7,6 +7,9 @@ tags:
   - reference
 nb_cartes: 168
 statut: à créer
+revu: 2026-09-07
+a_verifier: 3
+cartes: 0
 ---
 
 # 🃏 Anki — Formules et définitions, cycles 0 et 1

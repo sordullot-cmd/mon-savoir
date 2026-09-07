@@ -1,0 +1,273 @@
+/* ===========================================================
+   lecture — confort de lecture pour tout le vault
+   Fiches de cours, notes, index : typo, callouts, tableaux.
+
+   N'utilise QUE les variables natives d'Obsidian (--text-normal,
+   --background-*, --color-*) : le snippet suit donc le thème,
+   clair comme sombre, sans redéfinir une seule couleur en dur.
+
+   Ne touche pas aux notes `cssclasses: [moodboard-wall]`, qui
+   imposent leur pleine largeur avec !important.
+   =========================================================== */
+
+/* ----------------------------------------------- confort de base */
+
+.markdown-preview-view,
+.markdown-source-view.mod-cm6 .cm-content {
+  --file-line-width: 46rem;      /* ~72 caractères : la longueur de ligne qui se lit sans effort */
+  font-size: 1.02em;
+  line-height: 1.72;
+}
+
+/* Interlignage plus serré dans les listes que dans les paragraphes :
+   une liste aérée à 1.72 se lit comme des éléments sans lien entre eux. */
+.markdown-preview-view li,
+.markdown-source-view.mod-cm6 .HyperMD-list-line {
+  line-height: 1.6;
+}
+
+.markdown-preview-view p,
+.markdown-preview-view ul,
+.markdown-preview-view ol {
+  margin-block: 0.75em;
+}
+
+.markdown-preview-view li + li {
+  margin-top: 0.2em;
+}
+
+/* ----------------------------------------------- titres */
+
+/* Un titre a besoin d'air AU-DESSUS, pas en dessous : c'est ce qui
+   fait qu'on voit où commence une section en scrollant vite. */
+.markdown-preview-view h1,
+.markdown-preview-view h2,
+.markdown-preview-view h3,
+.markdown-preview-view h4 {
+  line-height: 1.25;
+  letter-spacing: -0.011em;
+}
+
+.markdown-preview-view h1 { font-size: 1.85em; margin-block: 1.4em 0.5em; }
+.markdown-preview-view h2 { font-size: 1.42em; margin-block: 2em 0.45em; }
+.markdown-preview-view h3 { font-size: 1.16em; margin-block: 1.5em 0.35em; }
+.markdown-preview-view h4 { font-size: 1.02em; margin-block: 1.25em 0.3em;
+  text-transform: uppercase; letter-spacing: 0.06em; color: var(--text-muted); }
+
+/* Un filet sous les h2 : le repère de section le plus lisible qui existe. */
+.markdown-preview-view h2 {
+  padding-bottom: 0.28em;
+  border-bottom: 1px solid var(--background-modifier-border);
+}
+
+/* Le premier titre d'une note ne décolle pas du haut de la page. */
+.markdown-preview-view > .mod-header + h1,
+.markdown-preview-view h1:first-child,
+.markdown-preview-view h2:first-child {
+  margin-top: 0.2em;
+}
+
+/* ----------------------------------------------- callouts */
+
+/* Les fiches de cours reposent entièrement sur les callouts :
+   L'essentiel, À ne pas confondre, Contrôle, À vérifier. Ils doivent
+   se distinguer d'un coup d'œil, sans lire le titre. */
+.markdown-preview-view .callout {
+  --callout-padding: 0.9em 1.1em;
+  border: 1px solid var(--background-modifier-border);
+  border-left-width: 3px;
+  border-radius: 8px;
+  margin-block: 1.15em;
+  mix-blend-mode: normal;
+}
+
+.markdown-preview-view .callout-title {
+  font-size: 0.97em;
+  letter-spacing: 0.005em;
+  padding-bottom: 0.1em;
+}
+
+.markdown-preview-view .callout-content > :first-child { margin-top: 0.35em; }
+.markdown-preview-view .callout-content > :last-child { margin-bottom: 0; }
+
+/* Un callout replié doit se voir comme cliquable : c'est tout le
+   mécanisme du bloc Contrôle (question visible, réponse cachée). */
+.markdown-preview-view .callout.is-collapsed .callout-title {
+  padding-bottom: 0;
+}
+
+.markdown-preview-view .callout[data-callout="question"] .callout-title {
+  cursor: pointer;
+}
+
+.markdown-preview-view .callout[data-callout="question"].is-collapsed:hover {
+  border-left-color: var(--color-accent);
+  background: var(--background-modifier-hover);
+}
+
+/* Le complément ajouté hors notes de cours : volontairement effacé,
+   pour ne jamais se confondre avec le cours du prof. */
+.markdown-preview-view .callout[data-callout="info"] {
+  opacity: 0.92;
+}
+
+.markdown-preview-view .callout[data-callout="info"] .callout-title {
+  color: var(--text-muted);
+  font-weight: 500;
+}
+
+/* ----------------------------------------------- tableaux */
+
+/* Les fiches comparent beaucoup (paires à ne pas confondre, seuils
+   INSEE, grilles de suivi). Un tableau doit rester lisible même large,
+   et ne jamais pousser la page en scroll horizontal. */
+.markdown-preview-view .table-wrapper,
+.markdown-preview-view .markdown-rendered > table {
+  overflow-x: auto;
+  max-width: 100%;
+}
+
+.markdown-preview-view table {
+  font-size: 0.95em;
+  line-height: 1.5;
+  border-collapse: collapse;
+}
+
+.markdown-preview-view th,
+.markdown-preview-view td {
+  padding: 0.5em 0.75em;
+  vertical-align: top;
+}
+
+.markdown-preview-view thead th {
+  position: sticky;
+  top: 0;
+  background: var(--background-primary);
+  text-align: left;
+  font-size: 0.86em;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--text-muted);
+  border-bottom: 1.5px solid var(--background-modifier-border);
+}
+
+/* Zébrure très légère : elle sert à suivre une ligne longue, pas à décorer. */
+.markdown-preview-view tbody tr:nth-child(even) {
+  background: var(--background-modifier-hover);
+}
+
+/* La dernière ligne d'un tableau de paires porte souvent « ce qui les
+   sépare » sur toute la largeur : on la détache du reste. */
+.markdown-preview-view tbody tr:last-child td:only-child,
+.markdown-preview-view tbody tr td[colspan] {
+  border-top: 1.5px solid var(--background-modifier-border);
+  color: var(--text-normal);
+}
+
+/* ----------------------------------------------- détails */
+
+.markdown-preview-view code {
+  font-size: 0.9em;
+  padding: 0.1em 0.35em;
+  border-radius: 4px;
+  background: var(--background-modifier-hover);
+}
+
+.markdown-preview-view pre {
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 8px;
+  line-height: 1.55;
+}
+
+.markdown-preview-view blockquote {
+  border-left: 3px solid var(--background-modifier-border);
+  padding-left: 1em;
+  color: var(--text-muted);
+  font-style: normal;
+}
+
+.markdown-preview-view hr {
+  margin-block: 2.2em;
+  border-color: var(--background-modifier-border);
+}
+
+/* Une tâche cochée s'efface : ce qui reste à faire doit ressortir. */
+.markdown-preview-view .task-list-item-checkbox:checked + *,
+.markdown-preview-view .task-list-item.is-checked {
+  color: var(--text-faint);
+  text-decoration-color: var(--text-faint);
+}
+
+/* Les liens internes restent du texte : soulignés discrètement, pas
+   colorés en bloc — une fiche qui lie douze pages ne doit pas clignoter. */
+.markdown-preview-view a.internal-link {
+  text-decoration: underline;
+  text-decoration-color: var(--background-modifier-border);
+  text-underline-offset: 0.18em;
+  color: var(--text-normal);
+}
+
+.markdown-preview-view a.internal-link:hover {
+  text-decoration-color: var(--color-accent);
+  color: var(--color-accent);
+}
+
+/* Lien vers une note qui n'existe pas encore : visible, sans crier. */
+.markdown-preview-view a.internal-link.is-unresolved {
+  color: var(--text-muted);
+  text-decoration-style: dotted;
+}
+
+/* ----------------------------------------------- tables dataview */
+
+/* La note d'accueil est un tableau de bord : lignes compactes,
+   en-têtes discrets, pas de zébrure qui gêne la lecture en colonnes. */
+.markdown-preview-view .dataview.table-view-table {
+  font-size: 0.92em;
+}
+
+.markdown-preview-view .dataview.table-view-table td,
+.markdown-preview-view .dataview.table-view-table th {
+  padding: 0.4em 0.7em;
+}
+
+/* ----------------------------------------------- mobile */
+
+@media (max-width: 750px) {
+  .markdown-preview-view,
+  .markdown-source-view.mod-cm6 .cm-content {
+    font-size: 1.06em;          /* un cran plus grand : on lit plus loin de l'écran */
+    line-height: 1.68;
+  }
+
+  .markdown-preview-view h1 { font-size: 1.6em; }
+  .markdown-preview-view h2 { font-size: 1.3em; }
+
+  .markdown-preview-view .callout {
+    --callout-padding: 0.8em 0.9em;
+  }
+
+  .markdown-preview-view table {
+    font-size: 0.9em;
+  }
+
+  /* Un tableau large scrolle dans sa boîte, la page ne bouge pas. */
+  .markdown-preview-view .table-wrapper {
+    -webkit-overflow-scrolling: touch;
+  }
+}
+
+/* ----------------------------------------------- impression */
+
+/* Une fiche imprimée sert à réviser sur papier : les réponses des
+   callouts repliés doivent apparaître, sinon la feuille est vide. */
+@media print {
+  .markdown-preview-view .callout.is-collapsed .callout-content {
+    display: block !important;
+  }
+
+  .markdown-preview-view {
+    --file-line-width: 100%;
+    font-size: 10.5pt;
+  }
+}

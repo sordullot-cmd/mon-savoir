@@ -9,6 +9,9 @@ ects: 60
 coefficients: 62
 heures_travail_perso: 432
 heures_cours: 498
+revu: 2026-09-07
+a_verifier: 2
+cartes: 0
 ---
 
 # 🎓 Plan L1 Économie & Gestion — Université d'Angers

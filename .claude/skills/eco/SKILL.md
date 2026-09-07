@@ -181,6 +181,30 @@ Deux journaux et un verrou, tous git-ignorés : `passages.log`, `launchd.log`,
 `.verrou/` (un dossier, créé par `mkdir` atomique — deux passages ne peuvent pas
 se chevaucher ; un verrou de plus d'une heure est cassé automatiquement).
 
+## Quand une page disparaît du disque
+
+Vécu le 7 septembre 2026 : **les 22 fichiers de `eco gestion/` se sont volatilisés
+d'un coup** en pleine session (Obsidian ouvert, plugin `supabase-vault-sync`
+actif sur **tout** le vault — `vaultId: brain2`, `syncOnSave: true`, soft delete
+30 jours, l'app faisant autorité). Même scénario que le 18 août sur les notes de
+la racine. Rien n'était perdu : tout était commité.
+
+```
+python3 .claude/skills/eco/restaure.py             # dit ce qui manque
+python3 .claude/skills/eco/restaure.py --applique   # les rend depuis HEAD
+```
+
+`restaure.py` ne réécrit que les fichiers que git voit supprimés **et** réellement
+absents : il ne peut rien écraser. Trois règles qui en découlent :
+
+- **commiter chaque passage, sans exception** — c'est ce qui rend la perte
+  réparable, et c'est la seule raison pour laquelle l'incident n'a rien coûté ;
+- **avant d'écrire, vérifier que la page est là** (`ls`), pas se fier à une
+  lecture faite plus tôt dans la session ;
+- **après un passage, si la page a disparu**, ne pas la réécrire de mémoire :
+  `restaure.py --applique`, puis le dire — si ça recommence aussitôt, la synchro
+  est en cause et il faut l'arrêter ou exclure `eco gestion/` avant de continuer.
+
 ## Garde-fous
 
 - **Jamais `rm`**, jamais de renommage de fichier, jamais de suppression d'une

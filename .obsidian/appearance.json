@@ -1,6 +1,7 @@
 {
   "enabledCssSnippets": [
-    "moodboard-wall"
+    "moodboard-wall",
+    "lecture"
   ],
   "theme": "moonstone"
 }
