@@ -13,8 +13,10 @@ heures_cours: 498
 
 # 🎓 Plan L1 Économie & Gestion — Université d'Angers
 
-> [!abstract] En une phrase
-> 36 semaines, 432 h de travail personnel, 62 coefficients, **deux socles non compensables entre eux**, et 39 % de l'année qui se joue en contrôle continu non rattrapable.
+> [!abstract] L'essentiel
+> - 36 semaines, 432 h de travail personnel, 62 coefficients, **deux socles non compensables entre eux**, et 39 % de l'année qui se joue en contrôle continu non rattrapable.
+> - Cinq cycles, deux poids lourds : moteur économique (18 coef) et gestion & débats (17 coef).
+> - Point de rupture en période 4 : 25,5 coef, CT **et** CC sur les mêmes matières.
 
 **Source** : maquette officielle `26-27_Maquette_L1_EG.xlsx`, parcours standard, CFVU de juillet 2025.
 
@@ -22,13 +24,13 @@ heures_cours: 498
 
 ## 🗺️ Les cycles
 
-| Cycle             | Semaines  | Heures | Coef   | Note                            |
-| ----------------- | --------- | ------ | ------ | ------------------------------- |
-| Fondations        | S1 → S4   | 48 h   | 4      | [[Cycle 0 - Fondations]]        |
-| Moteur économique | S5 → S13  | 108 h  | **18** | [[Cycle 1 - Moteur economique]] |
-| Les chiffres      | S14 → S22 | 108 h  | 9      | [[Cycle 2 - Les chiffres]]      |
-| Gestion & débats  | S23 → S31 | 108 h  | **17** | [[Cycle 3 - Gestion et debats]] |
-| Socle transversal | continu   | 60 h   | 16     | [[Cycle 4 - Socle transversal]] |
+| Cycle | Semaines | Heures | Coef | Note |
+|---|---|---|---|---|
+| Fondations | S1 → S4 | 48 h | 4 | [[Cycle 0 - Fondations]] |
+| Moteur économique | S5 → S13 | 108 h | **18** | [[Cycle 1 - Moteur economique]] |
+| Les chiffres | S14 → S22 | 108 h | 9 | [[Cycle 2 - Les chiffres]] |
+| Gestion & débats | S23 → S31 | 108 h | **17** | [[Cycle 3 - Gestion et debats]] |
+| Socle transversal | continu | 60 h | 16 | [[Cycle 4 - Socle transversal]] |
 
 **Notes de support** : [[MCC - Tableau de bord]] · [[Ressources - Bibliotheque de liens]]
 
@@ -106,13 +108,13 @@ heures_cours: 498
 
 ## 🃏 Le plan Anki
 
-| Sous-deck              | Cartes cibles | Alimenté en    |
-| ---------------------- | ------------- | -------------- |
-| `Définitions`          | ~150          | Cycles 1 et 3  |
-| `Formules`             | ~80           | Cycles 0, 1, 2 |
-| `Auteurs`              | ~90           | Cycle 3        |
-| `Écritures comptables` | ~60           | Cycle 2        |
-| **Total**              | **~380**      | 15 min/jour    |
+| Sous-deck | Cartes cibles | Alimenté en |
+|---|---|---|
+| `Définitions` | ~150 | Cycles 1 et 3 |
+| `Formules` | ~80 | Cycles 0, 1, 2 |
+| `Auteurs` | ~90 | Cycle 3 |
+| `Écritures comptables` | ~60 | Cycle 2 |
+| **Total** | **~380** | 15 min/jour |
 
 > [!warning] Règle absolue
 > **Jamais de raisonnement en carte Anki.** Les raisonnements s'entraînent par exercices. Anki ne stocke que définitions, formules, dates et procédures.
@@ -138,3 +140,16 @@ heures_cours: 498
 - [ ] La **nature précise de chaque CC** par UE (devoir, exposé, QCM, assiduité)
 - [ ] Les **annales** des trois dernières années
 - [ ] Inscription au **dispositif DARRE** (tutorat + accompagnement méthodologique, gratuit, toute l'année)
+
+---
+
+## ✅ Contrôle
+
+1. Combien de coef sur 62 en CC, ce qu'ils deviennent en session 2, et pourquoi les socles ne se compensent pas. → [[#🔴 Les deux règles qui décident de ton année]]
+2. Les quatre UE de la période 1. → [[#📅 Le calendrier des périodes]]
+3. Les cinq blocs de la semaine et leur durée. → [[#🧭 L'architecture de ta semaine (12 h)]]
+4. Ce qu'on ne met jamais en carte Anki. → [[#🃏 Le plan Anki]]
+
+> [!question] À vérifier
+> - Le tableau des cycles totalise 64 coef contre 62 au frontmatter et dans la Règle 2 : `18C Méthodologie` (coef 2) est comptée dans [[Cycle 0 - Fondations]] et dans [[Cycle 4 - Socle transversal]].
+> - Le tableau de la semaine totalise 12 h 45, le titre annonce 12 h — et 432 h sur 36 semaines font 12 h pile.
