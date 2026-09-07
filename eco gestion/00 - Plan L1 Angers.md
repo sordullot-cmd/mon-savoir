@@ -24,13 +24,13 @@ heures_cours: 498
 
 ## 🗺️ Les cycles
 
-| Cycle | Semaines | Heures | Coef | Note |
+| Cycle             | Semaines  | Heures | Coef   | Note                            |
 |---|---|---|---|---|
-| Fondations | S1 → S4 | 48 h | 4 | [[Cycle 0 - Fondations]] |
-| Moteur économique | S5 → S13 | 108 h | **18** | [[Cycle 1 - Moteur economique]] |
-| Les chiffres | S14 → S22 | 108 h | 9 | [[Cycle 2 - Les chiffres]] |
-| Gestion & débats | S23 → S31 | 108 h | **17** | [[Cycle 3 - Gestion et debats]] |
-| Socle transversal | continu | 60 h | 16 | [[Cycle 4 - Socle transversal]] |
+| Fondations        | S1 → S4   | 48 h   | 4      | [[Cycle 0 - Fondations]]        |
+| Moteur économique | S5 → S13  | 108 h  | **18** | [[Cycle 1 - Moteur economique]] |
+| Les chiffres      | S14 → S22 | 108 h  | 9      | [[Cycle 2 - Les chiffres]]      |
+| Gestion & débats  | S23 → S31 | 108 h  | **17** | [[Cycle 3 - Gestion et debats]] |
+| Socle transversal | continu   | 60 h   | 16     | [[Cycle 4 - Socle transversal]] |
 
 **Notes de support** : [[MCC - Tableau de bord]] · [[Ressources - Bibliotheque de liens]]
 
@@ -108,13 +108,13 @@ heures_cours: 498
 
 ## 🃏 Le plan Anki
 
-| Sous-deck | Cartes cibles | Alimenté en |
+| Sous-deck              | Cartes cibles | Alimenté en    |
 |---|---|---|
-| `Définitions` | ~150 | Cycles 1 et 3 |
-| `Formules` | ~80 | Cycles 0, 1, 2 |
-| `Auteurs` | ~90 | Cycle 3 |
-| `Écritures comptables` | ~60 | Cycle 2 |
-| **Total** | **~380** | 15 min/jour |
+| `Définitions`          | ~150          | Cycles 1 et 3  |
+| `Formules`             | ~80           | Cycles 0, 1, 2 |
+| `Auteurs`              | ~90           | Cycle 3        |
+| `Écritures comptables` | ~60           | Cycle 2        |
+| **Total**              | **~380**      | 15 min/jour    |
 
 > [!warning] Règle absolue
 > **Jamais de raisonnement en carte Anki.** Les raisonnements s'entraînent par exercices. Anki ne stocke que définitions, formules, dates et procédures.

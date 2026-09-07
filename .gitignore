@@ -10,3 +10,10 @@ __pycache__/
 
 # Copies laissees par les conflits de synchro : du bruit, pas du contenu.
 notes/conflicts/
+
+# Journaux et snapshots des passages horaires de /eco : machine, pas contenu.
+# (etat.json est suivi, lui : c'est la memoire des passages.)
+.claude/skills/eco/passages.log
+.claude/skills/eco/launchd.log
+.claude/skills/eco/scratch/
+.claude/skills/eco/.verrou/

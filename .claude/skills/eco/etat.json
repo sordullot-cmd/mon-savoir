@@ -1,10 +1,10 @@
 {
  "pages": {
   "eco gestion/00 - Plan L1 Angers.md": {
-   "fait": "essentiel passe en 3 lignes, bloc Controle ajoute (4 questions ancrees), A verifier sur le total 64/62 coef et les 12 h 45 de la semaine",
-   "hash": "3d150d737c2a",
+   "fait": "essentiel, bloc Controle, incoherences signalees ; alignement des tableaux restaure",
+   "hash": "b7c2efb677f9",
    "mots": 1431,
-   "passage": "2026-09-07 19:28",
+   "passage": "2026-09-07 19:30",
    "statut": null
   }
  }
