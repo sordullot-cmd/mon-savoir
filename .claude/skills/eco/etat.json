@@ -3,7 +3,7 @@
   "eco gestion/_brut/gestion.md": {
    "fiche": "eco gestion/Gestion - Introduction UE 12A.md",
    "hash": "191100950174",
-   "integre": "2026-09-07 23:56"
+   "integre": "2026-09-08 00:00"
   },
   "eco gestion/_brut/introduction a l'economie.md": {
    "fiche": "eco gestion/Economie - Introduction UE 11A.md",
@@ -35,10 +35,10 @@
    "statut": "à faire"
   },
   "eco gestion/Gestion - Introduction UE 12A.md": {
-   "fait": "13 complements traces (fonctions, parties prenantes, valeur ajoutee, performance, cycles, formes juridiques, RSE, seuils ETI) + 12 cartes + 5 controles",
-   "hash": "2f59d0d4415f",
-   "mots": 5451,
-   "passage": "2026-09-07 23:56",
+   "fait": "cellule ETI : la contradiction 7 442 / 7400 devient visible dans le tableau",
+   "hash": "06fb866e1fde",
+   "mots": 5458,
+   "passage": "2026-09-08 00:00",
    "source": "_brut/gestion.md",
    "statut": "à faire"
   }

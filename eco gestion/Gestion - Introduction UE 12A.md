@@ -235,7 +235,7 @@ Trois critères : la **taille**, le **secteur d'activité**, le **statut juridiq
 |---|---|---|---|
 | **Micro-entreprise** | < 10 salariés et 2 millions de CA | 96 % | 17 % = 2 millions d'emplois |
 | **PME** | < 250 salariés et < 50 millions de CA | 3,4 % = 174 614 | 29 % |
-| **ETI** | 5 000 salariés et 15000 M | 0,14 % = 7 442 (7400 entreprises) | 26 % |
+| **ETI** | 5 000 salariés et 15000 M | 0,14 % = 7 442 — **ou 7400** ⚠️ deux valeurs dans tes notes | 26 % |
 | **GE** | > 5 000 salariés ou CA | | |
 
 ### b) Selon le secteur d'activité
