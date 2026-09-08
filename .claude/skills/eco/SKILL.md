@@ -112,12 +112,29 @@ Trois règles qui en découlent :
 jamais dans une phrase explicative : on dit « le plus vert en tête de ligne »,
 sinon `verifie.py` compte des marqueurs qui n'en sont pas.
 
-## Les schémas du prof, redessinés
+## Les schémas se redessinent — toujours, sans le demander
 
-Un chapitre de gestion tient autant dans ses figures que dans son texte : les
-trois cercles du développement durable, le cycle de produit et son pilotage
-transversal, les trois familles d'organisations. Une fiche qui les décrit en
-phrases ne prépare pas à une question qui demande de **refaire le schéma**.
+**Règle posée par Sacha le 8 septembre 2026 : « redessine tout le temps les
+schémas ».** Ce n'est pas une option qu'on lui propose en fin de passage, c'est
+une **étape de la mise en fiche**, au même titre que le bloc Contrôle.
+
+Un chapitre tient autant dans ses figures que dans son texte : les trois cercles
+du développement durable, le cycle de produit et son pilotage transversal, la
+chaîne rareté → contrainte → choix, les files des caisses de supermarché. Une
+fiche qui les décrit en phrases ne prépare pas à une question qui demande de
+**refaire le schéma**.
+
+**Ce qui devient un schéma** — au-delà des figures déjà dessinées dans la source :
+
+- toute **chaîne de flèches** du cours (`ressources rares → contrainte → choix`) ;
+- toute **opposition à deux ou trois colonnes** qui a une géométrie (l'axe
+  planifiée ↔ marché, micro contre macro) ;
+- tout **dessin du cahier ou de la slide**, même griffonné : les caisses de
+  supermarché de la fiche d'économie viennent d'un croquis au crayon ;
+- tout **circuit** entre agents (modèle 1 contre modèle 2).
+
+Six schémas pour le chapitre 1 de gestion, six pour le chapitre 1 d'économie :
+c'est l'ordre de grandeur normal d'un chapitre.
 
 - Ils vivent dans **`eco gestion/schemas/`**, un **SVG par figure**, nommés
   `<matière>-<sujet>.svg` (`gestion-developpement-durable.svg`).
@@ -336,6 +353,14 @@ absents : il ne peut rien écraser. Trois règles qui en découlent :
   suivant, c'est qu'il n'en voulait pas — ne pas la réappliquer, le noter.
 - **Ne pas toucher au reste du vault** : ni `notes/`, ni les fiches d'autres
   domaines, même si une page d'éco les lie.
+- **Quand des pages disparaissent, on nettoie les liens qui les visaient.** Une
+  page supprimée par Sacha laisse des `[[liens]]` morts dans celles qui restent :
+  on **délie** en gardant le texte (`[[Cycle 3 - Gestion et debats]]` →
+  `**Cycle 3 - Gestion et debats**`), on ne supprime pas la phrase. `verifie.py`
+  distingue désormais un lien perdu vers une page **existante** (erreur : on a
+  cassé un chemin) d'un lien mort **délié** (alerte : c'est le ménage).
+  Attention : ce ménage ne touche pas les **embeds de schémas**
+  (`![[…​.svg]]`) — une pièce jointe n'est pas une page supprimée.
 - **Le caractère ➕ ne s'écrit que sur une ligne réellement ajoutée.** Dans une
   phrase qui parle des ajouts, écrire « le plus vert », jamais le signe :
   `verifie.py` compte les occurrences et refuse le passage si le compte ne tombe

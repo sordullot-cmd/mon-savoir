@@ -21,7 +21,7 @@ ajouts: 24
 # 💼 Cours — Introduction à la gestion (UE 12A)
 
 **Coef 3 · CT écrit 1 h 30 · période 1 ⚠️ · 18 h de CM, pas de TD**
-🏠 [[00 - Plan L1 Angers]] · [[Cycle 3 - Gestion et debats]] · 🃏 [[Anki - Formules et definitions C0-C1]]
+🏠 [[00 - Plan L1 Angers]] · **Cycle 3 - Gestion et debats** · 🃏 **Anki - Formules et definitions C0-C1**
 📓 Notes d'amphi d'origine : `_brut/gestion.md` · Moodle : clé n 31538 / clé : s9adnt
 
 📄 Slides du cours : `IG_Seance1-2_MAJ__2026.pdf` — séances 1 et 2, chapitre 1 · 👤 **Carole Vigeant** · carole.vigeant@univ-angers.fr · bureau 206
@@ -31,7 +31,7 @@ ajouts: 24
 > Seul ce qui **ne vient pas du cours** est marqué : un **plus vert** en tête de ligne signale ce que j'ai ajouté depuis le programme de l'UE, à confirmer auprès d'elle. Le frontmatter en donne le compte (`ajouts:`).
 
 > [!danger] Ce qui est évalué, et donc comment réviser
-> D'après [[Cycle 3 - Gestion et debats]], l'épreuve est faite de **définitions et de restitution structurée**, pas de dissertation. Deux conséquences : le **vocabulaire passe avant tout** (bloc `Cartes à créer`), et les **paires voisines** sont là où se perdent les points (bloc `À ne pas confondre`).
+> D'après **Cycle 3 - Gestion et debats**, l'épreuve est faite de **définitions et de restitution structurée**, pas de dissertation. Deux conséquences : le **vocabulaire passe avant tout** (bloc `Cartes à créer`), et les **paires voisines** sont là où se perdent les points (bloc `À ne pas confondre`).
 > Coef 3, et ça tombe en **période 1** : c'est l'une des premières notes de l'année.
 
 > **Le syllabus tranche sur l'épreuve** : évaluation finale comprenant un **QCM**, des **questions de cours** et un **sujet de réflexion**. Trois formats, trois préparations : le QCM sanctionne le vocabulaire exact et les chiffres, les questions de cours la restitution structurée, le sujet de réflexion l'argumentation. En séance, des **QCM Wooclap** servent d'entraînement — ce sont des questions d'examen déguisées, prends-les au sérieux.
@@ -537,7 +537,7 @@ L'imposition (**IR ou IS**) découle ensuite du statut retenu : entreprise indiv
 
 ## 🃏 Cartes à créer
 
-Format d'import de [[Anki - Formules et definitions C0-C1]] : `Recto ; Verso ; Tags`.
+Format d'import de **Anki - Formules et definitions C0-C1** : `Recto ; Verso ; Tags`.
 Des définitions et des distinctions uniquement — jamais un raisonnement.
 
 ```
@@ -819,7 +819,7 @@ Réponds à voix haute, puis ouvre la réponse. Une question n'est acquise qu'ap
 > **Les slides de Carole Vigeant sont fondues dans le cours** depuis le 8 septembre : elles ne sont pas signalées ligne à ligne, parce que c'est le cours. Ce qui a changé par rapport à tes notes est listé dans « Ce que les slides ont corrigé », juste au-dessus, et **six schémas** ont été redessinés dans `schemas/` — les figures du prof, mêmes éléments, mêmes mots.
 >
 > Seuls les compléments ci-dessous restent marqués, parce qu'ils ne viennent d'aucune source du cours. Les slides en ont depuis confirmé une partie (la RSE, les seuils de taille) et nuancé une autre : le choix d'un statut se pose « seul ou associé ? », là où tes notes posaient « IR ou IS ».
-> Tu m'as demandé d'ajouter les informations capitales manquantes. Chacune est marquée **➕** à sa place dans la fiche, et listée ici pour que tu puisses la confronter à ton cours. La liste des trous vient du **programme officiel de l'UE 12A**, dans [[Cycle 3 - Gestion et debats]].
+> Tu m'as demandé d'ajouter les informations capitales manquantes. Chacune est marquée **➕** à sa place dans la fiche, et listée ici pour que tu puisses la confronter à ton cours. La liste des trous vient du **programme officiel de l'UE 12A**, dans **Cycle 3 - Gestion et debats**.
 >
 > **Points du programme totalement absents de tes notes**
 > - **Les fonctions de l'entreprise** (§ 8) — les 7 fonctions, et la distinction opérationnel / support.

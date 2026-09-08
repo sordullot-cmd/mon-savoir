@@ -232,10 +232,12 @@ Et l'encadré de tête dit **deux** choses, pas trois — sans écrire le caract
 > ligne. Le frontmatter en donne le compte (`ajouts:`).
 ```
 
-## Les schémas — un SVG par figure du prof
+## Les schémas — un SVG par figure, systématiquement
 
 Une question de cours peut demander de **refaire un schéma**. Une fiche qui le
-décrit en phrases n'y prépare pas.
+décrit en phrases n'y prépare pas. Depuis le 8 septembre 2026, **on les
+redessine sans attendre qu'on le demande** : un chapitre mis en fiche sort avec
+ses schémas, point.
 
 ```md
 ![[gestion-developpement-durable.svg]]
@@ -253,6 +255,7 @@ Les règles, apprises en faisant les six schémas du chapitre 1 de gestion :
 | Une légende en italique **sous** l'embed, qui dit quoi savoir en refaire | Une légende qui répète le schéma |
 | `font-family: system-ui, -apple-system, 'Segoe UI', sans-serif` | Une police du vault : le SVG est lu hors Obsidian, sur le site aussi |
 | Reprendre les mots du prof dans les libellés | Traduire, abréger ou « améliorer » ses termes |
+| **Rasteriser le SVG et le regarder** avant de commiter (`sharp` suffit) | Le livrer sans l'avoir vu : les débordements de texte ne se voient pas dans le code |
 
 `verifie.py` résout les pièces jointes depuis le 8 septembre 2026 (constante
 `JOINTES`) : un `![[schema.svg]]` qui pointe dans le vide est une **erreur**, au

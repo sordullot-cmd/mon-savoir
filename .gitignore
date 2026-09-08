@@ -17,3 +17,7 @@ notes/conflicts/
 .claude/skills/eco/launchd.log
 .claude/skills/eco/scratch/
 .claude/skills/eco/.verrou/
+
+# Sources brutes deposees a cote des fiches (photos de cahier, PDF de slides) :
+# elles restent sur le disque, elles ne partent pas sur GitHub.
+eco gestion/fichier/

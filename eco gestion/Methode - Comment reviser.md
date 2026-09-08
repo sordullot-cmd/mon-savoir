@@ -10,7 +10,7 @@ revu: 2026-09-08
 
 # 🧠 Comment réviser — les techniques qui marchent
 
-🏠 [[00 - Plan L1 Angers]] · 📋 [[_Accueil - mes cours]] · 🃏 [[Anki - Formules et definitions C0-C1]] · ✍️ [[Fiche exos - Modules A C E]]
+🏠 [[00 - Plan L1 Angers]] · 📋 **_Accueil - mes cours** · 🃏 **Anki - Formules et definitions C0-C1** · ✍️ **Fiche exos - Modules A C E**
 
 > [!danger] Si tu ne lis qu'une ligne
 > Relire une fiche donne l'impression de savoir. Se tester fait savoir. Les deux se ressemblent sur le moment et se séparent le jour de l'épreuve — c'est exactement ce que mesurent les études ci-dessous.
@@ -77,7 +77,7 @@ Rawson & Dunlosky ont testé le *successive relearning* en conditions de cours r
 >
 > Trois sessions de réapprentissage suffisent généralement pour l'essentiel du bénéfice.
 
-Ce que ça implique concrètement : une série d'exercices ne se fait **pas une fois**. Elle se fait jusqu'à la cible, puis se refait **3 fois à des semaines d'écart**. C'est exactement pourquoi [[Fiche exos - Modules A C E]] a trois colonnes « Essai 1 / 2 / 3 » — elles ne sont pas là pour la décoration.
+Ce que ça implique concrètement : une série d'exercices ne se fait **pas une fois**. Elle se fait jusqu'à la cible, puis se refait **3 fois à des semaines d'écart**. C'est exactement pourquoi **Fiche exos - Modules A C E** a trois colonnes « Essai 1 / 2 / 3 » — elles ne sont pas là pour la décoration.
 
 ## 🔀 L'interleaving — la méthode spécifique au quantitatif
 
@@ -100,7 +100,7 @@ Taille d'effet : **d = 0,83** (IC 95 % : 0,68 – 0,97). C'est considérable pou
 >
 > C'est une **difficulté désirable**. L'inconfort est le signe que ça fonctionne.
 
-**Où ça s'applique chez toi** : [[Cours - Tableaux de signes et inequations]], [[Cours - Trouver le signe, toutes les methodes]], [[Cours - Indices et deflation]] et [[Cours - Contributions a la croissance]] se révisent **mélangés**, pas chapitre par chapitre.
+**Où ça s'applique chez toi** : **Cours - Tableaux de signes et inequations**, **Cours - Trouver le signe, toutes les methodes**, **Cours - Indices et deflation** et **Cours - Contributions a la croissance** se révisent **mélangés**, pas chapitre par chapitre.
 
 ## 🎯 Le pretesting — se tester avant d'apprendre
 
@@ -131,7 +131,7 @@ La règle de Cepeda (10 à 20 % du délai), appliquée telle quelle. On lit la l
 Deux remarques qui évitent de mal s'en servir :
 
 - **Trop serré ne sert à rien.** Revoir la même fiche trois soirs de suite, c'est presque une seule révision. La courbe est en U inversé : l'intervalle trop court est aussi mauvais que l'intervalle trop long.
-- **Anki fait déjà ce calcul.** [[Anki - Formules et definitions C0-C1]] espace automatiquement les cartes. La règle ci-dessus sert pour ce qui n'est pas cartable : les fiches entières, les séries d'exercices, les annales.
+- **Anki fait déjà ce calcul.** **Anki - Formules et definitions C0-C1** espace automatiquement les cartes. La règle ci-dessus sert pour ce qui n'est pas cartable : les fiches entières, les séries d'exercices, les annales.
 
 ## 📌 Le protocole, mis bout à bout
 

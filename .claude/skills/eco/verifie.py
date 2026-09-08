@@ -232,10 +232,19 @@ def main():
 
     # liens
     l_av, l_ap = liens(c_av), liens(c_ap)
-    l_manq = [k for k, v in l_av.items() if v > l_ap.get(k, 0)]
-    if l_manq:
-        erreurs.append("liens perdus : %s" % ", ".join(l_manq[:10]))
     vault = pages_du_vault()
+    l_manq = [k for k, v in l_av.items() if v > l_ap.get(k, 0)]
+    # Un lien perdu vers une page qui existe encore : erreur, on a casse un
+    # chemin. Vers une page que Sacha a supprimee : c'est le menage d'apres
+    # suppression, le texte reste, seul le crochet part. Alerte.
+    casses_vivants = [k for k in l_manq if k in vault or k.split("/")[-1] in vault]
+    delies = [k for k in l_manq if k not in casses_vivants]
+    if casses_vivants:
+        erreurs.append("liens perdus vers des pages existantes : %s"
+                       % ", ".join(casses_vivants[:10]))
+    if delies:
+        alertes.append("liens morts delies (la page ciblee n'existe plus) : %s"
+                       % ", ".join(delies[:10]))
     casses = sorted(k for k in l_ap
                     if k not in vault and k.split("/")[-1] not in vault)
     if casses:

@@ -29,13 +29,13 @@ cartes: 0
 
 | Cycle             | Semaines  | Heures | Coef   | Note                            |
 |---|---|---|---|---|
-| Fondations        | S1 → S4   | 48 h   | 4      | [[Cycle 0 - Fondations]]        |
-| Moteur économique | S5 → S13  | 108 h  | **18** | [[Cycle 1 - Moteur economique]] |
-| Les chiffres      | S14 → S22 | 108 h  | 9      | [[Cycle 2 - Les chiffres]]      |
-| Gestion & débats  | S23 → S31 | 108 h  | **17** | [[Cycle 3 - Gestion et debats]] |
-| Socle transversal | continu   | 60 h   | 16     | [[Cycle 4 - Socle transversal]] |
+| Fondations        | S1 → S4   | 48 h   | 4      | **Cycle 0 - Fondations**        |
+| Moteur économique | S5 → S13  | 108 h  | **18** | **Cycle 1 - Moteur economique** |
+| Les chiffres      | S14 → S22 | 108 h  | 9      | **Cycle 2 - Les chiffres**      |
+| Gestion & débats  | S23 → S31 | 108 h  | **17** | **Cycle 3 - Gestion et debats** |
+| Socle transversal | continu   | 60 h   | 16     | **Cycle 4 - Socle transversal** |
 
-**Notes de support** : [[MCC - Tableau de bord]] · [[Ressources - Bibliotheque de liens]]
+**Notes de support** : **MCC - Tableau de bord** · **Ressources - Bibliotheque de liens**
 
 ---
 
@@ -100,11 +100,11 @@ cartes: 0
 
 ## 🎯 Les 6 livrables de l'année
 
-- [ ] Tableau de bord de l'économie française (Excel, 25 ans de séries INSEE) → [[Cycle 1 - Moteur economique]]
-- [ ] Simulateur de marché (Excel : équilibre, surplus, taxe, monopole) → [[Cycle 1 - Moteur economique]]
-- [ ] Cycle comptable complet d'Atelier Loire SARL (papier + Excel) → [[Cycle 2 - Les chiffres]]
-- [ ] Diagnostic d'organisation (3 pages) → [[Cycle 3 - Gestion et debats]]
-- [ ] Les 5 débats préparés (10 pages) → [[Cycle 3 - Gestion et debats]]
+- [ ] Tableau de bord de l'économie française (Excel, 25 ans de séries INSEE) → **Cycle 1 - Moteur economique**
+- [ ] Simulateur de marché (Excel : équilibre, surplus, taxe, monopole) → **Cycle 1 - Moteur economique**
+- [ ] Cycle comptable complet d'Atelier Loire SARL (papier + Excel) → **Cycle 2 - Les chiffres**
+- [ ] Diagnostic d'organisation (3 pages) → **Cycle 3 - Gestion et debats**
+- [ ] Les 5 débats préparés (10 pages) → **Cycle 3 - Gestion et debats**
 - [ ] 36 pages de journal de conjoncture (hebdomadaire)
 
 ---
@@ -127,7 +127,7 @@ cartes: 0
 ## ✅ Les 5 règles finales
 
 1. **Lis les annales et les MCC avant les cours**, pas après. Le périmètre réel est toujours plus étroit que le syllabus.
-2. **Ne passe pas un test de sortie raté.** Une seule exception au droit d'avancer : [[Cycle 0 - Fondations]]. Les maths conditionnent 16 ECTS.
+2. **Ne passe pas un test de sortie raté.** Une seule exception au droit d'avancer : **Cycle 0 - Fondations**. Les maths conditionnent 16 ECTS.
 3. **80 % d'exercices, 20 % de lecture** sur micro, macro, maths, stats et compta. Le rendement de la lecture s'effondre après 20 % du temps.
 4. **Une UE = une fiche A4, recto seulement.** Si ça ne tient pas, tu n'as pas identifié l'essentiel. La fiche est le vrai livrable, pas le cours.
 5. **Ne rate aucun TD.** Voir Règle 2 plus haut.
@@ -154,5 +154,5 @@ cartes: 0
 4. Ce qu'on ne met jamais en carte Anki. → [[#🃏 Le plan Anki]]
 
 > [!question] À vérifier
-> - Le tableau des cycles totalise 64 coef contre 62 au frontmatter et dans la Règle 2 : `18C Méthodologie` (coef 2) est comptée dans [[Cycle 0 - Fondations]] et dans [[Cycle 4 - Socle transversal]].
+> - Le tableau des cycles totalise 64 coef contre 62 au frontmatter et dans la Règle 2 : `18C Méthodologie` (coef 2) est comptée dans **Cycle 0 - Fondations** et dans **Cycle 4 - Socle transversal**.
 > - Le tableau de la semaine totalise 12 h 45, le titre annonce 12 h — et 432 h sur 36 semaines font 12 h pile.

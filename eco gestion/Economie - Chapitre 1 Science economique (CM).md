@@ -11,7 +11,7 @@ statut: à faire
 coef: 3
 periode: 1
 revu: 2026-09-08
-a_verifier: 9
+a_verifier: 8
 cartes: 38
 ajouts: 0
 ---
@@ -122,6 +122,9 @@ Si l'économie **laisse les individus (les agents économiques) faire leurs prop
 
 **Remarque** : les choix individuels ont des répercussions sur la société — les **externalités**, qui **ne sont pas prises en compte** dans le choix individuel. Elles peuvent être **négatives** (pollution, fumer) ou **positives**. Elles limitent les choix individuels.
 
+![[eco-rarete-et-choix.svg]]
+*La chaîne complète, à refaire de mémoire : c'est le squelette de tout le § I.2.*
+
 #### b) Le coût d'un bien ou d'un service est lié à son coût d'opportunité
 
 **Faire un choix = renoncer à quelque chose.** Le coût du renoncement est le **coût d'opportunité**.
@@ -210,6 +213,9 @@ interactions sociales → coopération ⇄ spécialisation (tout le monde ne fai
 > De cet échange, chacun **fait profiter les autres de ses connaissances et de son savoir-faire**, et **profite de celles des autres**.
 > **L'échange est profitable : il permet à chacun d'avoir plus.**
 
+![[eco-cooperation-echange.svg]]
+*Ce qu'il faut savoir redessiner : la boucle coopération ⇄ spécialisation, et l'échange qui en sort.*
+
 #### b) La notion d'ÉQUILIBRE
 
 > **Définition** : l'équilibre est **une situation où aucun individu ne peut améliorer sa situation en faisant quelque chose de différent**.
@@ -218,6 +224,9 @@ interactions sociales → coopération ⇄ spécialisation (tout le monde ne fai
 
 **« Est-ce qu'on est en équilibre ? » = « Est-ce que quelqu'un est incité à changer de comportement ? »**
 Si **non** → on est à l'équilibre.
+
+![[eco-equilibre-caisses.svg]]
+*Le schéma de ton cahier. Retiens surtout la question de droite : c'est elle qu'on te demandera d'appliquer.*
 
 **Remarque 1** — Principe de l'économie : **les agents répondent aux incitations**, donc **les marchés ont tendance naturellement à être à l'équilibre**.
 *Ex : dans les secteurs économiques en tension, où il manque de la main-d'œuvre, les salaires vont s'élever — ce qui incite à venir travailler dans ces secteurs.*
@@ -243,6 +252,9 @@ Les systèmes économiques se placent sur un axe :
 ```
 économie planifiée  ←——————————————————→  économie (capitaliste) de marché
 ```
+
+![[eco-systemes-economiques.svg]]
+*Les deux extrémités de l'axe, avec ce qui les caractérise — et l'avertissement du bas, qui tombe souvent.*
 
 **i) Le système capitaliste**
 
@@ -304,6 +316,9 @@ Or, si tout le monde reçoit plus :
 ```
 
 Ce qui était vrai pour un individu (**↑ riche**) devient **faux** pour tous (**↓ riche**).
+
+![[eco-micro-macro-pouvoir-achat.svg]]
+*Micro à gauche, macro à droite : la chaîne de droite est la démonstration à savoir dérouler.*
 
 **Exemple 2 : le paradoxe de l'épargne**
 
@@ -367,6 +382,9 @@ Grâce à cela, les économistes se penchent sur des questions importantes :
 > Donc le **modèle 2 a des hypothèses acceptables** — **pour cette question économique-là**.
 
 Mais si la question change — **« Quel est le rôle de l'État dans la création de richesse ? »** — alors, dans le modèle 2, **il n'y a pas d'État** : l'hypothèse **n'est plus acceptable**, et il faut le **modèle 1**.
+
+![[eco-modeles-richesse.svg]]
+*Les deux modèles côte à côte, et les deux verdicts : un modèle n'est acceptable que pour une question donnée.*
 
 ---
 
@@ -651,4 +669,3 @@ Réponds à voix haute, puis ouvre la réponse.
 > - **Rq 2 du § I.3 b)** : la phrase sur les producteurs qui satisfont les besoins est reconstituée au plus près, mais ta ligne est coupée. À reprendre.
 > - **La date en tête de la partie II** : une annotation en rouge en haut de page, illisible (peut-être la date de la 2ᵉ séance).
 > - **La fin du cours** : les photos s'arrêtent au modèle 1 / modèle 2. S'il y a une **II.2 (les données, les statistiques)**, elle n'est pas dans ce que tu m'as donné.
-> - **Le schéma des caisses de supermarché** et les **deux schémas de modèles** (agents reliés / ménages ⇄ entreprises) sont dessinés dans ton cahier. Dis-moi si tu veux que je les redessine en SVG, comme les six schémas de la fiche de gestion.
