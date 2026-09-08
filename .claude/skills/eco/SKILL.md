@@ -207,8 +207,23 @@ récapitulatif.
    git commit -m "eco: <page> — <résumé court>"
    ```
    Jamais `git add -A` : le vault a en permanence des modifications qui ne sont
-   pas les nôtres. **Pas de push** : le passage reste local.
-9. **Récap** : ce qui a été corrigé, ce qui a été ajouté (**nommément**, surtout
+   pas les nôtres.
+9. **Pousser** — Sacha l'a demandé le 8 septembre 2026 : un passage se termine
+   sur GitHub, pas sur le disque.
+   ```
+   git push origin main
+   ```
+   En mode automatique, **`passage.sh` s'en charge lui-même** après l'appel au
+   modèle : il ne pousse que si `HEAD` a bougé, et si le push est refusé (un
+   autre poste a poussé entre-temps) il rejoue le commit par-dessus avec
+   `git pull --rebase`, une seule fois. En cas de conflit il abandonne le rebase
+   et laisse le commit local — il partira au passage suivant. Le modèle n'a donc
+   **pas besoin** de `git push` dans ses outils autorisés.
+   > **`mon-savoir` est un dépôt public.** Ce qui est commité est publié, sans
+   > relecture. D'où deux règles : `git add` ne prend **que** la page traitée et
+   > `etat.json`, et `eco gestion/fichier/` (photos de cahier, PDF de slides)
+   > est au `.gitignore` — la matière première personnelle reste locale.
+10. **Récap** : ce qui a été corrigé, ce qui a été ajouté (**nommément**, surtout
    les `Complément`), les trous signalés, et `git show --stat --oneline HEAD`.
 
 ## Les six opérations
