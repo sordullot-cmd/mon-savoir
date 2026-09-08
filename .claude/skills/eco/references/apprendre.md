@@ -36,6 +36,12 @@ fiche Anki (`Recto ; Verso ; Tags`). On n'extrait que ce qui est légitimement
 une carte — **définition, formule, procédure, distinction** — jamais un
 raisonnement, c'est sa propre règle.
 
+Depuis le 8 septembre 2026, **l'intervalle se calcule** au lieu de se deviner :
+environ **10 à 20 % du délai** avant l'épreuve (Cepeda et al., 2006), et la
+relation est en U inversé — trop serré est aussi mauvais que trop espacé. Le
+tableau de calcul et les études sont dans [[Methode - Comment reviser]] ; chaque
+fiche en porte l'application dans son bloc `## 🔄 Comment réviser cette fiche`.
+
 ## 3. Distinguer ce qui se confond
 
 En examen, les points se perdent presque toujours sur des paires voisines :
@@ -56,6 +62,30 @@ concret est retenue ; une définition seule s'oublie.
 dans les notes (`ex Decathlon`, `ex L'Oréal`, `licornes : Doctolib, Mistral`).
 Un exemple présent dans les notes ne se supprime jamais au nom de la concision :
 c'est lui qui fait tenir la notion.
+
+**Et quand il n'y en a aucun, on en ajoute un** — Sacha l'a demandé le
+8 septembre 2026 : « rajoute quelques exemples simples s'il n'y a pas d'exemple
+dans l'explication ». Trois conditions, sinon l'exemple dessert :
+
+- **un cas banal, en une ligne**, en italique, marqué ➕ et compté dans
+  `ajouts:` — la boulangerie pour la valeur ajoutée, le CHU pour l'organisation
+  publique, le coiffeur pour la production de services ;
+- **jamais là où le prof en donne déjà un** : deux exemples pour une notion, et
+  c'est le sien qui se perd ;
+- **listés à part dans le récapitulatif**, sous « exemples ajoutés pour
+  illustrer », avec la mention qu'ils sont à remplacer par ceux du prof. Un
+  exemple inventé qu'il croirait venir de l'amphi est pire que pas d'exemple :
+  il le ressortirait en copie.
+
+Un exemple **chiffré** (« 200 000 − 60 000 = 140 000 € ») est autorisé au même
+titre : c'est un calcul déroulé depuis une formule de la page, pas un chiffre
+de cours. Le récapitulatif dit alors que les nombres sont inventés pour le
+calcul.
+
+**Et le schéma vaut l'exemple.** Quand la notion est une figure du prof (les
+trois cercles du développement durable, le cycle de produit), elle se redessine
+en SVG dans `eco gestion/schemas/` et s'embarque dans la fiche : voir
+`forme-fiche.md`. Une question de cours peut demander de la refaire.
 
 ## 5. Répéter la procédure, pas la théorie
 
@@ -89,8 +119,15 @@ si le mode d'évaluation est inconnu, c'est une ligne dans `À vérifier`.
 | `## 🔁 À ne pas confondre` | 3 | seulement les paires réellement présentes dans la page |
 | `## 🧮 Méthode` | 5 | seulement si la page contient une procédure |
 | `## 🃏 Cartes à créer` | 2 | format `Recto ; Verso ; Tags`, jamais un raisonnement |
+| `## 🔄 Comment réviser cette fiche` | 1 · 2 | le protocole appliqué à cette page, sans ➕ — ce n'est pas du cours |
 | `## ✅ Contrôle` | 1 | questions d'abord, réponses en callout replié |
+| `> [!success]- Ce que les slides ont résolu` | — | les trous fermés par une source officielle, valeurs en conflit gardées |
 | `> [!question] À vérifier` | — | trous et incohérences, remplacé à chaque passage |
+| `## Ce que j'ai complété` | — | obligatoire dès qu'un ➕ est posé : compléments **et** exemples |
+
+Les **schémas** n'ont pas de bloc à eux : chaque figure s'embarque dans la
+section du cours qu'elle illustre (`![[gestion-cycle-de-produit.svg]]`), suivie
+d'une ligne qui dit quoi savoir en refaire.
 
 Un bloc sans matière ne se remplit pas : **une fiche sans paire confusable n'a
 pas de bloc « À ne pas confondre »**. Mieux vaut sept blocs justes que neuf

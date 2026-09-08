@@ -29,10 +29,18 @@ bloc déjà là ne se refait pas ; **un bloc sans matière ne se remplit pas**.
    suivie d'un exemple déroulé.
 7. **`## 🃏 Cartes à créer`** — format `Recto ; Verso ; Tags`, définitions,
    formules, procédures et distinctions seulement.
-8. **`## ✅ Contrôle`** — questions d'abord, **réponses repliées** dans
+8. **`## 🔄 Comment réviser cette fiche`** — cinq ou six lignes de protocole
+   appliquées à cette page, renvoyant à [[Methode - Comment reviser]]. Sans ➕ :
+   ce n'est pas du cours.
+9. **`## ✅ Contrôle`** — questions d'abord, **réponses repliées** dans
    `> [!question]- …`, ou l'ancre de la section qui répond.
-9. **`> [!question] À vérifier / à récupérer`** — trous et incohérences
-   (cf. § Ce qu'on signale sans corriger).
+10. **`> [!success]- Ce que les slides ont résolu`** — les trous fermés par une
+    source officielle, avec les valeurs qui étaient en conflit. N'existe que si
+    des slides sont passées.
+11. **`> [!question] À vérifier / à récupérer`** — trous et incohérences
+    (cf. § Ce qu'on signale sans corriger).
+12. **`## 📚 La bibliographie du syllabus`** — quand le syllabus en donne une.
+13. **`## Ce que j'ai complété`** — le récapitulatif des ➕, exemples compris.
 
 ---
 
@@ -83,7 +91,7 @@ trois pages se confondent le jour de l'examen.
 Chaque paire vient de la page. La ligne « ce qui les sépare » se dérive de ses
 lignes, elle n'ajoute pas de savoir.
 
-## Bloc 8 — le contrôle, réponses repliées
+## Bloc 9 — le contrôle, réponses repliées
 
 ```md
 ## ✅ Contrôle
@@ -168,3 +176,59 @@ Les pages sont écrites en tutoiement direct, avec des emojis en tête de sectio
 et des callouts Obsidian. C'est **sa** forme : on la garde. Pas de « il convient
 de », pas d'introduction ajoutée, pas de conclusion, pas de nouvel emoji dans un
 titre qui n'en avait pas.
+
+---
+
+## Les trois marques, dans le texte
+
+Ce qui n'est pas marqué vient de ses notes. Le reste se voit d'un coup d'œil :
+
+```md
+🎞️ **La formule exacte de la slide 13** : « plus on descend vers l'opérationnel,
+plus les décisions sont **fréquentes, réversibles et proches du terrain** ».
+Tes notes ont « plus les décisions sont **récentes** » — c'est **fréquentes**.
+
+➕ *Ex. la boulangerie : farine, eau, électricité, travail et four (**inputs**)
+→ pain vendu au comptoir (**output**).*
+```
+
+La première ligne porte la marque du prof : elle fait autorité, et elle **dit ce
+que les notes disaient**, sans l'effacer. La seconde est un exemple ajouté :
+italique, ➕, et comptée dans `ajouts:`.
+
+En tête de fiche, un encadré rappelle la convention — sans écrire le caractère
+➕, qui serait compté :
+
+```md
+> [!note] Trois sources dans cette fiche, trois marques
+> Ce qui **n'est pas marqué** vient de tes notes d'amphi.
+> **🎞️** = ce qui vient des **slides de Carole Vigeant** — ça fait autorité.
+> **Un plus vert en tête de ligne** = ce que j'ai ajouté depuis le programme de
+> l'UE : à confirmer en cours. Le frontmatter en donne le compte (`ajouts:`).
+```
+
+## Les schémas — un SVG par figure du prof
+
+Une question de cours peut demander de **refaire un schéma**. Une fiche qui le
+décrit en phrases n'y prépare pas.
+
+```md
+![[gestion-developpement-durable.svg]]
+*Le schéma de la slide 24. Trois cercles, trois croisements, un centre : c'est
+la figure la plus demandée du chapitre.*
+```
+
+Les règles, apprises en faisant les six schémas du chapitre 1 de gestion :
+
+| À faire | À ne pas faire |
+| --- | --- |
+| Un fichier par figure, dans `eco gestion/schemas/`, nommé `<matière>-<sujet>.svg` | Un gros SVG qui contient trois figures : il devient illisible sur mobile |
+| `<rect width= … fill="#ffffff"/>` en premier élément | Un fond transparent : le schéma disparaît dans le thème sombre d'Obsidian |
+| Le numéro de slide écrit en tête du schéma | Un schéma sans provenance, qu'on ne pourra pas confronter au cours |
+| Une légende en italique **sous** l'embed, qui dit quoi savoir en refaire | Une légende qui répète le schéma |
+| `font-family: system-ui, -apple-system, 'Segoe UI', sans-serif` | Une police du vault : le SVG est lu hors Obsidian, sur le site aussi |
+| Reprendre les mots du prof dans les libellés | Traduire, abréger ou « améliorer » ses termes |
+
+`verifie.py` résout les pièces jointes depuis le 8 septembre 2026 (constante
+`JOINTES`) : un `![[schema.svg]]` qui pointe dans le vide est une **erreur**, au
+même titre qu'un lien mort vers une page.

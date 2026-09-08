@@ -133,15 +133,27 @@ def cellules_vides(t):
     return n
 
 
+# Pieces jointes qu'une fiche peut embarquer : les schemas redessines depuis
+# les slides (SVG), les captures, les PDF de cours. Un ![[schema.svg]] est un
+# lien comme un autre pour Obsidian, il doit donc resoudre lui aussi.
+JOINTES = (".svg", ".png", ".jpg", ".jpeg", ".gif", ".webp", ".pdf", ".mp4")
+
+
 def pages_du_vault():
+    """Tout ce qu'un [[lien]] peut viser : les pages, et les pieces jointes."""
     noms = {}
     for racine, dirs, fichiers in os.walk(VAULT):
         dirs[:] = [d for d in dirs if d not in IGNORE and not d.startswith(".")]
         for n in fichiers:
+            chemin = os.path.join(racine, n)
+            rel = os.path.relpath(chemin, VAULT)
             if n.endswith(".md"):
-                chemin = os.path.join(racine, n)
                 noms.setdefault(n[:-3], chemin)
-                noms.setdefault(os.path.relpath(chemin, VAULT)[:-3], chemin)
+                noms.setdefault(rel[:-3], chemin)
+            elif n.lower().endswith(JOINTES):
+                # une piece jointe se cite avec son extension
+                noms.setdefault(n, chemin)
+                noms.setdefault(rel, chemin)
     return noms
 
 

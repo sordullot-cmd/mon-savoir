@@ -1,6 +1,6 @@
 ---
 name: eco
-description: Transforme les pages « eco gestion » du vault (Licence 1 Économie & Gestion, Angers) en fiches avec lesquelles on révise vraiment, pour réussir les examens de fin d'année. Intègre les notes d'amphi brutes déposées dans `eco gestion/_brut/` (fautes, structure en vrac, phrases interrompues) en fiches complètes, et améliore les fiches existantes. Chaque fiche est bâtie sur ce qui fait retenir : questions à réponses repliées pour se tester, tableaux de paires confusables, méthodes pas à pas, cartes Anki extraites, les informations capitales manquantes ajoutées et tracées (marqueur ➕), et les trous restants signalés. Corrige la langue et le markdown, répare liens et ancres. Ne touche jamais un chiffre, une formule, un nom d'auteur : ce qui cloche est signalé, pas corrigé. Périmètre = toute page taguée `L1-eco-gestion`, dans `eco gestion/`, ou liant `[[00 - Plan L1 Angers]]`. Tourne aussi seul toutes les heures (LaunchAgent `com.sacha.eco-fiches`) : une page par passage, un commit par passage. À utiliser quand Sacha dit « corrige / synthétise / améliore mes cours d'éco », « fais-moi les fiches de révision », « mets mes notes d'amphi au propre », ou quand le passage horaire se déclenche.
+description: Transforme les pages « eco gestion » du vault (Licence 1 Économie & Gestion, Angers) en fiches avec lesquelles on révise vraiment, pour réussir les examens de fin d'année. Intègre les notes d'amphi brutes déposées dans `eco gestion/_brut/` (fautes, structure en vrac, phrases interrompues) en fiches complètes, et améliore les fiches existantes. Chaque fiche est bâtie sur ce qui fait retenir : questions à réponses repliées pour se tester, tableaux de paires confusables, méthodes pas à pas, cartes Anki extraites, les informations capitales manquantes ajoutées et tracées (marqueur ➕), et les trous restants signalés. Corrige la langue et le markdown, répare liens et ancres. Ne touche jamais un chiffre, une formule, un nom d'auteur : ce qui cloche est signalé, pas corrigé. Périmètre = toute page taguée `L1-eco-gestion`, dans `eco gestion/`, ou liant `[[00 - Plan L1 Angers]]`. Tourne aussi seul toutes les heures (LaunchAgent `com.sacha.eco-fiches`) : une page par passage, un commit par passage. Intègre aussi les sources officielles quand Sacha en dépose une (PDF de slides, syllabus) : elles font autorité sur ses notes, sont marquées 🎞️, ferment les trous et font redessiner les schémas du prof. À utiliser quand Sacha dit « corrige / synthétise / améliore mes cours d'éco », « fais-moi les fiches de révision », « mets mes notes d'amphi au propre », « voilà les slides / le syllabus », ou quand le passage horaire se déclenche.
 ---
 
 # /eco — Des cours d'éco gestion avec lesquels on révise
@@ -65,6 +65,57 @@ probablement en train d'écrire dedans, on n'écrit pas par-dessus lui.
 
 Quand `etat.py` dit `rien`, le passage s'arrête là — une ligne de récap suffit.
 
+## Trois sources dans une fiche, trois marques — et un ordre d'autorité
+
+Depuis le 8 septembre 2026, une fiche peut mélanger trois provenances. Elles ne
+valent pas la même chose, donc elles ne s'écrivent pas pareil. **La marque est
+obligatoire** : sans elle, il réviserait comme parole du prof quelque chose qui
+ne l'est pas.
+
+| Source | Marque | Autorité | Ce qu'on en fait |
+| --- | --- | --- | --- |
+| **Slides et syllabus du prof** (PDF déposé par Sacha) | **🎞️** en tête de ligne | **La plus haute** — c'est ce qui sera évalué | S'intègre à sa place dans le cours, ferme les trous, tranche les divergences |
+| **Notes d'amphi de Sacha** | aucune | Ce qu'il a entendu, avec ses fautes de recopie | Se corrige en langue, jamais en contenu |
+| **Compléments** tirés du programme de l'UE | **➕** | La plus basse — à confirmer en cours | Reste marqué tant que le prof ne l'a pas confirmé |
+
+Trois conséquences pratiques :
+
+- **Une divergence notes / slides se signale, elle ne s'écrase pas.** « Tes notes
+  disent *récentes*, la slide dit *fréquentes* » — les deux restent visibles, le
+  mot du prof est mis en avant. Idem pour « immatérielles » contre
+  « informationnelles ».
+- **Un trou fermé par les slides ne disparaît pas** : il passe du bloc
+  `À vérifier` à un bloc `> [!success]- Ce que les slides ont résolu`, avec les
+  deux valeurs en conflit. C'est ce qui lui montre le chemin parcouru — et ça
+  garde les chiffres, que `verifie.py` refuse de voir disparaître.
+- **Un ➕ que les slides confirment** peut rester ➕ (il n'a pas été dit en amphi)
+  mais le récapitulatif le note comme confirmé.
+
+**Le compteur `ajouts:` ne compte que les ➕.** Donc le caractère ➕ ne s'écrit
+jamais dans une phrase explicative : on dit « le plus vert en tête de ligne »,
+sinon `verifie.py` compte des marqueurs qui n'en sont pas.
+
+## Les schémas du prof, redessinés
+
+Un chapitre de gestion tient autant dans ses figures que dans son texte : les
+trois cercles du développement durable, le cycle de produit et son pilotage
+transversal, les trois familles d'organisations. Une fiche qui les décrit en
+phrases ne prépare pas à une question qui demande de **refaire le schéma**.
+
+- Ils vivent dans **`eco gestion/schemas/`**, un **SVG par figure**, nommés
+  `<matière>-<sujet>.svg` (`gestion-developpement-durable.svg`).
+- **SVG, et pas une image** : le fichier est du texte, il se relit et se corrige
+  au prochain passage, il reste net à toutes les tailles, et il s'affiche
+  aussi bien dans Obsidian que sur le site (`![[gestion-cycle-de-produit.svg]]`).
+- **Fond blanc explicite** et texte foncé : sans ça, le schéma disparaît dans le
+  thème sombre d'Obsidian.
+- **On redessine, on n'invente pas.** Mêmes éléments, mêmes mots, même
+  disposition que la slide, et le numéro de slide en tête du schéma. Une figure
+  inventée serait un ➕ déguisé, non traçable.
+- Chaque schéma est suivi d'une ligne en italique qui dit **ce qu'il faut savoir
+  en refaire** — c'est ce qui en fait un outil de révision plutôt qu'une
+  illustration.
+
 ## Règle d'or — le savoir ne bouge pas, la forme et la clarté oui
 
 | Autorisé | Interdit |
@@ -78,6 +129,9 @@ Quand `etat.py` dit `rien`, le passage s'arrête là — une ligne de récap suf
 | S'appuyer sur le programme officiel de l'UE (dans la page de cycle) pour repérer les trous | Reconstituer « ce que le prof a dû dire », ou ajouter une opinion plutôt qu'un savoir standard |
 | Signaler un trou ou une incohérence dans `> [!question] À vérifier` | Corriger un chiffre, une date, un nom d'auteur, une formule |
 | Garder ses exemples et ses remarques (`ex Decathlon`, `licornes : Doctolib`) | Supprimer un exemple au nom de la concision |
+| **Ajouter un exemple simple là où l'explication n'en a aucun**, marqué ➕ et listé dans le récapitulatif comme exemple (pas comme cours) | Faire passer un exemple inventé pour celui du prof, ou en ajouter un là où il y en a déjà un |
+| **Intégrer une slide ou un syllabus déposé par Sacha**, marqué 🎞️, à sa place dans le cours | Recopier un PDF en vrac en fin de fiche : une source non rangée ne se révise pas |
+| **Redessiner en SVG une figure des slides** dans `schemas/` | Inventer un schéma que le prof n'a pas fait |
 | Laisser les tableaux valides tels quels, alignement compris | Reformater un tableau qui marche (`verifie.py` le refuse) |
 | Ajouter un tag déjà utilisé dans le périmètre | Supprimer ou renommer un de ses tags, toucher au reste du frontmatter |
 
@@ -142,10 +196,40 @@ récapitulatif.
   **`> [!info] Ce que j'ai complété (n)`** en fin de fiche qui liste chaque ajout
   avec sa section. La **liste de contrôle des trous, c'est le programme de l'UE**
   écrit dans la page de cycle. Détail et frontière : `references/apprendre.md`.
+- **Intégrer une source officielle** — un PDF de slides ou un syllabus déposé
+  par Sacha. C'est l'opération qui rapporte le plus après l'intégration d'un
+  brut : elle **ferme des trous** au lieu de les signaler. Procédure : extraire
+  le texte du PDF, le confronter section par section à la fiche, poser les 🎞️ à
+  leur place dans le cours, déplacer les trous fermés dans
+  `> [!success]- Ce que les slides ont résolu`, redessiner les figures dans
+  `schemas/`, et reporter ce que le syllabus dit du **mode d'évaluation** dans
+  la fiche **et** dans [[MCC - Tableau de bord]]. Le plan du syllabus devient la
+  nouvelle liste de contrôle des trous, en tête de fiche, séance par séance.
 - **Relier** — vérifier que la fiche pointe vers son hub, son cycle, sa série
-  d'exercices, sa fiche Anki, et que ces liens résolvent.
+  d'exercices, sa fiche Anki, sa page de méthode, et que ces liens résolvent.
 - **Laisser tel quel** — un choix à part entière pour une page déjà finie. On
   l'acte avec `--enregistre "…" "déjà au propre"`.
+
+## La méthode de révision a sa page, et un bloc dans chaque fiche
+
+Sacha a demandé le 8 septembre 2026 que les techniques de révision soient
+« dans les fiches de cours ». Elles y sont, en deux endroits :
+
+- **[[Methode - Comment reviser]]** — la page de référence : effet test,
+  espacement, réapprentissage successif, interleaving, pretesting, avec les
+  chiffres et les références qu'il a fournis, plus le tableau qui **calcule**
+  l'intervalle (10 à 20 % du délai avant l'épreuve). C'est là que vont les
+  ajouts sur la méthode, **pas** dans les fiches.
+- **`## 🔄 Comment réviser cette fiche`** — dans chaque fiche de cours, juste
+  avant son bloc `Contrôle` ou `Auto-test` : cinq ou six lignes qui appliquent
+  le protocole **à cette page-là** (le nombre de cartes qu'elle contient, les
+  fiches avec lesquelles l'entrelacer, ce qui tombe à l'examen), et qui
+  renvoient à la page de référence.
+
+Deux règles pour ce bloc : il commence par « *Méthode de révision, pas du
+cours* » — il ne doit jamais se confondre avec le contenu évalué — et il **ne
+porte pas de ➕**, pour la même raison : ce n'est pas du cours ajouté, donc ça
+ne rentre pas dans le compteur `ajouts:`.
 
 ## Cohérence entre pages — signaler, jamais arbitrer
 
@@ -234,5 +318,20 @@ absents : il ne peut rien écraser. Trois règles qui en découlent :
   suivant, c'est qu'il n'en voulait pas — ne pas la réappliquer, le noter.
 - **Ne pas toucher au reste du vault** : ni `notes/`, ni les fiches d'autres
   domaines, même si une page d'éco les lie.
+- **Le caractère ➕ ne s'écrit que sur une ligne réellement ajoutée.** Dans une
+  phrase qui parle des ajouts, écrire « le plus vert », jamais le signe :
+  `verifie.py` compte les occurrences et refuse le passage si le compte ne tombe
+  pas juste.
+- **Un doublon ne se supprime pas, il se signale.** `restaure.py` repère les
+  fiches que la synchro redescend sous un nom tronqué (vécu le 8 septembre :
+  `Gestion - Introduction.md` en face de `Gestion - Introduction UE 12A.md`).
+  La vivante est **celle que git suit** ; l'autre reste sur le disque jusqu'à ce
+  que Sacha tranche, et on ne travaille jamais dessus.
+- **Le site lit ces fiches.** `~/Documents/GitHub/vault-gallery` publie le
+  dossier sur `/cours` : les fiches d'UE y sont groupées par période avec leur
+  coefficient, leurs trous et leurs cartes, lus dans le **frontmatter**. Un champ
+  mal orthographié disparaît donc silencieusement du tableau de bord du site.
+  Après un passage qui compte, `npm run index` dans ce dépôt remet le site à
+  jour.
 - Le vault est un dépôt git : montrer `git show --stat` plutôt que décrire les
   changements de mémoire.

@@ -102,6 +102,9 @@ Le tout **sous contrainte** de temps et de finances. On est obligé de pivoter s
 |---|---|---|
 | Ministères · organisation territoriale · **Sécurité sociale** · **Éducation nationale** · hôpitaux | Publiques : l'État détient **> 50 % du capital** · privées : la grande majorité des entreprises | Associations · coopératives · **mutuelles** · **syndicats** · **fondations** (loi du 31 juillet 2014) |
 
+![[gestion-trois-familles-organisations.svg]]
+*Le schéma de la slide 9, refait. À savoir redessiner : trois colonnes, et le socle commun en dessous.*
+
 🎞️ **L'illustration de la séance 1 — Emmaüs Solidarité** (franceinfo, avril 2026). « Après la Croix-Rouge, c'est au tour d'Emmaüs Solidarité de lancer un appel à l'aide » : la flambée des prix du carburant, liée au conflit au Moyen-Orient, pèse sur le budget de fonctionnement des associations d'aide aux personnes sans-abri, et le directeur général demande que le **secteur associatif** soit intégré aux aides déjà accordées aux transporteurs, agriculteurs et pêcheurs. En **2025**, la France compte **1,6 million d'associations actives**, avec des subventions publiques en baisse.
 > **À retenir, mot pour mot du prof** : comme les entreprises, les associations doivent **gérer des ressources rares** (dons, subventions, bénévoles) pour remplir leur mission. C'est le meilleur exemple à ressortir dans un sujet de réflexion.
 
@@ -180,6 +183,9 @@ Ex Renault : va-t-on investir dans l'innovation électrique ? → plan à 5 ans.
 
 🎞️ La chaîne `réflexion stratégique → plan LMT → lettre de cadrage → budget` est intitulée **« stratégique et opérationnel : la chaîne de pilotage »** chez le prof, et la définition de Chandler y est attribuée à **A. D. Chandler**.
 
+![[gestion-chaine-de-pilotage.svg]]
+*Le schéma de la slide 15. Ce qui compte : l'ordre des quatre étages, et le fait qu'on glisse du stratégique vers l'opérationnel en descendant.*
+
 ## 7. Le cycle de produit
 
 1. **concevoir** — *make or buy*
@@ -196,6 +202,9 @@ Ex Renault : va-t-on investir dans l'innovation électrique ? → plan à 5 ans.
 | R&D / marketing · bureau d'études · méthodes · implantations · achats | programmation / appros · fabrication · maintenance · gestion des magasins · qualité | communication · vente · réseau de distribution · logistique · après-vente | recrutement · formation · paie · juridique · audit · comptabilité client et fournisseurs · trésorerie · facturation |
 
 🎞️ **Pilotage transversal** : la **direction générale** et le **contrôle de gestion** traversent les quatre étapes — ils ne sont pas une cinquième étape, c'est le piège classique.
+
+![[gestion-cycle-de-produit.svg]]
+*Les slides 16 et 17 réunies. Le bandeau du bas est ce qui distingue une bonne réponse d'une réponse moyenne.*
 
 ### Les deux autres cycles, ceux de la gestion
 
@@ -298,6 +307,9 @@ On y ajoute parfois l'**économie** : obtenir les ressources au meilleur coût, 
 |---|---|---|---|
 | **vivable** | **équitable** | **viable** | **DURABLE** |
 
+![[gestion-developpement-durable.svg]]
+*Le schéma de la slide 24. Trois cercles, trois croisements, un centre : c'est la figure la plus demandée du chapitre.*
+
 - **développement durable** : terme d'économie
 - **RSE** : terme de gestion
 
@@ -314,6 +326,9 @@ On y ajoute parfois l'**économie** : obtenir les ressources au meilleur coût, 
 **Structure informelle** : les relations réelles entre les membres, qui ne suivent pas toujours l'organisation formelle. Elle finit en affinités, réseaux d'entraide, circuits d'information informels — ex la place des étudiants en cours.
 
 🎞️ Le prof ajoute à la structure formelle la **coordination et la structure d'autorité** : les **règlements et procédures** formalisent les interactions entre les membres, pour un accomplissement **efficace** des tâches. Et la structure informelle y est décrite comme des **liens « fluides »**, hors organigramme officiel, **aux intérêts multiples**.
+
+![[gestion-structure-formelle-informelle.svg]]
+*Slide 25. À gauche l'organigramme et ses deux divisions, à droite le réseau réel : c'est l'opposition à ressortir en question de cours.*
 
 ### b) (2/3) La culture d'entreprise
 
@@ -338,6 +353,9 @@ Il y a des **process** et des **systèmes techniques**. On mobilise des matière
 ➕ *Ex. la boulangerie encore : farine, eau, électricité, travail du boulanger et four (**inputs**) → pain vendu au comptoir (**output**). Le système de transformation, c'est le pétrissage et la cuisson.*
 
 🎞️ Le schéma du prof, à refaire de mémoire : **matières premières + travail + moyens de production → PROCESS → production de biens et de services**. L'entreprise y est nommée **« un système technique »**.
+
+![[gestion-entreprise-systeme-technique.svg]]
+*Slide 27. Trois entrées, une boîte, une sortie — le schéma le plus simple du chapitre, et donc celui qu'on ne peut pas rater.*
 
 ## 11. Classement des entreprises
 
@@ -737,6 +755,8 @@ Sur les slides du prof :
 ## Ce que j'ai complété
 
 > [!info] Ces 24 ajouts ne viennent pas de tes notes — 13 compléments de cours, 11 exemples
+> **Six schémas des slides ont été redessinés** (`schemas/`, en SVG : ils s'affichent dans Obsidian comme sur le site). Ce sont les figures du prof, pas des inventions — mêmes éléments, mêmes mots.
+>
 > **Depuis le 8 septembre, les slides de Carole Vigeant sont dans la fiche**, marquées **🎞️** : ce qui porte cette marque fait autorité et n'est plus à vérifier. Les compléments listés ci-dessous restent, eux, à confirmer — sauf ceux que les slides ont depuis confirmés (la RSE, les seuils de taille) ou nuancés (les deux questions du choix de statut : le prof pose « seul ou associé ? » là où tes notes posaient « IR ou IS »).
 > Tu m'as demandé d'ajouter les informations capitales manquantes. Chacune est marquée **➕** à sa place dans la fiche, et listée ici pour que tu puisses la confronter à ton cours. La liste des trous vient du **programme officiel de l'UE 12A**, dans [[Cycle 3 - Gestion et debats]].
 >
