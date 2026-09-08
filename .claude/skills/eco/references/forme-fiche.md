@@ -34,9 +34,10 @@ bloc déjà là ne se refait pas ; **un bloc sans matière ne se remplit pas**.
    ce n'est pas du cours.
 9. **`## ✅ Contrôle`** — questions d'abord, **réponses repliées** dans
    `> [!question]- …`, ou l'ancre de la section qui répond.
-10. **`> [!success]- Ce que les slides ont résolu`** — les trous fermés par une
-    source officielle, avec les valeurs qui étaient en conflit. N'existe que si
-    des slides sont passées.
+10. **`> [!success]- Ce que les slides ont corrigé dans tes notes`** — mots
+    remis au vocabulaire du cours, phrases coupées complétées, chiffres
+    tranchés. N'existe que si une source du prof est passée, et c'est **le seul
+    endroit** où l'on dit ce qui vient d'où.
 11. **`> [!question] À vérifier / à récupérer`** — trous et incohérences
     (cf. § Ce qu'on signale sans corriger).
 12. **`## 📚 La bibliographie du syllabus`** — quand le syllabus en donne une.
@@ -111,7 +112,13 @@ Réponds à voix haute avant d'ouvrir la réponse.
 Règles du bloc :
 - le `-` après `[!question]` **replie** le callout : la réponse est cachée. Sans
   lui, il n'y a pas de test, juste une relecture ;
-- une question par notion réellement traitée, **8 maximum** ;
+- **une question par notion réellement traitée** — pas de plafond : Sacha en a
+  demandé davantage le 8 septembre 2026, « plus de questions sur le cours
+  lui-même ». La fiche Gestion 12A en porte 45, groupées par partie du cours
+  (`**La gestion, les organisations**`, `**Décider, piloter**`, …) pour qu'on
+  puisse se tester sur une partie à la fois ;
+- les questions suivent **l'ordre du cours**, et le groupe des compléments
+  (hors programme traité) vient en dernier, annoncé comme tel ;
 - la réponse est **dans la page**, plus l'ancre de la section quand elle existe ;
 - une question sans réponse dans la page ne va **pas** dans Contrôle : elle va
   dans `À vérifier`.
@@ -179,32 +186,50 @@ titre qui n'en avait pas.
 
 ---
 
-## Les trois marques, dans le texte
+## Fondre une source du prof — avant / après
 
-Ce qui n'est pas marqué vient de ses notes. Le reste se voit d'un coup d'œil :
+Le cours du prof ne se signale pas, il **remplace** ce qui était approximatif.
+
+**Avant** (ce qu'il ne faut plus faire — le cours haché par ses sources) :
 
 ```md
+- plus les décisions sont récentes, plus elles sont **réversibles**
+
 🎞️ **La formule exacte de la slide 13** : « plus on descend vers l'opérationnel,
 plus les décisions sont **fréquentes, réversibles et proches du terrain** ».
-Tes notes ont « plus les décisions sont **récentes** » — c'est **fréquentes**.
+Tes notes ont « **récentes** » — c'est **fréquentes**.
+```
 
+**Après** (le cours d'un seul tenant, la correction tracée en fin de fiche) :
+
+```md
+- plus on descend vers l'opérationnel, plus les décisions sont **fréquentes,
+  réversibles et proches du terrain**
+```
+
+```md
+> [!success]- Ce que les slides ont corrigé dans tes notes — 11 points
+> **Vocabulaire remis au mot du cours**
+> - « Plus les décisions sont **fréquentes** » — tu avais noté « récentes » (§ 5).
+```
+
+Seul le complément hors cours reste marqué dans le corps :
+
+```md
 ➕ *Ex. la boulangerie : farine, eau, électricité, travail et four (**inputs**)
 → pain vendu au comptoir (**output**).*
 ```
 
-La première ligne porte la marque du prof : elle fait autorité, et elle **dit ce
-que les notes disaient**, sans l'effacer. La seconde est un exemple ajouté :
-italique, ➕, et comptée dans `ajouts:`.
-
-En tête de fiche, un encadré rappelle la convention — sans écrire le caractère
+Et l'encadré de tête dit **deux** choses, pas trois — sans écrire le caractère
 ➕, qui serait compté :
 
 ```md
-> [!note] Trois sources dans cette fiche, trois marques
-> Ce qui **n'est pas marqué** vient de tes notes d'amphi.
-> **🎞️** = ce qui vient des **slides de Carole Vigeant** — ça fait autorité.
-> **Un plus vert en tête de ligne** = ce que j'ai ajouté depuis le programme de
-> l'UE : à confirmer en cours. Le frontmatter en donne le compte (`ajouts:`).
+> [!note] Ce qui est du cours, et ce qui ne l'est pas
+> Le corps de la fiche est **le cours** : tes notes et les slides, fondues.
+> Là où elles divergeaient, c'est le mot du prof qui a été retenu — la liste des
+> corrections est en fin de fiche.
+> Seul ce qui **ne vient pas du cours** est marqué : un **plus vert** en tête de
+> ligne. Le frontmatter en donne le compte (`ajouts:`).
 ```
 
 ## Les schémas — un SVG par figure du prof

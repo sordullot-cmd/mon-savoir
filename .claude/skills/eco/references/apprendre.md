@@ -19,6 +19,12 @@ l'information de sa tête fixe le savoir bien plus que de le relire.
 réponses **repliées**. Dans Obsidian, `> [!question]-` (avec le tiret) crée un
 callout fermé : la question est visible, la réponse cachée jusqu'au clic.
 
+**Le bloc doit être long.** Une question par notion réellement traitée, dans
+l'ordre du cours, groupées par partie — c'est ce que Sacha a demandé le
+8 septembre 2026. Une fiche de 13 sections avec huit questions laisse les deux
+tiers du cours sans test : ce sont exactement les deux tiers qu'il ne révisera
+pas.
+
 ```md
 > [!question]- Trois éléments que réunit toute organisation ?
 > Un objectif, une mobilisation d'individus avec des rôles, une structure.

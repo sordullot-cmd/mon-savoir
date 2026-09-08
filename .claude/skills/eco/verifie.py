@@ -210,11 +210,19 @@ def main():
         return NOMBRE.findall(re.sub(r"(?m)^\s*(?:#{1,6}\s+)?\d+[.)]\s+", "", t))
 
     n_av, n_ap = Counter(donnees(c_av)), Counter(donnees(c_ap))
-    manquants = {k: v - n_ap.get(k, 0) for k, v in n_av.items() if v > n_ap.get(k, 0)}
-    if manquants:
-        erreurs.append("chiffres disparus (occurrences) : %s"
+    # ERREUR : une valeur qui n'est plus nulle part dans la page.
+    perdus = sorted(k for k in n_av if k not in n_ap)
+    if perdus:
+        erreurs.append("chiffres disparus de la page : %s" % ", ".join(perdus[:12]))
+    # ALERTE : la valeur est toujours la, mais moins souvent. C'est ce que fait
+    # une fusion de source (le meme seuil n'est plus ecrit deux fois) ; ca se
+    # justifie dans le recap, ca ne bloque pas le passage.
+    moins = {k: v - n_ap.get(k, 0) for k, v in n_av.items()
+             if k in n_ap and v > n_ap[k]}
+    if moins:
+        alertes.append("chiffres moins repetes (toujours presents) : %s"
                        % ", ".join("%s x%d" % (k, v)
-                                   for k, v in sorted(manquants.items())[:12]))
+                                   for k, v in sorted(moins.items())[:10]))
 
     # formules
     m_av, m_ap = maths(c_av), maths(c_ap)
@@ -264,8 +272,15 @@ def main():
 
     v_av, v_ap = cellules_vides(c_av), cellules_vides(c_ap)
     if v_ap < v_av:
-        erreurs.append("%d cellule(s) de suivi remplie(s) à sa place (grilles de "
-                       "scores, essais, notes)" % (v_av - v_ap))
+        tab_perdues = len(lignes_tableau(c_av)) - len(lignes_tableau(c_ap))
+        if tab_perdues > 0:
+            alertes.append("%d cellule(s) vide(s) en moins, mais %d ligne(s) de "
+                           "tableau ont disparu : verifier que c'est bien une "
+                           "fusion, pas une grille remplie"
+                           % (v_av - v_ap, tab_perdues))
+        else:
+            erreurs.append("%d cellule(s) de suivi remplie(s) à sa place (grilles de "
+                           "scores, essais, notes)" % (v_av - v_ap))
 
     # volume
     mo_av, mo_ap = len(c_av.split()), len(c_ap.split())

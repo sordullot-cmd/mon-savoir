@@ -65,31 +65,48 @@ probablement en train d'écrire dedans, on n'écrit pas par-dessus lui.
 
 Quand `etat.py` dit `rien`, le passage s'arrête là — une ligne de récap suffit.
 
-## Trois sources dans une fiche, trois marques — et un ordre d'autorité
+## Le cours est le cours — on ne sépare pas la parole du prof
 
-Depuis le 8 septembre 2026, une fiche peut mélanger trois provenances. Elles ne
-valent pas la même chose, donc elles ne s'écrivent pas pareil. **La marque est
-obligatoire** : sans elle, il réviserait comme parole du prof quelque chose qui
-ne l'est pas.
+Une fiche peut mélanger trois provenances : les **notes d'amphi** de Sacha, les
+**slides et le syllabus** du prof, et les **compléments** tirés du programme.
+Les deux premières sont **la même chose — le cours** : elles se fondent dans un
+texte continu, sans marque, sans « d'après la slide 13 », sans « le prof dit ».
 
-| Source | Marque | Autorité | Ce qu'on en fait |
-| --- | --- | --- | --- |
-| **Slides et syllabus du prof** (PDF déposé par Sacha) | **🎞️** en tête de ligne | **La plus haute** — c'est ce qui sera évalué | S'intègre à sa place dans le cours, ferme les trous, tranche les divergences |
-| **Notes d'amphi de Sacha** | aucune | Ce qu'il a entendu, avec ses fautes de recopie | Se corrige en langue, jamais en contenu |
-| **Compléments** tirés du programme de l'UE | **➕** | La plus basse — à confirmer en cours | Reste marqué tant que le prof ne l'a pas confirmé |
+C'est une correction explicite de Sacha, le 8 septembre 2026 : « j'aime pas le
+fait que les dires ou les phrases du prof soient séparés avec l'emoji, modifie
+juste les défs, les mots manquants, vocabulaire par le bon ». Une fiche hachée
+par des marques de source ne se lit pas comme un cours, et c'est un cours qu'il
+révise.
 
-Trois conséquences pratiques :
+| Source | Dans le corps | Ce qu'on en fait |
+| --- | --- | --- |
+| **Slides et syllabus** | fondues, **sans marque** | La définition remplace la paraphrase, le mot juste remplace le mot approximatif, la phrase coupée est complétée |
+| **Notes d'amphi** | fondues, **sans marque** | Gardées comme squelette ; ce qui diverge du prof est corrigé, pas commenté sur place |
+| **Compléments** hors cours | **➕** | Seule chose encore marquée : ça ne vient d'aucune source du cours |
 
-- **Une divergence notes / slides se signale, elle ne s'écrase pas.** « Tes notes
-  disent *récentes*, la slide dit *fréquentes* » — les deux restent visibles, le
-  mot du prof est mis en avant. Idem pour « immatérielles » contre
-  « informationnelles ».
-- **Un trou fermé par les slides ne disparaît pas** : il passe du bloc
-  `À vérifier` à un bloc `> [!success]- Ce que les slides ont résolu`, avec les
-  deux valeurs en conflit. C'est ce qui lui montre le chemin parcouru — et ça
-  garde les chiffres, que `verifie.py` refuse de voir disparaître.
-- **Un ➕ que les slides confirment** peut rester ➕ (il n'a pas été dit en amphi)
-  mais le récapitulatif le note comme confirmé.
+Ce qui remplace les marques, c'est **un bloc de traçabilité en fin de fiche** :
+
+```md
+> [!success]- Ce que les slides ont corrigé dans tes notes — 11 points
+> Le corps de la fiche est à jour : ces lignes disent seulement ce qui a bougé.
+>
+> **Vocabulaire remis au mot du cours**
+> - Les ressources sont **informationnelles**, pas « immatérielles » (§ 1).
+> **Chiffres tranchés**
+> - ETI : le seuil est < 5 000 salariés, et le nombre d'ETI est 7 442, pas 7400.
+```
+
+Trois règles qui en découlent :
+
+- **On corrige le mot, on ne commente pas la correction dans le cours.**
+  « récentes » devient « fréquentes » à sa place, et la ligne part dans le bloc
+  de traçabilité — pas dans une incise au milieu du paragraphe.
+- **Un trou fermé par les slides sort de `À vérifier`** et rejoint ce bloc, avec
+  les deux valeurs en conflit : ça garde les chiffres, que `verifie.py` refuse
+  de voir disparaître de la page.
+- **Une seule marque survit dans le corps, le ➕.** Il ne signale plus « ce que
+  le prof n'a pas dit mot pour mot » mais « ce qui ne vient d'aucune source du
+  cours » — donc à confirmer en amphi.
 
 **Le compteur `ajouts:` ne compte que les ➕.** Donc le caractère ➕ ne s'écrit
 jamais dans une phrase explicative : on dit « le plus vert en tête de ligne »,
@@ -130,7 +147,8 @@ phrases ne prépare pas à une question qui demande de **refaire le schéma**.
 | Signaler un trou ou une incohérence dans `> [!question] À vérifier` | Corriger un chiffre, une date, un nom d'auteur, une formule |
 | Garder ses exemples et ses remarques (`ex Decathlon`, `licornes : Doctolib`) | Supprimer un exemple au nom de la concision |
 | **Ajouter un exemple simple là où l'explication n'en a aucun**, marqué ➕ et listé dans le récapitulatif comme exemple (pas comme cours) | Faire passer un exemple inventé pour celui du prof, ou en ajouter un là où il y en a déjà un |
-| **Intégrer une slide ou un syllabus déposé par Sacha**, marqué 🎞️, à sa place dans le cours | Recopier un PDF en vrac en fin de fiche : une source non rangée ne se révise pas |
+| **Fondre une slide ou un syllabus déposé par Sacha** dans le texte du cours, à sa place | Recopier un PDF en vrac en fin de fiche, ou hacher le cours en « d'après la slide 13… » |
+| **Corriger un mot ou un chiffre quand la source du prof le tranche**, et le dire dans le bloc de traçabilité | Corriger en silence, sans que Sacha puisse voir ce qui a changé depuis ses notes |
 | **Redessiner en SVG une figure des slides** dans `schemas/` | Inventer un schéma que le prof n'a pas fait |
 | Laisser les tableaux valides tels quels, alignement compris | Reformater un tableau qui marche (`verifie.py` le refuse) |
 | Ajouter un tag déjà utilisé dans le périmètre | Supprimer ou renommer un de ses tags, toucher au reste du frontmatter |
@@ -199,9 +217,9 @@ récapitulatif.
 - **Intégrer une source officielle** — un PDF de slides ou un syllabus déposé
   par Sacha. C'est l'opération qui rapporte le plus après l'intégration d'un
   brut : elle **ferme des trous** au lieu de les signaler. Procédure : extraire
-  le texte du PDF, le confronter section par section à la fiche, poser les 🎞️ à
-  leur place dans le cours, déplacer les trous fermés dans
-  `> [!success]- Ce que les slides ont résolu`, redessiner les figures dans
+  le texte du PDF, le confronter section par section à la fiche, poser le contenu à
+  sa place dans le cours **sans marque de source**, déplacer les trous fermés et
+  les mots corrigés dans `> [!success]- Ce que les slides ont corrigé`, redessiner les figures dans
   `schemas/`, et reporter ce que le syllabus dit du **mode d'évaluation** dans
   la fiche **et** dans [[MCC - Tableau de bord]]. Le plan du syllabus devient la
   nouvelle liste de contrôle des trous, en tête de fiche, séance par séance.
