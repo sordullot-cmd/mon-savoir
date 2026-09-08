@@ -13,7 +13,7 @@ periode: 1
 revu: 2026-09-07
 a_verifier: 13
 cartes: 36
-ajouts: 13
+ajouts: 24
 ---
 
 # 💼 Cours — Introduction à la gestion (UE 12A)
@@ -43,6 +43,8 @@ On peut voir la gestion comme le **management de l'action collective** : c'est c
 
 Le tout **sous contrainte** de temps et de finances. On est obligé de pivoter sous contrainte de temps et de ressources financières, humaines et immatérielles.
 
+➕ *Ex. organiser la soirée de rentrée d'une asso : des bénévoles (ressources **humaines**), un budget (**financières**), une salle et une sono (**matérielles**), la réputation de l'asso (**immatérielles**) — et une date qui ne bouge pas, la contrainte de temps.*
+
 ## 2. Les 3 types d'organisations
 
 - **Entreprises privées** — elles doivent gérer la rentabilité.
@@ -53,6 +55,8 @@ Le tout **sous contrainte** de temps et de finances. On est obligé de pivoter s
 - **Organisations de l'ESS** — ONG, coopérative, association.
 
 **Entreprise publique ou privée ?** Publique : l'État détient **> 50 % du capital** de l'entreprise.
+
+➕ *Ex. un par type : Decathlon (entreprise privée) · le CHU d'Angers (organisation publique, fonction publique hospitalière) · Emmaüs (organisation de l'ESS).*
 
 ## 3. Ce qui fait une organisation, et sa finalité
 
@@ -75,6 +79,8 @@ Ex L'Oréal : finalité d'ordre économique **et** sociétal (se bat contre les 
 - **qui** : quels acteurs, quelle organisation, quelle répartition des rôles
 - **comment** : quelle stratégie
 
+➕ *Ex. ouvrir un nouveau magasin : **quoi** = un local, un stock, une caisse ; **qui** = un responsable et son équipe de vendeurs ; **comment** = s'implanter là où le concurrent n'est pas.*
+
 ## 5. Les différents niveaux de gestion
 
 **Niveau stratégique** — caractéristiques :
@@ -89,6 +95,8 @@ Les décisions de niveau stratégique concernent principalement les **actionnair
 - décisions moins engageantes
 - le cadre ne prend des décisions que dans **son secteur**
 - plus les décisions sont récentes, plus elles sont **réversibles** et proches du terrain
+
+➕ *Ex. dans la même enseigne : « on arrête le catalogue papier » est **stratégique** (long terme, difficile à défaire, ça se décide en haut) ; « je mets deux personnes de plus en caisse samedi » est **opérationnel** (le chef de rayon, cette semaine, réversible lundi).*
 
 ## 6. La stratégie
 
@@ -113,6 +121,8 @@ Ex Renault : va-t-on investir dans l'innovation électrique ? → plan à 5 ans.
 2. **produire**
 3. **vendre** — où est-ce que je vais vendre mon produit ?
 4. **administrer**
+
+➕ *Ex. le **make or buy** de l'étape 1 : une marque de baskets dessine son modèle, puis choisit de le faire fabriquer par un sous-traitant (**buy**) plutôt que d'ouvrir sa propre usine (**make**).*
 
 ### Les deux autres cycles, ceux de la gestion
 
@@ -176,6 +186,8 @@ On les sépare souvent en fonctions **opérationnelles** (celles qui produisent 
 
 Autrement dit : ce que l'entreprise a créé **en propre**, une fois retiré ce qu'elle a acheté à d'autres pour le produire.
 
+➕ *Ex. chiffré : une boulangerie vend 200 000 € de pain dans l'année et achète 60 000 € de farine, de levure et d'énergie. Valeur ajoutée = 200 000 − 60 000 = **140 000 €**. C'est cette somme-là, et pas le chiffre d'affaires, qui se partage entre les cinq postes ci-dessous.*
+
 Son partage, poste par poste :
 
 - **salariés** → salaires et cotisations
@@ -193,6 +205,8 @@ Son partage, poste par poste :
 - **Pertinence** — les moyens engagés correspondent-ils aux objectifs visés ? (moyens ⁄ objectifs)
 
 On y ajoute parfois l'**économie** : obtenir les ressources au meilleur coût, en amont de l'action.
+
+➕ *Ex. les trois sur le même cas — objectif : livrer 1 000 commandes dans le mois. Les 1 000 sont livrées → **efficace**. Il a fallu doubler l'équipe et payer des heures supplémentaires → **pas efficient**. Et si les clients ne demandaient pas une livraison si rapide, l'objectif lui-même était **peu pertinent**.*
 
 ## 9. Le principe du développement durable
 
@@ -219,11 +233,15 @@ C'est un ensemble lié de manières de penser, de sentir et d'agir, plus ou moin
 
 Elle s'acquiert, elle s'apprend.
 
+➕ *Ex. le tutoiement jusqu'au directeur, le pot d'arrivée d'un nouveau, la réunion du lundi matin : rien n'est écrit nulle part, tout le monde le fait — et un nouvel arrivant l'a appris en trois semaines, sans qu'on le lui dise.*
+
 ### c) (3/3) La technologie
 
 Il y a des **process** et des **systèmes techniques**. On mobilise des matières premières, du travail, des moyens de production.
 
 **L'entreprise est un système qui transforme les inputs en outputs**, via des systèmes de transformation.
+
+➕ *Ex. la boulangerie encore : farine, eau, électricité, travail du boulanger et four (**inputs**) → pain vendu au comptoir (**output**). Le système de transformation, c'est le pétrissage et la cuisson.*
 
 ## 11. Classement des entreprises
 
@@ -237,6 +255,8 @@ Trois critères : la **taille**, le **secteur d'activité**, le **statut juridiq
 | **PME** | < 250 salariés et < 50 millions de CA | 3,4 % = 174 614 | 29 % |
 | **ETI** | 5 000 salariés et 15000 M | 0,14 % = 7 442 — **ou 7400** ⚠️ deux valeurs dans tes notes | 26 % |
 | **GE** | > 5 000 salariés ou CA | | |
+
+➕ *Ex. un par catégorie : un graphiste à son compte (micro-entreprise) · une PME industrielle de 80 salariés · Carrefour ou Renault (grande entreprise).*
 
 ### b) Selon le secteur d'activité
 
@@ -307,6 +327,8 @@ La **loi du 14 février** en faveur de l'activité professionnelle indépendante
 | Gestion des compétences | Productivité plus limitée |
 | Enjeux de productivité | Participation du client à la production |
 | Concurrence internationale | Tensions de recrutement |
+
+➕ *Ex. une usine automobile face à un coiffeur : la voiture se stocke et s'exporte, la coupe ne se stocke pas, ne s'exporte pas, et le client doit être présent pendant la production.*
 
 ### c) Le secteur public
 
@@ -428,6 +450,17 @@ RSE, definition ? ; La prise en charge par l'entreprise des consequences sociale
 Secteur vs branche ? ; Le secteur classe des entreprises selon leur activite principale ; la branche classe des productions d'un meme produit ; gestion 12A complement
 ```
 
+## 🔄 Comment réviser cette fiche
+
+*Méthode de révision, pas du cours. Les études qui la fondent sont dans [[Methode - Comment reviser]].*
+
+1. **Se tester, pas relire** — le bloc [[#✅ Contrôle]] ci-dessous, à voix haute, avant d'ouvrir la réponse. À une semaine : 61 % de rétention en se testant, 40 % en relisant.
+2. **Jusqu'à 3 rappels corrects** — une question n'est acquise qu'après **trois** réponses justes, pas une.
+3. **Puis 3 réapprentissages espacés** — intervalle ≈ **10 à 20 % du délai** avant l'épreuve : à six semaines, tous les 4 à 8 jours. Rétention à 1 mois : 68 % contre ~11 % sans.
+4. **Les cartes du bloc 🃏 partent dans Anki dès la première session** — l'épreuve est faite de **définitions** (voir l'encadré en tête de fiche), et c'est Anki qui tient l'espacement à ta place.
+5. **Entrelace** — révise cette fiche mélangée aux autres UE, pas en bloc : le jour de l'épreuve, les questions ne sont pas étiquetées (61 % contre 38 % au test).
+6. **Avant le prochain amphi** — lis les questions de Contrôle portant sur ce qui n'a pas encore été traité, et plante-toi : c'est du *pretesting*, et ça prépare l'écoute.
+
 ## ✅ Contrôle
 
 Réponds à voix haute, puis ouvre la réponse.
@@ -501,7 +534,7 @@ Sur les compléments (pas dans tes notes, mais au programme) :
 
 ## Ce que j'ai complété
 
-> [!info] Ces 13 ajouts ne viennent pas de tes notes
+> [!info] Ces 24 ajouts ne viennent pas de tes notes — 13 compléments de cours, 11 exemples
 > Tu m'as demandé d'ajouter les informations capitales manquantes. Chacune est marquée **➕** à sa place dans la fiche, et listée ici pour que tu puisses la confronter à ton cours. La liste des trous vient du **programme officiel de l'UE 12A**, dans [[Cycle 3 - Gestion et debats]].
 >
 > **Points du programme totalement absents de tes notes**
@@ -518,6 +551,19 @@ Sur les compléments (pas dans tes notes, mais au programme) :
 > - **Secteur contre branche** (À ne pas confondre) — la définition que tes notes posaient sans la donner.
 > - **Efficacité contre efficience** (À ne pas confondre) — la paire qui va avec les notions de performance.
 > - **Les seuils INSEE de l'ETI** (§ 11a) — donnés **à côté** de ta ligne, pas à sa place, pour que tu voies l'écart.
+>
+> **Exemples ajoutés pour illustrer** — aucun n'est un exemple du prof : ce sont des cas simples pour accrocher la notion, à remplacer par les siens dès qu'il en donne.
+> - **Les quatre ressources** (§ 1) — la soirée d'asso.
+> - **Les trois types d'organisations** (§ 2) — Decathlon, le CHU d'Angers, Emmaüs.
+> - **Quoi / qui / comment** (§ 4) — l'ouverture d'un magasin.
+> - **Stratégique contre opérationnel** (§ 5) — le catalogue papier contre le planning de caisse.
+> - **Make or buy** (§ 7) — la marque de baskets et son sous-traitant.
+> - **La valeur ajoutée** (§ 8) — la boulangerie, 200 000 − 60 000 = 140 000 €. Les chiffres sont inventés pour le calcul.
+> - **Efficacité / efficience / pertinence** (§ 8) — les 1 000 commandes livrées.
+> - **La culture d'entreprise** (§ 10b) — le tutoiement et le pot d'arrivée.
+> - **Inputs → outputs** (§ 10c) — la boulangerie.
+> - **Les catégories de taille** (§ 11a) — du graphiste à son compte à Carrefour.
+> - **Biens contre services** (§ 12b) — l'usine automobile et le coiffeur.
 > - **12 cartes Anki** tirées de ces compléments, taguées `complement` pour que tu puisses les suspendre si ton prof ne les a pas traitées.
 >
 > **Ce que je n'ai pas comblé, faute de pouvoir le deviner** : ce qui est resté sur ton cahier, les deux phrases coupées, le deuxième niveau de la culture d'entreprise, et les points essentiels au-delà du n° 1. Ils restent dans le bloc ci-dessus.

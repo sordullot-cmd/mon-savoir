@@ -13,7 +13,7 @@ statut: à faire
 # 📈 Cours — Les contributions à la croissance
 
 **Module A6 du [[Cycle 0 - Fondations|cycle 0]] · ≈ 1 h de cours + 1 h d'exercices**
-🏋️ [[Fiche exos - Modules A C E#Contributions à la croissance (21 à 25)|série A-II, items 21 à 25]] · 🏠 [[00 - Plan L1 Angers]]
+🏋️ [[Fiche exos - Modules A C E#Contributions à la croissance (21 à 25)|série A-II, items 21 à 25]] · 🏠 [[00 - Plan L1 Angers]] · 🧠 [[Methode - Comment reviser]]
 
 ---
 
@@ -228,6 +228,16 @@ $$\text{Part dans la croissance} = \frac{\text{contribution du poste}}{\text{cro
 
 ---
 ---
+
+## 🔄 Comment réviser cette fiche
+
+*Méthode de révision, pas du cours. Le détail des études est dans [[Methode - Comment reviser]].*
+
+1. **Refaire, pas relire** — [[#✅ Exercices d'application|les exercices d'application ci-dessous]], sans notes. Se tester retient **61 %** du contenu à une semaine, contre **40 %** en relisant.
+2. **Jusqu'à 3 réussites de suite** sur un même type d'exercice — une réussite isolée ne veut pas dire acquis.
+3. **Puis 3 reprises espacées** — intervalle ≈ **10 à 20 % du délai** avant l'épreuve : à six semaines, tous les 4 à 8 jours. Ce sont exactement les colonnes « Essai 1 / 2 / 3 » de [[Fiche exos - Modules A C E]].
+4. **Mélange les types d'exercices** — c'est ici que ça compte le plus : 61 % en pratique entrelacée contre 38 % en pratique bloquée (d = 0,83). Enchaîner dix exercices du même type n'entraîne que l'exécution ; en examen, l'énoncé ne dit pas quelle méthode appliquer.
+5. **Attaque un exercice avant d'avoir relu la méthode — te tromper d'abord rend la lecture qui suit nettement plus efficace (*pretesting*). Et cette fiche se révise **mélangée** à [[Cours - Indices et deflation]] : les deux se ressemblent assez pour se confondre le jour J.**
 
 ## ✅ Exercices d'application
 

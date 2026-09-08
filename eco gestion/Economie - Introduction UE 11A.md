@@ -17,7 +17,7 @@ cartes: 0
 # 📘 Cours — Introduction à l'économie (UE 11A)
 
 **Coef 3 · CT écrit 1 h · période 1 ⚠️ · 18 h de CM, pas de TD**
-🏠 [[00 - Plan L1 Angers]] · [[Cycle 1 - Moteur economique]]
+🏠 [[00 - Plan L1 Angers]] · [[Cycle 1 - Moteur economique]] · 🧠 [[Methode - Comment reviser]]
 📓 Notes d'amphi d'origine : `_brut/introduction a l'economie.md` · Moodle : clé 31538 / clé s9adntd
 
 > [!warning] Fiche presque vide — et c'est l'information utile
@@ -29,6 +29,12 @@ cartes: 0
 > - la **logique de raisonnement** économique et les mécanismes de base
 >
 > Autrement dit : un tour d'horizon.
+
+## 🔄 Comment réviser cette fiche
+
+*Méthode de révision, pas du cours — le détail est dans [[Methode - Comment reviser]].*
+
+Sans contenu, une seule technique s'applique, et c'est la bonne à ce stade : **se tester avant d'apprendre**. Va chercher une annale sur Moodle et réponds **avant** d'avoir le cours. Se tromper n'est pas perdu : l'attention se fixe ensuite sur ce qui a été pré-testé.
 
 ## ✅ Contrôle
 

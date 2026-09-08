@@ -12,7 +12,7 @@ statut: à faire
 # 📘 Cours — Tableaux de signes et inéquations
 
 **Module A3 du [[Cycle 0 - Fondations|cycle 0]] · ≈ 1 h 30 de cours + 1 h d'exercices**
-🏋️ [[Fiche exos - Modules A C E]] (items A-I 14 à 20) · 🏠 [[00 - Plan L1 Angers]]
+🏋️ [[Fiche exos - Modules A C E]] (items A-I 14 à 20) · 🏠 [[00 - Plan L1 Angers]] · 🧠 [[Methode - Comment reviser]]
 
 ---
 
@@ -311,6 +311,16 @@ Trois facteurs, déjà factorisés. **Ne développe surtout pas** — tu obtiend
 > Un produit ne change de signe qu'où un facteur s'annule. **Tout le reste n'est que mise en page.**
 
 ---
+
+## 🔄 Comment réviser cette fiche
+
+*Méthode de révision, pas du cours. Le détail des études est dans [[Methode - Comment reviser]].*
+
+1. **Refaire, pas relire** — [[#✅ Auto-test — 10 minutes, sans notes|l'auto-test ci-dessous]], sans notes. Se tester retient **61 %** du contenu à une semaine, contre **40 %** en relisant.
+2. **Jusqu'à 3 réussites de suite** sur un même type d'exercice — une réussite isolée ne veut pas dire acquis.
+3. **Puis 3 reprises espacées** — intervalle ≈ **10 à 20 % du délai** avant l'épreuve : à six semaines, tous les 4 à 8 jours. Ce sont exactement les colonnes « Essai 1 / 2 / 3 » de [[Fiche exos - Modules A C E]].
+4. **Mélange les types d'exercices** — c'est ici que ça compte le plus : 61 % en pratique entrelacée contre 38 % en pratique bloquée (d = 0,83). Enchaîner dix exercices du même type n'entraîne que l'exécution ; en examen, l'énoncé ne dit pas quelle méthode appliquer.
+5. **Panache les exercices 14 à 20 avec ceux de [[Cours - Trouver le signe, toutes les methodes]] plutôt que de les faire dans l'ordre : c'est le choix de la méthode qui s'entraîne, pas le tableau lui-même.**
 
 ## ✅ Auto-test — 10 minutes, sans notes
 

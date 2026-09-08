@@ -9,7 +9,7 @@ tags:
 > [!abstract] Comment lire cette page
 > Elle se remplit toute seule à partir du frontmatter des fiches : rien à tenir à jour à la main. `Trous` = le nombre de points listés dans le bloc **À vérifier / à récupérer** de la fiche — c'est là qu'il y a des points à perdre.
 
-🏠 [[00 - Plan L1 Angers]] · 📋 [[MCC - Tableau de bord]] · 🃏 [[Anki - Formules et definitions C0-C1]] · 🔗 [[Ressources - Bibliotheque de liens]]
+🏠 [[00 - Plan L1 Angers]] · 📋 [[MCC - Tableau de bord]] · 🃏 [[Anki - Formules et definitions C0-C1]] · 🔗 [[Ressources - Bibliotheque de liens]] · 🧠 [[Methode - Comment reviser]]
 
 ---
 

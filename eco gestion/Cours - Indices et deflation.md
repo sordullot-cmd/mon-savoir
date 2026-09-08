@@ -13,7 +13,7 @@ statut: à faire
 # 📊 Cours — Indices et déflation
 
 **Module A7 du [[Cycle 0 - Fondations|cycle 0]] · ≈ 1 h 30 de cours + 1 h 30 d'exercices**
-🏋️ [[Fiche exos - Modules A C E#SÉRIE A-III — Indices et déflation|série A-III]] · 🏠 [[00 - Plan L1 Angers]]
+🏋️ [[Fiche exos - Modules A C E#SÉRIE A-III — Indices et déflation|série A-III]] · 🏠 [[00 - Plan L1 Angers]] · 🧠 [[Methode - Comment reviser]]
 
 ---
 
@@ -365,6 +365,16 @@ L'écart est ici modeste — **0,6 point** — parce que les mouvements de quant
 > On multiplie par $\frac{100}{\text{indice de la nouvelle base}}$. **La vérification** : dans la nouvelle série, l'année de base doit valoir exactement 100, et les variations entre années doivent être inchangées.
 
 ---
+
+## 🔄 Comment réviser cette fiche
+
+*Méthode de révision, pas du cours. Le détail des études est dans [[Methode - Comment reviser]].*
+
+1. **Refaire, pas relire** — [[#✅ Exercices d'application|les exercices d'application ci-dessous]], sans notes. Se tester retient **61 %** du contenu à une semaine, contre **40 %** en relisant.
+2. **Jusqu'à 3 réussites de suite** sur un même type d'exercice — une réussite isolée ne veut pas dire acquis.
+3. **Puis 3 reprises espacées** — intervalle ≈ **10 à 20 % du délai** avant l'épreuve : à six semaines, tous les 4 à 8 jours. Ce sont exactement les colonnes « Essai 1 / 2 / 3 » de [[Fiche exos - Modules A C E]].
+4. **Mélange les types d'exercices** — c'est ici que ça compte le plus : 61 % en pratique entrelacée contre 38 % en pratique bloquée (d = 0,83). Enchaîner dix exercices du même type n'entraîne que l'exécution ; en examen, l'énoncé ne dit pas quelle méthode appliquer.
+5. **Alterne avec [[Cours - Contributions a la croissance]] dans la même session : savoir **reconnaître** lequel des deux calculs t'est demandé vaut plus de points que de savoir les faire séparément.**
 
 ## ✅ Exercices d'application
 

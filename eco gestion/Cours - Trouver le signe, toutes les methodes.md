@@ -11,7 +11,7 @@ statut: à faire
 # 🔍 Cours — Trouver le signe : toutes les méthodes
 
 **Complément du [[Cours - Tableaux de signes et inequations|cours sur les tableaux de signes]]**
-🏋️ [[Fiche exos - Modules A C E]] · 🏠 [[00 - Plan L1 Angers]]
+🏋️ [[Fiche exos - Modules A C E]] · 🏠 [[00 - Plan L1 Angers]] · 🧠 [[Methode - Comment reviser]]
 
 > [!abstract] Ce que tu vas apprendre ici
 > Il n'existe **pas une** façon de trouver un signe, mais **quatre méthodes universelles** et **onze règles selon le type d'expression**.
@@ -330,6 +330,16 @@ $x^2 + e^x + 1$ : somme de $\geq 0$, de $>0$ et de $>0$ → **strictement positi
 > La méthode 2 est celle qu'on te demande de **rédiger**, la méthode 4 celle qui te fait **gagner du temps**, et la méthode 1 celle qui t'évite de **rendre une bêtise**.
 
 ---
+
+## 🔄 Comment réviser cette fiche
+
+*Méthode de révision, pas du cours. Le détail des études est dans [[Methode - Comment reviser]].*
+
+1. **Refaire, pas relire** — [[#✅ Auto-test — 12 minutes|l'auto-test ci-dessous]], sans notes. Se tester retient **61 %** du contenu à une semaine, contre **40 %** en relisant.
+2. **Jusqu'à 3 réussites de suite** sur un même type d'exercice — une réussite isolée ne veut pas dire acquis.
+3. **Puis 3 reprises espacées** — intervalle ≈ **10 à 20 % du délai** avant l'épreuve : à six semaines, tous les 4 à 8 jours. Ce sont exactement les colonnes « Essai 1 / 2 / 3 » de [[Fiche exos - Modules A C E]].
+4. **Mélange les types d'exercices** — c'est ici que ça compte le plus : 61 % en pratique entrelacée contre 38 % en pratique bloquée (d = 0,83). Enchaîner dix exercices du même type n'entraîne que l'exécution ; en examen, l'énoncé ne dit pas quelle méthode appliquer.
+5. **Tire une expression au hasard sans regarder de quelle famille elle relève, puis choisis ta méthode : c'est tout l'enjeu de cette fiche, et c'est ce que fait l'examen.**
 
 ## ✅ Auto-test — 12 minutes
 
