@@ -23,6 +23,7 @@ Retour au [[00 - Plan L1 Angers|plan général]].
 | **11B** Principes de macroéconomie | 24 | 18 | 5 | **5** | CT **2 h** (3) + **CC (2)** | P4 | [[Cycle 1 - Moteur economique\|C1]] |
 | **11C** Principes de microéconomie | 24 | 18 | 5 | **5** | CT **2 h** (3) + **CC (2)** | P4 | [[Cycle 1 - Moteur economique\|C1]] |
 | **12A** Introduction à la gestion | 18 | — | 3 | 3 | CT écrit **1 h 30** (3) | **P1** | [[Cycle 3 - Gestion et debats\|C3]] |
+| ↳ *détail du syllabus (Carole Vigeant)* | | | | | **QCM + questions de cours + sujet de réflexion** | | [[Gestion - Introduction UE 12A\|fiche]] |
 | **12B** Management et théorie des organisations | 24 | 18 | 5 | **5** | CT **2 h** (3) + **CC (2)** | P3 | [[Cycle 3 - Gestion et debats\|C3]] |
 | **12C** Principes de marketing | 20 | — | 3 | 3 | CT écrit **2 h** (3) | P4 | [[Cycle 3 - Gestion et debats\|C3]] |
 | **13A** Problèmes économiques contemporains | 18 | — | 3 | 3 | CT écrit **2 h** (3) | **P1** | [[Cycle 3 - Gestion et debats\|C3]] |

@@ -5,14 +5,16 @@ tags:
   - gestion
   - cours
 source: _brut/gestion.md
+slides: IG_Seance1-2_MAJ__2026.pdf
+enseignant: Carole Vigeant
 notion: Introduction à la gestion — organisations, stratégie, classements, contextes
 ue: 12A
 statut: à faire
 coef: 3
 periode: 1
-revu: 2026-09-07
-a_verifier: 13
-cartes: 36
+revu: 2026-09-08
+a_verifier: 8
+cartes: 51
 ajouts: 24
 ---
 
@@ -22,9 +24,18 @@ ajouts: 24
 🏠 [[00 - Plan L1 Angers]] · [[Cycle 3 - Gestion et debats]] · 🃏 [[Anki - Formules et definitions C0-C1]]
 📓 Notes d'amphi d'origine : `_brut/gestion.md` · Moodle : clé n 31538 / clé : s9adnt
 
+🎞️ Slides du prof : `IG_Seance1-2_MAJ__2026.pdf` — séances 1 et 2, chapitre 1 · 👤 **Carole Vigeant** · carole.vigeant@univ-angers.fr · bureau 206
+
+> [!note] Trois sources dans cette fiche, trois marques
+> Ce qui **n'est pas marqué** vient de tes notes d'amphi.
+> **🎞️** = ce qui vient des **slides de Carole Vigeant** — ça fait autorité, c'est mot pour mot ce qui sera évalué.
+> **Un plus vert en tête de ligne** = ce que j'ai ajouté depuis le programme de l'UE, avant d'avoir les slides : à confirmer en cours. Le frontmatter en donne le compte (`ajouts:`).
+
 > [!danger] Ce qui est évalué, et donc comment réviser
 > D'après [[Cycle 3 - Gestion et debats]], l'épreuve est faite de **définitions et de restitution structurée**, pas de dissertation. Deux conséquences : le **vocabulaire passe avant tout** (bloc `Cartes à créer`), et les **paires voisines** sont là où se perdent les points (bloc `À ne pas confondre`).
 > Coef 3, et ça tombe en **période 1** : c'est l'une des premières notes de l'année.
+
+> 🎞️ **Le syllabus tranche sur l'épreuve** : évaluation finale comprenant un **QCM**, des **questions de cours** et un **sujet de réflexion**. Trois formats, trois préparations : le QCM sanctionne le vocabulaire exact et les chiffres, les questions de cours la restitution structurée, le sujet de réflexion l'argumentation. En séance, des **QCM Wooclap** servent d'entraînement — ce sont des questions d'examen déguisées, prends-les au sérieux.
 
 > [!abstract] L'essentiel
 > - Gérer = mobiliser des ressources (humaines, financières, matérielles, immatérielles) pour atteindre un objectif, sous contrainte de temps et d'argent — d'où l'obligation de pivoter.
@@ -35,6 +46,27 @@ ajouts: 24
 
 ---
 
+## 🎞️ Le plan officiel du cours — et où tu en es
+
+🎞️ *Syllabus de Carole Vigeant, « Initiation à la Gestion », 18 h de CM, aucun prérequis. C'est **la liste de contrôle** de ce que l'épreuve peut demander : tout ce qui n'y est pas coché est un trou à combler.*
+
+**Ce que tu dois savoir faire à la fin** : acquérir des connaissances sur la gestion d'une entreprise · **situer l'entreprise dans son environnement macro et micro** · **utiliser des outils de diagnostic** dans une démarche stratégique · **effectuer des calculs simples de gestion**. Objectif affiché à court terme : être prêt pour les **stages** de la formation.
+
+| Partie | Séance | Contenu | Où tu en es |
+|---|---|---|---|
+| **I.** L'entreprise, ses finalités, ses fonctions et leurs articulations | 1 | Typologie des organisations, place de la gestion | ✅ cette fiche |
+| | 2 | L'entreprise | ✅ cette fiche |
+| | 3 | Les principales fonctions au sein de l'entreprise (1) | ⬜ à venir — le § 8 l'anticipe, hors slides |
+| | 4 | Les principales fonctions au sein de l'entreprise (2) | ⬜ à venir |
+| **II.** L'entreprise, son environnement et sa stratégie | 5 | L'environnement macro et micro | ⬜ à venir |
+| | 6 | Les outils de l'analyse stratégique | ⬜ à venir |
+| | 7 | Les stratégies *corporate* | ⬜ à venir |
+| | 8 | Les stratégies *business* | ⬜ à venir |
+| **III.** L'entreprise, son marché et sa performance | 9 | Création de valeur par et pour les différents acteurs | ⬜ à venir — le § 8 l'anticipe, hors slides |
+| | 10 | Financement des activités et internationalisation | ⬜ à venir |
+
+🎞️ **Les mots-clés du syllabus** — ceux qui ne sont pas encore dans cette fiche sont les notions à guetter : profit, RSE, forme juridique, fonctions de l'entreprise, **chaîne de la valeur**, démarche stratégique, **Business Model Wheel**, innovation, **financement des activités**, **BFR**, **internationalisation**.
+
 ## 1. Gérer, c'est mobiliser des ressources
 
 On mobilise des ressources : **humaines, financières, matérielles, immatérielles**.
@@ -42,6 +74,14 @@ On mobilise des ressources : **humaines, financières, matérielles, immatériel
 On peut voir la gestion comme le **management de l'action collective** : c'est ce qui permet de répartir les tâches.
 
 Le tout **sous contrainte** de temps et de finances. On est obligé de pivoter sous contrainte de temps et de ressources financières, humaines et immatérielles.
+
+🎞️ **La définition à recopier telle quelle** : « Gestion (nom commun) : **action ou manière de gérer, d'administrer, d'organiser** quelque chose, **en mobilisant des ressources**. » Les trois verbes du prof : **organiser · administrer · mobiliser des ressources**.
+
+🎞️ **La gestion n'est pas réservée à l'entreprise** — première phrase du cours : elle concerne **toute forme d'organisation**, administration, association, ONG, aussi bien que PME ou grand groupe. Dès qu'un collectif poursuit un but commun, il faut décider **qui fait quoi, avec quels moyens, selon quelles règles**.
+
+🎞️ Les ressources listées par le prof : **humaines, financières, matérielles ou informationnelles** (et « technologiques » à la slide 12). Tes notes disent « immatérielles » — c'est **informationnelles** sur la slide, et un QCM peut jouer là-dessus.
+
+🎞️ **Le double intérêt** annoncé en ouverture : **professionnel** (quel que soit ton métier, tu évolueras dans une organisation et en piloteras une partie) et **citoyen** (comprendre les entreprises, mais aussi les services publics et les associations qui structurent le quotidien).
 
 ➕ *Ex. organiser la soirée de rentrée d'une asso : des bénévoles (ressources **humaines**), un budget (**financières**), une salle et une sono (**matérielles**), la réputation de l'asso (**immatérielles**) — et une date qui ne bouge pas, la contrainte de temps.*
 
@@ -55,6 +95,15 @@ Le tout **sous contrainte** de temps et de finances. On est obligé de pivoter s
 - **Organisations de l'ESS** — ONG, coopérative, association.
 
 **Entreprise publique ou privée ?** Publique : l'État détient **> 50 % du capital** de l'entreprise.
+
+🎞️ **Le tableau du prof — et l'ESS y est plus large que dans tes notes :**
+
+| Organisations publiques | Entreprises (publiques ou privées) | Organisations de l'ESS (à but non lucratif) |
+|---|---|---|
+| Ministères · organisation territoriale · **Sécurité sociale** · **Éducation nationale** · hôpitaux | Publiques : l'État détient **> 50 % du capital** · privées : la grande majorité des entreprises | Associations · coopératives · **mutuelles** · **syndicats** · **fondations** (loi du 31 juillet 2014) |
+
+🎞️ **L'illustration de la séance 1 — Emmaüs Solidarité** (franceinfo, avril 2026). « Après la Croix-Rouge, c'est au tour d'Emmaüs Solidarité de lancer un appel à l'aide » : la flambée des prix du carburant, liée au conflit au Moyen-Orient, pèse sur le budget de fonctionnement des associations d'aide aux personnes sans-abri, et le directeur général demande que le **secteur associatif** soit intégré aux aides déjà accordées aux transporteurs, agriculteurs et pêcheurs. En **2025**, la France compte **1,6 million d'associations actives**, avec des subventions publiques en baisse.
+> **À retenir, mot pour mot du prof** : comme les entreprises, les associations doivent **gérer des ressources rares** (dons, subventions, bénévoles) pour remplir leur mission. C'est le meilleur exemple à ressortir dans un sujet de réflexion.
 
 ➕ *Ex. un par type : Decathlon (entreprise privée) · le CHU d'Angers (organisation publique, fonction publique hospitalière) · Emmaüs (organisation de l'ESS).*
 
@@ -73,6 +122,10 @@ La **finalité** d'une organisation peut être :
 
 Ex L'Oréal : finalité d'ordre économique **et** sociétal (se bat contre les violences faites aux femmes, crée des emplois). Aujourd'hui les entreprises tendent à aller vers des finalités sociétales.
 
+🎞️ L'exemple du prof pour l'**objectif** est **Facebook : connecter les gens** — garde les deux, Decathlon et Facebook. Et la **structure** y est définie comme ce qui **oriente le comportement des individus**, le **personnel** comme des individus qui **s'approprient** le but.
+
+🎞️ Slide 11 : dans toute organisation, **la direction fixe les objectifs, organise le collectif, définit les tâches et contrôle** — ce sont autant d'**actes de gestion**.
+
 ## 4. Déployer des ressources pour atteindre ses objectifs
 
 - **quoi** : quelles ressources mobiliser
@@ -80,6 +133,8 @@ Ex L'Oréal : finalité d'ordre économique **et** sociétal (se bat contre les 
 - **comment** : quelle stratégie
 
 ➕ *Ex. ouvrir un nouveau magasin : **quoi** = un local, un stock, une caisse ; **qui** = un responsable et son équipe de vendeurs ; **comment** = s'implanter là où le concurrent n'est pas.*
+
+🎞️ Le **comment** du prof est plus large que « la stratégie » : **quelles méthodes, quels outils, quel pilotage ?** Et le **quoi** liste cinq familles de ressources : financières, humaines, matérielles, **technologiques**, **informationnelles**.
 
 ## 5. Les différents niveaux de gestion
 
@@ -98,6 +153,8 @@ Les décisions de niveau stratégique concernent principalement les **actionnair
 
 ➕ *Ex. dans la même enseigne : « on arrête le catalogue papier » est **stratégique** (long terme, difficile à défaire, ça se décide en haut) ; « je mets deux personnes de plus en caisse samedi » est **opérationnel** (le chef de rayon, cette semaine, réversible lundi).*
 
+🎞️ **La formule exacte de la slide 13** : « plus on descend vers l'opérationnel, plus les décisions sont **fréquentes, réversibles et proches du terrain** ». Tes notes ont « plus les décisions sont **récentes** » — c'est **fréquentes**. Un mot pour l'autre, et la phrase ne veut plus rien dire.
+
 ## 6. La stratégie
 
 Le mot vient d'abord de la **guerre**.
@@ -115,6 +172,14 @@ réflexion stratégique  →  plan LMT  →  lettre de cadrage  →  BUDGET
 
 Ex Renault : va-t-on investir dans l'innovation électrique ? → plan à 5 ans.
 
+🎞️ **Le trou de tes notes est comblé** — « c'et un jeu de compétition télévisions » était la **seconde illustration** de la slide 14, « la stratégie : un mot à toutes les sauces » :
+> - **Napoléon à Waterloo** — une bataille militaire : conquérir un territoire malgré l'adversaire.
+> - **Un jeu de compétition télévisé** — gagner malgré les autres candidats, dans un cadre qui change sans cesse.
+>
+> Les deux mènent à la définition que tu avais notée : parvenir à son objectif **malgré la volonté de l'autre**, dans des circonstances éminemment variables.
+
+🎞️ La chaîne `réflexion stratégique → plan LMT → lettre de cadrage → budget` est intitulée **« stratégique et opérationnel : la chaîne de pilotage »** chez le prof, et la définition de Chandler y est attribuée à **A. D. Chandler**.
+
 ## 7. Le cycle de produit
 
 1. **concevoir** — *make or buy*
@@ -123,6 +188,14 @@ Ex Renault : va-t-on investir dans l'innovation électrique ? → plan à 5 ans.
 4. **administrer**
 
 ➕ *Ex. le **make or buy** de l'étape 1 : une marque de baskets dessine son modèle, puis choisit de le faire fabriquer par un sous-traitant (**buy**) plutôt que d'ouvrir sa propre usine (**make**).*
+
+🎞️ **L'exemple du prof est le smartphone**, et chaque étape porte des métiers — c'est ce tableau qui fait le lien avec les fonctions de l'entreprise (séances 3 et 4) :
+
+| 1. Concevoir | 2. Produire | 3. Vendre | 4. Administrer |
+|---|---|---|---|
+| R&D / marketing · bureau d'études · méthodes · implantations · achats | programmation / appros · fabrication · maintenance · gestion des magasins · qualité | communication · vente · réseau de distribution · logistique · après-vente | recrutement · formation · paie · juridique · audit · comptabilité client et fournisseurs · trésorerie · facturation |
+
+🎞️ **Pilotage transversal** : la **direction générale** et le **contrôle de gestion** traversent les quatre étapes — ils ne sont pas une cinquième étape, c'est le piège classique.
 
 ### Les deux autres cycles, ceux de la gestion
 
@@ -146,6 +219,11 @@ Une entreprise :
 - en augmentant le bien-être de la population
 
 Les mots à replacer : organisation · stratégie, tactique, action · clients-usagers → marché · biens ou services · bénéfices.
+
+🎞️ **La définition classique, mot pour mot** : « Une entreprise est une **organisation animée par un projet** décliné en **stratégie, en politiques et en plans d'action**, dont le but est de **produire et de vendre des biens ou des services** à destination d'un ensemble de **clients (ou usagers)**, tout en réalisant un **bénéfice**. »
+
+🎞️ **La définition élargie — l'entreprise « développement durable »** : la même phrase, plus « **tout en préservant les ressources de la planète et en augmentant le bien-être de la population** ».
+> C'est ce que ta liste de six tirets mélangeait : les **quatre premiers** sont la définition classique, les **deux derniers** sont l'élargissement. En examen, savoir laquelle des deux on te demande vaut des points.
 
 ### Les fonctions de l'entreprise
 
@@ -212,6 +290,14 @@ On y ajoute parfois l'**économie** : obtenir les ressources au meilleur coût, 
 
 > *Un mode de développement qui répond aux besoins du présent sans compromettre la capacité des générations à répondre aux leurs.*
 
+🎞️ La citation est celle du **rapport Brundtland, 1987**, et le prof écrit « la capacité des générations **futures** à répondre aux leurs ».
+
+🎞️ **Le schéma des trois cercles** qui l'accompagne — à savoir refaire, c'est une question de QCM idéale :
+
+| Environnement + Social | Économie + Social | Économie + Environnement | Les trois ensemble |
+|---|---|---|---|
+| **vivable** | **équitable** | **viable** | **DURABLE** |
+
 - **développement durable** : terme d'économie
 - **RSE** : terme de gestion
 
@@ -227,11 +313,19 @@ On y ajoute parfois l'**économie** : obtenir les ressources au meilleur coût, 
 
 **Structure informelle** : les relations réelles entre les membres, qui ne suivent pas toujours l'organisation formelle. Elle finit en affinités, réseaux d'entraide, circuits d'information informels — ex la place des étudiants en cours.
 
+🎞️ Le prof ajoute à la structure formelle la **coordination et la structure d'autorité** : les **règlements et procédures** formalisent les interactions entre les membres, pour un accomplissement **efficace** des tâches. Et la structure informelle y est décrite comme des **liens « fluides »**, hors organigramme officiel, **aux intérêts multiples**.
+
 ### b) (2/3) La culture d'entreprise
 
 C'est un ensemble lié de manières de penser, de sentir et d'agir, plus ou moins formalisé et partagé par une pluralité de personnes.
 
 Elle s'acquiert, elle s'apprend.
+
+🎞️ **Les « deux niveaux » que tes notes annonçaient sans les écrire** (slide 26, d'après **Calori et al., 1989**) — et la culture est **partagée par la structure formelle et la structure informelle** :
+
+| Niveau conscient | Niveau inconscient |
+|---|---|
+| Formule stratégique · pratiques de management · symboles | **Valeurs** · **postulats de base** |
 
 ➕ *Ex. le tutoiement jusqu'au directeur, le pot d'arrivée d'un nouveau, la réunion du lundi matin : rien n'est écrit nulle part, tout le monde le fait — et un nouvel arrivant l'a appris en trois semaines, sans qu'on le lui dise.*
 
@@ -242,6 +336,8 @@ Il y a des **process** et des **systèmes techniques**. On mobilise des matière
 **L'entreprise est un système qui transforme les inputs en outputs**, via des systèmes de transformation.
 
 ➕ *Ex. la boulangerie encore : farine, eau, électricité, travail du boulanger et four (**inputs**) → pain vendu au comptoir (**output**). Le système de transformation, c'est le pétrissage et la cuisson.*
+
+🎞️ Le schéma du prof, à refaire de mémoire : **matières premières + travail + moyens de production → PROCESS → production de biens et de services**. L'entreprise y est nommée **« un système technique »**.
 
 ## 11. Classement des entreprises
 
@@ -258,6 +354,19 @@ Trois critères : la **taille**, le **secteur d'activité**, le **statut juridiq
 
 ➕ *Ex. un par catégorie : un graphiste à son compte (micro-entreprise) · une PME industrielle de 80 salariés · Carrefour ou Renault (grande entreprise).*
 
+🎞️ **Le tableau officiel de la slide 28** — environ **5,2 millions d'entreprises** en France, hors secteurs agricole et financier. Source : **Insee Focus n° 372, données 2023**, publié en décembre 2025.
+
+| | MIC | PME hors MIC | ETI | GE |
+|---|---|---|---|---|
+| **Seuils** | < 10 salariés | < 250 salariés | < 5 000 salariés | au-delà |
+| **Nombre d'entreprises** | — | 174 614 | 7 442 | 333 |
+| **En % des entreprises** | 96,3 % | 3,4 % | 0,14 % | 0,006 % |
+| **Effectifs (ETP)** | 17 % | 29 % | 26 % | 28 % |
+
+➕ *Les seuils INSEE complets de l'ETI, que la slide ne donne pas : de **250 à 4 999 salariés**, avec un chiffre d'affaires inférieur à **1,5 milliard** d'euros ou un bilan inférieur à **2 milliards**. À confronter au cours, c'est lui qui est évalué.*
+
+🎞️ **Ce tableau tranche trois de tes doutes** : l'ETI est **< 5 000 salariés** (ta ligne « 5 000 salariées et 15000 M » mélangeait le seuil haut et un chiffre d'affaires) ; le nombre d'ETI est **7 442**, pas 7400 ; et les effectifs font **17 + 29 + 26 + 28 = 100 %** — il te manquait la colonne des grandes entreprises, d'où l'impression d'un total faux.
+
 ### b) Selon le secteur d'activité
 
 - **Secteur primaire** (agriculture, pêche, exploitations forestières) = **2,5 %**
@@ -266,6 +375,8 @@ Trois critères : la **taille**, le **secteur d'activité**, le **statut juridiq
 - **Branche de l'économie** = quaternaire, information, innovation
 
 Le secteur tertiaire domine largement l'économie française. L'apparition de secteurs liés au numérique vient ébranler cette classification.
+
+🎞️ La slide 29 donne **exactement les mêmes trois chiffres** que tes notes (2,5 % · 20 % · 76,1 %). L'écart à 100 vient donc du **cours**, pas de ta recopie : ne le corrige pas, c'est ce qui sera évalué.
 
 ### c) Selon le statut juridique
 
@@ -282,6 +393,22 @@ Le secteur tertiaire domine largement l'économie française. L'apparition de se
 **Personne morale** : entité juridique dotée d'une personnalité propre, indépendante des individus qui la composent.
 
 La **loi du 14 février** en faveur de l'activité professionnelle indépendante a créé un nouveau statut : elle instaure un **patrimoine professionnel** distinct du patrimoine personnel.
+
+🎞️ **Ce que la slide 30 ajoute à tes notes** :
+
+| Entreprise individuelle (EI) | Société |
+|---|---|
+| 1 seule personne, **pas de personne morale distincte** | **Personne morale distincte**, avec son propre patrimoine |
+| **Micro-entreprise** (auto-entrepreneur) ou **EI « classique »** (régime réel) | **Un seul associé** : EURL · SASU — **plusieurs associés** : SARL · SAS · SA |
+| Imposition à l'**IR** | Imposition à l'**IS** en général, option IR sous conditions (ex. **SARL de famille**) ; responsabilité des associés **limitée à leurs apports** |
+
+🎞️ **Point de vigilance du prof — la disparition de l'EIRL** : depuis la loi du **14 février 2022** (entrée en vigueur le **15 mai 2022**), le statut d'EIRL a disparu. Il est remplacé par un **statut unique de l'entreprise individuelle**, qui protège **automatiquement** le patrimoine personnel, **sans démarche supplémentaire**. C'est la réponse à ton « même loi ? » : c'est bien la même, et elle a deux dates.
+
+🎞️ **Les deux questions du prof pour choisir un statut** — attention, ce ne sont pas tout à fait les tiennes :
+> 1. Ma responsabilité doit-elle être **limitée au capital que j'apporte**, ou est-elle liée à mon activité **en tant que personne** ?
+> 2. Vais-je **m'associer** avec d'autres personnes, ou **entreprendre seul** ?
+>
+> Ta deuxième question (« IR ou IS ») est une **conséquence** du statut choisi, pas le critère de départ. Les deux se savent, mais c'est la version du prof qu'il faut restituer.
 
 ### d) Les principales formes juridiques, en détail
 
@@ -313,6 +440,9 @@ La **loi du 14 février** en faveur de l'activité professionnelle indépendante
 - crise de croissance (manque de hiérarchisation, et de main-d'œuvre)
 - gestion *intuitu personae* (moins de fonctionnaires, moins de spécialistes)
 
+
+🎞️ La slide 32 précise la PME : « gestion *intuitu personae* : **moins de spécialistes fonctionnels**, **stratégie de focalisation** » — et donne le contexte **2024-2025** : plus de **1,1 million d'entreprises créées par an** en France, dont une large majorité de **micro-entrepreneurs** (Insee / Bpifrance).
+
 **Grande entreprise**
 - enjeux de **gouvernance** : la manière dont on organise le pouvoir entre actionnaires et comité de direction, liée à la mondialisation
 - mondialisation
@@ -337,14 +467,27 @@ La **loi du 14 février** en faveur de l'activité professionnelle indépendante
 - transposition (partielle) des outils de gestion des entreprises
 - mode d'intervention parfois délégué au privé
 
+
+🎞️ Exemple du prof : le **coût de collecte des déchets** varie fortement **selon le mode de gestion** (régie publique ou délégation au privé) — c'est l'illustration du dernier point.
+
 ### d) Le secteur associatif
 
 - dépendance aux ressources : dons, subventions, mécénat
 - concurrence entre associations pour ces ressources
 
+- 🎞️ **mutation des formes d'engagement bénévole** — le troisième point, que ta phrase coupée n'avait pas atteint
+- 🎞️ le prof renvoie ici à l'exemple d'**Emmaüs Solidarité** vu en ouverture (§ 2) : un cas concret de gestion sous contrainte de ressources
+
 ## 13. Les points essentiels à retenir
 
 1. La gestion est l'action d'**administrer** ou d'**organiser** en mobilisant des ressources. Elle s'applique à **toute organisation** : publique, privée ou à but non lucratif (ESS).
+
+🎞️ **Les cinq points de la slide de synthèse** — ta liste s'arrêtait au premier. C'est le plan de réponse idéal pour une question de cours :
+
+2. Le **rôle central de la gestion** est de déployer des ressources (**qui, quoi, comment**) pour atteindre des objectifs, aux niveaux **stratégique** et **opérationnel**.
+3. L'**entreprise** est une organisation qui **produit et vend** des biens ou services **sur un marché en réalisant un bénéfice** — la définition élargie y intègre le **développement durable**.
+4. Les entreprises se classent selon plusieurs critères : la **taille** (MIC / PME / ETI / GE), le **secteur d'activité** et le **statut juridique** (entreprise individuelle ou société).
+5. La gestion **s'adapte au contexte** : PME, grandes entreprises, organisations publiques et associations font face à des enjeux spécifiques et à des ressources différentes.
 
 ---
 
@@ -395,6 +538,8 @@ La **loi du 14 février** en faveur de l'activité professionnelle indépendante
 **Choisir un statut juridique** — 2 questions, dans cet ordre :
 1. La responsabilité de l'entrepreneur est-elle **limitée** ou non ?
 2. **IR ou IS** — impôt sur le revenu ou impôt sur la société ?
+
+🎞️ **La version du prof, à restituer telle quelle** : 1) ma responsabilité doit-elle être **limitée au capital apporté**, ou liée à mon activité **en tant que personne** ? 2) vais-je **m'associer** ou entreprendre **seul** ? L'imposition (IR ou IS) **découle** ensuite du statut retenu.
 
 **De l'intention au budget** — la chaîne stratégique :
 `réflexion stratégique → plan LMT → lettre de cadrage → budget`
@@ -449,6 +594,27 @@ Parts sociales ou actions ? ; SARL = parts sociales, cession soumise à agrémen
 RSE, definition ? ; La prise en charge par l'entreprise des consequences sociales et environnementales de son activite, au-dela de ses obligations legales ; trois piliers economique, social, environnemental ; gestion 12A complement
 Secteur vs branche ? ; Le secteur classe des entreprises selon leur activite principale ; la branche classe des productions d'un meme produit ; gestion 12A complement
 ```
+
+Cartes issues des **slides du prof**, taguées `slides` — ce sont les plus rentables :
+
+```
+Gestion, la definition du prof ? ; Action ou maniere de gerer, d'administrer, d'organiser quelque chose, en mobilisant des ressources ; gestion 12A slides
+Les 4 types de ressources mobilisees (slides) ? ; Humaines ; financieres ; materielles ; informationnelles (et technologiques) ; gestion 12A slides
+Les 3 grandes familles d'organisations ? ; Organisations publiques ; entreprises publiques ou privees ; organisations de l'ESS a but non lucratif ; gestion 12A slides
+Que regroupe l'ESS ? ; Associations ; cooperatives ; mutuelles ; syndicats ; fondations (loi du 31 juillet 2014) ; gestion 12A slides
+Les 3 points communs a toute organisation (slides) ? ; Des objectifs ; du personnel qui s'approprie le but ; une structure qui oriente le comportement ; gestion 12A slides
+Definition classique de l'entreprise ? ; Une organisation animee par un projet decline en strategie, politiques et plans d'action, dont le but est de produire et vendre des biens ou services a des clients ou usagers, tout en realisant un benefice ; gestion 12A slides
+Qu'ajoute la definition elargie de l'entreprise ? ; En preservant les ressources de la planete et en augmentant le bien-etre de la population ; gestion 12A slides
+Developpement durable : la source de la citation ? ; Le rapport Brundtland, 1987 ; gestion 12A slides
+Les 3 croisements du schema du developpement durable ? ; Environnement + social = vivable ; economie + social = equitable ; economie + environnement = viable ; gestion 12A slides
+Les 2 niveaux de la culture d'entreprise (Calori et al., 1989) ? ; Conscient : formule strategique, pratiques de management, symboles ; inconscient : valeurs et postulats de base ; gestion 12A slides
+Les 4 categories INSEE et leur part des entreprises ? ; MIC 96,3 % ; PME hors MIC 3,4 % ; ETI 0,14 % ; GE 0,006 % (Insee Focus n 372, donnees 2023) ; gestion 12A slides
+Seuil de l'ETI ? ; Moins de 5 000 salaries — 7 442 entreprises, 26 % des effectifs ; gestion 12A slides
+Qu'est devenue l'EIRL ? ; Supprimee par la loi du 14 fevrier 2022 (en vigueur le 15 mai 2022), remplacee par un statut unique de l'entreprise individuelle qui protege automatiquement le patrimoine personnel ; gestion 12A slides
+Les 2 questions du prof pour choisir un statut ? ; Responsabilite limitee au capital apporte ou liee a ma personne ; m'associer ou entreprendre seul ; gestion 12A slides
+Qui pilote les 4 etapes du cycle de produit ? ; La direction generale et le controle de gestion, en pilotage transversal ; gestion 12A slides
+```
+
 
 ## 🔄 Comment réviser cette fiche
 
@@ -512,29 +678,66 @@ Sur les compléments (pas dans tes notes, mais au programme) :
 > [!question]- Pourquoi dit-on que gérer, c'est arbitrer ?
 > Parce que les parties prenantes ont des attentes divergentes qui se disputent la même valeur ajoutée. → [[#Les parties prenantes, et leurs attentes qui se contredisent]]
 
+
+Sur les slides du prof :
+
+> [!question]- Les trois grandes familles d'organisations, avec deux exemples pour chacune.
+> Organisations **publiques** (ministères, Sécurité sociale, hôpitaux) · **entreprises** publiques (État > 50 % du capital) ou privées · organisations de l'**ESS** (associations, coopératives, mutuelles, syndicats, fondations). → [[#2. Les 3 types d'organisations]]
+
+> [!question]- Donne la définition classique de l'entreprise, puis ce que la définition élargie y ajoute.
+> Classique : une organisation animée par un projet décliné en stratégie, politiques et plans d'action, dont le but est de produire et vendre des biens ou services à des clients ou usagers **en réalisant un bénéfice**. Élargie : **+ en préservant les ressources de la planète et en augmentant le bien-être de la population**. → [[#8. Qu'est-ce donc qu'une entreprise ?]]
+
+> [!question]- Les deux niveaux de la culture d'entreprise, et qui les distingue ?
+> **Conscient** : formule stratégique, pratiques de management, symboles. **Inconscient** : valeurs et postulats de base. D'après **Calori et al., 1989**. → [[#b) (2/3) La culture d'entreprise]]
+
+> [!question]- Refais le schéma du développement durable : quels croisements donnent vivable, viable, équitable ?
+> Environnement + social = **vivable** · économie + social = **équitable** · économie + environnement = **viable** · les trois = **durable**. Citation : rapport **Brundtland, 1987**. → [[#9. Le principe du développement durable]]
+
+> [!question]- Les quatre catégories INSEE, leur seuil et leur part des effectifs.
+> MIC < 10 salariés (96,3 % des entreprises, 17 % des ETP) · PME < 250 (3,4 %, 29 %) · ETI < 5 000 (0,14 %, 26 %) · GE au-delà (0,006 %, 28 %). → [[#a) Selon un critère de taille — 4 catégories INSEE]]
+
+> [!question]- Qu'est devenue l'EIRL, et depuis quand ?
+> Supprimée par la **loi du 14 février 2022**, entrée en vigueur le **15 mai 2022** : un **statut unique de l'entreprise individuelle** protège désormais **automatiquement** le patrimoine personnel. → [[#c) Selon le statut juridique]]
+
 ## À vérifier / à récupérer
 
-> [!question] Les trous de ces notes — c'est là qu'il y a des points à perdre
-> - **« copier ce que j'ai ecris sur mon cahier »** : le début du cours est resté sur ton cahier, il n'est pas dans ces notes. C'est le premier bloc à rapatrier.
-> - **Niveau stratégique** : ta ligne « construction ? » est interrompue — à reprendre en cours.
-> - **La stratégie** : « c'et un jeu de compétition télévisions » est incompréhensible tel quel, je ne l'ai pas reformulé pour ne pas inventer. Que disait le prof ?
-> - **Renault et le cycle de produit** : « plan a 5 ans - o », puis « cycle de produit. e » — deux amorces coupées net, il manque la fin des deux.
-> - **Culture d'entreprise** : tes notes annoncent « il y a **deux niveaux** : » et un seul est écrit. Le deuxième manque.
-> - **ETI** : tes notes disent « 5 000 salariées et 15000 M ». Les seuils voisins (PME < 250 salariés, GE > 5 000) laissent un trou entre 250 et 5 000 salariés, qui est justement la place de l'ETI — la ligne semble mal recopiée. Le chiffre n'a **pas** été corrigé. ➕ *Pour comparaison, les seuils INSEE de l'ETI sont : de 250 à 4 999 salariés, avec un chiffre d'affaires inférieur à 1,5 milliard d'euros ou un bilan inférieur à 2 milliards. C'est le cours du prof qui compte : confronte, ne remplace pas.*
-> - **ETI, le nombre d'entreprises** : tes notes donnent **7400** entreprises, puis **7 442** pour 0,14 % — deux valeurs pour le même compte, à trancher.
-> - **Micro-entreprise** : « 17% des emploies = 2millions d'emloie », soit 2 millions d'emplois pour 17 % du total — vérifier le total implicite.
-> - **Secteurs d'activité** : 2,5 + 20 + 76,1 = **98,6**, il manque 1,4 point pour faire 100. Et le tertiaire est le seul des trois noté sans unité (« = 76,1 »).
-> - **Secteur associatif** : « concurence entre associations pour ces » — phrase coupée.
-> - **Les points essentiels à retenir** : la liste s'arrête au point 1. Le prof en a sûrement donné plusieurs.
-> - **Entreprise individuelle** : « nom : une denomination ... » — la définition s'arrête sur les points de suspension.
-> - **Loi du 14 février** : mentionnée deux fois, avec l'année (2022) une seule fois. Même loi ?
+> [!success]- Ce que les slides ont résolu — 7 trous fermés le 8 septembre
+> Ces lignes étaient dans « à vérifier » jusqu'à l'arrivée de `IG_Seance1-2_MAJ__2026.pdf`. Elles restent ici pour que tu voies ce qui a été tranché, et par quoi.
+> - **« c'et un jeu de compétition télévisions »** → slide 14 : c'était la **seconde illustration** de la stratégie, avec Napoléon à Waterloo (§ 6).
+> - **Culture d'entreprise, « deux niveaux »** → slide 26 : **conscient** (formule stratégique, pratiques de management, symboles) et **inconscient** (valeurs, postulats de base), d'après Calori et al., 1989 (§ 10b).
+> - **ETI, « 5 000 salariées et 15000 M »** → slide 28 : le seuil est **< 5 000 salariés**. Ta ligne mélangeait le seuil et un chiffre d'affaires.
+> - **ETI, 7400 ou 7 442 ?** → **7 442** (Insee Focus n° 372, données 2023).
+> - **Micro-entreprise, « 17 % des emplois = 2 millions »** → la slide donne **17 % des effectifs en ETP**, sans le nombre absolu : c'est ta note personnelle, pas le chiffre du prof.
+> - **Secteurs : 2,5 + 20 + 76,1 = 98,6**, soit **1,4** point manquant pour faire 100 → les mêmes trois chiffres sont sur la slide 29. L'écart à 100 vient du **cours**, pas de ta recopie — ne le corrige pas.
+> - **« Les points essentiels à retenir » s'arrêtaient au point 1** → slide 36 : les **cinq** points, recopiés au § 13.
+
+> [!question] Ce qu'il reste à récupérer
+> - **« copier ce que j'ai ecris sur mon cahier »** : les slides couvrent le chapitre 1 en entier, mais ton cahier peut contenir ce que le prof a dit **à l'oral** et qui n'est sur aucune slide. À confronter une fois.
+> - **Le chapitre 2, « Les principales fonctions de l'entreprise »**, est annoncé sur la page de garde des slides mais **absent du PDF** : il correspond aux séances 3 et 4. Mes compléments du § 8 anticipent — à remplacer par le cours du prof dès qu'il est en ligne.
+> - **Niveau stratégique** : ta ligne « construction ? » est interrompue, et la slide 13 ne la reprend pas. À demander en cours.
+> - **Renault** : « plan a 5 ans - o » puis « cycle de produit. e » — deux amorces coupées. Le prof illustre le cycle avec le **smartphone**, pas avec Renault : ton exemple Renault venait peut-être de l'oral.
+> - **Entreprise individuelle** : « nom : une denomination ... » — la phrase s'arrête sur les points de suspension, et la slide 30 ne parle pas de dénomination ni de siège social.
+> - **Secteur ou branche ?** : toujours pas dans les slides du chapitre 1, alors que tes notes posent « branche = quaternaire ». Paire classique en examen : à confirmer.
+> - **Le mot exact pour la quatrième ressource** : tes notes disent « immatérielles », les slides « **informationnelles** » (et « technologiques » slide 12). En QCM, c'est le mot du prof qui compte.
+> - **Le code Wooclap `LQLPDS`** apparaît sur la slide de test : vérifie s'il sert encore, les QCM Wooclap sont le meilleur entraînement au format de l'épreuve.
 
 > [!info]- Pourquoi je n'ai pas corrigé les chiffres qui semblent faux
 > En examen c'est **le cours du prof** qui est évalué, pas la définition officielle. Corriger en silence un chiffre de tes notes te ferait réviser autre chose que ce qui a été dit en amphi — et t'empêcherait de repérer que tu as mal recopié. Tout ce qui cloche est donc listé ci-dessus, avec tes mots entre guillemets, et c'est toi qui tranches en cours ou sur Moodle.
 
+## 📚 La bibliographie du syllabus
+
+🎞️ *Cinq ouvrages indicatifs donnés par Carole Vigeant. `Stratégor` est la référence pour la partie II (stratégie), les trois « introduction générale à la gestion » pour la partie I.*
+
+- Garette B., Durand R., Dussauge P., Lehmann-Ortega L., Leroy F. (2019), **Stratégor**, 8ᵉ édition, Dunod.
+- Soparnot R. (2012), **Organisation et Gestion de l'entreprise**, 2ᵉ édition, Dunod.
+- Cocula F. (2014), **Introduction Générale à la gestion**, 5ᵉ édition, Topos, Dunod.
+- Gautier B. (2018), **Pro en stratégie**, Vuibert.
+- Leroy F. (2021), **Les stratégies de l'entreprise**, Les Topos, 5ᵉ édition, Dunod.
+
 ## Ce que j'ai complété
 
 > [!info] Ces 24 ajouts ne viennent pas de tes notes — 13 compléments de cours, 11 exemples
+> **Depuis le 8 septembre, les slides de Carole Vigeant sont dans la fiche**, marquées **🎞️** : ce qui porte cette marque fait autorité et n'est plus à vérifier. Les compléments listés ci-dessous restent, eux, à confirmer — sauf ceux que les slides ont depuis confirmés (la RSE, les seuils de taille) ou nuancés (les deux questions du choix de statut : le prof pose « seul ou associé ? » là où tes notes posaient « IR ou IS »).
 > Tu m'as demandé d'ajouter les informations capitales manquantes. Chacune est marquée **➕** à sa place dans la fiche, et listée ici pour que tu puisses la confronter à ton cours. La liste des trous vient du **programme officiel de l'UE 12A**, dans [[Cycle 3 - Gestion et debats]].
 >
 > **Points du programme totalement absents de tes notes**
