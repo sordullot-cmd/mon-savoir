@@ -21,7 +21,7 @@
   <!-- noms des piliers -->
   <text class="t pil" x="228" y="118" text-anchor="middle" fill="#2f7d4f">Environnement</text>
   <text class="t pil" x="536" y="118" text-anchor="middle" fill="#1f6f9c">Social</text>
-  <text class="t pil" x="380" y="470" text-anchor="middle" fill="#c2761a">Économie</text>
+  <text class="t pil" x="380" y="452" text-anchor="middle" fill="#c2761a">Économie</text>
 
   <!-- croisements deux a deux -->
   <text class="t cro" x="380" y="160" text-anchor="middle">vivable</text>
@@ -31,5 +31,6 @@
   <!-- centre -->
   <text class="t cen" x="380" y="258" text-anchor="middle">DURABLE</text>
 
-  <text class="t src" x="40" y="498">« Un mode de développement qui répond aux besoins du présent sans compromettre la capacité des générations futures à répondre aux leurs. » — rapport Brundtland, 1987</text>
+  <text class="t src" x="380" y="490" text-anchor="middle">« Un mode de développement qui répond aux besoins du présent sans compromettre</text>
+  <text class="t src" x="380" y="508" text-anchor="middle">la capacité des générations futures à répondre aux leurs. » — rapport Brundtland, 1987</text>
 </svg>
