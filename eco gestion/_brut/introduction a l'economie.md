@@ -1,10 +1,10 @@
 
 introduction:
 
-2 obectif pour le cours :
-		- vision general des concepts clés l'economie
-									eco = macro et micro :
-		- logique de raisonement eco et des mecanisme de base
+2 objectifs pour le cours :
+		- vision générale des concepts clés l'économie
+									éco = macro et micro :
+		- logique de raisonnement éco et des mécanismes de base
 = tour d'horizon
 
 

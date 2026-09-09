@@ -11,9 +11,9 @@
    "integre": "2026-09-08 00:00"
   },
   "eco gestion/_brut/introduction a l'economie.md": {
-   "fiche": "eco gestion/Economie - Introduction UE 11A.md",
-   "hash": "e8ece8ce2302",
-   "integre": "2026-09-07 22:30"
+   "fiche": "eco gestion/Economie - Chapitre 1 Science economique.md",
+   "hash": "4099b7afd1fa",
+   "integre": "2026-09-09 19:25"
   }
  },
  "pages": {
@@ -30,6 +30,14 @@
    "mots": 3063,
    "passage": "2026-09-07 21:15",
    "statut": "à créer"
+  },
+  "eco gestion/Economie - Chapitre 1 Science economique.md": {
+   "fait": "brut d'introduction corrige (4 fautes) et integre : deux objectifs du cours, cles d'acces, question de Controle, cles signalees dans A verifier",
+   "hash": "637e77066c16",
+   "mots": 7274,
+   "passage": "2026-09-09 19:25",
+   "source": "_brut/introduction a l'economie.md",
+   "statut": "à faire"
   },
   "eco gestion/Economie - Introduction UE 11A.md": {
    "fait": "brut integre : 37 mots, fiche squelette, tout le cours reste a recuperer",
