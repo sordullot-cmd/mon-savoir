@@ -26,10 +26,20 @@ python3 .claude/skills/eco/etat.py --liste
 ```
 
 **Les bruts** — `eco gestion/_brut/*.md` : ses notes d'amphi telles qu'il les a
-prises. C'est la **source**, elle ne se modifie jamais et ne se met jamais en
-fiche sur place. Elle produit une fiche à côté, dans `eco gestion/`, dont le
-frontmatter porte `source: _brut/<nom>.md`. Un brut sans fiche est **prioritaire
-sur tout le reste** : c'est du cours qui n'est pas encore révisable.
+prises. C'est la **source** : elle ne se met jamais en fiche sur place, elle
+produit une fiche à côté, dans `eco gestion/`, dont le frontmatter porte
+`source: _brut/<nom>.md`. Un brut sans fiche est **prioritaire sur tout le
+reste** : c'est du cours qui n'est pas encore révisable.
+
+**Depuis le 9 septembre 2026, le brut se corrige — mais uniquement sur la
+forme.** Sacha l'a demandé : « corrige aussi le .md de base, juste l'orthographe
+et la syntaxe ». Le mot **juste** est la règle : on répare les fautes, les
+accents, la ponctuation et la syntaxe markdown cassée, **ligne par ligne, à leur
+place**. Tout le reste du brut est intouchable — pas une ligne ajoutée ou
+supprimée, rien de déplacé, de fusionné, de renuméroté, d'explicité, et **aucun
+nom propre ni sigle retouché** (`ester duflot`, `gary becker`, `smic`, `pib`
+restent tels qu'il les a écrits : leur graphie se signale dans la fiche, elle ne
+se corrige pas). La restructuration, elle, a sa page à côté : c'est la fiche.
 
 **Les fiches** — les pages du vault (tag `L1-eco-gestion`, dossier
 `eco gestion/`, ou lien vers le hub) : à corriger et à améliorer.
@@ -167,6 +177,7 @@ c'est l'ordre de grandeur normal d'un chapitre.
 | **Fondre une slide ou un syllabus déposé par Sacha** dans le texte du cours, à sa place | Recopier un PDF en vrac en fin de fiche, ou hacher le cours en « d'après la slide 13… » |
 | **Corriger un mot ou un chiffre quand la source du prof le tranche**, et le dire dans le bloc de traçabilité | Corriger en silence, sans que Sacha puisse voir ce qui a changé depuis ses notes |
 | **Redessiner en SVG une figure des slides** dans `schemas/` | Inventer un schéma que le prof n'a pas fait |
+| **Corriger l'orthographe et la syntaxe du brut**, ligne par ligne, à leur place | Restructurer un brut : déplacer, fusionner, renuméroter, compléter, ou retoucher un nom propre |
 | Laisser les tableaux valides tels quels, alignement compris | Reformater un tableau qui marche (`verifie.py` le refuse) |
 | Ajouter un tag déjà utilisé dans le périmètre | Supprimer ou renommer un de ses tags, toucher au reste du frontmatter |
 
@@ -186,6 +197,15 @@ récapitulatif.
 3. **Lire en entier** la cible, plus le hub `00 - Plan L1 Angers`, la page de
    cycle correspondante et [[MCC - Tableau de bord]] pour le mode d'évaluation.
    Impossible de prioriser sans savoir ce que la notion vaut en points.
+3 bis. **Si la cible est un brut, le corriger d'abord** — orthographe, accents,
+   ponctuation, syntaxe markdown, et rien d'autre. Snapshot obligatoire avant
+   (`cp "<brut>" <scratchpad>/brut-avant.md`), puis :
+   ```
+   python3 .claude/skills/eco/verifie.py <scratchpad>/brut-avant.md "<brut>" --brut
+   ```
+   Ce mode refuse le passage si une ligne, un chiffre, une formule ou 2 % du
+   volume ont bougé, et liste les mots corrigés pour relecture. La fiche s'écrit
+   **ensuite**, depuis le brut corrigé : c'est lui que `--integration` compare.
 4. **Relever avant d'écrire** : les paires confusables, les procédures, les
    définitions cartables, les phrases interrompues, les incohérences de chiffres,
    les liens et ancres morts, les blocs manquants.
@@ -195,19 +215,21 @@ récapitulatif.
    python3 .claude/skills/eco/verifie.py <avant> "<page>"                 # fiche
    python3 .claude/skills/eco/verifie.py "eco gestion/_brut/x.md" "<fiche>" --integration
    python3 .claude/skills/eco/verifie.py <avant> "<page>" --complement    # si on a comblé des trous
+   python3 .claude/skills/eco/verifie.py <brut-avant> "<brut>" --brut     # si on a corrigé le brut
    ```
    **ERREUR** → restaurer depuis le snapshot, ne pas acter, le dire. **Alerte**
    → la justifier dans le récap ou revenir en arrière.
 7. **Acter** : `etat.py --enregistre "<page>" "<ce qui a été fait>"`. Le brut
    cité en `source:` est acté avec la fiche. Sans ça, tout repasse au tour
    suivant.
-8. **Commiter**, la page et `etat.json` **seulement** :
+8. **Commiter**, la page, `etat.json` et — s'il a été corrigé — le brut :
    ```
-   git add "<page>" .claude/skills/eco/etat.json
+   git add "<page>" "<brut si corrigé>" .claude/skills/eco/etat.json
    git commit -m "eco: <page> — <résumé court>"
    ```
    Jamais `git add -A` : le vault a en permanence des modifications qui ne sont
-   pas les nôtres.
+   pas les nôtres. **Un brut corrigé se commite avec la fiche** — sans ça, la
+   correction écrase la seule copie de ses notes sans filet.
 9. **Pousser** — Sacha l'a demandé le 8 septembre 2026 : un passage se termine
    sur GitHub, pas sur le disque.
    ```
@@ -226,12 +248,16 @@ récapitulatif.
 10. **Récap** : ce qui a été corrigé, ce qui a été ajouté (**nommément**, surtout
    les `Complément`), les trous signalés, et `git show --stat --oneline HEAD`.
 
-## Les six opérations
+## Les sept opérations
 
 - **Intégrer un brut** — l'opération à plus forte valeur. Des notes d'amphi
   deviennent une fiche complète dans `eco gestion/`, avec `source:` vers le
-  brut. Le brut reste **intact**. Nom de fiche : `<Matière> - <Sujet> (CM).md`,
-  sans accent dans le nom de fichier (un renommage casse les liens du vault).
+  brut. Nom de fiche : `<Matière> - <Sujet> (CM).md`, sans accent dans le nom de
+  fichier (un renommage casse les liens du vault).
+- **Corriger le brut** — orthographe, accents, ponctuation, syntaxe markdown, à
+  leur place dans ses notes. Se fait **avant** la mise en fiche, se vérifie avec
+  `--brut`, se commite avec la fiche. Le fond, l'agencement et les noms propres
+  ne bougent pas : ce fichier reste la trace de ce que le prof a dit.
 - **Corriger** — langue, markdown, hiérarchie, tableaux bancals, liens morts.
   Aucune validation nécessaire.
 - **Rendre révisable** — les blocs qui servent les six leviers : `L'essentiel`
@@ -352,8 +378,10 @@ absents : il ne peut rien écraser. Trois règles qui en découlent :
 
 - **Jamais `rm`**, jamais de renommage de fichier, jamais de suppression d'une
   section entière sans validation explicite.
-- **Un brut ne se modifie jamais.** C'est la seule trace de ce que le prof a
-  dit. Toute amélioration vit dans la fiche.
+- **Un brut ne se corrige que sur la forme.** C'est la seule trace de ce que le
+  prof a dit : l'orthographe et la syntaxe se réparent, le fond, l'agencement et
+  les noms propres ne bougent pas, et `--brut` le vérifie. Toute amélioration —
+  structure, blocs, compléments — vit dans la fiche.
 - **Une cible par passage** en mode automatique. Un passage qui touche trois
   pages est un passage qui a dérivé.
 - `verifie.py` passe **avant** le commit. Erreur → restauration depuis le

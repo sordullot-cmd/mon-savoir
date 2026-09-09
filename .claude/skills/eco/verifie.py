@@ -4,6 +4,7 @@
     python3 verifie.py <page-avant.md> "<page-apres.md>"
     python3 verifie.py <brut.md> "<fiche.md>" --integration
     python3 verifie.py <avant.md> "<fiche.md>" --complement
+    python3 verifie.py <brut-avant.md> "<brut.md>" --brut
 
 `page-avant.md` est la copie prise avant d'écrire (ou le brut, en intégration).
 `page-apres.md` est le chemin réel dans le vault (relatif ou absolu).
@@ -12,6 +13,12 @@
 grossit forcément, et le brut n'a ni tableaux alignés ni frontmatter. Les
 invariants de CONTENU restent, eux : aucun chiffre, aucune formule, aucun nom
 propre du cours ne doit disparaître au passage.
+
+`--brut` = on corrige les notes d'amphi elles-mêmes. Sacha l'a demandé le
+9 septembre 2026 : « corrige aussi le .md de base, juste l'orthographe et la
+syntaxe ». Le mot « juste » est la contrainte, et c'est ce que ce mode fait
+respecter — le brut reste la seule trace de ce que le prof a dit, donc on
+corrige la forme sans jamais toucher au fond ni à l'agencement.
 
 `--complement` = on comble des trous du cours. Sacha l'a demandé le 7 septembre
 2026 : « si tu vois qu'il manque des grosses informations, des trous, des idées
@@ -40,6 +47,7 @@ import io
 import os
 import re
 import sys
+import unicodedata
 from collections import Counter
 
 ICI = os.path.dirname(os.path.abspath(__file__))
@@ -175,6 +183,57 @@ def ancres_attendues(nom_page):
     return attendues
 
 
+def mots_nus(t):
+    """Les mots du texte, sans casse ni accents : sert à lister ce qui a bougé."""
+    plat = unicodedata.normalize("NFD", t.lower())
+    plat = "".join(c for c in plat if unicodedata.category(c) != "Mn")
+    return Counter(re.findall(r"[a-z0-9']{2,}", plat))
+
+
+def verifie_brut(av, ap):
+    """Un brut ne se corrige que sur la forme : orthographe et syntaxe.
+
+    Le brut est la seule trace de ce que le prof a dit. Corriger ses fautes est
+    utile — les relire au propre aide —, mais tout ce qui ressemble à une
+    réécriture est refusé : ligne ajoutée ou supprimée, contenu déplacé,
+    chiffre ou formule qui bouge, volume qui change. La mise en fiche, elle,
+    a sa page à côté ; c'est là que le cours se restructure.
+    """
+    erreurs, alertes = [], []
+
+    l_av, l_ap = av.splitlines(), ap.splitlines()
+    if len(l_av) != len(l_ap):
+        erreurs.append("le brut n'a plus le même nombre de lignes (%d → %d) : "
+                       "on corrige la forme, on ne restructure pas"
+                       % (len(l_av), len(l_ap)))
+
+    n_av, n_ap = Counter(NOMBRE.findall(av)), Counter(NOMBRE.findall(ap))
+    perdus = sorted(k for k in n_av if n_av[k] > n_ap.get(k, 0))
+    if perdus:
+        erreurs.append("chiffres modifiés ou disparus du brut : %s"
+                       % ", ".join(perdus[:12]))
+
+    m_av, m_ap = maths(av), maths(ap)
+    f_manq = [k for k, v in m_av.items() if v > m_ap.get(k, 0)]
+    if f_manq:
+        erreurs.append("formules disparues du brut : %s" % " · ".join(f_manq[:8]))
+
+    mo_av, mo_ap = len(av.split()), len(ap.split())
+    ecart = (mo_ap - mo_av) / float(mo_av or 1) * 100
+    if abs(ecart) > 2:
+        erreurs.append("le brut a changé de volume (%d → %d mots, %+.1f %%) : "
+                       "corriger l'orthographe n'ajoute ni ne retire de contenu"
+                       % (mo_av, mo_ap, ecart))
+
+    w_av, w_ap = mots_nus(av), mots_nus(ap)
+    corriges = sorted(k for k in w_av if w_av[k] > w_ap.get(k, 0))
+    if corriges:
+        alertes.append("%d mot(s) corrigé(s), à relire : %s%s"
+                       % (len(corriges), ", ".join(corriges[:20]),
+                          "…" if len(corriges) > 20 else ""))
+    return erreurs, alertes
+
+
 def main():
     if len(sys.argv) < 3:
         print(__doc__)
@@ -192,6 +251,19 @@ def main():
             return 2
 
     av, ap = lit(p_avant), lit(p_apres_abs)
+
+    if "--brut" in sys.argv[3:]:
+        erreurs, alertes = verifie_brut(av, ap)
+        print("%s  %d lignes, %d mots  (brut : la forme seulement)"
+              % (p_apres, len(ap.splitlines()), len(ap.split())))
+        for e in erreurs:
+            print("  ERREUR  %s" % e)
+        for a in alertes:
+            print("  alerte  %s" % a)
+        if not erreurs:
+            print("  ok — chiffres, formules, lignes et volume inchangés")
+        return 1 if erreurs else 0
+
     e_av, c_av = coupe(av)
     e_ap, c_ap = coupe(ap)
     erreurs, alertes = [], []
