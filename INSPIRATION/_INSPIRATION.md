@@ -11,23 +11,56 @@ tags: [moc, inspiration]
 - `WEBDESIGN` — sites web, landing pages, portfolios *(captures via `/inspi`)*
 - `UI-DESIGN` — interfaces, apps, design produit, composants. Les **dossiers de référence d'app** (écrans, flows, branding, couleurs) y vivent et sont indexés dans [[_APPS]] — créés par **`/inspi`** en mode app.
 - `BRAND-DESIGN` — identités, logos, branding, chartes
-- `GRAPHISME` — print, affiches, éditorial, illustration
+- `GRAPHISME` — print, affiches, éditorial, illustration. Indexé dans [[_GRAPHISME]]. Aspect principal `visuels/` au lieu de `ecrans/`.
 - `MOTION` — motion design, transitions, showreels
 - `COMPOSANTS` — **index transversal** des **blocs UI statiques** marquants ([[_COMPOSANTS]]). Les fichiers restent **dans le dossier de leur site** ; cette note ne fait que les référencer. *Sélectif, pas tout.*
 - `ANIMATIONS` — **index transversal** des **sections / intros / micro-anims** (GIF / MP4) ([[_ANIMATIONS]]). Même principe : fichiers dans le dossier de leur site. *Sélectif.*
 - `UNIVERS` — **dossiers de référence complets** sur un univers créatif (jeu vidéo, marque, studio, film…) : médias téléchargés en pleine qualité, rangés par aspect (branding, ui, character-design, illustrations, animations, gameplay…) ([[_UNIVERS]]). Transversal par nature (mélange les disciplines), créé par **`/univers`**.
+
+> **Une cible peut aussi être un thème** (« des animaux stylisés et humanisés »), ni produit ni univers :
+> même dossier par aspect, dans la discipline du thème, `visuels/` rangé par **familles de style**
+> plutôt que par source — cf. [[animaux-humanises]] (septembre 2026).
 
 > **Univers ou produit ?** *Un monde qu'on regarde* (jeu, film, studio, marque) → `UNIVERS/` via `/univers`. *Un produit numérique qu'on utilise* (app, SaaS, site) → sa discipline (`UI-DESIGN/`, `WEBDESIGN/`) via `/inspi`, qui produit le même dossier par aspect.
 
 > **Besoin d'une autre discipline** (ex. `PACKAGING`, `3D`, `TYPOGRAPHIE`)? On peut **ajouter une catégorie** — cf. la règle de création de catégories dans `CLAUDE.md` (rester sobre, ne pas multiplier sans raison).
 
 ## Convention de tags
-Dans le frontmatter (`media:`, `mood:`) ou en `#tag`.
 
-**Média** : `image` `vidéo` `site` `article` `typo` `motion` `post` *(= post social : tweet, pin, reel…)*
-**Discipline (tags)** : `#ui` `#ux` `#brand` `#motion` `#typo` `#3d` `#print` `#web` `#graphisme`
-**Mood / style** : `#minimal` `#bold` `#editorial` `#brutalist` `#retro` `#organic` `#playful` `#luxe` `#dark`
-**Usage** : `#a-tester` `#pour-sordulo` `#pour-ican` `#pour-unowhy`
+> **Vocabulaire contrôlé, à facettes.** `tags:` était une liste libre où cinq natures
+> d'information se mélangeaient à plat — la structure (`inspiration`), la discipline (`ui`),
+> le domaine (`finance`), le style (`dark`), le procédé (`gamification`) — plus du workflow
+> perso (`a-tester`). Deux boutons pour la même chose dès qu'un accent manquait, des tags
+> portés par tout le monde qui ne triaient rien, et sept journaux de trading repérables
+> seulement par leur `dark`. Chaque tag appartient maintenant à **une** facette, et deux
+> facettes sur quatre se déduisent du frontmatter déjà rempli.
+
+| Facette | La question | Où l'écrire |
+| --- | --- | --- |
+| **domaine** | de quoi ça parle | **rien à écrire** — déduit de `type_app` / `categorie` / `secteur` |
+| **sujet** | ce que le produit fait | dans `tags:`, 1 à 3 |
+| **procédé** | le parti pris de design qu'on vient étudier | dans `tags:`, 0 à 4 |
+| **style** | à quoi ça ressemble | **rien à écrire** — déduit de `mood:` |
+
+**Domaine** : `finance` `santé` `productivité` `éducation` `social` `média` `commerce` `jeu` `outil` `tech`
+**Sujet** : `trading` `journal` `playbook` `crypto` `banque` `budget` `habitudes` `nutrition` `méditation` `émotions` `langues` `agenda` `temps` `apprentissage` `ia`
+**Procédé** : `gamification` `mascotte` `illustration` `isométrique` `3d` `motion` `data-viz` `design-system` `typo-maison` `refonte` `onboarding` `paywall`
+**Style** : `minimal` `bold` `dark` `playful` `editorial` `organic` `brutalist` `retro` `luxe`
+
+Donc, concrètement : une fiche n'écrit que **le sujet et le procédé**. Écrire un domaine ou
+un style à la main ne sert qu'à corriger une déduction fausse — l'univers Duolingo est classé
+`secteur: tech` mais c'est de l'`éducation` qu'on vient y chercher, alors il l'écrit.
+
+Un tag hors vocabulaire est **écarté** de l'index du site (pas d'erreur, pas de doublon :
+il disparaît, et l'oubli se voit). Les variantes sans accent (`sante`, `productivite`,
+`isometrique`) sont repliées sur la forme canonique. Le vocabulaire vit dans
+`vault-gallery/scripts/tags-projets.mjs` — **un terme manque ? on l'y ajoute**, plutôt que
+d'inventer un synonyme dans une fiche (même règle que pour les `type_site` ci-dessous).
+
+**Média** (frontmatter `media:`, pas un tag) : `image` `vidéo` `site` `article` `typo` `motion` `post` *(= post social : tweet, pin, reel…)*
+**Usage** : `#a-tester` `#pour-sordulo` `#pour-ican` `#pour-unowhy` — dans le **corps** de la
+note, pas dans `tags:`. Ce sont des marques de travail personnel : elles restent cherchables
+dans Obsidian et sur `/tags`, et n'encombrent plus l'index public des projets.
 
 ## Descripteurs d'une inspi web (recherche fine)
 
@@ -90,7 +123,7 @@ référence :
 ├── composants/    ← blocs remarquables, suffixés _<slug> (→ [[_COMPOSANTS]])
 ├── animations/    ← transitions, micro-anims, suffixées _<slug> (→ [[_ANIMATIONS]])
 ├── marketing/     ← site du produit, landing, page store, visuels sociaux, campagnes
-├── process/       ← étapes de fabrication publiées par l'éditeur : diagnostic, explorations, directions écartées, avant/après. Rare et précieux (cf. [[duolingo-app]])
+├── process/       ← étapes de fabrication publiées par l'éditeur : diagnostic, explorations, directions écartées, avant/après. Rare et précieux (cf. [[duolingo]])
 └── archive/       ← états antérieurs : refonte passée, ancienne UI, ancien site, millésimes datés
 ```
 Sous-dossier **créé seulement s'il a du contenu** — aucun dossier vide. Un aspect qui
