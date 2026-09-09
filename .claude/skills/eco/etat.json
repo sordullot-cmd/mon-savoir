@@ -1,5 +1,10 @@
 {
  "bruts": {
+  "eco gestion/_brut/Problèmes économiques contemporains.md": {
+   "fiche": "eco gestion/Problemes economiques - Chapitre 1 Analyse economique UE 13A.md",
+   "hash": "cba138b36fb1",
+   "integre": "2026-09-09 13:39"
+  },
   "eco gestion/_brut/gestion.md": {
    "fiche": "eco gestion/Gestion - Introduction UE 12A.md",
    "hash": "191100950174",
@@ -40,6 +45,14 @@
    "mots": 5458,
    "passage": "2026-09-08 00:00",
    "source": "_brut/gestion.md",
+   "statut": "à faire"
+  },
+  "eco gestion/Problemes economiques - Chapitre 1 Analyse economique UE 13A.md": {
+   "fait": "brut integre : fiche complete UE 13A (chapitre 1), 6 schemas SVG, 38 cartes, 56 questions de controle, 5 complements marques, 9 trous signales dont la fin du chapitre manquante",
+   "hash": "88e70899e652",
+   "mots": 7278,
+   "passage": "2026-09-09 13:39",
+   "source": "_brut/Problèmes économiques contemporains.md",
    "statut": "à faire"
   }
  }
