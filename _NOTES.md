@@ -11,7 +11,7 @@ Notes prises sur le tas, dans `notes/` — dossier synchronisé avec l'app tr4de
 
 ## trading — `#trading`
 
-- [[synthese trading]] — tout le trading rangé par sujet, chaque ligne renvoyant à sa note d'origine
+- [[synthese trading]] — le hub : tout le trading rangé par sujet, chaque ligne renvoyant à sa note d'origine. **Toute nouvelle note ou ligne `#trading` vient s'y ajouter**, `/notes` le vérifie à chaque passage
 - [[base trading]] — entry triggers, liquidité externe et interne, recit du marché, trade with time, systeme
 - [[key open]] — la bougie de 16h qui manipule avant de distribuer, critères de validation, checklist en 7 points, wick theory
 - [[powell]] — confluences, ifvg et leurs 50%, entry triggers
@@ -36,7 +36,7 @@ Notes prises sur le tas, dans `notes/` — dossier synchronisé avec l'app tr4de
 
 - [[apprentissage de la journée]] — le journal par date, chaque jour renvoyant à la note du sujet (`#top3`, épinglée)
 - [[app]] — les demandes de dev sur l'app tr4de — **vidée dans l'app**, ne reste que le titre (`#top3`)
-- [[chose a regler]] — créée le 10 septembre dans l'app, encore vide
+- [[chose a regler]] — les chantiers en cours : social, discipline, muscle, discipline trading, gerer son temps
 - [[anime manga film]] — animes notés, liste à regarder, films (`#a_regarder`)
 
 ## Sorties de `notes/`
