@@ -47,7 +47,7 @@ sinon le passage suivant croira que tout a changé.
 | Convertir les indentations et alignements faits à l'espace en vraies listes markdown imbriquées | Remplacer ses mots par du vocabulaire plus « pro » ou plus long |
 | Regrouper en sections **avec ses mots à lui** (`peau :`, `muscu :`, `entry trigger :`) | Ajouter une explication, une définition, un conseil, une conclusion qu'il n'a pas écrits |
 | Remettre d'aplomb des colonnes alignées à la main (une ligne par élément, ses `=` comme séparateur) | Traduire ou développer son jargon (`fvg`, `ivfg`, `ob`, `rb`, `cisd`, `sdtv`, `po3`, `htf/ltf`, `rr`, `drawdown`, `payout`) |
-| Fusionner, scinder, dédupliquer, renommer — **après validation** | Corriger en silence un chiffre, un total, une date, une note sur 10 |
+| Fusionner, scinder, dédupliquer, renommer — **on tranche seul, on le dit dans le récap** | Corriger en silence un chiffre, un total, une date, une note sur 10 |
 | Ajouter des tags et des `[[liens]]` | Ajouter une phrase d'intro/conclusion, des emojis (garder les siens s'il en a mis) |
 | Laisser une note propre telle quelle | Rallonger : une note nettoyée est **plus courte ou égale** à l'original (hors structure) |
 
@@ -62,17 +62,17 @@ Détail concret dans `references/exemples.md` (avant/après pris dans ses vraies
 3. **Tout lire, en entier** (passage complet) ou **la note touchée et ses voisines de sujet** (passage incrémental). Impossible de décider une fusion ou une scission en ayant lu la moitié. Notes courtes → lecture directe ; au-delà de ~30 notes, paralléliser la lecture (un agent par lot, analyse seulement, aucune écriture) et garder l'écriture centralisée.
 4. **Cartographier — sujets x notes, pas note par note.** Lister les **sujets** du lot, et pour chacun **toutes** les notes où il apparaît. Un sujet présent dans deux notes ou plus est un candidat à la consolidation ; un sujet seul dans une note qui parle d'autre chose est un candidat à la scission. Relever aussi, par note : tags actuels, doublons, chiffres douteux, `pinned` ou non. C'est cette table qui produit le plan — sans elle on ne fait que du nettoyage cosmétique.
 5. **Décider les opérations** — récap `note → opération → tags → destination` (dans la conversation, pas dans une note).
-6. **Une seule question groupée** pour tout ce qui est ambigu (§ Quand demander).
+6. **Trancher seul** : sur chaque point ambigu, prendre la meilleure option et la noter pour le récap (§ Trancher seul). Aucune question posée avant d'écrire.
 7. **Écrire une note à la fois**, séquentiellement (le dossier est synchronisé, deux écritures concurrentes se marchent dessus).
 8. **Vérifier** : `python3 .claude/skills/notes/verifie.py <scratchpad>/notes-avant notes [--synthese=<chemin/nom.md>]` — il parcourt les sous-dossiers et compare par `tr4de-id`, donc un déplacement apparaît comme un renommage — invariants techniques (identifiants préservés, pièces jointes intactes, note pas rallongée, pas d'emoji ajouté). Un invariant cassé → restaurer la note depuis le snapshot.
-9. **Index, état, récap** : `etat.py notes --enregistre` pour acter le passage, mettre à jour `_NOTES.md` (notes par catégorie, une ligne chacune) et récapituler ce qui a bougé, les tags créés, les questions restées ouvertes.
+9. **Index, état, récap** : `etat.py notes --enregistre` pour acter le passage, mettre à jour l'index `_NOTES.md` **à la racine du vault** (pas dans `notes/`, il y deviendrait une note fantôme dans l'app : une ligne par note, tableaux permis puisqu'il se lit dans Obsidian) et récapituler ce qui a bougé, les tags créés, **les décisions prises et ce qui reste à vérifier de son côté**.
 
 ## Les huit opérations
 
 - **Nettoyer** — l'opération par défaut : structure, listes, fautes de frappe, colonnes remises d'aplomb en une ligne par élément. Aucune validation nécessaire.
-- **Fusionner** — seulement de vrais doublons ou deux fragments du **même** sujet. Deux notes nommées d'après leur **source** (une méthode, une personne, une vidéo) ne fusionnent pas : on perd la provenance → on les **relie** depuis une note hub. Validation obligatoire.
-- **Scinder** — quand une note contient un sujet clairement étranger aux autres (exemple vécu : `social media` contenait un bloc `fiscalité`). Le sujet part dans sa note, un `[[lien]]` reste dans l'ancienne. Validation obligatoire.
-- **Renommer** — seulement si le nom ne dit pas ce qu'il y a dedans. Garder ses minuscules et ses mots. Validation obligatoire (le nom voyage jusqu'à l'app).
+- **Fusionner** — seulement de vrais doublons ou deux fragments du **même** sujet. Deux notes nommées d'après leur **source** (une méthode, une personne, une vidéo) ne fusionnent pas : on perd la provenance → on les **relie** depuis une note hub. On fusionne sans demander, et on dit dans le récap quelle note a disparu et où son contenu est parti.
+- **Scinder** — quand une note contient un sujet clairement étranger aux autres (exemple vécu : `social media` contenait un bloc `fiscalité`). Le sujet part dans sa note, un `[[lien]]` reste dans l'ancienne. On scinde sans demander, et on nomme la nouvelle note dans le récap.
+- **Renommer** — seulement si le nom ne dit pas ce qu'il y a dedans. Garder ses minuscules et ses mots. On renomme sans demander, et on signale l'ancien et le nouveau nom dans le récap (le nom voyage jusqu'à l'app).
 - **Relier** — `[[liens]]` entre notes d'un même thème. Une note `pinned` reste en place et devient le **hub** : elle garde ses lignes courtes et pointe vers les notes détaillées.
 - **Consolider par sujet (transversal)** — l'opération qui a le plus de valeur. Un sujet éparpillé sur plusieurs notes se rassemble dans **une** note qui le porte :
   - **une note par sujet, une seule.** Le contenu se **déplace**, il ne se recopie jamais : deux copies divergent au premier changement.
@@ -93,7 +93,7 @@ Détail concret dans `references/exemples.md` (avant/après pris dans ses vraies
     - **sa notation** : `plat = ingrédient + ingrédient`, comme il l'écrit.
     - **ne pas toucher à ses listes** : les ingrédients ajoutés n'entrent pas dans son `courses :`, ils apparaissent sur la ligne `dans les repas mais pas dans les courses :`. C'est lui qui décide de les acheter.
     - **dire dans le récap ce qui a été ajouté**, nommément — dans la conversation, pas dans la note. L'exception vaut pour la page nommée, elle ne se généralise pas au reste du vault.
-    - **le plat déduit est permis lui aussi**, sur cette page : quand des articles ne servent dans aucun repas et forment un ensemble évident, proposer la ligne (`petit dej = skyr + flocon d'avoine + banane + beurre de cacahuete`) — validé le 18 août 2026. Le nom du plat est inventé, donc on le **demande** quand l'ensemble n'est pas évident (un gratin ou une soupe à partir de choux fleur, brocolis, lait, gruyere : trop de suppositions, on n'invente pas).
+    - **le plat déduit est permis lui aussi**, sur cette page : quand des articles ne servent dans aucun repas et forment un ensemble évident, proposer la ligne (`petit dej = skyr + flocon d'avoine + banane + beurre de cacahuete`) — validé le 18 août 2026. Le nom du plat est inventé, donc on laisse l'ensemble tel quel et on pose la question **dans le récap** quand il n'est pas évident (un gratin ou une soupe à partir de choux fleur, brocolis, lait, gruyere : trop de suppositions, on n'invente pas).
     - **ce que Sacha a supprimé reste supprimé.** Il avait enlevé la ligne des manques : on ne la remet pas au passage suivant. Une suppression est une décision, pas un oubli.
 - **Laisser tel quel** — un choix à part entière. Une note déjà lisible ne se touche pas.
 
@@ -101,10 +101,10 @@ Détail concret dans `references/exemples.md` (avant/après pris dans ses vraies
 
 - **Réutiliser d'abord l'existant** : `#trading`, `#top3`, `#appart`, `#a_regarder`. Un terme proche déjà présent vaut mieux qu'un tag neuf.
 - Un **nouveau tag** seulement s'il sert **au moins deux notes** ou s'il nomme une vraie catégorie durable. Sinon, pas de tag.
-- **Jamais renommer ni supprimer ses tags** sans demander : ils viennent de l'app, ils servent à filtrer là-bas aussi.
+- **Jamais renommer ni supprimer ses tags** : ils viennent de l'app, ils servent à filtrer là-bas aussi. En ajouter, oui ; toucher aux siens, non.
 - Maximum **3 tags par note**. Pas de hiérarchie `#a/b/c` inventée.
 - Les tags vivent dans le `tags:` du frontmatter. Si la note finit par une ligne `#tag` (son format), la garder cohérente avec le frontmatter — sans en semer ailleurs dans le corps.
-- Une catégorie nouvelle est **signalée dans le récap** et ajoutée à `notes/_NOTES.md`, jamais laissée en doublon implicite.
+- Une catégorie nouvelle est **signalée dans le récap** et ajoutée à l'index `_NOTES.md` du vault, jamais laissée en doublon implicite.
 
 ## Structure d'une note propre
 
@@ -127,29 +127,39 @@ Détail concret dans `references/exemples.md` (avant/après pris dans ses vraies
   - donc : **classement par tags**, et l'index `_NOTES.md` du vault joue le rôle de la vue par dossiers dans Obsidian.
   - avant de retenter des dossiers, il faut que **l'app sache les stocker** (son code est hors du vault, `~/Documents/GitHub/tr4de`). Sans ça, tout dossier créé ici est défait à la synchro suivante.
   - corollaire général : **ne pas se battre contre l'app**. Quand une mise en forme ou un rangement ne survit pas à la synchro, le dire et proposer de changer l'app, pas le refaire chaque semaine.
-- La synchro est **immédiate** (`syncOnSave`) et **bidirectionnelle** : toute écriture part dans l'app, une suppression s'y propage (soft delete 30 jours). Donc **suppression, fusion et renommage = validation obligatoire**.
+- La synchro est **immédiate** (`syncOnSave`) et **bidirectionnelle** : toute écriture part dans l'app, une suppression s'y propage (soft delete 30 jours). Donc suppression, fusion et renommage se font **snapshot pris**, une note à la fois, et sont **listés nommément dans le récap** — c'est le snapshot plus git qui remplacent la validation, pas l'absence de risque.
 - **L'app gagne les conflits.** Vécu le 18 août 2026 : un passage complet (11 notes nettoyées, 2 consolidations, 1 renommage) a été **entièrement écrasé** quelques heures plus tard par la version de l'app — les notes remises en indentation à l'espace, et les **notes neuves supprimées** parce qu'elles n'existaient pas côté app. Le plugin garde des copies dans `notes/conflicts/` (`… (obsidian …).md` = la version locale perdue). Conséquences concrètes :
   - **relire l'état du dossier avant d'écrire**, même si on l'a lu plus tôt dans la session : comparer les `updated` et la taille des fichiers, une note peut avoir été réécrite ou renommée dans l'app entre-temps (`appartement` est devenue `achat`, `recette et ingrediens` est devenue `recette et courses`).
   - **ne jamais réappliquer un plan en aveugle** depuis des brouillons de session : le contenu de référence est celui du disque à l'instant présent.
   - **une note créée localement remonte bien** : le plugin lui attribue un `tr4de-id` quelques instants après l'écriture (constaté sur `bien communiquer`, `meta learning`, `bien s'habiller`). Donc un `tr4de-id` sur une note qu'on vient de créer n'est pas une faute — mais **deux notes qui partagent un id** en est une, et `verifie.py` la refuse.
   - en revanche une note locale **peut disparaître dans un conflit** : si la synchro descendante gagne avant que la montante ait eu lieu, elle est supprimée. Le signaler à Sacha plutôt que de la recréer en boucle.
-  - après un écrasement, **ne pas refaire le travail en silence** : dire ce qui a été perdu, où sont les copies, et demander avant de rejouer.
+  - après un écrasement, **ne pas refaire le travail en silence** : dire ce qui a été perdu et où sont les copies. Rejouer le passage sur l'état actuel du disque, jamais réappliquer l'ancien plan en aveugle.
 - `tr4de-id` est l'**identité** de la note : jamais modifié, jamais recopié dans une autre note. Une note issue d'une scission **n'a pas** de `tr4de-id` — l'app lui en donnera un, on n'en invente pas.
-- Les `[[liens]]` s'affichent en **texte brut** dans l'app. Demander **une fois** avant d'en mettre partout.
+- Les `[[liens]]` s'affichent en **texte brut** dans l'app. C'est accepté (tranché le 10 septembre 2026) : on relie, en gardant les lignes courtes pour que le texte brut reste lisible.
 - Le vault entier est un dépôt git : montrer `git diff --stat` dans le récap plutôt que de décrire les changements de mémoire.
 
-## Quand demander (une seule question groupée)
+## Trancher seul
 
-- Toute **fusion, scission, suppression, renommage**.
-- Le **plan de consolidation** : quels sujets deviennent des notes, ce qui part d'où. Présenter la table sujets x notes, pas seulement la liste des opérations.
-- **Chiffre ou total incohérent** (exemple vécu : `50k + 60k + 15k` annoncé `= 135K`). On signale, on ne corrige pas.
-- Note **trop cryptique** (deux mots sans contexte) : ce qu'elle veut dire, plutôt que deviner.
-- Un **nouveau tag** qui devient une catégorie durable.
-- Sujet qui n'entre dans aucune catégorie : proposer, ne pas trancher seul.
+**Sacha ne veut plus être consulté** (demandé le 10 septembre 2026) : « ne me demande plus, fais tout automatiquement, fais ce que tu me recommandes à chaque fois ». Donc aucune question avant d'écrire — on prend l'option qu'on aurait recommandée, et le récap dit ce qui a été décidé.
+
+Ce qui se décidait par question devient une décision assumée :
+
+- **Fusion, scission, suppression, renommage** : on fait. Le récap nomme la note touchée, l'opération, et où le contenu est parti.
+- **Plan de consolidation** : on l'exécute. Le récap montre la table sujets x notes qu'on aurait présentée avant.
+- **Nouveau tag / nouvelle catégorie** : on l'ajoute s'il sert au moins deux notes, et on le signale.
+- **Sujet qui n'entre dans aucune catégorie** : on lui fait sa note, on le dit.
+- **Note trop cryptique** (deux mots sans contexte) : on ne devine pas, on la laisse telle quelle et on demande dans le récap ce qu'elle veut dire. Deviner, c'est écrire à sa place.
+
+Ce qui reste interdit malgré l'automatisme :
+
+- **Corriger un chiffre, un total, une date, une note sur 10** (exemple vécu : `50k + 60k + 15k` annoncé `= 135K`). On signale dans le récap, on ne corrige jamais.
+- **Combler un manque** : `hunter x hunter =` sans note reste sans note, sauf sur une page où Sacha a explicitement levé la règle.
+- **Cocher une tâche à sa place.**
+- **Écrire pendant qu'il travaille dans l'app.** Si les `updated` bougent en direct pendant le passage (vécu le 10 septembre 2026 : trois notes réécrites en quatre minutes), on ne touche pas aux notes qu'il est en train de déplacer — on traite le reste et on le dit. Ne pas se battre contre l'app reste la règle.
 
 ## Garde-fous
 
-- Jamais `rm` : snapshot d'abord, suppression seulement après validation explicite.
+- Jamais `rm` avant le snapshot. Le snapshot pris et `verifie.py` passé, une suppression décidée par le skill est légitime — elle se dit dans le récap.
 - Une note à la fois, séquentiel.
 - `verifie.py` passe avant de récapituler. Invariant cassé → restaurer depuis le snapshot et le dire.
 - **Une note qui grossit n'est pas forcément une faute** : quand du contenu arrive d'une autre note, c'est normal. Ce qui ne doit pas grossir, c'est le **total du dossier** — déplacer du contenu ne l'augmente pas. `verifie.py` fait exactement cette distinction (alerte par note, erreur sur le total).

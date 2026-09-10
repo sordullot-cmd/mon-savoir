@@ -1,7 +1,7 @@
 ---
 tr4de-id: "1783638656474.7312"
 created: 2026-07-09T23:10:56.474Z
-updated: 2026-08-20T23:54:56.488Z
+updated: 2026-09-10T21:02:51.447Z
 tags:
   - trading
 ---
@@ -38,7 +38,8 @@ trade with time
 
 systeme :
 - quelle est mon A+ setup
+- avoir un playbook detaillé et precis
 
-voir aussi : [[synthese trading]], [[powell]], [[sdtv]]
+voir aussi : [[synthese trading]], [[key open]], [[powell]], [[sdtv]], [[trader de qui apprendre]]
 
 #trading

@@ -1,7 +1,7 @@
 ---
 tr4de-id: "1787059443676.0757"
 created: 2026-08-18T13:23:48.502Z
-updated: 2026-08-24T16:42:20.880Z
+updated: 2026-09-10T21:03:37.365Z
 tags:
   - glowup
 ---
@@ -25,6 +25,6 @@ video = (how to learn anything way faster than anyone, how to learn everything f
 - avoir le courage d'etre mauvais = il ne faut pas rester dans sa zone de confort
 - avoir une identité lié a notre objectif =
 
-voir aussi : [[apprentissage de la journée]], [[lock in]], [[bien communiquer]]
+voir aussi : [[Methode - Comment reviser]] (les techniques qui marchent, dans eco gestion), [[apprentissage de la journée]], [[lock in]], [[bien communiquer]]
 
 #glowup

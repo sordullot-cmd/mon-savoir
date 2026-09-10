@@ -1,13 +1,17 @@
 ---
 tr4de-id: "1783683948714.8545"
 created: 2026-07-10T11:45:48.714Z
-updated: 2026-08-25T01:43:43.233Z
+updated: 2026-09-10T21:02:34.866Z
 pinned: true
 tags:
   - top3
 ---
 
 apprentissage de la journée
+
+lundi 8 septembre - key open
+
+attendre la bougie de 16h, elle manipule dans un sens avant de distribuer, checklist en 7 points, wick theory → [[key open]]
 
 lun 24 aout - lock in
 

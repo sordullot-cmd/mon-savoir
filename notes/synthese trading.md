@@ -1,7 +1,7 @@
 ---
 tr4de-id: "1787058184048.5754"
 created: 2026-08-18T13:02:44.094Z
-updated: 2026-08-20T23:54:56.378Z
+updated: 2026-09-10T21:03:44.301Z
 tags:
   - trading
 ---
@@ -30,7 +30,12 @@ stdv
 
 recit du marché
 - market maker buy ou sell model, monday range play → [[base trading]]
+- key open : la bougie de 16h manipule avant de distribuer, checklist en 7 points, wick theory → [[key open]]
 - trade with time : heures et mini sessions, plus petite time frame si confiant et en discount → [[base trading]]
+
+apprendre
+- de qui apprendre : 393ticks, nqsimon, steelnq, walterdeviation, dutchy, pbtrading → [[trader de qui apprendre]]
+- avoir un playbook detaillé et precis → [[base trading]]
 
 business
 - comptes prop, coûts, plan mois par mois → [[plan pour passer a 100k mensuelle]]
