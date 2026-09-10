@@ -9,8 +9,8 @@ ects: 60
 coefficients: 62
 heures_travail_perso: 432
 heures_cours: 498
-revu: 2026-09-07
-a_verifier: 2
+revu: 2026-09-10
+a_verifier: 5
 cartes: 0
 ---
 
@@ -35,7 +35,22 @@ cartes: 0
 | Gestion & débats  | S23 → S31 | 108 h  | **17** | **Cycle 3 - Gestion et debats** |
 | Socle transversal | continu   | 60 h   | 16     | **Cycle 4 - Socle transversal** |
 
-**Notes de support** : **MCC - Tableau de bord** · **Ressources - Bibliotheque de liens**
+**Notes de support** : 🧠 [[Methode - Comment reviser]] · **MCC - Tableau de bord** · **Ressources - Bibliotheque de liens**
+
+---
+
+## 📚 Tes fiches de cours
+
+Les quatre UE de la **période 1** sont celles qui tombent en premier. Trois ont déjà leur fiche :
+
+| UE      | Matière                             | Coef | Cartes | Trous | Fiche |
+|---|---|---|---|---|---|
+| **11A** | Introduction à l'économie           | 3    | 38     | 9     | [[Economie - Chapitre 1 Science economique]] |
+| **12A** | Introduction à la gestion           | 3    | 51     | 8     | [[Gestion - Introduction]] |
+| **13A** | Problèmes économiques contemporains | —    | 38     | 9     | [[Problemes economiques - Chapitre 1 Analyse economique UE 13A]] |
+| **18C** | Méthodologie                        | —    | —      | —     | *pas encore de notes* |
+
+**127 cartes à créer** et **26 trous** signalés, sur les trois fiches existantes. Le protocole pour les travailler est dans [[Methode - Comment reviser]].
 
 ---
 
@@ -156,3 +171,6 @@ cartes: 0
 > [!question] À vérifier
 > - Le tableau des cycles totalise 64 coef contre 62 au frontmatter et dans la Règle 2 : `18C Méthodologie` (coef 2) est comptée dans **Cycle 0 - Fondations** et dans **Cycle 4 - Socle transversal**.
 > - Le tableau de la semaine totalise 12 h 45, le titre annonce 12 h — et 432 h sur 36 semaines font 12 h pile.
+> - La période 1 pèse 11 coef pour quatre UE, mais seules `11A` (coef 3) et `12A` (coef 3) portent un coefficient dans leur fiche : celui de `13A` et de `18C` reste à relever sur la maquette.
+> - Deux fiches de gestion coexistent : `Gestion - Introduction UE 12A.md`, suivie par git mais absente du disque, et `Gestion - Introduction.md`, présente mais **amputée de son en-tête** (titre complet, coef 3 · CT 1 h 30, contacts de l'enseignante, lien vers les slides). Le hub pointe vers celle que tu peux ouvrir. À trancher : laquelle garder.
+> - `Methode - Comment reviser` a quitté `eco gestion/` pour `notes/` et porte désormais un `tr4de-id` : c'est l'app tr4de qui en a la main, `/eco` n'y touche plus.

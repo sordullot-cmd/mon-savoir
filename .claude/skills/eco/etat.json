@@ -18,10 +18,11 @@
  },
  "pages": {
   "eco gestion/00 - Plan L1 Angers.md": {
-   "fait": "essentiel, bloc Controle, incoherences signalees ; alignement des tableaux restaure",
-   "hash": "b7c2efb677f9",
-   "mots": 1431,
-   "passage": "2026-09-07 19:30",
+   "fait": "hub relie aux 3 fiches existantes (tableau UE/coef/cartes/trous), lien vers Methode - Comment reviser, A verifier passe de 2 a 5 points (coef 13A et 18C, doublon Gestion tronque, migration de la page methode vers notes/)",
+   "hash": "06945ca98673",
+   "mots": 1707,
+   "passage": "2026-09-10 22:52",
+   "source": null,
    "statut": null
   },
   "eco gestion/Anki - Formules et definitions C0-C1.md": {
