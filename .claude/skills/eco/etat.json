@@ -1,5 +1,10 @@
 {
  "bruts": {
+  "eco gestion/_brut/Méthodologie du travail universitaire.md": {
+   "fiche": "eco gestion/Methodologie - Travail universitaire UE 18C.md",
+   "hash": "74f979b208c5",
+   "integre": "2026-09-10 23:35"
+  },
   "eco gestion/_brut/Problèmes économiques contemporains.md": {
    "fiche": "eco gestion/Problemes economiques - Chapitre 1 Analyse economique UE 13A.md",
    "hash": "9c00625a5650",
@@ -18,10 +23,10 @@
  },
  "pages": {
   "eco gestion/00 - Plan L1 Angers.md": {
-   "fait": "hub relie aux 3 fiches existantes (tableau UE/coef/cartes/trous), lien vers Methode - Comment reviser, A verifier passe de 2 a 5 points (coef 13A et 18C, doublon Gestion tronque, migration de la page methode vers notes/)",
-   "hash": "06945ca98673",
-   "mots": 1707,
-   "passage": "2026-09-10 22:52",
+   "fait": "tableau Tes fiches complete : la 4e UE de periode 1 (18C) est reliee, totaux passes a 159 cartes et 36 trous",
+   "hash": "7902bc7556fa",
+   "mots": 1711,
+   "passage": "2026-09-10 23:35",
    "source": null,
    "statut": null
   },
@@ -54,6 +59,14 @@
    "mots": 5458,
    "passage": "2026-09-08 00:00",
    "source": "_brut/gestion.md",
+   "statut": "à faire"
+  },
+  "eco gestion/Methodologie - Travail universitaire UE 18C.md": {
+   "fait": "brut UE 18C corrige (55 mots) et integre en fiche : 2 parties, bareme 13/7/1-2, 4 schemas SVG, 32 cartes, 28 complements sur ses nex, 10 points a verifier",
+   "hash": "8b9a1d5ccd25",
+   "mots": 4552,
+   "passage": "2026-09-10 23:35",
+   "source": "_brut/Méthodologie du travail universitaire.md",
    "statut": "à faire"
   },
   "eco gestion/Problemes economiques - Chapitre 1 Analyse economique UE 13A.md": {

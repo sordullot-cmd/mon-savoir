@@ -41,16 +41,16 @@ cartes: 0
 
 ## 📚 Tes fiches de cours
 
-Les quatre UE de la **période 1** sont celles qui tombent en premier. Trois ont déjà leur fiche :
+Les quatre UE de la **période 1** sont celles qui tombent en premier. Les quatre ont leur fiche :
 
 | UE      | Matière                             | Coef | Cartes | Trous | Fiche |
 |---|---|---|---|---|---|
 | **11A** | Introduction à l'économie           | 3    | 38     | 9     | [[Economie - Chapitre 1 Science economique]] |
 | **12A** | Introduction à la gestion           | 3    | 51     | 8     | [[Gestion - Introduction]] |
 | **13A** | Problèmes économiques contemporains | —    | 38     | 9     | [[Problemes economiques - Chapitre 1 Analyse economique UE 13A]] |
-| **18C** | Méthodologie                        | —    | —      | —     | *pas encore de notes* |
+| **18C** | Méthodologie du travail universitaire | —  | 32     | 10    | [[Methodologie - Travail universitaire UE 18C]] |
 
-**127 cartes à créer** et **26 trous** signalés, sur les trois fiches existantes. Le protocole pour les travailler est dans [[Methode - Comment reviser]].
+**159 cartes à créer** et **36 trous** signalés, sur les quatre fiches. Le protocole pour les travailler est dans [[Methode - Comment reviser]].
 
 ---
 
