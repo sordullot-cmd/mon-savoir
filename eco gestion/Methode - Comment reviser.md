@@ -5,7 +5,7 @@ tags:
   - reference
 notion: Comment réviser — les cinq techniques qui tiennent en recherche, et le calendrier qui va avec
 statut: à faire
-revu: 2026-09-08
+revu: 2026-09-11
 ---
 
 # 🧠 Comment réviser — les techniques qui marchent
@@ -133,6 +133,29 @@ Deux remarques qui évitent de mal s'en servir :
 - **Trop serré ne sert à rien.** Revoir la même fiche trois soirs de suite, c'est presque une seule révision. La courbe est en U inversé : l'intervalle trop court est aussi mauvais que l'intervalle trop long.
 - **Anki fait déjà ce calcul.** **Anki - Formules et definitions C0-C1** espace automatiquement les cartes. La règle ci-dessus sert pour ce qui n'est pas cartable : les fiches entières, les séries d'exercices, les annales.
 
+## 🔁 À ne pas confondre
+
+| Relire | Se tester |
+|---|---|
+| On re-voit l'information, sans effort de rappel | On force l'information à ressortir de sa tête |
+| Efficace pour un test passé **immédiatement** après | Efficace dès que le délai se compte en jours ou en semaines — donc en examen |
+| **40 %** de rétention à une semaine | **61 %** de rétention à une semaine |
+| **Ce qui les sépare** : la relecture crée une maîtrise de court terme, qui disparaît au moment où tu en as besoin. |
+
+| Pratique bloquée | Pratique entrelacée |
+|---|---|
+| Un type après l'autre, la méthode est annoncée en haut de la page | Les types mélangés, rien n'est étiqueté |
+| **38 %** au test surprise | **61 %** au test surprise (d = 0,83) |
+| Tu n'entraînes que l'**exécution** | Tu entraînes l'**identification du type de problème** |
+| **Ce qui les sépare** : l'une te donne la méthode, l'autre t'oblige à la choisir — comme l'examen. |
+
+| Pretesting | Effet test |
+|---|---|
+| On se teste **avant** d'avoir vu le contenu | On se teste **après** l'avoir étudié |
+| Se tromper massivement **est** le mécanisme : attention focalisée, curiosité | Le rappel améliore l'apprentissage, il ne fait pas que l'évaluer (d = 0,40 sur des questions **nouvelles**) |
+| Lire l'annale avant le cours | Le bloc `Contrôle` après avoir fait la fiche |
+| **Ce qui les sépare** : le moment, pas la nature — et les deux se cumulent dans le protocole ci-dessous. |
+
 ## 📌 Le protocole, mis bout à bout
 
 1. **Avant le cours** — lis les questions du bloc `Contrôle` de la fiche, ou une annale, et plante-toi. *(pretesting)*
@@ -155,14 +178,23 @@ Réponds à voix haute, puis ouvre la réponse.
 > [!question]- Le protocole du réapprentissage successif, en deux étapes chiffrées ?
 > Se tester jusqu'à **3 rappels corrects**, puis **réapprendre 3 fois** à intervalles largement espacés. Résultat : 68 % de rétention à 1 mois contre ~11 %. → [[#🏆 La recette optimale : le réapprentissage successif]]
 
+> [!question]- Une série d'exercices, tu la fais combien de fois ?
+> Pas une. Jusqu'à la cible, puis **3 fois de plus** à des semaines d'écart — c'est à ça que servent les trois colonnes « Essai 1 / 2 / 3 » de **Fiche exos - Modules A C E**. → [[#🏆 La recette optimale : le réapprentissage successif]]
+
 > [!question]- Pratique entrelacée contre pratique bloquée : les deux scores, et la raison de l'écart.
 > 61 % contre 38 % (d = 0,83). En pratique bloquée on n'entraîne que l'exécution, la méthode étant déjà donnée ; en pratique entrelacée on entraîne l'**identification du type de problème** — ce que demande l'examen. → [[#🔀 L'interleaving — la méthode spécifique au quantitatif]]
+
+> [!question]- L'interleaving donne l'impression de moins bien réussir : faut-il s'en méfier ?
+> Non. Tous les enseignants de l'étude ont rapporté que les devoirs entrelacés prenaient plus de temps — c'est plus lent et plus frustrant. C'est une **difficulté désirable** : l'inconfort est le signe que ça fonctionne. → [[#🔀 L'interleaving — la méthode spécifique au quantitatif]]
 
 > [!question]- Pourquoi se tester sur un cours qu'on n'a pas encore vu n'est-il pas une perte de temps ?
 > Parce que l'échec focalise l'attention sur les concepts pré-testés et crée une curiosité qui donne un but à la lecture suivante — à condition d'étudier les bonnes réponses ensuite. → [[#🎯 Le pretesting — se tester avant d'apprendre]]
 
 > [!question]- Tu as trois semaines avant une épreuve : à quel rythme revois-tu la fiche ?
 > 10 à 20 % de 21 jours, soit tous les **2 à 4 jours**, cinq à sept passages — et pas trois soirs d'affilée, qui comptent presque pour une seule révision. → [[#🗓️ Calibrer les intervalles sur ton calendrier]]
+
+> [!question]- À quoi sert la règle des 10-20 %, puisque Anki espace déjà tes cartes ?
+> À tout ce qui n'est pas cartable : les fiches entières, les séries d'exercices, les annales. Les définitions et les formules partent en cartes dès la première session, et c'est **Anki - Formules et definitions C0-C1** qui tient l'espacement ensuite. → [[#🗓️ Calibrer les intervalles sur ton calendrier]]
 
 ## À vérifier / à récupérer
 
