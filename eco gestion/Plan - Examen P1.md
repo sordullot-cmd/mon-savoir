@@ -9,7 +9,7 @@ heures: 80
 annales: dépouillées le 11 septembre 2026 — 11A (3 sujets + 1 corrigé), 12A (2 sujets dont 1 copie corrigée), 13A (aucune)
 statut: en cours
 revu: 2026-09-11
-a_verifier: 6
+a_verifier: 7
 ---
 
 # 🎯 Plan — Examens de période 1
@@ -40,7 +40,7 @@ a_verifier: 6
 
 > [!warning] Deux corrections par rapport à la version précédente de ce plan
 > - **12A était annoncée à 1 h 30 ici. Le sujet de l'an dernier dit 2 h.** Une demi-heure de plus, c'est une partie entière du sujet. Vérifie sur la maquette ou auprès de Carole Vigeant laquelle fait foi — et révise pour 2 h.
-> - **18C n'est pas du contrôle continu pur.** Il y a bien un **examen final écrit d'1 h qui vaut 13 points sur 20** ; le contrôle continu (recherche bibliographique + test de la BU), c'est les 7 points restants. Donc 18C aussi peut tomber les 21 ou 23 octobre.
+> - **18C n'est pas du contrôle continu pur.** Il y a bien un **examen final écrit d'1 h qui vaut 13 points sur 20** ; le contrôle continu (recherche bibliographique + test de la BU), c'est les 7 points restants. Donc 18C aussi peut tomber les 21 ou 23 octobre — mais [[Calendrier officiel 2026-2027]] affirme exactement l'inverse, et les deux pages ne peuvent pas avoir raison : voir `À vérifier` en fin de plan.
 
 **11 coefficients sur 62, soit 17,7 % de ton année**, décidés en sept semaines de cours.
 
@@ -260,6 +260,13 @@ Les chapitres des promotions précédentes, confirmés par les domaines que le p
 | **Maths en autonomie** *(pour P2–P4)* | **16 h** | *24 h* | arbitrage assumé : P1 est à 40 jours, les maths à 16 semaines |
 | | **80 h** | | |
 
+> [!warning] Ce budget et le plan semaine par semaine ne retombent pas sur les mêmes heures
+> En additionnant les tableaux des semaines 1 à 5 : **11A 18 h · 12A 18 h · 13A 16 h · 18C 7 h · maths 10 h**, plus les **6 h de mise en place** de la semaine 1 — soit **75 h** programmées.
+> - Pour **12A, 13A et 18C**, l'écart tombe juste : les 2 h de l'examen blanc du 17, les 2 h de simulation du 16 et l'heure de relecture du 19 ne sont pas dans les tableaux hebdomadaires. Rien à corriger.
+> - **L'écart réel est sur les maths : 16 h budgétées, 10 h programmées** (2 h × 5 semaines). Et les **6 h de mise en place n'ont aucune ligne** dans le budget.
+>
+> Tranche dans un sens ou dans l'autre — passer les maths à 3 h par semaine, ou ramener la ligne du budget à 10 h — mais ne laisse pas les deux tableaux dire deux choses différentes : c'est comme ça qu'on croit avoir le temps qu'on n'a pas.
+
 > [!warning] L'arbitrage sur les maths est à toi
 > `14A Bases de maths` tombe en **P2 (janvier)**, et micro-macro-maths portent **25,5 coefficients en P4**. Descendre à 16 h, c'est faire le pari que six semaines de P1 valent mieux qu'un travail d'avance. C'est défendable tant que **tu ne descends pas à zéro** : deux heures par semaine, sans exception, suffisent à ne pas décrocher.
 >
@@ -403,6 +410,7 @@ Les chapitres des promotions précédentes, confirmés par les domaines que le p
 - [x] Rétro-ingénierie faite — c'est tout le bloc « Ce que les annales disent vraiment »
 - [ ] Première annale de 11A passée à blanc, ratée, analysée
 - [ ] Emploi du temps vérifié · plan de cours de 13A obtenu
+- [ ] **18C tranchée** : examen le 21 ou le 23, ou contrôle continu seul ?
 - [ ] Trois fiches A4 créées · Anki lancé
 
 **Avant le 11 octobre**
@@ -425,7 +433,8 @@ Les chapitres des promotions précédentes, confirmés par les domaines que le p
 
 > [!question] À vérifier
 > - **La durée de 12A** : ce plan disait 1 h 30, le sujet 2024-2025 dit **2 h**. Trancher sur la maquette ou auprès de Carole Vigeant.
-> - **Le coefficient de 13A** n'est toujours pas relevé : la période 1 pèse 11 coef pour quatre UE, dont seules 11A (3), 12A (3) et 18C (2) sont connues.
+> - **Les coefficients de P1 tiennent à un seul chiffre sourcé de moins qu'il n'y paraît.** [[00 - Plan L1 Angers]] ne donne de coefficient de fiche qu'à 11A (3) et 12A (3) ; le **2 de 18C** vient de son tableau des cycles, celui-là même qui totalise 64 coef au lieu de 62, et la fiche [[Methodologie - Travail universitaire UE 18C]] dit son coefficient **inconnu**. Si 3 + 3 + 2 tient, alors **13A vaut 3** par soustraction des 11 coef de la période — mais c'est une déduction, pas un relevé. À confirmer sur la maquette `26-27_Maquette_L1_EG.xlsx`.
+> - **18C tombe-t-elle vraiment les 21 ou 23 octobre ?** Ce plan dit oui (examen final écrit d'1 h, 13 points) ; [[Calendrier officiel 2026-2027]] écrit que « 18C est du **contrôle continu**, elle ne tombe ni le 21 ni le 23 ». Une convocation, ou une question à l'enseignante, tranche en trente secondes — et ça change une épreuve entière dans ta semaine du 19.
 > - **Le plan de cours de 13A pour 2026-2027** : les chapitres 2, 3 et 4 listés ici viennent des promotions précédentes. Seul le chapitre 1 est confirmé.
 > - **Les réponses relevées sur les annales de 11A** viennent de copies et d'un corrigé **d'étudiants**, pas du prof — le corrigé se trompe au moins sur la question de l'avantage comparatif. Chaque formulation est à confronter au cours.
 > - **La formulation exacte attendue pour « les conventions » et « une défaillance de marché »** : sur les deux sujets, la bonne réponse est « aucune des propositions ». Le cours doit donc en donner une définition que ces propositions ne recouvrent pas — à retrouver en amphi.
