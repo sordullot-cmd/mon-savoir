@@ -8,17 +8,17 @@
   "eco gestion/_brut/Problèmes économiques contemporains.md": {
    "fiche": "eco gestion/Problemes economiques - Chapitre 1 Analyse economique UE 13A.md",
    "hash": "9c00625a5650",
-   "integre": "2026-09-09 17:56"
+   "integre": "2026-09-11 12:50"
   },
   "eco gestion/_brut/gestion.md": {
-   "fiche": "eco gestion/Gestion - Introduction UE 12A.md",
+   "fiche": "eco gestion/Gestion - Introduction.md",
    "hash": "191100950174",
-   "integre": "2026-09-08 00:00"
+   "integre": "2026-09-11 12:50"
   },
   "eco gestion/_brut/introduction a l'economie.md": {
    "fiche": "eco gestion/Economie - Chapitre 1 Science economique.md",
    "hash": "4099b7afd1fa",
-   "integre": "2026-09-09 19:25"
+   "integre": "2026-09-11 12:50"
   }
  },
  "pages": {
@@ -38,10 +38,10 @@
    "statut": "à créer"
   },
   "eco gestion/Economie - Chapitre 1 Science economique.md": {
-   "fait": "brut d'introduction corrige (4 fautes) et integre : deux objectifs du cours, cles d'acces, question de Controle, cles signalees dans A verifier",
-   "hash": "637e77066c16",
-   "mots": 7274,
-   "passage": "2026-09-09 19:25",
+   "fait": "cours de reference L1 confronte : definition exacte de la science eco, biens intermediaires, nudge, chainon du paradoxe de l'epargne ; deux trous fermes (bibliographie Acemoglu, libelle des 55/25) ; 4 cartes",
+   "hash": "108d24103f62",
+   "mots": 8076,
+   "passage": "2026-09-11 12:50",
    "source": "_brut/introduction a l'economie.md",
    "statut": "à faire"
   },
@@ -61,6 +61,14 @@
    "source": "_brut/gestion.md",
    "statut": "à faire"
   },
+  "eco gestion/Gestion - Introduction.md": {
+   "fait": "cours de reference L1 confronte : licorne, sigles juridiques, benefice, Clark-Fourastie et quaternaire, SIREN/SIRET, DD contre RSE ; 7 cartes ; rien d'importe des chapitres a venir",
+   "hash": "68345967d36c",
+   "mots": 11474,
+   "passage": "2026-09-11 12:50",
+   "source": "_brut/gestion.md",
+   "statut": "à faire"
+  },
   "eco gestion/Methodologie - Travail universitaire UE 18C.md": {
    "fait": "brut UE 18C corrige (55 mots) et integre en fiche : 2 parties, bareme 13/7/1-2, 4 schemas SVG, 32 cartes, 28 complements sur ses nex, 10 points a verifier",
    "hash": "8b9a1d5ccd25",
@@ -70,10 +78,10 @@
    "statut": "à faire"
   },
   "eco gestion/Problemes economiques - Chapitre 1 Analyse economique UE 13A.md": {
-   "fait": "brut integre puis brut corrige sur la forme (orthographe, ponctuation, syntaxe markdown) : 152 lignes, aucun nom propre ni chiffre touche",
-   "hash": "88e70899e652",
-   "mots": 7278,
-   "passage": "2026-09-09 17:56",
+   "fait": "diaporama 25-26 du meme chapitre confronte : hypothese du chapitre, Duflo Nobel 2019, taux d'interet, second trait de l'entreprise, econometrie ; fin du chapitre detaillee dans A verifier sans etre ecrite ; 3 cartes",
+   "hash": "729b2153d345",
+   "mots": 8055,
+   "passage": "2026-09-11 12:50",
    "source": "_brut/Problèmes économiques contemporains.md",
    "statut": "à faire"
   }

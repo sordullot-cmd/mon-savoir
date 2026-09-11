@@ -12,9 +12,9 @@ statut: à faire
 coef: 3
 periode: 1
 revu: 2026-09-09
-a_verifier: 9
-cartes: 38
-ajouts: 0
+a_verifier: 7
+cartes: 42
+ajouts: 4
 ---
 
 # 📘 Cours — Qu'est-ce que la science économique ? Objet et méthode (UE 11A)
@@ -24,7 +24,8 @@ ajouts: 0
 📓 Sources : tes notes d'introduction du 3 septembre 2026 (`_brut/introduction a l'economie.md`) et tes 25 pages de cahier photographiées le 8 septembre 2026, dans `fichier/`
 
 > [!note] Ce qui est du cours, et ce qui ne l'est pas
-> Tout le corps vient de **tes notes** — l'introduction du 3 septembre et tes 25 pages de cahier —, mises au propre : orthographe, phrases reconstituées, structure remise d'aplomb. **Rien n'a été ajouté** — le frontmatter le dit (`ajouts: 0`).
+> Tout le corps vient de **tes notes** — l'introduction du 3 septembre et tes 25 pages de cahier —, mises au propre : orthographe, phrases reconstituées, structure remise d'aplomb. Quelques mots et définitions ont été **précisés d'après le cours de référence** des années précédentes (`~/Documents/L1`) : la liste est en fin de fiche, dans « Ce que le cours de référence a précisé ».
+> Les **quatre plus verts** sont les seules choses qui ne viennent d'aucune source de ton cours à toi : le compteur `ajouts:` du frontmatter est passé de **0** à **4**.
 > Les passages que je n'ai pas pu lire avec certitude sur les photos ne sont **pas devinés** : ils sont listés en fin de fiche, dans « À vérifier ».
 
 > [!abstract] L'essentiel
@@ -66,7 +67,9 @@ Les **données sont brutes** : il faut les exploiter.
 
 **Ce que le cours vise** : la capacité à avoir les idées claires pour pouvoir les expliquer, et parler clairement.
 
-**Bibliographie** — Edmund Phelps, *Économie politique*, Fayard.
+**Bibliographie** — Edmund Phelps, *Économie politique*, Fayard (2007).
+
+➕ *La seconde référence, illisible sur ta photo, est très probablement **Daron Acemoglu, David Laibson et John A. List, *Introduction à l'économie*, 2018** : c'est la deuxième ligne de bibliographie du même cours l'an dernier. À confirmer en amphi, mais c'est bien un manuel d'introduction, pas un Pearson anonyme.*
 
 ---
 
@@ -84,7 +87,7 @@ L'économie s'intéresse à **tous** les comportements humains :
 
 Le point commun : **les comportements reposent sur des choix**.
 
-> **La science économique étudie les choix.**
+> **La science économique étudie les choix** — c'est-à-dire **comment les individus font leurs choix, et quelles en sont les conséquences**.
 
 Trois questions structurent l'étude de ces choix :
 
@@ -98,7 +101,7 @@ Trois questions structurent l'étude de ces choix :
 2. les **incitations**
 3. l'**échange**
 4. l'**information**
-5. la **distribution des biens**
+5. la **distribution** des richesses et des biens dans l'économie
 
 ### I.2 La logique des choix individuels
 
@@ -106,11 +109,12 @@ Trois questions structurent l'étude de ces choix :
 
 **Parce que les ressources sont RARES.**
 
-Les ressources, ce sont :
+Une ressource, c'est **tout ce qui peut être utilisé pour produire** :
 
 - la **terre**, l'**eau**, l'**air** ;
 - le **travail** (la force de travail) ;
-- le **capital physique** — bâtiments, machines… ;
+- le **capital physique** — bâtiments, machines… : il **dure** ;
+- ➕ les **biens intermédiaires** — à l'inverse du capital physique, ils **disparaissent dans la production** ;
 - le **capital humain** — compétences, connaissances, **incorporées aux individus** ;
 - les **ressources naturelles** — gaz, pétrole, énergie hydraulique ;
 - le **temps** : la contrainte **« ultime »**.
@@ -175,6 +179,8 @@ en éco    : −10 min, −5 min, (−1 min)
 > **Incitation** : signal envoyé à l'agent économique pour qu'il **modifie son comportement** et **améliore sa situation** (ou qu'il prenne une meilleure décision). Souvent, l'émetteur est **l'État**.
 
 > **Meilleure situation** : situation **optimale**, au sens où **on ne peut pas faire mieux**.
+
+➕ *Le nom de l'incitation douce, celle qui suggère au lieu d'obliger : le **nudge** (« coup de pouce »).*
 
 Typiquement, on tend vers la situation où **les ressources sont utilisées le plus efficacement possible → pas de gaspillage**.
 
@@ -341,6 +347,8 @@ avec **Y** le revenu, **T** les impôts, **C** la consommation, **S** l'épargne
 
 Donc si **S** augmente pour tous : **↓ C total → ↓ offre de biens et services → ↓ Y**.
 
+➕ *Le chaînon que la formule saute : moins de consommation, ce sont moins de **ventes**, donc du **chômage** et des **faillites** — et c'est par là que l'activité globale recule. Le comportement de **précaution**, vertueux pour un seul, est récessif pour tous.*
+
 ---
 
 ## II. LA MÉTHODE DE L'ÉCONOMIE
@@ -385,7 +393,7 @@ Grâce à cela, les économistes se penchent sur des questions importantes :
 |---|---|
 | très **réaliste** : tous les agents — État, ménages, entreprises, reste du monde — et toutes leurs relations | **simplifié** : ménages ⇄ entreprises seulement |
 
-*Information supplémentaire* : **55 %** de la richesse est créée par les **ménages** et **25 %** par les **entreprises**, soit **≈ 80 %**.
+*Information supplémentaire* : **55 %** de la richesse (le PIB) vient de la **consommation des ménages** et **25 %** de l'**investissement des entreprises**, soit **≈ 80 %**.
 
 > Donc le **modèle 2 a des hypothèses acceptables** — **pour cette question économique-là**.
 
@@ -456,11 +464,11 @@ Si **non** → équilibre. Si **oui** → ce n'est pas un équilibre.
 Format d'import `Recto ; Verso ; Tags`. Définitions, distinctions et procédures seulement.
 
 ```
-La science economique etudie quoi ? ; Les choix — tous les comportements humains reposent sur des choix ; eco 11A
+La science economique etudie quoi ? ; Les choix : comment les individus font leurs choix, et quelles en sont les consequences ; eco 11A
 Les 3 questions de la science economique ? ; Pourquoi fait-on des choix ; comment sont-ils faits ; quelles en sont les consequences ; eco 11A
-Les 5 notions cles du chapitre ? ; L'arbitrage ; les incitations ; l'echange ; l'information ; la distribution des biens ; eco 11A
+Les 5 notions cles du chapitre ? ; L'arbitrage ; les incitations ; l'echange ; l'information ; la distribution des richesses et des biens ; eco 11A
 Pourquoi doit-on faire des choix ? ; Parce que les ressources sont rares : rarete → contrainte → necessite de choix ; eco 11A
-Cite les types de ressources ; Terre, eau, air ; travail ; capital physique ; capital humain ; ressources naturelles ; temps ; eco 11A
+Cite les types de ressources ; Terre, eau, air ; travail ; capital physique ; capital humain ; ressources naturelles ; temps (la contrainte ultime) ; eco 11A
 Capital humain, definition ? ; Les competences et connaissances, incorporees aux individus ; eco 11A
 La contrainte « ultime » ? ; Le temps ; eco 11A
 Economie de marche, definition du cours ? ; Une economie ou les individus (agents economiques) font leurs propres choix ; eco 11A
@@ -494,6 +502,10 @@ Le paradoxe de l'epargne ? ; Epargner est bon individuellement (↑ I, ↑ produ
 Methode de l'economie ? ; Hypothetico-deductive : faire des hypotheses, en deduire des resultats, les confronter aux evidences empiriques ; eco 11A
 Les 2 roles d'un modele mathematique ? ; Enlever la complexite du reel en se focalisant sur l'essentiel ; deduire des implications theoriques = la prediction du modele ; eco 11A
 Quand un modele est-il acceptable ? ; Quand ses hypotheses simplificatrices ne suppriment pas ce qui est au coeur de la question posee ; eco 11A
+Une ressource, definition ? ; Tout ce qui peut etre utilise pour produire ; eco 11A
+Capital physique et biens intermediaires ? ; Le capital physique dure (batiments, machines) ; les biens intermediaires disparaissent dans la production ; eco 11A complement
+Nudge, definition ? ; Le « coup de pouce » : une incitation qui suggere au lieu d'obliger ; eco 11A complement
+D'ou viennent les 80 % de la richesse creee ? ; 55 % de la consommation des menages et 25 % de l'investissement des entreprises ; eco 11A
 ```
 
 ## 🔄 Comment réviser cette fiche
@@ -673,11 +685,37 @@ Réponds à voix haute, puis ouvre la réponse.
 
 > [!question] Ce que je n'ai pas pu lire, ou qui manque
 > - **Les deux clés notées en tête de tes notes d'introduction** (`31538` et `s9adntd`) : à quoi donnent-elles accès ? En UE 13A, la clé `24212 zp6n7e` est celle de **Moodle** ; ici tes notes ne le précisent pas.
-> - **La bibliographie, deuxième référence** : sur la photo, après « Edmund Phelps, *Économie politique*, Fayard », une seconde ligne est illisible — quelque chose comme « …, *Introduction à l'économie*, Pearson ». Auteur et éditeur à confirmer.
 > - **L'exemple du concert** (§ I.3) : tes notes listent « le concert est gratuit → plein de monde = bouchons », « mauvais itinéraire », puis un troisième point qui commence par « le prof va acheter… » et que je n'ai pas su déchiffrer. Il manque la fin.
 > - **PIB 2015 = 2 999,9 milliards d'€** : le chiffre est net sur la photo, mais l'année (2015) l'est moins. À confirmer — c'est typiquement une valeur de QCM.
-> - **« 55 % par les ménages, 25 % par les entreprises, ≈ 80 % »** : les deux pourcentages se lisent bien, mais leur libellé exact (part de quoi, exactement ?) est écrit petit. À vérifier en cours.
 > - **Les canicules** (§ II) : « quels effets des canicules sur la productivité **des …** » — le dernier mot est illisible. Des travailleurs ? Des cultures ?
 > - **Rq 2 du § I.3 b)** : la phrase sur les producteurs qui satisfont les besoins est reconstituée au plus près, mais ta ligne est coupée. À reprendre.
 > - **La date en tête de la partie II** : une annotation en rouge en haut de page, illisible (peut-être la date de la 2ᵉ séance).
 > - **La fin du cours** : les photos s'arrêtent au modèle 1 / modèle 2. S'il y a une **II.2 (les données, les statistiques)**, elle n'est pas dans ce que tu m'as donné.
+
+> [!info]- Ce que le cours de référence a précisé — 6 points
+> Source : `~/Documents/L1/Introduction à l_économie/CM/` — les notes d'une promo **2021-2022** et les slides du chapitre 1. Le plan est **le même que le tien**, séance pour séance : c'est ce qui rend ces précisions fiables. Elles restent d'une année antérieure, donc elles précisent des mots, elles n'ajoutent pas de partie.
+>
+> **Définitions rendues exactes**
+> - « La science économique étudie les choix » **→** « …étudie **comment** les individus font leurs choix, et **quelles en sont les conséquences** ». C'est la formulation attendue en question de cours (§ I.1).
+> - Une **ressource**, c'est « **tout ce qui peut être utilisé pour produire** » — ta liste commençait sans sa définition (§ I.2a).
+> - La cinquième notion clé est la **distribution des richesses et des biens dans l'économie**, pas seulement « des biens » (§ I.1).
+>
+> **Deux trous fermés, qui étaient dans « À vérifier »**
+> - **La deuxième référence de bibliographie**, illisible sur ta photo : **Acemoglu, Laibson et List, *Introduction à l'économie*, 2018**. Ton « Pearson » était une supposition ; le cours de référence donne le titre et les trois auteurs. À confirmer, mais c'est presque sûr.
+> - **Le libellé des 55 % et 25 %** : c'est la **consommation** des ménages et l'**investissement** des entreprises, pas « les ménages » et « les entreprises » en général (§ II.1). En QCM, cette nuance est une réponse juste ou fausse.
+>
+> **Précisions ajoutées, marquées d'un plus vert** — les **biens intermédiaires** face au capital physique (§ I.2a), le **nudge** (§ I.2d), le **chaînon ventes-chômage** du paradoxe de l'épargne (§ I.3d).
+>
+> **Ce que je n'ai délibérément PAS repris** : la décomposition complète du PIB (19 % administrations publiques, 1 % extérieur) — des chiffres de 2021 que ton prof a pu actualiser ; l'exemple de la **crise des subprimes de 2008** ; « le système planifié **crée d'importantes inégalités** » ; et « propriété privée des **facteurs** de production », là où tes notes disent « **moyens** de production ». Rien de tout cela n'est dans ce que tu as écrit cette année.
+
+## Ce que j'ai complété
+
+> [!info] Ces 4 ajouts ne viennent pas de tes notes
+> Le reste de la fiche est **ton cours**, mot pour mot ou remis au propre. Ces quatre lignes-là viennent du **cours de référence** des promos précédentes (`~/Documents/L1`), et non de ton amphi : c'est pour ça qu'elles portent un **plus vert**. Confronte-les au prof avant de les réviser comme du cours.
+>
+> - **Les biens intermédiaires** (§ I.2a) — ils complètent la liste des ressources et s'opposent au capital physique : eux disparaissent dans la production.
+> - **Le nudge** (§ I.2d) — le nom de l'incitation qui suggère au lieu d'obliger.
+> - **Le chaînon ventes → chômage → faillites** (§ I.3d) — ce que la formule `↓ C → ↓ Y` saute, et qui fait comprendre le paradoxe de l'épargne.
+> - **La deuxième référence de bibliographie** (introduction) — Acemoglu, Laibson et List, reconstituée depuis le cours de l'an dernier parce que ta photo était illisible.
+>
+> **Aucun chiffre du cours n'a été touché.** Ce qui diverge entre tes notes et le cours de référence est listé juste au-dessus, pas corrigé.

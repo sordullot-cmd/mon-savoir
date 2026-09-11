@@ -11,8 +11,8 @@ statut: à faire
 periode: 1
 revu: 2026-09-09
 a_verifier: 9
-cartes: 38
-ajouts: 5
+cartes: 41
+ajouts: 9
 ---
 
 # 📕 Cours — Introduction à l'analyse économique (UE 13A)
@@ -204,6 +204,7 @@ C'est la principale difficulté : dans le réel, un effet peut avoir de multiple
 - les revenus du patrimoine ;
 - la météo, pour certaines consommations ;
 - les mesures de confinement, pour des raisons de santé publique ;
+- les **taux d'intérêt** ➕ ;
 - le niveau des impôts sur le revenu.
 
 **→ Enjeu de la science économique** : **isoler l'effet de chaque cause** sur la variation de la consommation.
@@ -239,8 +240,8 @@ Isoler l'effet de chaque cause — regarder les faits qu'on observe et les relie
 **Plusieurs types d'expériences existent, et reposent sur le même principe**
 
 - **Les expériences contrôlées en laboratoire.**
-- **Les expériences naturelles** : l'assignation au groupe test ou témoin est liée à un **événement politique**.
-- **Les expériences de terrain**
+- **Les expériences naturelles** : l'assignation au groupe test ou témoin est liée à un **événement politique ou historique**.
+- **Les expériences de terrain** — les travaux d'**Esther Duflo**, prix Nobel **2019** ➕
   - *ex. Esther Duflo et al. : l'effet des tuteurs dans les écoles primaires indiennes.* Elle a observé dans les écoles indiennes que **63 %** avaient des difficultés en lecture et **70 %** en maths. Elle a fait l'hypothèse que mettre un tuteur augmenterait leurs performances. Elle a constitué deux groupes, l'un avec un tuteur et l'autre avec les mêmes enseignements mais sans tuteur. Au bout de **6 mois**, le groupe avec les tuteurs avait de meilleurs résultats : c'est une vraie expérience de terrain.
 
 ![[eco13-experimentation-test-temoin.svg]]
@@ -248,6 +249,7 @@ Isoler l'effet de chaque cause — regarder les faits qu'on observe et les relie
 
 ### 2) D'autres méthodes existent
 
+→ Au premier rang, l'**économétrie**.
 → Elles nécessitent de travailler sur des **bases de données**.
 → **Pas abordé dans ce cours.**
 
@@ -279,6 +281,8 @@ Le prof l'introduit par Gandalf : *« Tout ce que nous devons décider, c'est qu
 ### A) Constat, observation et hypothèse
 
 **XVIIIᵉ siècle** : augmentation du niveau de vie dans de nombreux pays. Le **PIB par tête** est resté **constant pendant très longtemps** avant cela.
+
+➕ *L'hypothèse que ton titre annonce et que tes notes n'écrivent pas : **le capitalisme a permis la croissance du niveau de vie**. C'est elle que tout le reste du chapitre cherche à vérifier.*
 
 ### B) Mesurer la richesse créée
 
@@ -325,9 +329,10 @@ Le **capitalisme** est un **système économique** qui repose sur **3 institutio
 Les deux premières **existaient avant le système capitaliste**, ainsi que le respect de la propriété privée.
 
 3. L'**entreprise** : une forme d'organisation de la production, qui se caractérise par :
-   - la **détention du capital (K)** par un ou plusieurs individus.
+   - la **détention du capital (K)** par un ou plusieurs individus ;
+   - des **employés rémunérés en échange de leur force de travail (L)** — c'est le point 1 vu de l'autre côté. ➕
 
-*C'est là que tes notes s'arrêtent, au milieu de la liste. Voir « À vérifier ».*
+*C'est là que tes notes s'arrêtent, en plein milieu. Le second point ci-dessus est reconstitué depuis le cours de l'an dernier ; **tout ce qui suit dans le chapitre manque** — voir « À vérifier », où le plan de la suite est détaillé.*
 
 ---
 
@@ -434,7 +439,7 @@ Le principe de l'experimentation ? ; Verifier si une cause, ou traitement, a bie
 Groupe test et groupe temoin ? ; Meme composition, sauf que le groupe test recoit un traitement ; on fait varier une cause a la fois ; eco 13A
 Quelle condition rend une experience scientifique ? ; Elle doit etre reproductible ; eco 13A
 Les 3 types d'experiences ? ; Controlees en laboratoire ; naturelles ; de terrain ; eco 13A
-Experience naturelle, definition ? ; L'assignation au groupe test ou temoin est liee a un evenement politique ; eco 13A
+Experience naturelle, definition ? ; L'assignation au groupe test ou temoin est liee a un evenement politique ou historique ; eco 13A
 L'imperialisme economique, les 2 explications ? ; L'application des principes de l'analyse eco a tous les choix ; la methode scientifique appliquee a d'autres sujets ; eco 13A
 Le PIB, definition ? ; La richesse creee sur un territoire sur une periode donnee : la somme des valeurs ajoutees de toutes les entreprises du pays ; eco 13A
 Le PIB par tete, definition et interet ? ; PIB divise par le nombre d'habitants ; il indique la capacite a satisfaire les besoins de la population ; eco 13A
@@ -442,6 +447,9 @@ Consommations intermediaires, definition ? ; L'ensemble des elements detruits ou
 Les 2 critiques du PIB comme mesure du bien-etre ? ; Il ignore les echanges non marchands ; la destruction de richesse le fait augmenter ; eco 13A
 Ce que le PIB ne compte pas ? ; Travail domestique, benevolat ; qualite du temps libre et des relations sociales ; qualite de l'environnement ; eco 13A
 Les 3 institutions du capitalisme ? ; La propriete privee ; le marche ; l'entreprise ; eco 13A
+Qu'est-ce qui caracterise l'entreprise capitaliste ? ; La detention du capital (K) par un ou plusieurs individus ; des employes remuneres en echange de leur force de travail (L) ; eco 13A complement
+Quelle est l'hypothese du chapitre sur le capitalisme ? ; Que le capitalisme a permis la croissance du niveau de vie ; eco 13A complement
+Comment s'appellent les autres methodes pour realiser le TCEPA ? ; L'econometrie, qui travaille sur des bases de donnees — pas abordee dans ce cours ; eco 13A
 ```
 
 ## 🔄 Comment réviser cette fiche
@@ -649,7 +657,11 @@ Réponds à voix haute, puis ouvre la réponse.
 ## À vérifier / à récupérer
 
 > [!question] Ce qui manque, ou qui ne colle pas
-> - **La fin du chapitre manque.** Tes notes s'arrêtent au milieu de la liste des institutions du capitalisme : la caractérisation de l'**entreprise** n'a qu'un seul point (« détention du capital K par un ou plusieurs individus »), et la numérotation de ton cahier passe de « 3) » à « 4) » sur ce qui est visiblement une sous-liste. Il manque au moins la suite de cette liste, et la réponse à la question posée en titre — le capitalisme améliore-t-il le bien-être ?
+> - **La fin du chapitre manque — et c'est le plus gros trou de cette fiche.** Tes notes s'arrêtent au milieu de la liste des institutions du capitalisme, et la numérotation de ton cahier passe de « 3) » à « 4) » sur ce qui est visiblement une sous-liste.
+>   Le cours **2025-2026** finissait le chapitre en deux temps, que tu n'as pas. **Je ne les ai pas écrits dans la fiche** — le prof a pu changer — mais voici quoi aller chercher sur Moodle, c'est ce qui te manque pour répondre à la question du titre :
+>   **C) Comment le capitalisme améliore le PIB par tête** — deux canaux : le **progrès technique** et la **division du travail**. Avec la notion de **productivité** (production ⁄ quantité de travail) et ses trois conséquences possibles quand elle augmente ; et les **trois sources de gains de productivité d'Adam Smith** liées à la division du travail (habileté, temps morts, mécanisation des tâches simples).
+>   **D) L'expérience naturelle des deux Allemagnes** — RFA capitaliste (groupe témoin) contre RDA planifiée (groupe test) après 1945, le seul facteur qui les distingue étant le système économique : le TCEPA du § 5 appliqué en vrai. Puis **les limites de l'expérience** : une preuve est liée à un contexte géographique et temporel, et le bien-être y est mesuré en PIB par tête.
+>   La dernière diapo était un **« à retenir du chapitre »** : vocabulaire en couleur, les deux définitions de la science économique, l'impérialisme économique, la définition d'un modèle, le raisonnement TCEPA, l'expérimentation avec l'exemple des deux Allemagnes, et la division du travail. **Si ton prof a gardé cette diapo, c'est ta liste de révision.**
 > - **La formule de la valeur ajoutée.** Tu as noté « prix de vente × nombre de produits vendus **+** chiffre d'affaires − les consommations intermédiaires = valeur ajoutée ». Le « + » se lit comme un « = » (prix × quantité **est** le chiffre d'affaires), mais je ne corrige pas une formule : à revoir sur le diaporama.
 > - **Le marché comme institution** : « allouer des **fonctions** à des b&s » — le mot est probablement autre chose (allouer des **ressources** ? fixer des **prix** ?). À reprendre en cours.
 > - **Le poids de la question de réflexion** n'est pas noté : les deux premières parties font 30 % chacune, il reste donc 40 % non attribués dans tes notes. À confirmer.
@@ -659,9 +671,24 @@ Réponds à voix haute, puis ouvre la réponse.
 > - **« Une mesure pertinente pour mesurer le bien-être ? oui car .. »** : la question est posée et la réponse positive n'est pas écrite. Seules les critiques suivent. Il manque l'argument en faveur du PIB.
 > - **La graphie de deux noms propres.** Tes notes portent « ester duflot » et « gary becker ». J'ai écrit **Esther Duflo** et **Gary Becker** — la graphie usuelle de ces deux économistes — mais je ne corrige pas un nom d'auteur en silence : vérifie sur le diaporama.
 
+> [!info]- Ce que le cours de référence a précisé — 6 points
+> Source : `~/Documents/L1/Problèmes économiques contemporains/diaporama/` — le diaporama du **même chapitre 1**, millésime **2025-2026**. Même titre, même plan, même ordre que tes notes : c'est la meilleure source de référence des trois fiches. Elle reste d'une année antérieure, donc elle précise des mots et signale ce qui manque, elle n'écrit pas le cours à ta place.
+>
+> **Précisions fondues dans le cours**
+> - Une **expérience naturelle** tient à un événement politique **ou historique** — ta ligne s'arrêtait à « politique » (§ 5.1). C'est ce « ou historique » qui rend possible l'exemple des deux Allemagnes.
+> - Les autres méthodes de la condition TCEPA ont un nom : l'**économétrie** (§ 5.2).
+>
+> **Ajouts marqués d'un plus vert**
+> - **L'hypothèse du § 8A** : « le capitalisme a permis la croissance du niveau de vie ». Ton titre annonçait « constat, observation et **hypothèse** », et l'hypothèse manquait.
+> - **Esther Duflo, prix Nobel 2019** (§ 5.1) — pendant du « Gary Becker, prix Nobel 1992 » que tu avais déjà.
+> - **Les taux d'intérêt** dans les causes d'une variation de la consommation (§ 5).
+> - **Le second point qui caractérise l'entreprise** (§ 10) : des employés rémunérés en échange de leur force de travail. C'est la ligne sur laquelle ta prise de notes s'est arrêtée.
+>
+> **Ce que je n'ai délibérément PAS écrit dans la fiche** : toute la fin du chapitre (progrès technique, division du travail et Adam Smith, expérience des deux Allemagnes, limites de l'expérience). C'est une **grande partie**, pas un mot : elle est décrite en détail dans « À vérifier » juste au-dessus, pour que tu ailles la chercher — pas révisée d'après un cours d'il y a un an.
+
 ## Ce que j'ai complété
 
-> [!info] Ce que j'ai complété (5)
+> [!info] Ce que j'ai complété (9)
 > Ces points ne viennent **pas** de tes notes. Vérifie-les en cours ou sur Moodle avant de les réviser comme du cours.
 >
 > **Informations ajoutées**
@@ -669,6 +696,12 @@ Réponds à voix haute, puis ouvre la réponse.
 > - **Les termes de $Y = C + I + G + (X-M)$** (§ 4) : la formule est dans tes notes sans la légende des lettres. Je n'ai pas touché à la formule.
 > - **Le rapport interdécile** (§ *Objectif du cours*) : cité comme exemple de mesure, sans définition. D9/D1 est la définition standard.
 > - **Les faits stylisés** (§ *Les conseils du prof*) : le prof te demande d'en apprendre par cœur, le terme n'est pas défini dans tes notes.
+>
+> **Informations reconstituées depuis le cours de référence** (`~/Documents/L1`, diaporama 2025-2026) — détaillées juste au-dessus
+> - **L'hypothèse du chapitre** (§ 8A) : le capitalisme a permis la croissance du niveau de vie.
+> - **Esther Duflo, prix Nobel 2019** (§ 5.1).
+> - **Les taux d'intérêt** parmi les causes d'une variation de la consommation (§ 5).
+> - **Le second trait de l'entreprise** (§ 10) : des employés rémunérés en échange de leur force de travail.
 >
 > **Exemple ajouté pour illustrer**
 > - **La boulangerie** (§ 8) : un calcul de valeur ajoutée déroulé depuis la formule de la page. **Les nombres (200 000 €, 60 000 €) sont inventés** pour faire tourner le calcul — remplace-les par l'exemple du prof s'il en donne un.

@@ -88,10 +88,14 @@ titre : c'est un calcul déroulé depuis une formule de la page, pas un chiffre
 de cours. Le récapitulatif dit alors que les nombres sont inventés pour le
 calcul.
 
-**Et le schéma vaut l'exemple.** Quand la notion est une figure du prof (les
-trois cercles du développement durable, le cycle de produit), elle se redessine
-en SVG dans `eco gestion/schemas/` et s'embarque dans la fiche : voir
-`forme-fiche.md`. Une question de cours peut demander de la refaire.
+**Et le schéma vaut l'exemple — mais rarement.** Quand la notion est une figure
+que le prof a dessinée (les trois cercles du développement durable, le cycle de
+produit), elle rejoint `eco gestion/schemas/` et s'embarque dans la fiche —
+redessinée en SVG, ou découpée dans la slide quand la redessiner déplacerait une
+valeur : voir `forme-fiche.md`. Une question de cours peut demander de la
+refaire. Hors de ce cas, on n'en fait pas : une chaîne de flèches, une
+opposition à deux colonnes ou une liste se rendent mieux en texte et en tableau.
+Deux ou trois schémas par chapitre, quatre au maximum.
 
 ## 5. Répéter la procédure, pas la théorie
 
@@ -128,12 +132,14 @@ si le mode d'évaluation est inconnu, c'est une ligne dans `À vérifier`.
 | `## 🔄 Comment réviser cette fiche` | 1 · 2 | le protocole appliqué à cette page, sans ➕ — ce n'est pas du cours |
 | `## ✅ Contrôle` | 1 | questions d'abord, réponses en callout replié |
 | `> [!success]- Ce que les slides ont résolu` | — | les trous fermés par une source officielle, valeurs en conflit gardées |
+| `> [!info]- Ce que le cours de référence a précisé` | — | vocabulaire, définitions exactes, raccourcis venus de `~/Documents/L1` ; nomme le fichier et son année |
 | `> [!question] À vérifier` | — | trous et incohérences, remplacé à chaque passage |
 | `## Ce que j'ai complété` | — | obligatoire dès qu'un ➕ est posé : compléments **et** exemples |
 
-Les **schémas** n'ont pas de bloc à eux : chaque figure s'embarque dans la
-section du cours qu'elle illustre (`![[gestion-cycle-de-produit.svg]]`), suivie
-d'une ligne qui dit quoi savoir en refaire.
+Les **schémas** n'ont pas de bloc à eux : chaque figure retenue — deux ou trois
+par chapitre — s'embarque dans la section du cours qu'elle illustre
+(`![[gestion-cycle-de-produit.svg]]`, ou l'image découpée), suivie d'une ligne
+qui dit quoi savoir en refaire.
 
 Un bloc sans matière ne se remplit pas : **une fiche sans paire confusable n'a
 pas de bloc « À ne pas confondre »**. Mieux vaut sept blocs justes que neuf

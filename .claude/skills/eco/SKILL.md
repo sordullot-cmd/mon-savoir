@@ -1,6 +1,6 @@
 ---
 name: eco
-description: Transforme les pages « eco gestion » du vault (Licence 1 Économie & Gestion, Angers) en fiches avec lesquelles on révise vraiment, pour réussir les examens de fin d'année. Intègre les notes d'amphi brutes déposées dans `eco gestion/_brut/` (fautes, structure en vrac, phrases interrompues) en fiches complètes, et améliore les fiches existantes. Chaque fiche est bâtie sur ce qui fait retenir : questions à réponses repliées pour se tester, tableaux de paires confusables, méthodes pas à pas, cartes Anki extraites, les informations capitales manquantes ajoutées et tracées (marqueur ➕), et les trous restants signalés. Corrige la langue et le markdown, répare liens et ancres. Ne touche jamais un chiffre, une formule, un nom d'auteur : ce qui cloche est signalé, pas corrigé. Périmètre = toute page taguée `L1-eco-gestion`, dans `eco gestion/`, ou liant `[[00 - Plan L1 Angers]]`. Tourne aussi seul toutes les heures (LaunchAgent `com.sacha.eco-fiches`) : une page par passage, un commit par passage. Intègre aussi les sources officielles quand Sacha en dépose une (PDF de slides, syllabus) : elles font autorité sur ses notes, sont marquées 🎞️, ferment les trous et font redessiner les schémas du prof. À utiliser quand Sacha dit « corrige / synthétise / améliore mes cours d'éco », « fais-moi les fiches de révision », « mets mes notes d'amphi au propre », « voilà les slides / le syllabus », ou quand le passage horaire se déclenche.
+description: Transforme les pages « eco gestion » du vault (Licence 1 Économie & Gestion, Angers) en fiches avec lesquelles on révise vraiment, pour réussir les examens de fin d'année. Intègre les notes d'amphi brutes déposées dans `eco gestion/_brut/` (fautes, structure en vrac, phrases interrompues) en fiches complètes, et améliore les fiches existantes. Chaque fiche est bâtie sur ce qui fait retenir : questions à réponses repliées pour se tester, tableaux de paires confusables, méthodes pas à pas, cartes Anki extraites, les informations capitales manquantes ajoutées et tracées (marqueur ➕), et les trous restants signalés. Corrige la langue et le markdown, répare liens et ancres. Ne touche jamais un chiffre, une formule, un nom d'auteur : ce qui cloche est signalé, pas corrigé. Périmètre = toute page taguée `L1-eco-gestion`, dans `eco gestion/`, ou liant `[[00 - Plan L1 Angers]]`. Tourne aussi seul toutes les heures (LaunchAgent `com.sacha.eco-fiches`) : une page par passage, un commit par passage. Intègre aussi les sources officielles quand Sacha en dépose une (PDF de slides, syllabus) : elles font autorité sur ses notes, sont marquées 🎞️, ferment les trous et font redessiner — ou découper — les schémas du prof. Confronte enfin chaque fiche au **cours de référence de `~/Documents/L1`** (les cours des années précédentes, toutes matières) : il corrige le vocabulaire, donne les vraies définitions, raccourcit les explications, mais n'ajoute jamais un chapitre ni une grande partie — le prof a pu changer son cours, donc une partie absente de ses notes part dans « À vérifier ». À utiliser quand Sacha dit « corrige / synthétise / améliore mes cours d'éco », « fais-moi les fiches de révision », « mets mes notes d'amphi au propre », « voilà les slides / le syllabus », ou quand le passage horaire se déclenche.
 ---
 
 # /eco — Des cours d'éco gestion avec lesquels on révise
@@ -92,6 +92,7 @@ révise.
 | --- | --- | --- |
 | **Slides et syllabus** | fondues, **sans marque** | La définition remplace la paraphrase, le mot juste remplace le mot approximatif, la phrase coupée est complétée |
 | **Notes d'amphi** | fondues, **sans marque** | Gardées comme squelette ; ce qui diverge du prof est corrigé, pas commenté sur place |
+| **Cours de référence** (`~/Documents/L1`, année dernière) | fondu **sans marque** quand il corrige un mot, une définition, une tournure | Il **précise** ce que Sacha a écrit ; il n'apporte jamais une partie que ses notes n'ont pas — voir la section suivante |
 | **Compléments** hors cours | **➕** | Seule chose encore marquée : ça ne vient d'aucune source du cours |
 
 Ce qui remplace les marques, c'est **un bloc de traçabilité en fin de fiche** :
@@ -122,43 +123,252 @@ Trois règles qui en découlent :
 jamais dans une phrase explicative : on dit « le plus vert en tête de ligne »,
 sinon `verifie.py` compte des marqueurs qui n'en sont pas.
 
-## Les schémas se redessinent — toujours, sans le demander
+## Le dossier `~/Documents/L1` — le cours de référence, jamais le cours
 
-**Règle posée par Sacha le 8 septembre 2026 : « redessine tout le temps les
-schémas ».** Ce n'est pas une option qu'on lui propose en fin de passage, c'est
-une **étape de la mise en fiche**, au même titre que le bloc Contrôle.
+**Règle posée par Sacha le 11 septembre 2026.** `~/Documents/L1` contient les
+cours des quatorze matières de la L1 : les diaporamas des profs, les prises de
+notes d'anciennes promos, les annales. **Tout y date d'une année antérieure**
+(25-26 et avant). Le prof a pu changer son plan, sa numérotation, ses exemples,
+voire couper un chapitre. Ce dossier sert donc à **corriger ce que Sacha a
+écrit**, pas à écrire la fiche à sa place.
 
-Un chapitre tient autant dans ses figures que dans son texte : les trois cercles
-du développement durable, le cycle de produit et son pilotage transversal, la
-chaîne rareté → contrainte → choix, les files des caisses de supermarché. Une
-fiche qui les décrit en phrases ne prépare pas à une question qui demande de
-**refaire le schéma**.
+### L'ordre est non négociable : ses notes d'abord
 
-**Ce qui devient un schéma** — au-delà des figures déjà dessinées dans la source :
+1. **Lire ce que Sacha a écrit** — le brut, la fiche, le cahier. C'est lui qui
+   fixe le plan, les parties, ce qui est dans le cours de cette année.
+2. **Ouvrir ensuite le cours de référence** de la même matière, et le confronter
+   section par section à ce qu'il a écrit.
+3. **Corriger dans son texte**, à sa place. La fiche garde **sa** structure.
 
-- toute **chaîne de flèches** du cours (`ressources rares → contrainte → choix`) ;
-- toute **opposition à deux ou trois colonnes** qui a une géométrie (l'axe
-  planifiée ↔ marché, micro contre macro) ;
-- tout **dessin du cahier ou de la slide**, même griffonné : les caisses de
-  supermarché de la fiche d'économie viennent d'un croquis au crayon ;
-- tout **circuit** entre agents (modèle 1 contre modèle 2).
+Une fiche qui suivrait le plan du dossier de référence au lieu de ses notes
+serait le cours d'un autre, d'une autre année.
 
-Six schémas pour le chapitre 1 de gestion, six pour le chapitre 1 d'économie :
-c'est l'ordre de grandeur normal d'un chapitre.
+### Rang des sources, du plus fort au plus faible
 
-- Ils vivent dans **`eco gestion/schemas/`**, un **SVG par figure**, nommés
-  `<matière>-<sujet>.svg` (`gestion-developpement-durable.svg`).
-- **SVG, et pas une image** : le fichier est du texte, il se relit et se corrige
-  au prochain passage, il reste net à toutes les tailles, et il s'affiche
-  aussi bien dans Obsidian que sur le site (`![[gestion-cycle-de-produit.svg]]`).
+| Rang | Source | Autorité |
+| --- | --- | --- |
+| 1 | **Slides et syllabus de cette année**, déposés par Sacha dans `eco gestion/fichier/` | **Pleine.** Tranchent un mot, un chiffre, une date — voir le bloc `[!success]` |
+| 2 | **Ses notes d'amphi** (`_brut/`, cahier) | Elles fixent le **périmètre** : ce qui est au programme cette année |
+| 3 | **`~/Documents/L1`** — diaporamas et notes d'une promo antérieure | **Limitée au mot.** Précise, reformule, raccourcit ; n'ajoute ni partie ni valeur |
+| 4 | **Programme officiel de l'UE** | Repère les trous, ne remplit rien sans `➕` |
+
+Un conflit entre le rang 1 et le rang 3 se tranche toujours pour le rang 1,
+sans discussion : les slides de cette année sont le cours.
+
+### Ce que le cours de référence a le droit de faire
+
+- **Corriger le vocabulaire** : le terme exact remplace le terme approximatif,
+  à sa place, sans incise.
+- **Donner la vraie définition** là où ses notes ont une paraphrase de mémoire.
+- **Raccourcir** une définition ou une explication qui traîne — mais **au cas
+  par cas** : on prend la version courte quand elle dit la même chose en moins
+  de mots, on garde la longue quand la courte perd une nuance. Dans le doute,
+  on garde ce qu'il a écrit.
+- **Compléter une phrase interrompue**, finir un exemple coupé en plein vol.
+- **Nommer** l'auteur, le modèle ou le concept que ses notes désignent
+  vaguement (« le type qui a fait la pyramide » → Maslow).
+- **Ajouter une information manquante à l'intérieur d'une section qui existe
+  déjà** — marquée `➕` et comptée dans `ajouts:`, comme tout complément.
+
+### Ce qu'il n'a pas le droit de faire
+
+- **Ajouter un chapitre, une partie, une grande section.** C'est la demande
+  explicite de Sacha : le cours de l'an dernier n'est pas le cours de cette
+  année, et une partie importée serait révisée pour rien — ou à la place de ce
+  qui tombe vraiment.
+- **Renuméroter ou réorganiser le plan** pour le faire ressembler à celui du
+  dossier.
+- **Importer une liste, une typologie, un tableau entier** que ses notes n'ont
+  pas : c'est une grande partie déguisée.
+- **Corriger un chiffre, une date, un nom d'auteur, une formule.** Le rang 3 a
+  un an de retard : un chiffre qui diverge part dans `> [!question] À vérifier`
+  avec les deux valeurs, jamais dans le corps.
+
+### Le test, avant d'écrire une ligne
+
+> **Est-ce que ça change un mot de ce qu'il a écrit, ou est-ce que ça ajoute
+> une brique qu'il n'a pas ?**
+>
+> Un mot, une définition, une tournure → **on corrige**, dans son texte.
+> Une brique — un chapitre, une partie, une notion entière absente de ses
+> notes → **on ne l'écrit pas**, on pose la question dans `À vérifier`.
+
+```md
+> [!question] À vérifier
+> - Le cours 2025-2026 avait une partie « Les styles de direction » (chapitre 6)
+>   qu'aucune de tes notes ne mentionne — le prof l'a-t-il gardée cette année ?
+```
+
+Une question par partie manquante, pas une par paragraphe : c'est une liste à
+poser en amphi, pas un inventaire du cours de l'an dernier.
+
+### La traçabilité — un bloc à lui, distinct des slides
+
+Les slides de cette année ont `> [!success]- Ce que les slides ont corrigé`. Le
+cours de référence a le sien, plus bas, pour que Sacha voie d'un coup d'œil ce
+qui vient d'une source qui peut être périmée :
+
+```md
+> [!info]- Ce que le cours de référence a précisé — 6 points
+> Corrections tirées de `L1/Introduction à la gestion/CM1-CM2-CM3 - intro gestion.docx`
+> (promo 2021-2022). Le corps de la fiche est à jour ; ces lignes disent ce qui a bougé.
+>
+> **Vocabulaire** — « les parties prenantes », et non « les gens autour » (§ 2).
+> **Définition exacte** — une organisation est un ensemble de moyens structurés
+> en vue d'un but commun (ta note s'arrêtait à « des gens et un but »).
+> **Raccourci** — la définition de la compétitivité tenait en six lignes, elle
+> en fait deux : rien n'a été perdu, la phrase de contexte était déjà au-dessus.
+```
+
+Le bloc **nomme le fichier et son année**. Sans ça, Sacha ne peut pas juger si
+la correction vaut encore.
+
+### Où chercher — la matière et son dossier
+
+| Fiche / UE | Dossier de référence |
+| --- | --- |
+| `11A` Introduction à l'économie | `L1/Introduction à l_économie/` |
+| `12A` Introduction à la gestion | `L1/Introduction à la gestion/` |
+| `13A` Problèmes économiques contemporains | `L1/Problèmes économiques contemporains/` |
+| `18C` Méthodologie du travail universitaire | *aucun — la fiche reste sur ses seules notes* |
+| Comptabilité générale | `L1/Comptabilité générale/` |
+| Management et théorie des organisations | `L1/Management et théorie des organisations/` |
+| Principes de micro / macroéconomie | `L1/Principes de microéconomie/`, `L1/Principes de macroéconomie/` |
+| Marketing, Droit, Sociologie, Statistiques, Maths, Analyse historique | dossier du même nom dans `L1/` |
+
+Dans chaque dossier : `CM/` ou `diaporama/` = le prof (le plus fiable des trois),
+un `.docx` à la racine = les notes d'une promo (utile pour le vocabulaire, pas
+pour trancher), `Annales/` = les sujets.
+
+**Une matière sans dossier n'est pas un problème** : la fiche se fait sur ses
+notes seules, comme avant. On ne va pas chercher un dossier voisin « qui
+ressemble ».
+
+### Lire les fichiers
+
+Le dossier mélange `.pdf`, `.docx`, `.odt`, `.pptx` et des photos. Un seul
+outil, qui sort le texte de n'importe lequel :
+
+```
+python3 .claude/skills/eco/lire.py "<fichier>"              # tout le texte
+python3 .claude/skills/eco/lire.py "<fichier>" --pages 1-12  # un PDF long
+```
+
+Il passe par **PyMuPDF** pour les PDF, **textutil** (macOS) pour `.docx` et
+`.odt`, et ouvre le zip pour les `.pptx`, que textutil ne lit pas. Une image
+n'est pas du texte : il le dit, et on l'ouvre avec l'outil Read.
+
+**Un chapitre à la fois.** Ces fichiers font des centaines de pages : on ouvre
+celui qui correspond à la section traitée, pas la matière entière.
+
+### Les annales ne touchent pas au cours
+
+`Annales/`, `Ancien partiel/`, `qcm entrainement/` servent au bloc `Contrôle` :
+ils disent **quel type de question tombe** (QCM, définition, question de cours,
+calcul). Ils ne fournissent jamais de contenu de cours — une réponse d'annale
+recopiée dans la fiche, c'est du savoir non sourcé et daté.
+
+## Les schémas — peu, et seulement ceux qui portent le savoir
+
+**Règle corrigée par Sacha le 11 septembre 2026 : les passages faisaient trop de
+schémas.** Une figure par idée, ce n'est plus une fiche, c'est un diaporama :
+les deux ou trois figures qui comptent vraiment se noient dans les autres, et le
+passage a passé son temps à dessiner ce qu'une phrase ou un tableau disait déjà
+mieux. Ce qui reste vrai, c'est qu'**un chapitre ne sort pas sans les figures
+qui portent son savoir** — pas qu'il sort avec toutes.
+
+### Le test — une figure se fait si elle répond oui à l'une des deux
+
+1. **Le prof l'a dessinée.** Elle existe comme figure dans la slide, au tableau
+   ou dans le cahier — donc elle peut tomber en « refaites le schéma ».
+2. **La géométrie *est* le savoir.** Ce qu'il faut retenir, ce sont des
+   positions relatives, des croisements, une boucle, un circuit fermé : les trois
+   cercles du développement durable et leurs intersections ne s'écrivent pas en
+   phrases sans perdre l'essentiel.
+
+Deux « non » : pas de schéma. On ne dessine pas pour illustrer, on dessine parce
+que le texte n'y arrive pas.
+
+**Ce qui ne devient pas un schéma** — c'est là que les passages dérapaient :
+
+- une **chaîne de flèches** qui tient sur une ligne (`rareté → contrainte →
+  choix`) : elle s'écrit dans le texte, en gras, et se cherche ;
+- une **opposition à deux ou trois colonnes** (planifiée ↔ marché, micro contre
+  macro) : c'est un **tableau markdown** — lisible sur mobile, cherchable, sans
+  fichier à maintenir ;
+- une **liste, une typologie, une suite d'étapes** : liste numérotée ou bloc
+  `Méthode` ;
+- une **définition**, même centrale ;
+- une figure qui **redit** une section déjà claire : c'est de la décoration.
+
+### Combien — deux ou trois par chapitre, quatre au maximum
+
+Au-delà, on n'ajoute pas : on **arbitre**. Priorité aux figures que le prof a
+réellement dessinées, puis à celle qui a le plus de chances d'être demandée à
+l'examen. Les six schémas du chapitre 1 de gestion étaient un excès, pas un
+modèle.
+
+Un passage qui repasse sur une fiche surchargée peut en **retirer** : on
+supprime l'embed et sa légende, et le fichier de `schemas/` avec, s'il n'est
+embarqué nulle part ailleurs. Ce qui reste ressort d'autant mieux.
+
+### Redessiner ou découper — le passage choisit
+
+| Plutôt redessiner en SVG | Plutôt découper dans la source |
+| --- | --- |
+| Boîtes, flèches, cercles, colonnes : une géométrie simple, des libellés courts | Une courbe, un graphique, une échelle chiffrée — la redessiner, c'est risquer de déplacer une valeur, ce que la règle d'or interdit |
+| La figure n'existe pas comme image : elle se déduit du texte (chaîne de flèches, opposition à deux colonnes) | Une figure dense — organigramme à vingt nœuds, tableau-figure, carte — qu'un SVG rendrait faux ou illisible |
+| L'original est lisible mais mal cadré, tordu, noyé dans la slide | Un croquis du cahier, une photo, une illustration : c'est l'original qui a la valeur |
+| Le passage a le temps de la rasteriser et de la regarder | Le passage n'a pas ce temps : une figure découpée aujourd'hui vaut mieux qu'un SVG au passage suivant |
+
+Le choix n'est pas définitif : un passage suivant peut remplacer une image par
+son SVG (on change l'embed, on supprime l'image), et l'inverse quand un SVG
+trahit la figure. Ce qui ne se fait pas, c'est **les deux pour la même figure**.
+
+### Ce qui ne change pas, quel que soit le moyen
+
+- Ils vivent dans **`eco gestion/schemas/`**, **un fichier par figure**, nommés
+  `<matière>-<sujet>.<ext>` — `gestion-developpement-durable.svg`,
+  `eco13-courbe-de-croissance.png`.
 - **Fond blanc explicite** et texte foncé : sans ça, le schéma disparaît dans le
-  thème sombre d'Obsidian.
-- **On redessine, on n'invente pas.** Mêmes éléments, mêmes mots, même
-  disposition que la slide, et le numéro de slide en tête du schéma. Une figure
-  inventée serait un ➕ déguisé, non traçable.
+  thème sombre d'Obsidian. Une figure découpée sur un fond sombre ou coloré se
+  recolle sur du blanc.
+- **La provenance est écrite** : le numéro de slide en tête du SVG, ou dans la
+  légende pour un découpage. Une figure sans provenance ne se confronte pas au
+  cours.
+- **On reproduit, on n'invente pas.** Mêmes éléments, mêmes mots, même
+  disposition que la source. Une figure inventée serait un ➕ déguisé, non
+  traçable.
 - Chaque schéma est suivi d'une ligne en italique qui dit **ce qu'il faut savoir
   en refaire** — c'est ce qui en fait un outil de révision plutôt qu'une
   illustration.
+- **On regarde le fichier avant de commiter** : le SVG rasterisé, l'image
+  ouverte. Un texte qui déborde ou un cadrage qui coupe une flèche ne se voient
+  pas dans le code.
+
+### Découper, en pratique
+
+Pas de poppler ni de Ghostscript sur cette machine : le seul outil PDF est
+**PyMuPDF** (`python3 -c "import fitz"`), et **Pillow** pour les photos du
+cahier.
+
+```python
+import fitz  # PyMuPDF
+page = fitz.open("eco gestion/fichier/IG_Seance1-2_MAJ__2026.pdf")[23]  # slide 24
+# clip en points PDF (72 dpi) : la zone de la figure, reperee d'abord sur la page entiere
+page.get_pixmap(dpi=200, clip=fitz.Rect(60, 120, 700, 470)).save(
+    "eco gestion/schemas/gestion-developpement-durable.png")
+```
+
+Repérer la zone en deux temps : rendre la page entière, la regarder, puis
+recadrer. **PNG** pour un schéma (aplats et texte), **JPEG** seulement quand la
+source est une photo.
+
+**On recadre, on ne retouche pas.** Redresser une photo du cahier, oui ; gommer
+un élément, réécrire un libellé, recolorier, non — ce serait falsifier la
+source. Et on découpe **la figure**, pas la slide entière avec son titre et ses
+puces : une slide recopiée en image, ce n'est pas un schéma, c'est du cours
+soustrait à la fiche.
 
 ## Règle d'or — le savoir ne bouge pas, la forme et la clarté oui
 
@@ -176,7 +386,9 @@ c'est l'ordre de grandeur normal d'un chapitre.
 | **Ajouter un exemple simple là où l'explication n'en a aucun**, marqué ➕ et listé dans le récapitulatif comme exemple (pas comme cours) | Faire passer un exemple inventé pour celui du prof, ou en ajouter un là où il y en a déjà un |
 | **Fondre une slide ou un syllabus déposé par Sacha** dans le texte du cours, à sa place | Recopier un PDF en vrac en fin de fiche, ou hacher le cours en « d'après la slide 13… » |
 | **Corriger un mot ou un chiffre quand la source du prof le tranche**, et le dire dans le bloc de traçabilité | Corriger en silence, sans que Sacha puisse voir ce qui a changé depuis ses notes |
-| **Redessiner en SVG une figure des slides** dans `schemas/` | Inventer un schéma que le prof n'a pas fait |
+| **Corriger le vocabulaire, préciser une définition, raccourcir une explication** d'après `~/Documents/L1`, et le dire dans `> [!info]- Ce que le cours de référence a précisé` | Ajouter un **chapitre ou une grande partie** tirés de `~/Documents/L1` : le cours de l'an dernier a pu changer — la partie manquante va dans `À vérifier` |
+| Corriger un chiffre quand **les slides de cette année** le tranchent | Corriger un chiffre, une date ou un auteur d'après `~/Documents/L1` : le rang 3 a un an de retard |
+| **Redessiner en SVG _ou_ découper dans la source** les deux ou trois figures qui portent le savoir, dans `schemas/` | Faire un schéma d'une liste, d'une opposition à deux colonnes ou d'une chaîne de flèches — inventer un schéma que le prof n'a pas fait, retoucher le contenu d'une figure découpée |
 | **Corriger l'orthographe et la syntaxe du brut**, ligne par ligne, à leur place | Restructurer un brut : déplacer, fusionner, renuméroter, compléter, ou retoucher un nom propre |
 | Laisser les tableaux valides tels quels, alignement compris | Reformater un tableau qui marche (`verifie.py` le refuse) |
 | Ajouter un tag déjà utilisé dans le périmètre | Supprimer ou renommer un de ses tags, toucher au reste du frontmatter |
@@ -197,6 +409,10 @@ récapitulatif.
 3. **Lire en entier** la cible, plus le hub `00 - Plan L1 Angers`, la page de
    cycle correspondante et [[MCC - Tableau de bord]] pour le mode d'évaluation.
    Impossible de prioriser sans savoir ce que la notion vaut en points.
+3 ter. **Ouvrir le cours de référence** — `~/Documents/L1/<matière>/`, le
+   chapitre qui correspond, lu avec `lire.py`. **Après** avoir lu ce que Sacha a
+   écrit, jamais avant : ses notes fixent le périmètre, le dossier ne fait que
+   corriger les mots. Pas de dossier pour cette matière : on passe.
 3 bis. **Si la cible est un brut, le corriger d'abord** — orthographe, accents,
    ponctuation, syntaxe markdown, et rien d'autre. Snapshot obligatoire avant
    (`cp "<brut>" <scratchpad>/brut-avant.md`), puis :
@@ -208,7 +424,10 @@ récapitulatif.
    **ensuite**, depuis le brut corrigé : c'est lui que `--integration` compare.
 4. **Relever avant d'écrire** : les paires confusables, les procédures, les
    définitions cartables, les phrases interrompues, les incohérences de chiffres,
-   les liens et ancres morts, les blocs manquants.
+   les liens et ancres morts, les blocs manquants — et, face au cours de
+   référence, deux listes séparées : **les mots à corriger** (ils partent dans
+   la fiche) et **les parties absentes de ses notes** (elles partent dans
+   `À vérifier`, pas dans la fiche).
 5. **Écrire la page en une fois**, blocs dans l'ordre de `references/apprendre.md`.
 6. **Vérifier** :
    ```
@@ -277,8 +496,8 @@ récapitulatif.
   brut : elle **ferme des trous** au lieu de les signaler. Procédure : extraire
   le texte du PDF, le confronter section par section à la fiche, poser le contenu à
   sa place dans le cours **sans marque de source**, déplacer les trous fermés et
-  les mots corrigés dans `> [!success]- Ce que les slides ont corrigé`, redessiner les figures dans
-  `schemas/`, et reporter ce que le syllabus dit du **mode d'évaluation** dans
+  les mots corrigés dans `> [!success]- Ce que les slides ont corrigé`, redessiner **ou découper** dans `schemas/` les
+  figures qui passent le test, et reporter ce que le syllabus dit du **mode d'évaluation** dans
   la fiche **et** dans [[MCC - Tableau de bord]]. Le plan du syllabus devient la
   nouvelle liste de contrôle des trous, en tête de fiche, séance par séance.
 - **Relier** — vérifier que la fiche pointe vers son hub, son cycle, sa série

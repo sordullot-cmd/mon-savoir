@@ -232,12 +232,23 @@ Et l'encadré de tête dit **deux** choses, pas trois — sans écrire le caract
 > ligne. Le frontmatter en donne le compte (`ajouts:`).
 ```
 
-## Les schémas — un SVG par figure, systématiquement
+## Les schémas — deux ou trois par chapitre, pas un de plus
 
-Une question de cours peut demander de **refaire un schéma**. Une fiche qui le
-décrit en phrases n'y prépare pas. Depuis le 8 septembre 2026, **on les
-redessine sans attendre qu'on le demande** : un chapitre mis en fiche sort avec
-ses schémas, point.
+Une question de cours peut demander de **refaire un schéma**, et une fiche qui
+le décrit en phrases n'y prépare pas : les figures partent donc avec la fiche
+sans attendre qu'on le demande. Mais **seulement celles qui portent le savoir** —
+une figure se fait si le prof l'a dessinée, ou si sa géométrie (croisements,
+boucle, circuit) est ce qu'il faut retenir. Une chaîne de flèches s'écrit dans
+le texte ; une opposition à deux colonnes est un tableau ; une liste reste une
+liste. Deux ou trois schémas par chapitre, quatre au maximum : le test complet
+et l'arbitrage sont dans `SKILL.md`, section « Les schémas ».
+
+Une fois la figure retenue, deux moyens, et le passage choisit figure par
+figure : **redessiner** en SVG, ou **découper** la figure dans la slide ou la
+photo du cahier et déposer l'image. On redessine une géométrie simple (boîtes,
+flèches, cercles) ; on découpe une courbe, une échelle chiffrée, une figure
+dense ou un croquis — redessiner un graphique, c'est risquer de déplacer une
+valeur.
 
 ```md
 ![[gestion-developpement-durable.svg]]
@@ -245,18 +256,20 @@ ses schémas, point.
 la figure la plus demandée du chapitre.*
 ```
 
-Les règles, apprises en faisant les six schémas du chapitre 1 de gestion :
+Les règles de fabrication, une fois la figure retenue :
 
 | À faire | À ne pas faire |
 | --- | --- |
-| Un fichier par figure, dans `eco gestion/schemas/`, nommé `<matière>-<sujet>.svg` | Un gros SVG qui contient trois figures : il devient illisible sur mobile |
-| `<rect width= … fill="#ffffff"/>` en premier élément | Un fond transparent : le schéma disparaît dans le thème sombre d'Obsidian |
-| Le numéro de slide écrit en tête du schéma | Un schéma sans provenance, qu'on ne pourra pas confronter au cours |
+| Un fichier par figure, dans `eco gestion/schemas/`, nommé `<matière>-<sujet>.svg` ou `.png` | Un gros SVG (ou un découpage) qui contient trois figures : il devient illisible sur mobile |
+| Retirer une figure de trop quand on repasse sur une fiche surchargée : l'embed, sa légende, et le fichier s'il n'est embarqué nulle part ailleurs | Empiler les schémas passage après passage jusqu'à noyer les deux qui comptent |
+| `<rect width= … fill="#ffffff"/>` en premier élément, et un découpage recollé sur du blanc | Un fond transparent, sombre ou coloré : le schéma disparaît dans le thème sombre d'Obsidian |
+| Le numéro de slide en tête du SVG, ou dans la légende quand la figure est découpée | Un schéma sans provenance, qu'on ne pourra pas confronter au cours |
 | Une légende en italique **sous** l'embed, qui dit quoi savoir en refaire | Une légende qui répète le schéma |
 | `font-family: system-ui, -apple-system, 'Segoe UI', sans-serif` | Une police du vault : le SVG est lu hors Obsidian, sur le site aussi |
 | Reprendre les mots du prof dans les libellés | Traduire, abréger ou « améliorer » ses termes |
 | **Rasteriser le SVG et le regarder** avant de commiter (`sharp` suffit) | Le livrer sans l'avoir vu : les débordements de texte ne se voient pas dans le code |
+| **Découper avec PyMuPDF** (`fitz`, seul outil PDF de la machine) la figure seule, cadrage vérifié à l'œil | Découper la slide entière avec son titre et ses puces, ou retoucher la figure (gommer, réécrire, recolorier) |
 
 `verifie.py` résout les pièces jointes depuis le 8 septembre 2026 (constante
-`JOINTES`) : un `![[schema.svg]]` qui pointe dans le vide est une **erreur**, au
-même titre qu'un lien mort vers une page.
+`JOINTES`) : un `![[schema.svg]]` ou `![[schema.png]]` qui pointe dans le vide est
+une **erreur**, au même titre qu'un lien mort vers une page.
