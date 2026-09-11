@@ -1,7 +1,7 @@
 ---
 tr4de-id: "1783638656474.7312"
 created: 2026-07-09T23:10:56.474Z
-updated: 2026-09-10T21:02:51.447Z
+updated: 2026-09-10T21:03:34.942Z
 tags:
   - trading
 ---
@@ -30,6 +30,7 @@ liquidité interne :
 recit du marché :
 - market maker buy ou sell model : le prix monte ou descends, puis tape une zone clée et liquidite toute les personnes qui étaient en train de fomo
 - monday range play : noté le plus bas de la bougie de lundi, lorsque le plus bas et pris attendre une reintroduction du prix dans la zone pour chercher le haut de la bougie du lundi
+- PO3/OXXC est le marché
 
 trade with time
 - trader avec le temps, je ne sais pas ce que ca veut dire
@@ -39,7 +40,10 @@ trade with time
 systeme :
 - quelle est mon A+ setup
 - avoir un playbook detaillé et precis
+- avoir plusieurs swing swings en ltd
+- mettre en place des conditions avec prenium discount pour avoir 90% de chance avec dol
+- F1 range
 
-voir aussi : [[synthese trading]], [[key open]], [[powell]], [[sdtv]], [[trader de qui apprendre]]
+voir aussi : [[synthese trading]], [[key open]], [[powell]], [[sdtv]], [[discipline trading]], [[trader de qui apprendre]]
 
 #trading

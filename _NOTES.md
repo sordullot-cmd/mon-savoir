@@ -13,6 +13,7 @@ Notes prises sur le tas, dans `notes/` — dossier synchronisé avec l'app tr4de
 
 - [[synthese trading]] — le hub : tout le trading rangé par sujet, chaque ligne renvoyant à sa note d'origine. **Toute nouvelle note ou ligne `#trading` vient s'y ajouter**, `/notes` le vérifie à chaque passage
 - [[base trading]] — entry triggers, liquidité externe et interne, recit du marché, trade with time, systeme
+- [[discipline trading]] — execution plutôt que profits, regles journalières de risque, quoi noter dans le journal de trade
 - [[key open]] — la bougie de 16h qui manipule avant de distribuer, critères de validation, checklist en 7 points, wick theory
 - [[powell]] — confluences, ifvg et leurs 50%, entry triggers
 - [[sdtv]] — les stdv, london, hod / lod, le soup

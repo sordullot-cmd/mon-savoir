@@ -1,7 +1,7 @@
 ---
 tr4de-id: "1789073414777.2283"
 created: 2026-09-10T20:50:14.777Z
-updated: 2026-09-10T21:31:48.755Z
+updated: 2026-09-11T00:59:31.430Z
 ---
 
 chose a regler
@@ -15,5 +15,6 @@ social :
 - muscle
 - discipline trading
 - gerer son temps
+- gerer ses émotions
 
-voir aussi : [[bien communiquer]], [[lock in]], [[Calistenics]], [[synthese trading]]
+voir aussi : [[bien communiquer]], [[lock in]], [[Calistenics]], [[discipline trading]], [[synthese trading]]

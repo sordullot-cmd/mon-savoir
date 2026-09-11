@@ -1,13 +1,20 @@
 ---
 tr4de-id: "1783683948714.8545"
 created: 2026-07-10T11:45:48.714Z
-updated: 2026-09-10T21:02:34.866Z
+updated: 2026-09-11T00:57:32.648Z
 pinned: true
 tags:
   - top3
 ---
 
 apprentissage de la journée
+
+10 sep - discipline trading
+
+focus sur l'exécution pas sur les profits, regles journalières, proteger le capital, noter le contexte du trade, process pas finalité → [[discipline trading]]
+
+swing swings en ltd, F1 range, PO3/OXXC, prenium discount avec dol → [[base trading]]
+
 
 lundi 8 septembre - key open
 

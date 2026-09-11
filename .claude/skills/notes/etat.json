@@ -1,94 +1,118 @@
 {
  "notes": {
-  "achats.md": {
-   "hash": "c609a0c11a31",
-   "id": "1787271047462.2998",
-   "mots": 69,
-   "updated": "2026-08-26T18:26:33.370Z"
+  "Calistenics.md": {
+   "hash": "d18ca2bfb3e8",
+   "id": "1789058036070.8154",
+   "mots": 88,
+   "updated": "2026-09-10T22:24:37.897Z"
   },
   "anime manga film.md": {
    "hash": "0b542664eece",
    "id": "1777266866017.6545",
    "mots": 84,
-   "updated": "2026-08-18T13:48:02.276Z"
+   "updated": "2026-09-10T20:50:35.679Z"
   },
   "app.md": {
    "hash": "1642140b3874",
    "id": "1783310053807.3647",
    "mots": 2,
-   "updated": "2026-08-21T00:11:31.413Z"
+   "updated": "2026-09-10T20:50:35.671Z"
   },
   "apprentissage de la journée.md": {
-   "hash": "93fec518a626",
+   "hash": "bf81d9563f62",
    "id": "1783683948714.8545",
-   "mots": 112,
-   "updated": "2026-08-25T01:43:43.233Z"
+   "mots": 182,
+   "updated": "2026-09-11T00:57:32.648Z"
   },
   "base trading.md": {
-   "hash": "e3b690c9f875",
+   "hash": "dd3a2f65b636",
    "id": "1783638656474.7312",
-   "mots": 217,
-   "updated": "2026-08-20T23:54:56.488Z"
+   "mots": 263,
+   "updated": "2026-09-10T21:03:34.942Z"
   },
   "bien communiquer.md": {
    "hash": "003a7284d229",
    "id": "1787059443687.7456",
    "mots": 375,
-   "updated": "2026-08-24T16:42:20.880Z"
+   "updated": "2026-09-10T20:50:50.880Z"
   },
-  "courses et recette.md": {
-   "hash": "94c199890403",
+  "chose a regler.md": {
+   "hash": "e4bb63d87fb2",
+   "id": "1789073414777.2283",
+   "mots": 50,
+   "updated": "2026-09-11T00:59:31.430Z"
+  },
+  "courses, recette et achat.md": {
+   "hash": "9fc235be3e28",
    "id": "1785099429914.526",
-   "mots": 130,
-   "updated": "2026-08-26T18:26:54.973Z"
+   "mots": 195,
+   "updated": "2026-09-10T20:51:17.363Z"
+  },
+  "discipline trading.md": {
+   "hash": "d85b6aef28be",
+   "id": null,
+   "mots": 114,
+   "updated": null
   },
   "habits.md": {
    "hash": "771f34fd6a73",
    "id": "1787059443695.8901",
    "mots": 121,
-   "updated": "2026-08-24T16:42:40.696Z"
+   "updated": "2026-09-10T20:50:50.875Z"
+  },
+  "key open.md": {
+   "hash": "5926368d3231",
+   "id": "1789074214946.0017",
+   "mots": 240,
+   "updated": "2026-09-10T22:24:39.122Z"
   },
   "lock in.md": {
    "hash": "e5d64b817d73",
    "id": "1787585392878.8884",
    "mots": 433,
-   "updated": "2026-08-25T14:18:31.276Z"
+   "updated": "2026-09-10T21:28:55.024Z"
   },
   "meta learning.md": {
-   "hash": "5130149789ba",
+   "hash": "f0b90a628e37",
    "id": "1787059443676.0757",
-   "mots": 208,
-   "updated": "2026-08-24T16:42:20.880Z"
+   "mots": 219,
+   "updated": "2026-09-10T21:03:39.982Z"
   },
   "plan pour passer a 100k mensuelle.md": {
    "hash": "078cd6991254",
    "id": "1777255268193.9534",
    "mots": 263,
-   "updated": "2026-08-25T01:28:13.813Z"
+   "updated": "2026-09-11T00:46:22.671Z"
   },
   "powell.md": {
    "hash": "ac43357a3b48",
    "id": "1777540544998.6511",
    "mots": 174,
-   "updated": "2026-08-20T23:54:56.629Z"
+   "updated": "2026-09-10T20:50:35.677Z"
   },
   "sdtv.md": {
    "hash": "31323b24a835",
    "id": "1777861911753.0693",
    "mots": 268,
-   "updated": "2026-08-20T18:06:32.661Z"
+   "updated": "2026-09-10T20:50:35.675Z"
   },
   "social media.md": {
    "hash": "c97ae9f70751",
    "id": "1778067247835.3635",
    "mots": 112,
-   "updated": "2026-08-18T13:39:03.605Z"
+   "updated": "2026-09-10T20:50:35.674Z"
   },
   "synthese trading.md": {
-   "hash": "7f56b54a1423",
+   "hash": "ea30dd756f08",
    "id": "1787058184048.5754",
-   "mots": 301,
-   "updated": "2026-08-20T23:54:56.378Z"
+   "mots": 699,
+   "updated": "2026-09-10T21:39:00.729Z"
+  },
+  "trader de qui apprendre.md": {
+   "hash": "679f69b3e51d",
+   "id": "1788869767493.3906",
+   "mots": 38,
+   "updated": "2026-09-10T21:28:56.954Z"
   }
  }
 }

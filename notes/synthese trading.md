@@ -1,7 +1,7 @@
 ---
 tr4de-id: "1787058184048.5754"
 created: 2026-08-18T13:02:44.094Z
-updated: 2026-09-10T21:33:23.542Z
+updated: 2026-09-10T21:39:00.729Z
 tags:
   - trading
 ---
@@ -42,11 +42,19 @@ recit du marché
 - key open = le moment lorsque la première bougie s'ouvre (10 am, 00 am, 18 am) → [[key open]]
 - key open : la bougie de 16h manipule avant de distribuer, checklist en 7 points, wick theory → [[key open]]
 - validation : forte cloture au dessus ou en dessous, engineered liquidity, overlap confluence → [[key open]]
+- exemple trade : 16h, zone clé htf, tracer le key open, attendre la manip, entrée sur confluences → [[key open]]
 - trade with time : heures et mini sessions, plus petite time frame si confiant et en discount → [[base trading]]
+- PO3/OXXC est le marché → [[base trading]]
+
+discipline
+- execution : focus sur l'exécution pas sur les profits, un screen par trade, process pas finalité → [[discipline trading]]
+- regles : risk max, perte journalière max, nombre de trade, proteger le capital → [[discipline trading]]
+- journal : tjrs noter le contexte du trade, le contexte depend de la strategie → [[discipline trading]]
 
 apprendre
-- de qui apprendre : 393ticks, nqsimon, steelnq, walterdeviation, dutchy, pbtrading → [[trader de qui apprendre]]
+- de qui apprendre : 393ticks, nqsimon, steelnq, walterdeviation, dutchy, quadz, dhesitrades, ttrade, franck369, pbtrading → [[trader de qui apprendre]]
 - avoir un playbook detaillé et precis → [[base trading]]
+- avoir plusieurs swing swings en ltd, conditions avec prenium discount pour dol → [[base trading]]
 - discipline trading, a travailler → [[chose a regler]]
 
 business
@@ -59,6 +67,7 @@ a trancher :
 - quelle est mon A+ setup ([[base trading]])
 - trader avec le temps, « je ne sais pas ce que ca veut dire » ([[base trading]])
 - engerning liquidité, noté sans explication ([[sdtv]])
+- F1 range, noté sans explication ([[base trading]])
 - le total du plan : 50k + 60k + 15k noté « = 135K », a verifier ([[plan pour passer a 100k mensuelle]])
 
 #trading
