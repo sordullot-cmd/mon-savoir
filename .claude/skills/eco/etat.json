@@ -3,30 +3,30 @@
   "eco gestion/_brut/Méthodologie du travail universitaire.md": {
    "fiche": "eco gestion/Methodologie - Travail universitaire UE 18C.md",
    "hash": "74f979b208c5",
-   "integre": "2026-09-10 23:35"
+   "integre": "2026-09-11 13:01"
   },
   "eco gestion/_brut/Problèmes économiques contemporains.md": {
    "fiche": "eco gestion/Problemes economiques - Chapitre 1 Analyse economique UE 13A.md",
    "hash": "9c00625a5650",
-   "integre": "2026-09-11 12:50"
+   "integre": "2026-09-11 13:01"
   },
   "eco gestion/_brut/gestion.md": {
    "fiche": "eco gestion/Gestion - Introduction.md",
    "hash": "191100950174",
-   "integre": "2026-09-11 12:50"
+   "integre": "2026-09-11 13:01"
   },
   "eco gestion/_brut/introduction a l'economie.md": {
    "fiche": "eco gestion/Economie - Chapitre 1 Science economique.md",
    "hash": "4099b7afd1fa",
-   "integre": "2026-09-11 12:50"
+   "integre": "2026-09-11 13:01"
   }
  },
  "pages": {
   "eco gestion/00 - Plan L1 Angers.md": {
-   "fait": "tableau Tes fiches complete : la 4e UE de periode 1 (18C) est reliee, totaux passes a 159 cartes et 36 trous",
-   "hash": "7902bc7556fa",
-   "mots": 1711,
-   "passage": "2026-09-10 23:35",
+   "fait": "compteurs de cartes et de trous remis d'aplomb apres la refonte des quatre blocs de cartes",
+   "hash": "b3406c8b43e8",
+   "mots": 1745,
+   "passage": "2026-09-11 13:01",
    "source": null,
    "statut": null
   },
@@ -38,10 +38,10 @@
    "statut": "à créer"
   },
   "eco gestion/Economie - Chapitre 1 Science economique.md": {
-   "fait": "cours de reference L1 confronte : definition exacte de la science eco, biens intermediaires, nudge, chainon du paradoxe de l'epargne ; deux trous fermes (bibliographie Acemoglu, libelle des 55/25) ; 4 cartes",
-   "hash": "108d24103f62",
-   "mots": 8076,
-   "passage": "2026-09-11 12:50",
+   "fait": "cartes refaites sur l'annale QCM de Pautrel (barème négatif) : 48 cartes centrees sur le mot qui tranche, avec pourquoi la formulation voisine est fausse",
+   "hash": "2e7aeb34c647",
+   "mots": 8554,
+   "passage": "2026-09-11 13:01",
    "source": "_brut/introduction a l'economie.md",
    "statut": "à faire"
   },
@@ -62,26 +62,26 @@
    "statut": "à faire"
   },
   "eco gestion/Gestion - Introduction.md": {
-   "fait": "cours de reference L1 confronte : licorne, sigles juridiques, benefice, Clark-Fourastie et quaternaire, SIREN/SIRET, DD contre RSE ; 7 cartes ; rien d'importe des chapitres a venir",
-   "hash": "68345967d36c",
-   "mots": 11474,
-   "passage": "2026-09-11 12:50",
+   "fait": "cartes refaites sur l'annale 2024-2025 de Vigeant : 67 cartes en six types (definir+fonction, discriminer, classer un cas, attribuer, un chiffre, texte a trou), plus aucune carte-liste, plus aucun point-virgule dans un champ",
+   "hash": "cf5c8bd5276d",
+   "mots": 11923,
+   "passage": "2026-09-11 13:01",
    "source": "_brut/gestion.md",
    "statut": "à faire"
   },
   "eco gestion/Methodologie - Travail universitaire UE 18C.md": {
-   "fait": "brut UE 18C corrige (55 mots) et integre en fiche : 2 parties, bareme 13/7/1-2, 4 schemas SVG, 32 cartes, 28 complements sur ses nex, 10 points a verifier",
-   "hash": "8b9a1d5ccd25",
-   "mots": 4552,
-   "passage": "2026-09-10 23:35",
+   "fait": "cartes refaites : 37 cartes, les cartes-listes de quatre items decoupees en une carte par fait ; aucune annale pour cette UE",
+   "hash": "ed4bff64eb22",
+   "mots": 4899,
+   "passage": "2026-09-11 13:01",
    "source": "_brut/Méthodologie du travail universitaire.md",
    "statut": "à faire"
   },
   "eco gestion/Problemes economiques - Chapitre 1 Analyse economique UE 13A.md": {
-   "fait": "diaporama 25-26 du meme chapitre confronte : hypothese du chapitre, Duflo Nobel 2019, taux d'interet, second trait de l'entreprise, econometrie ; fin du chapitre detaillee dans A verifier sans etre ecrite ; 3 cartes",
-   "hash": "729b2153d345",
-   "mots": 8055,
-   "passage": "2026-09-11 12:50",
+   "fait": "cartes refaites sur le format annonce par le prof et la diapo « a retenir » 25-26 : 47 cartes, aucune annale officielle disponible et c'est dit dans la fiche",
+   "hash": "8bdea712bc8f",
+   "mots": 8637,
+   "passage": "2026-09-11 13:01",
    "source": "_brut/Problèmes économiques contemporains.md",
    "statut": "à faire"
   }

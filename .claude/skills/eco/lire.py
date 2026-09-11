@@ -6,6 +6,11 @@ Le dossier ~/Documents/L1 melange .pdf (diaporamas du prof), .docx et .odt
 texte de n'importe lequel, pour que le passage puisse le confronter a la fiche.
 
     python3 .claude/skills/eco/lire.py "<fichier>" [--pages 1-12]
+    python3 .claude/skills/eco/lire.py "<fichier>" --images <dossier>
+
+Beaucoup d'annales sont des PDF SCANNES : aucune couche de texte, `--pages` ne
+rend rien. `--images` rend alors les pages en PNG dans le dossier donne, et le
+passage les ouvre avec l'outil Read pour les lire a l'oeil.
 
 Les images (.jpg, .png) ne sont pas du texte : le script le dit et le passage
 les ouvre avec l'outil Read.
@@ -30,6 +35,24 @@ def pdf(chemin, pages=None):
     for i in range(debut - 1, fin):
         morceaux.append(f"\n--- page {i + 1} ---\n{doc[i].get_text()}")
     return "".join(morceaux)
+
+
+def pdf_en_images(chemin, dossier, pages=None):
+    """Rend les pages d'un PDF scanne en PNG, a lire ensuite avec Read."""
+    import fitz
+
+    doc = fitz.open(chemin)
+    dossier = Path(dossier).expanduser()
+    dossier.mkdir(parents=True, exist_ok=True)
+    base = Path(chemin).stem.replace(" ", "-")[:40]
+    debut, fin = (pages or (1, doc.page_count))
+    fin = min(fin, doc.page_count)
+    sorties = []
+    for i in range(debut - 1, fin):
+        f = dossier / f"{base}-p{i + 1}.png"
+        doc[i].get_pixmap(dpi=130).save(f)
+        sorties.append(str(f))
+    return sorties
 
 
 def pptx(chemin):
@@ -58,6 +81,11 @@ def pptx(chemin):
 def main():
     args = sys.argv[1:]
     pages = None
+    dossier_images = None
+    if "--images" in args:
+        i = args.index("--images")
+        dossier_images = args[i + 1]
+        del args[i : i + 2]
     if "--pages" in args:
         i = args.index("--pages")
         debut, _, fin = args[i + 1].partition("-")
@@ -72,7 +100,17 @@ def main():
     ext = chemin.suffix.lower()
 
     if ext == ".pdf":
-        print(pdf(chemin, pages))
+        if dossier_images:
+            print("\n".join(pdf_en_images(chemin, dossier_images, pages)))
+            return
+        texte = pdf(chemin, pages)
+        # Un PDF scanne n'a pas de couche de texte : le dire plutot que de
+        # rendre des pages vides, et donner la commande qui marche.
+        if len(texte.split("---")) > 1 and not texte.split("]", 1)[1].strip(" -\npage0123456789"):
+            sys.exit("%s est un PDF scanne (aucun texte). Rends les pages en "
+                     "images :\n  python3 %s \"%s\" --images <dossier>"
+                     % (chemin.name, sys.argv[0], chemin))
+        print(texte)
     elif ext == ".pptx":
         print(pptx(chemin))
     elif ext in TEXTUTIL:

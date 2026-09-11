@@ -42,6 +42,13 @@ fiche Anki (`Recto ; Verso ; Tags`). On n'extrait que ce qui est légitimement
 une carte — **définition, formule, procédure, distinction** — jamais un
 raisonnement, c'est sa propre règle.
 
+Et depuis le 11 septembre 2026, la forme des cartes ne se devine plus : elle se
+relève dans les **annales** de la matière (`~/Documents/L1/<matière>/Annales/`).
+Une carte vaut si elle ressemble à une question réellement posée — sinon la
+notion reste dans le corps de la fiche et dans le bloc `Contrôle`, qui ne fait
+pas le même travail. Les six types de cartes et les règles de fabrication sont
+dans `SKILL.md`, section « Les cartes Anki ».
+
 Depuis le 8 septembre 2026, **l'intervalle se calcule** au lieu de se deviner :
 environ **10 à 20 % du délai** avant l'épreuve (Cepeda et al., 2006), et la
 relation est en U inversé — trop serré est aussi mauvais que trop espacé. Le
@@ -128,7 +135,7 @@ si le mode d'évaluation est inconnu, c'est une ligne dans `À vérifier`.
 | Corps, en sections numérotées | 4 | une idée par ligne, les exemples restent |
 | `## 🔁 À ne pas confondre` | 3 | seulement les paires réellement présentes dans la page |
 | `## 🧮 Méthode` | 5 | seulement si la page contient une procédure |
-| `## 🃏 Cartes à créer` | 2 | format `Recto ; Verso ; Tags`, jamais un raisonnement |
+| `## 🃏 Cartes à créer` | 2 | format `Recto ; Verso ; Tags` (deux `;` par ligne), une carte = un fait, la forme vient des annales |
 | `## 🔄 Comment réviser cette fiche` | 1 · 2 | le protocole appliqué à cette page, sans ➕ — ce n'est pas du cours |
 | `## ✅ Contrôle` | 1 | questions d'abord, réponses en callout replié |
 | `> [!success]- Ce que les slides ont résolu` | — | les trous fermés par une source officielle, valeurs en conflit gardées |

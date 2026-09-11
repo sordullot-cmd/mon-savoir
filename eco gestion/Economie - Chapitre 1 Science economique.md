@@ -13,7 +13,7 @@ coef: 3
 periode: 1
 revu: 2026-09-09
 a_verifier: 7
-cartes: 42
+cartes: 48
 ajouts: 4
 ---
 
@@ -461,51 +461,90 @@ Si **non** → équilibre. Si **oui** → ce n'est pas un équilibre.
 
 ## 🃏 Cartes à créer
 
-Format d'import `Recto ; Verso ; Tags`. Définitions, distinctions et procédures seulement.
+Format d'import `Recto ; Verso ; Tags`. **Deux `;` par ligne, jamais plus** — à l'intérieur d'un champ, les éléments sont séparés par `·`.
+
+> [!tip] Pourquoi ces cartes-là, et pourquoi elles insistent sur un mot
+> L'annale **2024-2025 de Xavier Pautrel** dit tout : **QCM d'1 h, une seule bonne réponse, +1 point par bonne réponse et −0,5 par mauvaise**. Chaque question est un énoncé court suivi de **quatre formulations presque identiques** :
+> *« Un modèle mathématique en économie : A. permet de tester les résultats des corrélations à l'aide d'hypothèses simplificatrices · B. permet de déterminer des hypothèses simplificatrices · C. permet d'expliquer la réalité à l'aide d'hypothèses simplificatrices · D. aucune des propositions n'est exacte. »* La bonne est **C**.
+> Et **« aucune des propositions n'est exacte » est souvent la bonne réponse** — par exemple pour « les données statistiques servent à invalider / à expliquer les théories » : elles servent à les **tester**.
+> Deux conséquences pour ces cartes : le verso porte **le mot qui tranche, en capitales**, et dit **pourquoi le voisin est faux**. Avec un barème négatif, une carte qu'on répond « à peu près » est une carte qui coûte des points.
+
+**Le mot qui tranche** — le cœur du QCM
 
 ```
-La science economique etudie quoi ? ; Les choix : comment les individus font leurs choix, et quelles en sont les consequences ; eco 11A
-Les 3 questions de la science economique ? ; Pourquoi fait-on des choix ; comment sont-ils faits ; quelles en sont les consequences ; eco 11A
-Les 5 notions cles du chapitre ? ; L'arbitrage ; les incitations ; l'echange ; l'information ; la distribution des richesses et des biens ; eco 11A
-Pourquoi doit-on faire des choix ? ; Parce que les ressources sont rares : rarete → contrainte → necessite de choix ; eco 11A
-Cite les types de ressources ; Terre, eau, air ; travail ; capital physique ; capital humain ; ressources naturelles ; temps (la contrainte ultime) ; eco 11A
-Capital humain, definition ? ; Les competences et connaissances, incorporees aux individus ; eco 11A
-La contrainte « ultime » ? ; Le temps ; eco 11A
-Economie de marche, definition du cours ? ; Une economie ou les individus (agents economiques) font leurs propres choix ; eco 11A
-Externalite, definition ? ; Un effet du comportement d'un individu sur le bien-etre des autres, non pris en compte dans la decision individuelle ; eco 11A
-Cout d'opportunite, definition ? ; Le cout du renoncement : ce a quoi on renonce en faisant un choix ; eco 11A
-Le cout des etudes se decompose comment ? ; Couts monetaires deboursés (scolarite, loyer) et cout d'opportunite = manque a gagner de ne pas travailler ; eco 11A
-Forte croissance : effet sur les etudes ? ; Beaucoup d'emplois bien remuneres → cout de ne pas travailler eleve → moins de personnes aux etudes ; eco 11A
-Quand un choix est-il rationnel ? ; Quand le gain est superieur au cout d'opportunite ; eco 11A
-Les 2 formes de choix ? ; En termes d'alternatives (l'un ou l'autre) et en termes de combien (a la marge) ; eco 11A
-Raisonnement a la marge, principe ? ; Comparer couts et benefices de l'unite suivante, pas des totaux ; eco 11A
-Incitation, definition ? ; Un signal envoye a l'agent economique pour qu'il modifie son comportement et ameliore sa situation ; eco 11A
-Situation optimale, definition ? ; Celle ou l'on ne peut pas faire mieux : les ressources sont utilisees le plus efficacement possible, sans gaspillage ; eco 11A
-Pourquoi des coefficients d'examen incitent-ils ? ; Un point gagne rapporte plus dans la matiere au coefficient eleve : coeff 6 contre coeff 4 oriente les revisions ; eco 11A
-3 causes d'erreur de decision ? ; Manque d'informations pertinentes ; information fausse ou incomplete ; interactions avec les autres agents ; eco 11A
-Choix initial et choix effectif ? ; Le choix initial ignore les interactions sociales ; apres interactions, le choix effectif en differe ; eco 11A
-Pourquoi cooperer ? ; Parce qu'on ne peut pas subvenir seul a tous ses besoins : mettre les efforts en commun accroit les possibilites de production et de consommation ; eco 11A
-L'enchainement cooperation → echange ? ; Interactions sociales → cooperation ⇄ specialisation (tout le monde ne fait pas tout) → echange ; eco 11A
-Pourquoi l'echange est-il profitable ? ; Chacun fait profiter les autres de ses connaissances et de son savoir-faire, et profite des leurs : chacun a plus ; eco 11A
-Equilibre, definition ? ; Une situation ou aucun individu ne peut ameliorer sa situation en faisant quelque chose de different ; eco 11A
-Comment tester un equilibre ? ; Se demander si quelqu'un est incite a changer de comportement : si non, c'est un equilibre ; eco 11A
-Pourquoi les marches tendent-ils vers l'equilibre ? ; Parce que les agents repondent aux incitations ; eco 11A
-Les 3 questions auxquelles repond un systeme economique ? ; Quels biens et services produire ; comment les produire ; a qui les livrer ; eco 11A
-Les 4 implications du systeme capitaliste ? ; Propriete privee des moyens de production ; echange sur des marches a prix non administres ; production pour le profit ; decisions decentralisees ; eco 11A
-Principe de l'economie planifiee ? ; La societe connait mieux les objectifs a atteindre que chaque individu pris separement : decisions centralisees ; eco 11A
-Defaillance de marche, definition ? ; Une situation ou les decisions decentralisees echouent a allouer efficacement les ressources ; eco 11A
-Les 2 causes de defaillance de marche ? ; Les externalites et le pouvoir de marche ; eco 11A
-Monopole et concurrence monopolistique ? ; Monopole : une firme unique vend un produit unique ; concurrence monopolistique : des firmes produisent des biens differencies ; eco 11A
-Formule du pouvoir d'achat ? ; W/P, en nombre de biens ; eco 11A
-Decomposition du revenu ? ; Y = T + C + S (impots, consommation, epargne) ; eco 11A
-Le paradoxe de l'epargne ? ; Epargner est bon individuellement (↑ I, ↑ production), mais si tous epargnent, ↓ C total → ↓ offre → ↓ revenu ; eco 11A
-Methode de l'economie ? ; Hypothetico-deductive : faire des hypotheses, en deduire des resultats, les confronter aux evidences empiriques ; eco 11A
-Les 2 roles d'un modele mathematique ? ; Enlever la complexite du reel en se focalisant sur l'essentiel ; deduire des implications theoriques = la prediction du modele ; eco 11A
-Quand un modele est-il acceptable ? ; Quand ses hypotheses simplificatrices ne suppriment pas ce qui est au coeur de la question posee ; eco 11A
-Une ressource, definition ? ; Tout ce qui peut etre utilise pour produire ; eco 11A
-Capital physique et biens intermediaires ? ; Le capital physique dure (batiments, machines) ; les biens intermediaires disparaissent dans la production ; eco 11A complement
-Nudge, definition ? ; Le « coup de pouce » : une incitation qui suggere au lieu d'obliger ; eco 11A complement
-D'ou viennent les 80 % de la richesse creee ? ; 55 % de la consommation des menages et 25 % de l'investissement des entreprises ; eco 11A
+Les données statistiques servent à quoi, au mot près ? ; À TESTER les théories — pas à les expliquer, pas à les invalider ; eco 11A piege
+Un modèle mathématique sert à quoi, au mot près ? ; À EXPLIQUER la réalité à l'aide d'hypothèses simplificatrices — pas à déterminer ces hypothèses, pas à tester des corrélations ; eco 11A piege
+La science économique étudie quoi, exactement ? ; Les CHOIX : comment les individus font leurs choix, et quelles en sont les conséquences ; eco 11A
+Dans la vision planifiée, qui connaît le mieux les objectifs ? ; LA SOCIÉTÉ, mieux que chaque individu pris séparément — d'où des décisions centralisées ; eco 11A piege
+Économie de marché : les décisions sont centralisées ou décentralisées ? ; DÉCENTRALISÉES — chacun décide dans son intérêt personnel ; eco 11A
+« Économie de marché » veut-il dire « économie sans État » ? ; Non — l'État intervient dès qu'il y a une défaillance de marché ; eco 11A piege
+Une économie est en équilibre lorsque… ? ; Aucun individu ne peut améliorer sa situation en faisant quelque chose de différent ; eco 11A
+Un choix est rationnel à quelle condition exacte ? ; Quand le gain est SUPÉRIEUR au coût d'opportunité ; eco 11A
+Le coût d'opportunité, c'est le coût de quoi ? ; Du RENONCEMENT : ce à quoi on renonce en faisant un choix — ce sont des euros NON déboursés ; eco 11A piege
+Le résultat global de millions de comportements, c'est la somme des résultats individuels ? ; Non — le tout n'est pas la somme des parties ; eco 11A piege
+```
+
+**Définir — et dire à quoi ça sert**
+
+```
+Pourquoi les choix sont-ils nécessaires ? ; Parce que les ressources sont rares : rareté → contrainte → nécessité de choisir ; eco 11A
+Une ressource, définition ? ; Tout ce qui peut être utilisé pour produire ; eco 11A
+Capital humain, définition ? ; Les compétences et connaissances, incorporées aux individus ; eco 11A
+Quelle est la contrainte « ultime » ? ; Le temps ; eco 11A
+Externalité, définition ? ; Un effet du comportement d'un individu sur le bien-être des autres, qui n'est PAS pris en compte dans la décision individuelle ; eco 11A
+Incitation, définition ? ; Un signal envoyé à l'agent pour qu'il modifie son comportement et améliore sa situation — le plus souvent émis par l'État ; eco 11A
+Nudge, définition ? ; Le « coup de pouce » : une incitation qui suggère au lieu d'obliger ; eco 11A complement
+Situation optimale, définition ? ; Celle où l'on ne peut pas faire mieux : les ressources sont utilisées le plus efficacement possible, sans gaspillage ; eco 11A
+Raisonnement à la marge, principe ? ; Comparer le coût et le bénéfice de l'unité SUIVANTE, pas des totaux ; eco 11A
+Système économique, définition ? ; La manière dont les ressources sont organisées et distribuées pour subvenir aux besoins des agents ; eco 11A
+Défaillance de marché, définition ? ; Une situation où les décisions décentralisées échouent à allouer efficacement les ressources ; eco 11A
+Pouvoir de marché, définition ? ; Le fait que certains agents exercent une influence importante sur les prix ou les quantités échangées ; eco 11A
+Méthode hypothético-déductive, définition ? ; Faire des hypothèses, en déduire des résultats, les confronter aux évidences empiriques ; eco 11A
+À quoi sert un modèle, en deux temps ? ; À enlever la complexité du réel en se focalisant sur l'essentiel · à en déduire des implications théoriques, la prédiction du modèle ; eco 11A
+Quand un modèle est-il acceptable ? ; Quand ses hypothèses simplificatrices ne suppriment pas ce qui est au cœur de la question posée ; eco 11A
+Que dit l'analogie du plan de métro ? ; Les distances sont fausses et la forme de la ville n'est pas respectée, mais le plan permet à l'usager de se déplacer ; eco 11A
+```
+
+**Départager deux notions voisines**
+
+```
+Capital physique ou biens intermédiaires ? ; Le capital physique DURE (bâtiments, machines) · les biens intermédiaires DISPARAISSENT dans la production ; eco 11A complement
+Choix en termes d'alternatives ou de « combien » ? ; L'un OU l'autre (dormir ou aller en cours) · contre combien de chaque, qui se décide à la marge ; eco 11A
+Externalité positive ou négative ? ; Négative : la pollution, le tabac · positive : un effet favorable sur autrui — dans les deux cas hors de la décision individuelle ; eco 11A
+Monopole ou concurrence monopolistique ? ; Monopole : UNE firme vend UN produit unique · concurrence monopolistique : des firmes produisent des biens DIFFÉRENCIÉS ; eco 11A
+Choix initial ou choix effectif ? ; Le choix initial ignore les interactions sociales · après interactions, le choix effectif en diffère ; eco 11A
+Micro ou macro, pour un revenu supplémentaire ? ; En micro l'individu est plus riche · en macro, si tous le reçoivent, les prix montent et le pouvoir d'achat baisse ; eco 11A
+```
+
+**Classer un cas**
+
+```
+Trois caisses, trois files inégales : comment savoir si on est à l'équilibre ? ; Se demander si QUELQU'UN est incité à changer de comportement — si non, c'est un équilibre ; eco 11A
+Dans un secteur en tension, les salaires montent : qu'est-ce que ça illustre ? ; Que les agents répondent aux incitations, donc que les marchés tendent naturellement vers l'équilibre ; eco 11A
+Coefficient 6 en compta contre 4 en éco : qu'est-ce que c'est ? ; Une incitation — chaque point gagné en compta rapporte plus, donc les révisions s'y déplacent ; eco 11A
+Forte croissance économique : effet sur le nombre d'étudiants ? ; Beaucoup d'emplois bien rémunérés → coût d'opportunité des études élevé → MOINS d'étudiants ; eco 11A
+La question posée est « quel est le rôle de l'État dans la création de richesse ? » : quel modèle ? ; Le modèle 1, complet — le modèle 2 ne contient pas d'État ; eco 11A
+La question posée est « comment est créée la richesse ? » : quel modèle ? ; Le modèle 2, ménages ⇄ entreprises — ils créent environ 80 % de la richesse ; eco 11A
+Tout le monde augmente son épargne : que se passe-t-il ? ; La consommation totale baisse, donc le revenu aussi — c'est le paradoxe de l'épargne ; eco 11A
+```
+
+**Un chiffre, une formule** — un fait par carte
+
+```
+Formule du pouvoir d'achat ? ; W/P, exprimé en nombre de biens ; eco 11A
+Pouvoir d'achat pour W = 100 euros et P = 10 euros par bien ? ; 10 biens ; eco 11A
+Décomposition du revenu ? ; Y = T + C + S — impôts, consommation, épargne ; eco 11A
+Part de la richesse créée par la consommation des ménages ? ; 55 % ; eco 11A chiffres
+Part de la richesse créée par l'investissement des entreprises ? ; 25 % ; eco 11A chiffres
+PIB de la France en 2015, tel qu'il est dans le cours ? ; 2 999,9 milliards d'euros ; eco 11A chiffres
+```
+
+**Les trois listes que le cours demande comme listes**
+
+```
+Les 5 notions clés du chapitre ? ; L'arbitrage · les incitations · l'échange · l'information · la distribution des richesses et des biens ; eco 11A
+Les 3 questions auxquelles répond un système économique ? ; Quels biens et services produire · comment les produire · à qui les livrer ; eco 11A
+Les 2 causes de défaillance de marché ? ; Les externalités · le pouvoir de marché ; eco 11A
 ```
 
 ## 🔄 Comment réviser cette fiche

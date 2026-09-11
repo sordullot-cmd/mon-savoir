@@ -1,6 +1,6 @@
 ---
 name: eco
-description: Transforme les pages « eco gestion » du vault (Licence 1 Économie & Gestion, Angers) en fiches avec lesquelles on révise vraiment, pour réussir les examens de fin d'année. Intègre les notes d'amphi brutes déposées dans `eco gestion/_brut/` (fautes, structure en vrac, phrases interrompues) en fiches complètes, et améliore les fiches existantes. Chaque fiche est bâtie sur ce qui fait retenir : questions à réponses repliées pour se tester, tableaux de paires confusables, méthodes pas à pas, cartes Anki extraites, les informations capitales manquantes ajoutées et tracées (marqueur ➕), et les trous restants signalés. Corrige la langue et le markdown, répare liens et ancres. Ne touche jamais un chiffre, une formule, un nom d'auteur : ce qui cloche est signalé, pas corrigé. Périmètre = toute page taguée `L1-eco-gestion`, dans `eco gestion/`, ou liant `[[00 - Plan L1 Angers]]`. Tourne aussi seul toutes les heures (LaunchAgent `com.sacha.eco-fiches`) : une page par passage, un commit par passage. Intègre aussi les sources officielles quand Sacha en dépose une (PDF de slides, syllabus) : elles font autorité sur ses notes, sont marquées 🎞️, ferment les trous et font redessiner — ou découper — les schémas du prof. Confronte enfin chaque fiche au **cours de référence de `~/Documents/L1`** (les cours des années précédentes, toutes matières) : il corrige le vocabulaire, donne les vraies définitions, raccourcit les explications, mais n'ajoute jamais un chapitre ni une grande partie — le prof a pu changer son cours, donc une partie absente de ses notes part dans « À vérifier ». À utiliser quand Sacha dit « corrige / synthétise / améliore mes cours d'éco », « fais-moi les fiches de révision », « mets mes notes d'amphi au propre », « voilà les slides / le syllabus », ou quand le passage horaire se déclenche.
+description: Transforme les pages « eco gestion » du vault (Licence 1 Économie & Gestion, Angers) en fiches avec lesquelles on révise vraiment, pour réussir les examens de fin d'année. Intègre les notes d'amphi brutes déposées dans `eco gestion/_brut/` (fautes, structure en vrac, phrases interrompues) en fiches complètes, et améliore les fiches existantes. Chaque fiche est bâtie sur ce qui fait retenir : questions à réponses repliées pour se tester, tableaux de paires confusables, méthodes pas à pas, cartes Anki taillées sur la forme des questions relevée dans les annales (`~/Documents/L1/<matière>/Annales/`), les informations capitales manquantes ajoutées et tracées (marqueur ➕), et les trous restants signalés. Corrige la langue et le markdown, répare liens et ancres. Ne touche jamais un chiffre, une formule, un nom d'auteur : ce qui cloche est signalé, pas corrigé. Périmètre = toute page taguée `L1-eco-gestion`, dans `eco gestion/`, ou liant `[[00 - Plan L1 Angers]]`. Tourne aussi seul toutes les heures (LaunchAgent `com.sacha.eco-fiches`) : une page par passage, un commit par passage. Intègre aussi les sources officielles quand Sacha en dépose une (PDF de slides, syllabus) : elles font autorité sur ses notes, sont marquées 🎞️, ferment les trous et font redessiner — ou découper — les schémas du prof. Confronte enfin chaque fiche au **cours de référence de `~/Documents/L1`** (les cours des années précédentes, toutes matières) : il corrige le vocabulaire, donne les vraies définitions, raccourcit les explications, mais n'ajoute jamais un chapitre ni une grande partie — le prof a pu changer son cours, donc une partie absente de ses notes part dans « À vérifier ». À utiliser quand Sacha dit « corrige / synthétise / améliore mes cours d'éco », « fais-moi les fiches de révision », « mets mes notes d'amphi au propre », « voilà les slides / le syllabus », ou quand le passage horaire se déclenche.
 ---
 
 # /eco — Des cours d'éco gestion avec lesquels on révise
@@ -268,6 +268,99 @@ ils disent **quel type de question tombe** (QCM, définition, question de cours,
 calcul). Ils ne fournissent jamais de contenu de cours — une réponse d'annale
 recopiée dans la fiche, c'est du savoir non sourcé et daté.
 
+## Les cartes Anki — taillées sur ce que les annales demandent vraiment
+
+**Règle posée par Sacha le 11 septembre 2026 : « les cartes que tu me proposes
+ne sont pas vraiment pertinentes ni bien faites ».** Le défaut était réel et il
+avait trois causes, toutes corrigées ici : des cartes qui **récitent une liste**,
+des cartes qui **répètent un titre de section**, et des cartes qui ne
+correspondent à **aucune question réellement posée en examen**.
+
+### D'abord lire les annales — c'est la source, pas le cours
+
+Avant d'écrire une seule carte, on ouvre les annales de la matière :
+`~/Documents/L1/<matière>/Annales/`, `Ancien partiel/`, et tout fichier dont le
+nom contient `CC`, `CT`, `examen`, `sujet`, `QCM` ou un millésime.
+
+```
+python3 .claude/skills/eco/lire.py "<annale>.pdf"                       # si elle a du texte
+python3 .claude/skills/eco/lire.py "<annale>.pdf" --images <scratchpad> # si elle est scannée
+```
+
+**La plupart des annales sont des scans** : `lire.py` le détecte, le dit, et
+`--images` rend les pages en PNG — qu'on ouvre ensuite avec l'outil Read pour
+les lire à l'œil. Un sujet corrigé (les bonnes réponses entourées) vaut trois
+sujets vierges : il montre **quelle** formulation était la bonne.
+
+On en retire trois choses, dans cet ordre :
+
+1. **Le format et le barème** — QCM ou rédaction, une ou plusieurs bonnes
+   réponses, points négatifs ou non. Ça change la forme des cartes.
+2. **La forme des questions** — une définition à réciter ? un mini-cas à
+   classer ? un auteur à nommer ? deux formulations à départager ?
+3. **Les notions qui reviennent** d'une année sur l'autre. Elles passent en
+   premier, et leurs cartes sont taguées `annale`.
+
+### Ce que les annales de cette licence disent déjà
+
+| UE | Format relevé | Ce que la question teste vraiment |
+| --- | --- | --- |
+| **11A** Introduction à l'économie | **QCM 1 h, une seule bonne réponse, −0,5 point par erreur** | Un énoncé court suivi de **quatre formulations très proches** — « les données statistiques servent à *invalider* / *expliquer* / *tester* les théories ». Et **« aucune des propositions n'est exacte » est souvent la bonne réponse.** C'est du mot à mot, pas de la compréhension générale |
+| **12A** Introduction à la gestion | **2 h, trois parties** : QCM 6 pts (**plusieurs réponses possibles**, 0,5 pt par question, **tout ou rien**), questions de cours 7 pts, cas 7 pts | Le QCM donne un **mini-cas à classer** (« Virgin dans la boisson, la musique, les librairies : quel type de diversification ? ») ou demande **à qui on doit un modèle**. La question de cours demande de **définir *et* d'expliquer à quoi ça sert** (« qu'est-ce qu'un business model, et à quelles questions répond-il ? ») |
+| **13A** Problèmes économiques | 2 h : QCM 30 %, questions de cours courtes 30 %, question de réflexion | Concepts, mécanismes, et **analyse d'un graphique ou d'un tableau** |
+
+Deux conséquences qui traversent tout :
+
+- **Le mot exact fait la note.** Un verso approximatif ne prépare pas un QCM où
+  trois propositions sur quatre sont la bonne phrase avec un mot changé.
+- **Avec un barème négatif, savoir qu'on ne sait pas vaut des points.** Une
+  carte dont on ne peut pas juger si la réponse est exacte est une carte nuisible.
+
+### Les six types de cartes, et rien d'autre
+
+| Type | Recto | Verso |
+| --- | --- | --- |
+| **Définition + fonction** | « Que dit exactement le rapport Brundtland ? » | La phrase du cours, **et** à quoi la notion sert — c'est ce que la question de cours demande |
+| **Discrimination** | « Les données statistiques servent à quoi, au mot près ? » | Le mot juste, **et** pourquoi le voisin est faux : « à TESTER les théories — pas à les expliquer ni à les invalider » |
+| **Application (mini-cas)** | Un cas d'une ligne : « Virgin : boisson, musique, librairies, téléphonie » | La catégorie **et le critère qui tranche** : « diversification non liée — les métiers n'ont aucun lien entre eux » |
+| **Attribution** | « À qui doit-on le modèle des 5 forces ? » — et l'inverse : « Porter, pour quoi ? » | Le nom, l'année si le cours la donne |
+| **Chiffre ou seuil** | « Combien d'ETI en France ? » | **Un seul chiffre**, avec son année et sa source |
+| **Texte à trou** | « VA = production − … » | Le mot ou le terme manquant, seul |
+
+Une carte qui ne rentre dans aucune de ces six lignes ne se fait pas.
+
+### Les règles de fabrication
+
+| À faire | À ne pas faire |
+| --- | --- |
+| **Une carte = un fait.** Une liste de sept éléments donne sept cartes, ou aucune | « Cite les 7 fonctions de l'entreprise ? » — impossible à noter, et on la rate toujours sur le septième |
+| Une carte-liste **seulement** si l'examen la demande comme liste, et si elle tient en **trois éléments** | Une carte-liste de cinq, six, huit items : le tableau de la fiche fait ce travail, pas Anki |
+| Le recto est une **question**, avec son contexte | Un recto qui est un titre de section — « Développement durable ? » — ou qui répète le plan du chapitre |
+| Le verso est **autosuffisant** et tient en une phrase | Un verso qui renvoie à la fiche, ou qui empile trois faits |
+| Le mot qui fait la note est **entre guillemets ou en capitales** | Un verso où le mot décisif est noyé |
+| **Le `;` sépare les trois champs, et rien d'autre** : `Recto ; Verso ; Tags`, deux `;` par ligne, jamais un de plus. À l'intérieur d'un champ : `·` ou une virgule | Un `;` dans le verso — l'import Anki le lit comme un quatrième champ et **la carte arrive cassée**. C'est la première cause de cartes inutilisables |
+| Tags : `<matière> <UE>`, plus `complement` si la carte vient d'un ➕, plus `annale <année>` si la question est **réellement tombée** | Une carte issue d'un ajout non taguée `complement` : elle serait révisée comme du cours du prof |
+
+### Le test avant d'écrire une carte
+
+> **Cette carte, sous cette forme, ressemble-t-elle à une question qu'on a
+> réellement posée dans une annale de cette matière ?**
+>
+> Oui → on l'écrit. Non → on ne l'écrit pas, même si la notion est importante :
+> elle est déjà dans le corps de la fiche et dans le bloc `Contrôle`.
+
+Le bloc `Contrôle` et le bloc `Cartes` ne font pas le même travail : **Contrôle**
+teste la restitution structurée, à voix haute, longuement ; **Anki** teste le
+grain fin, en deux secondes. Une question de Contrôle n'est presque jamais une
+bonne carte telle quelle.
+
+### Quand on repasse sur une fiche qui a déjà des cartes
+
+On ne complète pas, on **refait le bloc** : chaque carte existante passe le test
+ci-dessus, celles qui échouent sont supprimées ou découpées, et le compteur
+`cartes:` du frontmatter suit. Une fiche qui perd quinze mauvaises cartes pour
+en gagner dix bonnes a progressé.
+
 ## Les schémas — peu, et seulement ceux qui portent le savoir
 
 **Règle corrigée par Sacha le 11 septembre 2026 : les passages faisaient trop de
@@ -391,6 +484,8 @@ soustrait à la fiche.
 | **Redessiner en SVG _ou_ découper dans la source** les deux ou trois figures qui portent le savoir, dans `schemas/` | Faire un schéma d'une liste, d'une opposition à deux colonnes ou d'une chaîne de flèches — inventer un schéma que le prof n'a pas fait, retoucher le contenu d'une figure découpée |
 | **Corriger l'orthographe et la syntaxe du brut**, ligne par ligne, à leur place | Restructurer un brut : déplacer, fusionner, renuméroter, compléter, ou retoucher un nom propre |
 | Laisser les tableaux valides tels quels, alignement compris | Reformater un tableau qui marche (`verifie.py` le refuse) |
+| **Supprimer une carte Anki mauvaise** et la remplacer, en ajustant `cartes:` | Garder une carte-liste de sept items parce qu'elle existait déjà |
+| Écrire une carte dont la forme correspond à une question d'annale | Écrire une carte « parce que la notion est importante », sans équivalent en examen |
 | Ajouter un tag déjà utilisé dans le périmètre | Supprimer ou renommer un de ses tags, toucher au reste du frontmatter |
 
 Test de relecture : **est-ce qu'il peut se tester avec cette page, seul, sans
@@ -413,6 +508,11 @@ récapitulatif.
    chapitre qui correspond, lu avec `lire.py`. **Après** avoir lu ce que Sacha a
    écrit, jamais avant : ses notes fixent le périmètre, le dossier ne fait que
    corriger les mots. Pas de dossier pour cette matière : on passe.
+3 quater. **Ouvrir les annales** de la même matière — `Annales/`,
+   `Ancien partiel/`, les fichiers `CC`/`CT`/`examen`/`QCM`. Elles ne donnent
+   pas de cours : elles disent **la forme des questions et le barème**, et c'est
+   de là que se déduisent les cartes Anki. Un scan se lit avec
+   `lire.py … --images <scratchpad>` puis l'outil Read.
 3 bis. **Si la cible est un brut, le corriger d'abord** — orthographe, accents,
    ponctuation, syntaxe markdown, et rien d'autre. Snapshot obligatoire avant
    (`cp "<brut>" <scratchpad>/brut-avant.md`), puis :
@@ -427,7 +527,8 @@ récapitulatif.
    les liens et ancres morts, les blocs manquants — et, face au cours de
    référence, deux listes séparées : **les mots à corriger** (ils partent dans
    la fiche) et **les parties absentes de ses notes** (elles partent dans
-   `À vérifier`, pas dans la fiche).
+   `À vérifier`, pas dans la fiche). Et, face aux annales, **la forme des
+   questions** qui décidera des cartes.
 5. **Écrire la page en une fois**, blocs dans l'ordre de `references/apprendre.md`.
 6. **Vérifier** :
    ```

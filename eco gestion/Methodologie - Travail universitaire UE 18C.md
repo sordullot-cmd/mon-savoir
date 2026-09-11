@@ -10,7 +10,7 @@ statut: à faire
 periode: 1
 revu: 2026-09-10
 a_verifier: 10
-cartes: 32
+cartes: 37
 ajouts: 28
 ---
 
@@ -314,41 +314,82 @@ C'est la **première partie lue** dans un travail.
 
 ## 🃏 Cartes à créer
 
-Format d'import : `Recto ; Verso ; Tags`
+Format d'import : `Recto ; Verso ; Tags`. **Deux `;` par ligne, jamais plus** — à l'intérieur d'un champ, les éléments sont séparés par `·`.
+
+> [!tip] Pourquoi ces cartes-là
+> **Aucune annale de cette UE n'existe dans `~/Documents/L1`** : il n'y a pas de dossier « Méthodologie ». Ces cartes s'appuient donc sur le seul repère sûr, le **barème que tu as noté** — examen final écrit d'**1 h pour 13 points** portant sur **les deux parties**, plus 7 points de recherche bibliographique et 1 à 2 points de test BU.
+> Une heure pour 13 points, c'est **du court** : des définitions, des distinctions, des exemples à replacer. D'où des cartes qui tiennent en une phrase, et surtout **une carte = un fait** : les anciennes cartes « les quatre intérêts du raisonnement hypothético-déductif ? » étaient impossibles à noter — on se plantait toujours sur le quatrième. Elles ont été découpées.
+
+**Définir**
 
 ```
-Objectif du cours de méthodologie ? ; Trouver l'information, la synthétiser, l'utiliser ; 18C definition
-Les deux parties du cours ? ; 1. Raisonner en économiste 2. Réaliser un travail universitaire ; 18C
-Combien de points pour l'examen final ? ; 13 points, sur 1 h ; 18C evaluation
-Combien de points pour la recherche bibliographique ? ; 7 points, bonus/malus compris ; 18C evaluation
-Combien de points pour le test de la BU ? ; 1 à 2 points ; 18C evaluation
-Définition de l'économie ? ; L'étude de l'allocation optimale des ressources rares ; 18C definition
-Les trois enseignements du cours ? ; Résumé, graphiques, recherche bibliographique en salle ; 18C
-Individualisme méthodologique : les deux termes ? ; Acteur et système ; 18C definition
-Deux auteurs de l'individualisme méthodologique ? ; Boudon, Bourdieu ; 18C auteur
-Que dit le modèle de comportement rationnel ? ; Les meilleurs choix, une information utilisée de manière efficace ; 18C definition
-Trois écarts entre le modèle et la réalité des comportements ? ; Rationalité limitée, biais systématiques, économie comportementale ; 18C
-Qu'est-ce que la rationalité limitée ? ; On s'arrête à une solution satisfaisante au lieu de chercher la meilleure ; 18C definition
-Qu'est-ce qu'un biais systématique ? ; Une erreur de jugement qui va toujours dans le même sens, donc prévisible ; 18C definition
-Les trois étapes du raisonnement hypothético-déductif ? ; Hypothèses, modèle, prédiction ; 18C procedure
-Les quatre intérêts du raisonnement hypothético-déductif ? ; Arbitrage parcimonie/pouvoir explicatif, incertitude, isoler les effets, distinction individuel/global ; 18C
-Les trois hypothèses en économie ? ; Ceteris paribus, rationalité, marché ; 18C
-Que veut dire ceteris paribus ? ; Toutes choses égales par ailleurs ; 18C definition
-Les quatre objectifs d'un modèle ? ; Représentation simplifiée, éléments saillants, basé sur des hypothèses, pouvoir prédictif ; 18C definition
-Corrélation et causalité : dans quel sens va l'implication ? ; La causalité implique la corrélation, jamais l'inverse ; 18C
-Le contre-exemple dépenses de santé ? ; France et Allemagne dépensent la même somme, les Allemands ont moins de morts ; 18C exemple
-Trois façons dont l'idéologie fausse le raisonnement ? ; Hypothèses fausses, raisonnement faux, économistes en désaccord malgré la même méthode ; 18C
-Les trois autres erreurs de raisonnement ? ; Variable manquante ou ignorée, confusion des niveaux d'analyse, confusion corrélation/causalité ; 18C
-Trois exemples de débats économiques du cours ? ; Les 35 h, la TVA sur la restauration, nationalisations et privatisations ; 18C exemple
-Ce qui s'est passé avec la baisse de TVA sur la restauration ? ; Ni baisse des prix ni embauches promises, seulement une meilleure marge ; 18C exemple
-Les quatre règles du travail universitaire ? ; Résumé clair, problématique/hypothèses, graphique, sources précises ; 18C procedure
-À quoi servent ces règles ? ; À la crédibilité et à l'information ; 18C
-Les trois raisons d'écrire un résumé ? ; Donner envie de lire, faire passer un message, montrer qu'on maîtrise le sujet ; 18C
-Les trois règles d'écriture d'un résumé ? ; Une idée principale par paragraphe, éviter l'inutile, abréger éventuellement ; 18C procedure
+L'économie, la définition du cours ? ; L'étude de l'allocation optimale des ressources rares ; 18C definition
+Individualisme méthodologique, les deux termes en jeu ? ; L'acteur et le système ; 18C definition
+Le modèle de comportement rationnel, que dit-il ? ; Que l'agent fait les meilleurs choix, en utilisant l'information de manière efficace ; 18C definition
+Rationalité limitée, définition ? ; On s'arrête à une solution SATISFAISANTE au lieu de chercher la meilleure ; 18C definition
+Biais systématique, définition ? ; Une erreur de jugement qui va toujours dans le même sens, donc prévisible ; 18C definition
+Ceteris paribus, que veut dire l'expression ? ; Toutes choses égales par ailleurs ; 18C definition
+À quoi sert un modèle ? ; À donner une représentation simplifiée qui fait ressortir les éléments saillants, et qui a un pouvoir prédictif ; 18C definition
+Sur quoi repose un modèle ? ; Sur des hypothèses ; 18C definition
+```
+
+**Départager — les pièges de l'examen**
+
+```
+Corrélation et causalité : dans quel sens va l'implication ? ; La causalité implique la corrélation, JAMAIS l'inverse ; 18C piege
+Micro ou macro : le chômage d'un pays ? ; Macroéconomie ; 18C
+Micro ou macro : le choix d'un consommateur ? ; Microéconomie ; 18C
+Rationalité limitée ou biais systématique ? ; La rationalité limitée arrête la recherche trop tôt · le biais systématique fausse le jugement toujours du même côté ; 18C piege
+Deux économistes en désaccord avec la même méthode : qu'est-ce que ça révèle ? ; Que l'idéologie intervient dans le choix des hypothèses, pas que la méthode est mauvaise ; 18C piege
+```
+
+**Le raisonnement, étape par étape**
+
+```
+Le raisonnement hypothético-déductif, les trois étapes ? ; Hypothèses → modèle → prédiction ; 18C procedure
+Premier intérêt du raisonnement hypothético-déductif ? ; L'arbitrage entre parcimonie et pouvoir explicatif ; 18C
+Deuxième intérêt du raisonnement hypothético-déductif ? ; Traiter l'incertitude ; 18C
+Troisième intérêt du raisonnement hypothético-déductif ? ; Isoler les effets les uns des autres ; 18C
+Quatrième intérêt du raisonnement hypothético-déductif ? ; Distinguer le niveau individuel du niveau global ; 18C
+Les trois hypothèses de base en économie ? ; Ceteris paribus · la rationalité · le marché ; 18C
+Première erreur de raisonnement à connaître ? ; La variable manquante ou ignorée ; 18C
+Deuxième erreur de raisonnement à connaître ? ; La confusion des niveaux d'analyse ; 18C
+Troisième erreur de raisonnement à connaître ? ; La confusion entre corrélation et causalité ; 18C
+```
+
+**Classer un cas**
+
+```
+France et Allemagne dépensent autant pour la santé, mais l'Allemagne a moins de morts : qu'est-ce que ça montre ? ; Qu'une corrélation entre dépense et résultat ne suffit pas — il manque une variable ; 18C exemple
+La baisse de la TVA sur la restauration : quel résultat ? ; Ni baisse des prix ni embauches promises, seulement une meilleure marge ; 18C exemple
+Nationalisations et privatisations : pourquoi les conclusions divergent-elles ? ; Parce que l'évaluation du résultat dépend des hypothèses de départ ; 18C exemple
+Cite un débat économique du cours ; Les 35 heures · la TVA sur la restauration · les nationalisations et privatisations ; 18C exemple
+```
+
+**Attribuer**
+
+```
+Deux auteurs de l'individualisme méthodologique ? ; Boudon · Bourdieu ; 18C auteur
+```
+
+**Le travail universitaire — ce qui rapporte les 7 points de biblio**
+
+```
+Les quatre règles du travail universitaire ? ; Résumé clair · problématique et hypothèses · graphique · sources précises ; 18C procedure
+À quoi servent ces règles ? ; À la crédibilité du travail et à l'information du lecteur ; 18C
 Quelle partie d'un travail est lue en premier ? ; Le résumé ; 18C
-Les trois erreurs à éviter dans un résumé ? ; Copié-collé, fautes d'orthographe, « le professeur nous dit que… » ; 18C
-Micro ou macro : l'étude du chômage d'un pays ? ; Macroéconomie ; 18C
-Micro ou macro : l'étude du choix d'un consommateur ? ; Microéconomie ; 18C
+Pourquoi écrire un résumé, en trois raisons ? ; Donner envie de lire · faire passer un message · montrer qu'on maîtrise le sujet ; 18C
+Une règle d'écriture d'un résumé ? ; Une idée principale par paragraphe ; 18C procedure
+Une erreur à ne jamais faire dans un résumé ? ; Le copié-collé — au même titre que les fautes d'orthographe et le « le professeur nous dit que… » ; 18C
+```
+
+**Le barème — il est tombable et il oriente les révisions**
+
+```
+Combien de points pour l'examen final ? ; 13 points, sur 1 heure ; 18C evaluation
+Combien de points pour la recherche bibliographique ? ; 7 points, bonus et malus compris ; 18C evaluation
+Combien de points pour le test de la BU ? ; 1 à 2 points ; 18C evaluation
+Sur quoi porte l'examen final ? ; Les deux parties du cours — raisonner en économiste, et réaliser un travail universitaire ; 18C evaluation
 ```
 
 ---

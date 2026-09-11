@@ -27,8 +27,11 @@ bloc déjà là ne se refait pas ; **un bloc sans matière ne se remplit pas**.
    présente dans la page. C'est là que les points se perdent en examen.
 6. **`## 🧮 Méthode`** — la procédure numérotée, si la page en contient une,
    suivie d'un exemple déroulé.
-7. **`## 🃏 Cartes à créer`** — format `Recto ; Verso ; Tags`, définitions,
-   formules, procédures et distinctions seulement.
+7. **`## 🃏 Cartes à créer`** — format `Recto ; Verso ; Tags`, **deux `;` par
+   ligne et pas un de plus** (un `;` dans le verso casse l'import). Six types
+   seulement — définition + fonction, discrimination, mini-cas, attribution,
+   chiffre, texte à trou — et chacune doit ressembler à une question réellement
+   posée en annale : voir `SKILL.md`, section « Les cartes Anki ».
 8. **`## 🔄 Comment réviser cette fiche`** — cinq ou six lignes de protocole
    appliquées à cette page, renvoyant à [[Methode - Comment reviser]]. Sans ➕ :
    ce n'est pas du cours.
