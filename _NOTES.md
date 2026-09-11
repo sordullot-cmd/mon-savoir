@@ -28,6 +28,7 @@ Notes prises sur le tas, dans `notes/` — dossier synchronisé avec l'app tr4de
 - [[meta learning]] — savoir ou on va, le pourquoi / quoi / comment, 80/20, feedback
 - [[Calistenics]] — series, figures, seances pull et push
 - [[habits]] — vêtements et chaussures
+- [[Systeme]] — ses objectifs court, moyen et long terme. Note ouverte par Sacha le 11 septembre, encore en cours d'écriture de son côté
 
 ## appart — `#appart`
 
@@ -39,6 +40,7 @@ Notes prises sur le tas, dans `notes/` — dossier synchronisé avec l'app tr4de
 - [[app]] — les demandes de dev sur l'app tr4de — **vidée dans l'app**, ne reste que le titre (`#top3`)
 - [[chose a regler]] — les chantiers en cours : social, discipline, muscle, discipline trading, gerer son temps
 - [[anime manga film]] — animes notés, liste à regarder, films (`#a_regarder`)
+- [[livre]] — les livres à lire, avec ce qu'il en retient en une ligne (`#a_regarder`, tag réutilisé pour garder la famille « à consommer » filtrable dans l'app)
 
 ## Sorties de `notes/`
 

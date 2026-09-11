@@ -1,13 +1,44 @@
 ---
 tr4de-id: "1783683948714.8545"
 created: 2026-07-10T11:45:48.714Z
-updated: 2026-09-11T00:57:32.648Z
+updated: 2026-09-11T22:46:10.941Z
 pinned: true
 tags:
   - top3
 ---
 
 apprentissage de la journée
+
+11 sept
+modifeir son identité
+on tous un niveau de base de :
+sucess
+income
+habits
+discipline
+Visualiser le succes avant d’avoir reussi
+imaginer notre nous avec le plus de succès, dans tout les points
+et penser comme lui, “ qu’est ce qu’il ferait mtn”
+qupprimer toute les anciennes habitudes, penser qui nous pousse vers notre ancienne version
+il faut etre calme, relax et concentré
+avoir confiance au système
+avoir des petit objectifs journaliers
+avoir un blue print / système / structure
+habitudes en plus : gratitude, méditation
+
+diviser sa vie en plusieurs objectif
+court terme objectif : les objectifs quand peut reussir des au ajd
+moyen term : 6 mois
+long terme objectf : 5 a 10 ans
+
+pour les reseaux sociaux, creer > regarder
+
+si on avait seuelemtn 2h pour travailler sur nos objectif, on ne ferais pas les taches inutiles ( ce que j’ai bcp ajd )
+
+faire un life audit, pour regarder ce que je fais vien ou pas, suppriemr ce qui sert a rien, appuyer ce que fais de bien
+se concetrer sur une habitude tout les jours, une habitude non negociable
+
+toujour s’analyser en fin de semaine, pour pouvori si on a progresser, dans quelle endroit je me suis ameliorer de 1%
 
 10 sep - discipline trading
 

@@ -1,7 +1,7 @@
 ---
 tr4de-id: "1787585392878.8884"
 created: 2026-08-24T15:29:52.878Z
-updated: 2026-09-10T21:28:55.024Z
+updated: 2026-09-11T22:48:10.533Z
 tags:
   - glowup
 ---
@@ -51,6 +51,6 @@ process :
 - avoir un plan et process avant de faire des choses, ne pas faire son plan pendant l'activité
 - pour la productivité prendre un tableau blanc pour pouvoir noter ses objectifs et ses taches du jours
 
-voir aussi : [[apprentissage de la journée]], [[meta learning]], [[habits]]
+voir aussi : [[apprentissage de la journée]], [[meta learning]], [[habits]], [[livre]]
 
 #glowup

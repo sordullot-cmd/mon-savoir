@@ -1,7 +1,7 @@
 ---
 tr4de-id: "1777266866017.6545"
 created: 2026-04-27T05:14:26.017Z
-updated: 2026-09-10T20:50:35.679Z
+updated: 2026-09-11T22:44:41.094Z
 tags:
   - a_regarder
 ---
@@ -31,5 +31,7 @@ films :
 - there will be blood
 - the prestige
 - nightcrawler
+
+voir aussi : [[livre]]
 
 #a_regarder
