@@ -6,7 +6,7 @@ tags:
   - a_regarder
 ---
 
-livre 
+livre :
 - the anxious generation : thum thum saour
 - the comfort crisis : pour embracer la difficulté
 
