@@ -1,7 +1,7 @@
 ---
 tr4de-id: "1789074214946.0017"
 created: 2026-09-10T21:02:21.637Z
-updated: 2026-09-11T16:29:29.127Z
+updated: 2026-09-12T12:31:14.967Z
 tags:
   - trading
 ---
@@ -11,6 +11,10 @@ key open
 key open = le moment lorsque la première bougie s'ouvre (10 am, 00 am, 18 am)
 
 attendre la bougie de 16h, a chaque fois la bougie va manipuler dans un sens avant de distribuer dans un sens, souvent la première direction du marché et seulement la première partie (manipulation) et ensuite elle va distribuer a partir d'une zone clé
+
+deux possibilité :
+- sois tu attends que la manipulation et la distribution se fasse, et t'attends un retracement sur le 10am avec des confluences
+- sois tu cherche
 
 critere de validation :
 - plus il y a une forte cloture au dessus ou en dessous

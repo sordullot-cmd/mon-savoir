@@ -14,7 +14,7 @@ Notes prises sur le tas, dans `notes/` — dossier synchronisé avec l'app tr4de
 - [[synthese trading]] — le hub : tout le trading rangé par sujet, chaque ligne renvoyant à sa note d'origine. **Toute nouvelle note ou ligne `#trading` vient s'y ajouter**, `/notes` le vérifie à chaque passage
 - [[base trading]] — entry triggers, liquidité externe et interne, recit du marché, trade with time, systeme
 - [[discipline trading]] — execution plutôt que profits, regles journalières de risque, quoi noter dans le journal de trade
-- [[key open]] — la bougie de 16h qui manipule avant de distribuer, critères de validation, checklist en 7 points, wick theory
+- [[key open]] — la bougie de 16h qui manipule avant de distribuer, les deux façons de la jouer, critères de validation, checklist en 7 points, wick theory
 - [[powell]] — confluences, ifvg et leurs 50%, entry triggers
 - [[sdtv]] — les stdv, london, hod / lod, le soup
 - [[trader de qui apprendre]] — les traders à étudier, avec les durées
@@ -37,7 +37,6 @@ Notes prises sur le tas, dans `notes/` — dossier synchronisé avec l'app tr4de
 ## hors famille
 
 - [[apprentissage de la journée]] — le journal par date, chaque jour renvoyant à la note du sujet (`#top3`, épinglée)
-- [[app]] — les demandes de dev sur l'app tr4de — **vidée dans l'app**, ne reste que le titre (`#top3`)
 - [[chose a regler]] — les chantiers en cours : social, discipline, muscle, discipline trading, gerer son temps
 - [[anime manga film]] — animes notés, liste à regarder, films (`#a_regarder`)
 - [[livre]] — les livres à lire, avec ce qu'il en retient en une ligne (`#a_regarder`, tag réutilisé pour garder la famille « à consommer » filtrable dans l'app)
@@ -48,4 +47,4 @@ Notes prises sur le tas, dans `notes/` — dossier synchronisé avec l'app tr4de
 
 > Supprimées en août 2026, à ne pas recréer : `glow uppp` (le chapeau `#glowup`, ses liens pointent maintenant vers les notes de la famille), `math`, `application inspiration`, `appartement` (scindée par Sacha en `courses et recette` + `achats`), `bien s'habiller` et `bien s'habiller 2` (restées vides, le sujet est dans [[habits]]), `my lock in` (une seule ligne, `nqsimon`, supprimée sur décision de Sacha le 2 septembre).
 
-> Supprimées en septembre 2026 : `achats` (Sacha a reversé son contenu dans `courses et recette`, renommée `courses, recette et achat`, le 10 septembre), `apprentisage trading` (fusionnée dans [[trader de qui apprendre]], le playbook parti dans [[base trading]]), `appart` (créée puis vidée par Sacha le même jour).
+> Supprimées en septembre 2026 : `achats` (Sacha a reversé son contenu dans `courses et recette`, renommée `courses, recette et achat`, le 10 septembre), `apprentisage trading` (fusionnée dans [[trader de qui apprendre]], le playbook parti dans [[base trading]]), `appart` (créée puis vidée par Sacha le même jour), `app` (les demandes de dev sur l'app tr4de, vidée puis supprimée par Sacha dans l'app le 12 septembre).
