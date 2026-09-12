@@ -1,13 +1,17 @@
 ---
 tr4de-id: "1783683948714.8545"
 created: 2026-07-10T11:45:48.714Z
-updated: 2026-09-12T11:56:58.225Z
+updated: 2026-09-12T13:29:47.143Z
 pinned: true
 tags:
   - top3
 ---
 
 apprentissage de la journée
+
+12 sept - comment apprendre d'un trader
+
+regarder 3 videos d’une personne, backtester, regarder 1 video de cette meme personne backtester, backtester → [[trader de qui apprendre]]
 
 11 sept - modifier son identité
 

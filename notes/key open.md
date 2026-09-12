@@ -1,7 +1,7 @@
 ---
 tr4de-id: "1789074214946.0017"
 created: 2026-09-10T21:02:21.637Z
-updated: 2026-09-12T12:31:14.967Z
+updated: 2026-09-12T13:12:53.402Z
 tags:
   - trading
 ---
@@ -13,8 +13,8 @@ key open = le moment lorsque la première bougie s'ouvre (10 am, 00 am, 18 am)
 attendre la bougie de 16h, a chaque fois la bougie va manipuler dans un sens avant de distribuer dans un sens, souvent la première direction du marché et seulement la première partie (manipulation) et ensuite elle va distribuer a partir d'une zone clé
 
 deux possibilité :
-- sois tu attends que la manipulation et la distribution se fasse, et t'attends un retracement sur le 10am avec des confluences
-- sois tu cherche
+- sois tu attends que la manipulation et la distribution cloture au dessus du 10 am, et t'attends un retracement sur le 10am avec des confluences qui s'aligne avec
+- sois tu cherches a prendre la distribution jusqu'au 10 am, donc tu cherches des confluences que va toucher la manipulation
 
 critere de validation :
 - plus il y a une forte cloture au dessus ou en dessous
@@ -39,6 +39,15 @@ checklist :
 5. fib en alignement
 6. stoploss logique
 7. clear target (internal low/high, midnightopen, htf zone)
+
+étapes :
+- analyse htf / 4h daily (biais)
+- chercher la liquidité (dol)
+- amd
+- attendre pour la manip
+- confluences pour la distribution
+- ou attendre forte fermeture de la distribution
+- confluences pour continuer la tendance
 
 wick theory :
 - les meilleurs wick sont fais de la prise de liquidité

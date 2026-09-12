@@ -14,10 +14,10 @@ Notes prises sur le tas, dans `notes/` — dossier synchronisé avec l'app tr4de
 - [[synthese trading]] — le hub : tout le trading rangé par sujet, chaque ligne renvoyant à sa note d'origine. **Toute nouvelle note ou ligne `#trading` vient s'y ajouter**, `/notes` le vérifie à chaque passage
 - [[base trading]] — entry triggers, liquidité externe et interne, recit du marché, trade with time, systeme
 - [[discipline trading]] — execution plutôt que profits, regles journalières de risque, quoi noter dans le journal de trade
-- [[key open]] — la bougie de 16h qui manipule avant de distribuer, les deux façons de la jouer, critères de validation, checklist en 7 points, wick theory
+- [[key open]] — la bougie de 16h qui manipule avant de distribuer, les deux façons de la jouer, critères de validation, checklist en 7 points, les étapes dans l'ordre, wick theory
 - [[powell]] — confluences, ifvg et leurs 50%, entry triggers
 - [[sdtv]] — les stdv, london, hod / lod, le soup
-- [[trader de qui apprendre]] — les traders à étudier, avec les durées
+- [[trader de qui apprendre]] — les traders à étudier, avec les durées, et la boucle regarder / backtester pour les étudier
 - [[plan pour passer a 100k mensuelle]] — comptes prop, coûts, plan mois par mois, calculs par taille de compte
 - [[social media]] — contenu tiktok et youtube, et la fiscalité (prestation de service, APE 7022Z)
 
