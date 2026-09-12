@@ -33,6 +33,12 @@ etre obsedé :
 - etre delusionel
 - delusion et discipline doivent travailler ensemble
 
+modifier son identité :
+- on a tous un niveau de base de : success, income, habits, discipline
+- visualiser le succes avant d'avoir reussi
+- imaginer notre nous avec le plus de succès, dans tout les points, et penser comme lui, « qu'est ce qu'il ferait mtn »
+- supprimer toute les anciennes habitudes, penser qui nous pousse vers notre ancienne version
+
 repetition et routines :
 - la repetition et les routines sont les meilleurs choses a mettre en place
 - on gache 90% de notre temps car on est pas dans le mood de la motivation, il faut savoir etre productif sans
@@ -45,12 +51,19 @@ routine du jour :
 - lire des livres tout les jours
 - bloquer les reseaux sociaux (opal)
 - manger sainement, faire du sport
+- habitudes en plus : gratitude, méditation
+
+life audit :
+- si on avait seulement 2h pour travailler sur nos objectif, on ne ferais pas les taches inutiles (ce que j'ai bcp ajd)
+- faire un life audit, pour regarder ce que je fais bien ou pas, supprimer ce qui sert a rien, appuyer ce que fais de bien
+- se concentrer sur une habitude tout les jours, une habitude non negociable
+- toujours s'analyser en fin de semaine, pour voir si on a progressé, dans quelle endroit je me suis amelioré de 1%
 
 process :
 - creer un process en boucle, a l'infini, pour le repeter et pouvoir l'optimiser
 - avoir un plan et process avant de faire des choses, ne pas faire son plan pendant l'activité
 - pour la productivité prendre un tableau blanc pour pouvoir noter ses objectifs et ses taches du jours
 
-voir aussi : [[apprentissage de la journée]], [[meta learning]], [[habits]], [[livre]]
+voir aussi : [[Systeme]], [[apprentissage de la journée]], [[meta learning]], [[habits]], [[livre]]
 
 #glowup

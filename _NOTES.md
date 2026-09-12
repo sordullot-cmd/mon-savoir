@@ -23,12 +23,12 @@ Notes prises sur le tas, dans `notes/` — dossier synchronisé avec l'app tr4de
 
 ## glow up — `#glowup`
 
-- [[lock in]] — objectif, commencer petit, etre obsedé, delusion et discipline, repetition et routines, routine du jour, process
+- [[lock in]] — objectif, commencer petit, etre obsedé, modifier son identité, delusion et discipline, repetition et routines, routine du jour, life audit, process
 - [[bien communiquer]] — symptomes, les 5 exercices, routine, humour
 - [[meta learning]] — savoir ou on va, le pourquoi / quoi / comment, 80/20, feedback
 - [[Calistenics]] — series, figures, seances pull et push
 - [[habits]] — vêtements et chaussures
-- [[Systeme]] — ses objectifs court, moyen et long terme. Note ouverte par Sacha le 11 septembre, encore en cours d'écriture de son côté
+- [[Systeme]] — ses objectifs long, moyen et court terme avec leurs horizons (5 à 10 ans, 6 mois, dès aujourd'hui), le blue print et les règles du jour
 
 ## appart — `#appart`
 

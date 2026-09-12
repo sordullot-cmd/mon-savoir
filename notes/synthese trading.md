@@ -58,10 +58,11 @@ apprendre
 - discipline trading, a travailler → [[chose a regler]]
 
 business
+- objectif moyen terme : devenir un trader rentable, 100k de revenu mensuel → [[Systeme]]
 - comptes prop, coûts, plan mois par mois → [[plan pour passer a 100k mensuelle]]
 - objectifs par taille de compte : 50k = 4k / mois, 150k = 12k, 250k = 24k → [[plan pour passer a 100k mensuelle]]
 - fiscalité : prestation de service, APE 7022Z → [[social media]]
-- contenu : tiktok, youtube → [[social media]]
+- contenu : tiktok, youtube, creer > regarder → [[social media]]
 
 a trancher :
 - quelle est mon A+ setup ([[base trading]])

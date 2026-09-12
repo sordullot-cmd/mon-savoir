@@ -6,11 +6,17 @@
    "mots": 88,
    "updated": "2026-09-10T22:24:37.897Z"
   },
+  "Systeme.md": {
+   "hash": "3e16245cc50a",
+   "id": "1789166776662.336",
+   "mots": 123,
+   "updated": "2026-09-11T23:00:48.338Z"
+  },
   "anime manga film.md": {
-   "hash": "0b542664eece",
+   "hash": "3eda2d06a7cc",
    "id": "1777266866017.6545",
-   "mots": 84,
-   "updated": "2026-09-10T20:50:35.679Z"
+   "mots": 88,
+   "updated": "2026-09-11T22:44:41.094Z"
   },
   "app.md": {
    "hash": "1642140b3874",
@@ -19,16 +25,16 @@
    "updated": "2026-09-10T20:50:35.671Z"
   },
   "apprentissage de la journée.md": {
-   "hash": "bf81d9563f62",
+   "hash": "474257d105df",
    "id": "1783683948714.8545",
-   "mots": 182,
-   "updated": "2026-09-11T00:57:32.648Z"
+   "mots": 256,
+   "updated": "2026-09-11T23:00:50.508Z"
   },
   "base trading.md": {
    "hash": "dd3a2f65b636",
    "id": "1783638656474.7312",
    "mots": 263,
-   "updated": "2026-09-10T21:03:34.942Z"
+   "updated": "2026-09-11T11:48:24.546Z"
   },
   "bien communiquer.md": {
    "hash": "003a7284d229",
@@ -40,7 +46,7 @@
    "hash": "e4bb63d87fb2",
    "id": "1789073414777.2283",
    "mots": 50,
-   "updated": "2026-09-11T00:59:31.430Z"
+   "updated": "2026-09-11T16:50:27.452Z"
   },
   "courses, recette et achat.md": {
    "hash": "9fc235be3e28",
@@ -50,9 +56,9 @@
   },
   "discipline trading.md": {
    "hash": "d85b6aef28be",
-   "id": null,
+   "id": "1789139446712.1643",
    "mots": 114,
-   "updated": null
+   "updated": "2026-09-11T16:29:28.077Z"
   },
   "habits.md": {
    "hash": "771f34fd6a73",
@@ -64,13 +70,19 @@
    "hash": "5926368d3231",
    "id": "1789074214946.0017",
    "mots": 240,
-   "updated": "2026-09-10T22:24:39.122Z"
+   "updated": "2026-09-11T16:29:29.127Z"
+  },
+  "livre.md": {
+   "hash": "1749feeb16d4",
+   "id": "1789153137252.171",
+   "mots": 28,
+   "updated": "2026-09-11T23:00:48.943Z"
   },
   "lock in.md": {
-   "hash": "e5d64b817d73",
+   "hash": "b7656d3d99ac",
    "id": "1787585392878.8884",
-   "mots": 433,
-   "updated": "2026-09-10T21:28:55.024Z"
+   "mots": 592,
+   "updated": "2026-09-11T22:48:10.533Z"
   },
   "meta learning.md": {
    "hash": "f0b90a628e37",
@@ -82,7 +94,7 @@
    "hash": "078cd6991254",
    "id": "1777255268193.9534",
    "mots": 263,
-   "updated": "2026-09-11T00:46:22.671Z"
+   "updated": "2026-09-11T23:00:50.098Z"
   },
   "powell.md": {
    "hash": "ac43357a3b48",
@@ -97,16 +109,16 @@
    "updated": "2026-09-10T20:50:35.675Z"
   },
   "social media.md": {
-   "hash": "c97ae9f70751",
+   "hash": "833b2a9e7fc8",
    "id": "1778067247835.3635",
-   "mots": 112,
+   "mots": 119,
    "updated": "2026-09-10T20:50:35.674Z"
   },
   "synthese trading.md": {
-   "hash": "ea30dd756f08",
+   "hash": "e1af7ac6aac0",
    "id": "1787058184048.5754",
-   "mots": 699,
-   "updated": "2026-09-10T21:39:00.729Z"
+   "mots": 717,
+   "updated": "2026-09-11T11:49:10.675Z"
   },
   "trader de qui apprendre.md": {
    "hash": "679f69b3e51d",

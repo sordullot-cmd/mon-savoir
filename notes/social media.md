@@ -8,6 +8,8 @@ tags:
 
 social media
 
+pour les reseaux sociaux, creer > regarder
+
 tiktok
 - video de trades en live, un peu comme des edits ?
 - des videos d'explication (comme le mec du sdtv)
