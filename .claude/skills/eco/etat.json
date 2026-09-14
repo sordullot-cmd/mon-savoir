@@ -18,7 +18,7 @@
   "eco gestion/_brut/introduction a l'economie.md": {
    "fiche": "eco gestion/Economie - Chapitre 1 Science economique.md",
    "hash": "08ac6c5774f3",
-   "integre": "2026-09-14 19:25"
+   "integre": "2026-09-14 19:29"
   }
  },
  "pages": {
@@ -46,10 +46,10 @@
    "statut": "confirmé"
   },
   "eco gestion/Economie - Chapitre 1 Science economique.md": {
-   "fait": "mise en coherence de la fiche apres l'integration du 2e cours (II.2 a II.5, marche de la pizza) restee non commitee : compteurs cartes 48 -> 93 et ajouts 4 -> 6, blocs de fin completes, 3 schemas redondants retires, liens de revision ajoutes. Restent a faire : les questions de Controle des sections II.2 a II.5",
-   "hash": "64b8edcff4de",
-   "mots": 14539,
-   "passage": "2026-09-14 19:25",
+   "fait": "cours n3 (14 sept) : variables endogenes/exogenes, marche de la pizza, donnees statistiques, correlation/causalite, experimentations, micro-macro, desaccords, conclusion — synthese basee sur le cours du prof (L1/CM) + notes des amis ; 2 schemas, 45 cartes, 26 questions de controle",
+   "hash": "254d10b6223e",
+   "mots": 15358,
+   "passage": "2026-09-14 19:29",
    "source": "_brut/introduction a l'economie.md",
    "statut": "à faire"
   },

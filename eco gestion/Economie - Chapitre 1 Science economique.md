@@ -11,8 +11,8 @@ ue: 11A
 statut: à faire
 coef: 3
 periode: 1
-revu: 2026-09-09
-a_verifier: 7
+revu: 2026-09-14
+a_verifier: 11
 cartes: 93
 ajouts: 6
 ---
@@ -611,7 +611,7 @@ Les agents économiques, lorsqu'ils prennent leurs décisions, ont **besoin de p
 
 **Le lien entre les deux a une date** :
 
-- **jusqu'aux années 1980-1990** : **pas de lien** entre micro et macro ;
+- **jusqu'aux années 80/90** (1980-1990) : **pas de lien** entre micro et macro ;
 - **depuis les années 1980-1990** : la **macroéconomie microfondée** — la macro se construit à partir des comportements individuels de la micro.
 
 ### II.5 POURQUOI LES ÉCONOMISTES NE SONT PAS D'ACCORD ENTRE EUX
@@ -1185,11 +1185,37 @@ Réponds à voix haute, puis ouvre la réponse.
 > [!question] Ce que je n'ai pas pu lire, ou qui manque
 > - **Les deux clés notées en tête de tes notes d'introduction** (`31538` et `s9adntd`) : à quoi donnent-elles accès ? En UE 13A, la clé `24212 zp6n7e` est celle de **Moodle** ; ici tes notes ne le précisent pas.
 > - **L'exemple du concert** (§ I.3) : tes notes listent « le concert est gratuit → plein de monde = bouchons », « mauvais itinéraire », puis un troisième point qui commence par « le prof va acheter… » et que je n'ai pas su déchiffrer. Il manque la fin.
-> - **PIB 2015 = 2 999,9 milliards d'€** : le chiffre est net sur la photo, mais l'année (2015) l'est moins. À confirmer — c'est typiquement une valeur de QCM.
+> - **Le PIB de la France : quatre valeurs circulent, aucune n'est tranchée.** Ta photo de cahier donne **2 999,9 milliards d'€ (2015 ?)** ; tes notes du cours n° 3 s'arrêtent sur un « **2,25** » incomplet ; les notes de tes amis donnent **2 991,1 milliards d'€** ; le cours de référence de 2021 donnait **2 300 Md€ (2018)**. Je n'en corrige aucune. Demande **le chiffre et l'année** que le prof retient : avec un QCM à −0,5, c'est exactement le genre de question qui coûte.
 > - **Les canicules** (§ II) : « quels effets des canicules sur la productivité **des …** » — le dernier mot est illisible. Des travailleurs ? Des cultures ?
 > - **Rq 2 du § I.3 b)** : la phrase sur les producteurs qui satisfont les besoins est reconstituée au plus près, mais ta ligne est coupée. À reprendre.
 > - **La date en tête de la partie II** : une annotation en rouge en haut de page, illisible (peut-être la date de la 2ᵉ séance).
 > - **Le schéma des trois agents** (conclusion du chapitre) : tes notes disent de le **récupérer sur le drive**. Il n'y est pas encore — dépose-le dans `fichier/` et il rejoindra la fiche.
+> - **Pennsylvanie et New Jersey : combien d'États, et lequel est le groupe de traitement ?** Tes notes écrivent « **3 états voisins** » ; les notes de tes amis, prises au même amphi, écrivent « **2 états voisins** », et l'exemple n'en nomme effectivement que deux — c'est **deux** que j'ai retenu dans le tableau, sur la foi de leurs notes. Tes notes font par ailleurs de la **Pennsylvanie** l'État qui relève le salaire minimum (donc le groupe de traitement), le **New Jersey** étant le contrôle. Les notes de tes amis ne tranchent pas non plus. L'étude de référence prend l'inverse : c'est le **New Jersey** qui relève son salaire minimum. Je n'ai touché à rien — c'est à vérifier en amphi, et j'ai laissé le tableau du cours **sans nommer** lequel est lequel.
+> - **La date de la crise du covid** : tes notes écrivent « **En 2019** ». À confirmer — le choc économique est généralement daté de **2020**. Je ne corrige pas une date.
+> - **La date du Clean Air Act** : tes notes écrivent « **1960 aux USA** ». À confirmer : c'est une date, donc elle reste telle que tu l'as prise.
+> - **La ligne du choc restée illisible** (§ II.1, marché de la pizza) : dans tes notes, « execes de demande de pizza ⇐ (E → O1) delta- Qo » puis « offre = **2p1 (en 01)** ». J'ai reconstitué le raisonnement en cinq étapes à partir du reste, mais ces deux notations-là, je ne les ai pas devinées. Vérifie sur ton cahier que la lecture « l'offre passe de Q\* à Q₁ en O₁ » est la bonne.
+> - **« Prix sans fins »** (§ II.5) : tu as toi-même noté dans tes notes de chercher le vrai mot. J'ai mis **« rigides »**, marqué d'un plus vert — c'est le terme du cours de référence, mais ton prof a pu dire « **fixes** » ou « **visqueux** ». À confirmer.
+
+> [!success]- Ce que les notes de tes amis ont apporté — 9 points
+> Deux prises de notes du **même amphi, la même année** (`_brut/Copie de cours num3 eco.docx` et `_brut/Copie de Document sans titre.docx`) : c'est **le même cours que le tien**, donc leur contenu est fondu dans le corps **sans marque**, comme tes propres notes. Ces lignes disent seulement **ce qui a bougé** par rapport à ce que tu avais écrit.
+>
+> **Passages que tes notes laissent inachevés, et qu'elles complètent**
+> - La phrase « si vous voulez 1 série de données sur la consommation d… consommations, ce qui » s'arrêtait en plein vol : il faut **définir la consommation, ce que signifie « finale », et à quel agent correspondent « les ménages »** (§ II.2).
+> - Ta ligne « 2. Il n'y a concurrence pure et parfaite → les agents sont price taker → Ici le prix de la pizza Pp sagj » se termine sur : le prix **s'ajuste pour égaliser Qo et Qd**, et à l'équilibre **ni offreurs ni demandeurs ne cherchent à changer de comportement** (§ II.1).
+> - Le raisonnement du choc était noté en fragments. Il se déroule en cinq temps, dont le pivot est : **Pi n'impacte que les producteurs car c'est un input, donc l'effet sur la demande est latent** (§ II.1).
+>
+> **Vocabulaire remis au mot du cours**
+> - Ta première ligne dit « des variantes économiques » : ce sont **des variables** (§ II.1).
+> - Le raisonnement de l'économiste est **séquentiel** — c'est le mot qui explique *toute chose égale par ailleurs* (§ II.1).
+>
+> **Deux définitions que tes notes n'avaient pas**
+> - **Corrélation positive / négative** : dans le même sens, en sens opposé. Tes notes s'arrêtaient à « corrélation = relation systématique » (§ II.2).
+> - La **boucle** de la démarche : après l'observation empirique, soit **validation = modèle accepté**, soit **rejet des énoncés → révision des hypothèses** (§ II.2).
+>
+> **Un exemple**
+> - La crise des **subprimes** comme choc qui déplace la **tendance** elle-même — tes notes avaient la remarque, pas l'exemple (§ II.2 b).
+>
+> **Ce que je n'ai délibérément PAS repris de leurs notes** : leur chiffre de PIB (**2 991,1 Md€**), qui contredit le tien — il est dans « À vérifier », pas dans le cours ; et leur définition de la **consommation finale**, qui n'apparaît dans aucune de tes notes ni dans le cours de référence à cet endroit du chapitre.
 
 > [!info]- Ce que le cours de référence a précisé — 6 points
 > Source : `~/Documents/L1/Introduction à l_économie/CM/` — les notes d'une promo **2021-2022** et les slides du chapitre 1. Le plan est **le même que le tien**, séance pour séance : c'est ce qui rend ces précisions fiables. Elles restent d'une année antérieure, donc elles précisent des mots, elles n'ajoutent pas de partie.
