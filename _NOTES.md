@@ -35,6 +35,10 @@ Notes prises sur le tas, dans `notes/` — dossier synchronisé avec l'app tr4de
 
 - [[courses, recette et achat]] — les courses par type, les repas avec leurs ingrédients, puis les achats par pièce
 
+## eco — `#eco`
+
+- [[Q]] — notes d'amphi en cours d'écriture : les fonctions de demande et d'offre, l'ajustement des marchés par le prix, la crise des subprime, plus un schéma en pièce jointe. Le détail du cours vit dans les fiches du vault (`eco gestion/`), pas ici
+
 ## hors famille
 
 - [[apprentissage de la journée]] — le journal par date, chaque jour renvoyant à la note du sujet (`#top3`, épinglée)
