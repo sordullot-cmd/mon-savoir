@@ -1,7 +1,7 @@
 ---
 tr4de-id: "1783638656474.7312"
 created: 2026-07-09T23:10:56.474Z
-updated: 2026-09-12T11:59:33.277Z
+updated: 2026-09-14T11:26:22.743Z
 tags:
   - trading
 ---
@@ -44,6 +44,6 @@ systeme :
 - mettre en place des conditions avec prenium discount pour avoir 90% de chance avec dol
 - F1 range
 
-voir aussi : [[synthese trading]], [[key open]], [[powell]], [[sdtv]], [[discipline trading]], [[trader de qui apprendre]]
+voir aussi : [[synthese trading]], [[key open]], [[bias journalier]], [[powell]], [[sdtv]], [[discipline trading]], [[trader de qui apprendre]]
 
 #trading

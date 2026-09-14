@@ -1,13 +1,17 @@
 ---
 tr4de-id: "1783683948714.8545"
 created: 2026-07-10T11:45:48.714Z
-updated: 2026-09-12T13:29:47.143Z
+updated: 2026-09-14T11:26:25.082Z
 pinned: true
 tags:
   - top3
 ---
 
 apprentissage de la journée
+
+14 sept - bias journalier
+
+sellside ou buyside, quelle fvg respecté, htf liquidity draws, logique if then, pdh / pdl de la veille → [[bias journalier]]
 
 12 sept - comment apprendre d'un trader
 

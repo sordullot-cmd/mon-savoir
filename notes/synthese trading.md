@@ -1,7 +1,7 @@
 ---
 tr4de-id: "1787058184048.5754"
 created: 2026-08-18T13:02:44.094Z
-updated: 2026-09-12T12:48:42.416Z
+updated: 2026-09-12T13:49:32.088Z
 tags:
   - trading
 ---
@@ -36,6 +36,11 @@ stdv
 - accumuler les stdv pour voir si une zone ressort → [[sdtv]]
 - ce ne sont pas des zones de prix precises : pas de buy limit dessus → [[sdtv]]
 - le soup : cloture au dessus d'un high ou low qui vient d'etre pris → [[sdtv]]
+
+bias journalier
+- sellside ou buyside (prise de liquidité), sweep de high ou low, quelle fvg respecté, htf liquidity draws → [[bias journalier]]
+- logique if then : si le fvg 1h est respecté le bias ne change pas, s'il est inversé et que les fvg opposé sont respecté le bias a changé → [[bias journalier]]
+- étapes : pdh / pdl de la veille, quelle htf fvg est respecté, identifier la cible → [[bias journalier]]
 
 recit du marché
 - market maker buy ou sell model, monday range play → [[base trading]]

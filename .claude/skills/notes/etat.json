@@ -10,7 +10,7 @@
    "hash": "3e16245cc50a",
    "id": "1789166776662.336",
    "mots": 123,
-   "updated": "2026-09-12T11:57:52.061Z"
+   "updated": "2026-09-12T23:30:14.729Z"
   },
   "anime manga film.md": {
    "hash": "3eda2d06a7cc",
@@ -19,16 +19,22 @@
    "updated": "2026-09-11T22:44:41.094Z"
   },
   "apprentissage de la journée.md": {
-   "hash": "474257d105df",
+   "hash": "71297a5f5cba",
    "id": "1783683948714.8545",
-   "mots": 256,
-   "updated": "2026-09-12T11:56:58.225Z"
+   "mots": 309,
+   "updated": "2026-09-14T11:26:25.082Z"
   },
   "base trading.md": {
-   "hash": "dd3a2f65b636",
+   "hash": "09d4eecb3083",
    "id": "1783638656474.7312",
-   "mots": 263,
-   "updated": "2026-09-12T11:59:33.277Z"
+   "mots": 265,
+   "updated": "2026-09-14T11:26:22.743Z"
+  },
+  "bias journalier.md": {
+   "hash": "aef365a1bb62",
+   "id": "1789385184667.8928",
+   "mots": 191,
+   "updated": "2026-09-14T11:26:11.648Z"
   },
   "bien communiquer.md": {
    "hash": "003a7284d229",
@@ -61,22 +67,22 @@
    "updated": "2026-09-10T20:50:50.875Z"
   },
   "key open.md": {
-   "hash": "02f6b3102b47",
+   "hash": "e6538481c3de",
    "id": "1789074214946.0017",
-   "mots": 269,
-   "updated": "2026-09-12T12:31:14.967Z"
+   "mots": 335,
+   "updated": "2026-09-14T11:26:25.664Z"
   },
   "livre.md": {
    "hash": "1749feeb16d4",
    "id": "1789153137252.171",
    "mots": 28,
-   "updated": "2026-09-12T11:57:55.148Z"
+   "updated": "2026-09-12T23:30:15.222Z"
   },
   "lock in.md": {
    "hash": "b7656d3d99ac",
    "id": "1787585392878.8884",
    "mots": 592,
-   "updated": "2026-09-12T11:58:53.350Z"
+   "updated": "2026-09-12T13:22:02.446Z"
   },
   "meta learning.md": {
    "hash": "f0b90a628e37",
@@ -109,16 +115,16 @@
    "updated": "2026-09-12T11:59:12.188Z"
   },
   "synthese trading.md": {
-   "hash": "41f9f55e1736",
+   "hash": "97d60aa86af7",
    "id": "1787058184048.5754",
-   "mots": 757,
-   "updated": "2026-09-12T12:00:27.867Z"
+   "mots": 860,
+   "updated": "2026-09-12T13:49:32.088Z"
   },
   "trader de qui apprendre.md": {
-   "hash": "679f69b3e51d",
+   "hash": "003e2f844ece",
    "id": "1788869767493.3906",
-   "mots": 38,
-   "updated": "2026-09-12T11:58:45.541Z"
+   "mots": 60,
+   "updated": "2026-09-12T13:49:04.296Z"
   }
  }
 }

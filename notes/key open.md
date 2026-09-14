@@ -1,7 +1,7 @@
 ---
 tr4de-id: "1789074214946.0017"
 created: 2026-09-10T21:02:21.637Z
-updated: 2026-09-12T13:12:53.402Z
+updated: 2026-09-14T11:26:25.664Z
 tags:
   - trading
 ---
@@ -53,6 +53,6 @@ wick theory :
 - les meilleurs wick sont fais de la prise de liquidité
 - pour entré aller en 1m, on peut attendre d'avoir deux bougies dans le sens de notre trade, utilisé le fib pour des entré plus précises
 
-voir aussi : [[base trading]], [[synthese trading]], [[apprentissage de la journée]]
+voir aussi : [[base trading]], [[bias journalier]], [[synthese trading]], [[apprentissage de la journée]]
 
 #trading
