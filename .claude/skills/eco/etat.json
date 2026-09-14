@@ -17,8 +17,8 @@
   },
   "eco gestion/_brut/introduction a l'economie.md": {
    "fiche": "eco gestion/Economie - Chapitre 1 Science economique.md",
-   "hash": "4099b7afd1fa",
-   "integre": "2026-09-11 13:01"
+   "hash": "08ac6c5774f3",
+   "integre": "2026-09-14 19:25"
   }
  },
  "pages": {
@@ -46,10 +46,10 @@
    "statut": "confirmé"
   },
   "eco gestion/Economie - Chapitre 1 Science economique.md": {
-   "fait": "cartes refaites sur l'annale QCM de Pautrel (barème négatif) : 48 cartes centrees sur le mot qui tranche, avec pourquoi la formulation voisine est fausse",
-   "hash": "2e7aeb34c647",
-   "mots": 8554,
-   "passage": "2026-09-11 13:01",
+   "fait": "mise en coherence de la fiche apres l'integration du 2e cours (II.2 a II.5, marche de la pizza) restee non commitee : compteurs cartes 48 -> 93 et ajouts 4 -> 6, blocs de fin completes, 3 schemas redondants retires, liens de revision ajoutes. Restent a faire : les questions de Controle des sections II.2 a II.5",
+   "hash": "64b8edcff4de",
+   "mots": 14539,
+   "passage": "2026-09-14 19:25",
    "source": "_brut/introduction a l'economie.md",
    "statut": "à faire"
   },

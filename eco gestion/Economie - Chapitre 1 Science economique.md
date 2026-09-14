@@ -6,26 +6,26 @@ tags:
   - cours
 source: _brut/introduction a l'economie.md
 cahier: fichier/IMG_20260908_1126-1130 (25 pages de cahier)
-notion: Objet et méthode de la science économique — choix, rareté, coût d'opportunité, interactions, systèmes économiques, modèles
+notion: Objet et méthode de la science économique — choix, rareté, coût d'opportunité, interactions, systèmes économiques, modèles, données statistiques, corrélation et causalité, micro et macro
 ue: 11A
 statut: à faire
 coef: 3
 periode: 1
 revu: 2026-09-09
 a_verifier: 7
-cartes: 48
-ajouts: 4
+cartes: 93
+ajouts: 6
 ---
 
 # 📘 Cours — Qu'est-ce que la science économique ? Objet et méthode (UE 11A)
 
 **Coef 3 · CT écrit 1 h · période 1 ⚠️ · 18 h de CM, pas de TD**
-🏠 [[00 - Plan L1 Angers]] · 🧠 [[Methode - Comment reviser]]
+🏠 [[00 - Plan L1 Angers]] · 🧠 [[Methode - Comment reviser]] · 🎯 [[Plan - Examen P1]]
 📓 Sources : tes notes d'introduction du 3 septembre 2026 (`_brut/introduction a l'economie.md`) et tes 25 pages de cahier photographiées le 8 septembre 2026, dans `fichier/`
 
 > [!note] Ce qui est du cours, et ce qui ne l'est pas
 > Tout le corps vient de **tes notes** — l'introduction du 3 septembre et tes 25 pages de cahier —, mises au propre : orthographe, phrases reconstituées, structure remise d'aplomb. Quelques mots et définitions ont été **précisés d'après le cours de référence** des années précédentes (`~/Documents/L1`) : la liste est en fin de fiche, dans « Ce que le cours de référence a précisé ».
-> Les **quatre plus verts** sont les seules choses qui ne viennent d'aucune source de ton cours à toi : le compteur `ajouts:` du frontmatter est passé de **0** à **4**.
+> Les **six plus verts** sont les seules choses qui ne viennent d'aucune source de ton cours à toi : le compteur `ajouts:` du frontmatter est passé de **0** à **6**.
 > Les passages que je n'ai pas pu lire avec certitude sur les photos ne sont **pas devinés** : ils sont listés en fin de fiche, dans « À vérifier ».
 
 > [!abstract] L'essentiel
@@ -134,9 +134,6 @@ Si l'économie **laisse les individus (les agents économiques) faire leurs prop
 
 **Remarque** : les choix individuels ont des répercussions sur la société — les **externalités**, qui **ne sont pas prises en compte** dans le choix individuel. Elles peuvent être **négatives** (pollution, fumer) ou **positives**. Elles limitent les choix individuels.
 
-![[eco-rarete-et-choix.svg]]
-*La chaîne complète, à refaire de mémoire : c'est le squelette de tout le § I.2.*
-
 #### b) Le coût d'un bien ou d'un service est lié à son coût d'opportunité
 
 **Faire un choix = renoncer à quelque chose.** Le coût du renoncement est le **coût d'opportunité**.
@@ -227,9 +224,6 @@ interactions sociales → coopération ⇄ spécialisation (tout le monde ne fai
 > De cet échange, chacun **fait profiter les autres de ses connaissances et de son savoir-faire**, et **profite de celles des autres**.
 > **L'échange est profitable : il permet à chacun d'avoir plus.**
 
-![[eco-cooperation-echange.svg]]
-*Ce qu'il faut savoir redessiner : la boucle coopération ⇄ spécialisation, et l'échange qui en sort.*
-
 #### b) La notion d'ÉQUILIBRE
 
 > **Définition** : l'équilibre est **une situation où aucun individu ne peut améliorer sa situation en faisant quelque chose de différent**.
@@ -266,9 +260,6 @@ Les systèmes économiques se placent sur un axe :
 ```
 économie planifiée  ←——————————————————→  économie (capitaliste) de marché
 ```
-
-![[eco-systemes-economiques.svg]]
-*Les deux extrémités de l'axe, avec ce qui les caractérise — et l'avertissement du bas, qui tombe souvent.*
 
 **i) Le système capitaliste**
 
@@ -402,14 +393,274 @@ Mais si la question change — **« Quel est le rôle de l'État dans la créati
 ![[eco-modeles-richesse.svg]]
 *Les deux modèles côte à côte, et les deux verdicts : un modèle n'est acceptable que pour une question donnée.*
 
+#### Les deux types de variables d'un modèle
+
+Dans un modèle, il y a **deux types de variables** :
+
+| Variables ENDOGÈNES | Variables EXOGÈNES |
+|---|---|
+| Leur valeur est **déterminée par le modèle** | Leur valeur est **fixée en dehors du modèle** |
+| Elles **varient** avec ce qui se passe dans l'économie | Elles sont **fixes** : ce sont les données du problème |
+| Ce sont les **inconnues** — ce que l'économiste cherche à expliquer | Ce sont les **causes** dont on étudie l'effet |
+
+> Le schéma du modèle se lit toujours dans le même sens : **variables exogènes → modèle économique mathématique → variables endogènes**.
+
+#### Exemple 2 — le marché de la pizza
+
+**Le but du modèle**, posé en trois questions :
+
+1. Quelles **quantités** de pizzas sont produites en France ?
+2. À quel **prix moyen** sont-elles vendues ?
+3. **De quoi dépendent** ces quantités et ces prix ?
+
+Ce qui se passe sur ce marché dépend des **comportements des agents**. D'où une série d'hypothèses.
+
+**Hypothèse 1 — deux agents, donc deux comportements :**
+
+| Agent | Comportement |
+|---|---|
+| Le **consommateur** de pizza | il **demande** des pizzas |
+| Le **producteur** de pizza | il **offre** des pizzas |
+
+**Hypothèse 2 — de quoi dépend la DEMANDE de pizza ?**
+
+| Variable | Sens de l'effet | Pourquoi |
+|---|---|---|
+| **Pp** — le prix de la pizza | **−** | la demande **diminue** quand le prix monte |
+| **Pref** — les préférences, le goût | **+** | dans un pays qui aime la pizza, on en demande plus |
+| **Y** — le revenu des agents | **+** | avec peu d'argent, on en achète moins (ou on la fait soi-même) |
+| **Pb** — le prix des autres biens | **+** | si les biens similaires renchérissent, on se reporte sur la pizza |
+
+$$Q_d = D\ (P_p\ ;\ P_{ref}\ ;\ Y\ ;\ P_b)$$
+$$\qquad\ \ \ -\qquad +\qquad +\qquad +$$
+
+**D** est une **fonction mathématique**, et les signes sous chaque variable sont le **sens de son influence**. C'est cette ligne de signes qui est demandée en examen, pas la fonction elle-même.
+
+**Hypothèse 3 — de quoi dépend l'OFFRE de pizza ?**
+
+| Variable | Sens de l'effet | Pourquoi |
+|---|---|---|
+| **Pp** — le prix de la pizza | **+** | la firme maximise son profit, et elle a des coûts fixes |
+| **Pi** — le prix des ingrédients | **−** | ce sont les facteurs de production, les *inputs* |
+| **T** — la technologie de production | **+** | un four plus efficace, plus performant, produit plus |
+
+$$Q_o = O\ (P_p\ ;\ P_i\ ;\ T)$$
+
+**Remarque capitale** : ici, **l'offre et la demande sont indépendantes**. C'est une hypothèse de la microéconomie, sauf cas particulier.
+
+**Hypothèse 4 — il y a concurrence pure et parfaite.**
+
+Les agents économiques sont donc **price takers** : ils **subissent** le prix, aucun ne le fixe. Le prix de la pizza **Pp s'ajuste** pour **égaliser l'offre et la demande**.
+
+> **À l'équilibre : Qd = Qo = Q\***, au prix **P\***.
+> **Q\*** = les quantités échangées à l'équilibre. **P\*** = le prix auquel elles s'échangent.
+> Et à l'équilibre, **ni les offreurs ni les demandeurs n'ont intérêt à changer de comportement** — c'est la définition de l'équilibre, appliquée à un marché.
+
+**Le modèle complet, une fois les hypothèses posées :**
+
+| Variables exogènes | Modèle | Variables endogènes |
+|---|---|---|
+| **Y** revenu des ménages · **Pref** préférences · **Pb** prix des autres biens · **Pi** prix des ingrédients · **T** technologie | $Q_d = D(P_p, Y, P_{ref}, P_b)$ <br> $Q_o = O(P_p, P_i, T)$ <br> **+ ajustement du marché par le prix** | **Q\*** quantité d'équilibre <br> **P\*** prix d'équilibre |
+
+**Le graphique** se lit toujours pareil : les **quantités en abscisse**, le **prix en ordonnée**. La demande est **décroissante** avec le prix, l'offre est **croissante**. Leur **croisement** est l'équilibre **E**.
+
+![[eco-marche-pizza.svg]]
+*À savoir refaire de tête : les deux axes dans le bon sens, les deux courbes dans le bon sens, E, P\*, Q\* — puis le déplacement d'une seule courbe et le nouvel équilibre.*
+
+##### Le but du modèle : comprendre les mécanismes
+
+**Exemple travaillé : ↑ Pi — le prix des ingrédients augmente. Que se passe-t-il sur le marché de la pizza ?**
+
+Le raisonnement se fait **en séquence**, et c'est l'ordre qui est noté :
+
+1. **Les comportements sont-ils impactés ? Lesquels ?**
+   **Pi** est un **input** : il n'entre que dans la fonction d'offre. **Seul le producteur est touché initialement.** L'effet sur la demande est **latent** — il viendra, mais pas au moment du choc.
+2. **Toute chose égale par ailleurs** : au moment du choc, **Pp ne bouge pas encore**.
+   À prix inchangé, l'offre **diminue** : la courbe d'offre se déplace de **E** vers **O₁**.
+3. **Il y a donc un excès de demande** : à ce prix-là, la demande reste à **Q\*** tandis que l'offre est tombée plus bas.
+4. **Le prix s'ajuste** : **Pp augmente** — ce qui **augmente Qo** et **diminue Qd**, jusqu'à ce qu'offre et demande soient de nouveau égales.
+5. **Résultat final** : **↑ Pi → ↓ offre → P\* augmente et Q\* diminue.**
+
+> **Le raisonnement de l'économiste est SÉQUENTIEL** — c'est ce que veut dire *toute chose égale par ailleurs* (*ceteris paribus*) : on fige tout le reste, on regarde un choc à la fois, puis on laisse le prix faire son travail.
+
+**Le cas symétrique** (les agents deviennent fans de pizza, donc ↑ Pref) se raisonne exactement pareil : à prix inchangé la **demande** augmente, elle passe de E à A, l'offre est toujours en E, donc **la demande dépasse l'offre** → **Pp augmente** jusqu'à ce que l'offre égale de nouveau la demande, à un prix **plus élevé**.
+
+---
+
+### II.2 LES DONNÉES STATISTIQUES
+
+> Les données statistiques sont la **2ᵉ étape** de la méthode hypothético-déductive.
+
+**Les données statistiques sont construites À PARTIR DE LA THÉORIE.** Ce n'est pas un détail : c'est la théorie qui dit ce qu'on mesure. Si l'on veut une série de données sur la **consommation finale des ménages**, il faut d'abord **définir** ce qu'est la consommation, ce que signifie « finale », et à quel agent économique correspondent « les ménages ».
+
+**Exemple : le PIB** — la richesse créée en une année dans un pays.
+
+$$\text{PIB} = C + I + G + X - \text{Imp}$$
+
+| Terme | Ce que c'est |
+|---|---|
+| **C** | la consommation (finale) |
+| **I** | l'investissement |
+| **G** | les dépenses de l'État |
+| **X** | les exportations |
+| **Imp** | les importations, qu'on **retranche** |
+
+Les données statistiques ont **deux rôles** : **tester les théories** et **faire des prévisions**.
+
+#### a) Tester les théories
+
+**Tester une théorie = confronter les modèles à la réalité.** La démarche tourne en boucle :
+
+**Définitions et hypothèses → énoncés théoriques (prédictions du modèle) → observation empirique →**
+
+- soit **validation empirique** : le **modèle est accepté** ;
+- soit **rejet des énoncés** : on **révise les hypothèses**, et on recommence.
+
+**En pratique, tester une théorie, c'est chercher des CORRÉLATIONS entre deux variables.**
+
+> Une **corrélation** est une **relation systématique** entre deux variables.
+
+| Corrélation positive | Corrélation négative |
+|---|---|
+| les deux variables évoluent **dans le même sens** | les deux variables évoluent **en sens opposé** |
+
+*Exemple : corrélation **positive** entre le niveau d'éducation et le niveau de salaire — les gens qui ont les salaires les plus élevés sont les plus éduqués.*
+
+##### ⚠️ Corrélation ≠ causalité
+
+C'est le piège central de la partie. **Deux raisons** pour lesquelles une corrélation n'est pas une causalité :
+
+**1. La variable omise** — une variable laissée de côté, qui pourrait **expliquer la corrélation entre deux autres variables et être à l'origine de la cause**.
+
+- *Corrélation positive entre la **consommation de glace** et les **noyades**.* Aucune causalité entre les deux : la variable omise, **commune aux deux**, est l'**augmentation de la chaleur**.
+- *Les **hôpitaux** concentrent un grand nombre de morts.* Causalité ? Non : on y entre **déjà en mauvaise santé**.
+
+**2. La causalité bidirectionnelle** (ou causalité inverse) — on ne sait pas quelle variable déclenche l'autre.
+
+- *Éducation et salaires* : dans un sens, **+ d'éducation → + de compétences → meilleure rémunération**. Mais aux États-Unis, où les études coûtent très cher, seules les familles au revenu suffisant peuvent envoyer leurs enfants étudier : **+ de revenus → possibilité d'envoyer les enfants aux études → + d'éducation**. Les deux sens existent.
+- *PIB et consommation* : **↑ PIB → ↑ revenu → ↑ consommation**, et en retour **↑ consommation → ↑ dépenses → ↑ production → ↑ PIB**. Deux causalités positives : la causalité est **bidirectionnelle**.
+
+##### Comment distinguer corrélation et causalité : l'expérimentation
+
+> **Expérimentation** : méthode **« contrôlée »** pour étudier les **relations causales** entre variables.
+
+**Le principe, en trois temps :**
+
+1. On divise un **échantillon** d'individus en un **groupe de traitement** (le groupe test) et un **groupe de contrôle**.
+   → **Randomisation** : la division se fait **au hasard**. Il faut des échantillons **homogènes**, et une randomisation bien faite pour que cette homogénéité soit **conservée**.
+2. On **« traite » les deux groupes de manière identique**, **sauf pour une dimension ou une caractéristique** qu'on choisit **intentionnellement différente**.
+3. **La différence est l'objet de l'expérimentation.**
+
+**Deux problèmes de l'expérimentation :**
+
+1. le **coût** ;
+2. la **difficulté de mise en œuvre** — la randomisation, précisément.
+
+**D'où deux alternatives :**
+
+| Expérimentation en laboratoire | Expérimentation naturelle |
+|---|---|
+| On reconstitue les conditions | On utilise des **données trouvées dans la réalité** = des **données historiques** |
+| | Certains **événements économiques** (chocs pétroliers, politique économique) **modifient les comportements** |
+| | **Groupe de contrôle** = le comportement **avant** l'événement · **groupe de traitement** = le comportement **après** |
+
+*La différence entre les deux, c'est la **provenance des données**.*
+
+**Trois expérimentations naturelles vues en cours :**
+
+| Le choc | Groupe de contrôle | Groupe de traitement | Ce qu'on mesure |
+|---|---|---|---|
+| La **crise du covid** — un choc dans l'économie | les agents **avant** | les agents **après** | le changement de comportement |
+| Le **Clean Air Act** aux États-Unis | les entreprises **avant** sa mise en place : comportements polluants | **la même population d'entreprises après** : comportements **moins** polluants | l'effet d'une politique environnementale sur le comportement des agents |
+| La **hausse du salaire minimum** en Pennsylvanie et dans le New Jersey — deux États voisins, quasi identiques | l'État qui **ne** relève **pas** le salaire minimum | l'État qui **le relève** | *l'augmentation du salaire minimum crée-t-elle du chômage ?* On compare l'évolution du chômage **avant et après** la mesure dans les deux États. **Résultat : peu de différence.** ➕ *(cette étude est celle de **Card et Krueger**, à confirmer en amphi)* |
+
+> Ce que ces trois exemples ont en commun : **le temps sert de randomisation**. On ne construit pas les groupes, on les **trouve** — avant/après, ou ici/à côté.
+
+#### b) Faire des prévisions
+
+Les agents économiques, lorsqu'ils prennent leurs décisions, ont **besoin de précisions sur l'avenir**. D'où le second rôle des données : la **prévision**, lue sur une série statistique comme l'**activité économique (le PIB)**.
+
+> **L'activité économique se décompose en CYCLES et en TENDANCE.**
+
+![[eco-cycle-tendance.svg]]
+*À savoir refaire : l'axe du temps, la droite de tendance, la courbe qui oscille autour d'elle, et savoir placer une phase de croissance et une phase de récession.*
+
+**Remarque** : **parfois, les chocs dans l'économie modifient la tendance elle-même** — ce n'est plus une oscillation autour de la même droite, c'est la droite qui se déplace. *Exemple : la crise des subprimes.*
+
+---
+
+### II.3 L'ÉCONOMISTE : SCIENTIFIQUE ET CONSEILLER POLITIQUE
+
+**Pourquoi étudier l'économie ?** Pour deux raisons, qui donnent deux économies :
+
+| ÉCONOMIE POSITIVE | ÉCONOMIE NORMATIVE |
+|---|---|
+| **Décrire** les phénomènes, **analyser**, **comprendre** le fonctionnement de l'économie | **Conseiller les décideurs politiques** sur la manière d'organiser l'économie |
+| Elle dit **ce qui est** | Elle sert de **base de recommandation** à la politique économique |
+| | Elle est *normative* au sens de **norme** : il faut **définir des critères** pour établir **les objectifs à atteindre** |
+
+*Exemple : si le but de la politique économique est de **réduire les inégalités**, le critère est la **justice sociale**.*
+
+### II.4 L'IMPORTANCE DE L'ÉCHELLE QU'ON CHOISIT POUR ÉTUDIER L'ÉCONOMIE
+
+| MICROÉCONOMIE | MACROÉCONOMIE |
+|---|---|
+| Le comportement des **unités de base** de l'économie : entreprise, ménage, État, individu | Le comportement de l'**économie dans son ensemble** |
+| **Objectif** : comprendre **comment** ces unités de base prennent leurs décisions, et **quels facteurs** influencent ces décisions | Elle travaille sur des **variables et comportements AGRÉGÉS** : consommation agrégée, chômage, inflation, PIB |
+| | **Objectif** : donner des informations sur ce qui se passe **globalement** dans l'économie |
+
+**Le lien entre les deux a une date** :
+
+- **jusqu'aux années 1980-1990** : **pas de lien** entre micro et macro ;
+- **depuis les années 1980-1990** : la **macroéconomie microfondée** — la macro se construit à partir des comportements individuels de la micro.
+
+### II.5 POURQUOI LES ÉCONOMISTES NE SONT PAS D'ACCORD ENTRE EUX
+
+**Première raison — les valeurs et les croyances.** Deux positions s'opposent :
+
+| « Laisser faire » | « L'État corrige » |
+|---|---|
+| L'individu doit être laissé **tranquille** pour prendre ses décisions : **interventionnisme de l'État limité** | Il faut que l'État **corrige les défaillances de marché** |
+| Cela **aboutira à un équilibre efficace** | L'État **choisit d'intervenir**, sous forme de **politiques publiques** |
+| C'est **« la main invisible »** d'**Adam Smith** | |
+
+> Le débat économique suppose donc de **partager les mêmes bases** — de faire abstraction des avis subjectifs. Les **différentes écoles économiques** se distinguent précisément par cette position.
+
+**Seconde raison — la dimension temporelle.** Les économistes ne raisonnent pas sur le même horizon :
+
+| Court terme | Long terme |
+|---|---|
+| Les prix sont **rigides** ➕ | Les prix sont **flexibles** |
+| C'est la **DEMANDE de biens** qui détermine l'activité | C'est l'**OFFRE de biens** qui détermine l'activité |
+
+---
+
+## Conclusion du chapitre — et préambule à la suite du cours
+
+> **Le fonctionnement de l'économie, c'est la relation entre plusieurs agents économiques qui interagissent entre eux.**
+
+| MÉNAGES | ENTREPRISES | ÉTAT |
+|---|---|---|
+| **Consomment** pour satisfaire leurs besoins | **Produisent** des biens et services à partir de **facteurs de production** | **Produit** des biens et services |
+| **Offrent** des facteurs de production | | **Redistribue** les revenus (taxes, transferts) |
+| **Objectif : maximiser leur bien-être** (satisfaction, utilité) | **Objectif : maximiser leur profit** | **Réglemente** |
+
+**Et deux actes économiques fondamentaux**, qui ouvrent les chapitres suivants :
+
+> **CONSOMMATION** : acte qui consiste à **utiliser les biens et services directement pour satisfaire des besoins**.
+>
+> **PRODUCTION** : acte par lequel des **ressources et/ou des biens sont transformés en biens et services**.
+
+**La suite** — le chapitre 2 porte sur le **comportement du consommateur**. Tes notes indiquent d'en faire une fiche à part, et de récupérer le schéma des trois agents sur le drive.
+
 ---
 
 ## 🔁 À ne pas confondre
 
-| Coût monétaire | Coût d'opportunité |
-|---|---|
-| Les euros **déboursés** (frais de scolarité, loyer) | Les euros **non déboursés** : le manque à gagner de ce à quoi on renonce |
-| **Ce qui les sépare** : le coût d'opportunité ne sort pas du portefeuille, mais il se compte quand même dans le choix. |
+| Coût monétaire                                                                                                         | Coût d'opportunité                                                       |
+| ---------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------ |
+| Les euros **déboursés** (frais de scolarité, loyer)                                                                    | Les euros **non déboursés** : le manque à gagner de ce à quoi on renonce |
+| **Ce qui les sépare** : le coût d'opportunité ne sort pas du portefeuille, mais il se compte quand même dans le choix. |                                                                          |
 
 | Choix en termes d'alternatives | Choix en termes de « combien » |
 |---|---|
@@ -442,6 +693,47 @@ Mais si la question change — **« Quel est le rôle de l'État dans la créati
 | **W**, en euros | **W/P**, en **nombre de biens** |
 | **Ce qui les sépare** : le prix. C'est le rapport, pas le montant, qui dit ce qu'on peut acheter. |
 
+| Variable endogène | Variable exogène |
+|---|---|
+| **Déterminée par le modèle** — c'est l'inconnue, ce qu'on cherche à expliquer | **Fixée en dehors du modèle** — c'est une donnée du problème |
+| Sur le marché de la pizza : **Q\*** et **P\*** | Sur le marché de la pizza : **Y, Pref, Pb, Pi, T** |
+| **Ce qui les sépare** : d'où vient la valeur. Le modèle la produit, ou il la reçoit. |
+
+| Corrélation | Causalité |
+|---|---|
+| Une **relation systématique** entre deux variables | L'une **produit** l'autre |
+| Glace et noyades : corrélation **positive** | Aucune causalité — la **chaleur** est la variable omise |
+| **Ce qui les sépare** : deux pièges, la **variable omise** et la **causalité bidirectionnelle**. |
+
+| Expérimentation (en laboratoire) | Expérimentation naturelle |
+|---|---|
+| On **construit** les deux groupes et on randomise | On **trouve** les deux groupes dans des **données historiques** |
+| Coûteuse, difficile à mettre en œuvre | Groupe de contrôle = **avant** l'événement · groupe de traitement = **après** |
+| **Ce qui les sépare** : la **provenance des données** — c'est le seul mot qui compte. |
+
+| Économie positive | Économie normative |
+|---|---|
+| **Décrire, analyser, comprendre** le fonctionnement de l'économie | **Conseiller** les décideurs politiques sur la manière d'organiser l'économie |
+| Elle dit **ce qui est** | Elle suppose des **critères** et des **objectifs à atteindre** (ex : la justice sociale) |
+| **Ce qui les sépare** : la **norme**. Dès qu'on fixe un objectif, on est en normatif. |
+
+| Microéconomie | Macroéconomie |
+|---|---|
+| Les **unités de base** : entreprise, ménage, État, individu | L'économie **dans son ensemble** |
+| **Comment** ces unités décident, et **quels facteurs** influencent leurs décisions | Des variables **agrégées** : consommation agrégée, chômage, inflation, PIB |
+| **Ce qui les sépare** : l'**échelle**. Et depuis les années 1980-1990, la macro est **microfondée**. |
+
+| Cycle | Tendance |
+|---|---|
+| L'**oscillation** de l'activité : croissance, puis récession | La **direction de fond**, sur laquelle se lisent les prévisions |
+| **Ce qui les sépare** : un choc modifie parfois la **tendance** elle-même, pas seulement le cycle. |
+
+| Court terme | Long terme |
+|---|---|
+| Prix **rigides** → c'est la **DEMANDE** de biens qui détermine l'activité | Prix **flexibles** → c'est l'**OFFRE** de biens qui détermine l'activité |
+| **Ce qui les sépare** : la flexibilité des prix — et c'est une des raisons du **désaccord entre économistes**. |
+
+
 ## 🧮 Méthode — les raisonnements à savoir refaire
 
 **1. Décider si un choix est rationnel** — comparer, dans cet ordre :
@@ -459,6 +751,20 @@ Si **non** → équilibre. Si **oui** → ce n'est pas un équilibre.
 
 **5. Juger si un modèle est acceptable** — regarder **la question posée**, puis vérifier que les hypothèses simplificatrices ne suppriment pas ce qui est **au cœur de cette question** (pas d'État dans le modèle → inutilisable pour parler du rôle de l'État).
 
+**6. Lire un choc sur le graphique offre / demande** — l'ordre compte, c'est lui qui est noté :
+1. **quelle courbe** le choc touche-t-il ? Regarder dans quelle fonction la variable apparaît (Pi est un *input* → l'**offre** seule) ;
+2. **toute chose égale par ailleurs**, le prix ne bouge pas encore → la courbe touchée **se déplace** ;
+3. constater le **déséquilibre** à prix inchangé (excès de demande, ou excès d'offre) ;
+4. **le prix s'ajuste** — et en s'ajustant il agit sur **les deux** quantités, dans des sens opposés ;
+5. **conclure** sur le nouveau **P\*** et le nouveau **Q\***.
+
+**7. Répondre à « corrélation ou causalité ? »** — chercher, dans cet ordre :
+1. une **variable omise** qui expliquerait les deux (glace/noyades → la chaleur) ;
+2. une **causalité bidirectionnelle** : le sens inverse est-il tout aussi crédible ? (éducation ⇄ salaires) ;
+3. si l'un des deux tient : **corrélation, pas causalité** — et pour trancher, il faut une **expérimentation**.
+
+**8. Monter une expérimentation** — un échantillon, **deux groupes** (traitement / contrôle), une **randomisation**, un **traitement identique sauf une seule caractéristique** choisie intentionnellement. **La différence est l'objet de l'expérimentation.** Si le coût ou la randomisation bloquent → **expérimentation naturelle**, où l'histoire fournit les deux groupes.
+
 ## 🃏 Cartes à créer
 
 Format d'import `Recto ; Verso ; Tags`. **Deux `;` par ligne, jamais plus** — à l'intérieur d'un champ, les éléments sont séparés par `·`.
@@ -475,6 +781,7 @@ Format d'import `Recto ; Verso ; Tags`. **Deux `;` par ligne, jamais plus** — 
 Les données statistiques servent à quoi, au mot près ? ; À TESTER les théories — pas à les expliquer, pas à les invalider ; eco 11A piege
 Un modèle mathématique sert à quoi, au mot près ? ; À EXPLIQUER la réalité à l'aide d'hypothèses simplificatrices — pas à déterminer ces hypothèses, pas à tester des corrélations ; eco 11A piege
 La science économique étudie quoi, exactement ? ; Les CHOIX : comment les individus font leurs choix, et quelles en sont les conséquences ; eco 11A
+La cinquième notion clé du chapitre, au mot près ? ; La DISTRIBUTION des richesses ET des biens dans l'économie — pas seulement « des biens » ; eco 11A piege
 Dans la vision planifiée, qui connaît le mieux les objectifs ? ; LA SOCIÉTÉ, mieux que chaque individu pris séparément — d'où des décisions centralisées ; eco 11A piege
 Économie de marché : les décisions sont centralisées ou décentralisées ? ; DÉCENTRALISÉES — chacun décide dans son intérêt personnel ; eco 11A
 « Économie de marché » veut-il dire « économie sans État » ? ; Non — l'État intervient dès qu'il y a une défaillance de marché ; eco 11A piege
@@ -539,12 +846,81 @@ Part de la richesse créée par l'investissement des entreprises ? ; 25 % ; eco 
 PIB de la France en 2015, tel qu'il est dans le cours ? ; 2 999,9 milliards d'euros ; eco 11A chiffres
 ```
 
-**Les trois listes que le cours demande comme listes**
+**Les deux listes que le cours demande comme listes** — les seules assez courtes pour être notées d'un coup ; la liste des 5 notions clés, elle, reste au bloc Contrôle, où on la récite à voix haute.
 
 ```
-Les 5 notions clés du chapitre ? ; L'arbitrage · les incitations · l'échange · l'information · la distribution des richesses et des biens ; eco 11A
 Les 3 questions auxquelles répond un système économique ? ; Quels biens et services produire · comment les produire · à qui les livrer ; eco 11A
 Les 2 causes de défaillance de marché ? ; Les externalités · le pouvoir de marché ; eco 11A
+```
+
+**La méthode — le mot qui tranche** *(la partie la plus « QCM » du chapitre)*
+
+```
+Une expérience naturelle en économie consiste à quoi, au mot près ? ; À UTILISER DES ÉVÉNEMENTS HISTORIQUES pour étudier les causalités entre variables — on ne construit pas les groupes, on les trouve ; eco 11A annale2024 piege
+Les données statistiques sont construites à partir de quoi ? ; DE LA THÉORIE — c'est elle qui dit ce qu'on mesure et comment on le définit ; eco 11A piege
+Corrélation, au mot près ? ; Une RELATION SYSTÉMATIQUE entre deux variables — surtout pas un lien de cause à effet ; eco 11A piege
+Variable endogène : déterminée par quoi ? ; PAR LE MODÈLE — c'est l'inconnue, ce que l'économiste cherche à expliquer ; eco 11A piege
+Variable exogène : déterminée par quoi ? ; EN DEHORS du modèle — elle est fixe, c'est une donnée du problème ; eco 11A piege
+Que veut dire « price taker » ? ; L'agent SUBIT le prix, il ne le fixe pas — c'est l'hypothèse de concurrence pure et parfaite ; eco 11A
+L'expérimentation étudie quel type de relation ? ; Les relations CAUSALES entre variables — c'est une méthode « contrôlée » ; eco 11A
+Expérimentation naturelle ou en laboratoire : qu'est-ce qui les sépare ? ; La PROVENANCE DES DONNÉES — historiques et trouvées dans la réalité, au lieu d'être construites ; eco 11A piege
+Économie positive, au mot près ? ; Une approche qui cherche à EXPLIQUER comment fonctionne l'économie : décrire, analyser, comprendre ; eco 11A annale2024
+Économie normative, au mot près ? ; Elle CONSEILLE les décideurs politiques — base de recommandation, elle suppose des critères et des objectifs ; eco 11A
+```
+
+**La méthode — définir, et dire à quoi ça sert**
+
+```
+Tester une théorie, ça consiste en quoi ? ; Confronter les modèles à la réalité — 2e étape de la démarche hypothético-déductive ; eco 11A
+Variable omise, définition ? ; Une variable laissée de côté qui pourrait expliquer la corrélation entre 2 autres variables et être à l'origine de la cause ; eco 11A
+Causalité bidirectionnelle, définition ? ; On ne sait pas quelle variable déclenche l'autre : les deux sens de causalité sont crédibles ; eco 11A
+Randomisation : ce que c'est, et à quoi ça sert ? ; La division AU HASARD de l'échantillon en deux groupes · elle sert à conserver leur homogénéité ; eco 11A
+Les deux problèmes de l'expérimentation ? ; Le coût · la difficulté de mise en œuvre, c'est-à-dire la randomisation ; eco 11A
+Dans une expérimentation, qu'est-ce qui est l'objet de l'expérience ? ; LA DIFFÉRENCE entre les deux groupes — traités à l'identique sauf sur une seule caractéristique choisie ; eco 11A
+Microéconomie : quoi, et pour quoi faire ? ; Le comportement des unités de base (entreprise, ménage, individu) · comprendre comment elles décident et quels facteurs les influencent ; eco 11A
+Macroéconomie : quoi, et pour quoi faire ? ; Le comportement de l'économie dans son ensemble, en variables agrégées · dire ce qui se passe globalement ; eco 11A
+Que veut dire « macroéconomie microfondée » ? ; La macro se construit à partir des comportements individuels étudiés en micro — depuis les années 1980-1990 ; eco 11A
+Consommation, définition exacte ? ; L'acte qui consiste à utiliser les biens et services DIRECTEMENT pour satisfaire des besoins ; eco 11A
+Production, définition exacte ? ; L'acte par lequel des ressources et/ou des biens sont TRANSFORMÉS en biens et services ; eco 11A
+L'activité économique se décompose en quoi ? ; En CYCLES et en TENDANCE — les prévisions se lisent sur la tendance ; eco 11A
+```
+
+**Le marché de la pizza — savoir faire tourner le modèle**
+
+```
+De quoi dépend la demande de pizza, et dans quel sens ? ; Pp (−) · Pref (+) · Y (+) · Pb (+) ; eco 11A
+De quoi dépend l'offre de pizza, et dans quel sens ? ; Pp (+) · Pi (−) · T (+) ; eco 11A
+Sur le marché de la pizza, quelles sont les deux variables endogènes ? ; Q* la quantité d'équilibre et P* le prix d'équilibre ; eco 11A
+À l'équilibre du marché, qu'est-ce qui est égal à quoi ? ; Qd = Qo = Q*, au prix P* ; eco 11A
+Sur le graphique, qu'y a-t-il en abscisse et en ordonnée ? ; Les quantités en abscisse · le prix en ordonnée ; eco 11A
+L'offre et la demande sont-elles indépendantes dans ce modèle ? ; Oui — c'est une hypothèse de la micro, sauf cas particulier ; eco 11A piege
+Le prix des ingrédients augmente : quelle courbe bouge en premier ? ; L'OFFRE seule — Pi est un input, il n'entre que dans la fonction d'offre · l'effet sur la demande est latent ; eco 11A
+↑ Pi : que deviennent P* et Q* ? ; P* AUGMENTE et Q* DIMINUE ; eco 11A
+Les agents deviennent fans de pizza : que deviennent P* et Q* ? ; Les deux AUGMENTENT — la demande se déplace, le prix monte jusqu'au nouvel équilibre ; eco 11A
+Que veut dire « toute chose égale par ailleurs » face à un choc ? ; Que le prix ne bouge pas encore au moment du choc — le raisonnement de l'économiste est SÉQUENTIEL ; eco 11A
+```
+
+**Classer un cas — corrélation, causalité, expérimentation**
+
+```
+Ventes de glaces et noyades augmentent ensemble : quel piège ? ; Une VARIABLE OMISE commune, la chaleur — corrélation sans causalité ; eco 11A
+Les hôpitaux concentrent beaucoup de morts : causalité ? ; Non — on y entre déjà en mauvaise santé, c'est une variable omise ; eco 11A
+Éducation et salaires : pourquoi la causalité n'est-elle pas évidente ? ; Elle est bidirectionnelle — plus d'éducation donne un meilleur salaire, mais un revenu élevé permet d'envoyer les enfants étudier ; eco 11A
+PIB et consommation : quel type de causalité ? ; BIDIRECTIONNELLE — ↑PIB → ↑revenu → ↑conso, et ↑conso → ↑dépenses → ↑production → ↑PIB ; eco 11A
+Comportements polluants avant le Clean Air Act, moins polluants après : quelle méthode ? ; Une expérimentation naturelle — avant = groupe de contrôle, après = groupe de traitement ; eco 11A
+Salaire minimum, deux États voisins : quelle méthode, et quel résultat ? ; Expérimentation naturelle, un État traitement et un État contrôle · résultat : peu de différence sur le chômage ; eco 11A
+Un choc déplace durablement la courbe du PIB : cycle ou tendance ? ; La TENDANCE — un choc peut la modifier, pas seulement faire osciller le cycle ; eco 11A
+```
+
+**Un chiffre, une formule, un nom**
+
+```
+Formule du PIB ? ; PIB = C + I + G + X − Imp ; eco 11A
+Dans PIB = C + I + G + X − Imp, que vaut G ? ; Les dépenses de l'État ; eco 11A
+Dans PIB = C + I + G + X − Imp, pourquoi retranche-t-on Imp ? ; Parce que les importations ne sont pas de la richesse créée dans le pays ; eco 11A
+« La main invisible », à qui doit-on l'expression ? ; Adam Smith ; eco 11A
+À court terme, qui détermine l'activité, et pourquoi ? ; La DEMANDE de biens — parce que les prix sont rigides ; eco 11A complement
+À long terme, qui détermine l'activité, et pourquoi ? ; L'OFFRE de biens — parce que les prix sont flexibles ; eco 11A
 ```
 
 ## 🔄 Comment réviser cette fiche
@@ -554,8 +930,8 @@ Les 2 causes de défaillance de marché ? ; Les externalités · le pouvoir de m
 1. **Se tester, pas relire** — le bloc [[#✅ Contrôle]] ci-dessous, à voix haute, avant d'ouvrir la réponse. À une semaine : 61 % de rétention en se testant, 40 % en relisant.
 2. **Jusqu'à 3 rappels corrects** — une question n'est acquise qu'après **trois** réponses justes, à des jours d'écart.
 3. **Puis 3 réapprentissages espacés** — intervalle ≈ **10 à 20 % du délai** avant l'épreuve : à six semaines, tous les 4 à 8 jours.
-4. **Ce chapitre est un chapitre de vocabulaire** : rareté, coût d'opportunité, externalité, équilibre, défaillance de marché, anticipations. Les 38 cartes du bloc 🃏 sont la partie la plus rentable — rentre-les dès la première session.
-5. **Entrelace** avec la fiche de gestion : les deux UE tombent en période 1, et l'examen ne dira pas de quel cours vient la question.
+4. **Ce chapitre est un chapitre de vocabulaire** : rareté, coût d'opportunité, externalité, équilibre, défaillance de marché, anticipations. Les 93 cartes du bloc 🃏 sont la partie la plus rentable — commence par les six premiers paquets (le chapitre jusqu'aux modèles), les cinq derniers portent sur la méthode et le marché de la pizza.
+5. **Entrelace** avec [[Gestion - Introduction]] et [[Problemes economiques - Chapitre 1 Analyse economique UE 13A]] : les trois UE tombent en période 1, et alterner les matières dans une même session retient mieux que les enchaîner par blocs. Le calendrier des épreuves est dans [[Plan - Examen P1]].
 6. **Avant le prochain amphi** — lis les questions de Contrôle portant sur la partie non encore traitée et plante-toi : c'est du *pretesting*.
 
 ## ✅ Contrôle
@@ -720,6 +1096,90 @@ Réponds à voix haute, puis ouvre la réponse.
 > [!question]- Le modèle 2 (ménages ⇄ entreprises) est-il acceptable ? Réponds en deux temps.
 > **Oui** pour « comment est créée la richesse ? » : ménages et entreprises en créent **≈ 80 %** (55 % + 25 %). **Non** pour « quel est le rôle de l'État ? » : le modèle **n'a pas d'État**, il faut le **modèle 1**. → [[#II.1 Les modèles mathématiques]]
 
+**Le modèle en action : le marché de la pizza**
+
+> [!question]- Endogène ou exogène : dis la différence, puis classe Y, Pi, T, Q\*, P\*.
+> **Endogène** = déterminée **par** le modèle, c'est l'inconnue ; **exogène** = fixée **en dehors**, c'est une donnée. Exogènes : **Y, Pref, Pb, Pi, T**. Endogènes : **Q\*** et **P\***. → [[#Les deux types de variables d'un modèle]]
+
+> [!question]- Les trois questions que pose le modèle du marché de la pizza ?
+> Quelles **quantités** sont produites en France ; à quel **prix moyen** elles sont vendues ; **de quoi dépendent** ces quantités et ces prix. → [[#Exemple 2 — le marché de la pizza]]
+
+> [!question]- Écris la fonction de demande de pizza, avec les signes.
+> $Q_d = D(P_p\ ;\ P_{ref}\ ;\ Y\ ;\ P_b)$, avec les signes **− + + +**. → [[#Exemple 2 — le marché de la pizza]]
+
+> [!question]- Écris la fonction d'offre de pizza, avec les signes, et justifie chaque signe.
+> $Q_o = O(P_p\ ;\ P_i\ ;\ T)$, signes **+ − +**. Le prix (+) parce que la firme maximise son profit et a des coûts fixes ; le prix des ingrédients (−) parce que ce sont les *inputs* ; la technologie (+) parce qu'un four plus performant produit plus. → [[#Exemple 2 — le marché de la pizza]]
+
+> [!question]- Que dit l'hypothèse de concurrence pure et parfaite ici ?
+> Que les agents sont **price takers** : ils **subissent** le prix. Le prix **Pp s'ajuste** pour **égaliser l'offre et la demande**. → [[#Exemple 2 — le marché de la pizza]]
+
+> [!question]- Refais le graphique de tête, puis dis ce qui est en abscisse, en ordonnée, et ce qu'est E.
+> **Quantités en abscisse**, **prix en ordonnée**, demande **décroissante**, offre **croissante**, et **E** est leur croisement : **Qd = Qo = Q\*** au prix **P\***. → [[#Exemple 2 — le marché de la pizza]]
+
+> [!question]- ↑ Pi : déroule les cinq étapes du raisonnement, dans l'ordre.
+> **1.** Pi est un *input* → **seule l'offre** est touchée, l'effet sur la demande est **latent**. **2.** Toute chose égale par ailleurs, **Pp ne bouge pas encore** → l'offre **se déplace** de E vers O₁. **3.** Il y a **excès de demande** à ce prix. **4.** Le **prix s'ajuste** : ↑Pp → ↑Qo et ↓Qd. **5.** Résultat : **P\* augmente, Q\* diminue**. → [[#Le but du modèle : comprendre les mécanismes]]
+
+> [!question]- Et si les agents deviennent fans de pizza ?
+> À prix inchangé la **demande** augmente (E → A), l'offre est toujours en E, donc **la demande dépasse l'offre** → **Pp augmente** jusqu'au nouvel équilibre, à un prix **plus élevé**. → [[#Le but du modèle : comprendre les mécanismes]]
+
+**Les données statistiques**
+
+> [!question]- Les données statistiques sont construites à partir de quoi ? Illustre.
+> **À partir de la théorie.** Pour une série sur la **consommation finale des ménages**, il faut d'abord **définir** la consommation, ce que veut dire « finale », et qui sont « les ménages ». → [[#II.2 LES DONNÉES STATISTIQUES]]
+
+> [!question]- Écris la formule du PIB et nomme chaque terme.
+> **PIB = C + I + G + X − Imp** : consommation, investissement, dépenses de l'État, exportations, moins les importations. → [[#II.2 LES DONNÉES STATISTIQUES]]
+
+> [!question]- Les deux rôles des données statistiques ?
+> **Tester les théories** et **faire des prévisions**. → [[#II.2 LES DONNÉES STATISTIQUES]]
+
+> [!question]- Déroule la boucle de la démarche hypothético-déductive, jusqu'aux deux issues.
+> **Définitions et hypothèses → énoncés théoriques → observation empirique**, puis soit **validation empirique** = modèle **accepté**, soit **rejet des énoncés** = **révision des hypothèses** et on recommence. → [[#a) Tester les théories]]
+
+> [!question]- Corrélation : définition, et les deux signes.
+> Une **relation systématique** entre deux variables. **Positive** : elles évoluent **dans le même sens**. **Négative** : **en sens opposé**. → [[#a) Tester les théories]]
+
+> [!question]- Pourquoi une corrélation n'est-elle pas une causalité ? Donne les deux raisons et un exemple de chaque.
+> **1. La variable omise** : glace et noyades — la **chaleur** explique les deux. **2. La causalité bidirectionnelle** : éducation et salaires — plus d'éducation donne un meilleur salaire, mais un revenu élevé permet d'envoyer les enfants étudier. → [[#⚠️ Corrélation ≠ causalité]]
+
+> [!question]- Le PIB et la consommation : montre la boucle dans les deux sens.
+> **↑PIB → ↑revenu → ↑consommation**, et **↑consommation → ↑dépenses → ↑production → ↑PIB**. Deux causalités positives : la causalité est **bidirectionnelle**. → [[#⚠️ Corrélation ≠ causalité]]
+
+> [!question]- Monte une expérimentation en trois temps, puis dis ses deux problèmes.
+> **1.** Diviser l'échantillon en **groupe de traitement** et **groupe de contrôle**, par **randomisation**. **2.** Les traiter **à l'identique sauf une caractéristique** choisie intentionnellement. **3.** **La différence est l'objet de l'expérimentation.** Problèmes : le **coût** et la **difficulté de mise en œuvre** (la randomisation). → [[#Comment distinguer corrélation et causalité : l'expérimentation]]
+
+> [!question]- Expérimentation naturelle : définis-la, et dis ce qui la sépare de celle en laboratoire.
+> Elle utilise des **données historiques** : un événement économique modifie les comportements, **avant** = groupe de contrôle, **après** = groupe de traitement. Ce qui la sépare du laboratoire : la **provenance des données**. → [[#Comment distinguer corrélation et causalité : l'expérimentation]]
+
+> [!question]- Cite les trois expérimentations naturelles du cours, avec ce que chacune mesure.
+> Le **covid** (comportements avant / après le choc) ; le **Clean Air Act** aux États-Unis (comportements polluants avant / moins polluants après, sur la **même population d'entreprises**) ; le **salaire minimum** en Pennsylvanie et dans le New Jersey (l'augmentation crée-t-elle du chômage ? **peu de différence**). → [[#Comment distinguer corrélation et causalité : l'expérimentation]]
+
+> [!question]- En quoi se décompose l'activité économique, et où lit-on les prévisions ?
+> En **cycles** et en **tendance**. Les prévisions se lisent sur la **tendance** — mais un **choc** peut déplacer la tendance elle-même. → [[#b) Faire des prévisions]]
+
+**L'économiste, l'échelle, les désaccords**
+
+> [!question]- Économie positive et économie normative : définis les deux, et dis ce qui bascule de l'une à l'autre.
+> **Positive** : décrire, analyser, comprendre le fonctionnement de l'économie. **Normative** : conseiller les décideurs politiques, comme base de recommandation. Ce qui bascule : la **norme** — dès qu'il faut **définir des critères** pour des **objectifs à atteindre** (ex : réduire les inégalités → **justice sociale**). → [[#II.3 L'ÉCONOMISTE : SCIENTIFIQUE ET CONSEILLER POLITIQUE]]
+
+> [!question]- Micro et macro : objet et objectif de chacune.
+> **Micro** : les **unités de base** (entreprise, ménage, individu) — comprendre **comment** elles décident et **quels facteurs** les influencent. **Macro** : l'économie **dans son ensemble**, en variables **agrégées** (consommation agrégée, chômage, inflation, PIB) — dire ce qui se passe **globalement**. → [[#II.4 L'IMPORTANCE DE L'ÉCHELLE QU'ON CHOISIT POUR ÉTUDIER L'ÉCONOMIE]]
+
+> [!question]- Depuis quand micro et macro sont-elles liées, et comment appelle-t-on ce lien ?
+> Depuis les **années 1980-1990** : avant, **pas de lien**. On parle de **macroéconomie microfondée**. → [[#II.4 L'IMPORTANCE DE L'ÉCHELLE QU'ON CHOISIT POUR ÉTUDIER L'ÉCONOMIE]]
+
+> [!question]- Les deux raisons pour lesquelles les économistes ne sont pas d'accord ?
+> **Les valeurs et les croyances** (laisser faire, « la **main invisible** » d'**Adam Smith**, contre un État qui **corrige les défaillances de marché** par des politiques publiques) et la **dimension temporelle**. → [[#II.5 POURQUOI LES ÉCONOMISTES NE SONT PAS D'ACCORD ENTRE EUX]]
+
+> [!question]- Court terme et long terme : les prix, et qui détermine l'activité ?
+> **Court terme** : prix **rigides**, c'est la **demande** de biens qui détermine l'activité. **Long terme** : prix **flexibles**, c'est l'**offre** de biens. → [[#II.5 POURQUOI LES ÉCONOMISTES NE SONT PAS D'ACCORD ENTRE EUX]]
+
+> [!question]- Les trois agents de la conclusion, avec ce qu'ils font et leur objectif.
+> **Ménages** : consomment pour satisfaire leurs besoins et **offrent des facteurs de production** → maximiser leur **bien-être**. **Entreprises** : produisent des biens et services à partir de facteurs de production → maximiser leur **profit**. **État** : produit, **redistribue** les revenus (taxes, transferts), **réglemente**. → [[#Conclusion du chapitre — et préambule à la suite du cours]]
+
+> [!question]- Les deux actes économiques fondamentaux, définitions exactes.
+> **Consommation** : utiliser les biens et services **directement** pour satisfaire des besoins. **Production** : **transformer** des ressources et/ou des biens en biens et services. → [[#Conclusion du chapitre — et préambule à la suite du cours]]
+
 ## À vérifier / à récupérer
 
 > [!question] Ce que je n'ai pas pu lire, ou qui manque
@@ -729,7 +1189,7 @@ Réponds à voix haute, puis ouvre la réponse.
 > - **Les canicules** (§ II) : « quels effets des canicules sur la productivité **des …** » — le dernier mot est illisible. Des travailleurs ? Des cultures ?
 > - **Rq 2 du § I.3 b)** : la phrase sur les producteurs qui satisfont les besoins est reconstituée au plus près, mais ta ligne est coupée. À reprendre.
 > - **La date en tête de la partie II** : une annotation en rouge en haut de page, illisible (peut-être la date de la 2ᵉ séance).
-> - **La fin du cours** : les photos s'arrêtent au modèle 1 / modèle 2. S'il y a une **II.2 (les données, les statistiques)**, elle n'est pas dans ce que tu m'as donné.
+> - **Le schéma des trois agents** (conclusion du chapitre) : tes notes disent de le **récupérer sur le drive**. Il n'y est pas encore — dépose-le dans `fichier/` et il rejoindra la fiche.
 
 > [!info]- Ce que le cours de référence a précisé — 6 points
 > Source : `~/Documents/L1/Introduction à l_économie/CM/` — les notes d'une promo **2021-2022** et les slides du chapitre 1. Le plan est **le même que le tien**, séance pour séance : c'est ce qui rend ces précisions fiables. Elles restent d'une année antérieure, donc elles précisent des mots, elles n'ajoutent pas de partie.
@@ -749,12 +1209,14 @@ Réponds à voix haute, puis ouvre la réponse.
 
 ## Ce que j'ai complété
 
-> [!info] Ces 4 ajouts ne viennent pas de tes notes
-> Le reste de la fiche est **ton cours**, mot pour mot ou remis au propre. Ces quatre lignes-là viennent du **cours de référence** des promos précédentes (`~/Documents/L1`), et non de ton amphi : c'est pour ça qu'elles portent un **plus vert**. Confronte-les au prof avant de les réviser comme du cours.
+> [!info] Ces 6 ajouts ne viennent pas de tes notes
+> Le reste de la fiche est **ton cours**, mot pour mot ou remis au propre. Ces six lignes-là viennent du **cours de référence** des promos précédentes (`~/Documents/L1`), et non de ton amphi : c'est pour ça qu'elles portent un **plus vert**. Confronte-les au prof avant de les réviser comme du cours.
 >
 > - **Les biens intermédiaires** (§ I.2a) — ils complètent la liste des ressources et s'opposent au capital physique : eux disparaissent dans la production.
 > - **Le nudge** (§ I.2d) — le nom de l'incitation qui suggère au lieu d'obliger.
 > - **Le chaînon ventes → chômage → faillites** (§ I.3d) — ce que la formule `↓ C → ↓ Y` saute, et qui fait comprendre le paradoxe de l'épargne.
 > - **La deuxième référence de bibliographie** (introduction) — Acemoglu, Laibson et List, reconstituée depuis le cours de l'an dernier parce que ta photo était illisible.
+> - **Le nom de l'étude sur le salaire minimum** (§ II.2) — l'expérimentation naturelle Pennsylvanie / New Jersey est celle de **Card et Krueger**. Tes notes donnent le cas et le résultat, pas les auteurs : c'est typiquement un nom que le QCM peut demander, donc vérifie-le en amphi.
+> - **Le mot « rigides »** (§ II.5) — pour qualifier les prix de court terme, face aux prix « flexibles » du long terme. C'est le terme du cours de référence ; tes notes opposaient les deux horizons sans le nommer.
 >
 > **Aucun chiffre du cours n'a été touché.** Ce qui diverge entre tes notes et le cours de référence est listé juste au-dessus, pas corrigé.
