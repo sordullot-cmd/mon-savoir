@@ -15,7 +15,7 @@ Notes prises sur le tas, dans `notes/` — dossier synchronisé avec l'app tr4de
 - [[base trading]] — entry triggers, liquidité externe et interne, recit du marché, trade with time, systeme
 - [[discipline trading]] — execution plutôt que profits, regles journalières de risque, quoi noter dans le journal de trade
 - [[key open]] — la bougie de 16h qui manipule avant de distribuer, les deux façons de la jouer, critères de validation, checklist en 7 points, les étapes dans l'ordre, wick theory
-- [[bias journalier]] — sellside ou buyside, quelle fvg est respecté, htf liquidity draws, la logique if then, et les 3 étapes (pdh / pdl de la veille, htf fvg, cible)
+- [[bias journalier]] — les 3 étapes (buyside ou sellside, quelle htf fvg est respecté, le liquidity draw comme cible) et la logique if then, fvg 1h respecté ou inversé, pdl balayé
 - [[powell]] — confluences, ifvg et leurs 50%, entry triggers
 - [[sdtv]] — les stdv, london, hod / lod, le soup
 - [[trader de qui apprendre]] — les traders à étudier, avec les durées, et la boucle regarder / backtester pour les étudier

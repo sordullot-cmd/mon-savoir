@@ -40,7 +40,9 @@ stdv
 bias journalier
 - sellside ou buyside (prise de liquidité), sweep de high ou low, quelle fvg respecté, htf liquidity draws → [[bias journalier]]
 - logique if then : si le fvg 1h est respecté le bias ne change pas, s'il est inversé et que les fvg opposé sont respecté le bias a changé → [[bias journalier]]
-- étapes : pdh / pdl de la veille, quelle htf fvg est respecté, identifier la cible → [[bias journalier]]
+- étapes : buyside ou sellside (pdh l, asia ou london, pwh, equal), quelle htf fvg est respecté, htf liquidity draw = cible → [[bias journalier]]
+- if then : structure haussière + retracement dans un fvg acheteur = bias haussier, cible le pdh → [[bias journalier]]
+- if then : pdl balayé + reaction immediate (fvg opposé ou changement de structure) = bias haussier vers le pdh → [[bias journalier]]
 
 recit du marché
 - market maker buy ou sell model, monday range play → [[base trading]]
