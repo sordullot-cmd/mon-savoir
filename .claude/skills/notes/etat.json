@@ -10,13 +10,19 @@
    "hash": "34b9e88caa7e",
    "id": "1789389631765.1758",
    "mots": 22,
-   "updated": "2026-09-14T17:15:24.673Z"
+   "updated": "2026-09-15T16:56:55.364Z"
   },
   "Systeme.md": {
    "hash": "3e16245cc50a",
    "id": "1789166776662.336",
    "mots": 123,
    "updated": "2026-09-12T23:30:14.729Z"
+  },
+  "analyse de trade.md": {
+   "hash": "722fa0be5e71",
+   "id": "1789498136580.2756",
+   "mots": 68,
+   "updated": "2026-09-15T18:48:51.168Z"
   },
   "anime manga film.md": {
    "hash": "3eda2d06a7cc",
@@ -25,10 +31,10 @@
    "updated": "2026-09-11T22:44:41.094Z"
   },
   "apprentissage de la journée.md": {
-   "hash": "71297a5f5cba",
+   "hash": "6048a2cec161",
    "id": "1783683948714.8545",
-   "mots": 309,
-   "updated": "2026-09-14T17:16:07.267Z"
+   "mots": 400,
+   "updated": "2026-09-15T18:57:34.354Z"
   },
   "base trading.md": {
    "hash": "09d4eecb3083",
@@ -37,15 +43,15 @@
    "updated": "2026-09-14T11:26:22.743Z"
   },
   "bias journalier.md": {
-   "hash": "7f31f036a5fe",
+   "hash": "cecb4cf00780",
    "id": "1789385184667.8928",
-   "mots": 181,
-   "updated": "2026-09-14T17:18:56.316Z"
+   "mots": 318,
+   "updated": "2026-09-15T18:48:43.075Z"
   },
   "bien communiquer.md": {
-   "hash": "003a7284d229",
+   "hash": "070c784d2980",
    "id": "1787059443687.7456",
-   "mots": 375,
+   "mots": 384,
    "updated": "2026-09-10T20:50:50.880Z"
   },
   "chose a regler.md": {
@@ -76,7 +82,7 @@
    "hash": "e6538481c3de",
    "id": "1789074214946.0017",
    "mots": 335,
-   "updated": "2026-09-14T11:26:25.664Z"
+   "updated": "2026-09-15T16:56:59.150Z"
   },
   "livre.md": {
    "hash": "1749feeb16d4",
@@ -100,7 +106,7 @@
    "hash": "078cd6991254",
    "id": "1777255268193.9534",
    "mots": 263,
-   "updated": "2026-09-12T12:29:50.792Z"
+   "updated": "2026-09-15T17:00:19.768Z"
   },
   "powell.md": {
    "hash": "ac43357a3b48",
@@ -121,10 +127,10 @@
    "updated": "2026-09-12T11:59:12.188Z"
   },
   "synthese trading.md": {
-   "hash": "259927910483",
+   "hash": "d3da7d162a8e",
    "id": "1787058184048.5754",
-   "mots": 911,
-   "updated": "2026-09-14T11:26:51.543Z"
+   "mots": 1079,
+   "updated": "2026-09-15T18:49:16.869Z"
   },
   "trader de qui apprendre.md": {
    "hash": "003e2f844ece",

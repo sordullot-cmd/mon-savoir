@@ -8,6 +8,9 @@ tags:
 
 bien communiquer
 
+objectif :
+- devenir articulate, funny, confident, speaking, sharp
+
 symptome :
 - manque de vocabulaire
 - tout le temps en recherche de mots et souvent sans succes

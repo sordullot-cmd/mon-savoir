@@ -1,7 +1,7 @@
 ---
 tr4de-id: "1783683948714.8545"
 created: 2026-07-10T11:45:48.714Z
-updated: 2026-09-15T18:49:02.083Z
+updated: 2026-09-15T18:57:34.354Z
 pinned: true
 tags:
   - top3
@@ -12,6 +12,10 @@ apprentissage de la journée
 15 sept - analyse trade journalier insta
 
 prise de liquidité (london l) + fvg et ob en 15m 30m 1h 2h, entré sur un cisd et un retracement sur un ob 1m ; short sur london h + equal l, fvg 5m + rb → [[analyse de trade]]
+
+15 sept - bien communiquer
+
+devenir articulate, funny, confident, speaking, sharp → [[bien communiquer]]
 
 14 sept - bias journalier
 
