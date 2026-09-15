@@ -65,6 +65,7 @@ recit du marché
 
 discipline
 - execution : focus sur l'exécution pas sur les profits, un screen par trade, process pas finalité → [[discipline trading]]
+- plan : un vrai plan avant la session, on le suit jusqu'à que le marché nous prouve le contraire → [[discipline trading]]
 - regles : risk max, perte journalière max, nombre de trade, proteger le capital → [[discipline trading]]
 - journal : tjrs noter le contexte du trade, le contexte depend de la strategie → [[discipline trading]]
 
@@ -80,7 +81,7 @@ business
 - comptes prop, coûts, plan mois par mois → [[plan pour passer a 100k mensuelle]]
 - objectifs par taille de compte : 50k = 4k / mois, 150k = 12k, 250k = 24k → [[plan pour passer a 100k mensuelle]]
 - fiscalité : prestation de service, APE 7022Z → [[social media]]
-- contenu : tiktok, youtube, creer > regarder → [[social media]]
+- contenu : tiktok, youtube, creer > regarder, « pov : you made the best trading app » → [[social media]]
 
 a trancher :
 - quelle est mon A+ setup ([[base trading]])

@@ -14,6 +14,10 @@ execution :
 - on doit etre focus sur le process et pas la finalité
 - You can control process, not the outcome
 
+plan :
+- avoir un vrai plan avant la session, pour ne pas changer de biais dès l’ouverture de ny
+- on a notre plan on le suit jusqu’à que le marché nous prouve le contraire
+
 regles :
 - rajouter des regles journalière ; risk max, perte journalière max, nombre de trade
 - proteger le capital > trade pour trade
@@ -22,6 +26,6 @@ journal :
 - tjrs noter le contexte du trade quand on journal
 - le contexte pertinant depends de la strategie
 
-voir aussi : [[base trading]], [[synthese trading]], [[chose a regler]], [[lock in]]
+voir aussi : [[base trading]], [[bias journalier]], [[synthese trading]], [[chose a regler]], [[lock in]]
 
 #trading
