@@ -1,7 +1,7 @@
 ---
 tr4de-id: "1783683948714.8545"
 created: 2026-07-10T11:45:48.714Z
-updated: 2026-09-14T11:29:08.329Z
+updated: 2026-09-15T18:49:02.083Z
 pinned: true
 tags:
   - top3
@@ -9,9 +9,15 @@ tags:
 
 apprentissage de la journée
 
+15 sept - analyse trade journalier insta
+
+prise de liquidité (london l) + fvg et ob en 15m 30m 1h 2h, entré sur un cisd et un retracement sur un ob 1m ; short sur london h + equal l, fvg 5m + rb → [[analyse de trade]]
+
 14 sept - bias journalier
 
 sellside ou buyside, quelle fvg respecté, htf liquidity draws, logique if then, pdh / pdl de la veille → [[bias journalier]]
+
+time based et price based liquidity, on veut aligner les deux, engineering lq ou taking lq, jamais changer son bias htf sur une prise de liquidité → [[bias journalier]]
 
 12 sept - comment apprendre d'un trader
 

@@ -1,7 +1,7 @@
 ---
 tr4de-id: "1787058184048.5754"
 created: 2026-08-18T13:02:44.094Z
-updated: 2026-09-14T11:26:51.543Z
+updated: 2026-09-14T19:41:57.139Z
 tags:
   - trading
 ---
@@ -43,6 +43,14 @@ bias journalier
 - étapes : buyside ou sellside (pdh l, asia ou london, pwh, equal), quelle htf fvg est respecté, htf liquidity draw = cible → [[bias journalier]]
 - if then : structure haussière + retracement dans un fvg acheteur = bias haussier, cible le pdh → [[bias journalier]]
 - if then : pdl balayé + reaction immediate (fvg opposé ou changement de structure) = bias haussier vers le pdh → [[bias journalier]]
+- liquidité : monthly weekly daily, time based et price based a aligner en meme temps → [[bias journalier]]
+- price base : weak h/l, eqh/l, trendline = low resistance liquidity pool ; time based : pmh/l, pwh/l, pdh/l, session h l → [[bias journalier]]
+- engineering lq (expansion retracement du dernier h l = weak) ou taking lq, cloture au dessus / dessous du dernier h l = continuation → [[bias journalier]]
+- jamais changer son bias htf sur une prise de liquidité, attendre une vraie preuve → [[bias journalier]]
+
+analyse de trade
+- 15 sept : prise de liquidité london l + fvg et ob htf, entrée sur cisd et retracement sur ob 1m → [[analyse de trade]]
+- 15 sept : short sur london h + equal l, fvg 5m + rb → [[analyse de trade]]
 
 recit du marché
 - market maker buy ou sell model, monday range play → [[base trading]]
@@ -80,5 +88,7 @@ a trancher :
 - engerning liquidité, noté sans explication ([[sdtv]])
 - F1 range, noté sans explication ([[base trading]])
 - le total du plan : 50k + 60k + 15k noté « = 135K », a verifier ([[plan pour passer a 100k mensuelle]])
+- « sweepstakes » : c'est bien sweep ? garde tel quel en attendant ([[bias journalier]])
+- le 3e trade du 15 sept est resté vide ([[analyse de trade]])
 
 #trading
