@@ -1,7 +1,7 @@
 ---
 tr4de-id: "1787058184048.5754"
 created: 2026-08-18T13:02:44.094Z
-updated: 2026-09-21T19:15:02.378Z
+updated: 2026-09-21T19:48:55.556Z
 tags:
   - trading
 ---
@@ -18,6 +18,7 @@ entry trigger
 - quand un fvg est cloturé, la ligne du début du fvg est vraiment sensible → [[powell]]
 
 liquidité
+- le marché bouge avec ces confluences pour aller chercher de la liquidité → [[base trading]]
 - externe : previous daily / weekly high low, equal high and low, session high and low (london / asia) → [[base trading]]
 - interne : fvg, new week gap, 10am 8am 00am → [[base trading]]
 - la meilleur : equals high ou lows dans un pd array (ob, rb ; fvg , bc) → [[powell]]
