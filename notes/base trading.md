@@ -14,6 +14,13 @@ entry trigger :
 - ob = 1m a 5m
 - les bougies
 
+entrée :
+- toujours attendre un retracement puis une entré en ltf
+- fvg ob rb 1m ifvg
+- confluence fvg & ob en 15 5 et ltf
+- entré sur un ob formé sur l'expansion du marché par ces confluences
+- le marché bouge avec ces confluences pour aller chercher de la liquidité
+
 liquidité / cible :
 
 liquidité externe :

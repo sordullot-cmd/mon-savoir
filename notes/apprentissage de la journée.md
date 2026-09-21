@@ -1,7 +1,7 @@
 ---
 tr4de-id: "1783683948714.8545"
 created: 2026-07-10T11:45:48.714Z
-updated: 2026-09-21T19:15:50.187Z
+updated: 2026-09-21T19:31:25.540Z
 pinned: true
 tags:
   - top3
@@ -9,8 +9,11 @@ tags:
 
 apprentissage de la journée
 
-21 sept 
-fvg & ob 15 5 et ltf
+21 sept
+
+- entrée
+
+toujours attendre un retracement puis une entré en ltf, fvg ob rb 1m ifvg, confluence fvg & ob en 15 5 et ltf, entré sur un ob formé sur l'expansion du marché par ces confluences → [[base trading]]
 
 - playbook
 

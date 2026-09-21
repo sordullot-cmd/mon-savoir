@@ -12,6 +12,7 @@ tout ce qui est noté sur le trading, rangé par sujet. le detail reste dans la 
 
 entry trigger
 - ivfg (30s et 5m), rb (1m a 15m), ob (1m a 5m), les bougies → [[base trading]]
+- entrée : attendre un retracement puis une entré en ltf sur confluence fvg & ob 15 5, ob formé sur l'expansion → [[base trading]]
 - ivfg -> retour dans les 50%, whick, cisd → [[powell]]
 - cisd = cloture d'une bougie haussiere a dessus d'une bougie baissier → [[powell]]
 - quand un fvg est cloturé, la ligne du début du fvg est vraiment sensible → [[powell]]
@@ -38,9 +39,8 @@ stdv
 - le soup : cloture au dessus d'un high ou low qui vient d'etre pris → [[sdtv]]
 
 bias journalier
-- sellside ou buyside (prise de liquidité), sweep de high ou low, quelle fvg respecté, htf liquidity draws → [[bias journalier]]
+- sellside ou buyside (prise de liquidité, pdh l, asia ou london, pwh, equal), quelle htf fvg respecté, htf liquidity draw = cible → [[bias journalier]]
 - logique if then : si le fvg 1h est respecté le bias ne change pas, s'il est inversé et que les fvg opposé sont respecté le bias a changé → [[bias journalier]]
-- étapes : buyside ou sellside (pdh l, asia ou london, pwh, equal), quelle htf fvg est respecté, htf liquidity draw = cible → [[bias journalier]]
 - if then : retracement dans un fvg acheteur, ou pdl balayé avec reaction immediate = bias haussier vers le pdh → [[bias journalier]]
 - liquidité : monthly weekly daily, time based et price based a aligner en meme temps → [[bias journalier]]
 - price base : weak h/l, eqh/l, trendline = low resistance liquidity pool ; time based : pmh/l, pwh/l, pdh/l, session h l → [[bias journalier]]
@@ -74,7 +74,6 @@ discipline
 apprendre
 - de qui apprendre : 393ticks, nqsimon, steelnq, walterdeviation, dutchy, quadz, dhesitrades, ttrade, franck369, pbtrading → [[trader de qui apprendre]]
 - comment apprendre : 3 videos d'une personne, backtester, 1 video de la meme personne backtester, backtester → [[trader de qui apprendre]]
-- avoir un playbook detaillé et precis → [[base trading]]
 - le playbook : screenshots, contexte, setup, entrée, SL, TP, invalidation, exemples, erreurs, statistiques → [[playbook]]
 - backtester 200 setups en replay, noter chaque setup A / B / C sur 5 critères écrits a l'avance → [[playbook]]
 - avoir plusieurs swing swings en ltd, conditions avec prenium discount pour dol → [[base trading]]
