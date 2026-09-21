@@ -13,12 +13,13 @@ Notes prises sur le tas, dans `notes/` — dossier synchronisé avec l'app tr4de
 
 - [[synthese trading]] — le hub : tout le trading rangé par sujet, chaque ligne renvoyant à sa note d'origine. **Toute nouvelle note ou ligne `#trading` vient s'y ajouter**, `/notes` le vérifie à chaque passage
 - [[base trading]] — entry triggers, liquidité externe et interne, recit du marché, trade with time, systeme
-- [[discipline trading]] — execution plutôt que profits, le plan tenu avant la session, regles journalières de risque, quoi noter dans le journal de trade
+- [[discipline trading]] — execution plutôt que profits, le plan tenu avant la session, regles journalières de risque, quoi noter dans le journal de trade, les biais psychologiques à repérer, le processus après une perte, la visualisation avant session et la weekly review
 - [[key open]] — la bougie de 16h qui manipule avant de distribuer, les deux façons de la jouer, critères de validation, checklist en 7 points, les étapes dans l'ordre, wick theory
 - [[bias journalier]] — les 3 étapes (buyside ou sellside, quelle htf fvg est respecté, le liquidity draw comme cible), la liquidité time based et price based à aligner, engineering ou taking, et la logique if then, fvg 1h respecté ou inversé, pdl balayé
 - [[analyse de trade]] — les trades analysés jour par jour (depuis insta), le setup de chacun en une ligne
 - [[powell]] — confluences, ifvg et leurs 50%, entry triggers
 - [[sdtv]] — les stdv, london, hod / lod, le soup
+- [[playbook]] — ce que le playbook doit contenir, et le backtest : 200 setups en replay, chaque setup noté A / B / C
 - [[trader de qui apprendre]] — les traders à étudier, avec les durées, et la boucle regarder / backtester pour les étudier
 - [[plan pour passer a 100k mensuelle]] — comptes prop, coûts, plan mois par mois, calculs par taille de compte
 - [[social media]] — contenu tiktok et youtube, et la fiscalité (prestation de service, APE 7022Z)
@@ -53,4 +54,4 @@ Notes prises sur le tas, dans `notes/` — dossier synchronisé avec l'app tr4de
 
 > Supprimées en août 2026, à ne pas recréer : `glow uppp` (le chapeau `#glowup`, ses liens pointent maintenant vers les notes de la famille), `math`, `application inspiration`, `appartement` (scindée par Sacha en `courses et recette` + `achats`), `bien s'habiller` et `bien s'habiller 2` (restées vides, le sujet est dans [[habits]]), `my lock in` (une seule ligne, `nqsimon`, supprimée sur décision de Sacha le 2 septembre).
 
-> Supprimées en septembre 2026 : `achats` (Sacha a reversé son contenu dans `courses et recette`, renommée `courses, recette et achat`, le 10 septembre), `apprentisage trading` (fusionnée dans [[trader de qui apprendre]], le playbook parti dans [[base trading]]), `appart` (créée puis vidée par Sacha le même jour), `app` (les demandes de dev sur l'app tr4de, vidée puis supprimée par Sacha dans l'app le 12 septembre).
+> Supprimées en septembre 2026 : `achats` (Sacha a reversé son contenu dans `courses et recette`, renommée `courses, recette et achat`, le 10 septembre), `apprentisage trading` (fusionnée dans [[trader de qui apprendre]], le playbook parti dans [[base trading]] puis dans [[playbook]] le 21 septembre), `appart` (créée puis vidée par Sacha le même jour), `app` (les demandes de dev sur l'app tr4de, vidée puis supprimée par Sacha dans l'app le 12 septembre).

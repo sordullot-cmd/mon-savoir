@@ -1,7 +1,7 @@
 ---
 tr4de-id: "1787058184048.5754"
 created: 2026-08-18T13:02:44.094Z
-updated: 2026-09-15T18:49:16.869Z
+updated: 2026-09-21T19:15:02.378Z
 tags:
   - trading
 ---
@@ -41,8 +41,7 @@ bias journalier
 - sellside ou buyside (prise de liquidité), sweep de high ou low, quelle fvg respecté, htf liquidity draws → [[bias journalier]]
 - logique if then : si le fvg 1h est respecté le bias ne change pas, s'il est inversé et que les fvg opposé sont respecté le bias a changé → [[bias journalier]]
 - étapes : buyside ou sellside (pdh l, asia ou london, pwh, equal), quelle htf fvg est respecté, htf liquidity draw = cible → [[bias journalier]]
-- if then : structure haussière + retracement dans un fvg acheteur = bias haussier, cible le pdh → [[bias journalier]]
-- if then : pdl balayé + reaction immediate (fvg opposé ou changement de structure) = bias haussier vers le pdh → [[bias journalier]]
+- if then : retracement dans un fvg acheteur, ou pdl balayé avec reaction immediate = bias haussier vers le pdh → [[bias journalier]]
 - liquidité : monthly weekly daily, time based et price based a aligner en meme temps → [[bias journalier]]
 - price base : weak h/l, eqh/l, trendline = low resistance liquidity pool ; time based : pmh/l, pwh/l, pdh/l, session h l → [[bias journalier]]
 - engineering lq (expansion retracement du dernier h l = weak) ou taking lq, cloture au dessus / dessous du dernier h l = continuation → [[bias journalier]]
@@ -68,11 +67,16 @@ discipline
 - plan : un vrai plan avant la session, on le suit jusqu'à que le marché nous prouve le contraire → [[discipline trading]]
 - regles : risk max, perte journalière max, nombre de trade, proteger le capital → [[discipline trading]]
 - journal : tjrs noter le contexte du trade, le contexte depend de la strategie → [[discipline trading]]
+- journal : biais fomo, revenge, greed, peur, impatience, overtrading, anticipation, déplacement du SL, sortie trop tôt → [[discipline trading]]
+- apres une perte : stop, screenshot, classer A conforme / B erreur / C interdit → [[discipline trading]]
+- visualisation avant session, weekly review : trades, R, erreurs, setup, heures, drawdown → [[discipline trading]]
 
 apprendre
 - de qui apprendre : 393ticks, nqsimon, steelnq, walterdeviation, dutchy, quadz, dhesitrades, ttrade, franck369, pbtrading → [[trader de qui apprendre]]
 - comment apprendre : 3 videos d'une personne, backtester, 1 video de la meme personne backtester, backtester → [[trader de qui apprendre]]
 - avoir un playbook detaillé et precis → [[base trading]]
+- le playbook : screenshots, contexte, setup, entrée, SL, TP, invalidation, exemples, erreurs, statistiques → [[playbook]]
+- backtester 200 setups en replay, noter chaque setup A / B / C sur 5 critères écrits a l'avance → [[playbook]]
 - avoir plusieurs swing swings en ltd, conditions avec prenium discount pour dol → [[base trading]]
 - discipline trading, a travailler → [[chose a regler]]
 

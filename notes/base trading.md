@@ -1,7 +1,7 @@
 ---
 tr4de-id: "1783638656474.7312"
 created: 2026-07-09T23:10:56.474Z
-updated: 2026-09-14T11:26:22.743Z
+updated: 2026-09-21T19:13:46.296Z
 tags:
   - trading
 ---
@@ -39,11 +39,11 @@ trade with time
 
 systeme :
 - quelle est mon A+ setup
-- avoir un playbook detaillé et precis
+- avoir un playbook detaillé et precis → [[playbook]]
 - avoir plusieurs swing swings en ltd
 - mettre en place des conditions avec prenium discount pour avoir 90% de chance avec dol
 - F1 range
 
-voir aussi : [[synthese trading]], [[key open]], [[bias journalier]], [[powell]], [[sdtv]], [[discipline trading]], [[trader de qui apprendre]]
+voir aussi : [[synthese trading]], [[key open]], [[bias journalier]], [[powell]], [[sdtv]], [[discipline trading]], [[playbook]], [[trader de qui apprendre]]
 
 #trading

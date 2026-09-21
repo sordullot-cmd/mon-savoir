@@ -1,13 +1,24 @@
 ---
 tr4de-id: "1783683948714.8545"
 created: 2026-07-10T11:45:48.714Z
-updated: 2026-09-15T20:29:28.418Z
+updated: 2026-09-21T19:15:50.187Z
 pinned: true
 tags:
   - top3
 ---
 
 apprentissage de la journée
+
+21 sept 
+fvg & ob 15 5 et ltf
+
+- playbook
+
+ce que le playbook doit contenir, avoir un document comprehensible par quelqu'un d'autre, backtester 200 setups en replay, noter chaque setup A / B / C → [[playbook]]
+
+- psychologie
+
+identifier ses biais dans le journal (fomo, revenge, greed, peur, impatience, overtrading, anticipation, déplacement du SL, sortie trop tôt), processus apres une perte (stop, screenshot, classer), visualisation avant session, weekly review → [[discipline trading]]
 
 15 sept - analyse trade journalier insta
 
@@ -72,10 +83,6 @@ vendredi 10 - trader avec le temps
 
 les heures et mini sessions ont souvent les memes paterns → [[base trading]]
 
-voir aussi : [[habits]], [[Systeme]]
+voir aussi : [[habits]], [[Systeme]], [[synthese trading]]
 
 #top3
-
-<!-- tr4de:attachments -->
-![](attachments/apprentissage%20de%20la%20journ%C3%A9e-schema.svg)
-<!-- /tr4de:attachments -->

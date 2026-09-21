@@ -1,7 +1,7 @@
 ---
 tr4de-id: "1789139446712.1643"
 created: 2026-09-11T11:48:16.543Z
-updated: 2026-09-12T11:58:02.739Z
+updated: 2026-09-21T19:13:39.730Z
 tags:
   - trading
 ---
@@ -26,6 +26,39 @@ journal :
 - tjrs noter le contexte du trade quand on journal
 - le contexte pertinant depends de la strategie
 
-voir aussi : [[base trading]], [[bias journalier]], [[synthese trading]], [[chose a regler]], [[lock in]]
+biais a identifier dans le journal :
+- FOMO
+- revenge
+- greed
+- peur
+- impatience
+- overtrading
+- anticipation
+- déplacement du SL
+- sortie trop tôt
+
+apres une perte :
+1. stop
+2. screenshot
+3. classer : A = trade conforme, B = erreur d'exécution, C = trade interdit
+
+visualisation avant session :
+- trade gagnant
+- trade perdant
+- aucun trade
+- série de pertes
+- le but : être psychologiquement préparé à ne pas agir
+
+weekly review :
+- trades
+- R
+- erreurs
+- setup
+- heures
+- sessions
+- drawdown
+- qualité d'exécution
+
+voir aussi : [[base trading]], [[bias journalier]], [[playbook]], [[synthese trading]], [[chose a regler]], [[lock in]]
 
 #trading
