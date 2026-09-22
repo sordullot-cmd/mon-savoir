@@ -3,7 +3,7 @@
   "eco gestion/_brut/Méthodologie du travail universitaire.md": {
    "fiche": "eco gestion/Methodologie - Travail universitaire UE 18C.md",
    "hash": "74f979b208c5",
-   "integre": "2026-09-11 13:01"
+   "integre": "2026-09-22 17:01"
   },
   "eco gestion/_brut/Problèmes économiques contemporains.md": {
    "fiche": "eco gestion/Problemes economiques - Chapitre 1 Analyse economique UE 13A.md",
@@ -19,6 +19,21 @@
    "fiche": "eco gestion/Gestion - Chapitre 2 Fonctions de l'entreprise UE 12A.md",
    "hash": "d5f6dbc67128",
    "integre": "2026-09-22 16:47"
+  },
+  "eco gestion/_brut/camarade - MTU seance 1 (A).md": {
+   "fiche": "eco gestion/Methodologie - Travail universitaire UE 18C.md",
+   "hash": "205303a0574f",
+   "integre": "2026-09-22 17:01"
+  },
+  "eco gestion/_brut/camarade - MTU seance 1 (B).md": {
+   "fiche": "eco gestion/Methodologie - Travail universitaire UE 18C.md",
+   "hash": "d11020291a44",
+   "integre": "2026-09-22 17:01"
+  },
+  "eco gestion/_brut/camarade - MTU seance 2.md": {
+   "fiche": "eco gestion/Methodologie - Travail universitaire UE 18C.md",
+   "hash": "10fbd17fa818",
+   "integre": "2026-09-22 17:01"
   },
   "eco gestion/_brut/camarade - PEC chapitre 1 (A).md": {
    "fiche": "eco gestion/Problemes economiques - Chapitre 1 Analyse economique UE 13A.md",
@@ -131,11 +146,17 @@
    "statut": "à faire"
   },
   "eco gestion/Methodologie - Travail universitaire UE 18C.md": {
-   "fait": "cartes refaites : 37 cartes, les cartes-listes de quatre items decoupees en une carte par fait ; aucune annale pour cette UE",
-   "hash": "ed4bff64eb22",
-   "mots": 4899,
-   "passage": "2026-09-11 13:01",
+   "fait": "notes de deux camarades : quatre sous-sections entières ajoutées (rechercher l'information, citer les sources, les données, les graphiques) que ses notes n'avaient pas, 11 cartes, 6 marques 👥",
+   "hash": "79e7916d66ce",
+   "mots": 5742,
+   "passage": "2026-09-22 17:01",
    "source": "_brut/Méthodologie du travail universitaire.md",
+   "sources": [
+    "_brut/Méthodologie du travail universitaire.md",
+    "_brut/camarade - MTU seance 1 (A).md",
+    "_brut/camarade - MTU seance 1 (B).md",
+    "_brut/camarade - MTU seance 2.md"
+   ],
    "statut": "à faire"
   },
   "eco gestion/Plan - Examen P1.md": {

@@ -14,7 +14,7 @@ statut: à faire
 periode: 1
 revu: 2026-09-10
 a_verifier: 10
-cartes: 37
+cartes: 48
 ajouts: 28
 ---
 
@@ -231,6 +231,83 @@ C'est la **première partie lue** dans un travail.
 - les fautes d'orthographe ;
 - « le professeur nous dit que… » — c'est notre travail.
 
+Et dans le résumé, **prendre le plus d'informations importantes possible**. 👥
+
+### 2.3 Rechercher l'information 👥
+
+*Toute cette sous-section vient des notes d'un camarade — voir le bloc de
+traçabilité en fin de fiche.*
+
+**La méthode** :
+
+- le **catalogue de la BU** ;
+- un **moteur de recherche** ;
+- **connaître les bonnes sources** ;
+- **partir des références récentes et remonter**.
+
+**Quelques bonnes références** :
+
+- l'**INSEE** ;
+- les **sites spécialisés** ;
+- **Google Scholar**, **CAIRN**, **Web of Science** ;
+- les sources en **anglais**.
+
+### 2.4 Citer les sources 👥
+
+**Les principes** — pourquoi on cite :
+
+- la **traçabilité** ;
+- le **lien entre le corps du texte et la bibliographie** ;
+- des **sources académiques** ;
+- **crédibiliser** le travail ;
+- **maîtriser** ses sources.
+
+**Les règles** — comment on cite :
+
+- **ordonné** : noms des auteurs par ordre alphabétique, ou numéros dans l'ordre
+  du texte ;
+- les **informations utiles pour retrouver la source**, sans se limiter à la BU ;
+- **uniformiser** — gare au copié-collé, qui mélange les styles de citation ;
+- une **webographie** pour les sources sans auteur, **avec la date de
+  consultation**.
+
+### 2.5 Les données 👥
+
+**Le niveau de précision** — de quoi parlent les données :
+
+- la **période** ;
+- le **lieu** ;
+- le **secteur** ;
+- le **profil de consommateur** ;
+- les données **individuelles**.
+
+**Le format** — comment les données ont été fabriquées :
+
+- l'**unité de mesure** ;
+- la **population concernée** ;
+- **échantillon ou ensemble** ;
+- la **méthodologie de la collecte**.
+
+Ces quatre points sont ce qu'il faut pouvoir dire d'un tableau avant de
+l'utiliser : sans eux, on ne sait pas ce qu'on manipule.
+
+### 2.6 Les graphiques 👥
+
+**Pourquoi un graphique** :
+
+- une **synthèse visuelle** ;
+- **mettre en évidence un résultat** — l'exemple du cours : la **courbe de
+  Laffer**.
+
+**Comment faire un graphique** :
+
+- les **principales informations** : il faut faire des choix ;
+- la **compréhension autonome** — le graphique doit se lire seul ;
+- le **choix du type de graphique et des échelles**.
+
+**Les possibilités** : les couleurs, les types de lignes et de points, les
+échelles, et la forme — camemberts, courbes, bâtons.
+
 ---
 
 ## 📚 La bibliographie du cours
@@ -396,6 +473,22 @@ Combien de points pour le test de la BU ? ; 1 à 2 points ; 18C evaluation
 Sur quoi porte l'examen final ? ; Les deux parties du cours — raisonner en économiste, et réaliser un travail universitaire ; 18C evaluation
 ```
 
+**Chercher, citer, montrer — les sous-sections venues des notes d'un camarade**
+
+```
+Quatre bonnes sources pour une recherche universitaire ? ; L'INSEE · les sites spécialisés · Google Scholar, CAIRN, Web of Science · les sources en anglais ; 18C
+Par où commencer une recherche bibliographique ? ; Par les références RÉCENTES, puis remonter ; 18C procedure
+Pourquoi cite-t-on ses sources ? ; Pour la TRAÇABILITÉ, le lien entre le texte et la bibliographie, et pour crédibiliser le travail ; 18C
+Dans quel ordre présente-t-on une bibliographie ? ; Par ordre ALPHABÉTIQUE des auteurs, ou par numéros dans l'ordre du texte ; 18C
+Que faut-il ajouter pour une source web sans auteur ? ; La DATE DE CONSULTATION, dans une webographie à part ; 18C
+Pourquoi le copié-collé pose-t-il problème dans une bibliographie ? ; Il casse l'uniformité des styles de citation ; 18C
+Les quatre points du niveau de précision d'une donnée ? ; Période · lieu · secteur · profil de consommateur ; 18C
+Les quatre points du format d'une donnée ? ; Unité de mesure · population concernée · échantillon ou ensemble · méthodologie de la collecte ; 18C
+Pourquoi faire un graphique ? ; Pour une SYNTHÈSE VISUELLE et pour mettre en évidence un résultat — ex. la courbe de Laffer ; 18C
+Que veut dire « compréhension autonome » pour un graphique ? ; Il doit pouvoir se lire SEUL, sans le texte qui l'accompagne ; 18C
+Quels choix fait-on en construisant un graphique ? ; Les informations principales à garder · le type de graphique · les échelles ; 18C procedure
+```
+
 ---
 
 ## 🔄 Comment réviser cette fiche
@@ -514,6 +607,26 @@ Sur quoi porte l'examen final ? ; Les deux parties du cours — raisonner en éc
 > Se lever dans un stade pour mieux voir : ça marche pour **un** spectateur, pas si **tous** se lèvent. → [[#Ce que j'ai complété]]
 
 ---
+
+> [!note]- Ce qui vient des notes de tes camarades — 5 points
+> Deux camarades ont pris cette séance (`_brut/camarade - MTU seance 1 (A)` et
+> `(B)`), plus une ligne d'une séance 2. Leurs notes **confirment toute la
+> première partie** — les économistes cités, les livres, l'individualisme
+> méthodologique, le raisonnement hypothético-déductif, la corrélation et la
+> causalité : tu avais déjà tout.
+>
+> **Mais l'un des deux a noté la suite de la séance, que tu n'as pas.** Quatre
+> sous-sections entières sont ajoutées, toutes marquées 👥 à leur titre :
+> - **2.3 Rechercher l'information** — la méthode et les bonnes sources.
+> - **2.4 Citer les sources** — les principes et les règles de bibliographie.
+> - **2.5 Les données** — niveau de précision et format.
+> - **2.6 Les graphiques** — pourquoi, comment, et les possibilités.
+>
+> Ça pèse lourd pour cette UE : **7 points de recherche bibliographique** sur
+> 20, plus le test BU. C'était le trou le plus coûteux de ta fiche.
+>
+> **Une ligne de plus** — § 2.2 : dans un résumé, prendre le plus d'informations
+> importantes possible (notes de la séance 2).
 
 ## À vérifier / à récupérer
 
