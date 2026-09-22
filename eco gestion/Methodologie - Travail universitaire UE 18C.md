@@ -510,30 +510,30 @@ QCM — **une seule bonne réponse**. Choisis avant d'ouvrir le callout.
 **Le cours et son évaluation**
 
 > [!question]- L'objectif du cours, en trois verbes :
-> a) **trouver** l'information, la **synthétiser**, l'**utiliser**
-> b) lire, résumer, citer
-> c) rechercher, critiquer, publier
+> a) trouver l'information, la synthétiser, l'utiliser
+> b) lire la documentation, en faire un résumé, citer ses sources
+> c) rechercher des sources, les critiquer, publier ses résultats
 >
 > **a)** — les trois verbes couvrent toute l'UE, de la recherche en salle au travail rendu. → [[#Le cours et son évaluation]]
 
 > [!question]- Les points de l'UE se répartissent en :
-> a) examen 10, recherche bibliographique 10, test de la BU 2
-> b) examen final d'1 h **13 points**, recherche bibliographique + bonus/malus **7 points**, test de la BU **1 à 2 points**
-> c) examen 7, recherche bibliographique 13, test de la BU 1 à 2
+> a) examen final d'1 h 10 points, recherche bibliographique + bonus/malus 10 points, test de la BU 2 points
+> b) examen final d'1 h 13 points, recherche bibliographique + bonus/malus 7 points, test de la BU 1 à 2 points
+> c) examen final d'1 h 7 points, recherche bibliographique + bonus/malus 13 points, test de la BU 1 à 2 points
 >
 > **b)** — l'examen pèse près des deux tiers, mais la recherche bibliographique n'est pas un accessoire : 7 points. → [[#Le barème de la note finale]]
 
 > [!question]- Les trois enseignements du cours sont :
-> a) le résumé, la dissertation, l'oral
-> b) les graphiques, la recherche en salle, le test de la BU
-> c) le **résumé**, les **graphiques**, la **recherche bibliographique en salle**
+> a) le résumé de texte, la dissertation d'économie, l'exposé oral
+> b) les graphiques, la recherche documentaire en salle, le test de la BU
+> c) le résumé, les graphiques, la recherche bibliographique en salle
 >
 > **c)** — le test de la BU est une modalité d'évaluation, pas un enseignement : c'est ce qui rend b) faux. → [[#Le cours et son évaluation]]
 
 > [!question]- Les deux parties du cours sont :
-> a) **raisonner en économiste**, puis **réaliser un travail universitaire**
-> b) la microéconomie, puis la macroéconomie
-> c) la méthode de travail, puis la bibliographie
+> a) raisonner en économiste, puis réaliser un travail universitaire
+> b) raisonner en microéconomiste, puis raisonner en macroéconomiste
+> c) acquérir une méthode de travail, puis constituer une bibliographie
 >
 > **a)** — la première partie est du raisonnement, la seconde de la méthode de production. → [[#Les deux parties du cours]]
 
@@ -541,194 +541,194 @@ QCM — **une seule bonne réponse**. Choisis avant d'ouvrir le callout.
 
 > [!question]- L'économie se définit comme :
 > a) l'étude de la production et de la consommation des richesses
-> b) l'**étude** de l'**allocation optimale** des **ressources rares**
+> b) l'étude de l'allocation optimale des ressources rares
 > c) l'étude des choix des ménages et des entreprises
 >
 > **b)** — trois mots font la définition : étude, allocation optimale, ressources rares. a) et c) en décrivent des objets, pas le champ. → [[#1.1 De quoi l'économie s'occupe]]
 
 > [!question]- Sur le champ de l'économie, le cours laisse ouvert :
-> a) **qu'est-ce qui ne relève pas de l'économie ?**, et le constat que les **domaines d'application sont nombreux** (cf. Levitt)
-> b) l'économie est-elle une science, et peut-on vraiment prédire
-> c) où s'arrête la micro, où commence la macro
+> a) qu'est-ce qui ne relève pas de l'économie ?, et le constat que les domaines d'application sont nombreux (cf. Levitt)
+> b) l'économie est-elle une science ?, et le constat que ses prédictions sont souvent démenties
+> c) où s'arrête la microéconomie ?, et le constat que ses frontières avec la macro sont floues
 >
 > **a)** — la question est posée à l'envers, par ce qui *échappe* à l'économie, et Levitt sert à montrer que peu de choses y échappent. → [[#1.1 De quoi l'économie s'occupe]]
 
 > [!question]- L'individualisme méthodologique, ce sont les deux termes et les deux auteurs :
 > a) offre et demande ; Smith et Ricardo
-> b) **acteur et système** ; **Boudon** et **Bourdieu**
+> b) acteur et système ; Boudon et Bourdieu
 > c) individu et classe ; Durkheim et Weber
 >
 > **b)** — tes notes hésitent elles-mêmes sur le second nom (« Boudon ? Bourdieu ? »), c'est signalé dans `À vérifier`. → [[#L'individualisme méthodologique]]
 
 > [!question]- Ce qui sépare la microéconomie de la macroéconomie, c'est :
-> a) le **niveau d'observation** : les agents pris un à un contre les grandeurs d'ensemble
-> b) la méthode : la micro modélise, la macro observe
-> c) l'objet : la micro étudie les entreprises, la macro les États
+> a) le niveau d'observation : les agents pris un à un contre les grandeurs d'ensemble
+> b) la méthode employée : la micro construit des modèles, la macro se contente d'observer
+> c) l'objet étudié : la micro s'occupe des entreprises, la macro des États et de leurs politiques
 >
 > **a)** — même méthode, même outils : seule l'échelle d'observation change. → [[#Microéconomie et macroéconomie]]
 
 > [!question]- Le modèle de comportement rationnel pose :
-> a) que l'agent dispose d'une information parfaite et gratuite
-> b) que l'agent fait les **meilleurs choix** et utilise l'**information de manière efficace**
-> c) que l'agent s'arrête à la première solution satisfaisante
+> a) que l'agent dispose d'une information parfaite et gratuite, qu'il n'a aucun coût à rassembler
+> b) que l'agent fait les meilleurs choix et utilise l'information de manière efficace
+> c) que l'agent s'arrête à la première solution satisfaisante, faute de temps et de capacité de calcul
 >
 > **b)** — c) est la **rationalité limitée**, c'est-à-dire précisément l'écart entre le modèle et la réalité. → [[#1.2 Rationalité]]
 
 > [!question]- Les trois écarts entre ce modèle et la réalité des comportements :
-> a) **rationalité limitée**, **biais systématiques**, **modèles d'économie comportementale**
-> b) information imparfaite, asymétries, externalités
-> c) aversion au risque, myopie, mimétisme
+> a) rationalité limitée, biais systématiques, modèles d'économie comportementale
+> b) information imparfaite, asymétries entre agents, externalités non prises en compte
+> c) aversion au risque, myopie des décisions, comportements mimétiques
 >
 > **a)** — les deux premiers constatent l'écart, le troisième est ce qu'on construit pour en rendre compte. → [[#La réalité des comportements]]
 
 > [!question]- L'exemple visuel qui illustre les biais en cours, c'est :
-> a) le graphique des dépenses de santé France / Allemagne
-> b) le **trait du milieu et les chevrons**, qui nous bernent sur la position du centre
-> c) le stade où tout le monde se lève
+> a) le graphique des dépenses de santé de la France et de l'Allemagne, à montant égal
+> b) le trait du milieu et les chevrons, qui nous bernent sur la position du centre
+> c) le stade où tout le monde se lève, et où personne ne voit mieux pour autant
 >
 > **b)** — a) illustre la corrélation trompeuse, c) la confusion des niveaux d'analyse : trois exemples du cours, trois erreurs différentes. → [[#La réalité des comportements]]
 
 > [!question]- Les trois étapes du raisonnement hypothético-déductif, dans l'ordre :
 > a) modèle → hypothèses → prédiction
 > b) hypothèses → prédiction → modèle
-> c) **hypothèses → modèle → prédiction**
+> c) hypothèses → modèle → prédiction
 >
 > **c)** — l'ordre est le raisonnement lui-même : on pose, on construit, on prédit. → [[#1.3 Le rôle des hypothèses]]
 
 > [!question]- Les quatre intérêts de ce raisonnement :
-> a) l'**arbitrage parcimonie / pouvoir explicatif**, la **prise en compte de l'incertitude**, l'**isolement des effets**, la **distinction individuel / global**
-> b) simplicité, réalisme, prédiction, vérification
-> c) ceteris paribus, rationalité, marché, équilibre
+> a) l'arbitrage parcimonie / pouvoir explicatif, la prise en compte de l'incertitude, l'isolement des effets, la distinction individuel / global
+> b) la simplicité du raisonnement, son réalisme, sa capacité de prédiction, sa vérification empirique
+> c) le ceteris paribus, la rationalité des agents, l'existence d'un marché, la recherche de l'équilibre
 >
 > **a)** — c) liste les **hypothèses** de l'économie, pas les intérêts du raisonnement : c'est la confusion à ne pas faire. → [[#Les quatre intérêts]]
 
 > [!question]- Les trois hypothèses en économie :
-> a) parcimonie, incertitude, agrégation
-> b) **ceteris paribus**, **rationalité**, **marché**
-> c) rareté, optimalité, équilibre
+> a) la parcimonie du modèle, la prise en compte de l'incertitude, l'agrégation des comportements
+> b) ceteris paribus, rationalité, marché
+> c) la rareté des ressources, l'optimalité des choix, l'équilibre des marchés
 >
 > **b)** — a) reprend des intérêts du raisonnement hypothético-déductif, pas des hypothèses. → [[#Les hypothèses en économie]]
 
 > [!question]- Les quatre caractéristiques d'un modèle :
-> a) exhaustif, chiffré, testé, publié
-> b) représentation **simplifiée** de la réalité, **éléments saillants**, **basé sur des hypothèses**, **pouvoir prédictif**
-> c) simplifié, réaliste, empirique, neutre
+> a) une représentation exhaustive de la réalité, chiffrée, testée sur les données, publiée
+> b) représentation simplifiée de la réalité, éléments saillants, basé sur des hypothèses, pouvoir prédictif
+> c) une représentation simplifiée de la réalité, réaliste, construite sur des données, neutre
 >
 > **b)** — un modèle n'est pas réaliste et ne cherche pas à l'être : il retient les éléments saillants, ce qui élimine a) et c). → [[#1.4 Le modèle]]
 
 > [!question]- Entre causalité et corrélation, l'implication va :
-> a) de la corrélation vers la causalité, et pas l'inverse
-> b) dans les deux sens
-> c) de la **causalité vers la corrélation** ; la corrélation **n'implique pas** la causalité
+> a) de la corrélation vers la causalité : deux variables liées le sont pour une raison
+> b) dans les deux sens : chacune des deux implications est vraie
+> c) de la causalité vers la corrélation ; la corrélation n'implique pas la causalité
 >
 > **c)** — a) est l'erreur classique, et c'est elle que le cours passe son temps à démonter. → [[#1.5 L'approche empirique : causalité et corrélation]]
 
 > [!question]- Le contre-exemple des dépenses de santé montre que :
-> a) l'Allemagne dépense davantage, d'où sa mortalité plus faible
-> b) la France et l'Allemagne dépensent **la même somme**, mais les Allemands ont beaucoup **moins de morts**
-> c) dépenser plus réduit la mortalité, comme on s'y attend
+> a) l'Allemagne dépense davantage que la France, ce qui explique sa mortalité plus faible
+> b) la France et l'Allemagne dépensent la même somme, mais les Allemands ont beaucoup moins de morts
+> c) dépenser plus réduit la mortalité, et le graphique confirme ce qu'on attendait
 >
 > **b)** — on voudrait conclure que dépenser réduit la mortalité ; le graphique montre l'inverse, à dépense égale. → [[#1.5 L'approche empirique : causalité et corrélation]]
 
 > [!question]- L'idéologie fausse le raisonnement économique de trois façons :
-> a) **hypothèses fausses**, **raisonnement faux**, **économistes en désaccord** même avec la même méthode
-> b) données truquées, modèles trop simples, conclusions pressées
-> c) variable manquante, confusion des niveaux, confusion corrélation / causalité
+> a) hypothèses fausses, raisonnement faux, économistes en désaccord même avec la même méthode
+> b) des données truquées, des modèles trop simples, des conclusions tirées trop vite
+> c) une variable manquante, une confusion des niveaux d'analyse, une confusion entre corrélation et causalité
 >
 > **a)** — c) liste les **autres** erreurs de raisonnement, celles qui n'ont rien d'idéologique. → [[#L'idéologie peut fausser le raisonnement économique]]
 
 > [!question]- Les trois autres erreurs de raisonnement :
-> a) hypothèses fausses, raisonnement faux, désaccord entre économistes
-> b) **variable manquante ou ignorée**, **confusion des niveaux d'analyse**, **confusion corrélation / causalité**
-> c) échantillon trop petit, biais de sélection, effet d'annonce
+> a) des hypothèses fausses, un raisonnement faux, un désaccord entre économistes de même méthode
+> b) une variable manquante ou ignorée, une confusion des niveaux d'analyse, une confusion entre corrélation et causalité
+> c) un échantillon trop petit, un biais de sélection, un effet d'annonce
 >
 > **b)** — a) est la liste des façons dont l'**idéologie** fausse le raisonnement : les deux listes se ressemblent, elles ne se remplacent pas. → [[#Les autres erreurs de raisonnement]]
 
 > [!question]- Les trois exemples de débats donnés en cours :
-> a) les **35 heures**, la **TVA sur la restauration**, les **nationalisations et privatisations**
-> b) les 35 heures, le SMIC, la dette publique
-> c) la TVA sur la restauration, les retraites, le chômage
+> a) les 35 heures, la TVA sur la restauration, les nationalisations et privatisations
+> b) les 35 heures, le niveau du SMIC, la soutenabilité de la dette publique
+> c) la TVA sur la restauration, la réforme des retraites, l'indemnisation du chômage
 >
 > **a)** — trois débats où la même méthode mène à des conclusions opposées. → [[#Les exemples du cours]]
 
 > [!question]- La baisse de TVA sur la restauration a produit :
-> a) la baisse des prix sur la carte annoncée
-> b) les embauches annoncées
-> c) **ni l'une ni les autres** : seulement une **meilleure marge**
+> a) la baisse des prix sur la carte, telle qu'elle avait été annoncée
+> b) les embauches dans la restauration, telles qu'elles avaient été annoncées
+> c) ni l'une ni les autres : seulement une meilleure marge
 >
 > **c)** — l'écart entre l'effet annoncé et l'effet constaté est tout l'intérêt de l'exemple. → [[#Les exemples du cours]]
 
 **Réaliser un travail universitaire**
 
 > [!question]- Les quatre règles du travail universitaire :
-> a) **résumé clair**, **problématique / hypothèses**, **graphique**, **sources précises**
-> b) plan apparent, style neutre, bibliographie, annexes
-> c) résumé, introduction, développement, conclusion
+> a) résumé clair, problématique / hypothèses, graphique, sources précises
+> b) un plan apparent, un style neutre, une bibliographie, des annexes
+> c) un résumé, une introduction, un développement, une conclusion
 >
 > **a)** — c) décrit un plan de copie, pas des règles de travail. → [[#2.1 Les règles]]
 
 > [!question]- Ces quatre règles servent :
-> a) à la note et au classement
-> b) à la **crédibilité** et à l'**information**
-> c) à la clarté et à la concision
+> a) à la note obtenue et au classement dans la promotion
+> b) à la crédibilité du travail et à l'information du lecteur
+> c) à la clarté de l'exposé et à la concision du propos
 >
 > **b)** — deux mots seulement, et ils disent à qui l'on s'adresse : un lecteur qu'il faut convaincre et informer. → [[#2.1 Les règles]]
 
 > [!question]- On écrit un résumé pour trois raisons :
 > a) gagner du temps au lecteur, annoncer le plan, donner la conclusion
 > b) respecter le format, montrer ses sources, poser la problématique
-> c) **donner envie de lire**, **faire passer un message**, **montrer qu'on maîtrise son sujet**
+> c) donner envie de lire, faire passer un message, montrer qu'on maîtrise son sujet
 >
 > **c)** — le résumé n'annonce pas le plan : il donne envie et prouve la maîtrise. → [[#2.2 Le résumé]]
 
 > [!question]- Un résumé s'écrit en :
-> a) notant les **idées principales**, une par paragraphe ; **évitant** les formules et informations inutiles ; utilisant **éventuellement les abréviations**
-> b) reprenant l'introduction et la conclusion, en supprimant les exemples
-> c) citant les passages les plus importants du texte
+> a) notant les idées principales, une par paragraphe ; évitant les formules et informations inutiles ; utilisant éventuellement les abréviations
+> b) reprenant l'introduction et la conclusion du texte, et en supprimant les exemples et les données
+> c) citant mot à mot les passages les plus importants, dans l'ordre où ils apparaissent
 >
 > **a)** — c) est du copié-collé, l'une des trois erreurs à éviter. → [[#2.2 Le résumé]]
 
 > [!question]- La première partie lue dans un travail, c'est :
 > a) l'introduction
-> b) le **résumé**
+> b) le résumé
 > c) la conclusion
 >
 > **b)** — c'est la raison pour laquelle il doit donner envie de lire la suite. → [[#2.2 Le résumé]]
 
 > [!question]- Les trois erreurs à éviter dans un résumé :
-> a) les abréviations, les chiffres, les citations longues
-> b) le **copié-collé**, les **fautes d'orthographe**, « **le professeur nous dit que…** »
-> c) le plan apparent, le style familier, l'absence de sources
+> a) les abréviations, les chiffres cités de mémoire, les citations trop longues
+> b) le copié-collé, les fautes d'orthographe, « le professeur nous dit que… »
+> c) le plan apparent, le style familier, l'absence de sources précises
 >
 > **b)** — les abréviations sont au contraire autorisées ; et « le professeur nous dit que… » est fautif parce que le travail doit être le nôtre. → [[#2.2 Le résumé]]
 
 **Les compléments — hors de tes notes, à confirmer en cours**
 
 > [!question]- L'allocation, c'est :
-> a) la part du budget consacrée à un poste de dépense
-> b) la **répartition des ressources disponibles entre les usages** qui se les disputent
-> c) l'attribution d'une aide publique à un ménage
+> a) la part du budget qu'un agent consacre à un poste de dépense donné
+> b) la répartition des ressources disponibles entre les usages qui se les disputent
+> c) l'attribution d'une aide publique à un ménage, selon ses ressources
 >
 > **b)** — ce n'est pas dans tes notes : tu avais écrit « chercher la vraie def ». → [[#Ce que j'ai complété]]
 
 > [!question]- *Ceteris paribus* veut dire :
-> a) « **toutes choses égales par ailleurs** » : on gèle tout le reste pour n'observer que l'effet de la variable étudiée
-> b) « en moyenne et sur longue période »
-> c) « sous réserve que les agents soient rationnels »
+> a) « toutes choses égales par ailleurs » : on gèle tout le reste pour n'observer que l'effet de la variable étudiée
+> b) « en moyenne et sur longue période » : on lisse les variations pour dégager une tendance
+> c) « sous réserve que les agents soient rationnels » : on suppose le modèle de comportement standard
 >
 > **a)** — c) est une autre hypothèse du cours, la rationalité : les trois hypothèses ne se confondent pas. → [[#Ce que j'ai complété]]
 
 > [!question]- La rationalité limitée, c'est :
-> a) l'agent optimise, mais son information est incomplète
-> b) l'agent **n'optimise pas** : information, temps et capacité de calcul bornés, il s'arrête à la première solution **satisfaisante**
-> c) l'agent se trompe systématiquement dans le même sens
+> a) l'agent optimise quand même, mais son information étant incomplète, il se trompe parfois
+> b) l'agent n'optimise pas : information, temps et capacité de calcul bornés, il s'arrête à la première solution satisfaisante
+> c) l'agent se trompe systématiquement dans le même sens, par un écart régulier au calcul rationnel
 >
 > **b)** — c) décrit le **biais systématique**, l'autre écart au modèle rationnel ; a) garde l'optimisation, qui est précisément ce qui saute. → [[#Ce que j'ai complété]]
 
 > [!question]- L'exemple type de la confusion des niveaux d'analyse :
-> a) le trait du milieu et les chevrons
-> b) les dépenses de santé France / Allemagne
-> c) **se lever dans un stade pour mieux voir** : ça marche pour **un** spectateur, pas si **tous** se lèvent
+> a) le trait du milieu et les chevrons, qui trompent sur la position du centre
+> b) les dépenses de santé de la France et de l'Allemagne, à montant égal
+> c) se lever dans un stade pour mieux voir : ça marche pour un spectateur, pas si tous se lèvent
 >
 > **c)** — cet exemple-là est un cas classique, pas celui de ton prof : c'est un ajout, pas une note d'amphi. → [[#Ce que j'ai complété]]
 

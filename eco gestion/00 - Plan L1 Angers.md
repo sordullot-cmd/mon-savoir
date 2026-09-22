@@ -167,7 +167,7 @@ QCM — **une seule bonne réponse**. Choisis avant d'ouvrir le callout.
 
 > [!question]- Le contrôle continu pèse, sur les 62 coefficients de l'année :
 > a) 14 coefficients, soit 23 %
-> b) **24 coefficients, soit 39 %**
+> b) 24 coefficients, soit 39 %
 > c) 10 coefficients, soit 16 %
 > d) aucune des propositions n'est exacte
 >
@@ -175,8 +175,8 @@ QCM — **une seule bonne réponse**. Choisis avant d'ouvrir le callout.
 
 > [!question]- Les deux socles ne se compensent pas. Cela veut dire que :
 > a) une bonne moyenne au socle fondamental (46 ECTS) ne rattrape pas le socle transversal (14 ECTS), et inversement
-> b) les notes de CC ne compensent pas celles de CT
-> c) une note inférieure à 8 dans une UE bloque l'année entière
+> b) les notes de contrôle continu ne compensent pas celles de contrôle terminal, dans aucune UE
+> c) une note inférieure à 8 dans une seule UE bloque la validation de l'année entière
 > d) aucune des propositions n'est exacte
 >
 > **a)** — deux diplômes indépendants : 15 de moyenne en macro-micro-compta ne rattrapera jamais un 8 en anglais-droit-socio. → [[#🔴 Les deux règles qui décident de ton année]]
@@ -192,15 +192,15 @@ QCM — **une seule bonne réponse**. Choisis avant d'ouvrir le callout.
 > [!question]- Les cinq blocs de la semaine et leur durée :
 > a) 4 sessions techniques (6 h) · 2 sessions de fond (3 h) · 1 session de production (1 h 30) · Anki (1 h 45) · journal de conjoncture (30 min)
 > b) 4 sessions techniques (6 h) · 2 sessions de fond (3 h) · 1 session de production (1 h 30) · Anki (1 h) · journal de conjoncture (1 h)
-> c) 6 sessions techniques (9 h) · 1 session de fond (1 h 30) · Anki (1 h 45) · journal (30 min)
+> c) 6 sessions techniques (9 h) · 1 session de fond (1 h 30) · Anki (1 h 45) · journal de conjoncture (30 min)
 > d) aucune des propositions n'est exacte
 >
 > **a)** — l'Anki se fait en **7 × 15 min**, une fois par jour, et le journal le dimanche. Le total annoncé est 12 h, et ta fiche signale elle-même qu'il tombe à 12 h 45. → [[#🧭 L'architecture de ta semaine (12 h)]]
 
 > [!question]- Ce qu'on ne met **jamais** en carte Anki :
-> a) les définitions
-> b) les formules et les dates
-> c) les procédures
+> a) les définitions du cours, une fois reformulées
+> b) les formules et les dates, recto-verso
+> c) les procédures, découpées en étapes
 > d) aucune des propositions n'est exacte
 >
 > **d)** — a), b) et c) sont précisément ce qu'Anki stocke. Ce qui n'y entre jamais, c'est un **raisonnement** : il s'entraîne par exercices. → [[#🃏 Le plan Anki]]

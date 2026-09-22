@@ -670,47 +670,47 @@ qu'après **trois** réponses justes à des jours d'écart — voir [[#🔄 Comm
 **La gestion, les organisations**
 
 > [!question]- La gestion, c'est :
-> a) l'action ou la manière de **gérer, d'administrer, d'organiser** quelque chose
-> b) **en mobilisant des ressources**
+> a) l'action ou la manière de gérer, d'administrer, d'organiser quelque chose
+> b) en mobilisant des ressources
 > c) la direction d'une entreprise par ses actionnaires
 > d) l'art de parvenir à son objectif malgré la volonté de l'autre
 >
 > **a et b** — les deux moitiés de la définition, et les trois verbes : organiser · administrer · mobiliser des ressources. d) est la définition de la **stratégie**, pas de la gestion. → [[#1. Gérer, c'est mobiliser des ressources]]
 
 > [!question]- La gestion concerne :
-> a) les entreprises privées uniquement
-> b) les entreprises et les administrations
-> c) **toute forme d'organisation** : administration, association, ONG, PME, grand groupe
-> d) les seules organisations à but lucratif
+> a) les entreprises privées uniquement, quelle que soit leur taille
+> b) les entreprises et les administrations, mais pas le secteur associatif
+> c) toute forme d'organisation : administration, association, ONG, PME, grand groupe
+> d) les seules organisations à but lucratif, dont la gestion vise le profit
 >
 > **c)** — dès qu'un collectif poursuit un but commun, il faut décider qui fait quoi, avec quels moyens et selon quelles règles. → [[#1. Gérer, c'est mobiliser des ressources]]
 
 > [!question]- Parmi ces ressources, laquelle ne figure **pas** dans les cinq familles du cours ?
 > a) informationnelles
 > b) technologiques
-> c) **naturelles**
+> c) naturelles
 > d) matérielles
 >
 > **c)** — les cinq sont humaines, financières, matérielles, **informationnelles**, technologiques. L'informationnelle est celle qu'on oublie en récitant. → [[#1. Gérer, c'est mobiliser des ressources]]
 
 > [!question]- L'intérêt d'étudier la gestion est double :
-> a) **professionnel** : tu évolueras dans une organisation et en piloteras une partie
-> b) **citoyen** : elle éclaire le fonctionnement des entreprises, des services publics et des associations
+> a) professionnel : tu évolueras dans une organisation et en piloteras une partie
+> b) citoyen : elle éclaire le fonctionnement des entreprises, des services publics et des associations
 > c) académique : elle est le socle de la théorie économique
 > d) juridique : elle donne le droit des sociétés
 >
 > **a et b** — deux raisons, pas quatre. → [[#1. Gérer, c'est mobiliser des ressources]]
 
 > [!question]- Les trois grandes familles d'organisations :
-> a) les organisations **publiques** — ministères, Sécurité sociale, hôpitaux, Éducation nationale
-> b) les **entreprises**, publiques ou privées
-> c) l'**ESS**, à but non lucratif
+> a) les organisations publiques — ministères, Sécurité sociale, hôpitaux, Éducation nationale
+> b) les entreprises, publiques ou privées
+> c) l'ESS, à but non lucratif
 > d) les organisations internationales
 >
 > **a, b et c** — trois familles, et l'ESS est définie par son but non lucratif, pas par sa taille. → [[#2. Les 3 types d'organisations]]
 
 > [!question]- L'ESS regroupe, et la loi citée pour les fondations est :
-> a) associations, coopératives, mutuelles, syndicats, fondations — **loi du 31 juillet 2014**
+> a) associations, coopératives, mutuelles, syndicats, fondations — loi du 31 juillet 2014
 > b) associations et fondations seulement — loi du 14 février 2022
 > c) associations, coopératives, mutuelles, syndicats, fondations — loi du 14 février 2022
 > d) coopératives et mutuelles — loi du 31 juillet 2014
@@ -719,32 +719,32 @@ qu'après **trois** réponses justes à des jours d'écart — voir [[#🔄 Comm
 
 > [!question]- Une entreprise est publique quand :
 > a) elle assure une mission de service public
-> b) l'État détient **plus de 50 % du capital**
+> b) l'État détient plus de 50 % du capital
 > c) elle est financée par des subventions
 > d) elle est dirigée par un fonctionnaire
 >
 > **b)** — c'est un critère de **capital**, pas de mission : a) décrit une finalité, qu'une entreprise privée peut aussi porter. → [[#2. Les 3 types d'organisations]]
 
 > [!question]- L'exemple d'Emmaüs Solidarité montre que :
-> a) comme les entreprises, les associations doivent **gérer des ressources rares** — dons, subventions, bénévoles
+> a) comme les entreprises, les associations doivent gérer des ressources rares — dons, subventions, bénévoles
 > b) les associations échappent aux contraintes de gestion
-> c) on comptait **1,6 million** d'associations actives en 2025, avec des subventions en baisse
+> c) on comptait 1,6 million d'associations actives en 2025, avec des subventions en baisse
 > d) la hausse du carburant a pesé sur leur activité
 >
 > **a, c et d** — c'est l'exemple qui justifie que la gestion ne se limite pas à l'entreprise. → [[#2. Les 3 types d'organisations]]
 
 > [!question]- Toute organisation réunit :
-> a) un **objectif** — Decathlon : faire connaître le sport ; Facebook : connecter les gens
-> b) une **mobilisation d'individus** qui s'approprient ce but
-> c) une **structure** qui oriente les comportements
+> a) un objectif — Decathlon : faire connaître le sport ; Facebook : connecter les gens
+> b) une mobilisation d'individus qui s'approprient ce but
+> c) une structure qui oriente les comportements
 > d) un capital social
 >
 > **a, b et c** — le capital social est un attribut de la **société**, pas de l'organisation en général. → [[#3. Ce qui fait une organisation, et sa finalité]]
 
 > [!question]- Les finalités possibles d'une organisation :
-> a) **service public**
-> b) **économique** : créer de la valeur
-> c) **sociétal** : humanitaire, culturel, éducatif
+> a) service public
+> b) économique : créer de la valeur
+> c) sociétal : humanitaire, culturel, éducatif
 > d) concurrentielle : prendre des parts de marché
 >
 > **a, b et c** — et elles se cumulent : L'Oréal est l'exemple du cours d'une double finalité économique **et** sociétale. → [[#3. Ce qui fait une organisation, et sa finalité]]
@@ -760,32 +760,32 @@ qu'après **trois** réponses justes à des jours d'écart — voir [[#🔄 Comm
 **Décider, piloter**
 
 > [!question]- Le déploiement des ressources répond à trois questions :
-> a) **quoi**, **qui**, **comment**
+> a) quoi, qui, comment
 > b) quoi, où, quand
-> c) le « comment » recouvre les **méthodes**, les **outils**, le **pilotage**
+> c) le « comment » recouvre les méthodes, les outils, le pilotage
 > d) le « comment » recouvre le budget annuel
 >
 > **a et c** — « qui » porte sur les acteurs et la répartition des rôles. → [[#4. Déployer des ressources pour atteindre ses objectifs]]
 
 > [!question]- Le niveau stratégique s'oppose au niveau opérationnel par :
-> a) l'**horizon** : long terme contre court terme
-> b) la **réversibilité** : irréversible contre réversible et proche du terrain
-> c) les **acteurs** : actionnaires contre cadres intermédiaires dans leur secteur
+> a) l'horizon : long terme contre court terme
+> b) la réversibilité : irréversible contre réversible et proche du terrain
+> c) les acteurs : actionnaires contre cadres intermédiaires dans leur secteur
 > d) la fréquence : les décisions stratégiques sont les plus fréquentes
 >
 > **a, b et c** — d) est inversé : plus on descend vers l'opérationnel, **plus** les décisions sont fréquentes. → [[#5. Les différents niveaux de gestion]]
 
 > [!question]- Les décisions stratégiques concernent d'abord les actionnaires parce que :
-> a) ils sont sensibles à la **rentabilité** et à la **performance** de l'entreprise
-> b) ces décisions engagent le long terme de façon **irréversible**
+> a) ils sont sensibles à la rentabilité et à la performance de l'entreprise
+> b) ces décisions engagent le long terme de façon irréversible
 > c) ils dirigent l'entreprise au quotidien
 > d) la loi leur réserve ce pouvoir
 >
 > **a et b** — c) décrit les cadres, pas les actionnaires. → [[#5. Les différents niveaux de gestion]]
 
 > [!question]- La stratégie :
-> a) l'art de parvenir à son objectif **malgré la volonté de l'autre**, dans des circonstances éminemment variables
-> b) illustrée en cours par **Napoléon à Waterloo** et un **jeu de compétition télévisé**
+> a) l'art de parvenir à son objectif malgré la volonté de l'autre, dans des circonstances éminemment variables
+> b) illustrée en cours par Napoléon à Waterloo et un jeu de compétition télévisé
 > c) l'action de gérer et d'administrer en mobilisant des ressources
 > d) illustrée en cours par l'exemple de Decathlon
 >
@@ -793,24 +793,24 @@ qu'après **trois** réponses justes à des jours d'écart — voir [[#🔄 Comm
 
 > [!question]- La définition « déterminer les **buts et les objectifs à long terme** de l'entreprise, et choisir les **actions et les ressources** pour les atteindre » :
 > a) est celle de la stratégie
-> b) est de **A. D. Chandler**
+> b) est de A. D. Chandler
 > c) est de Calori et al., 1989
 > d) est celle du développement durable
 >
 > **a et b** — Calori et al. 1989, c'est la **culture d'entreprise** ; le développement durable vient du rapport Brundtland. → [[#6. La stratégie]]
 
 > [!question]- La chaîne de pilotage :
-> a) réflexion stratégique → **plan LMT** → **lettre de cadrage** → **budget**
+> a) réflexion stratégique → plan LMT → lettre de cadrage → budget
 > b) budget → lettre de cadrage → plan LMT → réflexion stratégique
-> c) on y glisse du **stratégique vers l'opérationnel**
+> c) on y glisse du stratégique vers l'opérationnel
 > d) la lettre de cadrage fixe la mission de l'année à venir
 >
 > **a, c et d** — l'ordre est aussi un dégradé d'horizon : du long terme à l'année. → [[#6. La stratégie]]
 
 > [!question]- Le cycle de produit :
-> a) **concevoir** (*make or buy*), **produire**, **vendre**, **administrer**
+> a) concevoir (*make or buy*), produire, vendre, administrer
 > b) concevoir, produire, vendre, administrer, piloter
-> c) le pilotage est **transversal** : direction générale et contrôle de gestion
+> c) le pilotage est transversal : direction générale et contrôle de gestion
 > d) la décision de la première étape est le *make or buy*
 >
 > **a, c et d** — b) fait du pilotage une **cinquième étape** : c'est l'erreur que la question teste. → [[#7. Le cycle de produit]]
@@ -826,8 +826,8 @@ qu'après **trois** réponses justes à des jours d'écart — voir [[#🔄 Comm
 **L'entreprise**
 
 > [!question]- La définition **classique** de l'entreprise :
-> a) une **organisation animée par un projet**, décliné en stratégie, politiques et plans d'action
-> b) dont le but est de **produire et vendre des biens ou services** à des clients ou usagers **en réalisant un bénéfice**
+> a) une organisation animée par un projet, décliné en stratégie, politiques et plans d'action
+> b) dont le but est de produire et vendre des biens ou services à des clients ou usagers en réalisant un bénéfice
 > c) en préservant les ressources de la planète et en augmentant le bien-être de la population
 > d) une personne morale dotée d'un patrimoine propre
 >
@@ -835,30 +835,30 @@ qu'après **trois** réponses justes à des jours d'écart — voir [[#🔄 Comm
 
 > [!question]- Le développement durable :
 > a) « un mode de développement qui répond aux besoins du présent sans compromettre la capacité des générations futures à répondre aux leurs »
-> b) **rapport Brundtland, 1987**
-> c) est un terme d'**économie**, quand la RSE est un terme de **gestion**
+> b) rapport Brundtland, 1987
+> c) est un terme d'économie, quand la RSE est un terme de gestion
 > d) est un terme de gestion, quand la RSE est un terme d'économie
 >
 > **a, b et c** — la paire économie / gestion est exactement ce que d) inverse. → [[#9. Le principe du développement durable]]
 
 > [!question]- Dans le schéma du développement durable :
-> a) environnement + social = **vivable**
-> b) économie + social = **équitable**
-> c) économie + environnement = **viable**
+> a) environnement + social = vivable
+> b) économie + social = équitable
+> c) économie + environnement = viable
 > d) économie + social = viable
 >
 > **a, b et c** — et les trois ensemble donnent **durable**. → [[#9. Le principe du développement durable]]
 
 > [!question]- La structure **formelle** :
-> a) se lit dans l'**organigramme**
-> b) se divise **verticalement** (hiérarchie) et **horizontalement** (fonctions)
-> c) oblige, dès qu'on divise le travail, à un **système de coordination** — règlements, procédures, structure d'autorité
+> a) se lit dans l'organigramme
+> b) se divise verticalement (hiérarchie) et horizontalement (fonctions)
+> c) oblige, dès qu'on divise le travail, à un système de coordination — règlements, procédures, structure d'autorité
 > d) repose sur des liens d'affinité hors organigramme
 >
 > **a, b et c** — d) décrit la structure **informelle**. → [[#a) (1/3) Formelle et informelle]]
 
 > [!question]- La structure **informelle** :
-> a) des **liens « fluides »** hors organigramme, aux intérêts multiples
+> a) des liens « fluides » hors organigramme, aux intérêts multiples
 > b) affinités, réseaux d'entraide, circuits d'information
 > c) l'exemple du cours : la place des étudiants en cours
 > d) l'exemple du cours : l'organigramme de Decathlon
@@ -866,15 +866,15 @@ qu'après **trois** réponses justes à des jours d'écart — voir [[#🔄 Comm
 > **a, b et c** — un organigramme est par définition formel : c'est ce qui rend d) faux. → [[#a) (1/3) Formelle et informelle]]
 
 > [!question]- La culture d'entreprise :
-> a) un ensemble lié de manières de **penser, sentir et agir**, plus ou moins formalisé, partagé par une pluralité de personnes
-> b) niveau **conscient** : formule stratégique, pratiques de management, symboles
-> c) niveau **inconscient** : valeurs, postulats de base
+> a) un ensemble lié de manières de penser, sentir et agir, plus ou moins formalisé, partagé par une pluralité de personnes
+> b) niveau conscient : formule stratégique, pratiques de management, symboles
+> c) niveau inconscient : valeurs, postulats de base
 > d) d'après Chandler, 1962
 >
 > **a, b et c** — la source est **Calori et al., 1989** ; Chandler, c'est la stratégie. → [[#b) (2/3) La culture d'entreprise]]
 
 > [!question]- L'entreprise comme système technique :
-> a) **matières premières + travail + moyens de production → PROCESS → production de biens et de services**
+> a) matières premières + travail + moyens de production → PROCESS → production de biens et de services
 > b) matières premières → production → vente → bénéfice
 > c) le process transforme les entrées en sorties
 > d) les moyens de production font partie des entrées
@@ -884,9 +884,9 @@ qu'après **trois** réponses justes à des jours d'écart — voir [[#🔄 Comm
 **Classer les entreprises**
 
 > [!question]- Les trois critères de classement des entreprises :
-> a) la **taille**, selon les seuils INSEE
-> b) le **secteur d'activité**
-> c) le **statut juridique**
+> a) la taille, selon les seuils INSEE
+> b) le secteur d'activité
+> c) le statut juridique
 > d) le chiffre d'affaires réalisé à l'export
 >
 > **a, b et c** — dans cet ordre dans le cours. → [[#11. Classement des entreprises]]
@@ -895,54 +895,54 @@ qu'après **trois** réponses justes à des jours d'écart — voir [[#🔄 Comm
 > a) MIC : moins de 10 salariés
 > b) PME : moins de 250 salariés
 > c) ETI : moins de 5 000 salariés
-> d) **GE : plus de 10 000 salariés**
+> d) GE : plus de 10 000 salariés
 >
 > **d)** — la grande entreprise commence **au-delà de 5 000** salariés, là où s'arrête l'ETI. → [[#a) Selon un critère de taille — 4 catégories INSEE]]
 
 > [!question]- Sur le poids des catégories INSEE :
-> a) les MIC font **96,3 %** des entreprises mais **17 %** des effectifs
-> b) les GE font **0,006 %** des entreprises et **28 %** des effectifs
-> c) on compte environ **5,2 millions** d'entreprises (Insee Focus n° 372, données 2023)
+> a) les MIC font 96,3 % des entreprises mais 17 % des effectifs
+> b) les GE font 0,006 % des entreprises et 28 % des effectifs
+> c) on compte environ 5,2 millions d'entreprises (Insee Focus n° 372, données 2023)
 > d) les PME concentrent à elles seules la moitié des effectifs
 >
 > **a, b et c** — les PME font 3,4 % des entreprises et **29 %** des effectifs : pas la moitié. → [[#a) Selon un critère de taille — 4 catégories INSEE]]
 
 > [!question]- Les trois secteurs d'activité et leur poids :
-> a) primaire **2,5 %** : agriculture, pêche, forêts
-> b) secondaire **20 %** = industrie **13,3 %** + construction **6,7 %**
-> c) tertiaire **76,1 %** : commerce, services
+> a) primaire 2,5 % : agriculture, pêche, forêts
+> b) secondaire 20 % = industrie 13,3 % + construction 6,7 %
+> c) tertiaire 76,1 % : commerce, services
 > d) secondaire 20 % = industrie 6,7 % + construction 13,3 %
 >
 > **a, b et c** — d) intervertit les deux moitiés du secondaire : l'industrie pèse le double de la construction. → [[#b) Selon le secteur d'activité]]
 
 > [!question]- Entreprise individuelle et société :
-> a) l'EI n'a **pas de personne morale distincte** → imposition à l'**IR**
-> b) la société est une **personne morale**, avec son patrimoine propre et un capital social → **IS** en général
+> a) l'EI n'a pas de personne morale distincte → imposition à l'IR
+> b) la société est une personne morale, avec son patrimoine propre et un capital social → IS en général
 > c) en société, la responsabilité est limitée aux apports
 > d) l'EI est imposée à l'IS
 >
 > **a, b et c** — les deux questions du choix de statut se lisent là : responsabilité, puis régime d'imposition. → [[#c) Selon le statut juridique]]
 
 > [!question]- Selon le nombre d'associés :
-> a) un seul associé : **EURL**, **SASU**
-> b) plusieurs associés : **SARL**, **SAS**, **SA**
+> a) un seul associé : EURL, SASU
+> b) plusieurs associés : SARL, SAS, SA
 > c) un seul associé : EURL, SARL
 > d) plusieurs associés : SASU, SA
 >
 > **a et b** — le **U** de EURL et de SASU est celui d'« unipersonnelle » : c'est le repère qui évite c) et d). → [[#c) Selon le statut juridique]]
 
 > [!question]- Pour choisir un statut juridique, on se pose :
-> a) ma responsabilité doit-elle être **limitée au capital apporté**, ou liée à mon activité en tant que personne ?
-> b) vais-je **m'associer** ou entreprendre **seul** ?
+> a) ma responsabilité doit-elle être limitée au capital apporté, ou liée à mon activité en tant que personne ?
+> b) vais-je m'associer ou entreprendre seul ?
 > c) quel chiffre d'affaires vais-je réaliser la première année ?
-> d) l'**IR ou l'IS** en découle
+> d) l'IR ou l'IS en découle
 >
 > **a, b et d** — deux questions, et le régime fiscal n'est pas un choix séparé : il suit. → [[#c) Selon le statut juridique]]
 
 > [!question]- L'EIRL :
-> a) a été supprimée par la **loi du 14 février 2022**, en vigueur le **15 mai 2022**
-> b) est remplacée par un **statut unique de l'entreprise individuelle**
-> c) ce statut protège **automatiquement** le patrimoine personnel, sans démarche
+> a) a été supprimée par la loi du 14 février 2022, en vigueur le 15 mai 2022
+> b) est remplacée par un statut unique de l'entreprise individuelle
+> c) ce statut protège automatiquement le patrimoine personnel, sans démarche
 > d) a été supprimée par la loi du 31 juillet 2014
 >
 > **a, b et c** — le 31 juillet 2014, c'est la loi de l'**ESS**. Le mot qui compte en c) est « automatiquement » : c'est ce qui change pour l'entrepreneur. → [[#c) Selon le statut juridique]]
@@ -958,33 +958,33 @@ qu'après **trois** réponses justes à des jours d'écart — voir [[#🔄 Comm
 > **a, b et d** — c) est la liste des problèmes de la **grande entreprise**. → [[#a) L'âge et la taille de l'entreprise]]
 
 > [!question]- Trésorerie et licorne :
-> a) trésorerie : l'argent **immédiatement disponible** pour les dépenses quotidiennes
-> b) licorne : startup valorisée à **plus d'un milliard de dollars**
-> c) exemples français : **Doctolib, Mistral, Lydia** ; 25 à 30 en France
+> a) trésorerie : l'argent immédiatement disponible pour les dépenses quotidiennes
+> b) licorne : startup valorisée à plus d'un milliard de dollars
+> c) exemples français : Doctolib, Mistral, Lydia ; 25 à 30 en France
 > d) licorne : entreprise cotée en bourse depuis moins d'un an
 >
 > **a, b et c** — une licorne est justement **non cotée** : c'est ce qui rend d) faux. → [[#a) L'âge et la taille de l'entreprise]]
 
 > [!question]- Produire des **services** plutôt que des biens, c'est :
 > a) une immatérialité difficile à évaluer
-> b) la **participation du client à la production**
+> b) la participation du client à la production
 > c) une industrie capitalistique, des enjeux de productivité, une concurrence internationale
 > d) une productivité plus limitée et des tensions de recrutement
 >
 > **a, b et d** — c) décrit la production de **biens**. → [[#b) Produire des biens et/ou des services ?]]
 
 > [!question]- Les enjeux de gestion d'une organisation publique :
-> a) concilier **mission de service public** et **équilibre budgétaire**
-> b) une transposition **partielle** des outils de gestion des entreprises
-> c) un mode d'intervention parfois **délégué au privé**
+> a) concilier mission de service public et équilibre budgétaire
+> b) une transposition partielle des outils de gestion des entreprises
+> c) un mode d'intervention parfois délégué au privé
 > d) une transposition intégrale des outils de gestion des entreprises
 >
 > **a, b et c** — « partielle » contre « intégrale » : un mot, et la réponse bascule. → [[#c) Le secteur public]]
 
 > [!question]- La gestion associative se caractérise par :
-> a) la **dépendance aux ressources** — dons, subventions, mécénat
-> b) la **concurrence** entre associations pour ces ressources
-> c) la **mutation des formes d'engagement bénévole**
+> a) la dépendance aux ressources — dons, subventions, mécénat
+> b) la concurrence entre associations pour ces ressources
+> c) la mutation des formes d'engagement bénévole
 > d) l'absence de concurrence, les associations se partageant les missions
 >
 > **a, b et c** — la concurrence entre associations est contre-intuitive, et c'est pour ça qu'elle tombe. → [[#d) Le secteur associatif]]
@@ -993,47 +993,47 @@ qu'après **trois** réponses justes à des jours d'écart — voir [[#🔄 Comm
 > a) la gestion administre et organise en mobilisant des ressources, dans toute organisation
 > b) l'entreprise produit et vend sur un marché en réalisant un bénéfice, et la définition élargie y ajoute le développement durable
 > c) on classe les entreprises par taille, secteur et statut juridique
-> d) **la gestion est la même quel que soit le contexte**
+> d) la gestion est la même quel que soit le contexte
 >
 > **d)** — le cinquième point dit exactement l'inverse : elle **s'adapte** au contexte — PME, GE, public, associatif. → [[#13. Les points essentiels à retenir]]
 
 **Sur les compléments** — au programme de l'UE, pas encore traités en amphi
 
 > [!question]- La valeur ajoutée :
-> a) **VA = production (chiffre d'affaires) − consommations intermédiaires**
+> a) VA = production (chiffre d'affaires) − consommations intermédiaires
 > b) elle se partage entre salariés, État, prêteurs, actionnaires et l'entreprise
 > c) VA = chiffre d'affaires − salaires
-> d) la part conservée par l'entreprise s'appelle l'**autofinancement**
+> d) la part conservée par l'entreprise s'appelle l'autofinancement
 >
 > **a, b et d** — les salaires ne se retranchent pas du chiffre d'affaires pour obtenir la VA : ils sont l'une des parts **dans** son partage. → [[#La création de valeur : la valeur ajoutée et son partage]]
 
 > [!question]- Efficacité, efficience, pertinence :
-> a) **efficacité** : l'objectif est-il atteint ?
-> b) **efficience** : à quel coût ?
-> c) **pertinence** : les moyens engagés correspondent-ils aux objectifs visés ?
+> a) efficacité : l'objectif est-il atteint ?
+> b) efficience : à quel coût ?
+> c) pertinence : les moyens engagés correspondent-ils aux objectifs visés ?
 > d) efficience : l'objectif visé est-il le bon ?
 >
 > **a, b et c** — l'efficience est une question de **coût**, jamais de choix de l'objectif. → [[#Mesurer la performance : efficacité, efficience, pertinence]]
 
 > [!question]- Cycle d'exploitation et cycle d'investissement :
 > a) exploitation : achats → stockage → production → ventes → encaissement, court terme, répétitif
-> b) exploitation : génère le **BFR**, relève de l'opérationnel
-> c) investissement : acquisition d'immobilisations, long terme, peu réversible, étalé par l'**amortissement**
+> b) exploitation : génère le BFR, relève de l'opérationnel
+> c) investissement : acquisition d'immobilisations, long terme, peu réversible, étalé par l'amortissement
 > d) investissement : relève de l'opérationnel
 >
 > **a, b et c** — l'investissement relève du **stratégique** : long terme et peu réversible, comme toute décision stratégique. → [[#Les deux autres cycles, ceux de la gestion]]
 
 > [!question]- SARL, SAS, SA :
-> a) capital libre pour la SARL et la SAS, **37 000 €** pour la SA
-> b) la SARL émet des **parts sociales**, dont la cession est soumise à **agrément**
-> c) SAS et SA émettent des **actions** librement cessibles
+> a) capital libre pour la SARL et la SAS, 37 000 € pour la SA
+> b) la SARL émet des parts sociales, dont la cession est soumise à agrément
+> c) SAS et SA émettent des actions librement cessibles
 > d) la SAS exige elle aussi un capital minimum de 37 000 €
 >
 > **a, b et c** — la libre cessibilité des actions est la raison pour laquelle on choisit la SAS pour lever des fonds. → [[#d) Les principales formes juridiques, en détail]]
 
 > [!question]- Gérer, c'est arbitrer, parce que :
-> a) les parties prenantes ont des attentes **divergentes**
-> b) elles se disputent la **même valeur ajoutée**
+> a) les parties prenantes ont des attentes divergentes
+> b) elles se disputent la même valeur ajoutée
 > c) un euro de dividende n'est pas un euro de salaire
 > d) la direction décide seule, sans contrainte
 >
@@ -1043,7 +1043,7 @@ qu'après **trois** réponses justes à des jours d'écart — voir [[#🔄 Comm
 > a) production ; commerciale et marketing
 > b) financière et comptable ; ressources humaines
 > c) R&D ; systèmes d'information ; achats et logistique
-> d) **relations publiques**
+> d) relations publiques
 >
 > **d)** — les sept se rangent en fonctions **opérationnelles** (produire et vendre) et **support** (rendre les premières possibles). → [[#Les fonctions de l'entreprise]]
 

@@ -521,13 +521,13 @@ Choisis avant d'ouvrir le callout.
 
 > [!question]- L'épreuve se compose de :
 > a) un écrit d'1 h en deux parties : QCM et question de réflexion
-> b) un écrit de **2 h** en **3 parties** : QCM (**30 %**), questions de cours courtes (**30 %**), question de réflexion
+> b) un écrit de 2 h en 3 parties : QCM (30 %), questions de cours courtes (30 %), question de réflexion
 > c) un écrit de 2 h en 3 parties valant chacune un tiers de la note
 >
 > **b)** — attention à c) : les deux premières parties font 30 % chacune, pas un tiers. Ce que pèse la troisième n'est pas noté, c'est dans `À vérifier`. → [[#Le format du contrôle]]
 
 > [!question]- Dans les questions de cours courtes, on attend :
-> a) des **concepts**, des **mécanismes**, et l'**analyse d'un graphique ou d'un tableau statistique**
+> a) des concepts, des mécanismes, et l'analyse d'un graphique ou d'un tableau statistique
 > b) une dissertation courte, avec introduction et conclusion
 > c) des définitions récitées mot à mot, sans commentaire
 >
@@ -535,7 +535,7 @@ Choisis avant d'ouvrir le callout.
 
 > [!question]- Les concepts et le vocabulaire à connaître sont signalés :
 > a) dans le polycopié distribué en début de semestre
-> b) **en couleur dans les diapos**
+> b) en couleur dans les diapos
 > c) dans la bibliographie du cours
 >
 > **b)** — c'est le lexique de sciences économiques, à réutiliser au maximum dans tes réponses. → [[#Les conseils du prof]]
@@ -543,14 +543,14 @@ Choisis avant d'ouvrir le callout.
 > [!question]- Ce qui s'apprend par cœur, et ce qui se comprend :
 > a) par cœur les théories et les mécanismes ; à comprendre les concepts et le vocabulaire
 > b) tout par cœur : le vocabulaire fait la note
-> c) par cœur les **concepts**, le **vocabulaire**, quelques **faits stylisés** ; à comprendre les **théories** et les **mécanismes**
+> c) par cœur les concepts, le vocabulaire, quelques faits stylisés ; à comprendre les théories et les mécanismes
 >
 > **c)** — a) est exactement l'inverse : c'est le piège. → [[#Les conseils du prof]]
 
 **Que font les économistes, et ce qu'on leur reproche**
 
 > [!question]- Les trois activités des économistes :
-> a) **prédiction** ; **compréhension du fonctionnement de l'économie** ; **conception et évaluation des politiques publiques**
+> a) prédiction ; compréhension du fonctionnement de l'économie ; conception et évaluation des politiques publiques
 > b) observation ; modélisation ; expérimentation
 > c) prédiction ; enseignement ; conseil aux entreprises
 >
@@ -558,7 +558,7 @@ Choisis avant d'ouvrir le callout.
 
 > [!question]- Les économistes prédisent la croissance du PIB, le chômage, l'inflation — et leur prédiction est :
 > a) souvent juste à court terme, fausse à long terme
-> b) **souvent fausse**
+> b) souvent fausse
 > c) fiable depuis l'informatisation des modèles
 >
 > **b)** — le cours ne nuance pas : c'est de là que vient la deuxième critique faite aux économistes. → [[#1. Que font les économistes ?]]
@@ -566,13 +566,13 @@ Choisis avant d'ouvrir le callout.
 > [!question]- Parmi ces politiques publiques, celles que le cours cite comme évaluées :
 > a) la politique monétaire de la BCE, le budget de l'État, la dette publique
 > b) la fixation des prix, la création monétaire, le commerce extérieur
-> c) une **hausse du SMIC** ; une **hausse ou une baisse des impôts** ; la **réforme du lycée** et la réussite à l'université ; le **pass Culture**
+> c) une hausse du SMIC ; une hausse ou une baisse des impôts ; la réforme du lycée et la réussite à l'université ; le pass Culture
 >
 > **c)** — quatre exemples, tous des politiques dont on peut mesurer l'effet sur des personnes. → [[#1. Que font les économistes ?]]
 
 > [!question]- Les trois activités servent, en un mot :
 > a) à prévoir l'avenir
-> b) à **éclairer les décisions collectives**
+> b) à éclairer les décisions collectives
 > c) à conseiller les entreprises
 >
 > **b)** — la prédiction n'est qu'une des trois activités : en faire le but de l'ensemble, c'est le contresens de a). → [[#1. Que font les économistes ?]]
@@ -580,13 +580,13 @@ Choisis avant d'ouvrir le callout.
 > [!question]- Les trois critiques faites aux économistes :
 > a) l'abstraction ; le jargon ; le coût de leurs erreurs
 > b) le manque de données ; l'absence d'expériences ; la lenteur
-> c) la **contradiction** entre eux ; les **prédictions erronées** ; l'**idéologie plutôt que la science**
+> c) la contradiction entre eux ; les prédictions erronées ; l'idéologie plutôt que la science
 >
 > **c)** — trois critiques qui portent sur le métier lui-même, pas sur sa forme. → [[#1. Que font les économistes ?]]
 
 > [!question]- La critique « idéologie plutôt que science » est-elle recevable telle quelle ?
 > a) oui : une idéologie disqualifie la démarche scientifique
-> b) **non : les deux sont compatibles**
+> b) non : les deux sont compatibles
 > c) oui, mais seulement pour la macroéconomie
 >
 > **b)** — une façon de voir le monde n'empêche pas la démarche scientifique. → [[#1. Que font les économistes ?]]
@@ -594,7 +594,7 @@ Choisis avant d'ouvrir le callout.
 **Les trois questions et la rareté**
 
 > [!question]- Les trois questions auxquelles répond l'économie :
-> a) **quoi** produire ; **à qui** le fournir ; **comment** produire
+> a) quoi produire ; à qui le fournir ; comment produire
 > b) quoi produire ; à quel prix ; pour quel profit
 > c) que consommer ; qu'épargner ; qu'investir
 >
@@ -603,13 +603,13 @@ Choisis avant d'ouvrir le callout.
 > [!question]- Ces trois questions se posent parce que :
 > a) les besoins humains sont illimités
 > b) les marchés sont imparfaits
-> c) **les ressources sont souvent rares**
+> c) les ressources sont souvent rares
 >
 > **c)** — c'est la rareté des ressources que le cours met en cause, et c'est elle qui fonde la définition 1. → [[#2. Les trois questions, et la rareté]]
 
 > [!question]- La rareté, côté producteur et côté consommateur :
 > a) producteur : la contrainte budgétaire ; consommateur : le revenu disponible
-> b) producteur : **travail disponible, matières premières, biens non homogènes** ; consommateur : la **contrainte budgétaire**
+> b) producteur : travail disponible, matières premières, biens non homogènes ; consommateur : la contrainte budgétaire
 > c) producteur : le capital ; consommateur : le temps
 >
 > **b)** — a) donne la contrainte budgétaire au producteur : elle est du côté du consommateur. → [[#2. Les trois questions, et la rareté]]
@@ -619,12 +619,12 @@ Choisis avant d'ouvrir le callout.
 > [!question]- La définition 1 de la science économique :
 > a) la science qui étudie la production, la répartition et la consommation des richesses
 > b) la science qui étudie les choix des agents sur un marché
-> c) la science qui étudie le **comportement humain** comme une relation entre **des fins** et **des ressources rares ayant des usages alternatifs**
+> c) la science qui étudie le comportement humain comme une relation entre des fins et des ressources rares ayant des usages alternatifs
 >
 > **c)** — « usages alternatifs » est le morceau qu'on oublie : c'est lui qui crée l'arbitrage. → [[#3. Première définition, et l'économie en tant que science]]
 
 > [!question]- La science, c'est :
-> a) l'**ensemble des connaissances obtenues par la méthode scientifique**
+> a) l'ensemble des connaissances obtenues par la méthode scientifique
 > b) l'ensemble des connaissances vérifiées par l'expérience
 > c) l'ensemble des lois qui expliquent le monde
 >
@@ -632,7 +632,7 @@ Choisis avant d'ouvrir le callout.
 
 > [!question]- La méthode scientifique repose sur le principe :
 > a) de reproductibilité des résultats
-> b) de **cause à effet** : on peut expliquer les causes, ce n'est **pas dû au hasard**
+> b) de cause à effet : on peut expliquer les causes, ce n'est pas dû au hasard
 > c) de réfutabilité des énoncés
 >
 > **b)** — la reproductibilité est la condition d'une **expérience** scientifique, pas le principe de la méthode. → [[#3. Première définition, et l'économie en tant que science]]
@@ -640,19 +640,19 @@ Choisis avant d'ouvrir le callout.
 > [!question]- Science = … + … :
 > a) observation + expérience
 > b) théorie + données
-> c) **stock de connaissances** + **processus de création des connaissances**
+> c) stock de connaissances + processus de création des connaissances
 >
 > **c)** — un résultat et une façon de l'obtenir : c'est pour ça que la méthode compte autant que le savoir. → [[#3. Première définition, et l'économie en tant que science]]
 
 > [!question]- Ce qui fait qu'une découverte est scientifique :
 > a) son résultat, s'il est vérifié
 > b) sa publication dans une revue
-> c) **la manière dont la découverte est effectuée**
+> c) la manière dont la découverte est effectuée
 >
 > **c)** — pas le résultat : c'est exactement ce que a) se trompe à dire. → [[#3. Première définition, et l'économie en tant que science]]
 
 > [!question]- Les quatre étapes de la démarche hypothético-déductive, dans l'ordre :
-> a) **questionnement → modèle théorique → hypothèses testables → confrontation au réel**
+> a) questionnement → modèle théorique → hypothèses testables → confrontation au réel
 > b) observation → hypothèses → expérience → loi
 > c) questionnement → hypothèses testables → modèle théorique → confrontation au réel
 >
@@ -660,7 +660,7 @@ Choisis avant d'ouvrir le callout.
 
 > [!question]- Une hypothèse testable, c'est :
 > a) une supposition simplificatrice posée au départ du modèle
-> b) la **prédiction du modèle** : on doit pouvoir dire qu'elle est vraie ou fausse
+> b) la prédiction du modèle : on doit pouvoir dire qu'elle est vraie ou fausse
 > c) une question de recherche formulée clairement
 >
 > **b)** — a) décrit les hypothèses **du** modèle (la rationalité, par exemple) : deux emplois du mot « hypothèse » à ne pas confondre. → [[#3. Première définition, et l'économie en tant que science]]
@@ -669,7 +669,7 @@ Choisis avant d'ouvrir le callout.
 
 > [!question]- Un modèle sert :
 > a) à prouver une théorie
-> b) à **représenter le réel** en le **simplifiant**, pour différents objectifs
+> b) à représenter le réel en le simplifiant, pour différents objectifs
 > c) à mesurer un phénomène
 >
 > **b)** — représenter en simplifiant : les deux verbes ensemble, aucun des deux seul. → [[#4. La méthode scientifique : le modèle]]
@@ -677,19 +677,19 @@ Choisis avant d'ouvrir le callout.
 > [!question]- Le modèle, en trois traits :
 > a) une représentation mathématique, exacte, et vérifiée par les données
 > b) une description complète d'un phénomène, fondée sur l'observation
-> c) une **construction intellectuelle** (littéraire ou mathématique) qui **représente et simplifie** le réel, **explique un phénomène précis**, et **repose sur des hypothèses**
+> c) une construction intellectuelle (littéraire ou mathématique) qui représente et simplifie le réel, explique un phénomène précis, et repose sur des hypothèses
 >
 > **c)** — un modèle peut être **littéraire** : le réduire aux mathématiques, comme a), est l'erreur la plus courante. → [[#4. La méthode scientifique : le modèle]]
 
 > [!question]- « Ceci n'est pas une pipe » et le plan de ville disent que :
 > a) le modèle est faux tant qu'il n'est pas confronté au réel
-> b) le modèle **représente** le réel sans **être** le réel : le plan ne montre ni tous les chemins ni tous les magasins
+> b) le modèle représente le réel sans être le réel : le plan ne montre ni tous les chemins ni tous les magasins
 > c) le modèle doit être compris de tous pour être utile
 >
 > **b)** — le tableau représente une pipe et n'en est pas une. La simplification n'est pas un défaut du modèle, c'est sa nature. → [[#4. La méthode scientifique : le modèle]]
 
 > [!question]- Les trois raisons de modéliser :
-> a) rendre la réalité **moins complexe et plus accessible** ; faire ressortir des **mécanismes fondamentaux** ; tenter de **prévoir** comportements et cycles
+> a) rendre la réalité moins complexe et plus accessible ; faire ressortir des mécanismes fondamentaux ; tenter de prévoir comportements et cycles
 > b) simplifier, mesurer, comparer
 > c) enseigner, publier, convaincre
 >
@@ -698,7 +698,7 @@ Choisis avant d'ouvrir le callout.
 > [!question]- Une hypothèse simplificatrice typique d'un modèle microéconomique :
 > a) la concurrence pure et parfaite
 > b) l'équilibre des marchés
-> c) la **rationalité des décisions**
+> c) la rationalité des décisions
 >
 > **c)** — c'est l'exemple donné en cours. → [[#4. La méthode scientifique : le modèle]]
 
@@ -706,13 +706,13 @@ Choisis avant d'ouvrir le callout.
 
 > [!question]- La principale difficulté de la confrontation au réel :
 > a) les données manquent ou sont fausses
-> b) un **même effet peut avoir de multiples causes simultanées**
+> b) un même effet peut avoir de multiples causes simultanées
 > c) les comportements changent quand on les observe
 >
 > **b)** — tout le raisonnement TCEPA découle de cette seule difficulté. → [[#5. La méthode scientifique : la confrontation au réel]]
 
 > [!question]- Quand plusieurs causes agissent en même temps, elles :
-> a) **renforcent** l'effet observé, ou **s'annulent** et se compensent partiellement
+> a) renforcent l'effet observé, ou s'annulent et se compensent partiellement
 > b) s'additionnent toujours
 > c) rendent l'observation impossible
 >
@@ -721,19 +721,19 @@ Choisis avant d'ouvrir le callout.
 > [!question]- Parmi ces causes de variation de la consommation des ménages, laquelle n'est **pas** citée en cours ?
 > a) la météo, pour certaines consommations
 > b) les mesures de confinement
-> c) le **taux d'intérêt du crédit**
+> c) le taux d'intérêt du crédit
 >
 > **c)** — les cinq causes du cours sont les salaires, les revenus du patrimoine, la météo, les mesures de confinement et le niveau des impôts sur le revenu. → [[#5. La méthode scientifique : la confrontation au réel]]
 
 > [!question]- Trois causes possibles d'une variation de performance au travail :
 > a) la formation, l'ancienneté, l'âge
-> b) la **prime à la performance** ; le **niveau du chômage** et la peur de perdre son emploi ; une **nouvelle organisation du travail**
+> b) la prime à la performance ; le niveau du chômage et la peur de perdre son emploi ; une nouvelle organisation du travail
 > c) le salaire, les horaires, le management
 >
 > **b)** — retiens surtout la troisième : c'est elle qui peut annuler l'effet de la prime. → [[#5. La méthode scientifique : la confrontation au réel]]
 
 > [!question]- TCEPA signifie, et sert à :
-> a) **toutes choses égales par ailleurs** — **isoler l'effet de chaque cause** sur la variation observée
+> a) toutes choses égales par ailleurs — isoler l'effet de chaque cause sur la variation observée
 > b) toutes choses étant par ailleurs annulées — neutraliser les effets contraires
 > c) test comparatif des effets par ajustement — corriger les données
 >
@@ -742,13 +742,13 @@ Choisis avant d'ouvrir le callout.
 > [!question]- « La prime à la performance rend les employés plus productifs » est vraie :
 > a) toujours : l'effet de la prime est établi
 > b) jamais : une corrélation n'est pas une causalité
-> c) tant qu'une **nouvelle organisation du travail** — ou une autre cause — ne vient pas **annuler l'effet** de la prime
+> c) tant qu'une nouvelle organisation du travail — ou une autre cause — ne vient pas annuler l'effet de la prime
 >
 > **c)** — l'énoncé n'est pas faux, il est **conditionnel** : c'est la différence entre les deux. → [[#5. La méthode scientifique : la confrontation au réel]]
 
 > [!question]- Le principe général de l'expérimentation :
 > a) répéter une mesure jusqu'à ce qu'elle se stabilise
-> b) vérifier qu'une **cause** (un **traitement**) a bien l'**effet supposé**, en comparant un **groupe test** et un **groupe témoin**
+> b) vérifier qu'une cause (un traitement) a bien l'effet supposé, en comparant un groupe test et un groupe témoin
 > c) observer un phénomène sans intervenir
 >
 > **b)** — deux groupes, un traitement : tout le reste en découle. → [[#1) L'expérimentation]]
@@ -756,12 +756,12 @@ Choisis avant d'ouvrir le callout.
 > [!question]- Ce qui distingue le groupe test du groupe témoin :
 > a) leur taille : le groupe test est plus petit
 > b) leur composition, choisie pour représenter la population
-> c) **rien, sauf le traitement** : même composition, et le groupe test seul le reçoit
+> c) rien, sauf le traitement : même composition, et le groupe test seul le reçoit
 >
 > **c)** — on fait varier **une cause à la fois** : c'est ce qui rend l'observation TCEPA. → [[#1) L'expérimentation]]
 
 > [!question]- Pour être scientifique, une expérience doit être :
-> a) **reproductible**
+> a) reproductible
 > b) menée en laboratoire
 > c) conduite sur un grand échantillon
 >
@@ -769,14 +769,14 @@ Choisis avant d'ouvrir le callout.
 
 > [!question]- Les trois types d'expériences :
 > a) qualitatives ; quantitatives ; mixtes
-> b) **contrôlées en laboratoire** ; **naturelles** ; **de terrain**
+> b) contrôlées en laboratoire ; naturelles ; de terrain
 > c) individuelles ; collectives ; historiques
 >
 > **b)** — trois types, du plus artificiel au plus réel. → [[#1) L'expérimentation]]
 
 > [!question]- Une expérience naturelle, c'est une expérience où :
 > a) on observe la nature sans intervenir
-> b) l'**assignation** au groupe test ou témoin est liée à un **événement politique** — ou historique
+> b) l'assignation au groupe test ou témoin est liée à un événement politique — ou historique
 > c) les participants ignorent qu'ils sont observés
 >
 > **b)** — c'est le « ou historique », précisé par le diaporama de référence, qui rend possible l'exemple des deux Allemagnes. → [[#1) L'expérimentation]]
@@ -790,7 +790,7 @@ Choisis avant d'ouvrir le callout.
 
 > [!question]- Les autres méthodes que l'expérimentation :
 > a) sont au programme du chapitre suivant
-> b) nécessitent de travailler sur des **bases de données**, et ne sont **pas abordées dans ce cours**
+> b) nécessitent de travailler sur des bases de données, et ne sont pas abordées dans ce cours
 > c) sont réservées à la macroéconomie
 >
 > **b)** — elles ont un nom, donné par le diaporama de référence : l'**économétrie**. → [[#2) D'autres méthodes existent]]
@@ -800,26 +800,26 @@ Choisis avant d'ouvrir le callout.
 > [!question]- La définition 2 dit que l'économie est une **science des choix**. Elle ne contredit pas la première parce que :
 > a) elle s'applique à d'autres sujets
 > b) les choix portent toujours sur des biens marchands
-> c) le **temps est une ressource limitée** : choisir, c'est encore allouer une ressource rare
+> c) le temps est une ressource limitée : choisir, c'est encore allouer une ressource rare
 >
 > **c)** — les deux définitions se rejoignent sur la rareté, elles ne s'opposent pas. → [[#6. Seconde définition : l'économie comme science des choix]]
 
 > [!question]- L'« impérialisme économique », c'est :
 > a) la domination économique d'un pays sur un autre
-> b) l'**extension des sujets traités** par les économistes
+> b) l'extension des sujets traités par les économistes
 > c) l'emprise des modèles mathématiques sur la discipline
 >
 > **b)** — a) est le sens courant du mot, et c'est précisément le piège. → [[#6. Seconde définition : l'économie comme science des choix]]
 
 > [!question]- Les deux explications de l'impérialisme économique :
-> a) l'**application des principes de l'analyse économique à tous les choix** ; et le fait que la **méthode scientifique** permette de faire de l'économie sur d'autres sujets
+> a) l'application des principes de l'analyse économique à tous les choix ; et le fait que la méthode scientifique permette de faire de l'économie sur d'autres sujets
 > b) la mondialisation des échanges ; la financiarisation
 > c) le prestige du prix Nobel ; l'essor des données
 >
 > **a)** — une explication par la **définition**, une par la **méthode**. → [[#7. L'impérialisme économique : deux explications]]
 
 > [!question]- Gary Becker, c'est :
-> a) le prix Nobel **1992**, années **60** : **mariage et enfants**, **délinquance**, **poursuite d'études**
+> a) le prix Nobel 1992, années 60 : mariage et enfants, délinquance, poursuite d'études
 > b) le prix Nobel 1992, auteur de la définition de la science économique
 > c) l'économiste de l'éducation à qui l'on doit les expériences de terrain en Inde
 >
@@ -827,7 +827,7 @@ Choisis avant d'ouvrir le callout.
 
 > [!question]- Trois champs nés de l'impérialisme économique :
 > a) économie industrielle ; économie monétaire ; économie internationale
-> b) **économie de l'éducation** (Esther Duflo) ; **économie de la famille et démographie** (allocations familiales et natalité) ; **économie de la santé** (pass sanitaire et vaccination)
+> b) économie de l'éducation (Esther Duflo) ; économie de la famille et démographie (allocations familiales et natalité) ; économie de la santé (pass sanitaire et vaccination)
 > c) économie du travail ; économie publique ; économie du développement
 >
 > **b)** — trois champs qui portent sur des choix non marchands : c'est ce qui en fait des exemples d'impérialisme. → [[#7. L'impérialisme économique : deux explications]]
@@ -837,12 +837,12 @@ Choisis avant d'ouvrir le callout.
 > [!question]- Le constat qui ouvre l'exemple d'analyse économique :
 > a) au XVIIIᵉ siècle, le PIB par tête s'effondre dans les pays d'Europe
 > b) au XXᵉ siècle, le niveau de vie augmente partout au même rythme
-> c) au **XVIIIᵉ siècle**, le niveau de vie augmente dans de nombreux pays — alors que le **PIB par tête** était resté **constant pendant très longtemps**
+> c) au XVIIIᵉ siècle, le niveau de vie augmente dans de nombreux pays — alors que le PIB par tête était resté constant pendant très longtemps
 >
 > **c)** — c'est la rupture qui demande une explication, et le chapitre y répond par le capitalisme. → [[#A) Constat, observation et hypothèse]]
 
 > [!question]- Le PIB, c'est :
-> a) la mesure de la **richesse créée sur un territoire sur une période donnée** : la **somme des valeurs ajoutées** de toutes les entreprises du pays
+> a) la mesure de la richesse créée sur un territoire sur une période donnée : la somme des valeurs ajoutées de toutes les entreprises du pays
 > b) la somme des revenus perçus par les ménages d'un pays
 > c) la somme des chiffres d'affaires des entreprises du pays
 >
@@ -850,7 +850,7 @@ Choisis avant d'ouvrir le callout.
 
 > [!question]- Les consommations intermédiaires, ce sont :
 > a) les biens achetés par les ménages au cours de l'année
-> b) les éléments **détruits ou transformés** au cours du processus de production
+> b) les éléments détruits ou transformés au cours du processus de production
 > c) les stocks invendus en fin d'exercice
 >
 > **b)** — c'est ce qu'on retranche du chiffre d'affaires pour obtenir la valeur ajoutée. → [[#B) Mesurer la richesse créée]]
@@ -858,12 +858,12 @@ Choisis avant d'ouvrir le callout.
 > [!question]- Le PIB par tête s'obtient et s'interprète :
 > a) en divisant le PIB par le nombre d'actifs ; il mesure la productivité
 > b) en divisant le PIB par le nombre de ménages ; il mesure le revenu moyen
-> c) en **divisant par le nombre d'habitants** ; il indique la **capacité à satisfaire les besoins de la population**
+> c) en divisant par le nombre d'habitants ; il indique la capacité à satisfaire les besoins de la population
 >
 > **c)** — par **habitant**, pas par actif ni par ménage : c'est ce qui en fait une mesure de niveau de vie. → [[#B) Mesurer la richesse créée]]
 
 > [!question]- Ce que le PIB ne compte pas :
-> a) les **échanges non marchands** : travail domestique, bénévolat, qualité du temps libre et des relations sociales, qualité de l'environnement
+> a) les échanges non marchands : travail domestique, bénévolat, qualité du temps libre et des relations sociales, qualité de l'environnement
 > b) les services publics et les administrations
 > c) les activités des entreprises étrangères sur le territoire
 >
@@ -871,7 +871,7 @@ Choisis avant d'ouvrir le callout.
 
 > [!question]- La destruction de richesse fait monter le PIB parce que :
 > a) les assurances indemnisent les victimes
-> b) la remise en état est une activité comptée : **démolition**, **réparation**, **biens nocifs** (tabac…)
+> b) la remise en état est une activité comptée : démolition, réparation, biens nocifs (tabac…)
 > c) la rareté qui en résulte fait monter les prix
 >
 > **b)** — c'est une critique du PIB comme mesure du bien-être, pas une erreur de calcul. → [[#9. Le PIB comme mesure du bien-être]]
@@ -879,12 +879,12 @@ Choisis avant d'ouvrir le callout.
 > [!question]- Faut-il jeter le PIB comme mesure du bien-être ?
 > a) oui : il compte la destruction comme de la richesse
 > b) oui : il ignore le travail domestique
-> c) **non** : c'est un **système imparfait, mais utile**
+> c) non : c'est un système imparfait, mais utile
 >
 > **c)** — a) et b) sont deux critiques justes du cours, et aucune des deux ne mène à l'abandonner. → [[#9. Le PIB comme mesure du bien-être]]
 
 > [!question]- Le capitalisme est un **système économique** qui repose sur trois institutions complémentaires :
-> a) la **propriété privée**, le **marché**, l'**entreprise**
+> a) la propriété privée, le marché, l'entreprise
 > b) la propriété privée, le marché, l'État
 > c) le marché, l'entreprise, la banque
 >
@@ -892,7 +892,7 @@ Choisis avant d'ouvrir le callout.
 
 > [!question]- Dans le cours, la propriété privée porte sur :
 > a) les moyens de production et les capitaux
-> b) sa **force de travail**, et la **terre / le sol**
+> b) sa force de travail, et la terre / le sol
 > c) les biens de consommation durables
 >
 > **b)** — posséder sa force de travail est ce qui permet de la vendre : c'est la version du cours, pas celle du sens commun. → [[#10. Le capitalisme : de quoi parle-t-on ?]]
@@ -900,7 +900,7 @@ Choisis avant d'ouvrir le callout.
 > [!question]- Parmi les trois institutions, celle qui est propre au capitalisme :
 > a) le marché
 > b) la propriété privée
-> c) l'**entreprise**
+> c) l'entreprise
 >
 > **c)** — la propriété privée et le marché — ainsi que le respect de la propriété privée — existaient avant. → [[#10. Le capitalisme : de quoi parle-t-on ?]]
 
@@ -909,12 +909,12 @@ Choisis avant d'ouvrir le callout.
 > [!question]- La définition 1 a été formulée par :
 > a) Gary Becker, dans les années 60
 > b) Adam Smith, au XVIIIᵉ siècle
-> c) **Lionel Robbins**, en **1932**
+> c) Lionel Robbins, en 1932
 >
 > **c)** — ce nom n'est pas dans tes notes : à confirmer. → [[#Ce que j'ai complété]]
 
 > [!question]- Dans $Y = C + I + G + (X-M)$, $G$ désigne :
-> a) les **dépenses publiques**
+> a) les dépenses publiques
 > b) les gains des entreprises
 > c) la croissance
 >
@@ -922,7 +922,7 @@ Choisis avant d'ouvrir le callout.
 
 > [!question]- Le rapport interdécile, c'est le rapport entre :
 > a) le revenu moyen des 10 % les plus riches et celui des 10 % les plus pauvres
-> b) le revenu **plancher** des **10 %** les plus riches (D9) et le revenu **plafond** des **10 %** les plus pauvres (D1)
+> b) le revenu plancher des 10 % les plus riches (D9) et le revenu plafond des 10 % les plus pauvres (D1)
 > c) le revenu médian et le revenu moyen
 >
 > **b)** — plancher et plafond, pas moyennes : a) est la confusion à éviter. → [[#Ce que j'ai complété]]

@@ -1015,12 +1015,12 @@ entre deux, ne réponds pas : ne rien cocher vaut mieux que se tromper.
 > **a)** — et le mot qui les résume est un **tour d'horizon**. → [[#Pourquoi un cours d'introduction à l'économie]]
 
 > [!question]- Les quatre raisons qui font de l'économie un processus complexe :
-> a) le comportement de l'individu au centre ; les individus sont hétérogènes ; ils interagissent ; l'économie évolue avec la société
+> a) les ressources sont rares ; les individus sont hétérogènes ; ils interagissent ; les données sont imparfaites
 > b) le comportement de l'individu au centre ; les individus sont rationnels ; ils interagissent ; l'économie est stable
-> c) les ressources sont rares ; les individus sont hétérogènes ; ils interagissent ; les données sont imparfaites
+> c) le comportement de l'individu au centre ; les individus sont hétérogènes ; ils interagissent ; l'économie évolue avec la société
 > d) aucune des propositions n'est exacte
 >
-> **a)** — b) remplace « hétérogènes » par « rationnels » et « évolue » par « est stable » : deux mots, et tout bascule. → [[#Pourquoi un cours d'introduction à l'économie]]
+> **c)** — b) remplace « hétérogènes » par « rationnels » et « évolue » par « est stable » : deux mots, et tout bascule. → [[#Pourquoi un cours d'introduction à l'économie]]
 
 > [!question]- Les interactions entre individus :
 > a) supposent une proximité géographique
@@ -1047,20 +1047,20 @@ entre deux, ne réponds pas : ne rien cocher vaut mieux que se tromper.
 > **b)** — c) est une définition juste de l'économie, mais ce n'est pas celle de **ce** chapitre : ici on part des **choix**, avec l'économie du crime et l'économie du couple pour exemples. → [[#I.1 La définition]]
 
 > [!question]- Les trois questions que la science économique se pose sur les choix :
-> a) pourquoi fait-on des choix ; comment sont-ils faits ; quelles en sont les conséquences
+> a) pourquoi fait-on des choix ; à quel coût ; quelles en sont les conséquences
 > b) qui fait des choix ; comment sont-ils faits ; qui en profite
-> c) pourquoi fait-on des choix ; à quel coût ; quelles en sont les conséquences
+> c) pourquoi fait-on des choix ; comment sont-ils faits ; quelles en sont les conséquences
 > d) aucune des propositions n'est exacte
 >
-> **a)** — pourquoi · comment · conséquences. → [[#I.1 La définition]]
+> **c)** — pourquoi · comment · conséquences. → [[#I.1 La définition]]
 
 > [!question]- Les 5 notions clés du chapitre :
-> a) l'arbitrage, les incitations, l'échange, l'information, la distribution des biens
-> b) l'arbitrage, les incitations, l'échange, l'équilibre, la distribution des biens
-> c) la rareté, les incitations, l'échange, l'information, la distribution des biens
+> a) l'arbitrage, les incitations, l'échange, l'équilibre, la distribution des biens
+> b) la rareté, les incitations, l'échange, l'information, la distribution des biens
+> c) l'arbitrage, les incitations, l'échange, l'information, la rareté
 > d) aucune des propositions n'est exacte
 >
-> **a)** — b) remplace l'information par l'équilibre, c) l'arbitrage par la rareté : un seul mot change dans chaque leurre. → [[#I.1 La définition]]
+> **d)** — les cinq sont l'**arbitrage**, les **incitations**, l'**échange**, l'**information**, la **distribution des biens**. Chaque leurre n'en change qu'un seul mot : c'est exactement la forme de cette épreuve. → [[#I.1 La définition]]
 
 **La rareté et le coût d'opportunité**
 
@@ -1081,12 +1081,12 @@ entre deux, ne réponds pas : ne rien cocher vaut mieux que se tromper.
 > **c)** — les six types sont terre / eau / air, travail, capital physique, capital humain, ressources naturelles et **temps**. → [[#a) Pourquoi les choix sont-ils nécessaires ?]]
 
 > [!question]- Le capital humain, ce sont :
-> a) les compétences et connaissances, incorporées aux individus
+> a) les dépenses d'éducation engagées par un pays
 > b) les individus eux-mêmes, en tant que force de travail
-> c) les dépenses d'éducation engagées par un pays
+> c) les compétences et connaissances, incorporées aux individus
 > d) aucune des propositions n'est exacte
 >
-> **a)** — le mot qui fait la définition est **incorporées** : le capital humain ne se sépare pas de la personne. → [[#a) Pourquoi les choix sont-ils nécessaires ?]]
+> **c)** — le mot qui fait la définition est **incorporées** : le capital humain ne se sépare pas de la personne. → [[#a) Pourquoi les choix sont-ils nécessaires ?]]
 
 > [!question]- Dans ce chapitre, une économie de marché est une économie où :
 > a) l'État n'intervient pas
@@ -1098,7 +1098,7 @@ entre deux, ne réponds pas : ne rien cocher vaut mieux que se tromper.
 
 > [!question]- Les externalités sont :
 > a) les répercussions des choix individuels sur la société, prises en compte dans le choix
-> b) les répercussions des choix individuels sur la société, **non prises en compte** dans le choix
+> b) les répercussions des choix individuels sur la société, non prises en compte dans le choix
 > c) les effets de l'intervention de l'État sur les choix individuels
 > d) aucune des propositions n'est exacte
 >
@@ -1121,20 +1121,20 @@ entre deux, ne réponds pas : ne rien cocher vaut mieux que se tromper.
 > **c)** — et c'est la part la plus lourde : elle n'apparaît sur aucune facture. → [[#b) Le coût d'un bien ou d'un service est lié à son coût d'opportunité]]
 
 > [!question]- Une forte croissance vide les amphis parce que :
-> a) beaucoup d'emplois bien rémunérés élèvent le **coût de ne pas travailler**
+> a) les entreprises recrutent sans regarder le diplôme
 > b) les familles ont moins besoin de diplômes pour se placer
-> c) les entreprises recrutent sans regarder le diplôme
+> c) beaucoup d'emplois bien rémunérés élèvent le coût de ne pas travailler
 > d) aucune des propositions n'est exacte
 >
-> **a)** — et symétriquement, une faible croissance abaisse ce coût : les amphis se remplissent. → [[#b) Le coût d'un bien ou d'un service est lié à son coût d'opportunité]]
+> **c)** — et symétriquement, une faible croissance abaisse ce coût : les amphis se remplissent. → [[#b) Le coût d'un bien ou d'un service est lié à son coût d'opportunité]]
 
 > [!question]- Un choix est rationnel si :
 > a) gain > coût déboursé
-> b) gain > coût d'opportunité
+> b) gain = coût d'opportunité
 > c) gain > coût d'opportunité + coût déboursé
 > d) aucune des propositions n'est exacte
 >
-> **b)** — c'est le renoncement qu'on met dans la balance, pas la dépense. → [[#b) Le coût d'un bien ou d'un service est lié à son coût d'opportunité]]
+> **d)** — la condition est **gain > coût d'opportunité**. C'est le renoncement qu'on met dans la balance, pas la dépense : dans le cas inverse, le choix n'est pas rationnel. → [[#b) Le coût d'un bien ou d'un service est lié à son coût d'opportunité]]
 
 **Arbitrage, marge, incitations**
 
@@ -1149,7 +1149,7 @@ entre deux, ne réponds pas : ne rien cocher vaut mieux que se tromper.
 > [!question]- Une décision « à la marge » compare :
 > a) les coûts et les bénéfices totaux de chaque option
 > b) les coûts et les bénéfices moyens de chaque option
-> c) les coûts et les bénéfices de l'**unité suivante**
+> c) les coûts et les bénéfices de l'unité suivante
 > d) aucune des propositions n'est exacte
 >
 > **c)** — « ces 10 minutes de plus, elles rapportent quoi ? » : jamais des totaux. → [[#c) Le rôle des arbitrages et du raisonnement à la marge]]
@@ -1164,7 +1164,7 @@ entre deux, ne réponds pas : ne rien cocher vaut mieux que se tromper.
 
 > [!question]- Une « meilleure situation » est une situation :
 > a) où chacun a obtenu ce qu'il souhaitait
-> b) **optimale** : on ne peut pas faire mieux, les ressources sont utilisées le plus efficacement possible, sans gaspillage
+> b) optimale : on ne peut pas faire mieux, les ressources sont utilisées le plus efficacement possible, sans gaspillage
 > c) où les gains de l'un ne font pas les pertes de l'autre
 > d) aucune des propositions n'est exacte
 >
@@ -1181,12 +1181,12 @@ entre deux, ne réponds pas : ne rien cocher vaut mieux que se tromper.
 **Les interactions**
 
 > [!question]- Les trois causes d'erreur de décision :
-> a) manque d'informations pertinentes ; information fausse ou incomplète ; interactions avec les autres agents économiques
+> a) information fausse ou incomplète ; mauvais calcul du coût d'opportunité ; interactions avec les autres agents
 > b) manque d'informations pertinentes ; irrationalité de l'agent ; interactions avec les autres agents
-> c) information fausse ou incomplète ; mauvais calcul du coût d'opportunité ; interactions avec les autres agents
+> c) manque d'informations pertinentes ; information fausse ou incomplète ; interactions avec les autres agents économiques
 > d) aucune des propositions n'est exacte
 >
-> **a)** — l'irrationalité n'est pas au programme de ce chapitre : l'agent se trompe **malgré** sa rationalité. → [[#I.3 Comment les interactions déterminent ce qui se passe dans l'économie]]
+> **c)** — l'irrationalité n'est pas au programme de ce chapitre : l'agent se trompe **malgré** sa rationalité. → [[#I.3 Comment les interactions déterminent ce qui se passe dans l'économie]]
 
 > [!question]- Le choix effectif diffère du choix initial parce que :
 > a) l'agent change d'avis en cours de route
@@ -1206,19 +1206,19 @@ entre deux, ne réponds pas : ne rien cocher vaut mieux que se tromper.
 
 > [!question]- L'enchaînement qui mène des interactions sociales à l'échange :
 > a) interactions sociales → spécialisation → coopération → échange
-> b) interactions sociales → **coopération ⇄ spécialisation** → échange
+> b) interactions sociales → coopération ⇄ spécialisation → échange
 > c) interactions sociales → échange → coopération → spécialisation
 > d) aucune des propositions n'est exacte
 >
 > **b)** — coopération et spécialisation se renforcent l'une l'autre : tout le monde ne fait pas tout. → [[#a) L'échange et la coopération]]
 
 > [!question]- L'échange est profitable parce que :
-> a) chacun fait profiter les autres de ses connaissances et de son savoir-faire, et profite de celles des autres
+> a) il permet de fixer un prix d'équilibre
 > b) l'un des deux échangistes y gagne toujours plus que l'autre
-> c) il permet de fixer un prix d'équilibre
+> c) chacun fait profiter les autres de ses connaissances et de son savoir-faire, et profite de celles des autres
 > d) aucune des propositions n'est exacte
 >
-> **a)** — il **permet à chacun d'avoir plus** : l'échange n'est pas un jeu à somme nulle, ce que b) suppose. → [[#a) L'échange et la coopération]]
+> **c)** — il **permet à chacun d'avoir plus** : l'échange n'est pas un jeu à somme nulle, ce que b) suppose. → [[#a) L'échange et la coopération]]
 
 > [!question]- L'équilibre est une situation où :
 > a) l'offre est égale à la demande sur tous les marchés
@@ -1230,7 +1230,7 @@ entre deux, ne réponds pas : ne rien cocher vaut mieux que se tromper.
 
 > [!question]- Aux caisses du supermarché, la question qui dit si l'on est à l'équilibre :
 > a) « les files sont-elles de longueur égale ? »
-> b) « **quelqu'un est-il incité à changer de comportement ?** »
+> b) « quelqu'un est-il incité à changer de comportement ? »
 > c) « le temps d'attente est-il minimal ? »
 > d) aucune des propositions n'est exacte
 >
@@ -1263,12 +1263,12 @@ entre deux, ne réponds pas : ne rien cocher vaut mieux que se tromper.
 > **a)** — quoi · comment · à qui. Le prix n'est pas une des trois questions. → [[#c) Des indications en termes d'organisation de la société : LE SYSTÈME ÉCONOMIQUE]]
 
 > [!question]- Dans le système capitaliste, l'individu est au centre parce que :
-> a) chacun est mieux à même de connaître ses besoins, ses goûts et ses capacités
+> a) l'État lui délègue ses décisions
 > b) la société connaît mieux que lui les objectifs à atteindre
-> c) l'État lui délègue ses décisions
+> c) chacun est mieux à même de connaître ses besoins, ses goûts et ses capacités
 > d) aucune des propositions n'est exacte
 >
-> **a)** — b) est exactement le principe de l'économie **planifiée** : les deux énoncés sont le miroir l'un de l'autre. → [[#c) Des indications en termes d'organisation de la société : LE SYSTÈME ÉCONOMIQUE]]
+> **c)** — b) est exactement le principe de l'économie **planifiée** : les deux énoncés sont le miroir l'un de l'autre. → [[#c) Des indications en termes d'organisation de la société : LE SYSTÈME ÉCONOMIQUE]]
 
 > [!question]- Les quatre implications du système capitaliste :
 > a) propriété privée des moyens de production ; échange sur des marchés via des prix non administrés ; production pour le profit ; décisions décentralisées
@@ -1279,12 +1279,12 @@ entre deux, ne réponds pas : ne rien cocher vaut mieux que se tromper.
 > **a)** — b) est la même liste avec deux mots retournés, « administrés » et « centralisées » : c'est le type même du leurre de cette épreuve. → [[#c) Des indications en termes d'organisation de la société : LE SYSTÈME ÉCONOMIQUE]]
 
 > [!question]- Les entreprises choisissent, les ménages choisissent, et leurs interactions déterminent :
-> a) entreprises : quoi produire, comment, qui employer · ménages : où travailler, quoi acquérir · interactions : les quantités et les prix
+> a) entreprises : quoi produire et à quel prix · ménages : quoi acquérir · interactions : le profit
 > b) entreprises : les prix de vente · ménages : les quantités consommées · interactions : le niveau de l'emploi
-> c) entreprises : quoi produire et à quel prix · ménages : quoi acquérir · interactions : le profit
+> c) entreprises : quoi produire, comment, qui employer · ménages : où travailler, quoi acquérir · interactions : les quantités et les prix
 > d) aucune des propositions n'est exacte
 >
-> **a)** — ni les entreprises ni les ménages ne fixent les prix : ils sortent de la **rencontre** des deux. → [[#c) Des indications en termes d'organisation de la société : LE SYSTÈME ÉCONOMIQUE]]
+> **c)** — ni les entreprises ni les ménages ne fixent les prix : ils sortent de la **rencontre** des deux. → [[#c) Des indications en termes d'organisation de la société : LE SYSTÈME ÉCONOMIQUE]]
 
 > [!question]- Le principe de l'économie planifiée :
 > a) la société connaît mieux les objectifs à atteindre que chaque individu pris séparément → décisions centralisées
@@ -1303,12 +1303,12 @@ entre deux, ne réponds pas : ne rien cocher vaut mieux que se tromper.
 > **c)** — le cours insiste : le rôle de l'État n'est pas négligeable. → [[#c) Des indications en termes d'organisation de la société : LE SYSTÈME ÉCONOMIQUE]]
 
 > [!question]- Une défaillance de marché est une situation où :
-> a) les décisions décentralisées échouent à allouer efficacement les ressources
+> a) l'État intervient sur un marché concurrentiel
 > b) les prix cessent de s'ajuster à l'offre et à la demande
-> c) l'État intervient sur un marché concurrentiel
+> c) les décisions décentralisées échouent à allouer efficacement les ressources
 > d) aucune des propositions n'est exacte
 >
-> **a)** — ses deux causes : les **externalités** et le **pouvoir de marché**. → [[#c) Des indications en termes d'organisation de la société : LE SYSTÈME ÉCONOMIQUE]]
+> **c)** — ses deux causes : les **externalités** et le **pouvoir de marché**. → [[#c) Des indications en termes d'organisation de la société : LE SYSTÈME ÉCONOMIQUE]]
 
 > [!question]- Le produit vendu est unique, la firme est unique. Il s'agit :
 > a) de la concurrence monopolistique
@@ -1322,7 +1322,7 @@ entre deux, ne réponds pas : ne rien cocher vaut mieux que se tromper.
 
 > [!question]- Le principe s'énonce :
 > a) le résultat global de millions de comportements est la somme des résultats de ces comportements
-> b) le résultat global de millions de comportements **n'est pas** la somme des résultats de ces comportements
+> b) le résultat global de millions de comportements n'est pas la somme des résultats de ces comportements
 > c) le comportement individuel se déduit du comportement global
 > d) aucune des propositions n'est exacte
 >
@@ -1330,11 +1330,11 @@ entre deux, ne réponds pas : ne rien cocher vaut mieux que se tromper.
 
 > [!question]- Le pouvoir d'achat pour W = 100 € et P = 10 €/bien :
 > a) 10 €
-> b) 10 biens
+> b) 100 biens
 > c) 1 000 biens
 > d) aucune des propositions n'est exacte
 >
-> **b)** — $W/P$ s'exprime en **nombre de biens**, pas en euros : a) est juste numériquement et faux en unité. → [[#d) Les interactions à l'échelle de l'économie : le tout n'est pas la somme des parties]]
+> **d)** — $W/P = 100/10 = $ **10 biens**. a) donne le bon nombre dans la mauvaise unité : le pouvoir d'achat s'exprime en **nombre de biens**, pas en euros. → [[#d) Les interactions à l'échelle de l'économie : le tout n'est pas la somme des parties]]
 
 > [!question]- Le paradoxe de l'épargne :
 > a) individuellement ↑ épargne → ↑ investissement → ↑ production ; collectivement ↓ consommation totale → ↓ offre de biens et services → ↓ revenu
@@ -1355,12 +1355,12 @@ entre deux, ne réponds pas : ne rien cocher vaut mieux que se tromper.
 **La méthode**
 
 > [!question]- Un économiste est :
-> a) un scientifique qui cherche à rendre compte de la réalité, en s'appuyant sur les évidences empiriques
+> a) un scientifique qui cherche à prédire l'avenir, en s'appuyant sur des modèles
 > b) un conseiller des décideurs politiques, qui s'appuie sur des critères normatifs
-> c) un scientifique qui cherche à prédire l'avenir, en s'appuyant sur des modèles
+> c) un scientifique qui cherche à rendre compte de la réalité, en s'appuyant sur les évidences empiriques
 > d) aucune des propositions n'est exacte
 >
-> **a)** — les **évidences empiriques**, ce sont les faits observés et les mesures. → [[#II. LA MÉTHODE DE L'ÉCONOMIE]]
+> **c)** — les **évidences empiriques**, ce sont les faits observés et les mesures. → [[#II. LA MÉTHODE DE L'ÉCONOMIE]]
 
 > [!question]- Parmi ces énoncés, lequel est une **mesure**, et non un fait observé ?
 > a) un chômage plus élevé coïncide avec une inflation plus faible
@@ -1388,19 +1388,19 @@ entre deux, ne réponds pas : ne rien cocher vaut mieux que se tromper.
 
 > [!question]- L'analogie du plan de métro dit que :
 > a) un modèle doit respecter les proportions du réel pour être utile
-> b) les distances sont fausses et la forme de la ville n'est pas respectée, **mais** le plan permet à l'usager de se déplacer
-> c) un modèle faux doit être rejeté, quel que soit son usage
+> b) un modèle faux doit être rejeté, quel que soit son usage
+> c) les distances sont fausses et la forme de la ville n'est pas respectée, mais le plan permet à l'usager de se déplacer
 > d) aucune des propositions n'est exacte
 >
-> **b)** — un modèle faux dans le détail reste utile **pour la question qu'il traite** : c'est là que se joue l'acceptabilité des hypothèses. → [[#II.1 Les modèles mathématiques]]
+> **c)** — un modèle faux dans le détail reste utile **pour la question qu'il traite** : c'est là que se joue l'acceptabilité des hypothèses. → [[#II.1 Les modèles mathématiques]]
 
 > [!question]- Le modèle 2 (ménages ⇄ entreprises) est acceptable :
-> a) pour « comment est créée la richesse ? », car ménages et entreprises en créent ≈ 80 %
+> a) dans les deux cas, puisqu'un modèle est toujours simplificateur
 > b) pour « quel est le rôle de l'État ? », car l'État y figure implicitement
-> c) dans les deux cas, puisqu'un modèle est toujours simplificateur
+> c) pour « comment est créée la richesse ? », car ménages et entreprises en créent ≈ 80 %
 > d) aucune des propositions n'est exacte
 >
-> **a)** — 55 % + 25 %. Pour le rôle de l'État, il faut le **modèle 1** : le modèle 2 n'a **pas d'État**. → [[#II.1 Les modèles mathématiques]]
+> **c)** — 55 % + 25 %. Pour le rôle de l'État, il faut le **modèle 1** : le modèle 2 n'a **pas d'État**. → [[#II.1 Les modèles mathématiques]]
 
 **Le modèle en action : le marché de la pizza**
 
@@ -1421,20 +1421,20 @@ entre deux, ne réponds pas : ne rien cocher vaut mieux que se tromper.
 > **a)** — quantités · prix · déterminants. → [[#Exemple 2 — le marché de la pizza]]
 
 > [!question]- La fonction de demande de pizza :
-> a) $Q_d = D(P_p ; P_{ref} ; Y ; P_b)$, signes **− + + +**
-> b) $Q_d = D(P_p ; P_{ref} ; Y ; P_b)$, signes **+ − + +**
-> c) $Q_d = D(P_p ; P_i ; Y ; T)$, signes **− + + +**
+> a) $Q_d = D(P_p ; P_{ref} ; Y ; P_b)$, signes − + + +
+> b) $Q_d = D(P_p ; P_{ref} ; Y ; P_b)$, signes + − + +
+> c) $Q_d = D(P_p ; P_i ; Y ; T)$, signes − + + +
 > d) aucune des propositions n'est exacte
 >
 > **a)** — le prix de la pizza pèse **négativement** sur sa demande ; Pi et T, en c), sont des variables de l'**offre**. → [[#Exemple 2 — le marché de la pizza]]
 
 > [!question]- La fonction d'offre de pizza :
-> a) $Q_o = O(P_p ; P_i ; T)$, signes **+ − +**
-> b) $Q_o = O(P_p ; P_i ; T)$, signes **+ + −**
-> c) $Q_o = O(P_p ; P_{ref} ; T)$, signes **+ − +**
+> a) $Q_o = O(P_p ; P_{ref} ; T)$, signes + − +
+> b) $Q_o = O(P_p ; P_i ; T)$, signes + + −
+> c) $Q_o = O(P_p ; P_i ; T)$, signes + − +
 > d) aucune des propositions n'est exacte
 >
-> **a)** — le prix (+) parce que la firme maximise son profit et porte des coûts fixes ; le prix des ingrédients (−) parce que ce sont les *inputs* ; la technologie (+) parce qu'un four plus performant produit plus. → [[#Exemple 2 — le marché de la pizza]]
+> **c)** — le prix (+) parce que la firme maximise son profit et porte des coûts fixes ; le prix des ingrédients (−) parce que ce sont les *inputs* ; la technologie (+) parce qu'un four plus performant produit plus. → [[#Exemple 2 — le marché de la pizza]]
 
 > [!question]- L'hypothèse de concurrence pure et parfaite signifie ici que :
 > a) les agents sont *price makers* : ils fixent le prix
@@ -1453,7 +1453,7 @@ entre deux, ne réponds pas : ne rien cocher vaut mieux que se tromper.
 > **b)** — et **E** est leur croisement : **Qd = Qo = Q\*** au prix **P\***. → [[#Exemple 2 — le marché de la pizza]]
 
 > [!question]- ↑ Pi (le prix des ingrédients) : le raisonnement se déroule ainsi :
-> a) Pi est un *input* → seule l'offre est touchée → à Pp inchangé l'offre se déplace de E vers O₁ → excès de demande → le prix s'ajuste → **P\* augmente, Q\* diminue**
+> a) Pi est un *input* → seule l'offre est touchée → à Pp inchangé l'offre se déplace de E vers O₁ → excès de demande → le prix s'ajuste → P\* augmente, Q\* diminue
 > b) Pi touche l'offre et la demande simultanément → excès d'offre → P\* diminue, Q\* augmente
 > c) Pi est un *input* → seule l'offre est touchée → excès d'offre → P\* diminue, Q\* diminue
 > d) aucune des propositions n'est exacte
@@ -1461,12 +1461,12 @@ entre deux, ne réponds pas : ne rien cocher vaut mieux que se tromper.
 > **a)** — l'effet sur la demande est **latent** : elle ne bouge qu'une fois le prix ajusté. Cinq étapes, et le sens final est ce qui tombe. → [[#Le but du modèle : comprendre les mécanismes]]
 
 > [!question]- Les agents deviennent fans de pizza. Alors :
-> a) à prix inchangé la demande augmente (E → A), l'offre reste en E, la demande dépasse l'offre → Pp augmente jusqu'à un nouvel équilibre, à un prix plus élevé
+> a) la demande et l'offre augmentent ensemble → le prix ne change pas
 > b) à prix inchangé l'offre augmente, la demande reste en E → Pp diminue
-> c) la demande et l'offre augmentent ensemble → le prix ne change pas
+> c) à prix inchangé la demande augmente (E → A), l'offre reste en E, la demande dépasse l'offre → Pp augmente jusqu'à un nouvel équilibre, à un prix plus élevé
 > d) aucune des propositions n'est exacte
 >
-> **a)** — un choc de **préférences** déplace la demande, jamais l'offre. → [[#Le but du modèle : comprendre les mécanismes]]
+> **c)** — un choc de **préférences** déplace la demande, jamais l'offre. → [[#Le but du modèle : comprendre les mécanismes]]
 
 **Les données statistiques**
 
@@ -1479,12 +1479,12 @@ entre deux, ne réponds pas : ne rien cocher vaut mieux que se tromper.
 > **b)** — pour une série sur la **consommation finale des ménages**, il faut d'abord **définir** la consommation, ce que veut dire « finale », et qui sont « les ménages ». → [[#II.2 LES DONNÉES STATISTIQUES]]
 
 > [!question]- La formule du PIB :
-> a) $PIB = C + I + G + X - Imp$
-> b) $PIB = C + I + G + Imp - X$
-> c) $PIB = C + S + G + X - Imp$
+> a) $PIB = C + I + G + Imp - X$
+> b) $PIB = C + S + G + X - Imp$
+> c) $PIB = C + I + G + X + Imp$
 > d) aucune des propositions n'est exacte
 >
-> **a)** — consommation, investissement, dépenses de l'État, exportations, **moins** les importations. b) inverse le solde extérieur. → [[#II.2 LES DONNÉES STATISTIQUES]]
+> **d)** — la formule est $PIB = C + I + G + X - Imp$ : consommation, investissement, dépenses de l'État, exportations, **moins** les importations. Les trois leurres portent chacun sur le solde extérieur ou sur l'épargne. → [[#II.2 LES DONNÉES STATISTIQUES]]
 
 > [!question]- Les deux rôles des données statistiques :
 > a) tester les théories et faire des prévisions
@@ -1495,20 +1495,20 @@ entre deux, ne réponds pas : ne rien cocher vaut mieux que se tromper.
 > **a)** — simplifier le réel, en b), est le rôle du **modèle**. → [[#II.2 LES DONNÉES STATISTIQUES]]
 
 > [!question]- La boucle de la démarche hypothético-déductive :
-> a) définitions et hypothèses → énoncés théoriques → observation empirique → validation (modèle accepté) ou rejet des énoncés (révision des hypothèses)
+> a) définitions et hypothèses → observation empirique → énoncés théoriques → validation ou rejet
 > b) observation empirique → énoncés théoriques → définitions et hypothèses → validation ou rejet
-> c) définitions et hypothèses → observation empirique → énoncés théoriques → validation ou rejet
+> c) définitions et hypothèses → énoncés théoriques → observation empirique → validation (modèle accepté) ou rejet des énoncés (révision des hypothèses)
 > d) aucune des propositions n'est exacte
 >
-> **a)** — en cas de rejet, on **révise les hypothèses** et on recommence : la boucle ne s'arrête pas sur un échec. → [[#a) Tester les théories]]
+> **c)** — en cas de rejet, on **révise les hypothèses** et on recommence : la boucle ne s'arrête pas sur un échec. → [[#a) Tester les théories]]
 
 > [!question]- Une corrélation est :
-> a) une relation systématique entre deux variables
-> b) une relation de cause à effet entre deux variables
-> c) une relation systématique et orientée entre deux variables
+> a) une relation de cause à effet entre deux variables
+> b) une relation systématique et orientée entre deux variables
+> c) une relation proportionnelle entre deux variables
 > d) aucune des propositions n'est exacte
 >
-> **a)** — **positive** : les variables évoluent dans le même sens ; **négative** : en sens opposé. Rien n'y est orienté, contrairement à c). → [[#a) Tester les théories]]
+> **d)** — une corrélation est une **relation systématique** entre deux variables, sans plus : ni cause, ni sens imposé, ni proportion. **Positive**, elles évoluent dans le même sens ; **négative**, en sens opposé. → [[#a) Tester les théories]]
 
 > [!question]- Glace et noyades augmentent ensemble. Cette corrélation s'explique par :
 > a) une causalité de la glace vers les noyades
@@ -1578,11 +1578,11 @@ entre deux, ne réponds pas : ne rien cocher vaut mieux que se tromper.
 
 > [!question]- Micro et macro sont liées depuis :
 > a) les années 1930-1940, avec Keynes
-> b) les années 1980-1990 : avant, pas de lien
-> c) les années 2000, avec l'essor des données
+> b) les années 2000, avec l'essor des données
+> c) elles n'ont jamais été liées : ce sont deux disciplines séparées
 > d) aucune des propositions n'est exacte
 >
-> **b)** — et ce lien porte un nom : la **macroéconomie microfondée**. → [[#II.4 L'IMPORTANCE DE L'ÉCHELLE QU'ON CHOISIT POUR ÉTUDIER L'ÉCONOMIE]]
+> **d)** — c'est depuis les **années 1980-1990** : avant, pas de lien. Et ce lien porte un nom : la **macroéconomie microfondée**. → [[#II.4 L'IMPORTANCE DE L'ÉCHELLE QU'ON CHOISIT POUR ÉTUDIER L'ÉCONOMIE]]
 
 > [!question]- Les deux raisons pour lesquelles les économistes ne sont pas d'accord :
 > a) les valeurs et les croyances, et la dimension temporelle
@@ -1593,7 +1593,7 @@ entre deux, ne réponds pas : ne rien cocher vaut mieux que se tromper.
 > **a)** — les valeurs : laisser faire, la « **main invisible** » d'**Adam Smith**, contre un État qui **corrige les défaillances de marché**. → [[#II.5 POURQUOI LES ÉCONOMISTES NE SONT PAS D'ACCORD ENTRE EUX]]
 
 > [!question]- Court terme et long terme :
-> a) court terme : prix rigides, c'est la **demande** qui détermine l'activité · long terme : prix flexibles, c'est l'**offre**
+> a) court terme : prix rigides, c'est la demande qui détermine l'activité · long terme : prix flexibles, c'est l'offre
 > b) court terme : prix flexibles, c'est l'offre qui détermine l'activité · long terme : prix rigides, c'est la demande
 > c) court terme : prix rigides, c'est l'offre · long terme : prix flexibles, c'est la demande
 > d) aucune des propositions n'est exacte
@@ -1609,7 +1609,7 @@ entre deux, ne réponds pas : ne rien cocher vaut mieux que se tromper.
 > **a)** — les ménages **offrent aussi des facteurs de production** : ils ne font pas que consommer. → [[#Conclusion du chapitre — et préambule à la suite du cours]]
 
 > [!question]- Consommation et production :
-> a) consommation : utiliser les biens et services **directement** pour satisfaire des besoins · production : **transformer** des ressources et/ou des biens en biens et services
+> a) consommation : utiliser les biens et services directement pour satisfaire des besoins · production : transformer des ressources et/ou des biens en biens et services
 > b) consommation : acheter des biens et services sur un marché · production : fabriquer des biens matériels
 > c) consommation : utiliser des biens pour satisfaire des besoins · production : vendre des biens et services
 > d) aucune des propositions n'est exacte
