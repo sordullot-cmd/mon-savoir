@@ -21,3 +21,14 @@ notes/conflicts/
 # Sources brutes deposees a cote des fiches (photos de cahier, PDF de slides) :
 # elles restent sur le disque, elles ne partent pas sur GitHub.
 eco gestion/fichier/
+
+# Notes d'amphi prises par des camarades (dossiers `drive-download-*`) : elles
+# appartiennent a leurs auteurs. Le depot est public, elles restent locales.
+# Ce qui se publie, c'est la fiche que Sacha revise, pas la copie de leur cours.
+eco gestion/_brut/drive-download-*/
+eco gestion/_brut/**/*.docx
+.claude/skills/notes/passages.log
+.claude/skills/notes/launchd.log
+.claude/skills/notes/scratch/
+.claude/skills/notes/.verrou/
+.claude/skills/notes/etat-debut.json

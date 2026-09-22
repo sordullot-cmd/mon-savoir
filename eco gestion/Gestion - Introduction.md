@@ -4,7 +4,9 @@ tags:
   - cycle-3
   - gestion
   - cours
-source: _brut/gestion.md
+source:
+  - _brut/gestion.md
+  - _brut/camarade - Gestion chapitre 1 introduction.md
 slides: IG_Seance1-2_MAJ__2026.pdf
 enseignant: Carole Vigeant
 notion: Introduction à la gestion — organisations, stratégie, classements, contextes

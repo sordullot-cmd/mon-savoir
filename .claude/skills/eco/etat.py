@@ -110,17 +110,47 @@ def pages():
               file=sys.stderr)
 
 
+def sources_de(entete):
+    """`source:` d'une fiche : une valeur, une liste inline, ou un bloc YAML.
+
+    Une fiche peut tenir de plusieurs prises de notes — les siennes et celles
+    d'un camarade, qui sont au meme rang. Les trois ecritures sont acceptees :
+        source: _brut/x.md
+        source: [_brut/x.md, _brut/camarade - y.md]
+        source:
+          - _brut/x.md
+          - _brut/camarade - y.md
+    """
+    m = re.search(r"^source:[ \t]*(.*)$", entete, re.M)
+    if not m:
+        return []
+    val = m.group(1).strip()
+    if val.startswith("["):
+        return [v.strip().strip("\"'") for v in val.strip("[]").split(",")
+                if v.strip()]
+    if val:
+        return [val.strip("\"'")]
+    out = []
+    for ligne in entete[m.end():].split("\n")[1:]:
+        if re.match(r"^[ \t]+-[ \t]*\S", ligne):
+            out.append(ligne.split("-", 1)[1].strip().strip("\"'"))
+        elif ligne.strip():
+            break
+    return out
+
+
 def fiche(chemin, texte):
     entete = entete_de(texte)
     fin = len(entete) + 4 if entete else 0
     corps = texte[fin:]
     statut = re.search(r"^statut:\s*(.+)$", entete, re.M)
-    source = re.search(r"^source:\s*(.+)$", entete, re.M)
+    srcs = sources_de(entete)
     return {
         "hash": hashlib.sha1(corps.strip().encode("utf-8")).hexdigest()[:12],
         "mots": len(corps.split()),
         "statut": statut.group(1).strip() if statut else None,
-        "source": source.group(1).strip().strip("\"'[]") if source else None,
+        "sources": srcs,
+        "source": srcs[0] if srcs else None,
         "age": int(time.time() - os.path.getmtime(os.path.join(VAULT, chemin))),
     }
 
@@ -161,8 +191,8 @@ def bruts_a_integrer(les_bruts, actuel, vus):
     # (`_brut/x.md`, `eco gestion/_brut/x.md`, `x.md`) : on compare les noms.
     par_source = {}
     for page, f in actuel.items():
-        if f.get("source"):
-            par_source.setdefault(os.path.basename(f["source"]), page)
+        for s in f.get("sources") or []:
+            par_source.setdefault(os.path.basename(s), page)
 
     dus = []
     for chemin, t in sorted(les_bruts.items()):
@@ -212,17 +242,19 @@ def main():
         f["fait"] = fait
         ancien[page] = f
         # la fiche cite un brut : on acte le brut avec elle, sinon il repasse.
-        src = f.get("source")
-        if src:
+        srcs = f.get("sources") or []
+        actes = []
+        for src in srcs:
             for c, t in les_bruts.items():
                 if c == src or os.path.basename(c) == os.path.basename(src):
                     vus_bruts[c] = {"hash": hache(t), "fiche": page,
                                     "integre": f["passage"]}
+                    actes.append(c)
         etat["pages"], etat["bruts"] = ancien, vus_bruts
         sauve(etat)
         print("acté : %s (%d mots) — %s" % (page, f["mots"], fait or "sans détail"))
-        if src:
-            print("brut acté avec elle : %s" % src)
+        for c in actes:
+            print("brut acté avec elle : %s" % c)
         return 0
 
     if "--liste" in args:

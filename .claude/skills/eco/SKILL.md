@@ -149,6 +149,7 @@ serait le cours d'un autre, d'une autre année.
 | --- | --- | --- |
 | 1 | **Slides et syllabus de cette année**, déposés par Sacha dans `eco gestion/fichier/` | **Pleine.** Tranchent un mot, un chiffre, une date — voir le bloc `[!success]` |
 | 2 | **Ses notes d'amphi** (`_brut/`, cahier) | Elles fixent le **périmètre** : ce qui est au programme cette année |
+| 2 | **Les notes d'un camarade** (`_brut/camarade - *.md`) | **Même rang que les siennes** — même cours, même prof, même année. Voir la section dédiée |
 | 3 | **`~/Documents/L1`** — diaporamas et notes d'une promo antérieure | **Limitée au mot.** Précise, reformule, raccourcit ; n'ajoute ni partie ni valeur |
 | 4 | **Programme officiel de l'UE** | Repère les trous, ne remplit rien sans `➕` |
 
@@ -267,6 +268,84 @@ celui qui correspond à la section traitée, pas la matière entière.
 ils disent **quel type de question tombe** (QCM, définition, question de cours,
 calcul). Ils ne fournissent jamais de contenu de cours — une réponse d'annale
 recopiée dans la fiche, c'est du savoir non sourcé et daté.
+
+## Les notes d'un camarade — du cours de cette année, pris par quelqu'un d'autre
+
+**Règle posée par Sacha le 22 septembre 2026.** Il rapatrie de Drive les notes
+que ses amis ont prises **pendant les séances où il était absent**. Elles vivent
+dans `eco gestion/_brut/`, nommées **`camarade - <matière> <séance>.md`**, et
+chacune s'ouvre sur un commentaire qui dit de qui elle vient et ce qu'elle
+couvre. Le `.docx` d'origine reste dans son dossier `drive-download-*`, **au
+`.gitignore`** : le dépôt est public, et ces notes appartiennent à leurs auteurs.
+
+### Leur rang : le même que les siennes
+
+C'est **le même cours, le même prof, la même année** — rien à voir avec
+`~/Documents/L1`, qui a un an de retard. Elles ont donc l'autorité du rang 2 :
+elles **fixent le périmètre** et peuvent apporter une partie entière, un
+chapitre, une typologie. Là où il était absent, **elles sont la seule source** :
+sans elles, il n'a rien à réviser, et une fiche se bâtit dessus exactement comme
+sur ses propres notes.
+
+Ce qu'elles ne font pas, parce qu'elles sont à **rang égal** avec les siennes :
+**trancher contre lui.** Un chiffre, une date, une définition qui diverge entre
+sa note et celle d'un camarade **ne se corrige pas** — les deux versions partent
+dans `> [!question] À vérifier`. Seul le rang 1 (les slides de cette année)
+départage.
+
+Et elles restent **de seconde main** : le preneur a ses fautes, ses abréviations,
+ses contresens. Une phrase incompréhensible se signale, elle ne se devine pas.
+
+### Ce qui doit rester visible : d'où vient ce qu'il révise
+
+| Cas | Comment on le marque |
+| --- | --- |
+| **La fiche entière** vient des notes d'un camarade (séance manquée) | **Un bandeau en tête de fiche**, une fois. Marquer chaque ligne serait illisible : toute la page vient de là |
+| **Quelques lignes** entrent dans une fiche qui est déjà la sienne | Le marqueur **👥** en fin de ligne, plus un bloc `> [!note]- Ce qui vient des notes de tes camarades (n)` en fin de fiche |
+
+Le bandeau, en tête de fiche, juste après le titre :
+
+```md
+> [!warning] Séance manquée — fiche bâtie sur les notes d'un camarade
+> Tu n'étais pas en amphi ce jour-là : tout ce qui suit vient des notes de
+> **deux camarades** (`_brut/camarade - PEC chapitre 2 …`), pas des tiennes ni
+> des slides. C'est le cours de cette année, mais pris de seconde main —
+> **à confronter aux slides dès qu'elles sont sur Moodle.**
+```
+
+**Le 👥 ne se compte pas dans `ajouts:`.** Le compteur `ajouts:` et le `➕` gardent
+leur sens exact : ce qui ne vient **d'aucune source du cours**. Une information
+notée par un camarade en amphi vient bien du cours — elle n'est pas un
+complément, elle est du cours que Sacha n'a pas entendu. Les deux marques
+coexistent donc sans se mélanger, et `verifie.py`, qui ne compte que les `➕`,
+n'a pas à changer.
+
+### Quand deux camarades ont noté la même séance
+
+C'est le cas courant : deux fichiers `(A)` et `(B)` pour un même chapitre. On
+les lit **tous les deux avant d'écrire**, et la corroboration est précieuse :
+
+- **les deux disent la même chose** → on écrit, c'est solide ;
+- **l'un a une partie que l'autre n'a pas** → on la garde (l'un a décroché, pas
+  le prof), et on le note dans le bloc de traçabilité ;
+- **les deux se contredisent** sur un chiffre, un nom, une définition → `À
+  vérifier` avec les deux versions. À rang égal, rien ne départage.
+
+### Une fiche peut désormais citer plusieurs bruts
+
+Le champ `source:` du frontmatter accepte une liste — ses notes **et** celles des
+camarades qui couvrent la même séance :
+
+```yaml
+source:
+  - _brut/Problèmes économiques contemporains.md
+  - _brut/camarade - PEC chapitre 1 (A).md
+  - _brut/camarade - PEC chapitre 1 (B).md
+```
+
+`etat.py` lit les trois écritures (valeur seule, liste inline, bloc YAML) et
+**acte tous les bruts cités** avec la fiche. Un brut de camarade qui n'est cité
+par aucune fiche est traité comme n'importe quel brut sans fiche : **priorité 1**.
 
 ## Les cartes Anki — taillées sur ce que les annales demandent vraiment
 
@@ -483,6 +562,8 @@ soustrait à la fiche.
 | Corriger un chiffre quand **les slides de cette année** le tranchent | Corriger un chiffre, une date ou un auteur d'après `~/Documents/L1` : le rang 3 a un an de retard |
 | **Redessiner en SVG _ou_ découper dans la source** les deux ou trois figures qui portent le savoir, dans `schemas/` | Faire un schéma d'une liste, d'une opposition à deux colonnes ou d'une chaîne de flèches — inventer un schéma que le prof n'a pas fait, retoucher le contenu d'une figure découpée |
 | **Corriger l'orthographe et la syntaxe du brut**, ligne par ligne, à leur place | Restructurer un brut : déplacer, fusionner, renuméroter, compléter, ou retoucher un nom propre |
+| **Bâtir une fiche sur les notes d'un camarade** pour une séance manquée, sous bandeau | Laisser croire que c'est son cours à lui : sans bandeau, il réviserait du second-main comme du vu-en-amphi |
+| Signaler dans `À vérifier` un désaccord entre ses notes et celles d'un camarade | Trancher ce désaccord : à rang égal, seules les slides départagent |
 | Laisser les tableaux valides tels quels, alignement compris | Reformater un tableau qui marche (`verifie.py` le refuse) |
 | **Supprimer une carte Anki mauvaise** et la remplacer, en ajustant `cartes:` | Garder une carte-liste de sept items parce qu'elle existait déjà |
 | Écrire une carte dont la forme correspond à une question d'annale | Écrire une carte « parce que la notion est importante », sans équivalent en examen |

@@ -3,7 +3,11 @@ tags:
   - L1-eco-gestion
   - methodologie
   - cours
-source: _brut/Méthodologie du travail universitaire.md
+source:
+  - _brut/Méthodologie du travail universitaire.md
+  - _brut/camarade - MTU seance 1 (A).md
+  - _brut/camarade - MTU seance 1 (B).md
+  - _brut/camarade - MTU seance 2.md
 notion: Méthodologie du travail universitaire — raisonner en économiste, rationalité, hypothèses et modèles, corrélation et causalité, erreurs de raisonnement, réaliser un travail universitaire, le résumé
 ue: 18C
 statut: à faire

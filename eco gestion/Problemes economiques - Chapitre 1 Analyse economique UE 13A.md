@@ -4,7 +4,10 @@ tags:
   - cycle-1
   - economie
   - cours
-source: _brut/Problèmes économiques contemporains.md
+source:
+  - _brut/Problèmes économiques contemporains.md
+  - _brut/camarade - PEC chapitre 1 (A).md
+  - _brut/camarade - PEC chapitre 1 (B).md
 notion: Introduction à l'analyse économique — que font les économistes, la démarche hypothético-déductive, le modèle, TCEPA, l'expérimentation, les deux définitions de la science économique, PIB et capitalisme
 ue: 13A
 statut: à faire
