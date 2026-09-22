@@ -10,6 +10,16 @@
    "hash": "9c00625a5650",
    "integre": "2026-09-11 13:01"
   },
+  "eco gestion/_brut/camarade - PEC chapitre 2 marche du travail (A).md": {
+   "fiche": "eco gestion/Problemes economiques - Chapitre 2 Marche du travail UE 13A.md",
+   "hash": "c23c0b92d983",
+   "integre": "2026-09-22 16:27"
+  },
+  "eco gestion/_brut/camarade - PEC chapitre 2 marche du travail (B).md": {
+   "fiche": "eco gestion/Problemes economiques - Chapitre 2 Marche du travail UE 13A.md",
+   "hash": "3a71bbad991f",
+   "integre": "2026-09-22 16:27"
+  },
   "eco gestion/_brut/gestion.md": {
    "fiche": "eco gestion/Gestion - Introduction.md",
    "hash": "191100950174",
@@ -107,6 +117,18 @@
    "mots": 8637,
    "passage": "2026-09-11 13:01",
    "source": "_brut/Problèmes économiques contemporains.md",
+   "statut": "à faire"
+  },
+  "eco gestion/Problemes economiques - Chapitre 2 Marche du travail UE 13A.md": {
+   "fait": "fiche neuve — chapitre 2 PEC bâti sur les notes de deux camarades (séance manquée), 3 schémas, 24 cartes, 4 compléments du diaporama 25-26",
+   "hash": "bf06d4c95f6e",
+   "mots": 4520,
+   "passage": "2026-09-22 16:27",
+   "source": "_brut/camarade - PEC chapitre 2 marche du travail (A).md",
+   "sources": [
+    "_brut/camarade - PEC chapitre 2 marche du travail (A).md",
+    "_brut/camarade - PEC chapitre 2 marche du travail (B).md"
+   ],
    "statut": "à faire"
   }
  }
