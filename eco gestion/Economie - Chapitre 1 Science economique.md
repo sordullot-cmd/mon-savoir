@@ -999,249 +999,622 @@ Quel est le PIB de la France en 2015, tel qu'il figure dans ton cahier ? ; 2 999
 
 ## ✅ Contrôle
 
-Réponds à voix haute, puis ouvre la réponse.
+QCM au format de l'épreuve : **une seule bonne réponse**, **−0,5 point par
+erreur**. Les formulations sont proches à un mot près, et
+« aucune des propositions n'est exacte » est parfois la bonne. Quand tu hésites
+entre deux, ne réponds pas : ne rien cocher vaut mieux que se tromper.
 
 **Pourquoi ce cours, et ce qu'étudie l'économie**
 
-> [!question]- Les deux objectifs annoncés du cours, et le mot qui les résume ?
-> Une **vision générale des concepts clés** de l'économie — la **macroéconomie** et la **microéconomie** — et la **logique du raisonnement économique** et des **mécanismes de base**. Le mot : un **tour d'horizon**. → [[#Pourquoi un cours d'introduction à l'économie]]
+> [!question]- Les deux objectifs annoncés du cours sont :
+> a) une vision générale des concepts clés — macroéconomie et microéconomie — et la logique du raisonnement économique et des mécanismes de base
+> b) une vision générale des concepts clés et la maîtrise des outils mathématiques de l'économiste
+> c) la macroéconomie, puis la microéconomie, traitées successivement
+> d) aucune des propositions n'est exacte
+>
+> **a)** — et le mot qui les résume est un **tour d'horizon**. → [[#Pourquoi un cours d'introduction à l'économie]]
 
-> [!question]- Les quatre raisons qui font de l'économie un processus complexe ?
-> Au centre il y a le **comportement de l'individu** ; les individus sont **hétérogènes** ; ils **interagissent** ; et l'économie **évolue avec la société**. → [[#Pourquoi un cours d'introduction à l'économie]]
+> [!question]- Les quatre raisons qui font de l'économie un processus complexe :
+> a) le comportement de l'individu au centre ; les individus sont hétérogènes ; ils interagissent ; l'économie évolue avec la société
+> b) le comportement de l'individu au centre ; les individus sont rationnels ; ils interagissent ; l'économie est stable
+> c) les ressources sont rares ; les individus sont hétérogènes ; ils interagissent ; les données sont imparfaites
+> d) aucune des propositions n'est exacte
+>
+> **a)** — b) remplace « hétérogènes » par « rationnels » et « évolue » par « est stable » : deux mots, et tout bascule. → [[#Pourquoi un cours d'introduction à l'économie]]
 
-> [!question]- Les interactions supposent-elles d'être au même endroit au même moment ?
-> Non : elles ne nécessitent pas forcément une **proximité géographique ou temporelle**. On interagit tout le temps. → [[#Pourquoi un cours d'introduction à l'économie]]
+> [!question]- Les interactions entre individus :
+> a) supposent une proximité géographique
+> b) supposent une proximité temporelle
+> c) ne nécessitent pas forcément une proximité géographique ou temporelle
+> d) aucune des propositions n'est exacte
+>
+> **c)** — on interagit tout le temps, y compris sans être au même endroit ni au même moment. → [[#Pourquoi un cours d'introduction à l'économie]]
 
-> [!question]- À quoi servent les modèles, à quoi servent les données ?
-> Les **modèles** simplifient pour expliquer. Les **données** rendent compte de la réalité, permettent de **tester la théorie** et de faire des **prévisions** — mais elles sont brutes, il faut les exploiter. → [[#Pourquoi un cours d'introduction à l'économie]]
+> [!question]- Les modèles et les données :
+> a) les modèles simplifient pour expliquer ; les données rendent compte de la réalité, permettent de tester la théorie et de faire des prévisions
+> b) les modèles rendent compte de la réalité ; les données la simplifient pour l'expliquer
+> c) les modèles et les données servent tous deux à prédire, et se substituent l'un à l'autre
+> d) aucune des propositions n'est exacte
+>
+> **a)** — et les données sont **brutes** : il faut les exploiter. b) intervertit exactement les deux rôles. → [[#Pourquoi un cours d'introduction à l'économie]]
 
-> [!question]- Qu'est-ce que la science économique étudie, et donne deux exemples inattendus du cours.
-> Elle étudie **les choix**, car tous les comportements humains en reposent. Exemples : l'**économie du crime** (la motivation des voleurs), l'**économie du couple** (la répartition des revenus). → [[#I.1 La définition]]
+> [!question]- La science économique étudie :
+> a) la production et la répartition des richesses
+> b) les choix, car tous les comportements humains en reposent
+> c) l'allocation optimale des ressources rares entre des usages alternatifs
+> d) aucune des propositions n'est exacte
+>
+> **b)** — c) est une définition juste de l'économie, mais ce n'est pas celle de **ce** chapitre : ici on part des **choix**, avec l'économie du crime et l'économie du couple pour exemples. → [[#I.1 La définition]]
 
-> [!question]- Les trois questions que se pose la science économique sur les choix ?
-> **Pourquoi** fait-on des choix ; **comment** sont-ils faits ; quelles en sont les **conséquences**. → [[#I.1 La définition]]
+> [!question]- Les trois questions que la science économique se pose sur les choix :
+> a) pourquoi fait-on des choix ; comment sont-ils faits ; quelles en sont les conséquences
+> b) qui fait des choix ; comment sont-ils faits ; qui en profite
+> c) pourquoi fait-on des choix ; à quel coût ; quelles en sont les conséquences
+> d) aucune des propositions n'est exacte
+>
+> **a)** — pourquoi · comment · conséquences. → [[#I.1 La définition]]
 
-> [!question]- Cite les 5 notions clés du chapitre.
-> L'**arbitrage**, les **incitations**, l'**échange**, l'**information**, la **distribution des biens**. → [[#I.1 La définition]]
+> [!question]- Les 5 notions clés du chapitre :
+> a) l'arbitrage, les incitations, l'échange, l'information, la distribution des biens
+> b) l'arbitrage, les incitations, l'échange, l'équilibre, la distribution des biens
+> c) la rareté, les incitations, l'échange, l'information, la distribution des biens
+> d) aucune des propositions n'est exacte
+>
+> **a)** — b) remplace l'information par l'équilibre, c) l'arbitrage par la rareté : un seul mot change dans chaque leurre. → [[#I.1 La définition]]
 
 **La rareté et le coût d'opportunité**
 
-> [!question]- Pourquoi les choix sont-ils nécessaires ? Récite la chaîne complète.
-> Parce que les **ressources sont rares** : rareté → **contrainte** → **nécessité de choix** → décisions individuelles → **comportement global de l'économie**. → [[#a) Pourquoi les choix sont-ils nécessaires ?]]
+> [!question]- La chaîne qui rend les choix nécessaires :
+> a) rareté → contrainte → nécessité de choix → décisions individuelles → comportement global de l'économie
+> b) contrainte → rareté → nécessité de choix → comportement global → décisions individuelles
+> c) rareté → nécessité de choix → contrainte → décisions individuelles → comportement global
+> d) aucune des propositions n'est exacte
+>
+> **a)** — la contrainte vient **de** la rareté, et le comportement global vient **en dernier** : c'est tout le mouvement du chapitre, de l'individu à l'économie. → [[#a) Pourquoi les choix sont-ils nécessaires ?]]
 
-> [!question]- Cite six types de ressources, et laquelle est la contrainte « ultime ».
-> Terre / eau / air, **travail**, **capital physique**, **capital humain**, **ressources naturelles**, **temps** — le temps est la contrainte ultime. → [[#a) Pourquoi les choix sont-ils nécessaires ?]]
+> [!question]- Parmi ces ressources, celle qui est la contrainte « ultime » :
+> a) le capital physique
+> b) le travail
+> c) le temps
+> d) aucune des propositions n'est exacte
+>
+> **c)** — les six types sont terre / eau / air, travail, capital physique, capital humain, ressources naturelles et **temps**. → [[#a) Pourquoi les choix sont-ils nécessaires ?]]
 
-> [!question]- Définis le capital humain.
-> Les **compétences et connaissances**, **incorporées aux individus**. → [[#a) Pourquoi les choix sont-ils nécessaires ?]]
+> [!question]- Le capital humain, ce sont :
+> a) les compétences et connaissances, incorporées aux individus
+> b) les individus eux-mêmes, en tant que force de travail
+> c) les dépenses d'éducation engagées par un pays
+> d) aucune des propositions n'est exacte
+>
+> **a)** — le mot qui fait la définition est **incorporées** : le capital humain ne se sépare pas de la personne. → [[#a) Pourquoi les choix sont-ils nécessaires ?]]
 
-> [!question]- Qu'appelle-t-on une économie de marché, dans ce chapitre ?
-> Une économie où l'on **laisse les individus — les agents économiques — faire leurs propres choix**. → [[#a) Pourquoi les choix sont-ils nécessaires ?]]
+> [!question]- Dans ce chapitre, une économie de marché est une économie où :
+> a) l'État n'intervient pas
+> b) l'on laisse les individus — les agents économiques — faire leurs propres choix
+> c) les prix sont fixés par la rencontre de l'offre et de la demande
+> d) aucune des propositions n'est exacte
+>
+> **b)** — a) est faux : l'État intervient en cas de défaillance de marché. c) est vrai en soi, mais ce n'est pas la définition donnée ici. → [[#a) Pourquoi les choix sont-ils nécessaires ?]]
 
-> [!question]- Externalités : définis-les et donne un exemple de chaque signe.
-> Les **répercussions des choix individuels sur la société**, **non prises en compte** dans le choix. Négatives : pollution, fumer. Positives : il en existe aussi. → [[#a) Pourquoi les choix sont-ils nécessaires ?]]
+> [!question]- Les externalités sont :
+> a) les répercussions des choix individuels sur la société, prises en compte dans le choix
+> b) les répercussions des choix individuels sur la société, **non prises en compte** dans le choix
+> c) les effets de l'intervention de l'État sur les choix individuels
+> d) aucune des propositions n'est exacte
+>
+> **b)** — tout tient au « non prises en compte » : si elles l'étaient, il n'y aurait pas de défaillance. Négatives : pollution, tabac ; positives : il en existe aussi. → [[#a) Pourquoi les choix sont-ils nécessaires ?]]
 
-> [!question]- Définis le coût d'opportunité en une phrase.
-> Faire un choix, c'est **renoncer à quelque chose** : le **coût du renoncement** est le coût d'opportunité. → [[#b) Le coût d'un bien ou d'un service est lié à son coût d'opportunité]]
+> [!question]- Le coût d'opportunité, c'est :
+> a) le coût du renoncement : faire un choix, c'est renoncer à quelque chose
+> b) le coût effectivement déboursé pour obtenir un bien
+> c) la différence entre le gain espéré et le gain réalisé
+> d) aucune des propositions n'est exacte
+>
+> **a)** — b) est le coût comptable, celui qui sort du portefeuille : c'est précisément ce que le coût d'opportunité **n'est pas**. → [[#b) Le coût d'un bien ou d'un service est lié à son coût d'opportunité]]
 
-> [!question]- Décompose le coût des études, en séparant ce qui se débourse de ce qui ne se débourse pas.
-> Déboursé : **frais de scolarité**, **loyer**. Non déboursé : le **manque à gagner de ne pas travailler**. → [[#b) Le coût d'un bien ou d'un service est lié à son coût d'opportunité]]
+> [!question]- Dans le coût des études, ce qui **ne se débourse pas** :
+> a) les frais de scolarité
+> b) le loyer
+> c) le manque à gagner de ne pas travailler
+> d) aucune des propositions n'est exacte
+>
+> **c)** — et c'est la part la plus lourde : elle n'apparaît sur aucune facture. → [[#b) Le coût d'un bien ou d'un service est lié à son coût d'opportunité]]
 
-> [!question]- Pourquoi une forte croissance vide-t-elle les amphis ? Et une faible croissance ?
-> Forte croissance → beaucoup d'emplois bien rémunérés → **coût de ne pas travailler élevé** → moins d'étudiants. Faible croissance → peu d'emplois, faible rémunération → **coût faible** → plus d'étudiants. → [[#b) Le coût d'un bien ou d'un service est lié à son coût d'opportunité]]
+> [!question]- Une forte croissance vide les amphis parce que :
+> a) beaucoup d'emplois bien rémunérés élèvent le **coût de ne pas travailler**
+> b) les familles ont moins besoin de diplômes pour se placer
+> c) les entreprises recrutent sans regarder le diplôme
+> d) aucune des propositions n'est exacte
+>
+> **a)** — et symétriquement, une faible croissance abaisse ce coût : les amphis se remplissent. → [[#b) Le coût d'un bien ou d'un service est lié à son coût d'opportunité]]
 
-> [!question]- À quelle condition un choix est-il rationnel ?
-> Si **gain > coût d'opportunité**. Dans le cas inverse, il n'est pas rationnel. → [[#b) Le coût d'un bien ou d'un service est lié à son coût d'opportunité]]
+> [!question]- Un choix est rationnel si :
+> a) gain > coût déboursé
+> b) gain > coût d'opportunité
+> c) gain > coût d'opportunité + coût déboursé
+> d) aucune des propositions n'est exacte
+>
+> **b)** — c'est le renoncement qu'on met dans la balance, pas la dépense. → [[#b) Le coût d'un bien ou d'un service est lié à son coût d'opportunité]]
 
 **Arbitrage, marge, incitations**
 
-> [!question]- Distingue un choix en termes d'alternatives et un choix en termes de « combien », avec un exemple du cours.
-> Alternatives : dormir **ou** aller en cours, micro **ou** gestion. Combien : **+10 minutes** de révision en compta plutôt qu'en éco. → [[#c) Le rôle des arbitrages et du raisonnement à la marge]]
+> [!question]- « +10 minutes de révision en compta plutôt qu'en éco » est un choix :
+> a) en termes d'alternatives
+> b) en termes de « combien »
+> c) sans arbitrage, puisque les deux matières sont révisées
+> d) aucune des propositions n'est exacte
+>
+> **b)** — les alternatives, ce sont « dormir **ou** aller en cours », « micro **ou** gestion » : un choix entre deux options entières. → [[#c) Le rôle des arbitrages et du raisonnement à la marge]]
 
-> [!question]- Qu'est-ce qu'une décision « à la marge » ?
-> Une décision prise en comparant **coûts et bénéfices de l'unité suivante** — pas des totaux : « ces 10 minutes de plus, elles rapportent quoi ? ». → [[#c) Le rôle des arbitrages et du raisonnement à la marge]]
+> [!question]- Une décision « à la marge » compare :
+> a) les coûts et les bénéfices totaux de chaque option
+> b) les coûts et les bénéfices moyens de chaque option
+> c) les coûts et les bénéfices de l'**unité suivante**
+> d) aucune des propositions n'est exacte
+>
+> **c)** — « ces 10 minutes de plus, elles rapportent quoi ? » : jamais des totaux. → [[#c) Le rôle des arbitrages et du raisonnement à la marge]]
 
-> [!question]- Définis une incitation, et dis qui l'émet le plus souvent.
-> Un **signal envoyé à l'agent économique** pour qu'il **modifie son comportement** et **améliore sa situation**. Souvent, c'est l'**État**. → [[#d) Le rôle des incitations et la recherche de la meilleure situation]]
+> [!question]- Une incitation est :
+> a) un signal envoyé à l'agent économique pour qu'il modifie son comportement et améliore sa situation
+> b) une obligation imposée à l'agent économique pour corriger son comportement
+> c) un avantage financier accordé à l'agent économique en échange d'un service
+> d) aucune des propositions n'est exacte
+>
+> **a)** — un **signal**, pas une contrainte : c'est ce qui sépare a) de b). Le plus souvent, c'est l'**État** qui l'émet. → [[#d) Le rôle des incitations et la recherche de la meilleure situation]]
 
-> [!question]- Qu'est-ce qu'une « meilleure situation », et vers quoi tend-on typiquement ?
-> Une situation **optimale** : on ne peut pas faire mieux. On tend vers celle où les ressources sont **utilisées le plus efficacement possible**, donc **sans gaspillage**. → [[#d) Le rôle des incitations et la recherche de la meilleure situation]]
+> [!question]- Une « meilleure situation » est une situation :
+> a) où chacun a obtenu ce qu'il souhaitait
+> b) **optimale** : on ne peut pas faire mieux, les ressources sont utilisées le plus efficacement possible, sans gaspillage
+> c) où les gains de l'un ne font pas les pertes de l'autre
+> d) aucune des propositions n'est exacte
+>
+> **b)** — le critère est l'**absence de gaspillage**, pas la satisfaction de chacun. → [[#d) Le rôle des incitations et la recherche de la meilleure situation]]
 
-> [!question]- Coeff compta 6, coeff éco 4 : quelle incitation, et pourquoi ?
-> Réviser la **compta** : chaque point gagné y **rapporte 6**, contre **4** en éco. Des coefficients égaux ne créeraient **aucune incitation particulière**. → [[#d) Le rôle des incitations et la recherche de la meilleure situation]]
+> [!question]- Coefficient 6 en compta, 4 en éco. L'incitation est :
+> a) de réviser l'éco, où la marge de progression est la plus grande
+> b) de réviser la compta, où chaque point gagné rapporte 6 contre 4
+> c) nulle : l'étudiant répartit son temps également
+> d) aucune des propositions n'est exacte
+>
+> **b)** — ce sont des **coefficients égaux** qui ne créeraient aucune incitation particulière. → [[#d) Le rôle des incitations et la recherche de la meilleure situation]]
 
 **Les interactions**
 
-> [!question]- Trois causes d'erreur de décision ?
-> **Manque d'informations pertinentes** ; information **fausse ou incomplète** ; **interactions avec les autres agents économiques**. → [[#I.3 Comment les interactions déterminent ce qui se passe dans l'économie]]
+> [!question]- Les trois causes d'erreur de décision :
+> a) manque d'informations pertinentes ; information fausse ou incomplète ; interactions avec les autres agents économiques
+> b) manque d'informations pertinentes ; irrationalité de l'agent ; interactions avec les autres agents
+> c) information fausse ou incomplète ; mauvais calcul du coût d'opportunité ; interactions avec les autres agents
+> d) aucune des propositions n'est exacte
+>
+> **a)** — l'irrationalité n'est pas au programme de ce chapitre : l'agent se trompe **malgré** sa rationalité. → [[#I.3 Comment les interactions déterminent ce qui se passe dans l'économie]]
 
-> [!question]- Pourquoi le choix effectif diffère-t-il du choix initial ?
-> Parce que le choix initial est fait **sans tenir compte des interactions sociales** ; celles-ci **affectent les prises de décision** et modifient le choix. → [[#I.3 Comment les interactions déterminent ce qui se passe dans l'économie]]
+> [!question]- Le choix effectif diffère du choix initial parce que :
+> a) l'agent change d'avis en cours de route
+> b) le choix initial est fait sans tenir compte des interactions sociales, qui affectent ensuite les prises de décision
+> c) l'information disponible se dégrade avec le temps
+> d) aucune des propositions n'est exacte
+>
+> **b)** — ce sont les autres qui font bouger le choix, pas l'humeur de l'agent. → [[#I.3 Comment les interactions déterminent ce qui se passe dans l'économie]]
 
-> [!question]- D'où vient la nécessité de coopérer, et qu'est-ce que la coopération apporte ?
-> De l'**impossibilité de subvenir seul à tous ses besoins**. Mettre les efforts en commun **accroît l'ensemble des possibilités** de production et de consommation. → [[#a) L'échange et la coopération]]
+> [!question]- La nécessité de coopérer vient de :
+> a) l'impossibilité de subvenir seul à tous ses besoins
+> b) la rareté des ressources naturelles
+> c) l'existence d'un système de prix
+> d) aucune des propositions n'est exacte
+>
+> **a)** — et mettre les efforts en commun **accroît l'ensemble des possibilités** de production et de consommation. → [[#a) L'échange et la coopération]]
 
-> [!question]- Récite l'enchaînement qui va des interactions sociales à l'échange.
-> Interactions sociales → **coopération** ⇄ **spécialisation** (tout le monde ne fait pas tout) → **échange**. → [[#a) L'échange et la coopération]]
+> [!question]- L'enchaînement qui mène des interactions sociales à l'échange :
+> a) interactions sociales → spécialisation → coopération → échange
+> b) interactions sociales → **coopération ⇄ spécialisation** → échange
+> c) interactions sociales → échange → coopération → spécialisation
+> d) aucune des propositions n'est exacte
+>
+> **b)** — coopération et spécialisation se renforcent l'une l'autre : tout le monde ne fait pas tout. → [[#a) L'échange et la coopération]]
 
-> [!question]- Pourquoi l'échange est-il profitable ?
-> Chacun **fait profiter les autres** de ses connaissances et de son savoir-faire et **profite de celles des autres** : il **permet à chacun d'avoir plus**. → [[#a) L'échange et la coopération]]
+> [!question]- L'échange est profitable parce que :
+> a) chacun fait profiter les autres de ses connaissances et de son savoir-faire, et profite de celles des autres
+> b) l'un des deux échangistes y gagne toujours plus que l'autre
+> c) il permet de fixer un prix d'équilibre
+> d) aucune des propositions n'est exacte
+>
+> **a)** — il **permet à chacun d'avoir plus** : l'échange n'est pas un jeu à somme nulle, ce que b) suppose. → [[#a) L'échange et la coopération]]
 
-> [!question]- Définis l'équilibre.
-> Une situation où **aucun individu ne peut améliorer sa situation en faisant quelque chose de différent**. → [[#b) La notion d'ÉQUILIBRE]]
+> [!question]- L'équilibre est une situation où :
+> a) l'offre est égale à la demande sur tous les marchés
+> b) aucun individu ne peut améliorer sa situation en faisant quelque chose de différent
+> c) les prix ne varient plus
+> d) aucune des propositions n'est exacte
+>
+> **b)** — la définition porte sur les **comportements**, pas sur les quantités : a) et c) en sont des conséquences possibles. → [[#b) La notion d'ÉQUILIBRE]]
 
-> [!question]- Aux caisses du supermarché, quelle question permet de savoir si on est à l'équilibre ?
-> **« Quelqu'un est-il incité à changer de comportement ? »** Si non, c'est un équilibre. → [[#b) La notion d'ÉQUILIBRE]]
+> [!question]- Aux caisses du supermarché, la question qui dit si l'on est à l'équilibre :
+> a) « les files sont-elles de longueur égale ? »
+> b) « **quelqu'un est-il incité à changer de comportement ?** »
+> c) « le temps d'attente est-il minimal ? »
+> d) aucune des propositions n'est exacte
+>
+> **b)** — si personne n'a intérêt à changer de file, c'est un équilibre, même si l'attente reste longue. → [[#b) La notion d'ÉQUILIBRE]]
 
-> [!question]- Pourquoi les marchés tendent-ils naturellement vers l'équilibre ? Donne l'exemple du cours.
-> Parce que **les agents répondent aux incitations**. Ex : dans un secteur en tension où la main-d'œuvre manque, **les salaires s'élèvent**, ce qui attire des travailleurs. → [[#b) La notion d'ÉQUILIBRE]]
+> [!question]- Les marchés tendent naturellement vers l'équilibre parce que :
+> a) l'État corrige les déséquilibres
+> b) les agents répondent aux incitations
+> c) les prix sont rigides à court terme
+> d) aucune des propositions n'est exacte
+>
+> **b)** — l'exemple du cours : dans un secteur en tension où la main-d'œuvre manque, les **salaires s'élèvent**, ce qui attire des travailleurs. → [[#b) La notion d'ÉQUILIBRE]]
 
 **Le système économique**
 
-> [!question]- Que doit faire chaque individu quand les agents interagissent, et qu'est-ce que cela suppose ?
-> Il doit **produire plus que ce dont il a besoin**, pour satisfaire les besoins des autres. Cela suppose d'**anticiper** les besoins d'autrui, d'être **guidé par des signaux** (les incitations) et d'être **organisé collectivement** : la **coordination**. → [[#c) Des indications en termes d'organisation de la société : LE SYSTÈME ÉCONOMIQUE]]
+> [!question]- Quand les agents interagissent, chaque individu doit :
+> a) produire exactement ce dont il a besoin
+> b) produire plus que ce dont il a besoin, pour satisfaire les besoins des autres
+> c) produire ce que l'État a planifié
+> d) aucune des propositions n'est exacte
+>
+> **b)** — cela suppose d'**anticiper** les besoins d'autrui, d'être **guidé par des signaux** et d'être **organisé collectivement** : la coordination. → [[#c) Des indications en termes d'organisation de la société : LE SYSTÈME ÉCONOMIQUE]]
 
-> [!question]- Les 3 questions auxquelles répond l'organisation d'une économie ?
-> **Quels** biens et services produire ; **comment** les produire ; **à qui** les livrer. → [[#c) Des indications en termes d'organisation de la société : LE SYSTÈME ÉCONOMIQUE]]
+> [!question]- Les 3 questions auxquelles répond l'organisation d'une économie :
+> a) quels biens et services produire ; comment les produire ; à qui les livrer
+> b) quoi produire ; à quel prix ; pour quel profit
+> c) quels biens produire ; avec quelles ressources ; à quel coût
+> d) aucune des propositions n'est exacte
+>
+> **a)** — quoi · comment · à qui. Le prix n'est pas une des trois questions. → [[#c) Des indications en termes d'organisation de la société : LE SYSTÈME ÉCONOMIQUE]]
 
-> [!question]- Dans le système capitaliste, pourquoi l'individu est-il au centre ?
-> Parce que **chacun est mieux à même de connaître ses besoins, ses goûts et ses capacités**, donc sa participation à l'économie : **chacun décide**. → [[#c) Des indications en termes d'organisation de la société : LE SYSTÈME ÉCONOMIQUE]]
+> [!question]- Dans le système capitaliste, l'individu est au centre parce que :
+> a) chacun est mieux à même de connaître ses besoins, ses goûts et ses capacités
+> b) la société connaît mieux que lui les objectifs à atteindre
+> c) l'État lui délègue ses décisions
+> d) aucune des propositions n'est exacte
+>
+> **a)** — b) est exactement le principe de l'économie **planifiée** : les deux énoncés sont le miroir l'un de l'autre. → [[#c) Des indications en termes d'organisation de la société : LE SYSTÈME ÉCONOMIQUE]]
 
-> [!question]- Cite les quatre implications du système capitaliste.
-> **Propriété privée** des moyens de production ; **échange sur des marchés** via un système de **prix non administrés** ; production **pour le profit** ; décisions **décentralisées**. → [[#c) Des indications en termes d'organisation de la société : LE SYSTÈME ÉCONOMIQUE]]
+> [!question]- Les quatre implications du système capitaliste :
+> a) propriété privée des moyens de production ; échange sur des marchés via des prix non administrés ; production pour le profit ; décisions décentralisées
+> b) propriété privée des moyens de production ; échange sur des marchés via des prix administrés ; production pour le profit ; décisions centralisées
+> c) propriété privée ; libre entreprise ; concurrence ; intervention minimale de l'État
+> d) aucune des propositions n'est exacte
+>
+> **a)** — b) est la même liste avec deux mots retournés, « administrés » et « centralisées » : c'est le type même du leurre de cette épreuve. → [[#c) Des indications en termes d'organisation de la société : LE SYSTÈME ÉCONOMIQUE]]
 
-> [!question]- Que choisissent les entreprises, que choisissent les ménages, et qu'est-ce que leurs interactions déterminent ?
-> Les entreprises : **quoi produire, comment, qui employer** pour faire du profit. Les ménages : **où travailler** et **quoi acquérir** avec leurs revenus. Leurs interactions sur le marché forment **les quantités et les prix**. → [[#c) Des indications en termes d'organisation de la société : LE SYSTÈME ÉCONOMIQUE]]
+> [!question]- Les entreprises choisissent, les ménages choisissent, et leurs interactions déterminent :
+> a) entreprises : quoi produire, comment, qui employer · ménages : où travailler, quoi acquérir · interactions : les quantités et les prix
+> b) entreprises : les prix de vente · ménages : les quantités consommées · interactions : le niveau de l'emploi
+> c) entreprises : quoi produire et à quel prix · ménages : quoi acquérir · interactions : le profit
+> d) aucune des propositions n'est exacte
+>
+> **a)** — ni les entreprises ni les ménages ne fixent les prix : ils sortent de la **rencontre** des deux. → [[#c) Des indications en termes d'organisation de la société : LE SYSTÈME ÉCONOMIQUE]]
 
-> [!question]- Le principe de l'économie planifiée, et le rôle qu'y joue l'État.
-> **La société connaît mieux les objectifs à atteindre que chaque individu pris séparément** → décisions **centralisées**. L'État **détermine les besoins**, l'**allocation des ressources**, produit et distribue. → [[#c) Des indications en termes d'organisation de la société : LE SYSTÈME ÉCONOMIQUE]]
+> [!question]- Le principe de l'économie planifiée :
+> a) la société connaît mieux les objectifs à atteindre que chaque individu pris séparément → décisions centralisées
+> b) chaque individu connaît mieux ses besoins que la société → décisions centralisées
+> c) la société connaît mieux les objectifs → décisions décentralisées
+> d) aucune des propositions n'est exacte
+>
+> **a)** — b) et c) mélangent le principe de l'un avec les décisions de l'autre. L'État y détermine les besoins, l'allocation des ressources, produit et distribue. → [[#c) Des indications en termes d'organisation de la société : LE SYSTÈME ÉCONOMIQUE]]
 
-> [!question]- « Économie de marché = économie sans État » : vrai ou faux, et pourquoi ?
-> **Faux.** L'État intervient lorsqu'il existe des **défaillances de marché**. → [[#c) Des indications en termes d'organisation de la société : LE SYSTÈME ÉCONOMIQUE]]
+> [!question]- « Économie de marché = économie sans État » :
+> a) vrai : le marché s'autorégule
+> b) vrai, sauf pour la sécurité et la justice
+> c) faux : l'État intervient lorsqu'il existe des défaillances de marché
+> d) aucune des propositions n'est exacte
+>
+> **c)** — le cours insiste : le rôle de l'État n'est pas négligeable. → [[#c) Des indications en termes d'organisation de la société : LE SYSTÈME ÉCONOMIQUE]]
 
-> [!question]- Définis une défaillance de marché et cite ses deux causes.
-> Une situation où les **décisions décentralisées échouent à allouer efficacement les ressources**. Causes : les **externalités** et le **pouvoir de marché**. → [[#c) Des indications en termes d'organisation de la société : LE SYSTÈME ÉCONOMIQUE]]
+> [!question]- Une défaillance de marché est une situation où :
+> a) les décisions décentralisées échouent à allouer efficacement les ressources
+> b) les prix cessent de s'ajuster à l'offre et à la demande
+> c) l'État intervient sur un marché concurrentiel
+> d) aucune des propositions n'est exacte
+>
+> **a)** — ses deux causes : les **externalités** et le **pouvoir de marché**. → [[#c) Des indications en termes d'organisation de la société : LE SYSTÈME ÉCONOMIQUE]]
 
-> [!question]- Monopole ou concurrence monopolistique : lequel vend un produit unique ?
-> Le **monopole** : une firme unique, un produit unique. En **concurrence monopolistique**, plusieurs firmes produisent des **biens différenciés** (ex : l'automobile). → [[#c) Des indications en termes d'organisation de la société : LE SYSTÈME ÉCONOMIQUE]]
+> [!question]- Le produit vendu est unique, la firme est unique. Il s'agit :
+> a) de la concurrence monopolistique
+> b) du monopole
+> c) de la concurrence pure et parfaite
+> d) aucune des propositions n'est exacte
+>
+> **b)** — en **concurrence monopolistique**, plusieurs firmes produisent des biens **différenciés** : l'automobile, par exemple. → [[#c) Des indications en termes d'organisation de la société : LE SYSTÈME ÉCONOMIQUE]]
 
 **Micro et macro : le tout n'est pas la somme des parties**
 
-> [!question]- Énonce le principe, puis démonte l'idée « donnons à chacun un revenu supplémentaire ».
-> **Résultat global de millions de comportements ≠ somme des résultats de ces comportements.** Si tous les revenus augmentent : ↑ demande → ↑ prix → **↓ pouvoir d'achat** → globalement **pas plus riches**. → [[#d) Les interactions à l'échelle de l'économie : le tout n'est pas la somme des parties]]
+> [!question]- Le principe s'énonce :
+> a) le résultat global de millions de comportements est la somme des résultats de ces comportements
+> b) le résultat global de millions de comportements **n'est pas** la somme des résultats de ces comportements
+> c) le comportement individuel se déduit du comportement global
+> d) aucune des propositions n'est exacte
+>
+> **b)** — c'est pour cela que « donnons à chacun un revenu supplémentaire » ne marche pas : ↑ demande → ↑ prix → ↓ pouvoir d'achat, et globalement on n'est **pas plus riches**. → [[#d) Les interactions à l'échelle de l'économie : le tout n'est pas la somme des parties]]
 
-> [!question]- Écris la formule du pouvoir d'achat et calcule-le pour W = 100 € et P = 10 €/bien.
-> $W/P$, exprimé en **nombre de biens** : 100/10 = **10 biens**. → [[#d) Les interactions à l'échelle de l'économie : le tout n'est pas la somme des parties]]
+> [!question]- Le pouvoir d'achat pour W = 100 € et P = 10 €/bien :
+> a) 10 €
+> b) 10 biens
+> c) 1 000 biens
+> d) aucune des propositions n'est exacte
+>
+> **b)** — $W/P$ s'exprime en **nombre de biens**, pas en euros : a) est juste numériquement et faux en unité. → [[#d) Les interactions à l'échelle de l'économie : le tout n'est pas la somme des parties]]
 
-> [!question]- Le paradoxe de l'épargne, en deux temps.
-> Individuellement, **↑ épargne → ↑ investissement → ↑ production**. Mais si **tout le monde** épargne : **↓ consommation totale → ↓ offre de biens et services → ↓ revenu**. → [[#d) Les interactions à l'échelle de l'économie : le tout n'est pas la somme des parties]]
+> [!question]- Le paradoxe de l'épargne :
+> a) individuellement ↑ épargne → ↑ investissement → ↑ production ; collectivement ↓ consommation totale → ↓ offre de biens et services → ↓ revenu
+> b) individuellement ↑ épargne → ↓ consommation → ↓ revenu ; collectivement ↑ épargne → ↑ investissement → ↑ production
+> c) l'épargne augmente le revenu dans les deux cas, mais plus lentement collectivement
+> d) aucune des propositions n'est exacte
+>
+> **a)** — b) intervertit les deux échelles, et c'est le seul point que la question teste. → [[#d) Les interactions à l'échelle de l'économie : le tout n'est pas la somme des parties]]
 
-> [!question]- Décompose le revenu Y.
-> $Y = T + C + S$ : impôts, consommation, épargne. → [[#d) Les interactions à l'échelle de l'économie : le tout n'est pas la somme des parties]]
+> [!question]- Le revenu Y se décompose en :
+> a) $Y = C + I + G$
+> b) $Y = C + S$
+> c) $Y = T + C + S$
+> d) aucune des propositions n'est exacte
+>
+> **c)** — impôts, consommation, épargne. b) oublie les impôts, a) est la formule du PIB par la demande. → [[#d) Les interactions à l'échelle de l'économie : le tout n'est pas la somme des parties]]
 
 **La méthode**
 
-> [!question]- Qu'est-ce qu'un économiste, et sur quoi s'appuie-t-il ?
-> Un **scientifique** qui cherche à **rendre compte de la réalité**, en s'appuyant sur les **évidences empiriques** — faits observés et mesures. → [[#II. LA MÉTHODE DE L'ÉCONOMIE]]
+> [!question]- Un économiste est :
+> a) un scientifique qui cherche à rendre compte de la réalité, en s'appuyant sur les évidences empiriques
+> b) un conseiller des décideurs politiques, qui s'appuie sur des critères normatifs
+> c) un scientifique qui cherche à prédire l'avenir, en s'appuyant sur des modèles
+> d) aucune des propositions n'est exacte
+>
+> **a)** — les **évidences empiriques**, ce sont les faits observés et les mesures. → [[#II. LA MÉTHODE DE L'ÉCONOMIE]]
 
-> [!question]- Donne un fait observé et une mesure, tirés du cours.
-> Fait observé : un **chômage plus élevé coïncide avec une inflation plus faible**. Mesure : **PIB 2015 = 2 999,9 milliards d'€** en France. → [[#II. LA MÉTHODE DE L'ÉCONOMIE]]
+> [!question]- Parmi ces énoncés, lequel est une **mesure**, et non un fait observé ?
+> a) un chômage plus élevé coïncide avec une inflation plus faible
+> b) le PIB 2015 de la France vaut 2 999,9 milliards d'euros
+> c) les canicules affectent la productivité
+> d) aucune des propositions n'est exacte
+>
+> **b)** — un fait observé est une régularité, une mesure est un chiffre. Note que ce chiffre est justement celui que ta fiche signale comme **à confirmer**. → [[#II. LA MÉTHODE DE L'ÉCONOMIE]]
 
-> [!question]- En quoi consiste la méthode hypothético-déductive ?
-> **Je fais des hypothèses, j'en déduis des résultats** — que je confronte ensuite aux données. → [[#II. LA MÉTHODE DE L'ÉCONOMIE]]
+> [!question]- La méthode hypothético-déductive consiste à :
+> a) observer les données, puis en déduire des hypothèses
+> b) faire des hypothèses, en déduire des résultats, puis les confronter aux données
+> c) faire des hypothèses, les confronter aux données, puis en déduire des résultats
+> d) aucune des propositions n'est exacte
+>
+> **b)** — la confrontation vient **après** la déduction : c'est l'ordre que c) intervertit. → [[#II. LA MÉTHODE DE L'ÉCONOMIE]]
 
-> [!question]- Les deux rôles d'un modèle mathématique ?
-> **Enlever la complexité du réel** en se focalisant sur l'essentiel (d'où définitions et hypothèses simplificatrices **acceptables**) ; **déduire des implications théoriques** = la **prédiction du modèle**. → [[#II.1 Les modèles mathématiques]]
+> [!question]- Les deux rôles d'un modèle mathématique :
+> a) enlever la complexité du réel en se focalisant sur l'essentiel ; déduire des implications théoriques — la prédiction du modèle
+> b) représenter fidèlement le réel ; en déduire des implications théoriques
+> c) enlever la complexité du réel ; tester empiriquement les hypothèses
+> d) aucune des propositions n'est exacte
+>
+> **a)** — d'où des définitions et des hypothèses simplificatrices **acceptables**. Tester, en c), est le rôle des **données**. → [[#II.1 Les modèles mathématiques]]
 
-> [!question]- Explique l'analogie du plan de métro.
-> Les **distances sont fausses**, la **forme de la ville n'est pas respectée**, **mais** le plan **permet à l'usager de se déplacer** : un modèle faux dans le détail reste utile pour la question qu'il traite. → [[#II.1 Les modèles mathématiques]]
+> [!question]- L'analogie du plan de métro dit que :
+> a) un modèle doit respecter les proportions du réel pour être utile
+> b) les distances sont fausses et la forme de la ville n'est pas respectée, **mais** le plan permet à l'usager de se déplacer
+> c) un modèle faux doit être rejeté, quel que soit son usage
+> d) aucune des propositions n'est exacte
+>
+> **b)** — un modèle faux dans le détail reste utile **pour la question qu'il traite** : c'est là que se joue l'acceptabilité des hypothèses. → [[#II.1 Les modèles mathématiques]]
 
-> [!question]- Le modèle 2 (ménages ⇄ entreprises) est-il acceptable ? Réponds en deux temps.
-> **Oui** pour « comment est créée la richesse ? » : ménages et entreprises en créent **≈ 80 %** (55 % + 25 %). **Non** pour « quel est le rôle de l'État ? » : le modèle **n'a pas d'État**, il faut le **modèle 1**. → [[#II.1 Les modèles mathématiques]]
+> [!question]- Le modèle 2 (ménages ⇄ entreprises) est acceptable :
+> a) pour « comment est créée la richesse ? », car ménages et entreprises en créent ≈ 80 %
+> b) pour « quel est le rôle de l'État ? », car l'État y figure implicitement
+> c) dans les deux cas, puisqu'un modèle est toujours simplificateur
+> d) aucune des propositions n'est exacte
+>
+> **a)** — 55 % + 25 %. Pour le rôle de l'État, il faut le **modèle 1** : le modèle 2 n'a **pas d'État**. → [[#II.1 Les modèles mathématiques]]
 
 **Le modèle en action : le marché de la pizza**
 
-> [!question]- Endogène ou exogène : dis la différence, puis classe Y, Pi, T, Q\*, P\*.
-> **Endogène** = déterminée **par** le modèle, c'est l'inconnue ; **exogène** = fixée **en dehors**, c'est une donnée. Exogènes : **Y, Pref, Pb, Pi, T**. Endogènes : **Q\*** et **P\***. → [[#Les deux types de variables d'un modèle]]
+> [!question]- Dans le modèle du marché de la pizza, sont **endogènes** :
+> a) Y, Pref, Pb, Pi, T
+> b) Q\* et P\*
+> c) Pp et Q\*
+> d) aucune des propositions n'est exacte
+>
+> **b)** — **endogène** = déterminée **par** le modèle, c'est l'inconnue ; **exogène** = fixée **en dehors**, c'est une donnée. La liste a) est exactement celle des exogènes. → [[#Les deux types de variables d'un modèle]]
 
-> [!question]- Les trois questions que pose le modèle du marché de la pizza ?
-> Quelles **quantités** sont produites en France ; à quel **prix moyen** elles sont vendues ; **de quoi dépendent** ces quantités et ces prix. → [[#Exemple 2 — le marché de la pizza]]
+> [!question]- Les trois questions que pose ce modèle :
+> a) quelles quantités sont produites en France ; à quel prix moyen elles sont vendues ; de quoi dépendent ces quantités et ces prix
+> b) qui produit les pizzas ; à quel coût ; pour quel profit
+> c) quelles quantités sont produites ; à quel coût de production ; avec quelle technologie
+> d) aucune des propositions n'est exacte
+>
+> **a)** — quantités · prix · déterminants. → [[#Exemple 2 — le marché de la pizza]]
 
-> [!question]- Écris la fonction de demande de pizza, avec les signes.
-> $Q_d = D(P_p\ ;\ P_{ref}\ ;\ Y\ ;\ P_b)$, avec les signes **− + + +**. → [[#Exemple 2 — le marché de la pizza]]
+> [!question]- La fonction de demande de pizza :
+> a) $Q_d = D(P_p ; P_{ref} ; Y ; P_b)$, signes **− + + +**
+> b) $Q_d = D(P_p ; P_{ref} ; Y ; P_b)$, signes **+ − + +**
+> c) $Q_d = D(P_p ; P_i ; Y ; T)$, signes **− + + +**
+> d) aucune des propositions n'est exacte
+>
+> **a)** — le prix de la pizza pèse **négativement** sur sa demande ; Pi et T, en c), sont des variables de l'**offre**. → [[#Exemple 2 — le marché de la pizza]]
 
-> [!question]- Écris la fonction d'offre de pizza, avec les signes, et justifie chaque signe.
-> $Q_o = O(P_p\ ;\ P_i\ ;\ T)$, signes **+ − +**. Le prix (+) parce que la firme maximise son profit et a des coûts fixes ; le prix des ingrédients (−) parce que ce sont les *inputs* ; la technologie (+) parce qu'un four plus performant produit plus. → [[#Exemple 2 — le marché de la pizza]]
+> [!question]- La fonction d'offre de pizza :
+> a) $Q_o = O(P_p ; P_i ; T)$, signes **+ − +**
+> b) $Q_o = O(P_p ; P_i ; T)$, signes **+ + −**
+> c) $Q_o = O(P_p ; P_{ref} ; T)$, signes **+ − +**
+> d) aucune des propositions n'est exacte
+>
+> **a)** — le prix (+) parce que la firme maximise son profit et porte des coûts fixes ; le prix des ingrédients (−) parce que ce sont les *inputs* ; la technologie (+) parce qu'un four plus performant produit plus. → [[#Exemple 2 — le marché de la pizza]]
 
-> [!question]- Que dit l'hypothèse de concurrence pure et parfaite ici ?
-> Que les agents sont **price takers** : ils **subissent** le prix. Le prix **Pp s'ajuste** pour **égaliser l'offre et la demande**. → [[#Exemple 2 — le marché de la pizza]]
+> [!question]- L'hypothèse de concurrence pure et parfaite signifie ici que :
+> a) les agents sont *price makers* : ils fixent le prix
+> b) les agents sont *price takers* : ils subissent le prix, et Pp s'ajuste pour égaliser l'offre et la demande
+> c) le prix est fixé par l'État au niveau d'équilibre
+> d) aucune des propositions n'est exacte
+>
+> **b)** — c'est le **prix** qui travaille, pas les agents. → [[#Exemple 2 — le marché de la pizza]]
 
-> [!question]- Refais le graphique de tête, puis dis ce qui est en abscisse, en ordonnée, et ce qu'est E.
-> **Quantités en abscisse**, **prix en ordonnée**, demande **décroissante**, offre **croissante**, et **E** est leur croisement : **Qd = Qo = Q\*** au prix **P\***. → [[#Exemple 2 — le marché de la pizza]]
+> [!question]- Sur le graphique du marché de la pizza :
+> a) prix en abscisse, quantités en ordonnée, demande croissante, offre décroissante
+> b) quantités en abscisse, prix en ordonnée, demande décroissante, offre croissante
+> c) quantités en abscisse, prix en ordonnée, demande croissante, offre décroissante
+> d) aucune des propositions n'est exacte
+>
+> **b)** — et **E** est leur croisement : **Qd = Qo = Q\*** au prix **P\***. → [[#Exemple 2 — le marché de la pizza]]
 
-> [!question]- ↑ Pi : déroule les cinq étapes du raisonnement, dans l'ordre.
-> **1.** Pi est un *input* → **seule l'offre** est touchée, l'effet sur la demande est **latent**. **2.** Toute chose égale par ailleurs, **Pp ne bouge pas encore** → l'offre **se déplace** de E vers O₁. **3.** Il y a **excès de demande** à ce prix. **4.** Le **prix s'ajuste** : ↑Pp → ↑Qo et ↓Qd. **5.** Résultat : **P\* augmente, Q\* diminue**. → [[#Le but du modèle : comprendre les mécanismes]]
+> [!question]- ↑ Pi (le prix des ingrédients) : le raisonnement se déroule ainsi :
+> a) Pi est un *input* → seule l'offre est touchée → à Pp inchangé l'offre se déplace de E vers O₁ → excès de demande → le prix s'ajuste → **P\* augmente, Q\* diminue**
+> b) Pi touche l'offre et la demande simultanément → excès d'offre → P\* diminue, Q\* augmente
+> c) Pi est un *input* → seule l'offre est touchée → excès d'offre → P\* diminue, Q\* diminue
+> d) aucune des propositions n'est exacte
+>
+> **a)** — l'effet sur la demande est **latent** : elle ne bouge qu'une fois le prix ajusté. Cinq étapes, et le sens final est ce qui tombe. → [[#Le but du modèle : comprendre les mécanismes]]
 
-> [!question]- Et si les agents deviennent fans de pizza ?
-> À prix inchangé la **demande** augmente (E → A), l'offre est toujours en E, donc **la demande dépasse l'offre** → **Pp augmente** jusqu'au nouvel équilibre, à un prix **plus élevé**. → [[#Le but du modèle : comprendre les mécanismes]]
+> [!question]- Les agents deviennent fans de pizza. Alors :
+> a) à prix inchangé la demande augmente (E → A), l'offre reste en E, la demande dépasse l'offre → Pp augmente jusqu'à un nouvel équilibre, à un prix plus élevé
+> b) à prix inchangé l'offre augmente, la demande reste en E → Pp diminue
+> c) la demande et l'offre augmentent ensemble → le prix ne change pas
+> d) aucune des propositions n'est exacte
+>
+> **a)** — un choc de **préférences** déplace la demande, jamais l'offre. → [[#Le but du modèle : comprendre les mécanismes]]
 
 **Les données statistiques**
 
-> [!question]- Les données statistiques sont construites à partir de quoi ? Illustre.
-> **À partir de la théorie.** Pour une série sur la **consommation finale des ménages**, il faut d'abord **définir** la consommation, ce que veut dire « finale », et qui sont « les ménages ». → [[#II.2 LES DONNÉES STATISTIQUES]]
+> [!question]- Les données statistiques sont construites à partir :
+> a) des observations brutes recueillies sur le terrain
+> b) de la théorie
+> c) des prévisions des modèles
+> d) aucune des propositions n'est exacte
+>
+> **b)** — pour une série sur la **consommation finale des ménages**, il faut d'abord **définir** la consommation, ce que veut dire « finale », et qui sont « les ménages ». → [[#II.2 LES DONNÉES STATISTIQUES]]
 
-> [!question]- Écris la formule du PIB et nomme chaque terme.
-> **PIB = C + I + G + X − Imp** : consommation, investissement, dépenses de l'État, exportations, moins les importations. → [[#II.2 LES DONNÉES STATISTIQUES]]
+> [!question]- La formule du PIB :
+> a) $PIB = C + I + G + X - Imp$
+> b) $PIB = C + I + G + Imp - X$
+> c) $PIB = C + S + G + X - Imp$
+> d) aucune des propositions n'est exacte
+>
+> **a)** — consommation, investissement, dépenses de l'État, exportations, **moins** les importations. b) inverse le solde extérieur. → [[#II.2 LES DONNÉES STATISTIQUES]]
 
-> [!question]- Les deux rôles des données statistiques ?
-> **Tester les théories** et **faire des prévisions**. → [[#II.2 LES DONNÉES STATISTIQUES]]
+> [!question]- Les deux rôles des données statistiques :
+> a) tester les théories et faire des prévisions
+> b) décrire la réalité et simplifier le réel
+> c) tester les théories et construire les modèles
+> d) aucune des propositions n'est exacte
+>
+> **a)** — simplifier le réel, en b), est le rôle du **modèle**. → [[#II.2 LES DONNÉES STATISTIQUES]]
 
-> [!question]- Déroule la boucle de la démarche hypothético-déductive, jusqu'aux deux issues.
-> **Définitions et hypothèses → énoncés théoriques → observation empirique**, puis soit **validation empirique** = modèle **accepté**, soit **rejet des énoncés** = **révision des hypothèses** et on recommence. → [[#a) Tester les théories]]
+> [!question]- La boucle de la démarche hypothético-déductive :
+> a) définitions et hypothèses → énoncés théoriques → observation empirique → validation (modèle accepté) ou rejet des énoncés (révision des hypothèses)
+> b) observation empirique → énoncés théoriques → définitions et hypothèses → validation ou rejet
+> c) définitions et hypothèses → observation empirique → énoncés théoriques → validation ou rejet
+> d) aucune des propositions n'est exacte
+>
+> **a)** — en cas de rejet, on **révise les hypothèses** et on recommence : la boucle ne s'arrête pas sur un échec. → [[#a) Tester les théories]]
 
-> [!question]- Corrélation : définition, et les deux signes.
-> Une **relation systématique** entre deux variables. **Positive** : elles évoluent **dans le même sens**. **Négative** : **en sens opposé**. → [[#a) Tester les théories]]
+> [!question]- Une corrélation est :
+> a) une relation systématique entre deux variables
+> b) une relation de cause à effet entre deux variables
+> c) une relation systématique et orientée entre deux variables
+> d) aucune des propositions n'est exacte
+>
+> **a)** — **positive** : les variables évoluent dans le même sens ; **négative** : en sens opposé. Rien n'y est orienté, contrairement à c). → [[#a) Tester les théories]]
 
-> [!question]- Pourquoi une corrélation n'est-elle pas une causalité ? Donne les deux raisons et un exemple de chaque.
-> **1. La variable omise** : glace et noyades — la **chaleur** explique les deux. **2. La causalité bidirectionnelle** : éducation et salaires — plus d'éducation donne un meilleur salaire, mais un revenu élevé permet d'envoyer les enfants étudier. → [[#⚠️ Corrélation ≠ causalité]]
+> [!question]- Glace et noyades augmentent ensemble. Cette corrélation s'explique par :
+> a) une causalité de la glace vers les noyades
+> b) une variable omise : la chaleur
+> c) une causalité bidirectionnelle
+> d) aucune des propositions n'est exacte
+>
+> **b)** — c'est le premier des deux pièges du cours ; le second, la causalité bidirectionnelle, c'est **éducation et salaires**. → [[#⚠️ Corrélation ≠ causalité]]
 
-> [!question]- Le PIB et la consommation : montre la boucle dans les deux sens.
-> **↑PIB → ↑revenu → ↑consommation**, et **↑consommation → ↑dépenses → ↑production → ↑PIB**. Deux causalités positives : la causalité est **bidirectionnelle**. → [[#⚠️ Corrélation ≠ causalité]]
+> [!question]- Entre le PIB et la consommation, la causalité est :
+> a) du PIB vers la consommation seulement
+> b) de la consommation vers le PIB seulement
+> c) bidirectionnelle
+> d) aucune des propositions n'est exacte
+>
+> **c)** — ↑PIB → ↑revenu → ↑consommation, **et** ↑consommation → ↑dépenses → ↑production → ↑PIB. → [[#⚠️ Corrélation ≠ causalité]]
 
-> [!question]- Monte une expérimentation en trois temps, puis dis ses deux problèmes.
-> **1.** Diviser l'échantillon en **groupe de traitement** et **groupe de contrôle**, par **randomisation**. **2.** Les traiter **à l'identique sauf une caractéristique** choisie intentionnellement. **3.** **La différence est l'objet de l'expérimentation.** Problèmes : le **coût** et la **difficulté de mise en œuvre** (la randomisation). → [[#Comment distinguer corrélation et causalité : l'expérimentation]]
+> [!question]- Une expérimentation se monte en trois temps :
+> a) diviser l'échantillon en groupe de traitement et groupe de contrôle par randomisation ; les traiter à l'identique sauf une caractéristique choisie ; la différence est l'objet de l'expérimentation
+> b) diviser l'échantillon selon les caractéristiques observées ; traiter les deux groupes différemment ; comparer les moyennes
+> c) constituer un seul groupe ; le suivre avant et après le traitement ; mesurer l'écart
+> d) aucune des propositions n'est exacte
+>
+> **a)** — ses deux problèmes : le **coût** et la **difficulté de mise en œuvre** de la randomisation. c) décrit plutôt une expérimentation **naturelle**. → [[#Comment distinguer corrélation et causalité : l'expérimentation]]
 
-> [!question]- Expérimentation naturelle : définis-la, et dis ce qui la sépare de celle en laboratoire.
-> Elle utilise des **données historiques** : un événement économique modifie les comportements, **avant** = groupe de contrôle, **après** = groupe de traitement. Ce qui la sépare du laboratoire : la **provenance des données**. → [[#Comment distinguer corrélation et causalité : l'expérimentation]]
+> [!question]- Une expérimentation naturelle :
+> a) utilise des données historiques : avant l'événement = groupe de contrôle, après = groupe de traitement
+> b) utilise des données de laboratoire, recueillies sans que les sujets le sachent
+> c) utilise des données historiques : avant l'événement = groupe de traitement, après = groupe de contrôle
+> d) aucune des propositions n'est exacte
+>
+> **a)** — ce qui la sépare du laboratoire, c'est la **provenance des données**, et c) inverse les deux groupes. → [[#Comment distinguer corrélation et causalité : l'expérimentation]]
 
-> [!question]- Cite les trois expérimentations naturelles du cours, avec ce que chacune mesure.
-> Le **covid** (comportements avant / après le choc) ; le **Clean Air Act** aux États-Unis (comportements polluants avant / moins polluants après, sur la **même population d'entreprises**) ; le **salaire minimum** en Pennsylvanie et dans le New Jersey (l'augmentation crée-t-elle du chômage ? **peu de différence**). → [[#Comment distinguer corrélation et causalité : l'expérimentation]]
+> [!question]- Parmi les expérimentations naturelles du cours, laquelle porte sur la **même population d'entreprises** avant et après ?
+> a) le covid
+> b) le Clean Air Act aux États-Unis
+> c) le salaire minimum en Pennsylvanie et dans le New Jersey
+> d) aucune des propositions n'est exacte
+>
+> **b)** — comportements polluants avant, moins polluants après. Le salaire minimum, lui, compare **deux États** : l'augmentation crée-t-elle du chômage ? **peu de différence**. → [[#Comment distinguer corrélation et causalité : l'expérimentation]]
 
-> [!question]- En quoi se décompose l'activité économique, et où lit-on les prévisions ?
-> En **cycles** et en **tendance**. Les prévisions se lisent sur la **tendance** — mais un **choc** peut déplacer la tendance elle-même. → [[#b) Faire des prévisions]]
+> [!question]- L'activité économique se décompose en cycles et en tendance. Les prévisions se lisent :
+> a) sur les cycles
+> b) sur la tendance
+> c) sur les chocs
+> d) aucune des propositions n'est exacte
+>
+> **b)** — mais un **choc** peut déplacer la tendance elle-même : c'est la limite de l'exercice. → [[#b) Faire des prévisions]]
 
 **L'économiste, l'échelle, les désaccords**
 
-> [!question]- Économie positive et économie normative : définis les deux, et dis ce qui bascule de l'une à l'autre.
-> **Positive** : décrire, analyser, comprendre le fonctionnement de l'économie. **Normative** : conseiller les décideurs politiques, comme base de recommandation. Ce qui bascule : la **norme** — dès qu'il faut **définir des critères** pour des **objectifs à atteindre** (ex : réduire les inégalités → **justice sociale**). → [[#II.3 L'ÉCONOMISTE : SCIENTIFIQUE ET CONSEILLER POLITIQUE]]
+> [!question]- Économie positive et économie normative :
+> a) positive : décrire, analyser, comprendre · normative : conseiller les décideurs politiques, comme base de recommandation
+> b) positive : conseiller les décideurs · normative : décrire et analyser
+> c) positive : ce qui est mesurable · normative : ce qui relève de la théorie
+> d) aucune des propositions n'est exacte
+>
+> **a)** — ce qui bascule de l'une à l'autre, c'est la **norme** : dès qu'il faut définir des critères pour des objectifs à atteindre — réduire les inégalités suppose une idée de la **justice sociale**. → [[#II.3 L'ÉCONOMISTE : SCIENTIFIQUE ET CONSEILLER POLITIQUE]]
 
-> [!question]- Micro et macro : objet et objectif de chacune.
-> **Micro** : les **unités de base** (entreprise, ménage, individu) — comprendre **comment** elles décident et **quels facteurs** les influencent. **Macro** : l'économie **dans son ensemble**, en variables **agrégées** (consommation agrégée, chômage, inflation, PIB) — dire ce qui se passe **globalement**. → [[#II.4 L'IMPORTANCE DE L'ÉCHELLE QU'ON CHOISIT POUR ÉTUDIER L'ÉCONOMIE]]
+> [!question]- Microéconomie et macroéconomie :
+> a) micro : les unités de base — comprendre comment elles décident · macro : l'économie dans son ensemble, en variables agrégées
+> b) micro : les entreprises · macro : les États
+> c) micro : les comportements individuels · macro : la somme de ces comportements
+> d) aucune des propositions n'est exacte
+>
+> **a)** — c) est le piège du chapitre : le tout **n'est pas** la somme des parties. → [[#II.4 L'IMPORTANCE DE L'ÉCHELLE QU'ON CHOISIT POUR ÉTUDIER L'ÉCONOMIE]]
 
-> [!question]- Depuis quand micro et macro sont-elles liées, et comment appelle-t-on ce lien ?
-> Depuis les **années 1980-1990** : avant, **pas de lien**. On parle de **macroéconomie microfondée**. → [[#II.4 L'IMPORTANCE DE L'ÉCHELLE QU'ON CHOISIT POUR ÉTUDIER L'ÉCONOMIE]]
+> [!question]- Micro et macro sont liées depuis :
+> a) les années 1930-1940, avec Keynes
+> b) les années 1980-1990 : avant, pas de lien
+> c) les années 2000, avec l'essor des données
+> d) aucune des propositions n'est exacte
+>
+> **b)** — et ce lien porte un nom : la **macroéconomie microfondée**. → [[#II.4 L'IMPORTANCE DE L'ÉCHELLE QU'ON CHOISIT POUR ÉTUDIER L'ÉCONOMIE]]
 
-> [!question]- Les deux raisons pour lesquelles les économistes ne sont pas d'accord ?
-> **Les valeurs et les croyances** (laisser faire, « la **main invisible** » d'**Adam Smith**, contre un État qui **corrige les défaillances de marché** par des politiques publiques) et la **dimension temporelle**. → [[#II.5 POURQUOI LES ÉCONOMISTES NE SONT PAS D'ACCORD ENTRE EUX]]
+> [!question]- Les deux raisons pour lesquelles les économistes ne sont pas d'accord :
+> a) les valeurs et les croyances, et la dimension temporelle
+> b) les valeurs et les croyances, et la qualité des données
+> c) la dimension temporelle, et le désaccord sur les méthodes
+> d) aucune des propositions n'est exacte
+>
+> **a)** — les valeurs : laisser faire, la « **main invisible** » d'**Adam Smith**, contre un État qui **corrige les défaillances de marché**. → [[#II.5 POURQUOI LES ÉCONOMISTES NE SONT PAS D'ACCORD ENTRE EUX]]
 
-> [!question]- Court terme et long terme : les prix, et qui détermine l'activité ?
-> **Court terme** : prix **rigides**, c'est la **demande** de biens qui détermine l'activité. **Long terme** : prix **flexibles**, c'est l'**offre** de biens. → [[#II.5 POURQUOI LES ÉCONOMISTES NE SONT PAS D'ACCORD ENTRE EUX]]
+> [!question]- Court terme et long terme :
+> a) court terme : prix rigides, c'est la **demande** qui détermine l'activité · long terme : prix flexibles, c'est l'**offre**
+> b) court terme : prix flexibles, c'est l'offre qui détermine l'activité · long terme : prix rigides, c'est la demande
+> c) court terme : prix rigides, c'est l'offre · long terme : prix flexibles, c'est la demande
+> d) aucune des propositions n'est exacte
+>
+> **a)** — b) et c) intervertissent l'un des deux couples. Note que le mot « rigides » est un ajout signalé dans ta fiche : ton prof a pu dire « fixes » ou « visqueux ». → [[#II.5 POURQUOI LES ÉCONOMISTES NE SONT PAS D'ACCORD ENTRE EUX]]
 
-> [!question]- Les trois agents de la conclusion, avec ce qu'ils font et leur objectif.
-> **Ménages** : consomment pour satisfaire leurs besoins et **offrent des facteurs de production** → maximiser leur **bien-être**. **Entreprises** : produisent des biens et services à partir de facteurs de production → maximiser leur **profit**. **État** : produit, **redistribue** les revenus (taxes, transferts), **réglemente**. → [[#Conclusion du chapitre — et préambule à la suite du cours]]
+> [!question]- Les trois agents de la conclusion et leur objectif :
+> a) ménages : maximiser leur bien-être · entreprises : maximiser leur profit · État : produire, redistribuer les revenus, réglementer
+> b) ménages : maximiser leur revenu · entreprises : maximiser leur chiffre d'affaires · État : équilibrer son budget
+> c) ménages : maximiser leur bien-être · entreprises : maximiser leur production · État : corriger les inégalités
+> d) aucune des propositions n'est exacte
+>
+> **a)** — les ménages **offrent aussi des facteurs de production** : ils ne font pas que consommer. → [[#Conclusion du chapitre — et préambule à la suite du cours]]
 
-> [!question]- Les deux actes économiques fondamentaux, définitions exactes.
-> **Consommation** : utiliser les biens et services **directement** pour satisfaire des besoins. **Production** : **transformer** des ressources et/ou des biens en biens et services. → [[#Conclusion du chapitre — et préambule à la suite du cours]]
+> [!question]- Consommation et production :
+> a) consommation : utiliser les biens et services **directement** pour satisfaire des besoins · production : **transformer** des ressources et/ou des biens en biens et services
+> b) consommation : acheter des biens et services sur un marché · production : fabriquer des biens matériels
+> c) consommation : utiliser des biens pour satisfaire des besoins · production : vendre des biens et services
+> d) aucune des propositions n'est exacte
+>
+> **a)** — deux mots portent les définitions : **directement** et **transformer**. → [[#Conclusion du chapitre — et préambule à la suite du cours]]
 
 ## À vérifier / à récupérer
 
