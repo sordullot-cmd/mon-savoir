@@ -1149,10 +1149,10 @@ entre deux, ne réponds pas : ne rien cocher vaut mieux que se tromper.
 > [!question]- Une décision « à la marge » compare :
 > a) les coûts et les bénéfices totaux de chaque option
 > b) les coûts et les bénéfices moyens de chaque option
-> c) les coûts et les bénéfices de l'unité suivante
+> c) le coût de l'unité suivante
 > d) aucune des propositions n'est exacte
 >
-> **c)** — « ces 10 minutes de plus, elles rapportent quoi ? » : jamais des totaux. → [[#c) Le rôle des arbitrages et du raisonnement à la marge]]
+> **d)** — elle compare les coûts **et les bénéfices** de l'unité suivante : c) oublie les bénéfices, et un coût seul ne se compare à rien. « Ces 10 minutes de plus, elles rapportent quoi ? » : jamais des totaux. → [[#c) Le rôle des arbitrages et du raisonnement à la marge]]
 
 > [!question]- Une incitation est :
 > a) un signal envoyé à l'agent économique pour qu'il modifie son comportement et améliore sa situation
@@ -1255,12 +1255,12 @@ entre deux, ne réponds pas : ne rien cocher vaut mieux que se tromper.
 > **b)** — cela suppose d'**anticiper** les besoins d'autrui, d'être **guidé par des signaux** et d'être **organisé collectivement** : la coordination. → [[#c) Des indications en termes d'organisation de la société : LE SYSTÈME ÉCONOMIQUE]]
 
 > [!question]- Les 3 questions auxquelles répond l'organisation d'une économie :
-> a) quels biens et services produire ; comment les produire ; à qui les livrer
+> a) quels biens et services produire ; comment les produire ; quand les livrer
 > b) quoi produire ; à quel prix ; pour quel profit
 > c) quels biens produire ; avec quelles ressources ; à quel coût
 > d) aucune des propositions n'est exacte
 >
-> **a)** — quoi · comment · à qui. Le prix n'est pas une des trois questions. → [[#c) Des indications en termes d'organisation de la société : LE SYSTÈME ÉCONOMIQUE]]
+> **d)** — les trois questions sont : quels biens et services produire ; comment les produire ; **à qui** les livrer. a) change le dernier mot, « quand » au lieu de « à qui ». Le prix n'est pas une des trois questions. → [[#c) Des indications en termes d'organisation de la société : LE SYSTÈME ÉCONOMIQUE]]
 
 > [!question]- Dans le système capitaliste, l'individu est au centre parce que :
 > a) l'État lui délègue ses décisions
@@ -1372,11 +1372,11 @@ entre deux, ne réponds pas : ne rien cocher vaut mieux que se tromper.
 
 > [!question]- La méthode hypothético-déductive consiste à :
 > a) observer les données, puis en déduire des hypothèses
-> b) faire des hypothèses, en déduire des résultats, puis les confronter aux données
+> b) faire des hypothèses, en déduire des résultats, puis les confronter aux modèles
 > c) faire des hypothèses, les confronter aux données, puis en déduire des résultats
 > d) aucune des propositions n'est exacte
 >
-> **b)** — la confrontation vient **après** la déduction : c'est l'ordre que c) intervertit. → [[#II. LA MÉTHODE DE L'ÉCONOMIE]]
+> **d)** — on fait des hypothèses, on en déduit des résultats, puis on les confronte **aux données** — aux évidences empiriques. b) les confronte aux modèles, qui sont justement ce qu'on teste ; c) met la confrontation **avant** la déduction. → [[#II. LA MÉTHODE DE L'ÉCONOMIE]]
 
 > [!question]- Les deux rôles d'un modèle mathématique :
 > a) enlever la complexité du réel en se focalisant sur l'essentiel ; déduire des implications théoriques — la prédiction du modèle
@@ -1552,11 +1552,11 @@ entre deux, ne réponds pas : ne rien cocher vaut mieux que se tromper.
 
 > [!question]- L'activité économique se décompose en cycles et en tendance. Les prévisions se lisent :
 > a) sur les cycles
-> b) sur la tendance
+> b) sur les écarts à la tendance
 > c) sur les chocs
 > d) aucune des propositions n'est exacte
 >
-> **b)** — mais un **choc** peut déplacer la tendance elle-même : c'est la limite de l'exercice. → [[#b) Faire des prévisions]]
+> **d)** — les prévisions se lisent **sur la tendance** elle-même ; les écarts à la tendance, en b), ce sont les cycles. Et un **choc** peut déplacer la tendance : c'est la limite de l'exercice. → [[#b) Faire des prévisions]]
 
 **L'économiste, l'échelle, les désaccords**
 
@@ -1569,12 +1569,12 @@ entre deux, ne réponds pas : ne rien cocher vaut mieux que se tromper.
 > **a)** — ce qui bascule de l'une à l'autre, c'est la **norme** : dès qu'il faut définir des critères pour des objectifs à atteindre — réduire les inégalités suppose une idée de la **justice sociale**. → [[#II.3 L'ÉCONOMISTE : SCIENTIFIQUE ET CONSEILLER POLITIQUE]]
 
 > [!question]- Microéconomie et macroéconomie :
-> a) micro : les unités de base — comprendre comment elles décident · macro : l'économie dans son ensemble, en variables agrégées
+> a) micro : les unités de base — comprendre comment elles décident · macro : l'économie dans son ensemble, en variables moyennes
 > b) micro : les entreprises et leurs marchés · macro : les États et leurs politiques économiques
 > c) micro : les comportements individuels · macro : la somme de ces comportements individuels
 > d) aucune des propositions n'est exacte
 >
-> **a)** — c) est le piège du chapitre : le tout **n'est pas** la somme des parties. → [[#II.4 L'IMPORTANCE DE L'ÉCHELLE QU'ON CHOISIT POUR ÉTUDIER L'ÉCONOMIE]]
+> **d)** — la macro travaille sur des variables **agrégées** — consommation agrégée, chômage, inflation, PIB —, pas sur des moyennes : a) n'a que ce mot de faux. c) est le piège du chapitre : le tout **n'est pas** la somme des parties. → [[#II.4 L'IMPORTANCE DE L'ÉCHELLE QU'ON CHOISIT POUR ÉTUDIER L'ÉCONOMIE]]
 
 > [!question]- Micro et macro sont liées depuis :
 > a) les années 1930-1940, avec Keynes
@@ -1601,20 +1601,20 @@ entre deux, ne réponds pas : ne rien cocher vaut mieux que se tromper.
 > **a)** — b) et c) intervertissent l'un des deux couples. Note que le mot « rigides » est un ajout signalé dans ta fiche : ton prof a pu dire « fixes » ou « visqueux ». → [[#II.5 POURQUOI LES ÉCONOMISTES NE SONT PAS D'ACCORD ENTRE EUX]]
 
 > [!question]- Les trois agents de la conclusion et leur objectif :
-> a) ménages : maximiser leur bien-être · entreprises : maximiser leur profit · État : produire, redistribuer les revenus, réglementer
+> a) ménages : maximiser leur bien-être · entreprises : maximiser leur profit · État : produire, redistribuer les revenus, planifier
 > b) ménages : maximiser leur revenu · entreprises : maximiser leur chiffre d'affaires · État : équilibrer son budget
 > c) ménages : maximiser leur bien-être · entreprises : maximiser leur production · État : corriger les inégalités
 > d) aucune des propositions n'est exacte
 >
-> **a)** — les ménages **offrent aussi des facteurs de production** : ils ne font pas que consommer. → [[#Conclusion du chapitre — et préambule à la suite du cours]]
+> **d)** — l'État **produit, redistribue les revenus et réglemente** : il ne planifie pas, ce serait l'économie planifiée. a) n'a que ce mot de faux. Et les ménages **offrent aussi des facteurs de production** : ils ne font pas que consommer. → [[#Conclusion du chapitre — et préambule à la suite du cours]]
 
 > [!question]- Consommation et production :
-> a) consommation : utiliser les biens et services directement pour satisfaire des besoins · production : transformer des ressources et/ou des biens en biens et services
+> a) consommation : utiliser les biens et services directement pour satisfaire des besoins · production : échanger des ressources et/ou des biens contre des biens et services
 > b) consommation : acheter des biens et services sur un marché · production : fabriquer des biens matériels destinés à la vente
 > c) consommation : utiliser des biens et services pour satisfaire des besoins · production : vendre des biens et des services
 > d) aucune des propositions n'est exacte
 >
-> **a)** — deux mots portent les définitions : **directement** et **transformer**. → [[#Conclusion du chapitre — et préambule à la suite du cours]]
+> **d)** — la production est l'acte par lequel des ressources et/ou des biens sont **transformés** en biens et services : a) dit « échanger », et l'échange n'est pas la production. Deux mots portent les définitions : **directement** et **transformer**. → [[#Conclusion du chapitre — et préambule à la suite du cours]]
 
 ## À vérifier / à récupérer
 

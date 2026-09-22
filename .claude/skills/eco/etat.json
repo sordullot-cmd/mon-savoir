@@ -63,7 +63,7 @@
   "eco gestion/_brut/introduction a l'economie.md": {
    "fiche": "eco gestion/Economie - Chapitre 1 Science economique.md",
    "hash": "08ac6c5774f3",
-   "integre": "2026-09-22 17:25"
+   "integre": "2026-09-23 00:19"
   }
  },
  "pages": {
@@ -92,10 +92,10 @@
    "statut": "confirmé"
   },
   "eco gestion/Economie - Chapitre 1 Science economique.md": {
-   "fait": "refonte du paquet Anki : 134 -> 131 cartes ; 3 supprimees (parts 19 % et 1 % du PIB venues du cours de reference, 'bonne question economique' sans reponse dans la fiche), 9 refaites qui contredisaient le corps (coeff 6 contre 4, trois raisons d'erreur, tout different de la somme, subprimes = choc sur la tendance, travail/temps, temps d'ecran, remarques 1 et 2, systeme planifie, 5e notion cle) ; 1 point ajoute dans A verifier (decomposition complete de la richesse) ; compteurs cartes et a_verifier remis d'aplomb",
-   "hash": "38e068d39279",
-   "mots": 17450,
-   "passage": "2026-09-22 17:25",
+   "fait": "passage de contrôle après la mise en QCM : compteurs justes (131 cartes, 15 à vérifier, 6 ajouts) ; 7 QCM retournés vers d) « aucune » par un seul mot faussé (marge, 3 questions, hypothético-déductive, tendance, agrégées, rôles de l'État, production) : d) passe de 6 à 13 sur 74, plus proche des 6/20 de l'annale 2024-2025",
+   "hash": "8f3ef4053d09",
+   "mots": 20883,
+   "passage": "2026-09-23 00:19",
    "source": "_brut/introduction a l'economie.md",
    "sources": [
     "_brut/introduction a l'economie.md"
