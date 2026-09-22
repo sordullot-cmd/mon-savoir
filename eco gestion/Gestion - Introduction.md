@@ -166,6 +166,10 @@ réflexion stratégique  →  plan LMT  →  lettre de cadrage  →  BUDGET
 
 Ex Renault : va-t-on investir dans l'innovation électrique ? → plan à 5 ans.
 
+La stratégie porte aussi sur le **découpage de l'activité** : c'est la
+**fragmentation de la chaîne de valeur** — décider quelles étapes de la
+production on garde, et lesquelles on confie à d'autres. 👥
+
 Cette chaîne, du plus abstrait au plus concret, est **la chaîne de pilotage** : elle fait passer du niveau stratégique au niveau opérationnel.
 
 ![[gestion-chaine-de-pilotage.svg]]
@@ -806,6 +810,17 @@ Réponds à voix haute, puis ouvre la réponse. Une question n'est acquise qu'ap
 
 > [!question]- Cite cinq des sept fonctions de l'entreprise, et la distinction qui les range.
 > Production, commerciale et marketing, financière et comptable, RH, R&D, systèmes d'information, achats et logistique. Elles se rangent en fonctions **opérationnelles** (produire et vendre) et **support** (rendre les premières possibles). → [[#Les fonctions de l'entreprise]]
+
+> [!note]- Ce qui vient des notes d'un camarade — 1 point
+> Un camarade a pris ce même chapitre (`_brut/camarade - Gestion chapitre 1
+> introduction.md`). Ses notes **confirment les tiennes** de bout en bout — mêmes
+> définitions, même plan, mêmes exemples (L'Oréal, Chandler, les licornes, la loi
+> du 14 février, l'intuitu personae). Elles n'ont apporté qu'une chose, marquée
+> 👥 dans le corps.
+>
+> **Un ajout** — § 6 : la **fragmentation de la chaîne de valeur**, c'est-à-dire
+> le choix des étapes de production qu'on garde et de celles qu'on confie. Tes
+> notes traitaient la stratégie sans cette dimension.
 
 ## À vérifier / à récupérer
 
