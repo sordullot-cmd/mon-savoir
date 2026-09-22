@@ -425,54 +425,72 @@ Qu'est-ce qui caractérise le teslisme en production ? ; La MACHINE INFORME l'op
 
 ## ✅ Contrôle
 
-> [!question] 1. Segmentation, ciblage, positionnement : dis ce que fait chacune, dans l'ordre.
-> [!success]- Réponse
-> **Segmenter**, c'est découper le marché en groupes homogènes aux besoins
-> proches. **Cibler**, c'est choisir un ou plusieurs de ces segments pour y
-> concentrer ses ressources. **Positionner**, c'est définir l'image que la
-> marque veut occuper dans l'esprit du consommateur. L'ordre est contraint : on
-> ne cible pas avant d'avoir découpé.
+QCM au format de l'épreuve : **plusieurs réponses peuvent être bonnes**, 0,5 point
+par question, **tout ou rien**. Coche mentalement toutes les lettres avant d'ouvrir.
 
-> [!question] 2. Cite les 4P et donne le piège de traduction.
-> [!success]- Réponse
-> **Product, Price, Promotion, Place.** Le piège : *Place* désigne la
-> **distribution**, pas le lieu ; *Promotion* recouvre toute la communication et
-> la publicité, pas seulement les réductions.
+> [!question]- Segmentation, ciblage, positionnement :
+> a) **segmenter**, c'est découper le marché en groupes homogènes aux besoins proches
+> b) **cibler**, c'est choisir un ou plusieurs de ces segments pour y concentrer ses ressources
+> c) **positionner**, c'est définir l'image que la marque veut occuper dans l'esprit du consommateur
+> d) l'ordre est libre : on peut cibler avant de découper
+>
+> **a, b et c** — l'ordre est au contraire **contraint** : on ne cible pas avant d'avoir découpé, et on ne positionne pas sans savoir pour qui. → [[#1.3 La démarche marketing]]
 
-> [!question] 3. Une marque de parfum associe son produit à une scène onirique, sans rien dire du produit. De quelle publicité s'agit-il ?
-> [!success]- Réponse
-> D'une publicité **suggestive** : elle s'appuie sur le pouvoir d'évocation des
-> images et une approche psychologique, en associant la marque à des mythes ou
-> des fantasmes. C'est l'exemple même du cours — le parfum et la lingerie.
+> [!question]- Les 4P et leur piège de traduction :
+> a) **Product, Price, Promotion, Place**
+> b) *Place* désigne la **distribution**, pas le lieu de vente
+> c) *Promotion* recouvre toute la **communication et la publicité**, pas seulement les réductions
+> d) *Promotion* désigne les remises et opérations commerciales
+>
+> **a, b et c** — les deux faux amis du mix sont *Place* et *Promotion*, et d) est précisément le contresens à éviter. → [[#1.4 Le marketing mix — les 4P]]
 
-> [!question] 4. Qu'est-ce que la « création destructrice » de Schumpeter, et pourquoi rupture et incrémentale sont-elles complémentaires ?
-> [!success]- Réponse
-> Pour Schumpeter, le progrès économique passe par la **destruction des
-> activités obsolètes** et la **création d'activités nouvelles plus efficaces** :
-> l'innovation est la source essentielle de la dynamique économique.
-> L'innovation **de rupture** ouvre un marché nouveau en rendant l'ancien
-> obsolète ; l'**incrémentale** améliore ensuite l'existant et fidélise les
-> clients acquis. L'une ouvre, l'autre tient dans la durée.
+> [!question]- Une marque de parfum associe son produit à une scène onirique, sans rien dire du produit. Il s'agit :
+> a) d'une publicité **suggestive**
+> b) d'une publicité informative
+> c) elle s'appuie sur le **pouvoir d'évocation des images** et une approche **psychologique**
+> d) elle associe la marque à des mythes ou des fantasmes
+>
+> **a, c et d** — c'est l'exemple même du cours : le parfum et la lingerie. Une publicité informative dirait quelque chose du produit. → [[#1.6 Promotion — les trois leviers]]
 
-> [!question] 5. Distingue recherche fondamentale, recherche appliquée et R&D.
-> [!success]- Réponse
-> La **fondamentale** vise à faire progresser la connaissance scientifique et
-> demande de lourds investissements. L'**appliquée** produit des inventions
-> jusqu'au stade du prototype. La **R&D** s'appuie sur ces découvertes pour
-> rechercher de nouvelles innovations.
+> [!question]- La « création destructrice » de Schumpeter :
+> a) le progrès économique passe par la **destruction des activités obsolètes**
+> b) et par la **création d'activités nouvelles plus efficaces**
+> c) l'innovation est la **source essentielle** de la dynamique économique
+> d) l'innovation détruit plus d'emplois qu'elle n'en crée, ce qui freine la croissance
+>
+> **a, b et c** — le mécanisme est une **dynamique**, pas un bilan négatif : d) retourne la thèse. → [[#2.1 L'innovation selon Schumpeter]]
 
-> [!question] 6. Une entreprise gagne en productivité. Quels usages peut-elle faire de la baisse du coût unitaire ?
-> [!success]- Réponse
-> Trois bénéficiaires possibles : les **actionnaires** (dividendes, hausse des
-> profits), les **salariés** (hausse des salaires), les **consommateurs**
-> (baisse du prix de vente). Baisser le prix, c'est choisir la **compétitivité** ;
-> accroître le profit unitaire, c'est privilégier la **rentabilité**.
+> [!question]- Innovation de rupture et innovation incrémentale :
+> a) la **rupture** ouvre un marché nouveau en rendant l'ancien obsolète
+> b) l'**incrémentale** améliore l'existant et fidélise les clients acquis
+> c) elles sont **complémentaires** : l'une ouvre, l'autre tient dans la durée
+> d) l'incrémentale précède toujours la rupture
+>
+> **a, b et c** — la complémentarité est ce que le mini-cas d'annale demande de repérer. → [[#2.2 Rupture et incrémentale]]
 
-> [!question] 7. Qu'est-ce que la courbe d'expérience, et qu'implique-t-elle sur les coûts ?
-> [!success]- Réponse
-> Plus on produit, plus on apprend, donc plus la productivité augmente : les
-> **coûts unitaires baissent à mesure que la quantité produite augmente**. Le
-> gain de productivité permet alors de réduire le prix de vente.
+> [!question]- Recherche fondamentale, recherche appliquée, R&D :
+> a) la **fondamentale** vise à faire progresser la connaissance scientifique et demande de lourds investissements
+> b) l'**appliquée** produit des inventions jusqu'au stade du **prototype**
+> c) la **R&D** s'appuie sur ces découvertes pour rechercher de nouvelles innovations
+> d) la fondamentale produit directement des innovations commercialisables
+>
+> **a, b et c** — trois étages, et le passage de l'invention à l'innovation se joue au dernier : c'est ce que d) court-circuite. → [[#2.3 Les trois étages de la recherche]]
+
+> [!question]- Une entreprise gagne en productivité. La baisse du coût unitaire peut aller :
+> a) aux **actionnaires** — dividendes, hausse des profits
+> b) aux **salariés** — hausse des salaires
+> c) aux **consommateurs** — baisse du prix de vente
+> d) nulle part : le gain de productivité est absorbé par l'investissement
+>
+> **a, b et c** — trois bénéficiaires possibles, et le choix a un nom : baisser le prix, c'est la **compétitivité** ; accroître le profit unitaire, c'est la **rentabilité**. → [[#3.5 Qui profite des gains de productivité ?]]
+
+> [!question]- La courbe d'expérience :
+> a) plus on produit, plus on apprend, donc plus la **productivité augmente**
+> b) les **coûts unitaires baissent** à mesure que la quantité produite augmente
+> c) le gain de productivité permet alors de réduire le prix de vente
+> d) les coûts unitaires baissent parce qu'on achète les matières moins cher
+>
+> **a, b et c** — l'effet vient de l'**apprentissage**, pas du pouvoir de négociation : c'est ce qui distingue la courbe d'expérience des économies d'échelle. → [[#3.4 La productivité]]
 
 ---
 
