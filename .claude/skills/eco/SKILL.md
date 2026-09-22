@@ -266,8 +266,10 @@ celui qui correspond à la section traitée, pas la matière entière.
 
 `Annales/`, `Ancien partiel/`, `qcm entrainement/` servent au bloc `Contrôle` :
 ils disent **quel type de question tombe** (QCM, définition, question de cours,
-calcul). Ils ne fournissent jamais de contenu de cours — une réponse d'annale
-recopiée dans la fiche, c'est du savoir non sourcé et daté.
+calcul), et c'est d'eux que le bloc `Contrôle` tient **sa forme, UE par UE** :
+nombre de propositions, une ou plusieurs bonnes réponses, barème négatif. Ils ne
+fournissent jamais de contenu de cours — une réponse d'annale recopiée dans la
+fiche, c'est du savoir non sourcé et daté.
 
 ## Les notes d'un camarade — du cours de cette année, pris par quelqu'un d'autre
 
@@ -429,9 +431,10 @@ Une carte qui ne rentre dans aucune de ces six lignes ne se fait pas.
 > elle est déjà dans le corps de la fiche et dans le bloc `Contrôle`.
 
 Le bloc `Contrôle` et le bloc `Cartes` ne font pas le même travail : **Contrôle**
-teste la restitution structurée, à voix haute, longuement ; **Anki** teste le
-grain fin, en deux secondes. Une question de Contrôle n'est presque jamais une
-bonne carte telle quelle.
+est un **QCM à la forme de l'épreuve de l'UE**, qui teste la reconnaissance là où
+elle sera notée ; **Anki** teste le rappel de grain fin, en deux secondes. Une
+question de Contrôle n'est presque jamais une bonne carte telle quelle : la carte
+ne porte pas de propositions.
 
 ### Quand on repasse sur une fiche qui a déjà des cartes
 
@@ -662,8 +665,10 @@ récapitulatif.
 - **Corriger** — langue, markdown, hiérarchie, tableaux bancals, liens morts.
   Aucune validation nécessaire.
 - **Rendre révisable** — les blocs qui servent les six leviers : `L'essentiel`
-  (5 lignes), `À ne pas confondre`, `Méthode`, `Cartes à créer`, `Contrôle` avec
-  réponses repliées `> [!question]-`. Uniquement là où il y a matière.
+  (5 lignes), `À ne pas confondre`, `Méthode`, `Cartes à créer`, `Contrôle` **en
+  QCM à la forme de l'épreuve de l'UE** (tableau dans
+  `references/forme-fiche.md`, bloc 9) avec réponses repliées `> [!question]-`.
+  Uniquement là où il y a matière.
 - **Compléter les trous** — autorisé et attendu depuis le 7 septembre 2026 :
   « n'hésite pas à rajouter des informations capitales si tu vois qu'elles
   manquent […] je n'ai pas eu le temps de noter ». L'information va **à sa place

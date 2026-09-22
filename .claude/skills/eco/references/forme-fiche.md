@@ -35,8 +35,10 @@ bloc déjà là ne se refait pas ; **un bloc sans matière ne se remplit pas**.
 8. **`## 🔄 Comment réviser cette fiche`** — cinq ou six lignes de protocole
    appliquées à cette page, renvoyant à [[Methode - Comment reviser]]. Sans ➕ :
    ce n'est pas du cours.
-9. **`## ✅ Contrôle`** — questions d'abord, **réponses repliées** dans
-   `> [!question]- …`, ou l'ancre de la section qui répond.
+9. **`## ✅ Contrôle`** — **un QCM à la forme de l'épreuve de l'UE** (11A :
+   4 propositions très proches, une bonne ; 12A : 4 propositions, plusieurs
+   bonnes ; sinon 3 propositions, une bonne), réponse **repliée** dans
+   `> [!question]- …` avec l'ancre de la section qui répond.
 10. **`> [!success]- Ce que les slides ont corrigé dans tes notes`** — mots
     remis au vocabulaire du cours, phrases coupées complétées, chiffres
     tranchés. N'existe que si une source du prof est passée, et c'est **le seul
@@ -95,26 +97,89 @@ trois pages se confondent le jour de l'examen.
 Chaque paire vient de la page. La ligne « ce qui les sépare » se dérive de ses
 lignes, elle n'ajoute pas de savoir.
 
-## Bloc 9 — le contrôle, réponses repliées
+## Bloc 9 — le contrôle, en QCM, à la forme de l'épreuve
+
+**Tout le bloc est en QCM** — règle posée par Sacha le 22 septembre 2026. Et le
+QCM ne prend pas la même forme dans toutes les fiches : **il prend celle de
+l'épreuve de l'UE**, relevée dans les annales (`SKILL.md`, « Ce que les annales
+de cette licence disent déjà »). On s'entraîne dans la forme où l'on sera noté.
+
+| UE de la fiche | Propositions | Bonnes réponses | Ce qui fait la difficulté |
+| --- | --- | --- | --- |
+| **11A** Introduction à l'économie | 4 (`a` → `d`) | **une seule**, −0,5 par erreur | quatre formulations **très proches**, un mot change ; `d) aucune des propositions n'est exacte` revient souvent, et est parfois la bonne |
+| **12A** Introduction à la gestion | 4 (`a` → `d`) | **une ou plusieurs**, tout ou rien | mini-cas à classer, modèle à attribuer à son auteur |
+| **13A** Problèmes économiques | 3 (`a` → `c`) | une seule | concept, mécanisme, lecture d'un graphique ou d'un tableau |
+| Autre UE, ou fiche de méthode | 3 (`a` → `c`) | une seule | — |
+
+Quand l'UE de la fiche est inconnue, c'est **3 propositions, une bonne**.
+
+### 11A — quatre formulations à un mot près
 
 ```md
 ## ✅ Contrôle
 
-Réponds à voix haute avant d'ouvrir la réponse.
+QCM de l'épreuve : **une seule bonne réponse**, et **−0,5 point par erreur** —
+ne pas répondre vaut mieux que répondre au hasard.
 
-> [!question]- Les trois éléments que réunit toute organisation ?
-> Un objectif, une mobilisation d'individus avec des rôles, une structure.
-
-> [!question]- Laspeyres ou Paasche : lequel garde les pondérations de l'année de base ?
-> Laspeyres. → [[#PARTIE 2 — Les indices synthétiques]]
-
-> [!question]- Un salaire monte de 15 %, les prix de 18 %. Le pouvoir d'achat ?
-> Il baisse : il faut déflater. → [[#Déflater]]
+> [!question]- Les données statistiques servent à :
+> a) invalider les théories économiques
+> b) expliquer les théories économiques
+> c) tester les théories économiques
+> d) aucune des propositions n'est exacte
+>
+> **c)** — elles **testent** la théorie et servent aux prévisions. Invalider n'est qu'un résultat possible du test ; expliquer, c'est le rôle du modèle. → [[#Pourquoi un cours d'introduction à l'économie]]
 ```
 
-Règles du bloc :
-- le `-` après `[!question]` **replie** le callout : la réponse est cachée. Sans
-  lui, il n'y a pas de test, juste une relecture ;
+### 12A — plusieurs bonnes réponses, tout ou rien
+
+```md
+## ✅ Contrôle
+
+QCM de l'épreuve : **plusieurs réponses peuvent être bonnes**, et c'est **tout
+ou rien** — une seule oubliée, et la question vaut zéro.
+
+> [!question]- Virgin, présent dans la boisson, la musique et les librairies, illustre :
+> a) une diversification conglomérale
+> b) une intégration verticale
+> c) une croissance externe possible
+> d) une spécialisation
+>
+> **a et c** — les métiers n'ont aucun lien entre eux : diversification conglomérale, atteinte par rachats successifs. b) supposerait de remonter une même filière, d) est son contraire. → [[#La diversification]]
+```
+
+### 13A et les autres — trois propositions
+
+```md
+## ✅ Contrôle
+
+Choisis ta réponse avant d'ouvrir le callout.
+
+> [!question]- L'indice qui garde les pondérations de l'année de base est :
+> a) Laspeyres
+> b) Paasche
+> c) Fisher
+>
+> **a)** — Laspeyres fige le panier de l'année de base ; Paasche prend celui de l'année courante ; Fisher est leur moyenne géométrique. → [[#PARTIE 2 — Les indices synthétiques]]
+```
+
+### Règles communes à toutes les formes
+
+- le `-` après `[!question]` **replie** le callout : les propositions restent
+  visibles, la réponse est cachée. Sans lui, il n'y a pas de test, juste une
+  relecture ;
+- une ligne `>` vide sépare les propositions de la réponse ;
+- la réponse s'ouvre sur **la ou les lettres en gras** (`**c)**`, `**a et c**`),
+  puis la phrase de réponse, puis l'ancre de la section quand elle existe ;
+- **les distracteurs se prennent dans la page** : l'autre terme d'une paire du
+  tableau `À ne pas confondre`, la notion voisine, l'erreur de celui qui a mal
+  lu, une chaîne dont l'ordre est inversé. Un distracteur absurde ne teste
+  rien — c'est lui, et pas la question, qui fait travailler un QCM ;
+- un distracteur est **faux, pas piégeur** : rien qui reste vrai sous un autre
+  angle, rien qui apprenne une bêtise. Quand c'est une confusion classique du
+  chapitre, la réponse dit en quelques mots **pourquoi** il est faux ;
+- en 11A, `aucune des propositions n'est exacte` se met en `d)` régulièrement,
+  et **n'est pas toujours faux** : la poser toujours fausse apprend à l'écarter,
+  ce qui est exactement le piège de l'épreuve ;
 - **une question par notion réellement traitée** — pas de plafond : Sacha en a
   demandé davantage le 8 septembre 2026, « plus de questions sur le cours
   lui-même ». La fiche Gestion 12A en porte 45, groupées par partie du cours
@@ -122,7 +187,10 @@ Règles du bloc :
   puisse se tester sur une partie à la fois ;
 - les questions suivent **l'ordre du cours**, et le groupe des compléments
   (hors programme traité) vient en dernier, annoncé comme tel ;
-- la réponse est **dans la page**, plus l'ancre de la section quand elle existe ;
+- la bonne réponse est **dans la page**, et sa lettre **change d'une question à
+  l'autre** — trois `b)` de suite et on répond sans lire ;
+- une énumération longue (« cite les six ressources ») se pose en demandant
+  **l'intrus** ou **la seule liste complète**, jamais en tronquant la notion ;
 - une question sans réponse dans la page ne va **pas** dans Contrôle : elle va
   dans `À vérifier`.
 

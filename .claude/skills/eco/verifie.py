@@ -65,6 +65,35 @@ AJOUT = "\u2795"          # ➕ : marque une ligne que Sacha n'avait pas notée
 RECAP = re.compile(r"(?i)ce que j'ai (?:compl|ajout)")
 
 
+BLOC_CONTROLE = re.compile(r"^##\s+[^\n]*[Cc]ontr[ôo]le[^\n]*$", re.M)
+CALLOUT_Q = re.compile(r"^> \[!question\]-\s*(.*)$", re.M)
+PROPOSITION = re.compile(r"^>\s*[a-f]\)\s+\S", re.M)
+
+
+def questions_sans_qcm(corps):
+    """Les questions du bloc Contrôle qui n'offrent pas de propositions.
+
+    Depuis le 22 septembre 2026 le bloc est un QCM, à la forme de l'épreuve de
+    l'UE. Une question qui n'a pas au moins deux lignes « a) », « b) » est
+    restée en question ouverte.
+    """
+    titres = list(BLOC_CONTROLE.finditer(corps))
+    if not titres:
+        return []
+    bloc = corps[titres[-1].end():]
+    suite = re.search(r"^##\s+\S", bloc, re.M)
+    if suite:
+        bloc = bloc[:suite.start()]
+    restees = []
+    morceaux = CALLOUT_Q.split(bloc)
+    # split renvoie [avant, titre1, corps1, titre2, corps2, …]
+    for titre, apres_titre in zip(morceaux[1::2], morceaux[2::2]):
+        callout = apres_titre.split("\n\n")[0]
+        if len(PROPOSITION.findall(callout)) < 2:
+            restees.append(titre.strip()[:40])
+    return restees
+
+
 def lit(p):
     return io.open(p, encoding="utf-8").read()
 
@@ -410,6 +439,13 @@ def main():
     if "contrôle" not in c_ap.lower() and "controle" not in c_ap.lower():
         alertes.append("pas de bloc « Contrôle » : la fiche ne permet pas de se "
                        "tester, elle ne sert qu'à relire")
+    else:
+        ouvertes = questions_sans_qcm(c_ap)
+        if ouvertes:
+            alertes.append("%d question(s) du bloc « Contrôle » sans "
+                           "propositions a) b) c) : le bloc est en QCM depuis le "
+                           "22 septembre 2026 — %s"
+                           % (len(ouvertes), " · ".join(ouvertes[:3])))
 
     # syntaxe
     if c_ap.count("```") % 2:

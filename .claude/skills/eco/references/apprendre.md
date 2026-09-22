@@ -17,7 +17,19 @@ l'information de sa tête fixe le savoir bien plus que de le relire.
 
 **Traduction** : le bloc `## ✅ Contrôle` en fin de fiche, et la règle des
 réponses **repliées**. Dans Obsidian, `> [!question]-` (avec le tiret) crée un
-callout fermé : la question est visible, la réponse cachée jusqu'au clic.
+callout fermé : la question et ses propositions sont visibles, la réponse cachée
+jusqu'au clic.
+
+**Tout le bloc est en QCM** (règle posée le 22 septembre 2026), et le QCM prend
+**la forme de l'épreuve de l'UE** : 11A quatre formulations très proches dont une
+seule bonne, 12A plusieurs bonnes réponses en tout ou rien, 13A et le reste trois
+propositions. Le tableau des formes est dans `references/forme-fiche.md`, bloc 9.
+
+Deux raisons de coller à l'épreuve : on s'entraîne dans la forme où l'on sera
+noté, et la reconnaissance se teste autrement que le rappel. Le QCM ne fait pas
+travailler moins que la question ouverte à une condition : que les mauvaises
+propositions soient les **confusions réelles du chapitre**. C'est là que se joue
+le bloc, pas dans la question.
 
 **Le bloc doit être long.** Une question par notion réellement traitée, dans
 l'ordre du cours, groupées par partie — c'est ce que Sacha a demandé le
@@ -26,8 +38,12 @@ tiers du cours sans test : ce sont exactement les deux tiers qu'il ne révisera
 pas.
 
 ```md
-> [!question]- Trois éléments que réunit toute organisation ?
-> Un objectif, une mobilisation d'individus avec des rôles, une structure.
+> [!question]- Les trois éléments que réunit toute organisation sont :
+> a) un capital, un local, un dirigeant
+> b) un objectif, des individus aux rôles définis, une structure
+> c) un statut juridique, un effectif, un chiffre d'affaires
+>
+> **b)** — un objectif, une mobilisation d'individus avec des rôles, une structure.
 ```
 
 Une fiche sans bloc de contrôle est incomplète, et `verifie.py` le signale.
@@ -137,7 +153,7 @@ si le mode d'évaluation est inconnu, c'est une ligne dans `À vérifier`.
 | `## 🧮 Méthode` | 5 | seulement si la page contient une procédure |
 | `## 🃏 Cartes à créer` | 2 | format `Recto ; Verso ; Tags` (deux `;` par ligne), une carte = un fait, la forme vient des annales |
 | `## 🔄 Comment réviser cette fiche` | 1 · 2 | le protocole appliqué à cette page, sans ➕ — ce n'est pas du cours |
-| `## ✅ Contrôle` | 1 | questions d'abord, réponses en callout replié |
+| `## ✅ Contrôle` | 1 | QCM à la forme de l'épreuve de l'UE, réponse en callout replié |
 | `> [!success]- Ce que les slides ont résolu` | — | les trous fermés par une source officielle, valeurs en conflit gardées |
 | `> [!info]- Ce que le cours de référence a précisé` | — | vocabulaire, définitions exactes, raccourcis venus de `~/Documents/L1` ; nomme le fichier et son année |
 | `> [!question] À vérifier` | — | trous et incohérences, remplacé à chaque passage |
@@ -167,7 +183,9 @@ autorise davantage que du nettoyage — mais pas de fabriquer du cours.
   la page** ;
 - transformer deux paragraphes opposés en tableau de contraste ;
 - dérouler un exemple **calculable depuis une formule de la page** ;
-- fabriquer les questions du bloc Contrôle, dont la réponse est dans la page ;
+- fabriquer les questions du bloc Contrôle, dont la réponse est dans la page —
+  **les mauvaises propositions du QCM comprises** : ce sont des réponses fausses,
+  pas du savoir ajouté, elles ne se marquent donc pas d'un ➕ ;
 - extraire les cartes Anki de ses définitions.
 
 **Attendu, avec marquage obligatoire** — combler les trous du cours.
