@@ -167,34 +167,70 @@ Deux remarques qui évitent de mal s'en servir :
 
 ## ✅ Contrôle
 
-Réponds à voix haute, puis ouvre la réponse.
+QCM — **une seule bonne réponse**. Choisis avant d'ouvrir le callout.
 
-> [!question]- Pourquoi la relecture donne-t-elle de bons résultats dans certaines études, et pas pour un examen ?
-> Parce qu'elle fonctionne pour un test passé **immédiatement** après. Dès que le délai se compte en jours ou en semaines — le cas d'un examen — se tester devient nettement supérieur : 61 % contre 40 % à une semaine. → [[#🥇 Technique 1 — Se tester (l'effet test)]]
+> [!question]- La relecture donne de bons résultats dans certaines études, mais pas pour un examen, parce que :
+> a) ces études portaient sur des étudiants déjà experts du sujet
+> b) elle prend trop de temps pour être tenue jusqu'à l'épreuve
+> c) elle ne fonctionne que pour un test passé **immédiatement** après
+>
+> **c)** — dès que le délai se compte en jours ou en semaines, se tester devient nettement supérieur : 61 % contre 40 % à une semaine. → [[#🥇 Technique 1 — Se tester (l'effet test)]]
 
-> [!question]- Quel est l'intervalle optimal entre deux révisions, et de quoi dépend-il ?
-> Environ **10 à 20 % du délai avant l'examen** : ~20 % pour quelques semaines, ~5 % pour un an. La relation est en U inversé — trop serré comme trop espacé dégradent la rétention. → [[#🥇 Technique 2 — Étaler dans le temps]]
+> [!question]- L'intervalle optimal entre deux révisions vaut :
+> a) 10 à 20 % du délai avant l'examen
+> b) un délai fixe, le même quelle que soit la date de l'épreuve
+> c) le plus long possible — plus c'est espacé, mieux ça tient
+>
+> **a)** — ~20 % pour quelques semaines, ~5 % pour un an. La relation est en U inversé : trop espacé dégrade autant que trop serré, ce qui élimine c). → [[#🥇 Technique 2 — Étaler dans le temps]]
 
-> [!question]- Le protocole du réapprentissage successif, en deux étapes chiffrées ?
-> Se tester jusqu'à **3 rappels corrects**, puis **réapprendre 3 fois** à intervalles largement espacés. Résultat : 68 % de rétention à 1 mois contre ~11 %. → [[#🏆 La recette optimale : le réapprentissage successif]]
+> [!question]- Le protocole du réapprentissage successif, c'est :
+> a) relire trois fois la fiche, puis se tester une fois
+> b) se tester jusqu'à **3 rappels corrects**, puis **réapprendre 3 fois** à intervalles largement espacés
+> c) se tester trois fois de suite dans la même soirée
+>
+> **b)** — 68 % de rétention à 1 mois contre ~11 %. Trois passages dans la même soirée — la proposition c) — ne sont pas espacés : ils comptent presque pour un seul. → [[#🏆 La recette optimale : le réapprentissage successif]]
 
-> [!question]- Une série d'exercices, tu la fais combien de fois ?
-> Pas une. Jusqu'à la cible, puis **3 fois de plus** à des semaines d'écart — c'est à ça que servent les trois colonnes « Essai 1 / 2 / 3 » de **Fiche exos - Modules A C E**. → [[#🏆 La recette optimale : le réapprentissage successif]]
+> [!question]- Une série d'exercices, tu la fais :
+> a) une fois, correctement
+> b) jusqu'à la cible, puis tu passes à la série suivante
+> c) jusqu'à la cible, puis **3 fois de plus** à des semaines d'écart
+>
+> **c)** — c'est à ça que servent les trois colonnes « Essai 1 / 2 / 3 » de **Fiche exos - Modules A C E**. → [[#🏆 La recette optimale : le réapprentissage successif]]
 
-> [!question]- Pratique entrelacée contre pratique bloquée : les deux scores, et la raison de l'écart.
-> 61 % contre 38 % (d = 0,83). En pratique bloquée on n'entraîne que l'exécution, la méthode étant déjà donnée ; en pratique entrelacée on entraîne l'**identification du type de problème** — ce que demande l'examen. → [[#🔀 L'interleaving — la méthode spécifique au quantitatif]]
+> [!question]- Pratique entrelacée 61 %, pratique bloquée 38 % (d = 0,83). L'écart tient :
+> a) au temps passé, plus long en entrelacé
+> b) à l'entraînement de l'**identification du type de problème**
+> c) à la variété des exercices, qui entretient la motivation
+>
+> **b)** — en pratique bloquée, la méthode est déjà donnée : on n'entraîne que l'exécution. L'examen, lui, demande d'abord de reconnaître à quel type on a affaire. → [[#🔀 L'interleaving — la méthode spécifique au quantitatif]]
 
-> [!question]- L'interleaving donne l'impression de moins bien réussir : faut-il s'en méfier ?
-> Non. Tous les enseignants de l'étude ont rapporté que les devoirs entrelacés prenaient plus de temps — c'est plus lent et plus frustrant. C'est une **difficulté désirable** : l'inconfort est le signe que ça fonctionne. → [[#🔀 L'interleaving — la méthode spécifique au quantitatif]]
+> [!question]- L'interleaving donne l'impression de moins bien réussir. Faut-il s'en méfier ?
+> a) non : c'est une **difficulté désirable**, l'inconfort est le signe que ça fonctionne
+> b) oui : si les scores baissent pendant l'entraînement, il faut revenir à la pratique bloquée
+> c) oui, tant que l'impression n'a pas disparu après quelques séances
+>
+> **a)** — tous les enseignants de l'étude ont rapporté que les devoirs entrelacés prenaient plus de temps. C'est plus lent et plus frustrant, et c'est justement ce qui le fait marcher. → [[#🔀 L'interleaving — la méthode spécifique au quantitatif]]
 
-> [!question]- Pourquoi se tester sur un cours qu'on n'a pas encore vu n'est-il pas une perte de temps ?
-> Parce que l'échec focalise l'attention sur les concepts pré-testés et crée une curiosité qui donne un but à la lecture suivante — à condition d'étudier les bonnes réponses ensuite. → [[#🎯 Le pretesting — se tester avant d'apprendre]]
+> [!question]- Se tester sur un cours qu'on n'a pas encore vu :
+> a) ne sert à rien : sans avoir lu le cours, on ne peut pas répondre
+> b) ne sert que si on a déjà lu le plan du cours
+> c) sert : l'échec focalise l'attention sur les concepts pré-testés et crée une curiosité qui donne un but à la lecture
+>
+> **c)** — à une condition : étudier les bonnes réponses ensuite. → [[#🎯 Le pretesting — se tester avant d'apprendre]]
 
-> [!question]- Tu as trois semaines avant une épreuve : à quel rythme revois-tu la fiche ?
-> 10 à 20 % de 21 jours, soit tous les **2 à 4 jours**, cinq à sept passages — et pas trois soirs d'affilée, qui comptent presque pour une seule révision. → [[#🗓️ Calibrer les intervalles sur ton calendrier]]
+> [!question]- Trois semaines avant une épreuve, tu revois la fiche :
+> a) trois soirs d'affilée, la semaine qui précède
+> b) tous les **2 à 4 jours**, cinq à sept passages
+> c) une fois par semaine, soit trois passages
+>
+> **b)** — 10 à 20 % de 21 jours. Les trois soirs d'affilée de a) comptent presque pour une seule révision. → [[#🗓️ Calibrer les intervalles sur ton calendrier]]
 
-> [!question]- À quoi sert la règle des 10-20 %, puisque Anki espace déjà tes cartes ?
-> À tout ce qui n'est pas cartable : les fiches entières, les séries d'exercices, les annales. Les définitions et les formules partent en cartes dès la première session, et c'est **Anki - Formules et definitions C0-C1** qui tient l'espacement ensuite. → [[#🗓️ Calibrer les intervalles sur ton calendrier]]
+> [!question]- Puisque Anki espace déjà tes cartes, la règle des 10-20 % sert :
+> a) à rien : Anki suffit
+> b) à régler toi-même les intervalles d'Anki
+> c) à tout ce qui n'est pas cartable : les fiches entières, les séries d'exercices, les annales
+>
+> **c)** — les définitions et les formules partent en cartes dès la première session, et c'est **Anki - Formules et definitions C0-C1** qui tient l'espacement ensuite. Le reste se calendrise à la main. → [[#🗓️ Calibrer les intervalles sur ton calendrier]]
 
 ## À vérifier / à récupérer
 
