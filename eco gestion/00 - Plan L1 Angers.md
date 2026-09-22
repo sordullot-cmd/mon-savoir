@@ -163,10 +163,47 @@ Les quatre UE de la **période 1** sont celles qui tombent en premier. Les quatr
 
 ## ✅ Contrôle
 
-1. Combien de coef sur 62 en CC, ce qu'ils deviennent en session 2, et pourquoi les socles ne se compensent pas. → [[#🔴 Les deux règles qui décident de ton année]]
-2. Les quatre UE de la période 1. → [[#📅 Le calendrier des périodes]]
-3. Les cinq blocs de la semaine et leur durée. → [[#🧭 L'architecture de ta semaine (12 h)]]
-4. Ce qu'on ne met jamais en carte Anki. → [[#🃏 Le plan Anki]]
+QCM — **une seule bonne réponse**. Choisis avant d'ouvrir le callout.
+
+> [!question]- Le contrôle continu pèse, sur les 62 coefficients de l'année :
+> a) 14 coefficients, soit 23 %
+> b) **24 coefficients, soit 39 %**
+> c) 10 coefficients, soit 16 %
+> d) aucune des propositions n'est exacte
+>
+> **b)** — 14 dans le socle fondamental (30 % de ses 46 coef) **plus** 10 dans le socle transversal (63 % de ses 16) : a) et c) ne sont que les deux moitiés du total. En session 2, la colonne de la maquette indique **« Report CC »** : la note est reportée telle quelle, elle ne se rattrape pas. → [[#🔴 Les deux règles qui décident de ton année]]
+
+> [!question]- Les deux socles ne se compensent pas. Cela veut dire que :
+> a) une bonne moyenne au socle fondamental (46 ECTS) ne rattrape pas le socle transversal (14 ECTS), et inversement
+> b) les notes de CC ne compensent pas celles de CT
+> c) une note inférieure à 8 dans une UE bloque l'année entière
+> d) aucune des propositions n'est exacte
+>
+> **a)** — deux diplômes indépendants : 15 de moyenne en macro-micro-compta ne rattrapera jamais un 8 en anglais-droit-socio. → [[#🔴 Les deux règles qui décident de ton année]]
+
+> [!question]- Les quatre UE évaluées en période 1 :
+> a) 11A Intro éco · 12A Intro gestion · 13A Problèmes éco · 18C Méthodologie
+> b) 11A Intro éco · 12A Intro gestion · 13C Analyse historique · 18C Méthodologie
+> c) 11B Macro · 11C Micro · 14B Maths · 16A Compta
+> d) aucune des propositions n'est exacte
+>
+> **a)** — 11 coefficients, des épreuves courtes d'1 h à 2 h : c'est le meilleur moment de l'année pour prendre de l'avance. c) est la **période 4**, celle du point de rupture à 25,5 coef. → [[#📅 Le calendrier des périodes]]
+
+> [!question]- Les cinq blocs de la semaine et leur durée :
+> a) 4 sessions techniques (6 h) · 2 sessions de fond (3 h) · 1 session de production (1 h 30) · Anki (1 h 45) · journal de conjoncture (30 min)
+> b) 4 sessions techniques (6 h) · 2 sessions de fond (3 h) · 1 session de production (1 h 30) · Anki (1 h) · journal de conjoncture (1 h)
+> c) 6 sessions techniques (9 h) · 1 session de fond (1 h 30) · Anki (1 h 45) · journal (30 min)
+> d) aucune des propositions n'est exacte
+>
+> **a)** — l'Anki se fait en **7 × 15 min**, une fois par jour, et le journal le dimanche. Le total annoncé est 12 h, et ta fiche signale elle-même qu'il tombe à 12 h 45. → [[#🧭 L'architecture de ta semaine (12 h)]]
+
+> [!question]- Ce qu'on ne met **jamais** en carte Anki :
+> a) les définitions
+> b) les formules et les dates
+> c) les procédures
+> d) aucune des propositions n'est exacte
+>
+> **d)** — a), b) et c) sont précisément ce qu'Anki stocke. Ce qui n'y entre jamais, c'est un **raisonnement** : il s'entraîne par exercices. → [[#🃏 Le plan Anki]]
 
 > [!question] À vérifier
 > - Le tableau des cycles totalise 64 coef contre 62 au frontmatter et dans la Règle 2 : `18C Méthodologie` (coef 2) est comptée dans **Cycle 0 - Fondations** et dans **Cycle 4 - Socle transversal**.
