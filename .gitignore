@@ -27,6 +27,7 @@ eco gestion/fichier/
 # Ce qui se publie, c'est la fiche que Sacha revise, pas la copie de leur cours.
 eco gestion/_brut/drive-download-*/
 eco gestion/_brut/**/*.docx
+eco gestion/_brut/camarade - *.md
 .claude/skills/notes/passages.log
 .claude/skills/notes/launchd.log
 .claude/skills/notes/scratch/
