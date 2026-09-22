@@ -141,9 +141,9 @@ def cellules_vides(t):
     return n
 
 
-# Pieces jointes qu'une fiche peut embarquer : les schemas redessines depuis
-# les slides (SVG), les captures, les PDF de cours. Un ![[schema.svg]] est un
-# lien comme un autre pour Obsidian, il doit donc resoudre lui aussi.
+# Pieces jointes qu'une fiche peut embarquer : les schemas, redessines en SVG ou
+# decoupes dans les slides (PNG/JPEG), les captures, les PDF de cours. Un
+# ![[schema.svg]] est un lien comme un autre pour Obsidian : il doit resoudre.
 JOINTES = (".svg", ".png", ".jpg", ".jpeg", ".gif", ".webp", ".pdf", ".mp4")
 
 
@@ -278,7 +278,11 @@ def main():
 
     # chiffres du cours — hors numérotation de listes et de sections, qui est
     # de la structure : « 1. micro entreprise » peut devenir une puce.
+    # Un tiret colle a une puce numerotee (« -1) les actionnaires », vu dans les
+    # notes d'un camarade) n'est pas un nombre negatif : on le detache d'abord,
+    # sinon remettre la liste au propre ferait disparaitre « -1 » de la page.
     def donnees(t):
+        t = re.sub(r"(?m)(^|[\s:;,])-(\d+[.)]\s)", r"\1\2", t)
         return NOMBRE.findall(re.sub(r"(?m)^\s*(?:#{1,6}\s+)?\d+[.)]\s+", "", t))
 
     n_av, n_ap = Counter(donnees(c_av)), Counter(donnees(c_ap))

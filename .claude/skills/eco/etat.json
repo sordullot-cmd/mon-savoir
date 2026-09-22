@@ -10,6 +10,11 @@
    "hash": "9c00625a5650",
    "integre": "2026-09-11 13:01"
   },
+  "eco gestion/_brut/camarade - Gestion chapitre 2 fonctions de l'entreprise.md": {
+   "fiche": "eco gestion/Gestion - Chapitre 2 Fonctions de l'entreprise UE 12A.md",
+   "hash": "d5f6dbc67128",
+   "integre": "2026-09-22 16:47"
+  },
   "eco gestion/_brut/camarade - PEC chapitre 2 marche du travail (A).md": {
    "fiche": "eco gestion/Problemes economiques - Chapitre 2 Marche du travail UE 13A.md",
    "hash": "c23c0b92d983",
@@ -69,6 +74,17 @@
    "mots": 328,
    "passage": "2026-09-07 22:30",
    "source": "_brut/introduction a l'economie.md",
+   "statut": "à faire"
+  },
+  "eco gestion/Gestion - Chapitre 2 Fonctions de l'entreprise UE 12A.md": {
+   "fait": "fiche neuve — chapitre 2 gestion (marketing, R&D, production) bâti sur les notes d'un camarade (séance manquée), 3 schémas, 37 cartes, 8 compléments du diaporama séances 3-4",
+   "hash": "e979e900bd6c",
+   "mots": 4655,
+   "passage": "2026-09-22 16:47",
+   "source": "_brut/camarade - Gestion chapitre 2 fonctions de l'entreprise.md",
+   "sources": [
+    "_brut/camarade - Gestion chapitre 2 fonctions de l'entreprise.md"
+   ],
    "statut": "à faire"
   },
   "eco gestion/Gestion - Introduction UE 12A.md": {
