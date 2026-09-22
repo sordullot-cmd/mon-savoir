@@ -520,16 +520,16 @@ Choisis avant d'ouvrir le callout.
 **Le cours et son examen**
 
 > [!question]- L'épreuve se compose de :
-> a) un écrit d'1 h en deux parties : QCM et question de réflexion
+> a) un écrit d'1 h en deux parties : un QCM, puis une question de réflexion notée sur la moitié
 > b) un écrit de 2 h en 3 parties : QCM (30 %), questions de cours courtes (30 %), question de réflexion
-> c) un écrit de 2 h en 3 parties valant chacune un tiers de la note
+> c) un écrit de 2 h en 3 parties valant chacune un tiers de la note finale
 >
 > **b)** — attention à c) : les deux premières parties font 30 % chacune, pas un tiers. Ce que pèse la troisième n'est pas noté, c'est dans `À vérifier`. → [[#Le format du contrôle]]
 
 > [!question]- Dans les questions de cours courtes, on attend :
 > a) des concepts, des mécanismes, et l'analyse d'un graphique ou d'un tableau statistique
-> b) une dissertation courte, avec introduction et conclusion
-> c) des définitions récitées mot à mot, sans commentaire
+> b) une dissertation courte, avec introduction, développement et conclusion rédigés
+> c) des définitions récitées mot à mot, sans commentaire ni illustration
 >
 > **a)** — le graphique ou le tableau fait partie de la question de cours : ce n'est pas réservé à la question de réflexion. → [[#Le format du contrôle]]
 
@@ -541,8 +541,8 @@ Choisis avant d'ouvrir le callout.
 > **b)** — c'est le lexique de sciences économiques, à réutiliser au maximum dans tes réponses. → [[#Les conseils du prof]]
 
 > [!question]- Ce qui s'apprend par cœur, et ce qui se comprend :
-> a) par cœur les théories et les mécanismes ; à comprendre les concepts et le vocabulaire
-> b) tout par cœur : le vocabulaire fait la note
+> a) par cœur les théories, les mécanismes et quelques faits stylisés ; à comprendre les concepts et le vocabulaire
+> b) tout par cœur : c'est le vocabulaire exact qui fait la note à l'épreuve
 > c) par cœur les concepts, le vocabulaire, quelques faits stylisés ; à comprendre les théories et les mécanismes
 >
 > **c)** — a) est exactement l'inverse : c'est le piège. → [[#Les conseils du prof]]
@@ -551,8 +551,8 @@ Choisis avant d'ouvrir le callout.
 
 > [!question]- Les trois activités des économistes :
 > a) prédiction ; compréhension du fonctionnement de l'économie ; conception et évaluation des politiques publiques
-> b) observation ; modélisation ; expérimentation
-> c) prédiction ; enseignement ; conseil aux entreprises
+> b) observation des faits ; modélisation théorique ; expérimentation sur le terrain
+> c) prédiction ; enseignement dans les universités ; conseil aux entreprises privées
 >
 > **a)** — et elles sont **complémentaires**, pas successives. b) décrit les étapes de la méthode, pas le métier. → [[#1. Que font les économistes ?]]
 
@@ -564,22 +564,22 @@ Choisis avant d'ouvrir le callout.
 > **b)** — le cours ne nuance pas : c'est de là que vient la deuxième critique faite aux économistes. → [[#1. Que font les économistes ?]]
 
 > [!question]- Parmi ces politiques publiques, celles que le cours cite comme évaluées :
-> a) la politique monétaire de la BCE, le budget de l'État, la dette publique
-> b) la fixation des prix, la création monétaire, le commerce extérieur
+> a) la politique monétaire de la BCE ; le vote du budget de l'État ; la soutenabilité de la dette publique
+> b) la fixation des prix par l'État ; la création monétaire ; la régulation du commerce extérieur
 > c) une hausse du SMIC ; une hausse ou une baisse des impôts ; la réforme du lycée et la réussite à l'université ; le pass Culture
 >
 > **c)** — quatre exemples, tous des politiques dont on peut mesurer l'effet sur des personnes. → [[#1. Que font les économistes ?]]
 
 > [!question]- Les trois activités servent, en un mot :
-> a) à prévoir l'avenir
+> a) à prévoir l'avenir de l'économie
 > b) à éclairer les décisions collectives
-> c) à conseiller les entreprises
+> c) à conseiller les entreprises privées
 >
 > **b)** — la prédiction n'est qu'une des trois activités : en faire le but de l'ensemble, c'est le contresens de a). → [[#1. Que font les économistes ?]]
 
 > [!question]- Les trois critiques faites aux économistes :
-> a) l'abstraction ; le jargon ; le coût de leurs erreurs
-> b) le manque de données ; l'absence d'expériences ; la lenteur
+> a) l'abstraction de leurs modèles ; leur jargon ; le coût de leurs erreurs pour la collectivité
+> b) le manque de données fiables ; l'impossibilité d'expérimenter ; la lenteur de leurs travaux
 > c) la contradiction entre eux ; les prédictions erronées ; l'idéologie plutôt que la science
 >
 > **c)** — trois critiques qui portent sur le métier lui-même, pas sur sa forme. → [[#1. Que font les économistes ?]]
@@ -608,17 +608,17 @@ Choisis avant d'ouvrir le callout.
 > **c)** — c'est la rareté des ressources que le cours met en cause, et c'est elle qui fonde la définition 1. → [[#2. Les trois questions, et la rareté]]
 
 > [!question]- La rareté, côté producteur et côté consommateur :
-> a) producteur : la contrainte budgétaire ; consommateur : le revenu disponible
+> a) producteur : la contrainte budgétaire de l'entreprise ; consommateur : son revenu disponible
 > b) producteur : travail disponible, matières premières, biens non homogènes ; consommateur : la contrainte budgétaire
-> c) producteur : le capital ; consommateur : le temps
+> c) producteur : le capital dont il dispose ; consommateur : le temps dont il dispose
 >
 > **b)** — a) donne la contrainte budgétaire au producteur : elle est du côté du consommateur. → [[#2. Les trois questions, et la rareté]]
 
 **La science et sa méthode**
 
 > [!question]- La définition 1 de la science économique :
-> a) la science qui étudie la production, la répartition et la consommation des richesses
-> b) la science qui étudie les choix des agents sur un marché
+> a) la science qui étudie la production, la répartition et la consommation des richesses d'une nation
+> b) la science qui étudie les choix que font les agents économiques sur un marché concurrentiel
 > c) la science qui étudie le comportement humain comme une relation entre des fins et des ressources rares ayant des usages alternatifs
 >
 > **c)** — « usages alternatifs » est le morceau qu'on oublie : c'est lui qui crée l'arbitrage. → [[#3. Première définition, et l'économie en tant que science]]
@@ -631,22 +631,22 @@ Choisis avant d'ouvrir le callout.
 > **a)** — la définition passe par la **méthode**, pas par le contenu ni par la preuve expérimentale. → [[#3. Première définition, et l'économie en tant que science]]
 
 > [!question]- La méthode scientifique repose sur le principe :
-> a) de reproductibilité des résultats
+> a) de reproductibilité : une observation ne vaut que si elle peut être refaite
 > b) de cause à effet : on peut expliquer les causes, ce n'est pas dû au hasard
-> c) de réfutabilité des énoncés
+> c) de réfutabilité : un énoncé ne vaut que s'il peut être démenti
 >
 > **b)** — la reproductibilité est la condition d'une **expérience** scientifique, pas le principe de la méthode. → [[#3. Première définition, et l'économie en tant que science]]
 
 > [!question]- Science = … + … :
-> a) observation + expérience
-> b) théorie + données
+> a) observation des faits + expérience de laboratoire
+> b) théorie établie + données empiriques
 > c) stock de connaissances + processus de création des connaissances
 >
 > **c)** — un résultat et une façon de l'obtenir : c'est pour ça que la méthode compte autant que le savoir. → [[#3. Première définition, et l'économie en tant que science]]
 
 > [!question]- Ce qui fait qu'une découverte est scientifique :
-> a) son résultat, s'il est vérifié
-> b) sa publication dans une revue
+> a) son résultat, dès lors qu'il est vérifié
+> b) sa publication dans une revue scientifique
 > c) la manière dont la découverte est effectuée
 >
 > **c)** — pas le résultat : c'est exactement ce que a) se trompe à dire. → [[#3. Première définition, et l'économie en tant que science]]
@@ -659,39 +659,39 @@ Choisis avant d'ouvrir le callout.
 > **a)** — c) inverse le modèle et les hypothèses testables : les hypothèses testables **sortent** du modèle, elles ne le précèdent pas. → [[#3. Première définition, et l'économie en tant que science]]
 
 > [!question]- Une hypothèse testable, c'est :
-> a) une supposition simplificatrice posée au départ du modèle
+> a) une supposition simplificatrice posée au départ du modèle, et jugée acceptable
 > b) la prédiction du modèle : on doit pouvoir dire qu'elle est vraie ou fausse
-> c) une question de recherche formulée clairement
+> c) une question de recherche formulée assez clairement pour être traitée
 >
 > **b)** — a) décrit les hypothèses **du** modèle (la rationalité, par exemple) : deux emplois du mot « hypothèse » à ne pas confondre. → [[#3. Première définition, et l'économie en tant que science]]
 
 **Le modèle**
 
 > [!question]- Un modèle sert :
-> a) à prouver une théorie
+> a) à prouver une théorie économique par le calcul
 > b) à représenter le réel en le simplifiant, pour différents objectifs
-> c) à mesurer un phénomène
+> c) à mesurer un phénomène économique observé
 >
 > **b)** — représenter en simplifiant : les deux verbes ensemble, aucun des deux seul. → [[#4. La méthode scientifique : le modèle]]
 
 > [!question]- Le modèle, en trois traits :
-> a) une représentation mathématique, exacte, et vérifiée par les données
-> b) une description complète d'un phénomène, fondée sur l'observation
-> c) une construction intellectuelle (littéraire ou mathématique) qui représente et simplifie le réel, explique un phénomène précis, et repose sur des hypothèses
+> a) une représentation mathématique du réel, exacte dans le détail, et vérifiée point par point par les données
+> b) une description complète d'un phénomène précis, fondée sur l'observation directe et sur des hypothèses acceptables
+> c) une construction intellectuelle, littéraire ou mathématique, qui simplifie le réel, explique un phénomène précis, et repose sur des hypothèses
 >
 > **c)** — un modèle peut être **littéraire** : le réduire aux mathématiques, comme a), est l'erreur la plus courante. → [[#4. La méthode scientifique : le modèle]]
 
 > [!question]- « Ceci n'est pas une pipe » et le plan de ville disent que :
-> a) le modèle est faux tant qu'il n'est pas confronté au réel
+> a) le modèle reste faux tant qu'il n'a pas été confronté au réel qu'il prétend décrire
 > b) le modèle représente le réel sans être le réel : le plan ne montre ni tous les chemins ni tous les magasins
-> c) le modèle doit être compris de tous pour être utile
+> c) le modèle doit être compris de tous ceux qui l'utilisent, sans quoi il ne sert à rien
 >
 > **b)** — le tableau représente une pipe et n'en est pas une. La simplification n'est pas un défaut du modèle, c'est sa nature. → [[#4. La méthode scientifique : le modèle]]
 
 > [!question]- Les trois raisons de modéliser :
 > a) rendre la réalité moins complexe et plus accessible ; faire ressortir des mécanismes fondamentaux ; tenter de prévoir comportements et cycles
-> b) simplifier, mesurer, comparer
-> c) enseigner, publier, convaincre
+> b) simplifier le réel pour l'enseigner ; mesurer les phénomènes observés ; comparer les pays entre eux
+> c) enseigner l'économie aux étudiants ; publier des travaux de recherche ; convaincre les décideurs publics
 >
 > **a)** — la troisième raison est la prévision, et c'est celle qui rate le plus souvent. → [[#4. La méthode scientifique : le modèle]]
 
@@ -713,8 +713,8 @@ Choisis avant d'ouvrir le callout.
 
 > [!question]- Quand plusieurs causes agissent en même temps, elles :
 > a) renforcent l'effet observé, ou s'annulent et se compensent partiellement
-> b) s'additionnent toujours
-> c) rendent l'observation impossible
+> b) s'additionnent toujours, et l'effet total est leur somme
+> c) rendent l'observation impossible, faute de pouvoir les séparer
 >
 > **a)** — le cas de l'annulation est le plus traître : l'effet ne se voit pas alors que la cause agit. → [[#5. La méthode scientifique : la confrontation au réel]]
 
@@ -726,9 +726,9 @@ Choisis avant d'ouvrir le callout.
 > **c)** — les cinq causes du cours sont les salaires, les revenus du patrimoine, la météo, les mesures de confinement et le niveau des impôts sur le revenu. → [[#5. La méthode scientifique : la confrontation au réel]]
 
 > [!question]- Trois causes possibles d'une variation de performance au travail :
-> a) la formation, l'ancienneté, l'âge
+> a) la formation reçue par le salarié ; son ancienneté dans le poste ; son âge et son expérience
 > b) la prime à la performance ; le niveau du chômage et la peur de perdre son emploi ; une nouvelle organisation du travail
-> c) le salaire, les horaires, le management
+> c) le niveau de salaire versé ; les horaires pratiqués dans l'entreprise ; la qualité de son management
 >
 > **b)** — retiens surtout la troisième : c'est elle qui peut annuler l'effet de la prime. → [[#5. La méthode scientifique : la confrontation au réel]]
 
@@ -740,22 +740,22 @@ Choisis avant d'ouvrir le callout.
 > **a)** — c'est la réponse à la difficulté des causes simultanées, pas une technique de calcul. → [[#5. La méthode scientifique : la confrontation au réel]]
 
 > [!question]- « La prime à la performance rend les employés plus productifs » est vraie :
-> a) toujours : l'effet de la prime est établi
-> b) jamais : une corrélation n'est pas une causalité
-> c) tant qu'une nouvelle organisation du travail — ou une autre cause — ne vient pas annuler l'effet de la prime
+> a) toujours : l'effet de la prime sur la productivité est établi
+> b) jamais : une corrélation observée n'est pas une relation de causalité
+> c) tant qu'une autre cause — une nouvelle organisation du travail — ne vient pas en annuler l'effet
 >
 > **c)** — l'énoncé n'est pas faux, il est **conditionnel** : c'est la différence entre les deux. → [[#5. La méthode scientifique : la confrontation au réel]]
 
 > [!question]- Le principe général de l'expérimentation :
-> a) répéter une mesure jusqu'à ce qu'elle se stabilise
+> a) répéter une même mesure sur la même population jusqu'à ce que le résultat se stabilise
 > b) vérifier qu'une cause (un traitement) a bien l'effet supposé, en comparant un groupe test et un groupe témoin
-> c) observer un phénomène sans intervenir
+> c) observer un phénomène sur le terrain, sans jamais intervenir sur ce qu'on mesure
 >
 > **b)** — deux groupes, un traitement : tout le reste en découle. → [[#1) L'expérimentation]]
 
 > [!question]- Ce qui distingue le groupe test du groupe témoin :
-> a) leur taille : le groupe test est plus petit
-> b) leur composition, choisie pour représenter la population
+> a) leur taille : le groupe test est plus petit que le groupe témoin
+> b) leur composition, choisie pour représenter la population étudiée
 > c) rien, sauf le traitement : même composition, et le groupe test seul le reçoit
 >
 > **c)** — on fait varier **une cause à la fois** : c'est ce qui rend l'observation TCEPA. → [[#1) L'expérimentation]]
@@ -775,31 +775,31 @@ Choisis avant d'ouvrir le callout.
 > **b)** — trois types, du plus artificiel au plus réel. → [[#1) L'expérimentation]]
 
 > [!question]- Une expérience naturelle, c'est une expérience où :
-> a) on observe la nature sans intervenir
+> a) on observe la nature sans jamais intervenir sur ce qu'on mesure
 > b) l'assignation au groupe test ou témoin est liée à un événement politique — ou historique
-> c) les participants ignorent qu'ils sont observés
+> c) les participants ignorent qu'ils sont observés, et se comportent normalement
 >
 > **b)** — c'est le « ou historique », précisé par le diaporama de référence, qui rend possible l'exemple des deux Allemagnes. → [[#1) L'expérimentation]]
 
 > [!question]- Dans l'expérience des tuteurs en Inde, les chiffres de départ sont :
-> a) 63 % d'élèves en difficulté en lecture, 70 % en maths
-> b) 70 % en lecture, 63 % en maths
-> c) 63 % en lecture et en maths
+> a) 63 % des élèves en difficulté en lecture, 70 % en mathématiques
+> b) 70 % des élèves en difficulté en lecture, 63 % en mathématiques
+> c) 63 % des élèves en difficulté en lecture comme en mathématiques
 >
 > **a)** — deux groupes, mêmes enseignements, l'un avec tuteur ; au bout de **6 mois**, le groupe avec tuteurs avait de meilleurs résultats. → [[#1) L'expérimentation]]
 
 > [!question]- Les autres méthodes que l'expérimentation :
-> a) sont au programme du chapitre suivant
+> a) sont au programme du chapitre suivant, et reposent sur les mêmes principes
 > b) nécessitent de travailler sur des bases de données, et ne sont pas abordées dans ce cours
-> c) sont réservées à la macroéconomie
+> c) sont réservées à la macroéconomie, faute de pouvoir y expérimenter
 >
 > **b)** — elles ont un nom, donné par le diaporama de référence : l'**économétrie**. → [[#2) D'autres méthodes existent]]
 
 **Les deux définitions et l'impérialisme économique**
 
 > [!question]- La définition 2 dit que l'économie est une **science des choix**. Elle ne contredit pas la première parce que :
-> a) elle s'applique à d'autres sujets
-> b) les choix portent toujours sur des biens marchands
+> a) elle s'applique à d'autres sujets que les biens et les marchés
+> b) les choix portent toujours, en dernier ressort, sur des biens marchands
 > c) le temps est une ressource limitée : choisir, c'est encore allouer une ressource rare
 >
 > **c)** — les deux définitions se rejoignent sur la rareté, elles ne s'opposent pas. → [[#6. Seconde définition : l'économie comme science des choix]]
@@ -813,8 +813,8 @@ Choisis avant d'ouvrir le callout.
 
 > [!question]- Les deux explications de l'impérialisme économique :
 > a) l'application des principes de l'analyse économique à tous les choix ; et le fait que la méthode scientifique permette de faire de l'économie sur d'autres sujets
-> b) la mondialisation des échanges ; la financiarisation
-> c) le prestige du prix Nobel ; l'essor des données
+> b) la mondialisation des échanges, qui étend le champ des marchés ; la financiarisation de l'économie
+> c) le prestige attaché au prix Nobel d'économie ; l'essor des données disponibles sur tous les sujets
 >
 > **a)** — une explication par la **définition**, une par la **méthode**. → [[#7. L'impérialisme économique : deux explications]]
 
@@ -826,53 +826,53 @@ Choisis avant d'ouvrir le callout.
 > **a)** — b) confond avec Lionel Robbins (définition 1), c) avec Esther Duflo. → [[#7. L'impérialisme économique : deux explications]]
 
 > [!question]- Trois champs nés de l'impérialisme économique :
-> a) économie industrielle ; économie monétaire ; économie internationale
-> b) économie de l'éducation (Esther Duflo) ; économie de la famille et démographie (allocations familiales et natalité) ; économie de la santé (pass sanitaire et vaccination)
-> c) économie du travail ; économie publique ; économie du développement
+> a) économie industrielle (les secteurs) ; économie monétaire (la monnaie) ; économie internationale (les échanges)
+> b) économie de l'éducation (Esther Duflo) ; économie de la famille (allocations et natalité) ; économie de la santé (pass sanitaire et vaccination)
+> c) économie du travail (l'emploi) ; économie publique (l'impôt) ; économie du développement (les pays pauvres)
 >
 > **b)** — trois champs qui portent sur des choix non marchands : c'est ce qui en fait des exemples d'impérialisme. → [[#7. L'impérialisme économique : deux explications]]
 
 **PIB, bien-être et capitalisme**
 
 > [!question]- Le constat qui ouvre l'exemple d'analyse économique :
-> a) au XVIIIᵉ siècle, le PIB par tête s'effondre dans les pays d'Europe
-> b) au XXᵉ siècle, le niveau de vie augmente partout au même rythme
-> c) au XVIIIᵉ siècle, le niveau de vie augmente dans de nombreux pays — alors que le PIB par tête était resté constant pendant très longtemps
+> a) au XVIIIᵉ siècle, le PIB par tête s'effondre dans les pays d'Europe, après des siècles de hausse
+> b) au XXᵉ siècle, le niveau de vie augmente partout au même rythme, quel que soit le pays
+> c) au XVIIIᵉ siècle, le niveau de vie augmente dans de nombreux pays — alors que le PIB par tête était resté constant très longtemps
 >
 > **c)** — c'est la rupture qui demande une explication, et le chapitre y répond par le capitalisme. → [[#A) Constat, observation et hypothèse]]
 
 > [!question]- Le PIB, c'est :
-> a) la mesure de la richesse créée sur un territoire sur une période donnée : la somme des valeurs ajoutées de toutes les entreprises du pays
-> b) la somme des revenus perçus par les ménages d'un pays
-> c) la somme des chiffres d'affaires des entreprises du pays
+> a) la mesure de la richesse créée sur un territoire sur une période donnée : la somme des valeurs ajoutées des entreprises
+> b) la somme des revenus perçus par l'ensemble des ménages résidant dans le pays sur une année
+> c) la somme des chiffres d'affaires réalisés par toutes les entreprises du pays sur une année
 >
 > **a)** — c) est l'erreur classique : il compterait plusieurs fois les consommations intermédiaires. → [[#B) Mesurer la richesse créée]]
 
 > [!question]- Les consommations intermédiaires, ce sont :
-> a) les biens achetés par les ménages au cours de l'année
+> a) les biens achetés par les ménages au cours de l'année, hors logement
 > b) les éléments détruits ou transformés au cours du processus de production
-> c) les stocks invendus en fin d'exercice
+> c) les stocks de produits restés invendus à la fin de l'exercice
 >
 > **b)** — c'est ce qu'on retranche du chiffre d'affaires pour obtenir la valeur ajoutée. → [[#B) Mesurer la richesse créée]]
 
 > [!question]- Le PIB par tête s'obtient et s'interprète :
-> a) en divisant le PIB par le nombre d'actifs ; il mesure la productivité
-> b) en divisant le PIB par le nombre de ménages ; il mesure le revenu moyen
-> c) en divisant par le nombre d'habitants ; il indique la capacité à satisfaire les besoins de la population
+> a) en divisant le PIB par le nombre d'actifs ; il mesure la productivité du travail
+> b) en divisant le PIB par le nombre de ménages ; il mesure leur revenu moyen
+> c) en divisant le PIB par le nombre d'habitants ; il indique la capacité à satisfaire les besoins de la population
 >
 > **c)** — par **habitant**, pas par actif ni par ménage : c'est ce qui en fait une mesure de niveau de vie. → [[#B) Mesurer la richesse créée]]
 
 > [!question]- Ce que le PIB ne compte pas :
-> a) les échanges non marchands : travail domestique, bénévolat, qualité du temps libre et des relations sociales, qualité de l'environnement
-> b) les services publics et les administrations
-> c) les activités des entreprises étrangères sur le territoire
+> a) les échanges non marchands : travail domestique, bénévolat, qualité du temps libre et des relations sociales, environnement
+> b) les services publics et les administrations, puisqu'ils ne vendent rien sur un marché
+> c) les activités des entreprises étrangères implantées sur le territoire national
 >
 > **a)** — c) est faux par définition : le PIB se mesure **sur un territoire**, peu importe la nationalité de l'entreprise. → [[#9. Le PIB comme mesure du bien-être]]
 
 > [!question]- La destruction de richesse fait monter le PIB parce que :
-> a) les assurances indemnisent les victimes
+> a) les assurances indemnisent les victimes, et ces versements sont comptés
 > b) la remise en état est une activité comptée : démolition, réparation, biens nocifs (tabac…)
-> c) la rareté qui en résulte fait monter les prix
+> c) la rareté qui en résulte fait monter les prix, donc la valeur produite
 >
 > **b)** — c'est une critique du PIB comme mesure du bien-être, pas une erreur de calcul. → [[#9. Le PIB comme mesure du bien-être]]
 
@@ -921,9 +921,9 @@ Choisis avant d'ouvrir le callout.
 > **a)** — $Y$ le revenu ou la production, $C$ la consommation, $I$ l'investissement, $X$ les exportations, $M$ les importations. → [[#Ce que j'ai complété]]
 
 > [!question]- Le rapport interdécile, c'est le rapport entre :
-> a) le revenu moyen des 10 % les plus riches et celui des 10 % les plus pauvres
+> a) le revenu moyen des 10 % les plus riches et le revenu moyen des 10 % les plus pauvres
 > b) le revenu plancher des 10 % les plus riches (D9) et le revenu plafond des 10 % les plus pauvres (D1)
-> c) le revenu médian et le revenu moyen
+> c) le revenu médian de la population et son revenu moyen
 >
 > **b)** — plancher et plafond, pas moyennes : a) est la confusion à éviter. → [[#Ce que j'ai complété]]
 

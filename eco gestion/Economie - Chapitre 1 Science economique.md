@@ -1008,8 +1008,8 @@ entre deux, ne réponds pas : ne rien cocher vaut mieux que se tromper.
 
 > [!question]- Les deux objectifs annoncés du cours sont :
 > a) une vision générale des concepts clés — macroéconomie et microéconomie — et la logique du raisonnement économique et des mécanismes de base
-> b) une vision générale des concepts clés et la maîtrise des outils mathématiques de l'économiste
-> c) la macroéconomie, puis la microéconomie, traitées successivement
+> b) une vision générale des concepts clés — macroéconomie et microéconomie — et la maîtrise des outils mathématiques de l'économiste
+> c) la macroéconomie puis la microéconomie traitées successivement, et la logique du raisonnement économique
 > d) aucune des propositions n'est exacte
 >
 > **a)** — et le mot qui les résume est un **tour d'horizon**. → [[#Pourquoi un cours d'introduction à l'économie]]
@@ -1023,17 +1023,17 @@ entre deux, ne réponds pas : ne rien cocher vaut mieux que se tromper.
 > **c)** — b) remplace « hétérogènes » par « rationnels » et « évolue » par « est stable » : deux mots, et tout bascule. → [[#Pourquoi un cours d'introduction à l'économie]]
 
 > [!question]- Les interactions entre individus :
-> a) supposent une proximité géographique
-> b) supposent une proximité temporelle
-> c) ne nécessitent pas forcément une proximité géographique ou temporelle
+> a) supposent une proximité géographique : il faut être au même endroit
+> b) supposent une proximité temporelle : il faut être là au même moment
+> c) ne nécessitent forcément ni proximité géographique, ni proximité temporelle
 > d) aucune des propositions n'est exacte
 >
 > **c)** — on interagit tout le temps, y compris sans être au même endroit ni au même moment. → [[#Pourquoi un cours d'introduction à l'économie]]
 
 > [!question]- Les modèles et les données :
 > a) les modèles simplifient pour expliquer ; les données rendent compte de la réalité, permettent de tester la théorie et de faire des prévisions
-> b) les modèles rendent compte de la réalité ; les données la simplifient pour l'expliquer
-> c) les modèles et les données servent tous deux à prédire, et se substituent l'un à l'autre
+> b) les modèles rendent compte de la réalité et permettent de tester la théorie ; les données la simplifient pour l'expliquer
+> c) les modèles et les données servent tous deux à prédire, se substituent l'un à l'autre et se valident mutuellement
 > d) aucune des propositions n'est exacte
 >
 > **a)** — et les données sont **brutes** : il faut les exploiter. b) intervertit exactement les deux rôles. → [[#Pourquoi un cours d'introduction à l'économie]]
@@ -1113,8 +1113,8 @@ entre deux, ne réponds pas : ne rien cocher vaut mieux que se tromper.
 > **a)** — b) est le coût comptable, celui qui sort du portefeuille : c'est précisément ce que le coût d'opportunité **n'est pas**. → [[#b) Le coût d'un bien ou d'un service est lié à son coût d'opportunité]]
 
 > [!question]- Dans le coût des études, ce qui **ne se débourse pas** :
-> a) les frais de scolarité
-> b) le loyer
+> a) les frais de scolarité versés à l'université
+> b) le loyer payé pendant les années d'études
 > c) le manque à gagner de ne pas travailler
 > d) aucune des propositions n'est exacte
 >
@@ -1163,9 +1163,9 @@ entre deux, ne réponds pas : ne rien cocher vaut mieux que se tromper.
 > **a)** — un **signal**, pas une contrainte : c'est ce qui sépare a) de b). Le plus souvent, c'est l'**État** qui l'émet. → [[#d) Le rôle des incitations et la recherche de la meilleure situation]]
 
 > [!question]- Une « meilleure situation » est une situation :
-> a) où chacun a obtenu ce qu'il souhaitait
-> b) optimale : on ne peut pas faire mieux, les ressources sont utilisées le plus efficacement possible, sans gaspillage
-> c) où les gains de l'un ne font pas les pertes de l'autre
+> a) où chacun a obtenu ce qu'il souhaitait, compte tenu de ses ressources de départ
+> b) optimale : on ne peut pas faire mieux, les ressources sont utilisées sans gaspillage
+> c) où les gains des uns ne se paient pas des pertes des autres, l'échange étant équilibré
 > d) aucune des propositions n'est exacte
 >
 > **b)** — le critère est l'**absence de gaspillage**, pas la satisfaction de chacun. → [[#d) Le rôle des incitations et la recherche de la meilleure situation]]
@@ -1189,17 +1189,17 @@ entre deux, ne réponds pas : ne rien cocher vaut mieux que se tromper.
 > **c)** — l'irrationalité n'est pas au programme de ce chapitre : l'agent se trompe **malgré** sa rationalité. → [[#I.3 Comment les interactions déterminent ce qui se passe dans l'économie]]
 
 > [!question]- Le choix effectif diffère du choix initial parce que :
-> a) l'agent change d'avis en cours de route
-> b) le choix initial est fait sans tenir compte des interactions sociales, qui affectent ensuite les prises de décision
-> c) l'information disponible se dégrade avec le temps
+> a) l'agent change d'avis en cours de route, sans raison économique particulière
+> b) le choix initial est fait sans tenir compte des interactions sociales, qui l'affectent ensuite
+> c) l'information disponible se dégrade avec le temps, entre la décision et sa mise en œuvre
 > d) aucune des propositions n'est exacte
 >
 > **b)** — ce sont les autres qui font bouger le choix, pas l'humeur de l'agent. → [[#I.3 Comment les interactions déterminent ce qui se passe dans l'économie]]
 
 > [!question]- La nécessité de coopérer vient de :
-> a) l'impossibilité de subvenir seul à tous ses besoins
-> b) la rareté des ressources naturelles
-> c) l'existence d'un système de prix
+> a) l'impossibilité, pour un individu, de subvenir seul à tous ses besoins
+> b) la rareté des ressources naturelles, qu'il faut se partager
+> c) l'existence d'un système de prix, qui met les agents en relation
 > d) aucune des propositions n'est exacte
 >
 > **a)** — et mettre les efforts en commun **accroît l'ensemble des possibilités** de production et de consommation. → [[#a) L'échange et la coopération]]
@@ -1213,17 +1213,17 @@ entre deux, ne réponds pas : ne rien cocher vaut mieux que se tromper.
 > **b)** — coopération et spécialisation se renforcent l'une l'autre : tout le monde ne fait pas tout. → [[#a) L'échange et la coopération]]
 
 > [!question]- L'échange est profitable parce que :
-> a) il permet de fixer un prix d'équilibre
-> b) l'un des deux échangistes y gagne toujours plus que l'autre
-> c) chacun fait profiter les autres de ses connaissances et de son savoir-faire, et profite de celles des autres
+> a) il permet de fixer un prix d'équilibre, qui satisfait les deux parties
+> b) l'un des deux échangistes y gagne toujours plus que l'autre, sans que celui-ci y perde
+> c) chacun fait profiter les autres de son savoir-faire et profite du leur
 > d) aucune des propositions n'est exacte
 >
 > **c)** — il **permet à chacun d'avoir plus** : l'échange n'est pas un jeu à somme nulle, ce que b) suppose. → [[#a) L'échange et la coopération]]
 
 > [!question]- L'équilibre est une situation où :
-> a) l'offre est égale à la demande sur tous les marchés
-> b) aucun individu ne peut améliorer sa situation en faisant quelque chose de différent
-> c) les prix ne varient plus
+> a) l'offre est égale à la demande sur tous les marchés de l'économie
+> b) aucun individu ne peut améliorer sa situation en agissant autrement
+> c) les prix ne varient plus, faute de tension entre offre et demande
 > d) aucune des propositions n'est exacte
 >
 > **b)** — la définition porte sur les **comportements**, pas sur les quantités : a) et c) en sont des conséquences possibles. → [[#b) La notion d'ÉQUILIBRE]]
@@ -1247,9 +1247,9 @@ entre deux, ne réponds pas : ne rien cocher vaut mieux que se tromper.
 **Le système économique**
 
 > [!question]- Quand les agents interagissent, chaque individu doit :
-> a) produire exactement ce dont il a besoin
-> b) produire plus que ce dont il a besoin, pour satisfaire les besoins des autres
-> c) produire ce que l'État a planifié
+> a) produire exactement ce dont il a besoin, ni plus ni moins
+> b) produire plus que ce dont il a besoin, pour satisfaire celui des autres
+> c) produire ce que l'État a planifié pour l'ensemble de l'économie
 > d) aucune des propositions n'est exacte
 >
 > **b)** — cela suppose d'**anticiper** les besoins d'autrui, d'être **guidé par des signaux** et d'être **organisé collectivement** : la coordination. → [[#c) Des indications en termes d'organisation de la société : LE SYSTÈME ÉCONOMIQUE]]
@@ -1295,9 +1295,9 @@ entre deux, ne réponds pas : ne rien cocher vaut mieux que se tromper.
 > **a)** — b) et c) mélangent le principe de l'un avec les décisions de l'autre. L'État y détermine les besoins, l'allocation des ressources, produit et distribue. → [[#c) Des indications en termes d'organisation de la société : LE SYSTÈME ÉCONOMIQUE]]
 
 > [!question]- « Économie de marché = économie sans État » :
-> a) vrai : le marché s'autorégule
-> b) vrai, sauf pour la sécurité et la justice
-> c) faux : l'État intervient lorsqu'il existe des défaillances de marché
+> a) vrai : le marché s'autorégule, et l'État n'a rien à y faire
+> b) vrai, sauf pour les fonctions régaliennes : la sécurité et la justice
+> c) faux : l'État intervient en cas de défaillances de marché
 > d) aucune des propositions n'est exacte
 >
 > **c)** — le cours insiste : le rôle de l'État n'est pas négligeable. → [[#c) Des indications en termes d'organisation de la société : LE SYSTÈME ÉCONOMIQUE]]
@@ -1329,9 +1329,9 @@ entre deux, ne réponds pas : ne rien cocher vaut mieux que se tromper.
 > **b)** — c'est pour cela que « donnons à chacun un revenu supplémentaire » ne marche pas : ↑ demande → ↑ prix → ↓ pouvoir d'achat, et globalement on n'est **pas plus riches**. → [[#d) Les interactions à l'échelle de l'économie : le tout n'est pas la somme des parties]]
 
 > [!question]- Le pouvoir d'achat pour W = 100 € et P = 10 €/bien :
-> a) 10 €
-> b) 100 biens
-> c) 1 000 biens
+> a) 10 €, soit le salaire divisé par le prix
+> b) 100 biens, soit le montant du salaire
+> c) 1 000 biens, soit le salaire multiplié par le prix
 > d) aucune des propositions n'est exacte
 >
 > **d)** — $W/P = 100/10 = $ **10 biens**. a) donne le bon nombre dans la mauvaise unité : le pouvoir d'achat s'exprime en **nombre de biens**, pas en euros. → [[#d) Les interactions à l'échelle de l'économie : le tout n'est pas la somme des parties]]
@@ -1380,15 +1380,15 @@ entre deux, ne réponds pas : ne rien cocher vaut mieux que se tromper.
 
 > [!question]- Les deux rôles d'un modèle mathématique :
 > a) enlever la complexité du réel en se focalisant sur l'essentiel ; déduire des implications théoriques — la prédiction du modèle
-> b) représenter fidèlement le réel ; en déduire des implications théoriques
-> c) enlever la complexité du réel ; tester empiriquement les hypothèses
+> b) représenter fidèlement le réel dans son détail ; en déduire des implications théoriques testables
+> c) enlever la complexité du réel en se focalisant sur l'essentiel ; tester empiriquement les hypothèses
 > d) aucune des propositions n'est exacte
 >
 > **a)** — d'où des définitions et des hypothèses simplificatrices **acceptables**. Tester, en c), est le rôle des **données**. → [[#II.1 Les modèles mathématiques]]
 
 > [!question]- L'analogie du plan de métro dit que :
-> a) un modèle doit respecter les proportions du réel pour être utile
-> b) un modèle faux doit être rejeté, quel que soit son usage
+> a) un modèle doit respecter les proportions et la forme du réel pour être d'une quelconque utilité
+> b) un modèle faux dans le détail doit être rejeté, quel que soit l'usage qu'on veut en faire
 > c) les distances sont fausses et la forme de la ville n'est pas respectée, mais le plan permet à l'usager de se déplacer
 > d) aucune des propositions n'est exacte
 >
@@ -1414,8 +1414,8 @@ entre deux, ne réponds pas : ne rien cocher vaut mieux que se tromper.
 
 > [!question]- Les trois questions que pose ce modèle :
 > a) quelles quantités sont produites en France ; à quel prix moyen elles sont vendues ; de quoi dépendent ces quantités et ces prix
-> b) qui produit les pizzas ; à quel coût ; pour quel profit
-> c) quelles quantités sont produites ; à quel coût de production ; avec quelle technologie
+> b) qui produit les pizzas en France ; à quel coût elles sont produites ; pour quel profit elles sont vendues
+> c) quelles quantités sont produites en France ; à quel coût de production ; avec quelle technologie
 > d) aucune des propositions n'est exacte
 >
 > **a)** — quantités · prix · déterminants. → [[#Exemple 2 — le marché de la pizza]]
@@ -1437,9 +1437,9 @@ entre deux, ne réponds pas : ne rien cocher vaut mieux que se tromper.
 > **c)** — le prix (+) parce que la firme maximise son profit et porte des coûts fixes ; le prix des ingrédients (−) parce que ce sont les *inputs* ; la technologie (+) parce qu'un four plus performant produit plus. → [[#Exemple 2 — le marché de la pizza]]
 
 > [!question]- L'hypothèse de concurrence pure et parfaite signifie ici que :
-> a) les agents sont *price makers* : ils fixent le prix
-> b) les agents sont *price takers* : ils subissent le prix, et Pp s'ajuste pour égaliser l'offre et la demande
-> c) le prix est fixé par l'État au niveau d'équilibre
+> a) les agents sont *price makers* : ce sont eux qui fixent le prix du marché
+> b) les agents sont *price takers* : ils subissent le prix, qui s'ajuste pour égaliser offre et demande
+> c) le prix est fixé par l'État, au niveau qui égalise l'offre et la demande
 > d) aucune des propositions n'est exacte
 >
 > **b)** — c'est le **prix** qui travaille, pas les agents. → [[#Exemple 2 — le marché de la pizza]]
@@ -1454,15 +1454,15 @@ entre deux, ne réponds pas : ne rien cocher vaut mieux que se tromper.
 
 > [!question]- ↑ Pi (le prix des ingrédients) : le raisonnement se déroule ainsi :
 > a) Pi est un *input* → seule l'offre est touchée → à Pp inchangé l'offre se déplace de E vers O₁ → excès de demande → le prix s'ajuste → P\* augmente, Q\* diminue
-> b) Pi touche l'offre et la demande simultanément → excès d'offre → P\* diminue, Q\* augmente
-> c) Pi est un *input* → seule l'offre est touchée → excès d'offre → P\* diminue, Q\* diminue
+> b) Pi touche l'offre et la demande simultanément → à Pp inchangé les deux courbes se déplacent → excès d'offre → P\* diminue, Q\* augmente
+> c) Pi est un *input* → seule l'offre est touchée → à Pp inchangé l'offre se déplace de E vers O₁ → excès d'offre → P\* diminue, Q\* diminue
 > d) aucune des propositions n'est exacte
 >
 > **a)** — l'effet sur la demande est **latent** : elle ne bouge qu'une fois le prix ajusté. Cinq étapes, et le sens final est ce qui tombe. → [[#Le but du modèle : comprendre les mécanismes]]
 
 > [!question]- Les agents deviennent fans de pizza. Alors :
-> a) la demande et l'offre augmentent ensemble → le prix ne change pas
-> b) à prix inchangé l'offre augmente, la demande reste en E → Pp diminue
+> a) la demande et l'offre augmentent ensemble (E → A) → les deux effets se compensent → le prix ne change pas
+> b) à prix inchangé l'offre augmente (E → O₁), la demande reste en E → l'offre dépasse la demande → Pp diminue
 > c) à prix inchangé la demande augmente (E → A), l'offre reste en E, la demande dépasse l'offre → Pp augmente jusqu'à un nouvel équilibre, à un prix plus élevé
 > d) aucune des propositions n'est exacte
 >
@@ -1495,8 +1495,8 @@ entre deux, ne réponds pas : ne rien cocher vaut mieux que se tromper.
 > **a)** — simplifier le réel, en b), est le rôle du **modèle**. → [[#II.2 LES DONNÉES STATISTIQUES]]
 
 > [!question]- La boucle de la démarche hypothético-déductive :
-> a) définitions et hypothèses → observation empirique → énoncés théoriques → validation ou rejet
-> b) observation empirique → énoncés théoriques → définitions et hypothèses → validation ou rejet
+> a) définitions et hypothèses → observation empirique → énoncés théoriques → validation (modèle accepté) ou rejet
+> b) observation empirique → énoncés théoriques → définitions et hypothèses → validation (modèle accepté) ou rejet
 > c) définitions et hypothèses → énoncés théoriques → observation empirique → validation (modèle accepté) ou rejet des énoncés (révision des hypothèses)
 > d) aucune des propositions n'est exacte
 >
@@ -1528,8 +1528,8 @@ entre deux, ne réponds pas : ne rien cocher vaut mieux que se tromper.
 
 > [!question]- Une expérimentation se monte en trois temps :
 > a) diviser l'échantillon en groupe de traitement et groupe de contrôle par randomisation ; les traiter à l'identique sauf une caractéristique choisie ; la différence est l'objet de l'expérimentation
-> b) diviser l'échantillon selon les caractéristiques observées ; traiter les deux groupes différemment ; comparer les moyennes
-> c) constituer un seul groupe ; le suivre avant et après le traitement ; mesurer l'écart
+> b) diviser l'échantillon selon les caractéristiques observées ; traiter les deux groupes différemment ; comparer les moyennes obtenues
+> c) constituer un seul groupe, le suivre avant et après le traitement ; mesurer l'écart entre les deux périodes
 > d) aucune des propositions n'est exacte
 >
 > **a)** — ses deux problèmes : le **coût** et la **difficulté de mise en œuvre** de la randomisation. c) décrit plutôt une expérimentation **naturelle**. → [[#Comment distinguer corrélation et causalité : l'expérimentation]]
@@ -1562,16 +1562,16 @@ entre deux, ne réponds pas : ne rien cocher vaut mieux que se tromper.
 
 > [!question]- Économie positive et économie normative :
 > a) positive : décrire, analyser, comprendre · normative : conseiller les décideurs politiques, comme base de recommandation
-> b) positive : conseiller les décideurs · normative : décrire et analyser
-> c) positive : ce qui est mesurable · normative : ce qui relève de la théorie
+> b) positive : conseiller les décideurs politiques · normative : décrire, analyser, comprendre l'économie
+> c) positive : ce qui est mesurable et observable · normative : ce qui relève de la théorie pure
 > d) aucune des propositions n'est exacte
 >
 > **a)** — ce qui bascule de l'une à l'autre, c'est la **norme** : dès qu'il faut définir des critères pour des objectifs à atteindre — réduire les inégalités suppose une idée de la **justice sociale**. → [[#II.3 L'ÉCONOMISTE : SCIENTIFIQUE ET CONSEILLER POLITIQUE]]
 
 > [!question]- Microéconomie et macroéconomie :
 > a) micro : les unités de base — comprendre comment elles décident · macro : l'économie dans son ensemble, en variables agrégées
-> b) micro : les entreprises · macro : les États
-> c) micro : les comportements individuels · macro : la somme de ces comportements
+> b) micro : les entreprises et leurs marchés · macro : les États et leurs politiques économiques
+> c) micro : les comportements individuels · macro : la somme de ces comportements individuels
 > d) aucune des propositions n'est exacte
 >
 > **a)** — c) est le piège du chapitre : le tout **n'est pas** la somme des parties. → [[#II.4 L'IMPORTANCE DE L'ÉCHELLE QU'ON CHOISIT POUR ÉTUDIER L'ÉCONOMIE]]
@@ -1610,8 +1610,8 @@ entre deux, ne réponds pas : ne rien cocher vaut mieux que se tromper.
 
 > [!question]- Consommation et production :
 > a) consommation : utiliser les biens et services directement pour satisfaire des besoins · production : transformer des ressources et/ou des biens en biens et services
-> b) consommation : acheter des biens et services sur un marché · production : fabriquer des biens matériels
-> c) consommation : utiliser des biens pour satisfaire des besoins · production : vendre des biens et services
+> b) consommation : acheter des biens et services sur un marché · production : fabriquer des biens matériels destinés à la vente
+> c) consommation : utiliser des biens et services pour satisfaire des besoins · production : vendre des biens et des services
 > d) aucune des propositions n'est exacte
 >
 > **a)** — deux mots portent les définitions : **directement** et **transformer**. → [[#Conclusion du chapitre — et préambule à la suite du cours]]
