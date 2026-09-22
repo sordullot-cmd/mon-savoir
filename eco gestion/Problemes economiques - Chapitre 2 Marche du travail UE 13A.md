@@ -421,53 +421,57 @@ Pourquoi le taux de chômage des 15-24 ans est-il mécaniquement élevé ? ; 60 
 
 ## ✅ Contrôle
 
-> [!question] 1. Une personne offre son travail : est-elle du côté de l'offre ou de la demande d'emploi ?
-> [!success]- Réponse
-> Elle **offre du travail** et **demande un emploi**. L'offre de travail vient
-> des personnes ; la demande de travail vient des employeurs.
+QCM — **une seule bonne réponse**, comme dans la première partie de l'épreuve.
+Choisis avant d'ouvrir le callout.
 
-> [!question] 2. Donne les trois indicateurs avec leur dénominateur exact.
-> [!success]- Réponse
-> **Taux de chômage** = chômeurs / **population active**.
-> **Taux de participation** = population active / **population en âge de
-> travailler**.
-> **Taux d'emploi** = actifs occupés / **population en âge de travailler**.
+> [!question]- Une personne offre son travail. Elle est donc :
+> a) du côté de l'**offre de travail**, et elle **demande un emploi**
+> b) du côté de la demande de travail, et elle offre un emploi
+> c) du côté de l'offre de travail, et elle offre un emploi
+>
+> **a)** — l'**offre de travail** vient des personnes, la **demande de travail** vient des employeurs. Le piège tient au mot « emploi », qui inverse les rôles. → [[#1.1 Le marché du travail]]
 
-> [!question] 3. Deux pays ont le même taux de chômage. Qu'est-ce que les deux autres taux peuvent encore révéler ?
-> [!success]- Réponse
-> L'efficacité du marché du travail est la même, mais un **taux de participation**
-> plus faible signale que beaucoup de personnes en âge de travailler ne se
-> présentent pas : étudiants, travail des femmes, économie souterraine. Un
-> **taux d'emploi** plus faible signale une moins bonne utilisation de la
-> main-d'œuvre disponible.
+> [!question]- Les trois indicateurs et leur dénominateur exact :
+> a) chômage = chômeurs / population en âge de travailler · participation = actifs occupés / population active · emploi = population active / population totale
+> b) chômage = chômeurs / **population active** · participation = population active / **population en âge de travailler** · emploi = actifs occupés / **population en âge de travailler**
+> c) chômage = chômeurs / population totale · participation = actifs / population totale · emploi = actifs occupés / population active
+>
+> **b)** — deux dénominateurs seulement : la population active pour le chômage, la population en âge de travailler pour les deux autres. Le rapport chômeurs / population **totale** de c) existe, mais il porte un autre nom : la **part de chômage**. → [[#1.4 Les trois indicateurs]]
 
-> [!question] 4. Pourquoi le chiffre de France Travail et celui de l'INSEE ne coïncident-ils pas ?
-> [!success]- Réponse
-> Deux sources de décalage : la **population couverte** (les critères ne
-> retiennent pas les mêmes personnes) et la **nature des données** — une
-> **estimation** par enquête à l'INSEE contre un **recensement** des inscrits à
-> France Travail. Résultat : près d'un chômeur sur quatre n'est pas inscrit, et
-> moins de la moitié des inscrits en catégorie A sont chômeurs au sens du BIT.
+> [!question]- Deux pays ont le même taux de chômage. Les deux autres taux peuvent encore révéler :
+> a) rien : à taux de chômage égal, les deux marchés du travail se valent
+> b) un **taux de participation** plus faible — beaucoup de personnes en âge de travailler ne se présentent pas — et un **taux d'emploi** plus faible — une moins bonne utilisation de la main-d'œuvre disponible
+> c) qu'un taux de participation faible signale une meilleure éducation, donc moins de petits travaux
+>
+> **b)** — l'efficacité du marché est la même, le reste ne l'est pas : étudiants, travail des femmes, économie souterraine. c) est l'inverse du cours, et c'est la phrase que le diaporama de référence a redressée. → [[#Lire les trois indicateurs ensemble]]
 
-> [!question] 5. Un jeune de 20 ans en licence est-il chômeur, actif occupé ou inactif ?
-> [!success]- Réponse
-> **Inactif** : il n'a pas d'emploi et n'en cherche pas. C'est ce qui explique
-> que 60 % des 15-24 ans soient inactifs — et pourquoi le taux de chômage des
-> jeunes est mécaniquement élevé, la population active servant de dénominateur.
+> [!question]- Le chiffre de France Travail et celui de l'INSEE ne coïncident pas à cause de :
+> a) la **population couverte** et la **nature des données** — une **estimation** par enquête à l'INSEE, un **recensement** des inscrits à France Travail
+> b) la périodicité : mensuelle d'un côté, trimestrielle de l'autre
+> c) le territoire couvert : la France entière d'un côté, la métropole de l'autre
+>
+> **a)** — près d'un chômeur sur quatre n'est pas inscrit, et **moins de la moitié** des inscrits en catégorie A sont chômeurs au sens du BIT. Les deux mesures ne se corrigent donc pas l'une l'autre. → [[#Pourquoi les deux chiffres divergent]]
 
-> [!question] 6. Quelle est la différence entre la catégorie B et la catégorie C de France Travail ?
-> [!success]- Réponse
-> Le volume de travail dans le mois : **78 heures ou moins** pour la catégorie
-> **B**, **plus de 78 heures** pour la **C**. Dans les deux cas, la personne est
-> demandeuse d'emploi et tenue de faire des recherches.
+> [!question]- Un jeune de 20 ans en licence est :
+> a) chômeur, puisqu'il est sans emploi
+> b) actif occupé, ses études comptant comme une activité
+> c) **inactif** : il n'a pas d'emploi et n'en cherche pas
+>
+> **c)** — c'est ce qui explique que **60 % des 15-24 ans** soient inactifs, et pourquoi leur taux de chômage est mécaniquement élevé : la population active sert de dénominateur. → [[#2.3 Selon l'âge — pourquoi les 15-24 ans ?]]
 
-> [!question] 7. Le diplôme ou l'expérience : qu'est-ce qui protège le plus du chômage ?
-> [!success]- Réponse
-> **Les deux, mais pas au même moment.** Le diplôme joue fortement à la sortie
-> de formation (5 % de chômage chez les plus diplômés contre 15 % chez les
-> sans-diplôme), puis son avantage est **progressivement remplacé par
-> l'expérience** : plus la sortie d'études est ancienne, plus le taux baisse,
-> autour de 7,5 %.
+> [!question]- Ce qui sépare la catégorie B de la catégorie C à France Travail :
+> a) la catégorie B est sans activité, la C en activité réduite
+> b) le **volume de travail dans le mois** : **78 heures ou moins** en B, **plus de 78 heures** en C
+> c) la catégorie B est tenue de rechercher un emploi, la C en est dispensée
+>
+> **b)** — dans les deux cas la personne est demandeuse d'emploi **et** tenue de faire des recherches : c'est ce qui élimine c). → [[#A) L'approche administrative — le chômage au sens de France Travail]]
+
+> [!question]- Diplôme ou expérience : qu'est-ce qui protège le plus du chômage ?
+> a) le diplôme, et son avantage se maintient toute la carrière
+> b) l'expérience seule : le diplôme ne joue pas sur le taux de chômage
+> c) **les deux, mais pas au même moment** — le diplôme à la sortie de formation (5 % contre 15 % chez les sans-diplôme), puis l'avantage passe **progressivement à l'expérience** (autour de 7,5 %)
+>
+> **c)** — l'écart ne disparaît pas : il est **remplacé**. Plus la sortie d'études est ancienne, plus le taux baisse. → [[#2.2 Selon le diplôme et l'ancienneté de la sortie de formation]]
 
 ---
 
