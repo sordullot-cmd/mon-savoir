@@ -12,8 +12,8 @@ statut: à faire
 coef: 3
 periode: 1
 revu: 2026-09-22
-a_verifier: 13
-cartes: 134
+a_verifier: 15
+cartes: 131
 ajouts: 6
 ---
 
@@ -775,6 +775,8 @@ Format d'import `Recto ; Verso ; Tags`. **Deux `;` par ligne, jamais plus** — 
 > - **le mot qui tranche est en capitales** — TESTER et non expliquer, ORIENTER et non obliger, EXPLIQUER et non déterminer ;
 > - **la phrase voisine qu'il ne faut pas répondre** est nommée, parce qu'avec −0,5 une réponse « à peu près » coûte des points.
 > Les cartes taguées `annale` portent sur une question réellement tombée. Celles taguées `piege` sont celles où le sujet a piégé les candidats, souvent en faisant de « aucune des propositions n'est exacte » la bonne réponse — 6 fois sur 20 en 2024-2025.
+>
+> **Le paquet a été repris le 22 septembre : il passe de 134 à 131 cartes.** Si tu avais déjà importé la version précédente, réimporte celle-ci. Trois cartes sont parties — deux faisaient réviser des parts du PIB (19 % et 1 %) qui viennent du cours d'une autre année et pas du tien, la troisième (« qu'est-ce qu'une bonne question économique ? ») n'avait pas sa réponse dans la fiche. Neuf autres ont été refaites parce qu'elles disaient autre chose que le cours : le coefficient de l'exemple des révisions (6 contre **4**, pas contre 1), les **trois** raisons d'une erreur de décision, le résultat global qui **diffère** de la somme des comportements au lieu de lui être supérieur, la crise des subprimes ramenée à ce que ta fiche en dit — un choc qui déplace la tendance.
 
 ### Les 20 questions tombées en 2024-2025
 
@@ -818,7 +820,7 @@ Que représente la contrainte budgétaire ? ; Toutes les combinaisons de biens q
 
 ```
 Quel est le dénominateur commun de tous les comportements humains, pour l'économiste ? ; Ils reposent tous sur des CHOIX · c'est ce qui autorise l'économie à s'intéresser à tous les comportements ; eco 11A
-Quelles sont les cinq notions clés du chapitre ? ; Les arbitrages · les incitations · les échanges · l'information · la DISTRIBUTION des richesses et des biens ; eco 11A piege
+Quelle est la cinquième notion clé du chapitre, au mot près ? ; La DISTRIBUTION des richesses ET des biens dans l'économie · pas « la distribution des biens » tout court ; eco 11A piege
 Quel type de science est l'économie ? ; Une science SOCIALE · d'où le coût et la difficulté de l'expérimentation, souvent remplacée par l'expérimentation naturelle ; eco 11A
 Quelles sont les trois questions que le cours pose sur les choix ? ; Pourquoi les individus doivent faire des choix · comment ils les font · à quoi ces choix aboutissent ; eco 11A
 ```
@@ -831,7 +833,7 @@ Qu'est-ce qu'une ressource ? ; Tout ce qui peut être utilisé pour produire · 
 Qu'est-ce que le capital physique ? ; Les machines et les bâtiments, qui DURENT · les biens intermédiaires, eux, disparaissent dans la production ; eco 11A piege
 Qu'est-ce qu'un bien intermédiaire ? ; Un bien qui DISPARAÎT dans la production · c'est ce qui le sépare du capital physique ; eco 11A piege
 Qu'est-ce que le capital humain ? ; Le niveau d'éducation et les compétences acquises, incorporées aux individus ; eco 11A
-Sous quelle forme le travail se compte-t-il dans la liste des ressources ? ; Sous forme de TEMPS · d'où la contrainte ultime, le temps ; eco 11A
+Que recouvre « le travail » dans la liste des ressources, et quelle ressource est la contrainte ultime ? ; Le travail, c'est la FORCE DE TRAVAIL · la contrainte ultime, c'est le TEMPS, qui est une ressource à part dans la liste ; eco 11A
 ```
 
 ### Le coût d'opportunité
@@ -839,7 +841,7 @@ Sous quelle forme le travail se compte-t-il dans la liste des ressources ? ; Sou
 ```
 Qu'est-ce que le coût d'opportunité d'un choix ? ; Ce à quoi on RENONCE en faisant ce choix · ce sont des euros NON déboursés ; eco 11A piege
 Dans le « vrai coût des études », qu'est-ce qui relève du coût d'opportunité ? ; Le manque à gagner de ne pas travailler · les frais de scolarité et le loyer sont des frais monétaires ; eco 11A
-Quel est le coût d'une application gratuite de smartphone ? ; Un coût monétaire nul et un coût d'opportunité très élevé ; eco 11A
+Pourquoi le temps passé devant un écran a-t-il un coût, pour l'économiste ? ; Parce que le TEMPS a une valeur économique · son coût d'opportunité, c'est ce à quoi on renonce pendant ce temps-là ; eco 11A
 Que devient le coût d'opportunité des études en période de forte croissance ? ; Il AUGMENTE, parce que les emplois sont nombreux et les salaires élevés · donc il y a moins d'étudiants ; eco 11A
 À quelle condition un choix est-il rationnel ? ; Quand le gain est SUPÉRIEUR au coût d'opportunité · pas au coût monétaire ; eco 11A piege
 ```
@@ -849,17 +851,17 @@ Que devient le coût d'opportunité des études en période de forte croissance 
 ```
 Qu'est-ce qu'un choix en termes d'alternatives ? ; Un choix entre l'une OU l'autre activité : dormir ou aller en cours ; eco 11A
 Comment se tranche un choix en termes de « combien » ? ; En comparant le coût et le bénéfice de l'unité SUIVANTE · c'est le raisonnement à la marge ; eco 11A
-Dans l'exemple des révisions, quel rôle joue le coefficient 6 en comptabilité contre 1 en économie ? ; Celui d'une INCITATION · chaque point gagné en compta rapporte plus, donc le temps de révision s'y déplace ; eco 11A
+Dans l'exemple des révisions, quel rôle joue le coefficient 6 en comptabilité contre 4 en économie ? ; Celui d'une INCITATION · chaque point gagné en compta rapporte 6 contre 4, donc le temps de révision s'y déplace · à coefficients égaux, aucune incitation particulière ; eco 11A
 Qu'est-ce qu'un « nudge » ? ; Un coup de pouce : une incitation qui SUGGÈRE au lieu d'obliger ; eco 11A
-Que dit le premier principe du cours ? ; Les agents répondent aux incitations, donc les marchés TENDENT NATURELLEMENT vers l'équilibre · une tendance, pas une garantie ; eco 11A
-Que dit le second principe du cours ? ; Comme les producteurs sont toujours incités à satisfaire les besoins, les marchés fournissent ce dont les agents ont besoin ; eco 11A
+Pourquoi les marchés ont-ils tendance à être à l'équilibre ? ; Parce que les agents RÉPONDENT AUX INCITATIONS · c'est une tendance naturelle, pas une garantie ; eco 11A
+Quelle interaction existe-t-il toujours entre les producteurs et les individus ? ; Les producteurs satisfont les besoins en FOURNISSANT aux individus ce dont ils ont besoin ; eco 11A
 ```
 
 ### Interactions et équilibre
 
 ```
 Qu'est-ce que commettre une erreur, pour l'économiste ? ; Échouer à optimiser une décision individuelle ; eco 11A
-Quelles sont les deux raisons des erreurs de décision ? ; Le manque d'informations pertinentes ou des informations fausses · les interactions entre individus ; eco 11A
+Quelles sont les trois raisons des erreurs de décision ? ; Le manque d'informations pertinentes · une information fausse ou incomplète · les interactions avec les autres agents ; eco 11A
 Que devient le choix initial après les interactions sociales ? ; Il devient le choix effectif, qui DIFFÈRE du choix initial ; eco 11A
 À quoi conduit la coopération ? ; À la SPÉCIALISATION, donc à l'échange · chacun fournit aux autres ce qu'il produit et reçoit en échange ; eco 11A
 Quelle est la définition de l'équilibre donnée au chapitre 1 ? ; Aucun individu ne peut améliorer sa situation en faisant quelque chose de différent · au QCM, la formulation attendue est « les conséquences des actions sont conformes aux anticipations » ; eco 11A piege
@@ -881,17 +883,17 @@ Qu'est-ce qu'une externalité ? ; Un effet du comportement d'un individu sur le 
 Qu'est-ce que le pouvoir de marché ? ; Le fait que certains agents exercent une influence importante sur les prix et/ou les quantités échangées ; eco 11A
 Qu'est-ce qu'un monopole ? ; UNE firme unique qui vend UN produit unique · en concurrence monopolistique, les firmes produisent des biens différenciés ; eco 11A piege
 Sur quoi repose le système économique planifié ? ; Sur LA SOCIÉTÉ, qui connaît mieux les objectifs que chaque individu séparément · l'État détermine les besoins, la production et l'allocation ; eco 11A
-Que dit la première remarque du cours sur le système planifié ? ; Il finit généralement par une dérive totalitaire et crée d'importantes inégalités ; eco 11A
+Que dit la remarque du cours sur le devenir du système planifié ? ; Il finit généralement en RÉGIME TOTALITAIRE ; eco 11A
 ```
 
 ### Le tout n'est pas la somme des parties
 
 ```
-Le résultat global de millions de comportements est-il la somme des comportements individuels ? ; Non, il lui est SUPÉRIEUR · le tout n'est pas la somme des parties ; eco 11A piege
+Le résultat global de millions de comportements est-il la somme de ces comportements ? ; Non : il en DIFFÈRE · le tout n'est pas la somme des parties, et dans l'exemple du revenu il va même en sens inverse ; eco 11A piege
 Qu'est-ce que le paradoxe de l'épargne ? ; En micro, épargner finance l'investissement · en macro, l'épargne généralisée fait baisser la consommation totale, donc l'activité ; eco 11A
 Que se passe-t-il si tous les agents reçoivent 100 euros de plus ? ; Les prix montent et le pouvoir d'achat baisse · seul, celui qui reçoit 100 euros est bien plus riche : c'est tout l'écart entre micro et macro ; eco 11A piege
 En quoi se mesure le pouvoir d'achat ? ; En NOMBRE DE BIENS · W/P ; eco 11A
-Qu'illustre la crise des subprimes de 2008 ? ; La propagation d'une baisse d'activité au reste du monde · baisse de la consommation aux USA, puis de leur demande de produits étrangers, puis de l'activité ailleurs ; eco 11A
+Qu'illustre la crise des subprimes, dans la partie sur les prévisions ? ; Un choc qui modifie la TENDANCE elle-même · l'activité ne se contente pas d'osciller autour de la même droite, la droite se déplace ; eco 11A
 ```
 
 ### La méthode et les modèles
@@ -899,7 +901,6 @@ Qu'illustre la crise des subprimes de 2008 ? ; La propagation d'une baisse d'act
 ```
 Quelle est la méthode de l'économie ? ; La méthode HYPOTHÉTICO-DÉDUCTIVE : poser des hypothèses, en déduire des résultats, les confronter aux évidences empiriques ; eco 11A
 Quels sont les deux outils de la méthode économique ? ; Les modèles mathématiques, qui simplifient · les données statistiques, qui testent ; eco 11A
-Qu'est-ce qu'une bonne question économique ? ; Une question à laquelle on peut répondre ; eco 11A
 Qu'est-ce qu'un modèle mathématique ? ; Une représentation SIMPLIFIÉE de la réalité ; eco 11A
 Quelle étape de la méthode les modèles mathématiques constituent-ils ? ; La PREMIÈRE · la deuxième est le test par les données ; eco 11A
 À quoi sert un modèle, en deux temps ? ; À enlever la complexité du réel en se focalisant sur l'essentiel · à en déduire des implications théoriques, les prédictions du modèle ; eco 11A
@@ -975,8 +976,6 @@ Quels sont les trois rôles de l'État dans le circuit ? ; Produire des biens et
 ```
 Quelle part de la richesse est créée par la consommation des ménages ? ; 55 % ; eco 11A chiffres
 Quelle part de la richesse est créée par l'investissement des entreprises ? ; 25 % ; eco 11A chiffres
-Quelle part de la richesse est créée par les échanges avec le reste du monde ? ; 1 % ; eco 11A chiffres
-Quelle part de la richesse est créée par la consommation des administrations publiques ? ; 19 % ; eco 11A chiffres
 Sur 100 euros de richesse créée, combien le sont par les ménages et les entreprises ? ; Environ 80 euros · d'où le choix du modèle 2 ; eco 11A chiffres
 Quelle est la formule du pouvoir d'achat ? ; W/P, exprimé en nombre de biens ; eco 11A chiffres
 Quel est le pouvoir d'achat pour W = 100 euros et P = 10 euros par bien ? ; 10 biens ; eco 11A chiffres
@@ -994,7 +993,7 @@ Quel est le PIB de la France en 2015, tel qu'il figure dans ton cahier ? ; 2 999
 1. **Se tester, pas relire** — le bloc [[#✅ Contrôle]] ci-dessous, à voix haute, avant d'ouvrir la réponse. À une semaine : 61 % de rétention en se testant, 40 % en relisant.
 2. **Jusqu'à 3 rappels corrects** — une question n'est acquise qu'après **trois** réponses justes, à des jours d'écart.
 3. **Puis 3 réapprentissages espacés** — intervalle ≈ **10 à 20 % du délai** avant l'épreuve : à six semaines, tous les 4 à 8 jours.
-4. **Ce chapitre est un chapitre de vocabulaire** : rareté, coût d'opportunité, externalité, équilibre, défaillance de marché, anticipations. Les **134 cartes** du bloc 🃏 sont la partie la plus rentable — une question claire au recto, une seule réponse au verso, le mot qui tranche en capitales. Commence par les **26 questions déjà tombées** des deux premiers paquets.
+4. **Ce chapitre est un chapitre de vocabulaire** : rareté, coût d'opportunité, externalité, équilibre, défaillance de marché, anticipations. Les **131 cartes** du bloc 🃏 sont la partie la plus rentable — une question claire au recto, une seule réponse au verso, le mot qui tranche en capitales. Commence par les **26 questions déjà tombées** des deux premiers paquets.
 5. **Entrelace** avec [[Gestion - Introduction]] et [[Problemes economiques - Chapitre 1 Analyse economique UE 13A]] : les trois UE tombent en période 1, et alterner les matières dans une même session retient mieux que les enchaîner par blocs. Le calendrier des épreuves est dans [[Plan - Examen P1]].
 6. **Avant le prochain amphi** — lis les questions de Contrôle portant sur la partie non encore traitée et plante-toi : c'est du *pretesting*.
 
@@ -1250,6 +1249,7 @@ Réponds à voix haute, puis ouvre la réponse.
 > - **Les deux clés notées en tête de tes notes d'introduction** (`31538` et `s9adntd`) : à quoi donnent-elles accès ? En UE 13A, la clé `24212 zp6n7e` est celle de **Moodle** ; ici tes notes ne le précisent pas.
 > - **L'exemple du concert** (§ I.3) : tes notes listent « le concert est gratuit → plein de monde = bouchons », « mauvais itinéraire », puis un troisième point qui commence par « le prof va acheter… » et que je n'ai pas su déchiffrer. Il manque la fin.
 > - **Le PIB de la France : quatre valeurs circulent, aucune n'est tranchée.** Ta photo de cahier donne **2 999,9 milliards d'€ (2015 ?)** ; tes notes du cours n° 3 s'arrêtent sur un « **2,25** » incomplet ; les notes de tes amis donnent **2 991,1 milliards d'€** ; le cours de référence de 2021 donnait **2 300 Md€ (2018)**. Je n'en corrige aucune. Demande **le chiffre et l'année** que le prof retient : avec un QCM à −0,5, c'est exactement le genre de question qui coûte.
+> - **La décomposition complète de la richesse créée** (§ II.1) : tes notes ne retiennent que **55 %** pour la consommation des ménages et **25 %** pour l'investissement des entreprises, soit ≈ 80 %. Le cours de référence de 2021 ajoutait **19 %** pour la consommation des administrations publiques et **1 %** pour les échanges avec le reste du monde — deux chiffres que je ne mets pas dans ton cours, parce qu'ils sont d'une autre année et que le prof a pu les actualiser. Demande-lui les quatre parts s'il les donne : c'est une question de QCM toute faite.
 > - **Les canicules** (§ II) : « quels effets des canicules sur la productivité **des …** » — le dernier mot est illisible. Des travailleurs ? Des cultures ?
 > - **Rq 2 du § I.3 b)** : la phrase sur les producteurs qui satisfont les besoins est reconstituée au plus près, mais ta ligne est coupée. À reprendre.
 > - **La date en tête de la partie II** : une annotation en rouge en haut de page, illisible (peut-être la date de la 2ᵉ séance).

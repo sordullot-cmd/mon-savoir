@@ -63,7 +63,7 @@
   "eco gestion/_brut/introduction a l'economie.md": {
    "fiche": "eco gestion/Economie - Chapitre 1 Science economique.md",
    "hash": "08ac6c5774f3",
-   "integre": "2026-09-14 19:29"
+   "integre": "2026-09-22 17:25"
   }
  },
  "pages": {
@@ -92,11 +92,14 @@
    "statut": "confirmé"
   },
   "eco gestion/Economie - Chapitre 1 Science economique.md": {
-   "fait": "cours n3 (14 sept) : variables endogenes/exogenes, marche de la pizza, donnees statistiques, correlation/causalite, experimentations, micro-macro, desaccords, conclusion — synthese basee sur le cours du prof (L1/CM) + notes des amis ; 2 schemas, 45 cartes, 26 questions de controle",
-   "hash": "254d10b6223e",
-   "mots": 15358,
-   "passage": "2026-09-14 19:29",
+   "fait": "refonte du paquet Anki : 134 -> 131 cartes ; 3 supprimees (parts 19 % et 1 % du PIB venues du cours de reference, 'bonne question economique' sans reponse dans la fiche), 9 refaites qui contredisaient le corps (coeff 6 contre 4, trois raisons d'erreur, tout different de la somme, subprimes = choc sur la tendance, travail/temps, temps d'ecran, remarques 1 et 2, systeme planifie, 5e notion cle) ; 1 point ajoute dans A verifier (decomposition complete de la richesse) ; compteurs cartes et a_verifier remis d'aplomb",
+   "hash": "38e068d39279",
+   "mots": 17450,
+   "passage": "2026-09-22 17:25",
    "source": "_brut/introduction a l'economie.md",
+   "sources": [
+    "_brut/introduction a l'economie.md"
+   ],
    "statut": "à faire"
   },
   "eco gestion/Economie - Introduction UE 11A.md": {
