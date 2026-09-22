@@ -10,7 +10,7 @@ coefficients: 62
 heures_travail_perso: 432
 heures_cours: 498
 revu: 2026-09-10
-a_verifier: 5
+a_verifier: 4
 cartes: 0
 ---
 
@@ -45,12 +45,20 @@ Les quatre UE de la **période 1** sont celles qui tombent en premier. Les quatr
 
 | UE      | Matière                             | Coef | Cartes | Trous | Fiche |
 |---|---|---|---|---|---|
-| **11A** | Introduction à l'économie           | 3    | 134    | 13    | [[Economie - Chapitre 1 Science economique]] |
-| **12A** | Introduction à la gestion           | 3    | 67     | 8     | [[Gestion - Introduction]] · [[Gestion - Chapitre 2 Fonctions de l'entreprise UE 12A]] |
-| **13A** | Problèmes économiques contemporains | —    | 47     | 9     | [[Problemes economiques - Chapitre 1 Analyse economique UE 13A]] · [[Problemes economiques - Chapitre 2 Marche du travail UE 13A]] |
-| **18C** | Méthodologie du travail universitaire | —  | 37     | 10    | [[Methodologie - Travail universitaire UE 18C]] |
+| **11A** | Introduction à l'économie           | 3    | 131    | 15    | [[Economie - Chapitre 1 Science economique]] |
+| **12A** | Introduction à la gestion           | 3    | 104    | 16    | [[Gestion - Introduction]] · [[Gestion - Chapitre 2 Fonctions de l'entreprise UE 12A]] |
+| **13A** | Problèmes économiques contemporains | —    | 71     | 23    | [[Problemes economiques - Chapitre 1 Analyse economique UE 13A]] · [[Problemes economiques - Chapitre 2 Marche du travail UE 13A]] |
+| **18C** | Méthodologie du travail universitaire | —  | 48     | 10    | [[Methodologie - Travail universitaire UE 18C]] |
 
-**285 cartes à créer** et **40 trous** signalés, sur les quatre fiches. Les cartes de **11A** ont été refaites le 22 septembre 2026 : **une question posée en toutes lettres au recto, une seule réponse au verso**, avec le mot qui tranche en capitales et la phrase voisine à ne pas répondre. Les **26 premières** sont les questions réellement tombées aux sessions 2022-2023 et 2024-2025. Le protocole pour les travailler est dans [[Methode - Comment reviser]].
+**354 cartes à créer** et **64 trous** signalés, sur les six fiches des quatre UE. Pour l'ordre de révision d'ici les épreuves : [[Plan - Examen P1]] et [[Calendrier officiel 2026-2027]]. Les cartes de **11A** ont été refaites le 22 septembre 2026 : **une question posée en toutes lettres au recto, une seule réponse au verso**, avec le mot qui tranche en capitales et la phrase voisine à ne pas répondre. Les **26 premières** sont les questions réellement tombées aux sessions 2022-2023 et 2024-2025. Le protocole pour les travailler est dans [[Methode - Comment reviser]].
+
+> [!info]- Compteurs relus sur les fiches le 22 septembre 2026
+> Le tableau reprend le frontmatter de chaque fiche (`cartes:`, `a_verifier:`). Ce qui a bougé depuis la version précédente du hub :
+> - **11A** : 134 → 131 cartes, 13 → 15 trous.
+> - **12A** : 67 → 104 cartes, 8 → 16 trous — le chapitre 2 (37 cartes, 8 trous) n'était pas compté.
+> - **13A** : 47 → 71 cartes, 9 → 23 trous — le chapitre 2 (24 cartes, 7 trous) n'était pas compté, et le chapitre 1 est passé à 16 trous.
+> - **18C** : 37 → 48 cartes.
+> - **Total** : 285 → 354 cartes, 40 → 64 trous.
 
 ---
 
@@ -209,5 +217,4 @@ QCM — **une seule bonne réponse**. Choisis avant d'ouvrir le callout.
 > - Le tableau des cycles totalise 64 coef contre 62 au frontmatter et dans la Règle 2 : `18C Méthodologie` (coef 2) est comptée dans **Cycle 0 - Fondations** et dans **Cycle 4 - Socle transversal**.
 > - Le tableau de la semaine totalise 12 h 45, le titre annonce 12 h — et 432 h sur 36 semaines font 12 h pile.
 > - La période 1 pèse 11 coef pour quatre UE, mais seules `11A` (coef 3) et `12A` (coef 3) portent un coefficient dans leur fiche : celui de `13A` et de `18C` reste à relever sur la maquette.
-> - Deux fiches de gestion coexistent : `Gestion - Introduction UE 12A.md`, suivie par git mais absente du disque, et `Gestion - Introduction.md`, présente mais **amputée de son en-tête** (titre complet, coef 3 · CT 1 h 30, contacts de l'enseignante, lien vers les slides). Le hub pointe vers celle que tu peux ouvrir. À trancher : laquelle garder.
-> - `Methode - Comment reviser` a quitté `eco gestion/` pour `notes/` et porte désormais un `tr4de-id` : c'est l'app tr4de qui en a la main, `/eco` n'y touche plus.
+> - Le doublon de gestion est tranché : `Gestion - Introduction UE 12A.md` a quitté git le 22 septembre (commit `04e0c6b`), seule `Gestion - Introduction.md` reste. Son en-tête n'a pas retrouvé ce que portait l'ancienne version : le titre complet de l'UE, la durée du CT (1 h 30) et les contacts de l'enseignante — les slides, elles, y sont citées. À recompléter si tu y tiens.
