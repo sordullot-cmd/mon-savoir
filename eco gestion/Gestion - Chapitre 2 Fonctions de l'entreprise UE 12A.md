@@ -11,8 +11,8 @@ notion: Les principales fonctions de l'entreprise — marketing (comportement du
 ue: 12A
 statut: à faire
 periode: 1
-revu: 2026-09-22
-a_verifier: 8
+revu: 2026-09-23
+a_verifier: 9
 cartes: 37
 ajouts: 8
 ---
@@ -99,6 +99,10 @@ processus d'achat ? », qui tombe en QCM.*
 - **Variables environnementales**
 - **Stimuli** — par exemple une période de soldes
 
+Le QCM posé en séance le confirme : la **classe sociale** du consommateur, son
+**niveau de revenu** et l'**offre promotionnelle** proposée impactent le
+processus d'achat.
+
 ### 1.3 La démarche marketing
 
 Elle part du consommateur : **on cherche d'abord à le comprendre, on collecte la
@@ -117,6 +121,9 @@ Au cœur du marketing stratégique, trois opérations dans cet ordre :
 
 Le moyen mnémotechnique : **S-C-P**, et c'est toujours dans cet ordre — on ne
 peut pas cibler avant d'avoir découpé, ni se positionner avant d'avoir choisi.
+
+Le QCM de séance range parmi les **objectifs du marketing stratégique** le
+**choix de la position concurrentielle** et la **segmentation des acheteurs**.
 
 ### 1.4 Le marketing mix — les 4P
 
@@ -228,6 +235,7 @@ comment l'améliorer — c'est le service R&D qui est à la manœuvre.
 - Elle crée un **avantage concurrentiel durable**.
 - Elle exige des **investissements lourds**, sans savoir si ce sera un succès —
   l'exemple du cours : mettre un **médicament** sur le marché.
+- Le **cycle de vie des produits se raccourcit**.
 - Pour encourager l'innovation dans les entreprises, il existe le **crédit
   d'impôt recherche**.
 
@@ -426,23 +434,74 @@ Qu'est-ce qui caractérise le teslisme en production ? ; La MACHINE INFORME l'op
 ## ✅ Contrôle
 
 QCM au format de l'épreuve : **plusieurs réponses peuvent être bonnes**, 0,5 point
-par question, **tout ou rien**. Coche mentalement toutes les lettres avant d'ouvrir.
+par question, **tout ou rien**. Coche mentalement toutes les lettres avant d'ouvrir
+— et ne te fie pas au nombre de lettres : une seule peut suffire, ou les quatre.
+
+**La fonction Marketing**
 
 > [!question]- Segmentation, ciblage, positionnement :
-> a) segmenter, c'est découper le marché en groupes homogènes aux besoins proches
-> b) cibler, c'est choisir un ou plusieurs de ces segments pour y concentrer ses ressources
-> c) positionner, c'est définir l'image que la marque veut occuper dans l'esprit du consommateur
-> d) l'ordre est libre : on peut cibler avant de découper
+> a) on ne cible qu'après avoir segmenté
+> b) segmenter, c'est choisir les segments où concentrer ses ressources
+> c) cibler, c'est choisir un ou plusieurs segments pour y concentrer ses ressources
+> d) positionner, c'est définir l'image que la marque veut occuper dans l'esprit du consommateur
 >
-> **a, b et c** — l'ordre est au contraire **contraint** : on ne cible pas avant d'avoir découpé, et on ne positionne pas sans savoir pour qui. → [[#1.3 La démarche marketing]]
+> **a, c et d** — b) prête à la segmentation le travail du ciblage : segmenter, c'est **découper** le marché en groupes homogènes, pas choisir. → [[#1.3 La démarche marketing]]
+
+> [!question]- Parmi les objectifs du marketing stratégique, on compte :
+> a) la segmentation des acheteurs
+> b) le choix de la position concurrentielle
+> c) l'organisation de la production en flux tendu
+> d) le choix des segments à cibler
+>
+> **a, b et d** — c'est le cœur S-C-P du marketing stratégique. Le flux tendu est un trait du **toyotisme**, donc de la fonction production. → [[#1.3 La démarche marketing]]
+
+> [!question]- Quels facteurs impactent le processus d'achat ?
+> a) la classe sociale d'appartenance du consommateur
+> b) son niveau de revenu
+> c) une période de soldes
+> d) son âge et sa profession
+>
+> **a, b, c et d** — facteurs sociaux, variables individuelles, stimuli : les quatre sont dans le cours. → [[#1.2 Le comportement du consommateur]]
 
 > [!question]- Les 4P et leur piège de traduction :
 > a) Product, Price, Promotion, Place
-> b) *Place* désigne la distribution, pas le lieu de vente
-> c) *Promotion* recouvre toute la communication et la publicité, pas seulement les réductions
-> d) *Promotion* désigne les remises et opérations commerciales
+> b) *Place* désigne l'emplacement du point de vente
+> c) *Promotion* recouvre toute la communication et la publicité
+> d) *Promotion* se limite aux remises et opérations commerciales
 >
-> **a, b et c** — les deux faux amis du mix sont *Place* et *Promotion*, et d) est précisément le contresens à éviter. → [[#1.4 Le marketing mix — les 4P]]
+> **a et c** — les deux faux amis du mix : *Place* est la **distribution**, et *Promotion* ne se réduit pas aux réductions. → [[#1.4 Le marketing mix — les 4P]]
+
+> [!question]- Une marque signe avec un distributeur un contrat qui lui réserve la vente de ses produits. C'est :
+> a) une distribution intensive
+> b) une distribution sélective
+> c) une distribution exclusive
+> d) une stratégie qui cherche le maximum de points de vente
+>
+> **c** — le critère qui tranche est le **contrat d'exclusivité**. La sélective limite le nombre de points de vente sans ce contrat ; d) décrit l'intensive. → [[#1.5 Place — les trois stratégies de distribution]]
+
+> [!question]- La distribution intensive :
+> a) cherche le maximum de points de vente
+> b) maximise le chiffre d'affaires
+> c) a un coût de distribution faible
+> d) repose sur un contrat d'exclusivité
+>
+> **a et b** — sa contrepartie est au contraire un **coût de distribution élevé** ; d) est l'exclusive. → [[#1.5 Place — les trois stratégies de distribution]]
+
+> [!question]- Relèvent de la promotion dans le cours :
+> a) la distribution sélective
+> b) la force de vente
+> c) le merchandising
+> d) la publicité
+>
+> **b, c et d** — les trois leviers de la promotion. La distribution sélective relève de *Place*. → [[#1.6 Promotion — les trois leviers]]
+
+> [!question]- La publicité se définit comme :
+> a) toute forme de communication non interactive utilisant un support payant
+> b) toute forme de communication, interactive ou non, avec le client
+> c) l'ensemble des techniques qui optimisent les surfaces d'exposition en point de vente
+> d) l'ensemble des commerciaux, itinérants ou sédentaires
+>
+> **a** — c) est le merchandising, d) la force de vente : les deux autres leviers de la promotion. → [[#1.6 Promotion — les trois leviers]]
 
 > [!question]- Une marque de parfum associe son produit à une scène onirique, sans rien dire du produit. Il s'agit :
 > a) d'une publicité suggestive
@@ -452,29 +511,105 @@ par question, **tout ou rien**. Coche mentalement toutes les lettres avant d'ouv
 >
 > **a, c et d** — c'est l'exemple même du cours : le parfum et la lingerie. Une publicité informative dirait quelque chose du produit. → [[#1.6 Promotion — les trois leviers]]
 
-> [!question]- La « création destructrice » de Schumpeter :
+> [!question]- Une marque de baskets montre des jeunes qui affichent leur bande en portant ses modèles. Il s'agit :
+> a) d'une publicité projective ou intégrative
+> b) d'une publicité mécaniste
+> c) elle incite le consommateur à montrer son appartenance à un groupe par ce qu'il achète
+> d) d'une publicité informative
+>
+> **a et c** — le ressort est l'**appartenance**. La mécaniste répète un slogan, l'informative parle du produit. → [[#1.6 Promotion — les trois leviers]]
+
+> [!question]- Le marketing push :
+> a) pousse le produit vers le consommateur
+> b) s'appuie sur la promotion
+> c) attire le client vers le produit
+> d) laisse le client venir de lui-même vers le produit
+>
+> **a et b** — c) et d) décrivent le marketing **pull**, où le producteur attire le client. → [[#1.7 Du marketing push au marketing pull]]
+
+**La fonction Recherche & Développement**
+
+> [!question]- L'innovation selon Schumpeter :
 > a) le progrès économique passe par la destruction des activités obsolètes
 > b) et par la création d'activités nouvelles plus efficaces
-> c) l'innovation est la source essentielle de la dynamique économique
-> d) l'innovation détruit plus d'emplois qu'elle n'en crée, ce qui freine la croissance
+> c) le progrès passe par la protection des activités existantes
+> d) le cours désigne ce mécanisme par « création destructrice »
 >
-> **a, b et c** — le mécanisme est une **dynamique**, pas un bilan négatif : d) retourne la thèse. → [[#2.1 L'innovation selon Schumpeter]]
+> **a, b et d** — c) retourne la thèse : l'ancien disparaît pour que le nouveau s'installe. → [[#2.1 L'innovation selon Schumpeter]]
+
+> [!question]- Uber organise la rencontre de l'offre et de la demande sans salarier les conducteurs. Chez Schumpeter, c'est :
+> a) un nouveau procédé de production
+> b) une nouvelle forme d'organisation du travail
+> c) l'utilisation d'une nouvelle matière première
+> d) un nouveau marché pour un produit existant
+>
+> **b** — c'est l'exemple du cours pour ce cas d'innovation. → [[#2.1 L'innovation selon Schumpeter]]
+
+> [!question]- Le fordisme de 1913 et le travail à la chaîne illustrent :
+> a) une innovation de procédé
+> b) un changement de la manière de produire
+> c) une innovation de produit
+> d) l'utilisation de nouvelles matières premières
+>
+> **a et b** — ce qui change, c'est la **manière de produire**, pas ce qu'on vend. → [[#2.1 L'innovation selon Schumpeter]]
 
 > [!question]- Innovation de rupture et innovation incrémentale :
-> a) la rupture ouvre un marché nouveau en rendant l'ancien obsolète
-> b) l'incrémentale améliore l'existant et fidélise les clients acquis
-> c) elles sont complémentaires : l'une ouvre, l'autre tient dans la durée
+> a) la rupture crée un marché nouveau en rendant l'ancien obsolète
+> b) l'incrémentale rend obsolètes les solutions antérieures
+> c) elles sont complémentaires
 > d) l'incrémentale précède toujours la rupture
 >
-> **a, b et c** — la complémentarité est ce que le mini-cas d'annale demande de repérer. → [[#2.2 Rupture et incrémentale]]
+> **a et c** — b) prête à l'incrémentale l'effet de la rupture : l'incrémentale **améliore** l'existant et fidélise les clients acquis. → [[#2.2 Rupture et incrémentale]]
 
-> [!question]- Recherche fondamentale, recherche appliquée, R&D :
-> a) la fondamentale vise à faire progresser la connaissance scientifique et demande de lourds investissements
-> b) l'appliquée produit des inventions jusqu'au stade du prototype
-> c) la R&D s'appuie sur ces découvertes pour rechercher de nouvelles innovations
-> d) la fondamentale produit directement des innovations commercialisables
+> [!question]- Un fabricant rend sa table de jardin plus pratique en y intégrant un parasol. C'est une innovation :
+> a) incrémentale
+> b) de rupture
+> c) de produit
+> d) de procédé
 >
-> **a, b et c** — trois étages, et le passage de l'invention à l'innovation se joue au dernier : c'est ce que d) court-circuite. → [[#2.3 Les trois étages de la recherche]]
+> **a et c** — l'existant est amélioré, les usages ne changent pas ; et c'est ce qu'on vend qui change, pas la manière de le fabriquer. Deux axes, deux lettres. → [[#🧮 Méthode — qualifier une innovation dans un mini-cas]]
+
+> [!question]- L'iPhone :
+> a) est une innovation de rupture
+> b) crée la catégorie des smartphones
+> c) rend obsolètes les téléphones classiques
+> d) est une innovation incrémentale
+>
+> **a, b et c** — b) et c) sont précisément ce qui en fait une rupture. → [[#2.2 Rupture et incrémentale]]
+
+> [!question]- La recherche et la logique techno push :
+> a) la recherche fondamentale vise à faire progresser la connaissance scientifique et demande de lourds investissements
+> b) la recherche appliquée produit des inventions jusqu'au stade du prototype
+> c) la recherche fondamentale produit directement des innovations commercialisables
+> d) la logique techno push part d'un produit existant pour chercher à l'améliorer
+>
+> **a, b et d** — le passage de l'invention à l'innovation se joue au dernier étage, la R&D : c'est ce que c) court-circuite. → [[#2.3 Les trois étages de la recherche]]
+
+> [!question]- Les enjeux de la R&D :
+> a) elle crée un avantage concurrentiel durable
+> b) ses investissements sont lourds, mais le succès est assuré
+> c) le cycle de vie des produits se raccourcit
+> d) le crédit d'impôt recherche encourage l'innovation dans les entreprises
+>
+> **a, c et d** — l'investissement est lourd **sans savoir si ce sera un succès** : l'exemple du médicament. → [[#2.4 Les enjeux de la R&D]]
+
+**La fonction Production**
+
+> [!question]- La production :
+> a) transforme des outputs en inputs
+> b) vise la qualité, le coût et le délai
+> c) est au cœur de la chaîne de valeur de l'entreprise
+> d) transforme des ressources en biens et services
+>
+> **b, c et d** — a) inverse le sens : les ressources sont les **inputs**, les biens et services les **outputs**. → [[#3.1 Définition]]
+
+> [!question]- Relèvent du capital circulant :
+> a) les machines et équipements
+> b) les stocks de marchandises
+> c) les matières premières
+> d) la trésorerie
+>
+> **b et c** — les machines sont du capital **fixe**, la trésorerie du capital **financier**. → [[#3.2 Les facteurs de production]]
 
 > [!question]- Une entreprise gagne en productivité. La baisse du coût unitaire peut aller :
 > a) aux actionnaires — dividendes, hausse des profits
@@ -485,12 +620,20 @@ par question, **tout ou rien**. Coche mentalement toutes les lettres avant d'ouv
 > **a, b et c** — trois bénéficiaires possibles, et c'est un **arbitrage** entre eux : d) n'est pas dans le cours. → [[#3.5 Qui profite des gains de productivité ?]]
 
 > [!question]- La courbe d'expérience :
-> a) plus on produit, plus on apprend, donc plus la productivité augmente
-> b) les coûts unitaires baissent à mesure que la quantité produite augmente
-> c) le gain de productivité permet alors de réduire le prix de vente
-> d) les coûts unitaires baissent parce qu'on achète les matières moins cher
+> a) les coûts unitaires baissent à mesure que la quantité produite augmente
+> b) l'effet vient de l'apprentissage : plus on produit, plus on apprend
+> c) l'effet vient des matières premières achetées moins cher
+> d) les coûts unitaires augmentent avec les volumes produits
 >
-> **a, b et c** — l'effet vient de l'**apprentissage** — plus on produit, plus on apprend —, pas du prix des matières achetées. → [[#3.4 La productivité]]
+> **a et b** — l'effet vient de l'**apprentissage**, pas du prix des achats ; d) inverse la courbe. → [[#3.4 La productivité]]
+
+> [!question]- L'évolution de la fonction production :
+> a) le toyotisme, c'est le flux tendu
+> b) le teslisme, c'est la machine qui informe l'opérateur qu'elle va tomber en panne
+> c) le toyotisme précède le taylorisme
+> d) le premier paradigme de la production est d'arriver à produire ce que l'on vend
+>
+> **a, b et d** — l'ordre est taylorisme (et fordisme), **puis** toyotisme, puis teslisme. → [[#3.6 L'évolution de la fonction production]]
 
 ---
 
@@ -546,6 +689,11 @@ par question, **tout ou rien**. Coche mentalement toutes les lettres avant d'ouv
 > - **La dernière phrase des notes est inachevée** : « 1er paradigme : arriver à
 >   produire ce que l'on vend ». Il y a vraisemblablement un deuxième paradigme —
 >   à récupérer.
+> - **Deux QCM ont été posés en séance** (processus d'achat, objectifs du
+>   marketing stratégique), mais ton camarade n'a noté que les bonnes réponses,
+>   par leur lettre : il manque la proposition **c** du premier, **a** et **d**
+>   du second. Leur contenu est repris aux § 1.2 et 1.3 ; les propositions
+>   fausses, et donc le piège visé, sont à récupérer.
 > - **Le cours cite des exemples d'innovation** que les notes n'ont pas
 >   (Blablacar, BioNTech, Qwant, SpaceX). Non repris ici : ce sont les exemples
 >   de l'an dernier, à confirmer.
