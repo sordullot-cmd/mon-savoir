@@ -17,10 +17,13 @@ execution :
 plan :
 - avoir un vrai plan avant la session, pour ne pas changer de biais dès l’ouverture de ny
 - on a notre plan on le suit jusqu’à que le marché nous prouve le contraire
+- avoir un plan précis
 
 regles :
 - rajouter des regles journalière ; risk max, perte journalière max, nombre de trade
 - proteger le capital > trade pour trade
+- ne pas chercher a aller trop vite
+- viser un payout accessible
 
 journal :
 - tjrs noter le contexte du trade quand on journal

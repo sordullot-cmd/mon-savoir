@@ -18,7 +18,6 @@ entry trigger
 - quand un fvg est cloturé, la ligne du début du fvg est vraiment sensible → [[powell]]
 
 liquidité
-- le marché bouge avec ces confluences pour aller chercher de la liquidité → [[base trading]]
 - externe : previous daily / weekly high low, equal high and low, session high and low (london / asia) → [[base trading]]
 - interne : fvg, new week gap, 10am 8am 00am → [[base trading]]
 - la meilleur : equals high ou lows dans un pd array (ob, rb ; fvg , bc) → [[powell]]
@@ -47,6 +46,7 @@ bias journalier
 - price base : weak h/l, eqh/l, trendline = low resistance liquidity pool ; time based : pmh/l, pwh/l, pdh/l, session h l → [[bias journalier]]
 - engineering lq (expansion retracement du dernier h l = weak) ou taking lq, cloture au dessus / dessous du dernier h l = continuation → [[bias journalier]]
 - jamais changer son bias htf sur une prise de liquidité, attendre une vraie preuve → [[bias journalier]]
+- narrative and htf is the most important → [[bias journalier]]
 
 analyse de trade
 - 15 sept : prise de liquidité london l + fvg et ob htf, entrée sur cisd et retracement sur ob 1m → [[analyse de trade]]
@@ -65,8 +65,9 @@ recit du marché
 
 discipline
 - execution : focus sur l'exécution pas sur les profits, un screen par trade, process pas finalité → [[discipline trading]]
-- plan : un vrai plan avant la session, on le suit jusqu'à que le marché nous prouve le contraire → [[discipline trading]]
+- plan : un vrai plan avant la session, precis, on le suit jusqu'à que le marché nous prouve le contraire → [[discipline trading]]
 - regles : risk max, perte journalière max, nombre de trade, proteger le capital → [[discipline trading]]
+- rythme : ne pas chercher a aller trop vite, viser un payout accessible → [[discipline trading]]
 - journal : tjrs noter le contexte du trade, le contexte depend de la strategie → [[discipline trading]]
 - journal : biais fomo, revenge, greed, peur, impatience, overtrading, anticipation, déplacement du SL, sortie trop tôt → [[discipline trading]]
 - apres une perte : stop, screenshot, classer A conforme / B erreur / C interdit → [[discipline trading]]

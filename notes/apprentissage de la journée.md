@@ -1,7 +1,7 @@
 ---
 tr4de-id: "1783683948714.8545"
 created: 2026-07-10T11:45:48.714Z
-updated: 2026-09-21T19:49:13.809Z
+updated: 2026-09-22T16:09:15.967Z
 pinned: true
 tags:
   - top3
@@ -9,11 +9,19 @@ tags:
 
 apprentissage de la journée
 
-21 sept
+22 sept - discipline trading
 
-- entrée
+ne pas chercher a aller trop vite, viser un payout accessible, avoir un plan précis → [[discipline trading]]
 
-vraiment toujours attendre un retracement puis attendre une entré en ltf, fvg ob rb 1m ifvg, confluence fvg & ob 15 5 et ltf, entré sur un ob formé sur l’expansion du marché par ces confluences, le marché bouge avec ces confluences pour aller chercher de la liquidité → [[base trading]]
+22 sept - bias journalier
+
+narrative and htf is the most important → [[bias journalier]]
+
+21 sept - entrée
+
+vraiment toujours attendre un retracement puis attendre une entré en ltf, le marché bouge avec ces confluences pour aller chercher de la liquidité, fvg ob rb 1m ifvg → [[base trading]]
+
+confluence fvg & ob 15 5 et ltf, entré sur un ob formé sur l'expansion du marché par ces confluences → [[base trading]]
 
 - playbook
 

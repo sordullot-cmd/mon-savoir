@@ -13,6 +13,7 @@ bias journalier
 - quelle fvg respecté ?
 - identifier les htf liquidity draws
 - jamais changer son bias htf par une prise de liquidité, attendre une vraie preuve
+- narrative and htf is the most important
 
 liquidité :
 - monthly weekly daily liquidité
