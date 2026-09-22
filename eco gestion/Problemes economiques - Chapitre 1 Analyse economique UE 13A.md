@@ -13,7 +13,7 @@ ue: 13A
 statut: à faire
 periode: 1
 revu: 2026-09-09
-a_verifier: 9
+a_verifier: 16
 cartes: 47
 ajouts: 9
 ---
@@ -283,7 +283,7 @@ Le prof l'introduit par Gandalf : *« Tout ce que nous devons décider, c'est qu
 
 ### A) Constat, observation et hypothèse
 
-**XVIIIᵉ siècle** : augmentation du niveau de vie dans de nombreux pays. Le **PIB par tête** est resté **constant pendant très longtemps** avant cela.
+**XVIIIᵉ siècle** : augmentation du niveau de vie dans de nombreux pays. Le **PIB par tête** est resté **constant pendant très longtemps** avant cela. C'est aussi la période où **émerge le capitalisme**, avec la **succession des révolutions industrielles**. 👥
 
 ➕ *L'hypothèse que ton titre annonce et que tes notes n'écrivent pas : **le capitalisme a permis la croissance du niveau de vie**. C'est elle que tout le reste du chapitre cherche à vérifier.*
 
@@ -294,6 +294,13 @@ Le **produit intérieur brut (PIB)** mesure la **richesse créée sur un territo
 Le calcul de la **valeur ajoutée**, tel que tu l'as noté :
 
 > prix de vente × nombre de produits vendus + chiffre d'affaires − les consommations intermédiaires = **valeur ajoutée**
+
+Tes camarades ont noté la même chose en deux temps, ce qui lève l'ambiguïté du
+« + » : le prix de vente multiplié par les quantités **est** le chiffre
+d'affaires, il ne s'y ajoute pas. 👥
+
+$$\text{CA} = \text{prix de vente} \times \text{nombre de produits vendus}$$
+$$\text{VA} = \text{CA} - \text{CI}$$
 
 Les **consommations intermédiaires** sont l'ensemble des éléments **détruits ou transformés** au cours du processus de production.
 
@@ -695,6 +702,22 @@ Réponds à voix haute, puis ouvre la réponse.
 > [!question]- Qu'est-ce qu'un rapport interdécile ?
 > Le rapport entre le revenu plancher des **10 %** les plus riches (D9) et le revenu plafond des **10 %** les plus pauvres (D1). → [[#Ce que j'ai complété]]
 
+> [!note]- Ce qui vient des notes de tes camarades — 2 points
+> Deux camarades ont pris ce même chapitre (`_brut/camarade - PEC chapitre 1 (A)`
+> et `(B)`). Leurs notes **confirment les tiennes de bout en bout** : mêmes
+> définitions, mêmes exemples, même plan. Elles n'ont apporté que deux choses,
+> marquées 👥 dans le corps — le reste, tu l'avais déjà.
+>
+> **Une ambiguïté levée** — § 8 : ta note enchaîne « prix de vente × nombre de
+> produits vendus **+** chiffre d'affaires − consommations intermédiaires ». Tes
+> camarades écrivent la même chose en deux temps : `CA = prix × quantités`, puis
+> `VA = CA − CI`. Le produit **est** le chiffre d'affaires, il ne s'y ajoute pas.
+> Ta ligne reste telle que tu l'as notée, la leur est ajoutée dessous.
+>
+> **Un élément de contexte** — § 8 : le XVIII&#8319; siècle est aussi celui de
+> l'**émergence du capitalisme** et de la **succession des révolutions
+> industrielles**. Ta note datait la hausse du niveau de vie sans ce contexte.
+
 ## À vérifier / à récupérer
 
 > [!question] Ce qui manque, ou qui ne colle pas
@@ -708,6 +731,7 @@ Réponds à voix haute, puis ouvre la réponse.
 > - **Le poids de la question de réflexion** n'est pas noté : les deux premières parties font 30 % chacune, il reste donc 40 % non attribués dans tes notes. À confirmer.
 > - **Le coefficient de l'UE 13A est inconnu** : la maquette n'est pas dans le vault et [[00 - Plan L1 Angers]] ne donne que le total de la période 1 (11 coef pour quatre UE). Le frontmatter de cette fiche n'a donc **pas** de champ `coef:`. À demander à la scolarité.
 > - **« Ambiguïté sur la rareté »** et **« bien non homogène »** : deux notes isolées à la fin du paragraphe sur la rareté, sans phrase autour. Qu'est-ce qui est ambigu, exactement ?
+> - **La formule de la valeur ajoutée** : ta note écrit « prix × quantités **+** chiffre d'affaires − CI », tes camarades « CA = prix × quantités, puis VA = CA − CI ». Les deux versions sont dans la fiche. C'est vraisemblablement un `+` de trop dans ta prise de notes, mais une formule ne se corrige pas sans la source : à trancher sur les slides.
 > - **Le graphique du PIB par tête** : tu as noté « VOIR GRAPHIQUE » au XVIIIᵉ siècle, et « voir pdf pour le titre » pour la partie B. Les deux sont à récupérer sur Moodle.
 > - **« Une mesure pertinente pour mesurer le bien-être ? oui car .. »** : la question est posée et la réponse positive n'est pas écrite. Seules les critiques suivent. Il manque l'argument en faveur du PIB.
 > - **La graphie de deux noms propres.** Tes notes portent « ester duflot » et « gary becker ». J'ai écrit **Esther Duflo** et **Gary Becker** — la graphie usuelle de ces deux économistes — mais je ne corrige pas un nom d'auteur en silence : vérifie sur le diaporama.
