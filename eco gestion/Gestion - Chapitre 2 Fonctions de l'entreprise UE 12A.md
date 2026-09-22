@@ -363,7 +363,6 @@ intégré, née d'une relation fournisseur.
 
 `Recto ; Verso ; Tags`
 
-Les 5 fonctions de l'entreprise, dans l'ordre du cours ? ; Marketing · Recherche et Développement · Production · Ressources Humaines · Financière ; gestion 12A
 Définis le marketing, au mot près ; La stratégie d'ADAPTATION des organisations à des marchés concurrentiels, pour influencer le comportement des publics dont elles dépendent, par une offre PERÇUE et durablement SUPÉRIEURE à celle des concurrents ; gestion 12A
 À qui doit-on la définition du marketing vue en cours ? ; À Philip Kotler ; gestion 12A complement
 Quel est le rôle du marketing dans le secteur marchand ? ; Créer de la VALEUR ÉCONOMIQUE pour l'entreprise en créant de la VALEUR PERÇUE pour le client ; gestion 12A
@@ -384,7 +383,8 @@ Publicité suggestive : sur quoi joue-t-elle ? ; Le pouvoir d'ÉVOCATION des ima
 Publicité projective ou intégrative : quel ressort ? ; Faire montrer son APPARTENANCE à un groupe ou à un style de vie par ce qu'on achète ; gestion 12A
 Marketing push contre marketing pull ? ; Push, on POUSSE le produit vers le consommateur par la promotion · pull, on ATTIRE le client vers le produit ; gestion 12A
 Que dit Schumpeter de l'innovation ? ; Elle est la source essentielle de la dynamique économique · le progrès passe par la DESTRUCTION des activités obsolètes et la CRÉATION d'activités plus efficaces ; gestion 12A
-Combien de cas d'innovation Schumpeter retient-il, et lesquels ? ; Cinq — produit nouveau, nouveau procédé, nouveau marché, nouvelle organisation du travail, nouvelles matières premières ; gestion 12A
+Uber organise la rencontre de l'offre et de la demande sans salarier les conducteurs : quel cas d'innovation chez Schumpeter ? ; Une nouvelle forme d'ORGANISATION DU TRAVAIL ; gestion 12A
+Conquérir un marché nouveau pour un produit existant, est-ce une innovation chez Schumpeter ? ; Oui — c'est le cas du NOUVEAU MARCHÉ, même si le produit ne change pas ; gestion 12A
 Définis l'innovation de rupture ; Une transformation RADICALE qui change les usages, les modèles économiques et les marchés · elle rend l'existant obsolète et crée un marché nouveau ; gestion 12A
 Définis l'innovation incrémentale ; Une amélioration PROGRESSIVE d'un produit, d'un service ou d'un procédé déjà existant · elle entretient et fidélise les clients acquis ; gestion 12A
 Pourquoi l'iPhone est-il une innovation de rupture ? ; Il crée la catégorie des smartphones et rend obsolètes les téléphones classiques ; gestion 12A
@@ -397,7 +397,7 @@ Définis la production ; L'ensemble des activités qui transforment des ressourc
 Les trois exigences de la production ? ; Qualité, coût, délai — le triangle QCD ; gestion 12A
 Que dit la courbe d'expérience ? ; Plus on produit, plus on apprend · la productivité monte et les COÛTS UNITAIRES BAISSENT à mesure que la quantité produite augmente ; gestion 12A
 Qui peut profiter des gains de productivité ? ; Les actionnaires en dividendes · les salariés en salaires · les consommateurs en baisse de prix ; gestion 12A
-Les quatre périodes de la fonction production ? ; Atelier, puis taylorisme et fordisme, puis toyotisme, puis teslisme ; gestion 12A
+Dans l'évolution de la production, quel régime précède le toyotisme ? ; Le TAYLORISME, avec le fordisme ; gestion 12A
 Qu'est-ce qui caractérise le toyotisme en production ? ; Le FLUX TENDU ; gestion 12A
 Qu'est-ce qui caractérise le teslisme en production ? ; La MACHINE INFORME l'opérateur qu'elle va tomber en panne ; gestion 12A
 
@@ -482,7 +482,7 @@ par question, **tout ou rien**. Coche mentalement toutes les lettres avant d'ouv
 > c) aux **consommateurs** — baisse du prix de vente
 > d) nulle part : le gain de productivité est absorbé par l'investissement
 >
-> **a, b et c** — trois bénéficiaires possibles, et le choix a un nom : baisser le prix, c'est la **compétitivité** ; accroître le profit unitaire, c'est la **rentabilité**. → [[#3.5 Qui profite des gains de productivité ?]]
+> **a, b et c** — trois bénéficiaires possibles, et c'est un **arbitrage** entre eux : d) n'est pas dans le cours. → [[#3.5 Qui profite des gains de productivité ?]]
 
 > [!question]- La courbe d'expérience :
 > a) plus on produit, plus on apprend, donc plus la **productivité augmente**
@@ -490,7 +490,7 @@ par question, **tout ou rien**. Coche mentalement toutes les lettres avant d'ouv
 > c) le gain de productivité permet alors de réduire le prix de vente
 > d) les coûts unitaires baissent parce qu'on achète les matières moins cher
 >
-> **a, b et c** — l'effet vient de l'**apprentissage**, pas du pouvoir de négociation : c'est ce qui distingue la courbe d'expérience des économies d'échelle. → [[#3.4 La productivité]]
+> **a, b et c** — l'effet vient de l'**apprentissage** — plus on produit, plus on apprend —, pas du prix des matières achetées. → [[#3.4 La productivité]]
 
 ---
 
