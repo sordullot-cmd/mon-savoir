@@ -45,12 +45,12 @@ Les quatre UE de la **période 1** sont celles qui tombent en premier. Les quatr
 
 | UE      | Matière                             | Coef | Cartes | Trous | Fiche |
 |---|---|---|---|---|---|
-| **11A** | Introduction à l'économie           | 3    | 48     | 7     | [[Economie - Chapitre 1 Science economique]] |
+| **11A** | Introduction à l'économie           | 3    | 136    | 13    | [[Economie - Chapitre 1 Science economique]] |
 | **12A** | Introduction à la gestion           | 3    | 67     | 8     | [[Gestion - Introduction]] |
 | **13A** | Problèmes économiques contemporains | —    | 47     | 9     | [[Problemes economiques - Chapitre 1 Analyse economique UE 13A]] |
 | **18C** | Méthodologie du travail universitaire | —  | 37     | 10    | [[Methodologie - Travail universitaire UE 18C]] |
 
-**199 cartes à créer** et **34 trous** signalés, sur les quatre fiches. Les cartes ont été refaites le 11 septembre 2026 sur la forme des questions relevée dans les annales : 38 + 51 + 38 + 32 = 159 anciennes, dont beaucoup récitaient une liste. Le protocole pour les travailler est dans [[Methode - Comment reviser]].
+**287 cartes à créer** et **40 trous** signalés, sur les quatre fiches. Les cartes de **11A** ont été refaites le 22 septembre 2026 **à la forme exacte du sujet** — énoncé, trois propositions, un D « aucune des propositions ci-dessus n'est exacte » — dont les **28 énoncés déjà tombés** aux sessions 2022-2023 et 2024-2025, propositions comprises. Les trois autres fiches gardent des cartes question-réponse, leurs épreuves n'étant pas des QCM purs. Le protocole pour les travailler est dans [[Methode - Comment reviser]].
 
 ---
 
