@@ -13,7 +13,7 @@ coef: 3
 periode: 1
 revu: 2026-09-22
 a_verifier: 13
-cartes: 136
+cartes: 134
 ajouts: 6
 ---
 
@@ -767,227 +767,224 @@ Si **non** → équilibre. Si **oui** → ce n'est pas un équilibre.
 
 ## 🃏 Cartes à créer
 
-Format d'import `Recto ; Verso ; Tags`. **Deux `;` par ligne, jamais plus** — à l'intérieur d'un champ, les propositions sont séparées par `·`.
+Format d'import `Recto ; Verso ; Tags`. **Deux `;` par ligne, jamais plus** — à l'intérieur d'un champ, les éléments sont séparés par `·`.
 
-> [!tip] Ces cartes sont des questions de QCM, pas des questions de cours
-> L'épreuve de cette UE est un **QCM d'1 h, une seule bonne réponse, +1 par bonne réponse et −0,5 par mauvaise**. Les cartes ont donc exactement la forme du sujet : **un énoncé nominal, trois propositions, et un D « Aucune des propositions ci-dessus n'est exacte »**. Tu réponds par une lettre, tu retournes, tu vérifies — comme le jour de l'épreuve.
-> Trois choses que les deux annales en main (**2022-2023 session 2** et **2024-2025 session 1**, même enseignant, `~/Documents/L1/Introduction à l_économie/Annales/`) apprennent, et que ces cartes appliquent :
-> - **Les vingt énoncés sont les mêmes d'une année sur l'autre**, mais **les propositions changent de place et de formulation**. Apprends le *texte* de la bonne réponse, jamais la lettre. C'est pour ça que le verso donne la lettre **et** la phrase.
-> - **D est la bonne réponse une fois sur trois** — 6 fois sur 20 en 2024-2025. Il suffit qu'un mot ait été remplacé (« disponibilité relative » au lieu de « prix relatifs », « valider » au lieu de « tester ») pour que la proposition qui ressemble au cours devienne fausse.
-> - **Le verso dit pourquoi chaque voisine tombe.** Avec −0,5, une carte qu'on répond « à peu près » coûte des points.
+> [!tip] Une question claire au recto, une seule réponse au verso
+> Chaque recto est une **question posée en toutes lettres** — « Qu'est-ce qu'un monopole ? », « À quoi servent les données statistiques ? » — pour que tu saches toujours ce qu'on attend avant de retourner la carte. Le verso donne **une seule réponse**, dans les mots du cours.
+> Ce que les annales changent, c'est le **contenu** des réponses, pas la forme des cartes. L'épreuve est un **QCM d'1 h, une seule bonne réponse, +1 par bonne réponse et −0,5 par mauvaise** (`~/Documents/L1/Introduction à l_économie/Annales/`, sessions **2022-2023** et **2024-2025**), et les propositions y sont quatre phrases presque identiques. D'où deux choses au verso :
+> - **le mot qui tranche est en capitales** — TESTER et non expliquer, ORIENTER et non obliger, EXPLIQUER et non déterminer ;
+> - **la phrase voisine qu'il ne faut pas répondre** est nommée, parce qu'avec −0,5 une réponse « à peu près » coûte des points.
+> Les cartes taguées `annale` portent sur une question réellement tombée. Celles taguées `piege` sont celles où le sujet a piégé les candidats, souvent en faisant de « aucune des propositions n'est exacte » la bonne réponse — 6 fois sur 20 en 2024-2025.
 
-### Les 20 énoncés du dernier partiel — 2024-2025, session 1
+### Les 20 questions tombées en 2024-2025
 
-Mot pour mot, propositions comprises. Six d'entre eux portent sur les chapitres 2 à 5 (tag `horschap1`) : garde-les, ils reviendront quand le cours y sera.
-
-```
-Un modèle mathématique en économie : A. permet de tester les résultats des corrélations entre données statistiques à l'aide d'hypothèses simplificatrices · B. permet de déterminer des hypothèses simplificatrices · C. permet d'expliquer la réalité à l'aide d'hypothèses simplificatrices · D. Aucune des propositions ci-dessus n'est exacte ; C — le modèle EXPLIQUE la réalité à l'aide d'hypothèses simplificatrices · A décrit le rôle des données statistiques, pas du modèle · B inverse la démarche, les hypothèses sont posées au départ, pas déterminées par le modèle ; eco 11A qcm annale2425
-Les données statistiques : A. servent à invalider les théories économiques · B. permettent d'obtenir des corrélations qui expliquent le lien de causalité entre deux variables économiques · C. servent à expliquer les théories économiques · D. Aucune des propositions ci-dessus n'est exacte ; D — elles servent à TESTER les théories et à faire des prévisions · invalider est trop étroit, un test peut aussi valider · expliquer est le rôle du modèle · et une corrélation n'établit jamais une causalité ; eco 11A qcm annale2425 aucune
-La science économique : A. étudie la satisfaction des besoins des individus en présence de ressources rares · B. s'intéresse à la manière dont les hommes organisent leurs efforts pour mettre en valeur les ressources afin de satisfaire leurs besoins · C. s'intéresse aux interactions sociales en présence de ressources rares · D. Aucune des propositions ci-dessus n'est exacte ; ⚠ énoncé à trancher avec le prof — la définition du cours, « étudie comment les individus font des CHOIX et les conséquences de ces choix », n'est dans aucune des trois, ce qui mène à D · la copie corrigée coche B et la correction étudiante C · en 2022-2023 la définition du cours était proposée, et c'était elle la réponse ; eco 11A qcm annale2425 averifier
-On appelle « économie positive » : A. une approche économique qui cherche à expliquer comment fonctionne l'économie · B. une approche économique qui cherche à expliquer le comportement des consommateurs plus efficace · C. une approche économique qui cherche à expliquer ce que devrait être l'économie · D. Aucune des propositions ci-dessus n'est exacte ; A — décrire, analyser, comprendre le fonctionnement de l'économie · C est la définition de l'économie NORMATIVE, ce que l'économie devrait être ; eco 11A qcm annale2425
-Dans la vision planifiée/socialiste de l'économie : A. l'individu est central et l'absence de règles du jeu permet de ne pas entraver le bon fonctionnement des marchés · B. la société connaît mieux les objectifs à atteindre que chaque individu · C. l'État est central et cherche à favoriser les comportements individuels · D. Aucune des propositions ci-dessus n'est exacte ; B — le système planifié repose sur LA SOCIÉTÉ, qui connaît mieux les objectifs que chaque individu séparément · A décrit la vision libérale · C est faux deux fois, l'État planifie les besoins au lieu de favoriser les comportements individuels ; eco 11A qcm annale2425
-Une courbe d'indifférence représente toutes les combinaisons entre deux biens : A. qui offrent à un consommateur une satisfaction optimale · B. qui offrent à un consommateur une satisfaction identique · C. qui offrent à un consommateur une satisfaction compatible avec une contrainte budgétaire · D. Aucune des propositions ci-dessus n'est exacte ; B — satisfaction IDENTIQUE, c'est le sens du mot indifférence · optimale est le point de choix, pas la courbe · la contrainte budgétaire est une autre droite ; eco 11A qcm annale2425 horschap1
-Une économie est en équilibre lorsque : A. les consommateurs maximisent leur utilité · B. les producteurs maximisent leurs profits · C. les conséquences des actions entreprises par les agents sont conformes à leurs anticipations · D. Aucune des propositions ci-dessus n'est exacte ; C — le chapitre 4 définit l'équilibre comme les conséquences des actions réalisées, ex-post, conformes aux anticipations, ex-ante · A et B ne sont que des morceaux, chaque agent peut maximiser sans que l'économie soit à l'équilibre ; eco 11A qcm annale2425 horschap1
-La courbe de demande individuelle : A. est déterminée par la maximisation de l'utilité sous contrainte budgétaire · B. est déterminée par les préférences des agents, leur contrainte budgétaire et la disponibilité relative des biens · C. est déterminée par la structure de marché et les prix relatifs des biens · D. Aucune des propositions ci-dessus n'est exacte ; D — le piège du mot changé, B serait juste avec « les PRIX relatifs des biens » et devient faux avec « la DISPONIBILITÉ relative » · A décrit le programme du consommateur, pas la courbe de demande ; eco 11A qcm annale2425 aucune horschap1
-Le graphique ci-contre représente la contrainte budgétaire suivante, avec E à 20 en ordonnée et F à 15 en abscisse : A. 540 = 27 Qco + 36 Qci · B. 800 = 40 Qco + 80 Qci · C. 600 = 30 Qco + 45 Qci · D. Aucune des propositions ci-dessus n'est exacte ; D — teste chaque droite sur les deux points, celle qui passe par E et par F n'est pas proposée · méthode : remplace Qci par 0 pour lire l'ordonnée à l'origine, puis Qco par 0 pour lire l'abscisse ; eco 11A qcm annale2425 aucune horschap1
-Le producteur définit la quantité qu'il produit : A. pour que son coût marginal soit minimal · B. pour que la différence entre sa recette moyenne et son coût moyen soit maximale · C. pour que son profit marginal soit nul · D. Aucune des propositions ci-dessus n'est exacte ; C — le cours conclut Rm = Cm, donc profit marginal nul · B raisonne en moyennes, le cours raisonne à la marge · A confond le minimum du coût marginal avec l'optimum du producteur ; eco 11A qcm annale2425 horschap1
-Une expérience naturelle en économie consiste à : A. définir de manière aléatoire un groupe de contrôle et un groupe de traitement · B. utiliser les évènements historiques pour étudier les causalités entre variables économiques · C. étudier l'existence de corrélations entre variables économiques · D. Aucune des propositions ci-dessus n'est exacte ; B — on ne construit pas les groupes, on les trouve dans l'histoire, avant et après l'évènement · A décrit la randomisation, donc l'expérimentation en laboratoire · C s'arrête à la corrélation, alors qu'on cherche la causalité ; eco 11A qcm annale2425
-Les incitations sont : A. des signaux adressés aux individus lorsqu'ils font de mauvais choix · B. des signaux que les individus sont obligés de suivre pour faire des choix · C. des signaux qui permettent d'orienter les choix individuels · D. Aucune des propositions ci-dessus n'est exacte ; C — un signal qui ORIENTE · A en fait une punition · B en fait une obligation, alors que l'incitation suggère et récompense, comme le nudge ; eco 11A qcm annale2425
-Même un milliardaire doit faire des choix : A. parce qu'il y a 24 heures dans une journée · B. parce qu'il a à sa disposition de nombreux biens qu'il peut consommer · C. parce que les entreprises produisent différents biens · D. Aucune des propositions ci-dessus n'est exacte ; A — la contrainte ultime est le TEMPS, elle reste rare même sans contrainte d'argent · B et C décrivent l'abondance, qui est justement le contraire d'une contrainte ; eco 11A qcm annale2425
-Il existe des rendements croissants dans la production, si toute chose égale par ailleurs : A. le coût marginal de production augmente avec l'embauche d'un nouveau travailleur · B. la production marginale augmente avec l'embauche d'un nouveau travailleur · C. la recette marginale diminue avec l'embauche d'un nouveau travailleur · D. Aucune des propositions ci-dessus n'est exacte ; B — rendements croissants = chaque travailleur supplémentaire ajoute PLUS que le précédent · A est l'énoncé des rendements DÉCROISSANTS, le coût marginal et la production marginale varient en sens inverse ; eco 11A qcm annale2425 horschap1
-Les conventions sont un moyen de coordonner les individus : A. lorsque les intérêts des agents divergent · B. en présence de fortes interactions sociales · C. afin de minimiser les coûts de chacun · D. Aucune des propositions ci-dessus n'est exacte ; D — la convention sert quand la coordination est difficile, pas quand les intérêts divergent, ni pour minimiser les coûts · le même énoncé est tombé en 2022-2023 avec les propositions « conflits d'intérêt », « coordination difficile » et « maximiser les gains de chacun » ; eco 11A qcm annale2425 aucune horschap1
-Une défaillance de marché existe dans l'économie : A. lorsque les décisions individuelles conduisent à une allocation efficace des ressources · B. lorsque les entreprises ne sont pas en capacité d'influencer les prix des biens échangés sur un marché · C. lorsque les consommateurs n'ont pas toutes les informations à leur disposition · D. Aucune des propositions ci-dessus n'est exacte ; D — le cours n'admet que deux causes, les EXTERNALITÉS et le POUVOIR DE MARCHÉ · A dit l'inverse d'une défaillance · B décrit la concurrence, donc un marché qui fonctionne ; eco 11A qcm annale2425 aucune
-Prendre une décision « à la marge » consiste à : A. comparer les gains marginaux retirés de faire une activité plutôt qu'une autre · B. comparer les coûts et bénéfices de faire un peu plus d'une activité contre un peu moins d'une autre · C. comparer les coûts et bénéfices de faire une activité plutôt qu'une autre · D. Aucune des propositions ci-dessus n'est exacte ; B — un peu PLUS contre un peu MOINS, c'est l'unité suivante · A et C posent un choix entre deux activités entières, c'est le choix en termes d'alternatives, pas le raisonnement à la marge · A oublie en plus les coûts ; eco 11A qcm annale2425
-Pierre met 10 minutes pour un paquet de bonbons et 15 minutes pour une tablette de chocolat, Luc met 5 minutes pour un paquet de bonbons et 20 minutes pour une tablette : A. Pierre a un avantage comparatif dans la production de bonbons · B. Pierre a un avantage absolu dans la production de bonbons · C. Luc a un avantage comparatif dans la production de chocolat · D. Aucune des propositions ci-dessus n'est exacte ; D — Luc a l'avantage absolu ET comparatif sur les bonbons, 5 min contre 10, et un coût d'opportunité de 5/20 = 1/4 de tablette contre 10/15 = 2/3 pour Pierre · Pierre a donc l'avantage comparatif sur le chocolat ; eco 11A qcm annale2425 aucune horschap1
-La théorie classique des marchés diffère de la théorie moderne des marchés car elle suppose : A. que l'information est parfaite entre les agents · B. que les agents ont une rationalité limitée · C. que les produits peuvent être de qualités différentes · D. Aucune des propositions ci-dessus n'est exacte ; A — information parfaite · B et C sont des apports de la théorie MODERNE, rationalité limitée et différenciation des produits ; eco 11A qcm annale2425 horschap1
-L'aléa moral est un phénomène qui apparaît : A. lorsque les individus ont un pouvoir de négociation très important · B. lorsque les co-contractants ont la possibilité de tricher sans être détectés · C. dès qu'un contrat est signé entre deux agents · D. Aucune des propositions ci-dessus n'est exacte ; B — tricher sans être détecté, donc APRÈS la signature et sans observation · C confond avec la simple existence du contrat, le contrat seul ne crée pas l'aléa moral ; eco 11A qcm annale2425 horschap1
-```
-
-### Les énoncés du millésime précédent qui changent de réponse — 2022-2023, session 2
-
-Mêmes questions, propositions déplacées : c'est le meilleur entraînement au piège de la lettre.
+Six portent sur les chapitres 2 à 5 (`horschap1`) : garde-les pour la suite du cours.
 
 ```
-La science économique : A. étudie comment les individus font des choix et les conséquences de ces choix, en présence de ressources rares · B. étudie la satisfaction des besoins des individus · C. s'intéresse aux interactions sociales · D. Aucune des propositions ci-dessus n'est exacte ; A — c'est la définition du cours au mot près, les CHOIX et leurs CONSÉQUENCES · B s'arrête aux besoins et oublie les choix · C s'arrête aux interactions et oublie la rareté ; eco 11A qcm annale2223
-Un modèle mathématique en économie : A. permet de déterminer la valeur des variables exogènes · B. sert à représenter la réalité pour l'expliquer · C. permet de récolter et traiter des données statistiques · D. Aucune des propositions ci-dessus n'est exacte ; B — représenter pour expliquer · A inverse endogène et exogène, le modèle détermine les variables ENDOGÈNES · C est le rôle des données ; eco 11A qcm annale2223
-Une corrélation négative entre une variable A et une variable B signifie que : A. les variables A et B évoluent dans le même sens · B. les variations de A influencent négativement les variations de B · C. les variations de A influencent négativement les variations de B, et réciproquement · D. Aucune des propositions ci-dessus n'est exacte ; D — une corrélation négative, c'est deux variables qui évoluent en SENS OPPOSÉ, et cette phrase-là n'est pas proposée · B et C parlent d'influence, donc de causalité, et une corrélation n'est jamais une causalité ; eco 11A qcm annale2223 aucune
-On appelle « économie normative » : A. une approche économique qui s'intéresse au rôle de la norme sociale en économie · B. une approche économique qui s'interroge sur ce que sera l'économie · C. une approche économique à la base des recommandations de politique économique · D. Aucune des propositions ci-dessus n'est exacte ; C — elle conseille les décideurs, donc elle est à la base des recommandations · A joue sur le mot norme, la norme sociale n'a rien à voir · B parle de prévision, pas de conseil ; eco 11A qcm annale2223
-Dans la vision libérale de l'économie : A. l'individu est central et l'État veut privilégier l'individu par rapport à la société dans son ensemble · B. la société connaît moins bien les objectifs à atteindre que chaque individu pris séparément · C. l'individu est central et l'absence de règles du jeu permet de ne pas entraver le bon fonctionnement des marchés · D. Aucune des propositions ci-dessus n'est exacte ; ⚠ pas de corrigé sûr sur cet énoncé — d'après le cours, B, puisque c'est exactement le miroir de la vision planifiée · A et C ajoutent chacune une idée que le cours refuse, l'État qui privilégie l'individu et l'absence de règles du jeu, alors que le cours rappelle que le rôle de l'État n'est pas négligeable ; eco 11A qcm annale2223 averifier
-Le consommateur définit les combinaisons des biens qu'il consomme : A. pour que la dépense totale soit la plus faible possible · B. pour que les quantités de biens consommés soient les plus grandes possibles · C. pour que sa satisfaction soit la plus élevée possible · D. Aucune des propositions ci-dessus n'est exacte ; C — il maximise sa satisfaction, son utilité, sous contrainte budgétaire · A minimise la dépense, ce n'est pas l'objectif · B ignore la contrainte de revenu ; eco 11A qcm annale2223 horschap1
-Chaque agent économique doit faire des choix : A. parce qu'il a à sa disposition de très nombreux biens qu'il peut consommer · B. parce qu'il peut produire différents biens · C. parce que le temps et l'argent sont rares · D. Aucune des propositions ci-dessus n'est exacte ; C — la RARETÉ des ressources, temps compris, est la seule raison du choix · A et B décrivent l'abondance des possibilités, pas la contrainte ; eco 11A qcm annale2223
-La contrainte budgétaire représente : A. l'ensemble de toutes les combinaisons de biens qu'un consommateur va consommer en dépensant la totalité de son revenu · B. l'ensemble de toutes les combinaisons de biens qu'un consommateur peut acquérir en dépensant la totalité de son revenu · C. l'ensemble de toutes les combinaisons de biens qui maximisent l'utilité d'un consommateur lorsqu'il dépense la totalité de son revenu · D. Aucune des propositions ci-dessus n'est exacte ; B — PEUT acquérir, c'est l'ensemble des possibles · A dit « va consommer », ce qui suppose le choix déjà fait · C ajoute la maximisation, qui est la courbe d'indifférence, pas la contrainte ; eco 11A qcm annale2223 horschap1
+Que permet un modèle mathématique en économie ? ; D'EXPLIQUER la réalité à l'aide d'hypothèses simplificatrices · il ne détermine pas ces hypothèses et ne teste pas des corrélations ; eco 11A annale2425 piege
+À quoi servent les données statistiques ? ; À TESTER les théories et à faire des prévisions · ni à les expliquer, ni à les invalider · et une corrélation n'explique jamais une causalité ; eco 11A annale2425 piege
+Qu'étudie la science économique ? ; Comment les individus font des CHOIX et les conséquences de ces choix, en présence de ressources rares · ⚠ en 2024-2025 cette phrase n'était pas proposée, voir À vérifier ; eco 11A annale2425 averifier
+Qu'appelle-t-on « économie positive » ? ; Une approche qui cherche à EXPLIQUER comment fonctionne l'économie · l'économie normative, elle, dit ce que l'économie DEVRAIT être ; eco 11A annale2425
+Sur quoi repose la vision planifiée ou socialiste de l'économie ? ; Sur LA SOCIÉTÉ, qui connaît mieux les objectifs à atteindre que chaque individu · d'où des décisions centralisées ; eco 11A annale2425
+Que représente une courbe d'indifférence ? ; Toutes les combinaisons de deux biens qui offrent au consommateur une satisfaction IDENTIQUE · pas optimale, et sans rapport avec la contrainte budgétaire ; eco 11A annale2425 horschap1
+Quand une économie est-elle en équilibre ? ; Quand les conséquences des actions entreprises par les agents sont conformes à leurs ANTICIPATIONS · le chapitre 1 le dit autrement : aucun individu ne peut améliorer sa situation en faisant quelque chose de différent ; eco 11A annale2425 horschap1
+Par quoi la courbe de demande individuelle est-elle déterminée ? ; Par les préférences des agents, leur contrainte budgétaire et les PRIX relatifs des biens · en 2024-2025 « prix » avait été remplacé par « disponibilité », et la bonne réponse devenait « aucune » ; eco 11A annale2425 piege horschap1
+Comment vérifier l'équation d'une contrainte budgétaire à partir d'un graphique ? ; Faire Qci = 0 pour lire l'ordonnée à l'origine, puis Qco = 0 pour lire l'abscisse · en 2024-2025 aucune des trois équations ne passait par les deux points ; eco 11A annale2425 piege horschap1
+Comment le producteur détermine-t-il la quantité qu'il produit ? ; Pour que son PROFIT MARGINAL soit nul, c'est-à-dire Rm = Cm · pas pour minimiser son coût marginal, et pas en raisonnant en moyennes ; eco 11A annale2425 horschap1
+En quoi consiste une expérience naturelle en économie ? ; À utiliser des ÉVÈNEMENTS HISTORIQUES pour étudier les causalités entre variables · on ne construit pas les groupes, on les trouve ; eco 11A annale2425 piege
+Qu'est-ce qu'une incitation ? ; Un signal qui permet d'ORIENTER les choix individuels · ni une punition quand on choisit mal, ni une obligation ; eco 11A annale2425 piege
+Pourquoi même un milliardaire doit-il faire des choix ? ; Parce qu'il y a 24 HEURES dans une journée · le temps est la contrainte ultime, elle demeure même sans contrainte d'argent ; eco 11A annale2425
+Qu'est-ce qu'un rendement croissant dans la production ? ; La PRODUCTION MARGINALE augmente avec l'embauche d'un nouveau travailleur · s'il est décroissant, elle diminue ; eco 11A annale2425 horschap1
+Quand les conventions servent-elles à coordonner les individus ? ; Quand la COORDINATION entre agents est difficile · ni quand les intérêts divergent, ni pour minimiser les coûts : en 2024-2025 la bonne réponse était « aucune » ; eco 11A annale2425 piege horschap1
+Quand existe-t-il une défaillance de marché ? ; Quand les décisions décentralisées échouent à allouer efficacement les ressources, par EXTERNALITÉ ou par POUVOIR DE MARCHÉ · l'information imparfaite ne fait pas partie des deux causes du cours ; eco 11A annale2425 piege
+En quoi consiste une décision « à la marge » ? ; À comparer les coûts et les bénéfices de faire UN PEU PLUS d'une activité contre UN PEU MOINS d'une autre · pas une activité entière plutôt qu'une autre ; eco 11A annale2425 piege
+Pierre met 10 min par paquet de bonbons et 15 min par tablette de chocolat, Luc 5 min et 20 min : qui a quel avantage ? ; Luc a l'avantage ABSOLU et COMPARATIF sur les bonbons, coût d'opportunité 5/20 = 1/4 de tablette contre 10/15 = 2/3 pour Pierre · Pierre a l'avantage comparatif sur le chocolat ; eco 11A annale2425 horschap1
+Qu'est-ce que la théorie classique des marchés suppose, et pas la théorie moderne ? ; Que l'INFORMATION EST PARFAITE entre les agents · rationalité limitée et produits différenciés sont des apports de la théorie moderne ; eco 11A annale2425 horschap1
+Quand apparaît l'aléa moral ? ; Quand les co-contractants ont la possibilité de TRICHER SANS ÊTRE DÉTECTÉS · pas dès la signature d'un contrat ; eco 11A annale2425 horschap1
+```
+
+### Les questions tombées en 2022-2023 et absentes de l'autre sujet
+
+```
+Que signifie une corrélation négative entre deux variables ? ; Que les deux variables évoluent en SENS OPPOSÉ · surtout pas que l'une influence négativement l'autre, ce serait une causalité : en 2022-2023 la bonne réponse était « aucune » ; eco 11A annale2223 piege
+Sur quoi repose la vision libérale de l'économie ? ; La société connaît MOINS BIEN les objectifs à atteindre que chaque individu pris séparément · ⚠ énoncé sans corrigé sûr, voir À vérifier ; eco 11A annale2223 averifier
+Qu'appelle-t-on « économie normative » ? ; Une approche qui est à la BASE DES RECOMMANDATIONS de politique économique · elle ne parle ni de norme sociale ni de prévision ; eco 11A annale2223 piege
+Pourquoi chaque agent économique doit-il faire des choix ? ; Parce que le TEMPS et l'ARGENT sont rares · ce n'est pas l'abondance des biens disponibles qui crée le choix, c'est la rareté ; eco 11A annale2223
+Comment le consommateur choisit-il les combinaisons de biens qu'il consomme ? ; Pour que sa SATISFACTION soit la plus élevée possible · pas pour dépenser le moins possible, pas pour consommer le plus possible ; eco 11A annale2223 horschap1
+Que représente la contrainte budgétaire ? ; Toutes les combinaisons de biens que le consommateur PEUT ACQUÉRIR en dépensant la totalité de son revenu · « peut acquérir », pas « va consommer », et sans maximisation ; eco 11A annale2223 piege horschap1
 ```
 
 ### L'objet de la science économique
 
 ```
-Pour l'économiste, le dénominateur commun de tous les comportements humains est : A. la recherche du profit · B. le fait qu'ils reposent sur des choix · C. la satisfaction des besoins matériels · D. Aucune des propositions ci-dessus n'est exacte ; B — tous les comportements reposent sur des choix, c'est ce qui autorise l'économie à s'intéresser à tous les comportements humains ; eco 11A qcm
-Les cinq notions clés du chapitre sont : A. les arbitrages, les incitations, les échanges, l'information et la distribution · B. les arbitrages, les incitations, les échanges, l'information et la production · C. la rareté, les choix, les prix, l'équilibre et l'État · D. Aucune des propositions ci-dessus n'est exacte ; A — la cinquième est la DISTRIBUTION des richesses et des biens dans l'économie · B remplace la distribution par la production, c'est le mot le plus facile à confondre ; eco 11A qcm
-L'économie est : A. une science exacte · B. une science sociale · C. une science expérimentale au sens des sciences dures · D. Aucune des propositions ci-dessus n'est exacte ; B — science sociale, ce qui explique que l'expérimentation y soit coûteuse et difficile, et souvent remplacée par l'expérimentation naturelle ; eco 11A qcm
-Les trois questions que se pose le cours sur les choix sont : A. pourquoi les individus doivent faire des choix, comment ils les font, à quoi ces choix aboutissent · B. qui choisit, quand, et à quel prix · C. quels biens produire, comment les produire, à qui les délivrer · D. Aucune des propositions ci-dessus n'est exacte ; A — C est un autre trio, les trois questions auxquelles répond un SYSTÈME économique ; eco 11A qcm
+Quel est le dénominateur commun de tous les comportements humains, pour l'économiste ? ; Ils reposent tous sur des CHOIX · c'est ce qui autorise l'économie à s'intéresser à tous les comportements ; eco 11A
+Quelles sont les cinq notions clés du chapitre ? ; Les arbitrages · les incitations · les échanges · l'information · la DISTRIBUTION des richesses et des biens ; eco 11A piege
+Quel type de science est l'économie ? ; Une science SOCIALE · d'où le coût et la difficulté de l'expérimentation, souvent remplacée par l'expérimentation naturelle ; eco 11A
+Quelles sont les trois questions que le cours pose sur les choix ? ; Pourquoi les individus doivent faire des choix · comment ils les font · à quoi ces choix aboutissent ; eco 11A
 ```
 
 ### Rareté, ressources, choix
 
 ```
-Les choix sont nécessaires : A. parce que les prix sont fixés par le marché · B. parce que les ressources sont rares · C. parce que les individus sont hétérogènes · D. Aucune des propositions ci-dessus n'est exacte ; B — rareté puis contrainte puis choix, c'est l'enchaînement du cours ; eco 11A qcm
-Une ressource est : A. tout ce qui peut être vendu sur un marché · B. tout ce qui peut être utilisé pour produire · C. tout ce qui est rare et payant · D. Aucune des propositions ci-dessus n'est exacte ; B — la définition ne parle ni de marché ni de prix, seulement de production ; eco 11A qcm
-Le capital physique : A. disparaît dans la production · B. est durable · C. désigne les compétences acquises par les individus · D. Aucune des propositions ci-dessus n'est exacte ; B — machines et bâtiments DURENT · A décrit les biens intermédiaires · C décrit le capital humain ; eco 11A qcm
-Les biens intermédiaires : A. sont durables · B. disparaissent dans la production · C. sont une forme de capital humain · D. Aucune des propositions ci-dessus n'est exacte ; B — ils DISPARAISSENT dans la production, c'est ce qui les sépare du capital physique ; eco 11A qcm
-Le capital humain désigne : A. le nombre de travailleurs employés · B. le niveau d'éducation et les compétences acquises par les individus · C. le temps de travail disponible · D. Aucune des propositions ci-dessus n'est exacte ; B — des compétences INCORPORÉES aux individus · C est le travail, qui se compte en temps ; eco 11A qcm
-Dans la liste des ressources, le travail se compte : A. en nombre d'individus · B. sous forme de temps · C. en salaire versé · D. Aucune des propositions ci-dessus n'est exacte ; B — sous forme de TEMPS, ce qui fait du temps la contrainte ultime ; eco 11A qcm
+Pourquoi les choix sont-ils nécessaires ? ; Parce que les RESSOURCES SONT RARES · rareté puis contrainte puis choix puis comportement global ; eco 11A
+Qu'est-ce qu'une ressource ? ; Tout ce qui peut être utilisé pour produire · la définition ne parle ni de marché ni de prix ; eco 11A
+Qu'est-ce que le capital physique ? ; Les machines et les bâtiments, qui DURENT · les biens intermédiaires, eux, disparaissent dans la production ; eco 11A piege
+Qu'est-ce qu'un bien intermédiaire ? ; Un bien qui DISPARAÎT dans la production · c'est ce qui le sépare du capital physique ; eco 11A piege
+Qu'est-ce que le capital humain ? ; Le niveau d'éducation et les compétences acquises, incorporées aux individus ; eco 11A
+Sous quelle forme le travail se compte-t-il dans la liste des ressources ? ; Sous forme de TEMPS · d'où la contrainte ultime, le temps ; eco 11A
 ```
 
 ### Le coût d'opportunité
 
 ```
-Le coût d'opportunité d'un choix est : A. la somme d'argent effectivement déboursée · B. ce à quoi on renonce en faisant ce choix · C. le prix de marché du bien choisi · D. Aucune des propositions ci-dessus n'est exacte ; B — le coût du RENONCEMENT · A et C sont des coûts monétaires, le coût d'opportunité ne correspond à aucun euro déboursé ; eco 11A qcm
-Dans le « vrai coût des études », le coût d'opportunité correspond : A. aux frais de scolarité · B. au loyer · C. au manque à gagner de ne pas travailler · D. Aucune des propositions ci-dessus n'est exacte ; C — frais de scolarité et loyer sont les frais MONÉTAIRES, le coût d'opportunité est le salaire auquel on renonce ; eco 11A qcm
-Le coût d'opportunité : A. correspond toujours à des euros déboursés · B. ne correspond à aucun euro déboursé · C. s'ajoute au coût monétaire pour les seuls biens payants · D. Aucune des propositions ci-dessus n'est exacte ; B — c'est un manque à gagner, pas une dépense · les applications de smartphone le montrent, coût monétaire nul et coût d'opportunité très élevé ; eco 11A qcm
-En période de forte croissance économique, le coût d'opportunité des études : A. baisse · B. augmente, car les emplois sont nombreux et les salaires élevés · C. ne change pas · D. Aucune des propositions ci-dessus n'est exacte ; B — et par conséquent il y a MOINS d'étudiants, renoncer à travailler coûte plus cher ; eco 11A qcm
-Un choix est rationnel : A. lorsque le gain est supérieur au coût d'opportunité · B. lorsque le coût monétaire est nul · C. lorsque le gain est supérieur au coût monétaire · D. Aucune des propositions ci-dessus n'est exacte ; A — c'est bien au coût d'OPPORTUNITÉ que le gain se compare, pas au coût monétaire ; eco 11A qcm
+Qu'est-ce que le coût d'opportunité d'un choix ? ; Ce à quoi on RENONCE en faisant ce choix · ce sont des euros NON déboursés ; eco 11A piege
+Dans le « vrai coût des études », qu'est-ce qui relève du coût d'opportunité ? ; Le manque à gagner de ne pas travailler · les frais de scolarité et le loyer sont des frais monétaires ; eco 11A
+Quel est le coût d'une application gratuite de smartphone ? ; Un coût monétaire nul et un coût d'opportunité très élevé ; eco 11A
+Que devient le coût d'opportunité des études en période de forte croissance ? ; Il AUGMENTE, parce que les emplois sont nombreux et les salaires élevés · donc il y a moins d'étudiants ; eco 11A
+À quelle condition un choix est-il rationnel ? ; Quand le gain est SUPÉRIEUR au coût d'opportunité · pas au coût monétaire ; eco 11A piege
 ```
 
 ### Arbitrages, marge, incitations
 
 ```
-Un choix « en termes d'alternatives » : A. porte sur la quantité de chaque activité · B. porte sur l'une ou l'autre des deux activités · C. se décide toujours à la marge · D. Aucune des propositions ci-dessus n'est exacte ; B — dormir OU aller en cours · A décrit le choix en termes de combien, celui qui se décide à la marge ; eco 11A qcm
-Un choix « en termes de combien » se tranche : A. en comparant les totaux · B. par une comparaison des coûts et des bénéfices de l'unité suivante · C. en tirant au sort · D. Aucune des propositions ci-dessus n'est exacte ; B — c'est le raisonnement à la marge, une demi-heure de plus contre une demi-heure de moins ; eco 11A qcm
-Dans l'exemple des révisions, le coefficient 6 en comptabilité contre 1 en économie joue le rôle : A. d'une contrainte budgétaire · B. d'une incitation · C. d'un coût d'opportunité nul · D. Aucune des propositions ci-dessus n'est exacte ; B — chaque point gagné en comptabilité rapporte plus, donc le temps de révision s'y déplace ; eco 11A qcm
-Une incitation est : A. une obligation imposée aux agents · B. une récompense à modifier son comportement, qui conduit à une solution meilleure · C. une punition distribuée lorsque les individus font de mauvais choix · D. Aucune des propositions ci-dessus n'est exacte ; B — un signal qui récompense et oriente · A et C sont les deux distracteurs de l'annale, obligation et punition ; eco 11A qcm
-Un « nudge » est : A. une incitation qui oblige · B. un coup de pouce qui suggère · C. une taxe sur les comportements · D. Aucune des propositions ci-dessus n'est exacte ; B — suggérer au lieu d'obliger ; eco 11A qcm
-Le premier principe du cours énonce que : A. les marchés sont toujours à l'équilibre · B. les agents répondent aux incitations, donc les marchés tendent naturellement vers l'équilibre · C. les incitations sont émises par les seules entreprises · D. Aucune des propositions ci-dessus n'est exacte ; B — tendance naturelle, pas garantie · A supprime le « tendent vers » ; eco 11A qcm
-Le second principe du cours énonce que : A. les producteurs ont intérêt à limiter leur production · B. comme les producteurs sont toujours incités à satisfaire les besoins, les marchés fournissent ce dont les agents ont besoin · C. l'État doit fournir les biens que le marché ne produit pas · D. Aucune des propositions ci-dessus n'est exacte ; B — c'est l'incitation du producteur qui fait que le marché fournit ; eco 11A qcm
+Qu'est-ce qu'un choix en termes d'alternatives ? ; Un choix entre l'une OU l'autre activité : dormir ou aller en cours ; eco 11A
+Comment se tranche un choix en termes de « combien » ? ; En comparant le coût et le bénéfice de l'unité SUIVANTE · c'est le raisonnement à la marge ; eco 11A
+Dans l'exemple des révisions, quel rôle joue le coefficient 6 en comptabilité contre 1 en économie ? ; Celui d'une INCITATION · chaque point gagné en compta rapporte plus, donc le temps de révision s'y déplace ; eco 11A
+Qu'est-ce qu'un « nudge » ? ; Un coup de pouce : une incitation qui SUGGÈRE au lieu d'obliger ; eco 11A
+Que dit le premier principe du cours ? ; Les agents répondent aux incitations, donc les marchés TENDENT NATURELLEMENT vers l'équilibre · une tendance, pas une garantie ; eco 11A
+Que dit le second principe du cours ? ; Comme les producteurs sont toujours incités à satisfaire les besoins, les marchés fournissent ce dont les agents ont besoin ; eco 11A
 ```
 
 ### Interactions et équilibre
 
 ```
-Pour l'économiste, commettre une erreur c'est : A. ignorer le prix de marché · B. échouer à optimiser une décision individuelle · C. ne pas suivre une incitation · D. Aucune des propositions ci-dessus n'est exacte ; B — un échec d'optimisation, pas une faute morale ; eco 11A qcm
-Les erreurs de décision s'expliquent : A. par le manque d'informations pertinentes ou des informations fausses, et par les interactions entre individus · B. par la seule irrationalité des agents · C. par la seule rareté des ressources · D. Aucune des propositions ci-dessus n'est exacte ; A — deux familles de raisons, l'information et les interactions ; eco 11A qcm
-Après les interactions sociales, le choix effectif : A. est identique au choix initial · B. diffère du choix initial · C. n'existe plus · D. Aucune des propositions ci-dessus n'est exacte ; B — choix initial puis interactions puis choix effectif, différent du premier ; eco 11A qcm
-La coopération conduit : A. à la spécialisation, donc à l'échange · B. à l'égalité des revenus · C. à la disparition des marchés · D. Aucune des propositions ci-dessus n'est exacte ; A — tout le monde ne fait pas tout, chacun fournit aux autres ce qu'il produit et reçoit en échange ; eco 11A qcm
-Dans le chapitre 1, une économie est en équilibre lorsque : A. aucun individu ne peut améliorer sa situation en faisant quelque chose de différent · B. tous les agents ont le même revenu · C. les prix sont fixés par l'État · D. Aucune des propositions ci-dessus n'est exacte ; A — définition du chapitre 1 · le chapitre 4 la reformule en anticipations conformes aux conséquences des actions, c'est la formulation qui tombe au QCM ; eco 11A qcm
-Trois caisses de supermarché, trois files inégales : pour savoir si la situation est un équilibre, il faut se demander : A. si les files sont de même longueur · B. si quelqu'un est incité à changer de comportement · C. si le nombre de caisses est optimal · D. Aucune des propositions ci-dessus n'est exacte ; B — si personne n'a intérêt à bouger, c'est un équilibre, même avec des files inégales ; eco 11A qcm
-Dans un secteur en tension, les salaires montent : cela illustre : A. une défaillance de marché · B. que les agents répondent aux incitations et que le marché tend vers l'équilibre · C. une externalité positive · D. Aucune des propositions ci-dessus n'est exacte ; B — le salaire est l'incitation à travailler ; eco 11A qcm
+Qu'est-ce que commettre une erreur, pour l'économiste ? ; Échouer à optimiser une décision individuelle ; eco 11A
+Quelles sont les deux raisons des erreurs de décision ? ; Le manque d'informations pertinentes ou des informations fausses · les interactions entre individus ; eco 11A
+Que devient le choix initial après les interactions sociales ? ; Il devient le choix effectif, qui DIFFÈRE du choix initial ; eco 11A
+À quoi conduit la coopération ? ; À la SPÉCIALISATION, donc à l'échange · chacun fournit aux autres ce qu'il produit et reçoit en échange ; eco 11A
+Quelle est la définition de l'équilibre donnée au chapitre 1 ? ; Aucun individu ne peut améliorer sa situation en faisant quelque chose de différent · au QCM, la formulation attendue est « les conséquences des actions sont conformes aux anticipations » ; eco 11A piege
+Trois caisses de supermarché, trois files inégales : comment savoir si c'est un équilibre ? ; Se demander si QUELQU'UN est incité à changer de comportement · si non, c'est un équilibre, même avec des files inégales ; eco 11A
+Dans un secteur en tension, les salaires montent : qu'est-ce que cela illustre ? ; Que les agents répondent aux incitations, donc que les marchés tendent vers l'équilibre · le salaire est l'incitation à travailler ; eco 11A
 ```
 
 ### Systèmes économiques et rôle de l'État
 
 ```
-Un système économique est : A. l'ensemble des entreprises d'un pays · B. la manière dont les ressources sont organisées et distribuées pour subvenir aux besoins des agents · C. l'ensemble des règles fiscales d'un pays · D. Aucune des propositions ci-dessus n'est exacte ; B — organisation ET distribution des ressources ; eco 11A qcm
-Les trois questions fondamentales auxquelles répond un système économique sont : A. quels biens et services produire, comment les produire, à qui les délivrer · B. quoi produire, à quel prix, avec quel profit · C. qui produit, qui consomme, qui épargne · D. Aucune des propositions ci-dessus n'est exacte ; A — produire quoi, comment, pour qui ; eco 11A qcm
-Pour réaliser les échanges les plus profitables, les agents doivent être guidés : A. par des anticipations · B. par des incitations · C. par la coordination · D. Aucune des propositions ci-dessus n'est exacte ; B — les trois mots du cours vont ensemble mais ne jouent pas le même rôle, les agents ANTICIPENT les besoins des autres, sont GUIDÉS par des incitations, et sont ORGANISÉS par la coordination ; eco 11A qcm
-Dans le système capitaliste, les décisions des agents sont : A. centralisées · B. décentralisées · C. prises par l'État après consultation · D. Aucune des propositions ci-dessus n'est exacte ; B — chacun décide dans son intérêt personnel ; eco 11A qcm
-« Économie de marché » signifie : A. une économie sans État · B. une économie où les décisions sont décentralisées, l'État intervenant en cas de défaillance de marché · C. une économie où l'État fixe les prix · D. Aucune des propositions ci-dessus n'est exacte ; B — le rôle de l'État n'est pas négligeable, c'est une remarque explicite du cours ; eco 11A qcm
-Une défaillance de marché est : A. une situation où les décisions décentralisées échouent à allouer efficacement les ressources · B. la faillite d'une entreprise · C. une situation où l'État intervient trop · D. Aucune des propositions ci-dessus n'est exacte ; A — l'échec porte sur l'ALLOCATION des ressources, pas sur la santé d'une entreprise ; eco 11A qcm
-Les deux causes de défaillance de marché retenues par le cours sont : A. les externalités et le pouvoir de marché · B. les externalités et l'information imparfaite · C. le pouvoir de marché et les inégalités · D. Aucune des propositions ci-dessus n'est exacte ; A — deux causes, pas trois · c'est ce qui fait tomber la proposition « les consommateurs n'ont pas toutes les informations » à l'annale ; eco 11A qcm
-Une externalité est : A. un effet du comportement d'un individu sur le bien-être des autres, qui n'est pas pris en compte dans la décision individuelle · B. un effet du comportement d'un individu sur son propre bien-être · C. une taxe payée par les entreprises polluantes · D. Aucune des propositions ci-dessus n'est exacte ; A — le mot qui tranche est NON PRIS EN COMPTE dans la décision · l'externalité peut être négative, la pollution, ou positive ; eco 11A qcm
-Le pouvoir de marché est : A. la capacité de l'État à réguler un marché · B. le fait que certains agents exercent une influence importante sur les prix ou les quantités échangées · C. la part de marché d'une entreprise · D. Aucune des propositions ci-dessus n'est exacte ; B — influence sur les PRIX ou les QUANTITÉS, pas une part de marché ; eco 11A qcm
-Un monopole est : A. une firme unique qui vend un produit unique · B. plusieurs firmes qui vendent des produits différenciés · C. une firme qui subit le prix du marché · D. Aucune des propositions ci-dessus n'est exacte ; A — B décrit la concurrence monopolistique · C décrit un price taker, l'inverse du pouvoir de marché ; eco 11A qcm
-Le système économique planifié : A. fait de l'individu le centre du système · B. repose sur la société, qui connaît mieux les objectifs à atteindre que chaque individu séparément · C. laisse les prix se former librement · D. Aucune des propositions ci-dessus n'est exacte ; B — décisions centralisées, l'État détermine les besoins et l'allocation ; eco 11A qcm
-Le cours relève que le système planifié : A. finit généralement par une dérive totalitaire et crée d'importantes inégalités · B. supprime les inégalités · C. alloue les ressources plus efficacement que le marché · D. Aucune des propositions ci-dessus n'est exacte ; A — c'est la première des deux remarques du cours ; eco 11A qcm
+Qu'est-ce qu'un système économique ? ; La manière dont les ressources sont ORGANISÉES et DISTRIBUÉES pour subvenir aux besoins des agents ; eco 11A
+À quelles trois questions un système économique répond-il ? ; Quels biens et services produire · comment les produire · à qui les délivrer ; eco 11A
+Par quoi les agents doivent-ils être guidés pour réaliser les échanges les plus profitables ? ; Par des INCITATIONS · ils anticipent les besoins des autres par les anticipations, et sont organisés collectivement par la coordination ; eco 11A piege
+Comment les décisions sont-elles prises dans le système capitaliste ? ; De manière DÉCENTRALISÉE · chacun décide dans son intérêt personnel ; eco 11A
+« Économie de marché » veut-il dire « économie sans État » ? ; Non · le rôle de l'État n'est pas négligeable, il intervient dès qu'il y a une défaillance de marché ; eco 11A piege
+Qu'est-ce qu'une défaillance de marché ? ; Une situation où les décisions décentralisées échouent à allouer efficacement les ressources ; eco 11A
+Quelles sont les deux causes de défaillance de marché ? ; Les externalités · le pouvoir de marché ; eco 11A
+Qu'est-ce qu'une externalité ? ; Un effet du comportement d'un individu sur le bien-être des autres, qui n'est PAS pris en compte dans la décision individuelle · négative pour la pollution, positive dans l'autre sens ; eco 11A
+Qu'est-ce que le pouvoir de marché ? ; Le fait que certains agents exercent une influence importante sur les prix et/ou les quantités échangées ; eco 11A
+Qu'est-ce qu'un monopole ? ; UNE firme unique qui vend UN produit unique · en concurrence monopolistique, les firmes produisent des biens différenciés ; eco 11A piege
+Sur quoi repose le système économique planifié ? ; Sur LA SOCIÉTÉ, qui connaît mieux les objectifs que chaque individu séparément · l'État détermine les besoins, la production et l'allocation ; eco 11A
+Que dit la première remarque du cours sur le système planifié ? ; Il finit généralement par une dérive totalitaire et crée d'importantes inégalités ; eco 11A
 ```
 
 ### Le tout n'est pas la somme des parties
 
 ```
-Le résultat global de millions de comportements individuels est : A. égal à la somme des comportements individuels · B. supérieur à la somme des comportements individuels · C. toujours inférieur à cette somme · D. Aucune des propositions ci-dessus n'est exacte ; B — le tout n'est pas la somme des parties ; eco 11A qcm
-Le paradoxe de l'épargne est que : A. au niveau individuel l'épargne finance l'investissement, mais généralisée elle fait baisser la consommation totale et l'activité · B. l'épargne est toujours vertueuse · C. l'épargne est toujours nuisible · D. Aucune des propositions ci-dessus n'est exacte ; A — c'est le passage du micro au macro qui renverse la conclusion ; eco 11A qcm
-Si tous les agents de l'économie reçoivent 100 euros de plus : A. tous deviennent plus riches · B. les prix montent et le pouvoir d'achat baisse · C. rien ne change · D. Aucune des propositions ci-dessus n'est exacte ; B — plus de monnaie pour tout le monde, donc plus d'achats, donc des prix plus élevés · c'est vrai en macro, alors qu'en micro celui qui est seul à recevoir 100 euros est bien plus riche ; eco 11A qcm
-Le pouvoir d'achat se mesure : A. en euros · B. en nombre de biens · C. en pourcentage du revenu · D. Aucune des propositions ci-dessus n'est exacte ; B — W/P s'exprime en NOMBRE DE BIENS ; eco 11A qcm
-La crise des subprimes de 2008 illustre : A. le paradoxe de l'épargne · B. la propagation d'une baisse d'activité d'un pays au reste du monde par la demande de produits étrangers · C. une défaillance de marché due au pouvoir de marché · D. Aucune des propositions ci-dessus n'est exacte ; B — baisse de la consommation aux USA puis baisse de leur demande de produits étrangers puis baisse de l'activité ailleurs ; eco 11A qcm
+Le résultat global de millions de comportements est-il la somme des comportements individuels ? ; Non, il lui est SUPÉRIEUR · le tout n'est pas la somme des parties ; eco 11A piege
+Qu'est-ce que le paradoxe de l'épargne ? ; En micro, épargner finance l'investissement · en macro, l'épargne généralisée fait baisser la consommation totale, donc l'activité ; eco 11A
+Que se passe-t-il si tous les agents reçoivent 100 euros de plus ? ; Les prix montent et le pouvoir d'achat baisse · seul, celui qui reçoit 100 euros est bien plus riche : c'est tout l'écart entre micro et macro ; eco 11A piege
+En quoi se mesure le pouvoir d'achat ? ; En NOMBRE DE BIENS · W/P ; eco 11A
+Qu'illustre la crise des subprimes de 2008 ? ; La propagation d'une baisse d'activité au reste du monde · baisse de la consommation aux USA, puis de leur demande de produits étrangers, puis de l'activité ailleurs ; eco 11A
 ```
 
 ### La méthode et les modèles
 
 ```
-La méthode de l'économie est : A. inductive · B. hypothético-déductive · C. purement expérimentale · D. Aucune des propositions ci-dessus n'est exacte ; B — on pose des hypothèses, on en déduit des résultats, on les confronte aux évidences empiriques ; eco 11A qcm
-Les deux outils de la méthode économique sont : A. les modèles mathématiques et les données statistiques · B. les modèles mathématiques et les expérimentations · C. les enquêtes et les sondages · D. Aucune des propositions ci-dessus n'est exacte ; A — le modèle simplifie, les données testent ; eco 11A qcm
-Une bonne question économique est : A. une question à laquelle on peut répondre · B. une question qui porte sur la monnaie · C. une question que personne n'a encore posée · D. Aucune des propositions ci-dessus n'est exacte ; A — c'est le critère donné par le cours ; eco 11A qcm
-Un modèle mathématique est : A. une représentation simplifiée de la réalité · B. une reproduction fidèle de la réalité · C. un ensemble de données statistiques · D. Aucune des propositions ci-dessus n'est exacte ; A — simplifiée, et c'est un avantage, pas un défaut ; eco 11A qcm
-Les modèles mathématiques constituent : A. la première étape de la méthode hypothético-déductive · B. la deuxième étape · C. la dernière étape · D. Aucune des propositions ci-dessus n'est exacte ; A — la deuxième étape est le test par les données ; eco 11A qcm
-Une hypothèse simplificatrice est acceptable : A. lorsqu'elle rend le modèle réaliste · B. lorsqu'elle ne supprime pas ce qui est au cœur de la question posée · C. lorsqu'elle est vérifiée par les données · D. Aucune des propositions ci-dessus n'est exacte ; B — l'acceptabilité se juge par rapport à LA QUESTION POSÉE, pas au réalisme ; eco 11A qcm
-L'analogie du plan de métro dit que : A. les distances et la forme de la ville sont fausses, mais le plan permet à l'usager d'aller où il veut · B. un bon modèle doit respecter les distances · C. un modèle qui déforme la réalité est inutile · D. Aucune des propositions ci-dessus n'est exacte ; A — un modèle se juge à son usage ; eco 11A qcm
-Pour répondre à la question « comment est créée la richesse dans l'économie ? », le cours retient : A. le modèle 1, avec les quatre agents · B. le modèle 2, ménages et entreprises · C. aucun des deux · D. Aucune des propositions ci-dessus n'est exacte ; B — ménages et entreprises créent environ 80 % de la richesse, les hypothèses simplificatrices du modèle 2 sont donc acceptables ; eco 11A qcm
-Pour répondre à la question « quel est le rôle de l'État dans la création de richesse ? », le cours retient : A. le modèle 2 · B. le modèle 1, car le modèle 2 ne contient pas l'État · C. aucun modèle ne convient · D. Aucune des propositions ci-dessus n'est exacte ; B — la question posée commande le modèle ; eco 11A qcm
-Une variable endogène est : A. déterminée en dehors du modèle · B. déterminée par le modèle · C. toujours fixe · D. Aucune des propositions ci-dessus n'est exacte ; B — c'est l'inconnue, ce que l'économiste cherche à expliquer ; eco 11A qcm
-Une variable exogène est : A. déterminée par le modèle · B. déterminée en dehors du modèle, et fixe · C. ce que l'économiste cherche à expliquer · D. Aucune des propositions ci-dessus n'est exacte ; B — une donnée du problème ; eco 11A qcm
+Quelle est la méthode de l'économie ? ; La méthode HYPOTHÉTICO-DÉDUCTIVE : poser des hypothèses, en déduire des résultats, les confronter aux évidences empiriques ; eco 11A
+Quels sont les deux outils de la méthode économique ? ; Les modèles mathématiques, qui simplifient · les données statistiques, qui testent ; eco 11A
+Qu'est-ce qu'une bonne question économique ? ; Une question à laquelle on peut répondre ; eco 11A
+Qu'est-ce qu'un modèle mathématique ? ; Une représentation SIMPLIFIÉE de la réalité ; eco 11A
+Quelle étape de la méthode les modèles mathématiques constituent-ils ? ; La PREMIÈRE · la deuxième est le test par les données ; eco 11A
+À quoi sert un modèle, en deux temps ? ; À enlever la complexité du réel en se focalisant sur l'essentiel · à en déduire des implications théoriques, les prédictions du modèle ; eco 11A
+Quand une hypothèse simplificatrice est-elle acceptable ? ; Quand elle ne supprime pas ce qui est au cœur de la QUESTION POSÉE · ce n'est pas le réalisme qui en décide ; eco 11A piege
+Que dit l'analogie du plan de métro ? ; Les distances sont fausses et la forme de la ville n'est pas respectée, mais le plan permet à l'usager d'aller où il veut ; eco 11A
+Quel modèle répond à la question « comment est créée la richesse ? » ; Le modèle 2, ménages et entreprises · ils créent environ 80 % de la richesse, donc les simplifications sont acceptables ; eco 11A
+Quel modèle répond à la question « quel est le rôle de l'État dans la création de richesse ? » ; Le modèle 1, complet · le modèle 2 ne contient pas d'État ; eco 11A
+Qu'est-ce qu'une variable endogène ? ; Une variable déterminée PAR LE MODÈLE · c'est l'inconnue, ce que l'économiste cherche à expliquer ; eco 11A piege
+Qu'est-ce qu'une variable exogène ? ; Une variable déterminée EN DEHORS du modèle, et fixe · c'est une donnée du problème ; eco 11A piege
 ```
 
 ### Le marché de la pizza
 
 ```
-Sur le marché de la pizza, les variables endogènes sont : A. le revenu et les préférences · B. la quantité d'équilibre et le prix d'équilibre · C. le prix des ingrédients et la technologie · D. Aucune des propositions ci-dessus n'est exacte ; B — Q* et P* · A et C sont les variables exogènes ; eco 11A qcm
-La demande de pizza dépend : A. du prix de la pizza négativement, du revenu, des préférences et du prix des autres biens positivement · B. du prix de la pizza positivement · C. du prix des ingrédients et de la technologie · D. Aucune des propositions ci-dessus n'est exacte ; A — un seul signe négatif, celui du prix de la pizza · C est la fonction d'offre ; eco 11A qcm
-L'offre de pizza dépend : A. du revenu des agents · B. du prix de la pizza positivement, du prix des ingrédients négativement, de la technologie positivement · C. des préférences des consommateurs · D. Aucune des propositions ci-dessus n'est exacte ; B — un seul signe négatif, celui du prix des ingrédients ; eco 11A qcm
-À l'équilibre du marché de la pizza : A. le prix s'ajuste pour égaliser l'offre et la demande · B. les quantités s'ajustent à prix fixe · C. l'offre est supérieure à la demande · D. Aucune des propositions ci-dessus n'est exacte ; A — Qd = Qo = Q* au prix P* ; eco 11A qcm
-Si les agents deviennent fans de pizza : A. à prix inchangé la demande dépasse l'offre, puis le prix monte jusqu'au nouvel équilibre · B. le prix baisse · C. c'est l'offre qui se déplace la première · D. Aucune des propositions ci-dessus n'est exacte ; A — P* et Q* augmentent tous les deux ; eco 11A qcm
-Une hausse du prix des ingrédients : A. déplace la demande · B. déplace l'offre seule, le prix d'équilibre augmente et la quantité d'équilibre diminue · C. n'a aucun effet · D. Aucune des propositions ci-dessus n'est exacte ; B — Pi est un input, il n'entre que dans la fonction d'offre, l'effet sur la demande est latent ; eco 11A qcm
-Face à un choc, « toute chose égale par ailleurs » signifie : A. que toutes les variables bougent en même temps · B. que le prix ne bouge pas encore au moment du choc, le raisonnement de l'économiste étant séquentiel · C. que le modèle est faux · D. Aucune des propositions ci-dessus n'est exacte ; B — séquentiel, c'est le mot ; eco 11A qcm
-Sur le graphique du marché de la pizza : A. les prix sont en abscisse et les quantités en ordonnée · B. les quantités sont en abscisse et le prix en ordonnée · C. les deux axes portent des quantités · D. Aucune des propositions ci-dessus n'est exacte ; B ; eco 11A qcm
-« Price taker » signifie que l'agent : A. fixe le prix · B. subit le prix · C. négocie le prix · D. Aucune des propositions ci-dessus n'est exacte ; B — c'est l'hypothèse de concurrence pure et parfaite ; eco 11A qcm
+Quelles sont les deux variables endogènes du marché de la pizza ? ; Q* la quantité d'équilibre · P* le prix d'équilibre ; eco 11A
+De quoi dépend la demande de pizza, et dans quel sens ? ; Pp (−) · Pref (+) · Y (+) · Pb (+) ; eco 11A
+De quoi dépend l'offre de pizza, et dans quel sens ? ; Pp (+) · Pi (−) · T (+) ; eco 11A
+Que se passe-t-il à l'équilibre du marché de la pizza ? ; Le prix s'ajuste pour égaliser offre et demande : Qd = Qo = Q* au prix P* ; eco 11A
+Qu'y a-t-il en abscisse et en ordonnée sur le graphique du marché de la pizza ? ; Les quantités en abscisse · le prix en ordonnée ; eco 11A
+Les agents deviennent fans de pizza : que deviennent P* et Q* ? ; Les deux AUGMENTENT · à prix inchangé la demande dépasse l'offre, puis le prix monte jusqu'au nouvel équilibre ; eco 11A
+Le prix des ingrédients augmente : quelle courbe bouge, et que deviennent P* et Q* ? ; L'OFFRE seule, car Pi est un input · P* augmente et Q* diminue · l'effet sur la demande est latent ; eco 11A
+Que veut dire « toute chose égale par ailleurs » face à un choc ? ; Que le prix ne bouge pas encore au moment du choc · le raisonnement de l'économiste est SÉQUENTIEL ; eco 11A
+Que veut dire « price taker » ? ; L'agent SUBIT le prix, il ne le fixe pas · c'est l'hypothèse de concurrence pure et parfaite ; eco 11A
 ```
 
 ### Données, corrélation, causalité
 
 ```
-Les données statistiques sont construites : A. à partir de la théorie · B. indépendamment de toute théorie · C. à partir des seules observations de terrain · D. Aucune des propositions ci-dessus n'est exacte ; A — c'est la théorie qui dit ce qu'on mesure et comment on le définit ; eco 11A qcm
-Les deux rôles des données statistiques sont : A. tester la théorie et faire des prévisions · B. expliquer la théorie et la valider · C. remplacer les modèles · D. Aucune des propositions ci-dessus n'est exacte ; A — tester, et prévoir ; eco 11A qcm
-Tester une théorie consiste à : A. confronter les modèles à la réalité · B. poser des hypothèses simplificatrices · C. chercher des relations causales par l'expérimentation · D. Aucune des propositions ci-dessus n'est exacte ; A — c'est la deuxième étape de la démarche hypothético-déductive ; eco 11A qcm
-Après confrontation aux observations empiriques : A. le modèle est soit accepté par validation empirique, soit rejeté, ce qui fait réviser les hypothèses · B. le modèle est définitivement validé · C. le modèle est abandonné · D. Aucune des propositions ci-dessus n'est exacte ; A — la démarche boucle ; eco 11A qcm
-Une corrélation positive signifie que : A. les deux variables évoluent dans le même sens · B. l'une cause l'autre · C. les deux variables évoluent en sens opposé · D. Aucune des propositions ci-dessus n'est exacte ; A — une relation systématique, jamais une causalité ; eco 11A qcm
-Une variable omise est : A. une variable laissée de côté qui pourrait expliquer la corrélation entre deux autres variables et être à l'origine de la cause · B. une variable exogène · C. une variable qu'on retire pour simplifier le modèle · D. Aucune des propositions ci-dessus n'est exacte ; A ; eco 11A qcm
-La corrélation entre les ventes de glaces et les noyades s'explique : A. par une causalité directe · B. par une variable omise, la hausse des températures · C. par une causalité bidirectionnelle · D. Aucune des propositions ci-dessus n'est exacte ; B ; eco 11A qcm
-Entre le PIB et la consommation, la causalité est : A. unidirectionnelle, du PIB vers la consommation · B. bidirectionnelle · C. inexistante · D. Aucune des propositions ci-dessus n'est exacte ; B — hausse du PIB donc du revenu donc de la consommation, et hausse de la consommation donc des dépenses donc de la production donc du PIB ; eco 11A qcm
-Entre éducation et salaire, la causalité n'est pas évidente : A. parce que la corrélation est négative · B. parce qu'elle est bidirectionnelle, plus d'éducation donne un meilleur salaire mais un revenu élevé permet aussi d'envoyer les enfants étudier · C. parce qu'il n'y a pas de corrélation · D. Aucune des propositions ci-dessus n'est exacte ; B ; eco 11A qcm
+À partir de quoi les données statistiques sont-elles construites ? ; À partir de LA THÉORIE · c'est elle qui dit ce qu'on mesure et comment on le définit ; eco 11A piege
+Quels sont les deux rôles des données statistiques ? ; Tester la théorie · faire des prévisions ; eco 11A
+En quoi consiste le fait de tester une théorie ? ; À confronter les modèles à la réalité · c'est la deuxième étape de la démarche hypothético-déductive ; eco 11A
+Que se passe-t-il après la confrontation aux observations empiriques ? ; Soit validation empirique et le modèle est accepté · soit rejet des énoncés, et on révise les hypothèses ; eco 11A
+Qu'est-ce qu'une corrélation ? ; Une RELATION SYSTÉMATIQUE entre deux variables · positive dans le même sens, négative en sens opposé · jamais une causalité ; eco 11A piege
+Qu'est-ce qu'une variable omise ? ; Une variable laissée de côté qui pourrait expliquer la corrélation entre deux autres et être à l'origine de la cause ; eco 11A
+Les ventes de glaces et les noyades augmentent ensemble : pourquoi ? ; À cause d'une VARIABLE OMISE commune, la hausse des températures · corrélation sans causalité ; eco 11A
+Quel type de causalité relie le PIB et la consommation ? ; Une causalité BIDIRECTIONNELLE · ↑PIB → ↑revenu → ↑conso, et ↑conso → ↑dépenses → ↑production → ↑PIB ; eco 11A
+Entre éducation et salaire, pourquoi la causalité n'est-elle pas évidente ? ; Parce qu'elle est bidirectionnelle · plus d'éducation donne un meilleur salaire, mais un revenu élevé permet d'envoyer les enfants étudier ; eco 11A
 ```
 
 ### Expérimentation
 
 ```
-Une expérimentation est : A. une méthode contrôlée pour étudier les relations causales entre variables · B. une méthode pour établir des corrélations · C. l'utilisation de données historiques · D. Aucune des propositions ci-dessus n'est exacte ; A — CONTRÔLÉE et CAUSALE · C est l'expérimentation naturelle ; eco 11A qcm
-La randomisation consiste à : A. diviser l'échantillon au hasard entre groupe de traitement et groupe de contrôle · B. choisir les individus selon leurs caractéristiques · C. répéter l'expérience plusieurs fois · D. Aucune des propositions ci-dessus n'est exacte ; A — le hasard sert à conserver l'homogénéité des deux groupes ; eco 11A qcm
-Dans une expérimentation, les deux groupes sont traités : A. différemment sur toutes les dimensions · B. de manière identique sauf sur une dimension choisie intentionnellement · C. de manière strictement identique · D. Aucune des propositions ci-dessus n'est exacte ; B ; eco 11A qcm
-L'objet de l'expérimentation est : A. le groupe de traitement · B. la différence entre les deux groupes · C. le groupe de contrôle · D. Aucune des propositions ci-dessus n'est exacte ; B — c'est la DIFFÉRENCE qu'on mesure ; eco 11A qcm
-Les deux problèmes de l'expérimentation sont : A. le coût et la difficulté de mise en œuvre · B. le coût et le manque de données · C. la durée et l'éthique · D. Aucune des propositions ci-dessus n'est exacte ; A — la difficulté de mise en œuvre, c'est la randomisation ; eco 11A qcm
-Dans une expérimentation naturelle, le groupe de contrôle est : A. le comportement après l'évènement · B. le comportement avant l'évènement · C. un groupe tiré au sort · D. Aucune des propositions ci-dessus n'est exacte ; B — avant = contrôle, après = traitement ; eco 11A qcm
-Ce qui sépare l'expérimentation naturelle de l'expérimentation en laboratoire est : A. la provenance des données, historiques et trouvées au lieu d'être construites · B. le nombre de groupes · C. le fait qu'on y cherche une corrélation et non une causalité · D. Aucune des propositions ci-dessus n'est exacte ; A ; eco 11A qcm
-Comparer le chômage de deux États voisins dont un seul relève son salaire minimum est : A. une expérimentation en laboratoire · B. une expérimentation naturelle, un État servant de traitement et l'autre de contrôle · C. une simple corrélation · D. Aucune des propositions ci-dessus n'est exacte ; B — et le résultat trouvé est qu'il y a peu de différence sur le chômage ; eco 11A qcm
+Qu'est-ce qu'une expérimentation en économie ? ; Une méthode CONTRÔLÉE pour étudier les relations CAUSALES entre variables ; eco 11A
+Qu'est-ce que la randomisation, et à quoi sert-elle ? ; La division AU HASARD de l'échantillon entre groupe de traitement et groupe de contrôle · elle conserve leur homogénéité ; eco 11A
+Comment les deux groupes d'une expérimentation sont-ils traités ? ; De manière identique SAUF sur une dimension choisie intentionnellement ; eco 11A
+Quel est l'objet d'une expérimentation ? ; La DIFFÉRENCE entre les deux groupes ; eco 11A
+Quels sont les deux problèmes de l'expérimentation ? ; Le coût · la difficulté de mise en œuvre, c'est-à-dire la randomisation ; eco 11A
+Dans une expérimentation naturelle, qui est le groupe de contrôle ? ; Le comportement AVANT l'évènement · après l'évènement, c'est le groupe de traitement ; eco 11A
+Qu'est-ce qui sépare l'expérimentation naturelle de l'expérimentation en laboratoire ? ; La PROVENANCE DES DONNÉES : historiques et trouvées, au lieu d'être construites ; eco 11A piege
+Deux États voisins, un seul relève son salaire minimum : quelle méthode, et quel résultat ? ; Une expérimentation naturelle, un État traitement et un État contrôle · résultat : peu de différence sur le chômage ; eco 11A
 ```
 
 ### Prévisions, positive et normative, micro et macro
 
 ```
-L'activité économique se décompose en : A. cycles et tendance · B. croissance et inflation · C. offre et demande · D. Aucune des propositions ci-dessus n'est exacte ; A — et les prévisions se lisent sur la tendance ; eco 11A qcm
-L'économie normative : A. décrit et analyse le fonctionnement de l'économie · B. sert de base aux recommandations de politique économique et suppose des critères et des objectifs · C. interdit les jugements de valeur · D. Aucune des propositions ci-dessus n'est exacte ; B — elle CONSEILLE ; eco 11A qcm
-Les économistes ne sont pas d'accord entre eux : A. parce que les données sont fausses · B. à cause de leurs croyances et de leurs valeurs · C. parce que les modèles sont trop simples · D. Aucune des propositions ci-dessus n'est exacte ; B ; eco 11A qcm
-La microéconomie : A. s'intéresse aux comportements des unités de base que sont l'entreprise, le ménage et l'individu · B. raisonne en variables agrégées · C. étudie le chômage et l'inflation · D. Aucune des propositions ci-dessus n'est exacte ; A ; eco 11A qcm
-La macroéconomie : A. s'intéresse au comportement des ménages pris un à un · B. s'intéresse au comportement de l'économie dans son ensemble, en variables agrégées · C. ignore les prix · D. Aucune des propositions ci-dessus n'est exacte ; B — consommation agrégée, chômage, inflation, PIB ; eco 11A qcm
-« Macroéconomie microfondée » signifie : A. que la micro se déduit de la macro · B. que la macro se construit à partir des comportements individuels étudiés en micro · C. que les deux disciplines sont indépendantes · D. Aucune des propositions ci-dessus n'est exacte ; B — depuis les années 1980-1990 ; eco 11A qcm
-Les deux actes économiques fondamentaux sont : A. la consommation et la production · B. l'épargne et l'investissement · C. l'offre et la demande · D. Aucune des propositions ci-dessus n'est exacte ; A ; eco 11A qcm
-La consommation est : A. l'acte qui consiste à utiliser les biens et services directement pour satisfaire des besoins · B. l'achat de biens par les ménages · C. l'acte par lequel des ressources sont transformées en biens et services · D. Aucune des propositions ci-dessus n'est exacte ; A — le mot qui tranche est DIRECTEMENT · C est la définition de la production ; eco 11A qcm
-La production est : A. la fabrication de biens matériels · B. l'acte par lequel des ressources et/ou des biens sont transformés en biens et services · C. la vente de biens sur un marché · D. Aucune des propositions ci-dessus n'est exacte ; B — TRANSFORMÉS, et les services en font partie ; eco 11A qcm
-L'objectif des ménages est : A. de maximiser leur bien-être · B. de maximiser leur revenu · C. de minimiser leurs dépenses · D. Aucune des propositions ci-dessus n'est exacte ; A — bien-être, satisfaction, utilité, trois mots pour la même chose · les entreprises maximisent leur profit ; eco 11A qcm
-Dans le circuit, l'État : A. produit des biens et services, redistribue le revenu par les taxes et les transferts, et réglemente · B. se contente de prélever l'impôt · C. n'intervient pas · D. Aucune des propositions ci-dessus n'est exacte ; A — trois rôles ; eco 11A qcm
-À court terme, l'activité est déterminée : A. par la demande de biens, parce que les prix sont rigides · B. par l'offre de biens, parce que les prix sont flexibles · C. par la monnaie · D. Aucune des propositions ci-dessus n'est exacte ; A — et à long terme c'est l'inverse, l'offre, parce que les prix redeviennent flexibles ; eco 11A qcm
+En quoi se décompose l'activité économique ? ; En CYCLES et en TENDANCE · les prévisions se lisent sur la tendance ; eco 11A
+Que fait l'économie normative ? ; Elle CONSEILLE les décideurs politiques · base de recommandation, elle suppose des critères et des objectifs ; eco 11A
+Pourquoi les économistes ne sont-ils pas d'accord entre eux ? ; À cause de leurs croyances et de leurs valeurs ; eco 11A
+Qu'étudie la microéconomie, et pour quoi faire ? ; Les comportements des unités de base — entreprise, ménage, individu · comprendre comment elles décident et ce qui les influence ; eco 11A
+Qu'étudie la macroéconomie, et pour quoi faire ? ; Le comportement de l'économie dans son ensemble, en variables AGRÉGÉES : consommation agrégée, chômage, inflation, PIB · dire ce qui se passe globalement ; eco 11A
+Que veut dire « macroéconomie microfondée » ? ; La macro se construit à partir des comportements individuels étudiés en micro · depuis les années 1980-1990 ; eco 11A
+Quels sont les deux actes économiques fondamentaux ? ; La consommation · la production ; eco 11A
+Qu'est-ce que la consommation ? ; L'acte qui consiste à utiliser les biens et services DIRECTEMENT pour satisfaire des besoins ; eco 11A piege
+Qu'est-ce que la production ? ; L'acte par lequel des ressources et/ou des biens sont TRANSFORMÉS en biens et services ; eco 11A piege
+Quel est l'objectif des ménages, et celui des entreprises ? ; Les ménages maximisent leur bien-être, satisfaction ou utilité · les entreprises maximisent leur profit ; eco 11A
+Quels sont les trois rôles de l'État dans le circuit ? ; Produire des biens et services · redistribuer le revenu par les taxes et les transferts · réglementer ; eco 11A
+À court terme, qui détermine l'activité, et pourquoi ? ; La DEMANDE de biens, parce que les prix sont rigides ; eco 11A
+À long terme, qui détermine l'activité, et pourquoi ? ; L'OFFRE de biens, parce que les prix sont flexibles ; eco 11A
 ```
 
 ### Les chiffres et les formules
 
 ```
-La part du PIB créée par la consommation des ménages est d'environ : A. 25 % · B. 55 % · C. 80 % · D. Aucune des propositions ci-dessus n'est exacte ; B — 55 % · 80 % est le total ménages plus entreprises ; eco 11A qcm chiffres
-La part du PIB créée par l'investissement des entreprises est d'environ : A. 19 % · B. 25 % · C. 1 % · D. Aucune des propositions ci-dessus n'est exacte ; B — 25 % ; eco 11A qcm chiffres
-La part du PIB créée par les échanges avec le reste du monde est d'environ : A. 1 % · B. 19 % · C. 10 % · D. Aucune des propositions ci-dessus n'est exacte ; A — 1 %, et 19 % pour la consommation des administrations publiques ; eco 11A qcm chiffres
-Sur 100 euros de richesse créée, les ménages et les entreprises en créent environ : A. 55 euros · B. 80 euros · C. 100 euros · D. Aucune des propositions ci-dessus n'est exacte ; B — 55 plus 25, d'où le choix du modèle 2 ; eco 11A qcm chiffres
-Le pouvoir d'achat s'écrit : A. W × P · B. W/P · C. P/W · D. Aucune des propositions ci-dessus n'est exacte ; B — le salaire divisé par le prix, exprimé en nombre de biens ; eco 11A qcm chiffres
-Pour W = 100 euros et P = 10 euros par bien, le pouvoir d'achat est de : A. 1 000 biens · B. 10 biens · C. 0,1 bien · D. Aucune des propositions ci-dessus n'est exacte ; B — 100/10 = 10 biens ; eco 11A qcm chiffres
-Le revenu se décompose en : A. Y = C + I + G · B. Y = T + C + S · C. Y = C + S · D. Aucune des propositions ci-dessus n'est exacte ; B — impôts, consommation, épargne ; eco 11A qcm chiffres
-Le PIB s'écrit : A. PIB = C + I + G + X − Imp · B. PIB = C + I + G + Imp − X · C. PIB = C + S + T · D. Aucune des propositions ci-dessus n'est exacte ; A — on retranche les importations, qui ne sont pas de la richesse créée dans le pays · C est la décomposition du revenu ; eco 11A qcm chiffres
-Dans PIB = C + I + G + X − Imp, G désigne : A. les dépenses de l'État · B. l'investissement des entreprises · C. les exportations · D. Aucune des propositions ci-dessus n'est exacte ; A ; eco 11A qcm chiffres
-Le PIB de la France en 2015, tel qu'il figure dans tes notes de cahier, est de : A. 2 300 milliards d'euros · B. 2 999,9 milliards d'euros · C. 1 999,9 milliards d'euros · D. Aucune des propositions ci-dessus n'est exacte ; B d'après ton cahier — ⚠ quatre valeurs circulent, les notes de tes amis donnent 2 991,1 milliards et le cours de référence 2 300 milliards pour 2018 · demande au prof le chiffre ET l'année avant d'apprendre cette carte ; eco 11A qcm chiffres averifier
-« La main invisible » est une expression de : A. David Ricardo · B. Adam Smith · C. John Maynard Keynes · D. Aucune des propositions ci-dessus n'est exacte ; B ; eco 11A qcm
-La concurrence monopolistique désigne : A. une firme unique qui vend un produit unique · B. des firmes qui produisent des biens différenciés · C. des firmes qui vendent toutes le même produit · D. Aucune des propositions ci-dessus n'est exacte ; B — A est le monopole ; eco 11A qcm
+Quelle part de la richesse est créée par la consommation des ménages ? ; 55 % ; eco 11A chiffres
+Quelle part de la richesse est créée par l'investissement des entreprises ? ; 25 % ; eco 11A chiffres
+Quelle part de la richesse est créée par les échanges avec le reste du monde ? ; 1 % ; eco 11A chiffres
+Quelle part de la richesse est créée par la consommation des administrations publiques ? ; 19 % ; eco 11A chiffres
+Sur 100 euros de richesse créée, combien le sont par les ménages et les entreprises ? ; Environ 80 euros · d'où le choix du modèle 2 ; eco 11A chiffres
+Quelle est la formule du pouvoir d'achat ? ; W/P, exprimé en nombre de biens ; eco 11A chiffres
+Quel est le pouvoir d'achat pour W = 100 euros et P = 10 euros par bien ? ; 10 biens ; eco 11A chiffres
+Comment se décompose le revenu ? ; Y = T + C + S · impôts, consommation, épargne ; eco 11A chiffres
+Quelle est la formule du PIB ? ; PIB = C + I + G + X − Imp ; eco 11A chiffres
+Dans PIB = C + I + G + X − Imp, que vaut G, et pourquoi retranche-t-on Imp ? ; G = les dépenses de l'État · les importations ne sont pas de la richesse créée dans le pays ; eco 11A chiffres
+Quel est le PIB de la France en 2015, tel qu'il figure dans ton cahier ? ; 2 999,9 milliards d'euros · ⚠ trois autres valeurs circulent, voir À vérifier ; eco 11A chiffres averifier
+À qui doit-on l'expression « la main invisible » ? ; À Adam Smith ; eco 11A
 ```
 
 ## 🔄 Comment réviser cette fiche
@@ -997,7 +994,7 @@ La concurrence monopolistique désigne : A. une firme unique qui vend un produit
 1. **Se tester, pas relire** — le bloc [[#✅ Contrôle]] ci-dessous, à voix haute, avant d'ouvrir la réponse. À une semaine : 61 % de rétention en se testant, 40 % en relisant.
 2. **Jusqu'à 3 rappels corrects** — une question n'est acquise qu'après **trois** réponses justes, à des jours d'écart.
 3. **Puis 3 réapprentissages espacés** — intervalle ≈ **10 à 20 % du délai** avant l'épreuve : à six semaines, tous les 4 à 8 jours.
-4. **Ce chapitre est un chapitre de vocabulaire** : rareté, coût d'opportunité, externalité, équilibre, défaillance de marché, anticipations. Les **136 cartes** du bloc 🃏 sont la partie la plus rentable, et elles ont **la forme exacte du sujet** — un énoncé, trois propositions, un D « aucune ». Commence par les **28 énoncés d'annales** des deux premiers paquets : ce sont les questions déjà tombées, propositions comprises.
+4. **Ce chapitre est un chapitre de vocabulaire** : rareté, coût d'opportunité, externalité, équilibre, défaillance de marché, anticipations. Les **134 cartes** du bloc 🃏 sont la partie la plus rentable — une question claire au recto, une seule réponse au verso, le mot qui tranche en capitales. Commence par les **26 questions déjà tombées** des deux premiers paquets.
 5. **Entrelace** avec [[Gestion - Introduction]] et [[Problemes economiques - Chapitre 1 Analyse economique UE 13A]] : les trois UE tombent en période 1, et alterner les matières dans une même session retient mieux que les enchaîner par blocs. Le calendrier des épreuves est dans [[Plan - Examen P1]].
 6. **Avant le prochain amphi** — lis les questions de Contrôle portant sur la partie non encore traitée et plante-toi : c'est du *pretesting*.
 
