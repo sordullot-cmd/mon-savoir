@@ -13,7 +13,7 @@
   "eco gestion/_brut/camarade - Gestion chapitre 1 introduction.md": {
    "fiche": "eco gestion/Gestion - Introduction.md",
    "hash": "2ea5809e3cfb",
-   "integre": "2026-09-22 16:57"
+   "integre": "2026-09-23 03:01"
   },
   "eco gestion/_brut/camarade - Gestion chapitre 2 fonctions de l'entreprise.md": {
    "fiche": "eco gestion/Gestion - Chapitre 2 Fonctions de l'entreprise UE 12A.md",
@@ -58,7 +58,7 @@
   "eco gestion/_brut/gestion.md": {
    "fiche": "eco gestion/Gestion - Introduction.md",
    "hash": "191100950174",
-   "integre": "2026-09-22 16:57"
+   "integre": "2026-09-23 03:01"
   },
   "eco gestion/_brut/introduction a l'economie.md": {
    "fiche": "eco gestion/Economie - Chapitre 1 Science economique.md",
@@ -130,10 +130,10 @@
    "statut": "à faire"
   },
   "eco gestion/Gestion - Introduction.md": {
-   "fait": "confrontée aux notes d'un camarade sur le même chapitre : elles confirment tout, un seul apport (fragmentation de la chaîne de valeur, § 6) marqué 👥 avec bloc de traçabilité",
-   "hash": "687fc90bc5ca",
-   "mots": 12063,
-   "passage": "2026-09-22 16:57",
+   "fait": "controle : 24 reponses « a, b et c » sur 46 ramenees a 6 — propositions permutees, reponses de une a quatre lettres, sept questions retournees (« laquelle est fausse », quatre justes, deux justes) avec des enonces deja dans la fiche",
+   "hash": "02be0f69c0c2",
+   "mots": 13624,
+   "passage": "2026-09-23 03:01",
    "source": "_brut/gestion.md",
    "sources": [
     "_brut/gestion.md",
