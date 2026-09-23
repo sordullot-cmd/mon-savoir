@@ -13,8 +13,8 @@ ue: 18C
 statut: à faire
 periode: 1
 revu: 2026-09-10
-a_verifier: 10
-cartes: 48
+a_verifier: 11
+cartes: 47
 ajouts: 28
 ---
 
@@ -22,7 +22,7 @@ ajouts: 28
 
 **UE 18C · période 1 ⚠️ · examen final écrit de 1 h**
 🏠 [[00 - Plan L1 Angers]] · 🧠 [[Methode - Comment reviser]]
-📓 Source : tes notes d'amphi, `_brut/Méthodologie du travail universitaire.md`
+📓 Sources : tes notes d'amphi, `_brut/Méthodologie du travail universitaire.md`, et celles de deux camarades (`_brut/camarade - MTU seance 1 (A)`, `(B)`, `seance 2`) pour les § 2.3 à 2.6, marqués 👥
 
 > [!note] Ce qui est du cours, et ce qui ne l'est pas
 > Le corps de la fiche est **le cours** : tes notes d'amphi, mises au propre — orthographe, phrases reconstituées, structure remise d'aplomb. Rien n'y a été reformulé sur le fond.
@@ -33,7 +33,7 @@ ajouts: 28
 
 > [!abstract] L'essentiel
 > - **Objectif du cours** : savoir **trouver** l'information, la **synthétiser**, l'**utiliser**.
-> - **Deux parties** : raisonner en économiste, puis réaliser un travail universitaire. Tes notes disent que la première « n'est pas la plus utile ».
+> - **Deux parties** : raisonner en économiste (hypothèses, modèle, erreurs), puis réaliser un travail universitaire (résumé, sources, données, graphiques) — la seconde prépare aussi les 7 points de la recherche.
 > - **La note** : examen final 1 h = **13 points**, recherche bibliographique + bonus/malus = **7 points**, test de la BU = **1 à 2 points**.
 > - **Le cœur méthodologique** : hypothèses → modèle → prédiction, et la règle qui tombe toujours — **la causalité implique la corrélation, l'inverse est faux**.
 > - **Trois erreurs de raisonnement** à savoir nommer : variable manquante, confusion des niveaux d'analyse, confusion corrélation / causalité.
@@ -447,12 +447,6 @@ Nationalisations et privatisations : pourquoi les conclusions divergent-elles ? 
 Cite un débat économique du cours ; Les 35 heures · la TVA sur la restauration · les nationalisations et privatisations ; 18C exemple
 ```
 
-**Attribuer**
-
-```
-Deux auteurs de l'individualisme méthodologique ? ; Boudon · Bourdieu ; 18C auteur
-```
-
 **Le travail universitaire — ce qui rapporte les 7 points de biblio**
 
 ```
@@ -495,7 +489,7 @@ Quels choix fait-on en construisant un graphique ? ; Les informations principale
 
 *Méthode de révision, pas du cours.* Le protocole complet et ses chiffres sont dans [[Methode - Comment reviser]].
 
-- **32 cartes** dans le bloc ci-dessus : c'est une fiche courte, tu peux la mettre entière en Anki en une session.
+- **47 cartes** dans le bloc ci-dessus (cette ligne en annonçait encore 32, le compte d'avant les cartes des camarades) : c'est une fiche courte, tu peux la mettre entière en Anki en une session.
 - **Se tester d'abord** : descends au bloc `Contrôle`, réponds à voix haute, ouvre la réponse ensuite. Ne relis pas la fiche avant.
 - **Entrelacer** avec [[Problemes economiques - Chapitre 1 Analyse economique UE 13A]] : les deux traitent le modèle, les hypothèses et la démarche scientifique, en deux vocabulaires différents. Les réviser ensemble révèle ce que tu confonds.
 - **Ce qui tombe** : un écrit d'1 h qui vaut 13 des 20 points, en période 1. Les listes numérotées de cette fiche (trois étapes, quatre intérêts, trois erreurs, quatre règles) sont le format même des questions courtes.
@@ -553,12 +547,12 @@ QCM — **une seule bonne réponse**. Choisis avant d'ouvrir le callout.
 >
 > **a)** — la question est posée à l'envers, par ce qui *échappe* à l'économie, et Levitt sert à montrer que peu de choses y échappent. → [[#1.1 De quoi l'économie s'occupe]]
 
-> [!question]- L'individualisme méthodologique, ce sont les deux termes et les deux auteurs :
+> [!question]- Sous le titre « individualisme méthodologique », le cours a noté deux termes et deux noms :
 > a) offre et demande ; Smith et Ricardo
 > b) acteur et système ; Boudon et Bourdieu
 > c) individu et classe ; Durkheim et Weber
 >
-> **b)** — tes notes hésitent elles-mêmes sur le second nom (« Boudon ? Bourdieu ? »), c'est signalé dans `À vérifier`. → [[#L'individualisme méthodologique]]
+> **b)** — les trois jeux de notes listent les deux noms, sans dire s'ils vont ensemble ou s'opposent : c'est signalé dans `À vérifier`, ne les révise pas comme « deux auteurs du même courant ». → [[#L'individualisme méthodologique]]
 
 > [!question]- Ce qui sépare la microéconomie de la macroéconomie, c'est :
 > a) le niveau d'observation : les agents pris un à un contre les grandeurs d'ensemble
@@ -762,7 +756,8 @@ QCM — **une seule bonne réponse**. Choisis avant d'ouvrir le callout.
 > - **La place du test de la BU dans le barème.** L'examen (13) et la recherche (7) font déjà 20 points : les 1 à 2 points de la BU sont-ils un **bonus** en plus, ou pris dedans ? Tes notes ne le disent pas.
 > - **Le coefficient de l'UE 18C est inconnu.** [[00 - Plan L1 Angers]] donne 11 coef pour les quatre UE de la période 1, et place 18C à la fois dans le cycle 0 et dans le socle transversal — c'est précisément l'incohérence 64/62 signalée dans le hub. Le frontmatter de cette fiche n'a donc **pas** de champ `coef:`.
 > - **« L'inversion à la perte »** : le biais standard s'appelle l'**aversion** à la perte. Je ne corrige pas un terme de cours — vérifie sur la diapo lequel a été dit.
-> - **« Boudon ? Bourdieu ? Bourdon . »** : tu poses toi-même la question au § de l'analyse des questionnaires, et la réponse n'est pas notée. Lequel des deux (ou des trois) ?
+> - **« Boudon ? Bourdieu ? Bourdon . »** : tu poses toi-même la question au § de l'analyse des questionnaires, et la réponse n'est pas notée. Lequel des deux (ou des trois) ? Et sous le titre « individualisme méthodologique », les trois jeux de notes (les tiennes et celles des deux camarades) listent Boudon **et** Bourdieu sans dire leur rapport : d'ordinaire, Boudon incarne ce courant et Bourdieu l'approche opposée, qui part du système. Le prof les a-t-il cités comme alliés ou comme opposés ? La carte « deux auteurs de l'individualisme méthodologique » a été retirée en attendant.
+> - **« Il préfère faire des choses simples plutôt que des choix limités »** (§ 1.2) : la phrase se contredit, puisque la rationalité limitée, c'est justement faire des choix limités. Le mot opposé aux « choses simples » a sans doute été mal noté (optimaux ? compliqués ?) — à vérifier sur la diapo.
 > - **« Et plus trad ? »** : la ligne s'arrête là, sous l'analyse des questionnaires. Plus traditionnellement, quoi ?
 > - **Deux noms de la bibliographie restent à identifier** : « leclerc » et « musso ». Pour les cinq autres j'ai proposé une identification (Tirole, Strauss-Kahn, Duflo, Barre, Piketty) — mais je ne corrige pas un nom d'auteur : confirme la liste sur la diapo.
 > - **« freakonomiks »** : le titre s'écrit habituellement *Freakonomics*. La graphie de tes notes est conservée telle quelle.
