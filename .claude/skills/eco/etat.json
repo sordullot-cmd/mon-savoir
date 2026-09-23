@@ -8,7 +8,7 @@
   "eco gestion/_brut/Problèmes économiques contemporains.md": {
    "fiche": "eco gestion/Problemes economiques - Chapitre 1 Analyse economique UE 13A.md",
    "hash": "9c00625a5650",
-   "integre": "2026-09-22 16:52"
+   "integre": "2026-09-23 05:20"
   },
   "eco gestion/_brut/camarade - Gestion chapitre 1 introduction.md": {
    "fiche": "eco gestion/Gestion - Introduction.md",
@@ -38,12 +38,12 @@
   "eco gestion/_brut/camarade - PEC chapitre 1 (A).md": {
    "fiche": "eco gestion/Problemes economiques - Chapitre 1 Analyse economique UE 13A.md",
    "hash": "10cd2db6f52d",
-   "integre": "2026-09-22 16:52"
+   "integre": "2026-09-23 05:20"
   },
   "eco gestion/_brut/camarade - PEC chapitre 1 (B).md": {
    "fiche": "eco gestion/Problemes economiques - Chapitre 1 Analyse economique UE 13A.md",
    "hash": "09b5c4192940",
-   "integre": "2026-09-22 16:52"
+   "integre": "2026-09-23 05:20"
   },
   "eco gestion/_brut/camarade - PEC chapitre 2 marche du travail (A).md": {
    "fiche": "eco gestion/Problemes economiques - Chapitre 2 Marche du travail UE 13A.md",
@@ -173,10 +173,10 @@
    "statut": "en cours"
   },
   "eco gestion/Problemes economiques - Chapitre 1 Analyse economique UE 13A.md": {
-   "fait": "enrichie des notes de deux camarades sur le même chapitre : formule VA=CA-CI qui lève l'ambiguïté du + de ses notes, contexte des révolutions industrielles ; 2 marques 👥 et bloc de traçabilité",
-   "hash": "7b6e3a846cbd",
-   "mots": 8958,
-   "passage": "2026-09-22 16:52",
+   "fait": "contrôle : la question sur les causes de la consommation cessait d'apprendre que le taux d'intérêt n'en est pas une ; 3 distracteurs rallongés ; 2 cartes hors annale retirées (Gandalf, format de l'épreuve), tag complement ôté de la carte économétrie, cartes: 45 ; doublon « formule de la VA » fusionné dans À vérifier ; bandeau source cite les camarades",
+   "hash": "c408f620b387",
+   "mots": 11111,
+   "passage": "2026-09-23 05:20",
    "source": "_brut/Problèmes économiques contemporains.md",
    "sources": [
     "_brut/Problèmes économiques contemporains.md",

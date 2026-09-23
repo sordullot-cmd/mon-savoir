@@ -13,8 +13,8 @@ ue: 13A
 statut: à faire
 periode: 1
 revu: 2026-09-09
-a_verifier: 16
-cartes: 47
+a_verifier: 15
+cartes: 45
 ajouts: 9
 ---
 
@@ -22,7 +22,7 @@ ajouts: 9
 
 **UE 13A Problèmes économiques contemporains · période 1 ⚠️ · écrit de 2 h en 3 parties**
 🏠 [[00 - Plan L1 Angers]] · 🧠 [[Methode - Comment reviser]]
-📓 Source : tes notes d'amphi, `_brut/Problèmes économiques contemporains.md`
+📓 Source : tes notes d'amphi, `_brut/Problèmes économiques contemporains.md` — et celles de deux camarades sur le même chapitre, marquées 👥
 
 > [!note] Ce qui est du cours, et ce qui ne l'est pas
 > Le corps de la fiche est **le cours** : tes notes d'amphi, mises au propre — orthographe, phrases reconstituées, structure remise d'aplomb. Rien n'y a été reformulé sur le fond.
@@ -454,7 +454,7 @@ Quelle condition rend une expérience scientifique ? ; Elle doit être reproduct
 Groupe test et groupe témoin, la règle ? ; Même composition, sauf que le groupe test reçoit le traitement — une seule cause varie ; eco 13A
 Les 3 types d'expériences ? ; Contrôlées en laboratoire · naturelles · de terrain ; eco 13A
 Expérience naturelle, définition ? ; Celle où l'assignation au groupe test ou témoin tient à un événement politique ou historique ; eco 13A
-Comment réaliser la condition TCEPA, autrement que par l'expérimentation ? ; Par l'économétrie, qui travaille sur des bases de données — pas abordée dans ce cours ; eco 13A complement
+Comment réaliser la condition TCEPA, autrement que par l'expérimentation ? ; Par l'économétrie, qui travaille sur des bases de données — pas abordée dans ce cours ; eco 13A
 ```
 
 **Le mot qui tranche**
@@ -485,7 +485,6 @@ Démolir un bâtiment puis le reconstruire : quel effet sur le PIB ? ; Il AUGMEN
 À qui doit-on la définition de l'économie comme relation entre des fins et des ressources rares ? ; Lionel Robbins, 1932 ; eco 13A auteurs complement
 Qui a appliqué l'analyse économique au mariage, à la délinquance et aux études ? ; Gary Becker, prix Nobel 1992, dans les années 60 ; eco 13A auteurs
 Esther Duflo, pour quoi ? ; Les expériences de terrain en économie de l'éducation — prix Nobel 2019 ; eco 13A auteurs complement
-Qui le prof cite-t-il pour introduire la définition 2 ? ; Gandalf : « tout ce que nous devons décider, c'est quoi faire » ; eco 13A auteurs
 ```
 
 **Un fait par carte**
@@ -497,7 +496,6 @@ Les trois critiques faites aux économistes ? ; La contradiction · les prédict
 Les trois questions de l'économie ? ; Quoi produire · à qui le fournir · comment produire ; eco 13A
 La rareté, de quel côté du marché ? ; Des deux : travail et matières premières côté producteur · contrainte budgétaire côté consommateur ; eco 13A
 Ce que le PIB ne compte pas ? ; Le travail domestique et le bénévolat · la qualité du temps libre et des relations · la qualité de l'environnement ; eco 13A
-Le format de l'épreuve de cette UE ? ; Écrit de 2 h : QCM 30 % · questions de cours courtes 30 % · question de réflexion ; eco 13A methode
 ```
 
 ## 🔄 Comment réviser cette fiche
@@ -564,8 +562,8 @@ Choisis avant d'ouvrir le callout.
 > **b)** — le cours ne nuance pas : c'est de là que vient la deuxième critique faite aux économistes. → [[#1. Que font les économistes ?]]
 
 > [!question]- Parmi ces politiques publiques, celles que le cours cite comme évaluées :
-> a) la politique monétaire de la BCE ; le vote du budget de l'État ; la soutenabilité de la dette publique
-> b) la fixation des prix par l'État ; la création monétaire ; la régulation du commerce extérieur
+> a) la politique monétaire de la BCE ; le vote du budget de l'État ; la dette publique ; la réforme des retraites
+> b) la fixation des prix par l'État ; la création monétaire ; les droits de douane ; le contrôle des loyers
 > c) une hausse du SMIC ; une hausse ou une baisse des impôts ; la réforme du lycée et la réussite à l'université ; le pass Culture
 >
 > **c)** — quatre exemples, tous des politiques dont on peut mesurer l'effet sur des personnes. → [[#1. Que font les économistes ?]]
@@ -718,12 +716,12 @@ Choisis avant d'ouvrir le callout.
 >
 > **a)** — le cas de l'annulation est le plus traître : l'effet ne se voit pas alors que la cause agit. → [[#5. La méthode scientifique : la confrontation au réel]]
 
-> [!question]- Parmi ces causes de variation de la consommation des ménages, laquelle n'est **pas** citée en cours ?
-> a) la météo, pour certaines consommations
-> b) les mesures de confinement
-> c) le taux d'intérêt du crédit
+> [!question]- Parmi ces causes, laquelle le cours donne-t-il pour une variation de la **consommation des ménages** ?
+> a) la prime à la performance
+> b) le niveau des impôts sur le revenu
+> c) une nouvelle organisation du travail
 >
-> **c)** — les cinq causes du cours sont les salaires, les revenus du patrimoine, la météo, les mesures de confinement et le niveau des impôts sur le revenu. → [[#5. La méthode scientifique : la confrontation au réel]]
+> **b)** — a) et c) sont deux causes de l'autre exemple du cours, la variation de **performance au travail**. Pour la consommation : les salaires, les revenus du patrimoine, la météo, le confinement, les impôts sur le revenu. → [[#5. La méthode scientifique : la confrontation au réel]]
 
 > [!question]- Trois causes possibles d'une variation de performance au travail :
 > a) la formation reçue par le salarié ; son ancienneté dans le poste ; son âge et son expérience
@@ -734,8 +732,8 @@ Choisis avant d'ouvrir le callout.
 
 > [!question]- TCEPA signifie, et sert à :
 > a) toutes choses égales par ailleurs — isoler l'effet de chaque cause sur la variation observée
-> b) toutes choses étant par ailleurs annulées — neutraliser les effets contraires
-> c) test comparatif des effets par ajustement — corriger les données
+> b) toutes choses étant par ailleurs annulées — neutraliser les effets contraires entre les causes
+> c) test comparatif des effets par ajustement — corriger les données avant de les interpréter
 >
 > **a)** — c'est la réponse à la difficulté des causes simultanées, pas une technique de calcul. → [[#5. La méthode scientifique : la confrontation au réel]]
 
@@ -864,8 +862,8 @@ Choisis avant d'ouvrir le callout.
 
 > [!question]- Ce que le PIB ne compte pas :
 > a) les échanges non marchands : travail domestique, bénévolat, qualité du temps libre et des relations sociales, environnement
-> b) les services publics et les administrations, puisqu'ils ne vendent rien sur un marché
-> c) les activités des entreprises étrangères implantées sur le territoire national
+> b) les services publics et les administrations, puisqu'ils ne vendent rien sur un marché à un prix fixé par l'offre et la demande
+> c) les activités des entreprises étrangères implantées sur le territoire national, puisque leurs profits repartent à l'étranger
 >
 > **a)** — c) est faux par définition : le PIB se mesure **sur un territoire**, peu importe la nationalité de l'entreprise. → [[#9. Le PIB comme mesure du bien-être]]
 
@@ -951,7 +949,6 @@ Choisis avant d'ouvrir le callout.
 >   **C) Comment le capitalisme améliore le PIB par tête** — deux canaux : le **progrès technique** et la **division du travail**. Avec la notion de **productivité** (production ⁄ quantité de travail) et ses trois conséquences possibles quand elle augmente ; et les **trois sources de gains de productivité d'Adam Smith** liées à la division du travail (habileté, temps morts, mécanisation des tâches simples).
 >   **D) L'expérience naturelle des deux Allemagnes** — RFA capitaliste (groupe témoin) contre RDA planifiée (groupe test) après 1945, le seul facteur qui les distingue étant le système économique : le TCEPA du § 5 appliqué en vrai. Puis **les limites de l'expérience** : une preuve est liée à un contexte géographique et temporel, et le bien-être y est mesuré en PIB par tête.
 >   La dernière diapo était un **« à retenir du chapitre »** : vocabulaire en couleur, les deux définitions de la science économique, l'impérialisme économique, la définition d'un modèle, le raisonnement TCEPA, l'expérimentation avec l'exemple des deux Allemagnes, et la division du travail. **Si ton prof a gardé cette diapo, c'est ta liste de révision.**
-> - **La formule de la valeur ajoutée.** Tu as noté « prix de vente × nombre de produits vendus **+** chiffre d'affaires − les consommations intermédiaires = valeur ajoutée ». Le « + » se lit comme un « = » (prix × quantité **est** le chiffre d'affaires), mais je ne corrige pas une formule : à revoir sur le diaporama.
 > - **Le marché comme institution** : « allouer des **fonctions** à des b&s » — le mot est probablement autre chose (allouer des **ressources** ? fixer des **prix** ?). À reprendre en cours.
 > - **Le poids de la question de réflexion** n'est pas noté : les deux premières parties font 30 % chacune, il reste donc 40 % non attribués dans tes notes. À confirmer.
 > - **Le coefficient de l'UE 13A est inconnu** : la maquette n'est pas dans le vault et [[00 - Plan L1 Angers]] ne donne que le total de la période 1 (11 coef pour quatre UE). Le frontmatter de cette fiche n'a donc **pas** de champ `coef:`. À demander à la scolarité.
