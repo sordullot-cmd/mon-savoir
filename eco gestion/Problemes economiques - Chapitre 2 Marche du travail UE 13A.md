@@ -220,7 +220,7 @@ $$\text{Taux d'emploi} = \frac{\text{Actifs occupés}}{\text{Population en âge 
 Il mesure **à quel point on a effectivement recours** à la main-d'œuvre
 disponible.
 
-> [!warning] L'erreur courante, signalée par le prof
+> [!warning] L'erreur courante
 > $$\text{Taux de chômage} = \frac{\text{Nombre de chômeurs}}{\text{Population active}} \neq \frac{\text{Nombre de chômeurs}}{\text{Population totale}}$$
 > Le second rapport porte un autre nom : c'est la **part de chômage**. Diviser
 > par la population totale donne un chiffre beaucoup plus petit, et faux.
@@ -377,7 +377,6 @@ L'offre de travail vient de qui ? ; Des PERSONNES · côté emploi, c'est une de
 La demande de travail vient de qui ? ; Des EMPLOYEURS · côté emploi, c'est une offre d'emploi ; pec 13A
 Que note-t-on w sur le marché du travail ? ; Le prix du travail, c'est-à-dire le taux de salaire ; pec 13A
 Quelle est la fonction économique du marché du travail ? ; COORDONNER l'offre et la demande de travail ; pec 13A
-Cite les 5 fonctions d'intégration sociale du travail ; Socialisation · accès aux droits sociaux · revenu · organisation du temps · identité sociale ; pec 13A
 Qui est « actif » au sens statistique ? ; Les actifs occupés ET les chômeurs (dits actifs inoccupés) ; pec 13A
 Qu'est-ce qui sépare un chômeur d'un inactif ? ; La RECHERCHE d'emploi, pas l'absence d'emploi ; pec 13A
 La population en âge de travailler, c'est quelle tranche ? ; Les 15-64 ans, par convention statistique ; pec 13A
@@ -386,7 +385,8 @@ Quelle est la source de données de l'INSEE pour le chômage ? ; L'EEC, Enquête
 France Travail publie un chiffre à quelle fréquence ? ; MENSUELLE — l'INSEE publie des chiffres trimestriels ; pec 13A
 Quel seuil d'heures sépare les catégories B et C ? ; 78 heures de travail dans le mois — B en fait 78 ou moins, C davantage ; pec 13A
 Que recouvre la catégorie D de France Travail ? ; Sans emploi et NON tenu de rechercher — stage, maladie, reprise d'études ; pec 13A
-Les 4 critères du chômage au sens du BIT ? ; 15-64 ans · n'a pas travaillé du tout la semaine de référence · a fait des démarches le mois précédent · disponible sous 2 semaines ; pec 13A
+Une personne a travaillé une heure pendant la semaine de référence : est-elle chômeuse au sens du BIT ? ; NON · il faut n'avoir PAS TRAVAILLÉ DU TOUT pendant la semaine de référence ; pec 13A
+Sur quelle période le chômeur BIT doit-il avoir fait des démarches de recherche ? ; Le MOIS PRÉCÉDANT la semaine de référence ; pec 13A
 Sur quelle période porte le critère « n'a pas travaillé » au sens du BIT ? ; La SEMAINE DE RÉFÉRENCE choisie dans le mois d'enquête — pas le mois entier ; pec 13A
 Sous quel délai un chômeur BIT doit-il être disponible ? ; Dans les DEUX SEMAINES ; pec 13A
 Quelle part des chômeurs n'est pas inscrite à France Travail ? ; Près d'un sur quatre ; pec 13A
