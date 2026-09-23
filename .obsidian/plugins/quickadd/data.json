@@ -1,5 +1,36 @@
 {
-  "choices": [],
+  "choices": [
+    {
+      "id": "d669f96e-9c39-43e5-85ed-49be0efe1de6",
+      "name": "Ajouter un livre",
+      "type": "Template",
+      "command": true,
+      "templatePath": "TEMPLATES/Template-Livre.md",
+      "fileNameFormat": {
+        "enabled": true,
+        "format": "{{VALUE:Titre du livre}}"
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [
+          "LIVRES"
+        ],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false,
+        "chooseFromSubfolders": false
+      },
+      "appendLink": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": true,
+      "openFileInMode": "default",
+      "fileExistsMode": "Increment the file name",
+      "setFileExistsBehavior": false
+    }
+  ],
   "inputPrompt": "single-line",
   "persistInputPromptDrafts": true,
   "useSelectionAsCaptureValue": true,
