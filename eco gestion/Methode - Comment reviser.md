@@ -214,9 +214,9 @@ QCM — **une seule bonne réponse**. Choisis avant d'ouvrir le callout.
 > [!question]- Se tester sur un cours qu'on n'a pas encore vu :
 > a) ne sert à rien : sans avoir lu le cours on ne peut pas répondre, et l'échec décourage
 > b) ne sert que si on a déjà lu le plan du cours, pour savoir de quoi il va être question
-> c) sert : l'échec focalise l'attention sur les concepts pré-testés et crée une curiosité qui donne un but à la lecture
+> c) sert : l'échec focalise l'attention et donne un but à la lecture qui suit
 >
-> **c)** — à une condition : étudier les bonnes réponses ensuite. → [[#🎯 Le pretesting — se tester avant d'apprendre]]
+> **c)** — l'échec focalise l'attention sur les concepts pré-testés et crée une curiosité, à une condition : étudier les bonnes réponses ensuite. → [[#🎯 Le pretesting — se tester avant d'apprendre]]
 
 > [!question]- Trois semaines avant une épreuve, tu revois la fiche :
 > a) trois soirs d'affilée, la semaine qui précède
