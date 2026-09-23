@@ -9,6 +9,7 @@ debut:
 fin:
 note:            # sur 5, une fois lu
 recommande_par:
+couverture:      # une image du vault (nom du fichier) ou une URL
 tags: [livre]
 ---
 
