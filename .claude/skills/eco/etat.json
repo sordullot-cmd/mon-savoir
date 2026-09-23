@@ -48,12 +48,12 @@
   "eco gestion/_brut/camarade - PEC chapitre 2 marche du travail (A).md": {
    "fiche": "eco gestion/Problemes economiques - Chapitre 2 Marche du travail UE 13A.md",
    "hash": "c23c0b92d983",
-   "integre": "2026-09-23 06:18"
+   "integre": "2026-09-23 09:53"
   },
   "eco gestion/_brut/camarade - PEC chapitre 2 marche du travail (B).md": {
    "fiche": "eco gestion/Problemes economiques - Chapitre 2 Marche du travail UE 13A.md",
    "hash": "3a71bbad991f",
-   "integre": "2026-09-23 06:18"
+   "integre": "2026-09-23 09:53"
   },
   "eco gestion/_brut/gestion.md": {
    "fiche": "eco gestion/Gestion - Introduction.md",
@@ -186,10 +186,10 @@
    "statut": "à faire"
   },
   "eco gestion/Problemes economiques - Chapitre 2 Marche du travail UE 13A.md": {
-   "fait": "repasse après les commits QCM : deux cartes-listes (5 fonctions, 4 critères BIT) remplacées par deux cartes de grain fin, 24 cartes, marque « signalée par le prof » retirée",
-   "hash": "ebad77177083",
-   "mots": 4879,
-   "passage": "2026-09-23 06:18",
+   "fait": "notes d'amphi de Sacha (2.4 PCS, 3 theories neoclassique/keynesienne, 4-4.1 SMIC) integrees en fiche : bandeau recadre, 16 cartes, 13 QCM, 3 ajouts, A verifier refait (14)",
+   "hash": "1746578e4445",
+   "mots": 7819,
+   "passage": "2026-09-23 09:53",
    "source": "_brut/camarade - PEC chapitre 2 marche du travail (A).md",
    "sources": [
     "_brut/camarade - PEC chapitre 2 marche du travail (A).md",

@@ -11,10 +11,10 @@ notion: Marché du travail, emploi et chômage — offre et demande de travail, 
 ue: 13A
 statut: à faire
 periode: 1
-revu: 2026-09-22
-a_verifier: 7
-cartes: 24
-ajouts: 4
+revu: 2026-09-23
+a_verifier: 14
+cartes: 40
+ajouts: 7
 ---
 
 # 📕 Cours — Marché du travail, emploi et chômage (UE 13A, chapitre 2)
@@ -23,13 +23,16 @@ ajouts: 4
 🏠 [[00 - Plan L1 Angers]] · 🧠 [[Methode - Comment reviser]]
 📖 Chapitre précédent : [[Problemes economiques - Chapitre 1 Analyse economique UE 13A]]
 
-> [!warning] Séance manquée — fiche bâtie sur les notes de tes camarades
-> Tu n'étais pas en amphi ce jour-là. **Tout ce qui suit vient des notes de deux
-> camarades** (`_brut/camarade - PEC chapitre 2 …`), pas des tiennes ni des
-> slides de cette année. C'est bien le cours de 2026-2027, avec le même prof —
-> mais pris de seconde main.
-> **Les deux versions concordent** sur l'essentiel, ce qui est plutôt bon signe.
-> Confronte-la quand même aux slides dès qu'elles sont sur Moodle : c'est le seul
+> [!warning] Séance manquée — les parties 1 à 2.3 viennent des notes de tes camarades
+> Tu n'étais pas en amphi pour le début du chapitre. **L'introduction et les
+> sections 1 à 2.3 viennent des notes de deux camarades**
+> (`_brut/camarade - PEC chapitre 2 …`), pas des tiennes ni des slides de cette
+> année. C'est bien le cours de 2026-2027, avec le même prof — mais pris de
+> seconde main. **Les deux versions concordent** sur l'essentiel, ce qui est
+> plutôt bon signe.
+> **À partir du 2.4 (les PCS), ce sont tes propres notes** : les approches
+> théoriques et le salaire minimum, tu les as prises toi-même.
+> Confronte le tout aux slides dès qu'elles sont sur Moodle : c'est le seul
 > moyen de trancher ce qui reste en suspens plus bas.
 
 > [!abstract] L'essentiel
@@ -38,14 +41,15 @@ ajouts: 4
 >   offrent un emploi) — les deux mots sont inversés par rapport à l'intuition.
 > - Le chômage se mesure de **deux façons** qui ne donnent pas le même chiffre :
 >   France Travail (administrative, mensuelle, catégories A à D) et l'INSEE au
->   sens du BIT (statistique, trimestrielle, trois critères cumulatifs).
-> - Trois indicateurs, trois dénominateurs différents : **taux de chômage**
->   (/population active), **taux de participation** et **taux d'emploi**
->   (/population en âge de travailler).
-> - L'erreur classique : diviser les chômeurs par la **population totale** — ça,
->   c'est la *part* de chômage, pas le *taux*.
+>   sens du BIT (statistique, trimestrielle, critères cumulatifs).
+> - Trois indicateurs, deux dénominateurs : **taux de chômage** (/population
+>   active), **taux de participation** et **taux d'emploi** (/population en âge
+>   de travailler) — diviser par la population totale donne la *part* de chômage.
 > - Face au chômage, on n'est pas égaux : le **diplôme** protège surtout au
 >   début, puis l'**expérience** prend le relais.
+> - Deux théories : pour les **néoclassiques** le chômage est **volontaire**, et
+>   un SMIC au-dessus de w\* crée du chômage ; pour **Keynes** il est
+>   **involontaire**, faute de **demande effective**.
 
 ---
 
@@ -68,11 +72,11 @@ ajouts: 4
 5. L'impact des allocations chômage sur le marché
 6. L'impact de l'immigration sur le marché
 
-> [!danger] Cette fiche ne couvre que les parties 1 et 2
-> Les notes de tes camarades s'arrêtent aux inégalités face au chômage. **Les
-> parties 3 à 6 — les théories du chômage, le SMIC, les allocations,
-> l'immigration — ne sont pas ici**, et elles pèsent lourd : ce sont elles qui
-> portent les mécanismes, donc la question de réflexion. Récupère ces séances.
+> [!danger] Cette fiche s'arrête au 4.1
+> Tes notes vont jusqu'à l'**analyse néoclassique du salaire minimum**. **La
+> suite de la partie 4, et les parties 5 et 6 — les allocations chômage,
+> l'immigration — ne sont pas ici.** Récupère ces séances : elles portent des
+> mécanismes, donc de quoi nourrir la question de réflexion.
 
 ---
 
@@ -320,6 +324,165 @@ en mode projet**
 - des périodes de chômage plus fréquentes
 - une sensibilité plus forte aux variations de l'activité économique
 
+### 2.4 Les caractéristiques des chômeurs — selon la PCS
+
+On suit l'**évolution du taux de chômage selon les professions et catégories
+socioprofessionnelles (PCS)**, la nomenclature de l'INSEE. Plusieurs niveaux de
+catégorisation existent dans cette nomenclature : niveaux de diplôme et niveau
+de revenu.
+
+Le triangle de la slide emboîte les niveaux de la nomenclature : 6 groupes
+socioprofessionnels, 29 catégories, 121 professions regroupées, 311 professions. ➕
+
+Les **6 groupes socioprofessionnels** :
+
+1. agriculteurs exploitants
+2. artisans, commerçants et chefs d'entreprise
+3. cadres supérieurs et professions intellectuelles
+4. professions intermédiaires
+5. employés
+6. ouvriers
+
+**Le diplôme a un lien avec le chômage** : c'est ce que montre le second
+graphique de la slide, l'évolution du taux de chômage selon la PCS.
+
+---
+
+## 3. Principales approches théoriques du marché du travail
+
+Deux modèles, et il faut **savoir expliquer les deux**.
+
+### 3.1 L'approche néoclassique
+
+Le modèle part d'**hypothèses préalables** — à ne pas confondre avec les
+hypothèses, ou prédictions, **testables** de la démarche vue au
+[[Problemes economiques - Chapitre 1 Analyse economique UE 13A|chapitre 1]].
+
+**Hypothèse 1 — la concurrence pure et parfaite (CPP)**, qui réunit cinq
+conditions :
+
+- **atomicité** — beaucoup de personnes offrent et demandent du travail
+- **homogénéité** — une heure de travail équivaut à la même chose pour tout le
+  monde : le travail est le même pour tous
+- **information parfaite** — le marché est transparent
+- **pas de barrière à l'entrée ni à la sortie** — aucun coût pour entrer sur le
+  marché ou en sortir
+- **mobilité parfaite** — la géographie n'est pas un problème, on peut changer
+  de secteur
+
+Ces hypothèses **ne sont pas réalistes**, voire fausses.
+
+**Hypothèse 2 — des agents rationnels** (*homo œconomicus*) : ils font des
+calculs **coûts / avantages**.
+
+#### L'offre de travail — du côté des ménages
+
+- le ménage **arbitre entre le travail et le loisir**
+- quand **w augmente**, il est incité à travailler plus, au détriment du loisir
+  (toutes choses égales par ailleurs)
+- il en résulte une **offre de travail croissante avec w** ➕
+
+#### La demande de travail — du côté des entreprises
+
+> La **productivité marginale du travail (Pm)** est la valeur de ce que produit
+> une unité de travail **supplémentaire** dans l'entreprise.
+
+- l'employeur **arbitre entre w et la productivité marginale** du travail
+- **si w > Pm, l'employeur cesse d'embaucher**
+- à mesure que w baisse, on peut recruter des personnes de moins en moins
+  productives ; quand w est élevé, leur productivité doit être supérieure à
+  celle des autres : salaire élevé = bonne productivité, salaire bas = moins
+  bonne productivité
+- d'où une **demande de travail décroissante avec w**
+
+#### L'équilibre — et un chômage volontaire
+
+- le **croisement de l'offre (O) et de la demande (D)** détermine le salaire
+  d'équilibre **w\*** et la quantité de travail **L\*** — c'est le schéma du
+  [[#1.1 Le marché du travail|1.1]]
+- tous les actifs qui souhaitent travailler pour le salaire w\* occupent un
+  emploi
+
+**Le chômage est donc volontaire** dans cette conception : il y a chômage
+volontaire lorsque le **salaire de réserve** (le salaire qu'attend celui qui
+demande un emploi) est **supérieur au salaire d'équilibre**.
+
+### 3.2 L'approche keynésienne — demande effective et chômage
+
+Deux caractéristiques de la pensée de Keynes :
+
+- un raisonnement **à court terme**, dans un **contexte de crise**
+- un raisonnement **en économie fermée**
+
+**Tout part du côté de la demande : le rôle de la demande effective.** Si la
+demande de biens et services (B&S) augmente, l'entreprise augmente sa
+production.
+
+La chaîne de la slide, dans l'ordre :
+
+1. **la consommation** : **C = cR** — R le revenu, c la propension moyenne à
+   consommer
+2. **l'investissement** : son niveau dépend du **taux d'intérêt** et de la
+   **rentabilité anticipée** d'un investissement
+3. consommation et investissement fixent le **niveau de la demande effective**
+4. … qui fixe le **niveau de la production** de B&S
+5. … qui fixe le **niveau de l'emploi** — la demande de travail
+6. face à la **population active** (l'offre de travail), l'écart est le
+   **chômage**
+
+Ce chômage est **involontaire** : les individus souhaitent travailler au niveau
+de salaire, mais **la demande de travail est insuffisante**.
+
+### Synthèse de la section 3
+
+Deux modèles théoriques expliquent le marché du travail :
+
+| | Approche néoclassique | Approche keynésienne |
+| --- | --- | --- |
+| Centrée sur | l'**offre** de travail | la **demande** de travail |
+| Cadre | CPP, agents rationnels | court terme, crise, économie fermée |
+| Le chômage est | **volontaire** — salaire de réserve > w\* | **involontaire** — demande de travail insuffisante |
+
+---
+
+## 4. L'effet du salaire minimum
+
+- **Apparu à des périodes différentes** selon les pays : France (1950),
+  Royaume-Uni (1999), Allemagne (2015)
+- **Objectif initial** : inciter au travail
+- **Question récurrente** : quel(s) effet(s) sur l'emploi ? Est-il trop haut ou
+  trop bas ?
+
+### 4.1 Analyse à travers la théorie néoclassique
+
+- **SMIC** = Salaire Minimum Interprofessionnel de Croissance ➕
+- 11,88 € brut en septembre 2025, soit 9,4 € net et 1426 € nets mensuels
+
+Du point de vue économique, le **SMIC est un prix plancher** :
+
+- **s'il est moins élevé que w\*** : aucun effet
+- **s'il est plus élevé que w\*** : **Lo > Ld**, une situation de déséquilibre —
+  un **excédent** d'offre de travail. Cet écart, c'est le **chômage classique**.
+
+Sur le graphique : beaucoup de personnes souhaitent travailler pour 12,31 € —
+c'est le niveau **Lo**. **Mais** ce salaire est trop élevé pour une partie des
+entreprises : elles n'embauchent que les travailleurs **les plus productifs** —
+le niveau **Ld**.
+
+**L'instauration du salaire minimum au-dessus de w\* produit une augmentation du
+chômage.**
+
+Bien que simpliste, cette réglementation et son interprétation néoclassique
+expliquent :
+
+- **l'existence ou non de certains types d'emplois** (peu qualifiés, peu
+  productifs) dans les pays où il n'y a pas de salaire minimum — *ex. France et
+  États-Unis : France 12 €, USA 4 € ; il y a des emplois qui existent aux
+  États-Unis et pas en France, comme les personnes qui rangent vos courses pour
+  vous*
+- pour les économistes néoclassiques, c'est aussi **l'explication d'un chômage
+  durable**
+
 ---
 
 ## 🔁 À ne pas confondre
@@ -343,6 +506,15 @@ en mode projet**
 | | |
 | **France Travail** | administratif · **mensuel** · source **DEFM** · recensement des inscrits |
 | **INSEE / BIT** | statistique · **trimestriel** · source **EEC** · estimation par enquête |
+| | |
+| **Chômage volontaire** — néoclassiques | le salaire de réserve est **supérieur** à w\* |
+| **Chômage involontaire** — Keynes | on veut travailler au salaire en vigueur, mais la **demande de travail est insuffisante** |
+| | |
+| **Hypothèses préalables** (CPP, rationalité) | le point de départ du modèle — elles ne sont pas réalistes |
+| **Hypothèses testables** | les prédictions qu'on confronte aux données (chapitre 1) |
+| | |
+| **Lo** | au salaire minimum, ceux qui **veulent travailler** |
+| **Ld** | au salaire minimum, ceux que les entreprises **embauchent** — les plus productifs |
 
 ---
 
@@ -396,6 +568,22 @@ Taux d'emploi = … ; Actifs occupés ÷ population EN ÂGE DE TRAVAILLER ; pec 
 Chômeurs ÷ population totale, ça s'appelle comment ? ; La PART de chômage — surtout pas le taux de chômage ; pec 13A
 Que mesure le taux de chômage, et pourquoi n'est-il jamais nul ? ; La performance du marché du travail à allouer le travail · il reste toujours des personnes entre deux emplois ; pec 13A
 Pourquoi le taux de chômage des 15-24 ans est-il mécaniquement élevé ? ; 60 % d'entre eux sont inactifs, donc la population active au dénominateur est petite ; pec 13A
+Combien de groupes socioprofessionnels compte la nomenclature des PCS ? ; 6 ; pec 13A
+En CPP, que signifie l'hypothèse d'homogénéité du travail ? ; Une heure de travail équivaut à la MÊME CHOSE pour tout le monde ; pec 13A
+Dans l'offre de travail néoclassique, le ménage arbitre entre quoi et quoi ? ; Entre le TRAVAIL et le LOISIR ; pec 13A
+Qu'est-ce que la productivité marginale du travail ? ; La valeur de ce que produit une unité de travail SUPPLÉMENTAIRE dans l'entreprise ; pec 13A
+Dans le modèle néoclassique, quand l'employeur cesse-t-il d'embaucher ? ; Quand w > Pm · le salaire dépasse la productivité marginale du travail ; pec 13A
+La demande de travail néoclassique est-elle croissante ou décroissante avec w ? ; DÉCROISSANTE · plus w baisse, plus on peut embaucher des personnes moins productives ; pec 13A
+Pour les néoclassiques, quand y a-t-il chômage volontaire ? ; Quand le SALAIRE DE RÉSERVE est supérieur au salaire d'équilibre w* ; pec 13A
+Keynes raisonne à quel horizon, et dans quelle économie ? ; À COURT TERME, en économie FERMÉE ; pec 13A
+Chez Keynes, C = … ; c × R · la propension moyenne à consommer multipliée par le revenu ; pec 13A
+Chez Keynes, de quoi dépend le niveau de l'investissement ? ; Du TAUX D'INTÉRÊT et de la RENTABILITÉ ANTICIPÉE de l'investissement ; pec 13A
+Chez Keynes, qu'est-ce qui fixe le niveau de l'emploi ? ; La DEMANDE EFFECTIVE, via le niveau de production de B&S ; pec 13A
+Pourquoi le chômage keynésien est-il dit involontaire ? ; Les individus veulent travailler au salaire en vigueur, mais la DEMANDE DE TRAVAIL est insuffisante ; pec 13A
+En quelle année le salaire minimum apparaît-il en France ? ; 1950 ; pec 13A
+Quel était l'objectif initial du salaire minimum ? ; INCITER au travail ; pec 13A
+Que signifie le sigle SMIC ? ; Salaire Minimum INTERPROFESSIONNEL de Croissance ; pec 13A complement
+Selon les néoclassiques, un SMIC fixé sous w* a quel effet ? ; AUCUN · le prix plancher ne s'applique pas ; pec 13A
 
 ---
 
@@ -403,16 +591,21 @@ Pourquoi le taux de chômage des 15-24 ans est-il mécaniquement élevé ? ; 60 
 
 *Méthode de révision, pas du cours — voir [[Methode - Comment reviser]].*
 
-- **24 cartes**, dont la moitié sur les définitions et les formules : c'est le
-  cœur du QCM. Fais-les en deux sessions plutôt qu'une.
+- **40 cartes** — les 24 des parties 1 et 2, puis 16 sur les théories et le
+  SMIC. En trois sessions plutôt qu'une : les concepts et les mesures (1.1 à
+  1.4), puis les inégalités, puis les théories et le SMIC.
 - **Le bloc Méthode se révise le crayon à la main**, pas en le relisant :
   reprends le tableau Norvège/Espagne en masquant les trois dernières lignes et
   recalcule-les.
+- **Les deux théories s'apprennent côte à côte** : explique-les à voix haute,
+  l'une après l'autre, en partant du tableau de synthèse — c'est ce que la
+  question de réflexion demandera.
 - **Entrelace avec le chapitre 1** ([[Problemes economiques - Chapitre 1 Analyse economique UE 13A]]) :
   ce chapitre-ci est l'application directe de la démarche du chapitre 1 — des
   faits stylisés d'abord, les théories ensuite.
 - **Trois schémas à refaire de mémoire, feuille blanche.** Celui des populations
-  emboîtées d'abord : il redonne les trois formules.
+  emboîtées d'abord : il redonne les trois formules. Puis le croisement offre /
+  demande, que tu réutilises pour placer un SMIC au-dessus de w\*.
 - **Ce qui rapporte** : les définitions et les formules tombent au QCM et en
   question de cours ; l'analyse de tableau est un exercice à part entière —
   c'est exactement le bloc Méthode.
@@ -423,6 +616,8 @@ Pourquoi le taux de chômage des 15-24 ans est-il mécaniquement élevé ? ; 60 
 
 QCM — **une seule bonne réponse**, comme dans la première partie de l'épreuve.
 Choisis avant d'ouvrir le callout.
+
+**Les concepts et les mesures**
 
 > [!question]- Une personne offre son travail. Elle est donc :
 > a) du côté de l'offre de travail, et elle demande un emploi
@@ -452,13 +647,6 @@ Choisis avant d'ouvrir le callout.
 >
 > **a)** — près d'un chômeur sur quatre n'est pas inscrit, et **moins de la moitié** des inscrits en catégorie A sont chômeurs au sens du BIT. Les deux mesures ne se corrigent donc pas l'une l'autre. → [[#Pourquoi les deux chiffres divergent]]
 
-> [!question]- Un jeune de 20 ans en licence est :
-> a) chômeur, puisqu'il est sans emploi
-> b) actif occupé, ses études comptant comme une activité
-> c) inactif : il n'a pas d'emploi et n'en cherche pas
->
-> **c)** — c'est ce qui explique que **60 % des 15-24 ans** soient inactifs, et pourquoi leur taux de chômage est mécaniquement élevé : la population active sert de dénominateur. → [[#2.3 Selon l'âge — pourquoi les 15-24 ans ?]]
-
 > [!question]- Ce qui sépare la catégorie B de la catégorie C à France Travail :
 > a) la catégorie B est sans activité, la C en activité réduite
 > b) le volume de travail dans le mois : 78 heures ou moins en B, plus de 78 heures en C
@@ -466,12 +654,109 @@ Choisis avant d'ouvrir le callout.
 >
 > **b)** — dans les deux cas la personne est demandeuse d'emploi **et** tenue de faire des recherches : c'est ce qui élimine c). → [[#A) L'approche administrative — le chômage au sens de France Travail]]
 
+**Les inégalités face au chômage**
+
+> [!question]- Un jeune de 20 ans en licence est :
+> a) chômeur, puisqu'il est sans emploi
+> b) actif occupé, ses études comptant comme une activité
+> c) inactif : il n'a pas d'emploi et n'en cherche pas
+>
+> **c)** — c'est ce qui explique que **60 % des 15-24 ans** soient inactifs, et pourquoi leur taux de chômage est mécaniquement élevé : la population active sert de dénominateur. → [[#2.3 Selon l'âge — pourquoi les 15-24 ans ?]]
+
 > [!question]- Diplôme ou expérience : qu'est-ce qui protège le plus du chômage ?
 > a) le diplôme, et son avantage se maintient identique tout au long de la carrière
 > b) l'expérience seule : le diplôme ne joue pas sur le taux de chômage, même à la sortie d'études
 > c) les deux, mais pas au même moment de la carrière
 >
 > **c)** — le diplôme joue fortement à la sortie de formation : **5 %** de chômage chez les plus diplômés contre **15 %** chez les sans-diplôme. Puis son avantage est **progressivement remplacé par l'expérience**, autour de **7,5 %**. L'écart ne disparaît pas : il change de cause. Plus la sortie d'études est ancienne, plus le taux baisse. → [[#2.2 Selon le diplôme et l'ancienneté de la sortie de formation]]
+
+> [!question]- Laquelle de ces listes donne les groupes socioprofessionnels des PCS ?
+> a) agriculteurs exploitants · artisans, commerçants et chefs d'entreprise · cadres supérieurs et professions intellectuelles · professions intermédiaires · employés · ouvriers
+> b) agriculteurs exploitants · artisans, commerçants et chefs d'entreprise · cadres supérieurs et professions intellectuelles · employés · ouvriers · chômeurs
+> c) artisans, commerçants et chefs d'entreprise · cadres supérieurs et professions intellectuelles · professions intermédiaires · employés · ouvriers · retraités
+>
+> **a)** — six groupes, tous définis par une **profession** : les chômeurs et les retraités de b) et c) n'en forment pas un, et chaque liste fausse a perdu un groupe (les professions intermédiaires, les agriculteurs). → [[#2.4 Les caractéristiques des chômeurs — selon la PCS]]
+
+**Les approches théoriques**
+
+> [!question]- Dans le modèle néoclassique, la concurrence pure et parfaite est :
+> a) une prédiction testable, qu'on confronte aux données
+> b) une hypothèse préalable du modèle, qui n'est pas réaliste
+> c) un fait stylisé, observé sur le marché du travail
+>
+> **b)** — c'est le point de départ du modèle, pas ce qu'il cherche à vérifier. Les hypothèses testables sont celles de la démarche du chapitre 1 ; les faits stylisés sont ceux de la partie 2. → [[#3.1 L'approche néoclassique]]
+
+> [!question]- Toutes choses égales par ailleurs, quand w augmente, le ménage néoclassique :
+> a) travaille moins, parce qu'il atteint plus vite le revenu qu'il vise
+> b) garde le même temps de travail : l'arbitrage ne dépend pas du salaire
+> c) travaille plus, au détriment du loisir
+>
+> **c)** — il arbitre entre travail et loisir, et un salaire plus élevé rend le loisir plus coûteux. → [[#L'offre de travail — du côté des ménages]]
+
+> [!question]- L'employeur néoclassique cesse d'embaucher quand :
+> a) le salaire dépasse la productivité marginale du travail (w > Pm)
+> b) la productivité marginale dépasse le salaire (Pm > w)
+> c) le salaire atteint le salaire de réserve des candidats
+>
+> **a)** — tant qu'une unité de travail supplémentaire rapporte plus qu'elle ne coûte, il embauche ; au-delà, il s'arrête. D'où une demande de travail **décroissante** avec w. → [[#La demande de travail — du côté des entreprises]]
+
+> [!question]- Pour les néoclassiques, le chômage est :
+> a) involontaire : la demande de travail est insuffisante
+> b) volontaire : le salaire d'équilibre dépasse le salaire de réserve
+> c) volontaire : le salaire de réserve dépasse le salaire d'équilibre
+>
+> **c)** — à l'équilibre, tous ceux qui veulent travailler pour w\* ont un emploi : ne restent sans emploi que ceux qui attendent davantage. a) est le chômage keynésien, b) inverse les deux salaires. → [[#L'équilibre — et un chômage volontaire]]
+
+> [!question]- Le raisonnement de Keynes se place :
+> a) à long terme, en économie ouverte
+> b) à court terme, en économie fermée, dans un contexte de crise
+> c) à court terme, en économie ouverte, en période de croissance
+>
+> **b)** — les deux caractéristiques de sa pensée données par le cours. → [[#3.2 L'approche keynésienne — demande effective et chômage]]
+
+> [!question]- Dans C = cR, la lettre c désigne :
+> a) la propension moyenne à consommer
+> b) le niveau de la consommation
+> c) le coût du travail
+>
+> **a)** — C est le niveau de la consommation, R le revenu, c la part du revenu consommée. → [[#3.2 L'approche keynésienne — demande effective et chômage]]
+
+> [!question]- Chez Keynes, ce qui fixe le niveau de l'emploi, c'est :
+> a) le salaire d'équilibre w\*, au croisement de l'offre et de la demande
+> b) la taille de la population active
+> c) la demande effective, qui fixe le niveau de production de B&S
+>
+> **c)** — consommation et investissement donnent la demande effective, qui donne la production, qui donne l'emploi. La population active n'intervient qu'à la fin, pour mesurer le chômage. → [[#3.2 L'approche keynésienne — demande effective et chômage]]
+
+> [!question]- Des deux approches, laquelle est centrée sur la demande de travail ?
+> a) l'approche néoclassique
+> b) l'approche keynésienne
+> c) les deux, à parts égales
+>
+> **b)** — le modèle néoclassique est centré sur l'offre de travail, le modèle keynésien sur la demande. → [[#Synthèse de la section 3]]
+
+**Le salaire minimum**
+
+> [!question]- Le salaire minimum apparaît en France en :
+> a) 1950
+> b) 1999
+> c) 2015
+>
+> **a)** — 1999 est la date du Royaume-Uni, 2015 celle de l'Allemagne. → [[#4. L'effet du salaire minimum]]
+
+> [!question]- Pour les néoclassiques, un SMIC fixé au-dessus de w\* entraîne :
+> a) aucun effet, puisque le marché s'équilibre de lui-même
+> b) Lo > Ld : un excédent d'offre de travail, le chômage classique
+> c) Ld > Lo : les entreprises manquent de main-d'œuvre
+>
+> **b)** — beaucoup veulent travailler à ce salaire (Lo), les entreprises n'embauchent que les plus productifs (Ld). « Aucun effet », c'est le cas d'un SMIC **sous** w\*. → [[#4.1 Analyse à travers la théorie néoclassique]]
+
+> [!question]- Selon l'analyse néoclassique, l'absence de salaire minimum explique :
+> a) l'existence d'emplois peu qualifiés et peu productifs qu'on ne trouve pas ailleurs
+> b) un chômage plus durable que dans les pays qui en ont un
+> c) la disparition des emplois peu qualifiés
+>
+> **a)** — l'exemple du cours : aux États-Unis, des personnes rangent vos courses, un emploi qui n'existe pas en France. Le chômage durable, lui, est expliqué **par** le salaire minimum, pas par son absence. → [[#4.1 Analyse à travers la théorie néoclassique]]
 
 ---
 
@@ -509,16 +794,38 @@ Choisis avant d'ouvrir le callout.
 ## À vérifier / à récupérer
 
 > [!question] À vérifier
-> - **Les parties 3 à 6 du chapitre manquent entièrement** — approches
->   théoriques du chômage, SMIC, allocations chômage, immigration. Le plan du
->   prof les annonce, les notes de tes camarades s'arrêtent avant. Ce sont
->   probablement les séances suivantes : récupère-les, c'est là que sont les
->   mécanismes.
-> - **Le diaporama 25-26 a quatre slides que tes camarades n'ont pas notées** :
->   le chômage selon la **durée** du chômage, selon les **PCS** (avec la
->   nomenclature INSEE : 6 groupes socioprofessionnels, 29 catégories, 121
->   professions regroupées, 311 professions), et selon les **territoires** (2021).
->   Le prof les a-t-il gardées cette année ? Elles ne sont pas dans la fiche.
+> - **Ce qui manque du chapitre** : tes notes s'arrêtent au 4.1 (l'analyse
+>   néoclassique du SMIC). Y a-t-il une suite à la partie 4 — une autre analyse
+>   du salaire minimum ? Et les parties 5 (allocations chômage) et 6
+>   (immigration) du plan ne sont notées nulle part.
+> - **Le diaporama 25-26 a deux thèmes que personne n'a notés** : le chômage
+>   selon la **durée** du chômage, et selon les **territoires** (2021). Le prof
+>   les a-t-il gardés cette année ?
+> - **Les niveaux de la nomenclature PCS** : tu as noté « niveaux de diplôme et
+>   niveau de revenu » ; le triangle du diaporama 25-26 emboîte 6 groupes, 29
+>   catégories, 121 professions regroupées et 311 professions. Que disait la
+>   slide de cette année ?
+> - **Les deux graphiques du 2.4** (« graph diapo ») ne sont pas décrits :
+>   quelles PCS ont le taux de chômage le plus haut, le plus bas ? À relever sur
+>   la slide — c'est de l'analyse de graphique, un format de l'épreuve.
+> - **« il en résulte … » (offre de travail, 3.1)** : ta phrase s'arrête là, en
+>   renvoyant au graphique. Elle est complétée par « une offre de travail
+>   croissante avec w » — à confirmer.
+> - **« chacun … » (synthèse de la section 3)** : phrase interrompue, la fin
+>   manque.
+> - **Deux valeurs du SMIC** : 11,88 € brut « en septembre 2025 », puis 12,31 €
+>   dans le commentaire du graphique. La date de 2025 laisse penser à une slide
+>   de l'an dernier : quelle est la valeur de 2026-2027 ?
+> - **« France 12e, USA 4e »** : noté sans unité ni source — lu comme 12 € et
+>   4 € de l'heure, à confirmer sur la slide.
+> - **Les parties 3 et 4 n'ont pas été confrontées au diaporama 25-26 (partie
+>   2)** : le passage automatique n'a pas pu l'ouvrir. Elles reposent sur tes
+>   seules notes.
+> - **Des passages de tes notes semblent recopiés d'une slide** (« 3.2
+>   L'approche keynésienne : demande effective et chômage 6 », le texte du
+>   4.1) : si tu as ce PDF, dépose-le dans `eco gestion/fichier/` — il
+>   trancherait tout ce qui précède, et le graphique du SMIC pourrait être
+>   découpé.
 > - **Les chiffres des deux tableaux** (pays A/B, Norvège/Espagne) viennent du
 >   diaporama **25-26**, pas des notes de cette année : à confronter aux slides
 >   de 2026-2027 avant de les apprendre. La **méthode de calcul**, elle, ne
@@ -531,16 +838,14 @@ Choisis avant d'ouvrir le callout.
 >   L'année exacte du rattrapage est à confirmer.
 > - **Le coefficient de l'UE 13A** n'est toujours pas renseigné dans
 >   [[00 - Plan L1 Angers]] — à relever sur la maquette `26-27_Maquette_L1_EG.xlsx`.
-> - **Les slides de cette année** ne sont pas dans `eco gestion/fichier/`. Dès
->   qu'elles sont sur Moodle, cette fiche doit être reprise : elles seules
->   tranchent ce qui précède.
 
 ---
 
-## Ce que j'ai complété (4)
+## Ce que j'ai complété (7)
 
-Le plus vert en tête de ligne marque ce qui **ne vient pas des notes de tes
-camarades**, mais du diaporama du même prof en 25-26.
+Le plus vert en tête de ligne marque ce qui **ne vient pas de tes notes ni de
+celles de tes camarades**. Les cinq premiers viennent du diaporama du même prof
+en 25-26 ; les deux derniers sont du savoir standard, sans source du cours.
 
 1. **§ 1.1** — les repères **L\*** et **w\*** sur le schéma offre/demande : les
    notes donnaient L et w sans marquer le point d'équilibre.
@@ -552,3 +857,11 @@ camarades**, mais du diaporama du même prof en 25-26.
 4. **§ 2.3** — la phrase qui explique *pourquoi* 60 % d'inactifs fait monter le
    taux de chômage des jeunes : la population active sert de dénominateur. Les
    notes donnaient le chiffre sans le mécanisme.
+5. **§ 2.4** — les niveaux emboîtés du triangle des PCS (groupes, catégories,
+   professions regroupées, professions) : tu notais « graph diapo (triangle) »
+   sans son contenu. Relevés sur le diaporama 25-26 par un passage précédent.
+6. **§ 3.1** — la fin de la phrase « il en résulte … » : **une offre de travail
+   croissante avec w**, le pendant de la demande décroissante que tu as notée.
+7. **§ 4.1** — le mot **« Interprofessionnel »** dans le développé du sigle
+   SMIC : tu avais noté « Salaire Minimum de Croissance ». La carte qui en sort
+   est taguée `complement`.
