@@ -7,6 +7,7 @@ tags:
 source:
   - _brut/gestion.md
   - _brut/camarade - Gestion chapitre 1 introduction.md
+  - _brut/camarade - Gestion chapitre 1 introduction (B).md
 slides: IG_Seance1-2_MAJ__2026.pdf
 enseignant: Carole Vigeant
 notion: Introduction à la gestion — organisations, stratégie, classements, contextes
@@ -14,10 +15,10 @@ ue: 12A
 statut: à faire
 coef: 3
 periode: 1
-revu: 2026-09-23
+revu: 2026-09-28
 a_verifier: 8
 cartes: 67
-ajouts: 29
+ajouts: 28
 ---
 
 # 💼 Introduction à la gestion 
@@ -61,6 +62,10 @@ ajouts: 29
 | **III.** L'entreprise, son marché et sa performance | 9 | Création de valeur par et pour les différents acteurs | ⬜ à venir — le § 8 l'anticipe, hors slides |
 | | 10 | Financement des activités et internationalisation | ⬜ à venir |
 
+Depuis, trois séances ont leur fiche, bâtie sur les notes de camarades : les séances 3 et 4 dans [[Gestion - Chapitre 2 Fonctions de l'entreprise UE 12A]], la séance 5 dans [[Gestion - Partie 2 Strategie et environnement UE 12A]].
+
+Infos pratiques notées en première séance, le 03/09/2026 : les cours et les diapos sont sur **Moodle**, et la licence compte **8 semaines de stage sur les 3 ans**. 👥
+
 **Les mots-clés du syllabus** — ceux qui ne sont pas encore dans cette fiche sont les notions à guetter : profit, RSE, forme juridique, fonctions de l'entreprise, **chaîne de la valeur**, démarche stratégique, **Business Model Wheel**, innovation, **financement des activités**, **BFR**, **internationalisation**.
 
 ## 1. Gérer, c'est mobiliser des ressources
@@ -87,6 +92,7 @@ Comprendre la gestion a un **double intérêt** : **professionnel** — quel que
   - organisation territoriale
   - fonction publique hospitalière
 - **Organisations de l'ESS** — ONG, coopérative, association.
+  - l'association est celle de la **loi 1901** ; elle peut être humanitaire ou locale 👥
 
 **Entreprise publique ou privée ?** Publique : l'État détient **> 50 % du capital** de l'entreprise.
 
@@ -300,6 +306,8 @@ Le schéma des trois cercles qui l'accompagne, à savoir refaire :
 
 > Nous ne prenons pas du monde de nos ancêtres, mais nous l'empruntons au monde de nos enfants.
 
+La citation est attribuée à **Antoine de Saint-Exupéry**, et le cours renvoie à l'entreprise **Patagonia** comme exemple, à chercher sur internet. 👥
+
 ## 10. Les structures de l'entreprise
 
 ### a) (1/3) Formelle et informelle
@@ -323,7 +331,7 @@ Elle a **deux niveaux** (Calori et al., 1989) :
 |---|---|
 | Formule stratégique · pratiques de management · symboles | **Valeurs** · **postulats de base** |
 
-➕ *Ex. le tutoiement jusqu'au directeur, le pot d'arrivée d'un nouveau, la réunion du lundi matin : rien n'est écrit nulle part, tout le monde le fait — et un nouvel arrivant l'a appris en trois semaines, sans qu'on le lui dise.*
+*Ex. du cours : beaucoup de non-dits, comme le **vouvoiement**.* 👥
 
 ### c) (3/3) La technologie
 
@@ -353,6 +361,10 @@ En France, environ **5,2 millions d'entreprises** se répartissent en 4 catégor
 | **En % des entreprises** | 96,3 % | 3,4 % | 0,14 % | 0,006 % |
 | **Effectifs (ETP)** | 17 % | 29 % | 26 % | 28 % |
 
+La même slide, recopiée par un camarade, donne aussi le nombre de micro-entreprises, **≈ 5 000 000**, et les seuils de chiffre d'affaires : **ETI < 1 500 M€**, **GE ≥ 5 000 salariés ou CA ≥ 1 500 M€**. 👥
+
+Le lien avec les problèmes économiques contemporains : ce **faible nombre de grandes entreprises** est souvent mis en avant pour expliquer les performances des entreprises françaises **à l'exportation** (la balance commerciale) — l'Allemagne fait mieux que la France. 👥
+
 Les quatre parts d'effectifs font **17 + 29 + 26 + 28 = 100 %** : la colonne des grandes entreprises, qui manquait à tes notes, est ce qui bouclait le compte.
 
 ➕ *Ex. un par catégorie : un graphiste à son compte (micro-entreprise) · une PME industrielle de 80 salariés · Carrefour ou Renault (grande entreprise).*
@@ -367,6 +379,8 @@ Les quatre parts d'effectifs font **17 + 29 + 26 + 28 = 100 %** : la colonne des
 - **Branche de l'économie** = quaternaire, information, innovation
 
 Le secteur tertiaire domine largement l'économie française. L'apparition de secteurs liés au numérique vient ébranler cette classification.
+
+De plus en plus d'observateurs identifient un **4ᵉ secteur**, **numérique / quaternaire**, à l'**intersection des trois secteurs traditionnels**, qui regroupe les activités de l'**information**, de l'**innovation** et les **MTIC**. 👥
 
 ➕ *Le découpage en trois secteurs est celui de **Colin Clark** et **Jean Fourastié**. Le **quaternaire**, qu'on ajoute parfois, regroupe les activités liées aux **technologies de l'information et de la communication** : édition de logiciels, conseil, recherche, presse.*
 
@@ -429,19 +443,22 @@ L'imposition (**IR ou IS**) est une **conséquence** du statut retenu, pas le cr
 
 - **trésorerie** : l'argent immédiatement disponible pour faire face aux dépenses quotidiennes
 - **licorne** : une startup valorisée à **plus d'**un milliard de dollars ; ces jeunes sociétés sont souvent issues de la tech ou de la finance ; en France 25 ou 30 licornes — Doctolib, Mistral, Lydia
-- 1,1 million d'entreprises créées par an en France, la majorité des entreprises créées sont des micro-entreprises
+- autre licorne française citée : **Back Market** 👥
+- 1,1 million d'entreprises créées par an en France, la majorité des entreprises créées sont des micro-entreprises — **63 %** 👥
 
 **PME**
 - manque de fonds propres (problème de trésorerie, ex la création d'une table de bois)
-- manque de trésorerie
+- manque de trésorerie — le **flux tendu** serait peut-être une solution, ou bien la **précommande** 👥
 - crise de croissance (manque de hiérarchisation, et de main-d'œuvre)
+- la crise de croissance, en détail : le patron gère tout, ce qui fonctionne à **court terme** mais pas à long terme — d'où la mise en place de **cadres intermédiaires** 👥
 - gestion *intuitu personae* : moins de fonctionnaires, **moins de spécialistes fonctionnels**, et une **stratégie de focalisation**
 
 Contexte **2024-2025** : plus de **1,1 million d'entreprises créées par an** en France, dont une large majorité de **micro-entrepreneurs** (Insee / Bpifrance).
 
 **Grande entreprise**
 - enjeux de **gouvernance** : la manière dont on organise le pouvoir entre actionnaires et comité de direction, liée à la mondialisation
-- mondialisation
+- mondialisation — avec un risque de **concurrence déloyale** 👥
+- la slide chiffre la grande entreprise : **≥ 5000 salariés**, **> 1,5 Md€** 👥
 - responsabilité des entreprises (des comptes à rendre, RSE)
 - gestion d'un portefeuille d'activités complexe
 
@@ -464,6 +481,8 @@ Contexte **2024-2025** : plus de **1,1 million d'entreprises créées par an** e
 - mode d'intervention parfois délégué au privé
 
 Exemple : le **coût de collecte des déchets** varie fortement **selon le mode de gestion**, régie publique ou délégation au privé.
+
+Les chiffres de la slide (enquête presse) : environ **124 €/tonne dans le privé**, contre **144 €/tonne à la Ville de Paris**, en régie publique. 👥
 
 ### d) Le secteur associatif
 
@@ -1048,16 +1067,33 @@ qu'après **trois** réponses justes à des jours d'écart — voir [[#🔄 Comm
 >
 > **a)** — les sept se rangent en fonctions **opérationnelles** (produire et vendre) et **support** (rendre les premières possibles). → [[#Les fonctions de l'entreprise]]
 
-> [!note]- Ce qui vient des notes d'un camarade — 1 point
-> Un camarade a pris ce même chapitre (`_brut/camarade - Gestion chapitre 1
-> introduction.md`). Ses notes **confirment les tiennes** de bout en bout — mêmes
-> définitions, même plan, mêmes exemples (L'Oréal, Chandler, les licornes, la loi
-> du 14 février, l'intuitu personae). Elles n'ont apporté qu'une chose, marquée
-> 👥 dans le corps.
+> [!note]- Ce qui vient des notes de tes camarades — 15 points
+> Deux camarades ont pris ce même chapitre (`_brut/camarade - Gestion chapitre 1
+> introduction.md` et sa version `(B)`, déposée le 28 septembre 2026). Leurs
+> notes **confirment les tiennes** de bout en bout — mêmes définitions, même
+> plan, mêmes exemples (L'Oréal, Chandler, les licornes, la loi du 14 février,
+> l'intuitu personae). Ce qu'elles ajoutent est marqué 👥 dans le corps : ce
+> n'est pas un complément, c'est du cours que tu n'as pas noté.
 >
-> **Un ajout** — § 6 : la **fragmentation de la chaîne de valeur**, c'est-à-dire
-> le choix des étapes de production qu'on garde et de celles qu'on confie. Tes
-> notes traitaient la stratégie sans cette dimension.
+> **Première prise de notes — un ajout**
+> - § 6 : la **fragmentation de la chaîne de valeur**, c'est-à-dire le choix des
+>   étapes de production qu'on garde et de celles qu'on confie.
+>
+> **Seconde prise de notes — quatorze ajouts**
+> - Plan du cours : les infos pratiques (Moodle, 8 semaines de stage).
+> - § 2 : l'association **loi 1901**.
+> - § 9 : l'attribution de la citation à **Saint-Exupéry**, et l'exemple **Patagonia**.
+> - § 10b : l'exemple du cours pour la culture, le **vouvoiement**. Il remplace
+>   l'exemple que j'avais ajouté (le tutoiement, le pot d'arrivée) : un exemple
+>   inventé ne reste pas là où le prof en donne un.
+> - § 11a : le nombre de micro-entreprises et les seuils de CA de l'ETI et de la
+>   GE, lus sur la même slide INSEE ; et le lien avec l'**exportation**.
+> - § 11b : le **4ᵉ secteur**, numérique / quaternaire — ce qui éclaire enfin ta
+>   ligne « branche = quaternaire ».
+> - § 12a : **Back Market**, les **63 %** de micro-entrepreneurs, le flux tendu et
+>   la précommande contre le manque de trésorerie, le détail de la **crise de
+>   croissance**, la **concurrence déloyale**, les seuils de la grande entreprise.
+> - § 12c : les **124 €** et **144 €/tonne** de la collecte des déchets.
 
 ## À vérifier / à récupérer
 
@@ -1104,7 +1140,11 @@ qu'après **trois** réponses justes à des jours d'écart — voir [[#🔄 Comm
 
 > [!question] Ce qu'il reste à récupérer
 > - **« copier ce que j'ai ecris sur mon cahier »** : les slides couvrent le chapitre 1 en entier, mais ton cahier peut contenir ce que le prof a dit **à l'oral** et qui n'est sur aucune slide. À confronter une fois.
-> - **Le chapitre 2, « Les principales fonctions de l'entreprise »**, est annoncé sur la page de garde des slides mais **absent du PDF** : il correspond aux séances 3 et 4. Mes compléments du § 8 anticipent — à remplacer par le cours du prof dès qu'il est en ligne.
+> - **Le chapitre 2, « Les principales fonctions de l'entreprise »**, a désormais sa fiche, bâtie sur deux prises de notes de camarades : [[Gestion - Chapitre 2 Fonctions de l'entreprise UE 12A]]. Les compléments du § 8 sur les fonctions (les sept fonctions, opérationnelles et support) ne suivent **pas** le découpage du cours, qui en compte **cinq** (marketing, R&D, production, RH, financière) : c'est celui de la fiche du chapitre 2 qui fait foi.
+> - **Une organisation publique vise-t-elle la rentabilité ou l'équilibre ?** Le § 2 écrit « sous contrainte de rentabilité » ; la seconde prise de notes d'un camarade écrit « qui visent l'**équilibre** », et la slide du § 12c parle de « concilier mission de service public et **équilibre budgétaire** ». À confirmer : c'est typiquement une question de QCM.
+> - **Combien de licornes en France ?** Tes notes disent « 25 ou 30 », la seconde prise de notes d'un camarade « entre 29 et 35 ». À rang égal, rien ne départage : à vérifier sur la slide.
+> - **Durée du contrôle terminal** : la seconde prise de notes écrit « contrôle terminal de 1h30 » en première séance ; le syllabus et l'annale 2024 donnent une épreuve de **2 h** en trois parties. Laquelle vaut cette année ?
+> - **La citation du développement durable** n'a pas la même formulation dans les deux sources : « Nous ne prenons pas du monde de nos ancêtres, mais nous l'empruntons au monde de nos enfants » dans la fiche, « Nous n'héritons pas de la terre de nos ancêtres, nous l'empruntons à nos enfants » chez ton camarade. Si elle tombe, c'est la formulation de la slide qui compte.
 > - **Niveau stratégique** : ta ligne « construction ? » est interrompue, et la slide 13 ne la reprend pas. À demander en cours.
 > - **Renault** : « plan a 5 ans - o » puis « cycle de produit. e » — deux amorces coupées. Le prof illustre le cycle avec le **smartphone**, pas avec Renault : ton exemple Renault venait peut-être de l'oral.
 > - **Entreprise individuelle** : « nom : une denomination ... » — la phrase s'arrête sur les points de suspension, et la slide 30 ne parle pas de dénomination ni de siège social.
@@ -1127,7 +1167,8 @@ qu'après **trois** réponses justes à des jours d'écart — voir [[#🔄 Comm
 
 ## Ce que j'ai complété
 
-> [!info] Ces 29 ajouts ne viennent pas de tes notes — 18 compléments de cours, 11 exemples
+> [!info] Ces 28 ajouts ne viennent pas de tes notes — 18 compléments de cours, 10 exemples
+> *Le 28 septembre, l'exemple de la culture d'entreprise est sorti de la liste : le cours en donne un (le vouvoiement), relevé par un camarade. Il y en avait 29, dont 11 exemples.*
 > **Les slides de Carole Vigeant sont fondues dans le cours** depuis le 8 septembre : elles ne sont pas signalées ligne à ligne, parce que c'est le cours. Ce qui a changé par rapport à tes notes est listé dans « Ce que les slides ont corrigé », juste au-dessus, et **six schémas** ont été redessinés dans `schemas/` — les figures du prof, mêmes éléments, mêmes mots.
 >
 > Seuls les compléments ci-dessous restent marqués, parce qu'ils ne viennent d'aucune source du cours. Les slides en ont depuis confirmé une partie (la RSE, les seuils de taille) et nuancé une autre : le choix d'un statut se pose « seul ou associé ? », là où tes notes posaient « IR ou IS ».
@@ -1162,7 +1203,6 @@ qu'après **trois** réponses justes à des jours d'écart — voir [[#🔄 Comm
 > - **Make or buy** (§ 7) — la marque de baskets et son sous-traitant.
 > - **La valeur ajoutée** (§ 8) — la boulangerie, 200 000 − 60 000 = 140 000 €. Les chiffres sont inventés pour le calcul.
 > - **Efficacité / efficience / pertinence** (§ 8) — les 1 000 commandes livrées.
-> - **La culture d'entreprise** (§ 10b) — le tutoiement et le pot d'arrivée.
 > - **Inputs → outputs** (§ 10c) — la boulangerie.
 > - **Les catégories de taille** (§ 11a) — du graphiste à son compte à Carrefour.
 > - **Biens contre services** (§ 12b) — l'usine automobile et le coiffeur.
