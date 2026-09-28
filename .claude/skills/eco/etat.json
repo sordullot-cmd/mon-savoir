@@ -20,6 +20,11 @@
    "hash": "d5f6dbc67128",
    "integre": "2026-09-23 01:20"
   },
+  "eco gestion/_brut/camarade - Gestion partie 2 strategie.md": {
+   "fiche": "eco gestion/Gestion - Partie 2 Strategie et environnement UE 12A.md",
+   "hash": "eba87566e322",
+   "integre": "2026-09-28 18:00"
+  },
   "eco gestion/_brut/camarade - MTU seance 1 (A).md": {
    "fiche": "eco gestion/Methodologie - Travail universitaire UE 18C.md",
    "hash": "205303a0574f",
@@ -138,6 +143,17 @@
    "sources": [
     "_brut/gestion.md",
     "_brut/camarade - Gestion chapitre 1 introduction.md"
+   ],
+   "statut": "à faire"
+  },
+  "eco gestion/Gestion - Partie 2 Strategie et environnement UE 12A.md": {
+   "fait": "intégration du brut camarade partie 2 stratégie (converti du docx, orthographe corrigée) : fiche neuve, 2 schémas, 16 cartes, 15 QCM, 5 compléments, 8 points à vérifier",
+   "hash": "326e6c4a7c5e",
+   "mots": 4211,
+   "passage": "2026-09-28 18:00",
+   "source": "_brut/camarade - Gestion partie 2 strategie.md",
+   "sources": [
+    "_brut/camarade - Gestion partie 2 strategie.md"
    ],
    "statut": "à faire"
   },
