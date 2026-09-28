@@ -15,10 +15,15 @@
    "hash": "2ea5809e3cfb",
    "integre": "2026-09-23 03:01"
   },
+  "eco gestion/_brut/camarade - Gestion chapitre 2 fonctions de l'entreprise (B).md": {
+   "fiche": "eco gestion/Gestion - Chapitre 2 Fonctions de l'entreprise UE 12A.md",
+   "hash": "c638063076b0",
+   "integre": "2026-09-28 18:09"
+  },
   "eco gestion/_brut/camarade - Gestion chapitre 2 fonctions de l'entreprise.md": {
    "fiche": "eco gestion/Gestion - Chapitre 2 Fonctions de l'entreprise UE 12A.md",
    "hash": "d5f6dbc67128",
-   "integre": "2026-09-23 01:20"
+   "integre": "2026-09-28 18:09"
   },
   "eco gestion/_brut/camarade - Gestion partie 2 strategie.md": {
    "fiche": "eco gestion/Gestion - Partie 2 Strategie et environnement UE 12A.md",
@@ -116,13 +121,14 @@
    "statut": "à faire"
   },
   "eco gestion/Gestion - Chapitre 2 Fonctions de l'entreprise UE 12A.md": {
-   "fait": "Controle refait : 24 QCM au lieu de 8, une question par notion, combinaisons de reponses variees (7 sur 8 etaient a, b et c) ; trois lignes du cours oubliees reprises des notes du camarade (QCM de seance processus d'achat et marketing strategique, cycle de vie des produits qui se raccourcit) ; un point A verifier.",
-   "hash": "17c6fe3fa592",
-   "mots": 6164,
-   "passage": "2026-09-23 01:20",
+   "fait": "intégration de la seconde prise de notes camarade (B) : fonctions RH et Financière, prédominances, circuits, push/pull, QCM de séance complétés, courbe d'expérience découpée ; 6 compléments confirmés perdent leur marque (8 → 2) ; 37 → 59 cartes ; 14 points à vérifier",
+   "hash": "669f073dc8c6",
+   "mots": 10878,
+   "passage": "2026-09-28 18:09",
    "source": "_brut/camarade - Gestion chapitre 2 fonctions de l'entreprise.md",
    "sources": [
-    "_brut/camarade - Gestion chapitre 2 fonctions de l'entreprise.md"
+    "_brut/camarade - Gestion chapitre 2 fonctions de l'entreprise.md",
+    "_brut/camarade - Gestion chapitre 2 fonctions de l'entreprise (B).md"
    ],
    "statut": "à faire"
   },
