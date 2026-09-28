@@ -46,14 +46,15 @@ Les quatre UE de la **période 1** sont celles qui tombent en premier. Les quatr
 | UE      | Matière                             | Coef | Cartes | Trous | Fiche |
 |---|---|---|---|---|---|
 | **11A** | Introduction à l'économie           | 3    | 131    | 15    | [[Economie - Chapitre 1 Science economique]] |
-| **12A** | Introduction à la gestion           | 3    | 104    | 16    | [[Gestion - Introduction]] · [[Gestion - Chapitre 2 Fonctions de l'entreprise UE 12A]] |
+| **12A** | Introduction à la gestion           | 3    | 142    | 34    | [[Gestion - Introduction]] · [[Gestion - Chapitre 2 Fonctions de l'entreprise UE 12A]] · [[Gestion - Partie 2 Strategie et environnement UE 12A]] |
 | **13A** | Problèmes économiques contemporains | —    | 71     | 23    | [[Problemes economiques - Chapitre 1 Analyse economique UE 13A]] · [[Problemes economiques - Chapitre 2 Marche du travail UE 13A]] |
 | **18C** | Méthodologie du travail universitaire | —  | 48     | 10    | [[Methodologie - Travail universitaire UE 18C]] |
 
-**354 cartes à créer** et **64 trous** signalés, sur les six fiches des quatre UE. Pour l'ordre de révision d'ici les épreuves : [[Plan - Examen P1]] et [[Calendrier officiel 2026-2027]]. Les cartes de **11A** ont été refaites le 22 septembre 2026 : **une question posée en toutes lettres au recto, une seule réponse au verso**, avec le mot qui tranche en capitales et la phrase voisine à ne pas répondre. Les **26 premières** sont les questions réellement tombées aux sessions 2022-2023 et 2024-2025. Le protocole pour les travailler est dans [[Methode - Comment reviser]].
+**392 cartes à créer** et **82 trous** signalés, sur les sept fiches des quatre UE. Pour l'ordre de révision d'ici les épreuves : [[Plan - Examen P1]] et [[Calendrier officiel 2026-2027]]. Les cartes de **11A** ont été refaites le 22 septembre 2026 : **une question posée en toutes lettres au recto, une seule réponse au verso**, avec le mot qui tranche en capitales et la phrase voisine à ne pas répondre. Les **26 premières** sont les questions réellement tombées aux sessions 2022-2023 et 2024-2025. Le protocole pour les travailler est dans [[Methode - Comment reviser]].
 
-> [!info]- Compteurs relus sur les fiches le 22 septembre 2026
+> [!info]- Compteurs relus sur les fiches le 28 septembre 2026
 > Le tableau reprend le frontmatter de chaque fiche (`cartes:`, `a_verifier:`). Ce qui a bougé depuis la version précédente du hub :
+> - **12A**, le 28 septembre : 104 → 142 cartes, 16 → 34 trous. Deux prises de notes de camarades sont arrivées : une fiche neuve pour la partie 2 (16 cartes, 8 trous), le chapitre 2 complété avec les fonctions RH et Financière (37 → 59 cartes, 14 trous), l'introduction précisée (12 trous). Total : 354 → 392 cartes, 64 → 82 trous.
 > - **11A** : 134 → 131 cartes, 13 → 15 trous.
 > - **12A** : 67 → 104 cartes, 8 → 16 trous — le chapitre 2 (37 cartes, 8 trous) n'était pas compté.
 > - **13A** : 47 → 71 cartes, 9 → 23 trous — le chapitre 2 (24 cartes, 7 trous) n'était pas compté, et le chapitre 1 est passé à 16 trous.

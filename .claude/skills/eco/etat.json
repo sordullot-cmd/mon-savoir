@@ -13,12 +13,12 @@
   "eco gestion/_brut/camarade - Gestion chapitre 1 introduction (B).md": {
    "fiche": "eco gestion/Gestion - Introduction.md",
    "hash": "b7d337cbf5c5",
-   "integre": "2026-09-28 18:12"
+   "integre": "2026-09-28 18:13"
   },
   "eco gestion/_brut/camarade - Gestion chapitre 1 introduction.md": {
    "fiche": "eco gestion/Gestion - Introduction.md",
    "hash": "2ea5809e3cfb",
-   "integre": "2026-09-28 18:12"
+   "integre": "2026-09-28 18:13"
   },
   "eco gestion/_brut/camarade - Gestion chapitre 2 fonctions de l'entreprise (B).md": {
    "fiche": "eco gestion/Gestion - Chapitre 2 Fonctions de l'entreprise UE 12A.md",
@@ -73,7 +73,7 @@
   "eco gestion/_brut/gestion.md": {
    "fiche": "eco gestion/Gestion - Introduction.md",
    "hash": "191100950174",
-   "integre": "2026-09-28 18:12"
+   "integre": "2026-09-28 18:13"
   },
   "eco gestion/_brut/introduction a l'economie.md": {
    "fiche": "eco gestion/Economie - Chapitre 1 Science economique.md",
@@ -83,10 +83,10 @@
  },
  "pages": {
   "eco gestion/00 - Plan L1 Angers.md": {
-   "fait": "compteurs cartes/trous relus sur les six fiches (285→354, 40→64) avec trace avant/après, liens vers Plan - Examen P1 et Calendrier, À vérifier nettoyé (doublon gestion tranché, Methode revenue dans eco gestion)",
-   "hash": "1862ea929135",
-   "mots": 2389,
-   "passage": "2026-09-22 23:18",
+   "fait": "relier : lien vers la fiche Gestion partie 2, compteurs 12A 104 → 142 cartes et 16 → 34 trous",
+   "hash": "8b9cd5418b36",
+   "mots": 2464,
+   "passage": "2026-09-28 18:13",
    "source": null,
    "sources": [],
    "statut": null
@@ -146,10 +146,10 @@
    "statut": "à faire"
   },
   "eco gestion/Gestion - Introduction.md": {
-   "fait": "intégration de la seconde prise de notes camarade (B) : 15 ajouts marqués 👥, l'exemple inventé de la culture remplacé par celui du cours (29 → 28 compléments), 4 désaccords signalés (licornes, durée du CT, citation, organisation publique rentabilité/équilibre), liens vers les fiches chapitre 2 et partie 2",
+   "fait": "compteur a_verifier 8 → 12, aligné sur le bloc",
    "hash": "a31ac3b66b2a",
    "mots": 14398,
-   "passage": "2026-09-28 18:12",
+   "passage": "2026-09-28 18:13",
    "source": "_brut/gestion.md",
    "sources": [
     "_brut/gestion.md",

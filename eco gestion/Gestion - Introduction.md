@@ -16,7 +16,7 @@ statut: à faire
 coef: 3
 periode: 1
 revu: 2026-09-28
-a_verifier: 8
+a_verifier: 12
 cartes: 67
 ajouts: 28
 ---
