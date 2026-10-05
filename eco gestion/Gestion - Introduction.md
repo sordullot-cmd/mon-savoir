@@ -8,6 +8,7 @@ source:
   - _brut/gestion.md
   - _brut/camarade - Gestion chapitre 1 introduction.md
   - _brut/camarade - Gestion chapitre 1 introduction (B).md
+  - _brut/camarade - Gestion chapitre 1 introduction (C).md
 slides: IG_Seance1-2_MAJ__2026.pdf
 enseignant: Carole Vigeant
 notion: Introduction à la gestion — organisations, stratégie, classements, contextes
@@ -15,9 +16,9 @@ ue: 12A
 statut: à faire
 coef: 3
 periode: 1
-revu: 2026-09-28
-a_verifier: 12
-cartes: 67
+revu: 2026-10-05
+a_verifier: 14
+cartes: 69
 ajouts: 28
 ---
 
@@ -74,7 +75,11 @@ Infos pratiques notées en première séance, le 03/09/2026 : les cours et les d
 
 Ce n'est pas réservé à l'entreprise : la gestion concerne **toute forme d'organisation** — une administration, une association, une ONG, aussi bien qu'une PME ou un grand groupe. Dès qu'un collectif poursuit un but commun, il faut décider **qui fait quoi, avec quels moyens, et selon quelles règles**.
 
+**Aucune organisation**, quelle que soit sa taille ou sa finalité, **ne peut fonctionner sans gestion**. Elle s'appuie sur plusieurs disciplines — comptabilité, finance, marketing, ressources humaines, production, stratégie — et on l'associe souvent aux termes de **rentabilité, productivité, efficacité**. 👥
+
 On mobilise des ressources : **humaines, financières, matérielles, informationnelles** — et technologiques.
+
+Ce que chacune recouvre : **humaines** = salariés, bénévoles, compétences · **financières** = capital, emprunts, trésorerie, subventions · **matérielles et techniques** = locaux, machines, matières premières, outils numériques · **informationnelles** = données, brevets, savoir-faire, réputation. Toutes sont **limitées**, notamment par le temps, le budget et les connaissances disponibles. 👥
 
 On peut voir la gestion comme le **management de l'action collective** : c'est ce qui permet de répartir les tâches.
 
@@ -102,6 +107,8 @@ Le détail des trois familles :
 |---|---|---|
 | Ministères · organisation territoriale · **Sécurité sociale** · **Éducation nationale** · hôpitaux | Publiques : l'État détient **> 50 % du capital** · privées : la grande majorité des entreprises | Associations · coopératives · **mutuelles** · **syndicats** · **fondations** (loi du 31 juillet 2014) |
 
+La **finalité dominante** de chaque famille : **service public et intérêt général** (souvent sous contrainte d'**équilibre budgétaire**) pour les organisations publiques · **création de valeur économique et bénéfice** pour les entreprises · **finalité sociale, solidaire ou collective** pour l'ESS. 👥
+
 ![[gestion-trois-familles-organisations.svg]]
 *Le schéma de la slide 9, refait. À savoir redessiner : trois colonnes, et le socle commun en dessous.*
 
@@ -122,6 +129,8 @@ La **finalité** d'une organisation peut être :
 - de **service public**
 - d'ordre **économique** (créer de la valeur)
 - **sociétal** (humanitaire, culturel, éducatif)
+
+Dit autrement : **économique** = produire de la valeur et **assurer sa viabilité** · **service public** = **répondre à un besoin collectif** · **sociétale** = humanitaire, culturelle, éducative, mais aussi **environnementale**. Les organisations **combinent** souvent ces finalités. 👥
 
 Ex L'Oréal : finalité d'ordre économique **et** sociétal (se bat contre les violences faites aux femmes, crée des emplois). Aujourd'hui les entreprises tendent à aller vers des finalités sociétales.
 
@@ -149,6 +158,8 @@ Les décisions de niveau stratégique concernent principalement les **actionnair
 - décisions moins engageantes
 - le cadre ne prend des décisions que dans **son secteur**
 - plus on descend vers l'opérationnel, plus les décisions sont **fréquentes, réversibles et proches du terrain**
+
+Ce que chaque niveau décide : le **stratégique**, le **choix des objectifs, des grandes orientations et des ressources** — des décisions moins fréquentes et difficiles à inverser ; l'**opérationnel**, la **mise en œuvre concrète** au plus près du terrain — organisation du travail, actions quotidiennes, suivi. 👥
 
 ➕ *Ex. dans la même enseigne : « on arrête le catalogue papier » est **stratégique** (long terme, difficile à défaire, ça se décide en haut) ; « je mets deux personnes de plus en caisse samedi » est **opérationnel** (le chef de rayon, cette semaine, réversible lundi).*
 
@@ -302,6 +313,8 @@ Le schéma des trois cercles qui l'accompagne, à savoir refaire :
 - **développement durable** : terme d'économie
 - **RSE** : terme de gestion
 
+La **RSE** (responsabilité sociétale des entreprises) est un **concept de gestion** : elle traduit la **prise en compte des effets sociaux et environnementaux** des activités de l'entreprise. 👥
+
 ➕ *Ce que ta note ne dit pas, et que le programme de l'UE demande :* la **RSE** (responsabilité sociétale des entreprises) est la prise en charge, par l'entreprise, des conséquences sociales et environnementales de son activité, au-delà de ses obligations légales. Elle se lit sur **trois piliers** — économique, social, environnemental (le « triple bilan »). Cadre de référence international : la norme **ISO 26000**. En France, la **loi PACTE (2019)** permet à une société de se doter d'une *raison d'être* et du statut de *société à mission*. Le lien entre les deux mots, en une phrase : le développement durable est un concept **macroéconomique**, et la RSE en est l'**application concrète à l'échelle d'une entreprise**.
 
 > Nous ne prenons pas du monde de nos ancêtres, mais nous l'empruntons au monde de nos enfants.
@@ -364,6 +377,8 @@ En France, environ **5,2 millions d'entreprises** se répartissent en 4 catégor
 La même slide, recopiée par un camarade, donne aussi le nombre de micro-entreprises, **≈ 5 000 000**, et les seuils de chiffre d'affaires : **ETI < 1 500 M€**, **GE ≥ 5 000 salariés ou CA ≥ 1 500 M€**. 👥
 
 Le lien avec les problèmes économiques contemporains : ce **faible nombre de grandes entreprises** est souvent mis en avant pour expliquer les performances des entreprises françaises **à l'exportation** (la balance commerciale) — l'Allemagne fait mieux que la France. 👥
+
+Le **chiffre d'affaires** est un indicateur **commercial**, pas financier : il mesure les **ventes réalisées**, et ce n'est **pas, à lui seul, un indicateur de rentabilité**. 👥
 
 Les quatre parts d'effectifs font **17 + 29 + 26 + 28 = 100 %** : la colonne des grandes entreprises, qui manquait à tes notes, est ce qui bouclait le compte.
 
@@ -458,6 +473,9 @@ Contexte **2024-2025** : plus de **1,1 million d'entreprises créées par an** e
 **Grande entreprise**
 - enjeux de **gouvernance** : la manière dont on organise le pouvoir entre actionnaires et comité de direction, liée à la mondialisation
 - mondialisation — avec un risque de **concurrence déloyale** 👥
+- **gouvernance**, la définition précise : la manière dont le pouvoir est **organisé et contrôlé** entre les **actionnaires**, les **dirigeants** et les **organes de direction** 👥
+- **mondialisation**, précisée : un risque accru de concurrence avec les entreprises des **pays à faibles coûts de production** (ex. la Chine) 👥
+- les grandes entreprises sont **fortement soumises aux exigences de la RSE** : environnement, santé et sécurité des salariés, égalité salariale, égalité femmes-hommes 👥
 - la slide chiffre la grande entreprise : **≥ 5000 salariés**, **> 1,5 Md€** 👥
 - responsabilité des entreprises (des comptes à rendre, RSE)
 - gestion d'un portefeuille d'activités complexe
@@ -592,6 +610,7 @@ Personne morale, définition ? ; Une entité juridique dotée d'une personnalit�
 À quoi reconnaît-on une personne morale immatriculée ? ; Une date de création, un capital, une forme juridique, un siège social, des numéros SIREN et SIRET ; gestion 12A complement
 Trésorerie, définition ? ; L'argent immédiatement disponible pour faire face aux dépenses quotidiennes ; gestion 12A
 Licorne, définition ? ; Une startup valorisée à plus d'un milliard de dollars, souvent issue de la tech ou de la finance ; gestion 12A
+Gouvernance, définition ? ; La manière dont le pouvoir est organisé et contrôlé entre les actionnaires, les dirigeants et les organes de direction ; gestion 12A
 Valeur ajoutée, la formule ? ; Production (chiffre d'affaires) − consommations intermédiaires ; gestion 12A complement
 Bénéfice, la formule ? ; Produits − charges — le chiffre d'affaires étant quantité vendue × prix unitaire ; gestion 12A complement
 Que veulent dire SARL, SAS et EURL ? ; Société à responsabilité limitée · société par actions SIMPLIFIÉE · entreprise unipersonnelle à responsabilité limitée ; gestion 12A complement
@@ -610,6 +629,7 @@ Développement durable ou RSE ? ; Le développement durable est un concept macro
 Secteur ou branche ? ; Le secteur classe des ENTREPRISES selon leur activité principale · la branche classe des PRODUCTIONS d'un même produit ; gestion 12A complement
 Efficacité ou efficience ? ; L'efficacité demande si l'objectif est atteint · l'efficience demande à quel coût — on peut être efficace et inefficient ; gestion 12A complement
 Parts sociales ou actions ? ; La SARL émet des parts sociales, dont la cession est soumise à AGRÉMENT · la SAS et la SA émettent des actions librement cessibles ; gestion 12A complement
+Le chiffre d'affaires est-il un indicateur de rentabilité ? ; Non : c'est un indicateur COMMERCIAL, il mesure les ventes réalisées — pas, à lui seul, la rentabilité ; gestion 12A
 Le pilotage du cycle de produit est-il une cinquième étape ? ; Non : la direction générale et le contrôle de gestion sont TRANSVERSAUX aux quatre étapes — c'est le piège classique ; gestion 12A
 ```
 
@@ -927,6 +947,14 @@ qu'après **trois** réponses justes à des jours d'écart — voir [[#🔄 Comm
 >
 > **a, b, c et d** — les quatre sont justes, et c'est le contraste qui se retient : les MIC sont presque toutes les entreprises mais emploient le moins ; les GE, une poignée, emploient 28 %. → [[#a) Selon un critère de taille — 4 catégories INSEE]]
 
+> [!question]- Le chiffre d'affaires :
+> a) mesure les ventes réalisées
+> b) est un indicateur commercial
+> c) suffit à juger de la rentabilité d'une entreprise
+> d) est un indicateur financier
+>
+> **a et b** — commercial, **pas financier**, et pas à lui seul un indicateur de rentabilité : une entreprise peut vendre beaucoup et perdre de l'argent. → [[#a) Selon un critère de taille — 4 catégories INSEE]]
+
 > [!question]- Les trois secteurs d'activité et leur poids :
 > a) primaire 2,5 % : agriculture, pêche, forêts
 > b) secondaire 20 % = industrie 6,7 % + construction 13,3 %
@@ -976,6 +1004,14 @@ qu'après **trois** réponses justes à des jours d'écart — voir [[#🔄 Comm
 > d) peu de spécialistes fonctionnels, stratégie de focalisation
 >
 > **a, c et d** — b) est la liste des problèmes de la **grande entreprise**. → [[#a) L'âge et la taille de l'entreprise]]
+
+> [!question]- Les enjeux de gestion de la **grande entreprise** :
+> a) la gouvernance : la manière dont le pouvoir est organisé et contrôlé entre actionnaires, dirigeants et organes de direction
+> b) de fortes exigences de RSE : environnement, santé et sécurité des salariés, égalité femmes-hommes
+> c) la mondialisation : la concurrence des pays à faibles coûts de production
+> d) le manque de fonds propres et la crise de croissance
+>
+> **a, b et c** — d) décrit la **PME**. → [[#a) L'âge et la taille de l'entreprise]]
 
 > [!question]- Trésorerie et licorne :
 > a) licorne : entreprise cotée en bourse depuis moins d'un an
@@ -1067,9 +1103,10 @@ qu'après **trois** réponses justes à des jours d'écart — voir [[#🔄 Comm
 >
 > **a)** — les sept se rangent en fonctions **opérationnelles** (produire et vendre) et **support** (rendre les premières possibles). → [[#Les fonctions de l'entreprise]]
 
-> [!note]- Ce qui vient des notes de tes camarades — 15 points
+> [!note]- Ce qui vient des notes de tes camarades — 25 points
 > Deux camarades ont pris ce même chapitre (`_brut/camarade - Gestion chapitre 1
-> introduction.md` et sa version `(B)`, déposée le 28 septembre 2026). Leurs
+> introduction.md` et sa version `(B)`, déposée le 28 septembre 2026), et une
+> troisième source s'y ajoute le 5 octobre (`(C)`, tirée de `CHAP 1 - gestion.pdf`). Leurs
 > notes **confirment les tiennes** de bout en bout — mêmes définitions, même
 > plan, mêmes exemples (L'Oréal, Chandler, les licornes, la loi du 14 février,
 > l'intuitu personae). Ce qu'elles ajoutent est marqué 👥 dans le corps : ce
@@ -1094,6 +1131,30 @@ qu'après **trois** réponses justes à des jours d'écart — voir [[#🔄 Comm
 >   la précommande contre le manque de trésorerie, le détail de la **crise de
 >   croissance**, la **concurrence déloyale**, les seuils de la grande entreprise.
 > - § 12c : les **124 €** et **144 €/tonne** de la collecte des déchets.
+>
+> **Troisième source, la synthèse `CHAP 1 - gestion.pdf` — dix ajouts**
+> Ce n'est pas une prise de notes d'amphi mais une **fiche mise au propre** par
+> son auteur, reformulée et illustrée des captures des slides. Elle suit le plan
+> des slides et **confirme** la fiche presque partout (définitions, tableau INSEE,
+> secteurs, statuts, contextes). Ce qu'elle apporte de neuf, marqué 👥 :
+> - § 1 : le détail de **chaque famille de ressources** et leur limite (temps,
+>   budget, connaissances) ; « aucune organisation ne peut fonctionner sans
+>   gestion », les disciplines sur lesquelles elle s'appuie, et les mots
+>   **rentabilité, productivité, efficacité**.
+> - § 2 : la **finalité dominante** de chacune des trois familles.
+> - § 3 : chaque finalité dite en une phrase (viabilité, besoin collectif,
+>   finalité aussi **environnementale**).
+> - § 5 : ce que **décide** chaque niveau de gestion.
+> - § 9 : la **RSE** dite comme **concept de gestion** — prise en compte des effets
+>   sociaux et environnementaux. C'est la définition du cours : le complément
+>   marqué d'un plus vert, juste en dessous, va au-delà (ISO 26000, loi PACTE).
+> - § 11a : le **chiffre d'affaires**, indicateur **commercial** et pas de rentabilité.
+> - § 12a : la **gouvernance** définie précisément, la **mondialisation** précisée
+>   (pays à faibles coûts de production), les **exigences de RSE** qui pèsent sur
+>   les grandes entreprises.
+>
+> Elle écrit « ressources informationnelles **et immatérielles** » là où les slides
+> disent « informationnelles » : c'est le mot des slides qui reste dans le corps.
 
 ## À vérifier / à récupérer
 
@@ -1141,7 +1202,9 @@ qu'après **trois** réponses justes à des jours d'écart — voir [[#🔄 Comm
 > [!question] Ce qu'il reste à récupérer
 > - **« copier ce que j'ai ecris sur mon cahier »** : les slides couvrent le chapitre 1 en entier, mais ton cahier peut contenir ce que le prof a dit **à l'oral** et qui n'est sur aucune slide. À confronter une fois.
 > - **Le chapitre 2, « Les principales fonctions de l'entreprise »**, a désormais sa fiche, bâtie sur deux prises de notes de camarades : [[Gestion - Chapitre 2 Fonctions de l'entreprise UE 12A]]. Les compléments du § 8 sur les fonctions (les sept fonctions, opérationnelles et support) ne suivent **pas** le découpage du cours, qui en compte **cinq** (marketing, R&D, production, RH, financière) : c'est celui de la fiche du chapitre 2 qui fait foi.
-> - **Une organisation publique vise-t-elle la rentabilité ou l'équilibre ?** Le § 2 écrit « sous contrainte de rentabilité » ; la seconde prise de notes d'un camarade écrit « qui visent l'**équilibre** », et la slide du § 12c parle de « concilier mission de service public et **équilibre budgétaire** ». À confirmer : c'est typiquement une question de QCM.
+> - **Une organisation publique vise-t-elle la rentabilité ou l'équilibre ?** Le § 2 écrit « sous contrainte de rentabilité » ; la seconde prise de notes d'un camarade écrit « qui visent l'**équilibre** », la synthèse `CHAP 1 - gestion.pdf` « service public et intérêt général (= souvent **équilibre budgétaire**) », et la slide du § 12c parle de « concilier mission de service public et **équilibre budgétaire** ». Trois sources contre ta note : à confirmer, c'est typiquement une question de QCM.
+> - **Qui prend les décisions stratégiques ?** Tes notes (§ 5) disent qu'elles « concernent principalement les **actionnaires** » ; la synthèse `CHAP 1 - gestion.pdf` écrit « décisions de long terme prises par la **direction** ». Les deux peuvent être vraies (prises par la direction, sous le regard des actionnaires), mais la question de Contrôle sur les acteurs du niveau stratégique en dépend : à confirmer sur la slide 13.
+> - **« MTIC » ou « NTIC » ?** Le § 11b écrit « MTIC » d'après la seconde prise de notes d'un camarade ; la synthèse `CHAP 1 - gestion.pdf` écrit « nouvelles technologies **NTIC** ». Probable faute de frappe d'un côté : à vérifier sur la slide avant de l'écrire en copie.
 > - **Combien de licornes en France ?** Tes notes disent « 25 ou 30 », la seconde prise de notes d'un camarade « entre 29 et 35 ». À rang égal, rien ne départage : à vérifier sur la slide.
 > - **Durée du contrôle terminal** : la seconde prise de notes écrit « contrôle terminal de 1h30 » en première séance ; le syllabus et l'annale 2024 donnent une épreuve de **2 h** en trois parties. Laquelle vaut cette année ?
 > - **La citation du développement durable** n'a pas la même formulation dans les deux sources : « Nous ne prenons pas du monde de nos ancêtres, mais nous l'empruntons au monde de nos enfants » dans la fiche, « Nous n'héritons pas de la terre de nos ancêtres, nous l'empruntons à nos enfants » chez ton camarade. Si elle tombe, c'est la formulation de la slide qui compte.

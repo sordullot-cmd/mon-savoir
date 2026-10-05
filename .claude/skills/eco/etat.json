@@ -13,12 +13,17 @@
   "eco gestion/_brut/camarade - Gestion chapitre 1 introduction (B).md": {
    "fiche": "eco gestion/Gestion - Introduction.md",
    "hash": "b7d337cbf5c5",
-   "integre": "2026-09-28 18:13"
+   "integre": "2026-10-05 07:12"
+  },
+  "eco gestion/_brut/camarade - Gestion chapitre 1 introduction (C).md": {
+   "fiche": "eco gestion/Gestion - Introduction.md",
+   "hash": "5b4893cd34e0",
+   "integre": "2026-10-05 07:12"
   },
   "eco gestion/_brut/camarade - Gestion chapitre 1 introduction.md": {
    "fiche": "eco gestion/Gestion - Introduction.md",
    "hash": "2ea5809e3cfb",
-   "integre": "2026-09-28 18:13"
+   "integre": "2026-10-05 07:12"
   },
   "eco gestion/_brut/camarade - Gestion chapitre 2 fonctions de l'entreprise (B).md": {
    "fiche": "eco gestion/Gestion - Chapitre 2 Fonctions de l'entreprise UE 12A.md",
@@ -73,7 +78,7 @@
   "eco gestion/_brut/gestion.md": {
    "fiche": "eco gestion/Gestion - Introduction.md",
    "hash": "191100950174",
-   "integre": "2026-09-28 18:13"
+   "integre": "2026-10-05 07:12"
   },
   "eco gestion/_brut/introduction a l'economie.md": {
    "fiche": "eco gestion/Economie - Chapitre 1 Science economique.md",
@@ -146,15 +151,16 @@
    "statut": "à faire"
   },
   "eco gestion/Gestion - Introduction.md": {
-   "fait": "compteur a_verifier 8 → 12, aligné sur le bloc",
-   "hash": "a31ac3b66b2a",
-   "mots": 14398,
-   "passage": "2026-09-28 18:13",
+   "fait": "intégration de la synthèse camarade CHAP 1 - gestion.pdf : 10 apports 👥 (ressources détaillées, finalités dominantes, contenu des niveaux, RSE concept de gestion, CA indicateur commercial, gouvernance, mondialisation, RSE des GE), +2 cartes, +2 QCM, 2 points à vérifier (acteurs du stratégique, MTIC/NTIC)",
+   "hash": "40d1c9c62383",
+   "mots": 15400,
+   "passage": "2026-10-05 07:12",
    "source": "_brut/gestion.md",
    "sources": [
     "_brut/gestion.md",
     "_brut/camarade - Gestion chapitre 1 introduction.md",
-    "_brut/camarade - Gestion chapitre 1 introduction (B).md"
+    "_brut/camarade - Gestion chapitre 1 introduction (B).md",
+    "_brut/camarade - Gestion chapitre 1 introduction (C).md"
    ],
    "statut": "à faire"
   },
