@@ -634,8 +634,12 @@ récapitulatif.
    Jamais `git add -A` : le vault a en permanence des modifications qui ne sont
    pas les nôtres. **Un brut corrigé se commite avec la fiche** — sans ça, la
    correction écrase la seule copie de ses notes sans filet.
-9. **Pousser** — Sacha l'a demandé le 8 septembre 2026 : un passage se termine
-   sur GitHub, pas sur le disque.
+9. **Pousser** — Sacha l'a demandé le 8 septembre 2026, et redit le 5 octobre :
+   « à chaque fois que tu rajoutes ou modifies des cours, push-le sur le git
+   automatiquement ». Un passage se termine sur GitHub, pas sur le disque —
+   **à la main comme en automatique, sans demander**, et **fiche par fiche** :
+   chaque fiche actée part aussitôt (commit puis push), on n'attend pas la fin
+   d'un lot. Le hub, les schémas et `etat.json` suivent le même chemin.
    ```
    git push origin main
    ```
