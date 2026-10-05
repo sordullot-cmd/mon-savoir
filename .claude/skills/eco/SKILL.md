@@ -640,6 +640,16 @@ récapitulatif.
    **à la main comme en automatique, sans demander**, et **fiche par fiche** :
    chaque fiche actée part aussitôt (commit puis push), on n'attend pas la fin
    d'un lot. Le hub, les schémas et `etat.json` suivent le même chemin.
+   **Puis le site** — même demande, même jour : « je veux qu'il soit mis à
+   jour ». Après le push du vault :
+   ```
+   bash .claude/skills/eco/site.sh
+   ```
+   Il réindexe `~/Documents/GitHub/vault-gallery`, ne commite que `public/`, et
+   pousse. En automatique, `passage.sh` l'appelle lui-même dès qu'un passage a
+   commité. L'indexeur écarte tout ce que le `.gitignore` du vault tient privé :
+   le 5 octobre, deux papiers administratifs déposés dans `_brut/` et les notes
+   de camarades partaient en ligne par le site, pas par le vault.
    ```
    git push origin main
    ```
@@ -827,7 +837,6 @@ absents : il ne peut rien écraser. Trois règles qui en découlent :
   dossier sur `/cours` : les fiches d'UE y sont groupées par période avec leur
   coefficient, leurs trous et leurs cartes, lus dans le **frontmatter**. Un champ
   mal orthographié disparaît donc silencieusement du tableau de bord du site.
-  Après un passage qui compte, `npm run index` dans ce dépôt remet le site à
-  jour.
+  `site.sh` le remet à jour et le pousse après chaque passage (étape 9).
 - Le vault est un dépôt git : montrer `git show --stat` plutôt que décrire les
   changements de mémoire.

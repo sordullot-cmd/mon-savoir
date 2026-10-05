@@ -91,4 +91,10 @@ else
   fi
 fi
 
+# ---------------------------------------------------------------- site
+# Demande du 5 octobre 2026 : le site qui publie les fiches suit chaque passage.
+if [ "$TETE_AVANT" != "$TETE_APRES" ]; then
+  bash "$SKILL/site.sh" "$LOG"
+fi
+
 echo "$(date '+%F %H:%M')  fin du passage" >> "$LOG"
