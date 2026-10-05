@@ -35,10 +35,25 @@
    "hash": "b896baa1751f",
    "integre": "2026-10-05 07:10"
   },
+  "eco gestion/_brut/camarade - Gestion partie 2 segmentation et croissance (B).md": {
+   "fiche": "eco gestion/Gestion - Partie 2 Segmentation et croissance UE 12A.md",
+   "hash": "352e74a9b1ca",
+   "integre": "2026-10-05 07:23"
+  },
+  "eco gestion/_brut/camarade - Gestion partie 2 segmentation et croissance.md": {
+   "fiche": "eco gestion/Gestion - Partie 2 Segmentation et croissance UE 12A.md",
+   "hash": "f55c1397811f",
+   "integre": "2026-10-05 07:23"
+  },
+  "eco gestion/_brut/camarade - Gestion partie 2 strategie (B).md": {
+   "fiche": "eco gestion/Gestion - Partie 2 Strategie et environnement UE 12A.md",
+   "hash": "594d091b146c",
+   "integre": "2026-10-05 07:23"
+  },
   "eco gestion/_brut/camarade - Gestion partie 2 strategie.md": {
    "fiche": "eco gestion/Gestion - Partie 2 Strategie et environnement UE 12A.md",
-   "hash": "eba87566e322",
-   "integre": "2026-09-28 18:00"
+   "hash": "6d1972a46e82",
+   "integre": "2026-10-05 07:23"
   },
   "eco gestion/_brut/camarade - MTU seance 1 (A).md": {
    "fiche": "eco gestion/Methodologie - Travail universitaire UE 18C.md",
@@ -164,14 +179,27 @@
    ],
    "statut": "à faire"
   },
+  "eco gestion/Gestion - Partie 2 Segmentation et croissance UE 12A.md": {
+   "fait": "fiche créée sur les notes de deux camarades : niveaux de stratégie, DAS, BCG, SWOT, diversification, croissance — 30 cartes, 22 QCM, 3 schémas",
+   "hash": "311acf15de71",
+   "mots": 6826,
+   "passage": "2026-10-05 07:23",
+   "source": "_brut/camarade - Gestion partie 2 segmentation et croissance.md",
+   "sources": [
+    "_brut/camarade - Gestion partie 2 segmentation et croissance.md",
+    "_brut/camarade - Gestion partie 2 segmentation et croissance (B).md"
+   ],
+   "statut": "à faire"
+  },
   "eco gestion/Gestion - Partie 2 Strategie et environnement UE 12A.md": {
-   "fait": "intégration du brut camarade partie 2 stratégie (converti du docx, orthographe corrigée) : fiche neuve, 2 schémas, 16 cartes, 15 QCM, 5 compléments, 8 points à vérifier",
-   "hash": "326e6c4a7c5e",
-   "mots": 4211,
-   "passage": "2026-09-28 18:00",
+   "fait": "seconde prise de notes (Axel) et version complétée (Alexis) : point 4 environnement interne, 5 forces de Porter, PESTEL sourcé, 32 cartes, 10 À vérifier",
+   "hash": "9a4e06fbf026",
+   "mots": 7644,
+   "passage": "2026-10-05 07:23",
    "source": "_brut/camarade - Gestion partie 2 strategie.md",
    "sources": [
-    "_brut/camarade - Gestion partie 2 strategie.md"
+    "_brut/camarade - Gestion partie 2 strategie.md",
+    "_brut/camarade - Gestion partie 2 strategie (B).md"
    ],
    "statut": "à faire"
   },
