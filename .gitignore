@@ -28,6 +28,10 @@ eco gestion/fichier/
 eco gestion/_brut/drive-download-*/
 eco gestion/_brut/**/*.docx
 eco gestion/_brut/camarade - *.md
+# Tout ce qui arrive de Drive en vrac dans _brut/ (PDF, archives, dossiers par
+# camarade) : meme regle, et un PDF depose la peut etre un papier personnel.
+eco gestion/_brut/**/*.pdf
+eco gestion/_brut/*.zip
 .claude/skills/notes/passages.log
 .claude/skills/notes/launchd.log
 .claude/skills/notes/scratch/

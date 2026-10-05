@@ -12,9 +12,9 @@ notion: Les principales fonctions de l'entreprise — marketing (comportement du
 ue: 12A
 statut: à faire
 periode: 1
-revu: 2026-09-28
-a_verifier: 14
-cartes: 59
+revu: 2026-10-05
+a_verifier: 15
+cartes: 60
 ajouts: 2
 ---
 
@@ -27,8 +27,9 @@ ajouts: 2
 > [!warning] Séance manquée — fiche bâtie sur les notes de deux camarades
 > Tu n'étais pas en amphi (séances 3 et 4). **Tout ce qui suit vient des notes
 > de deux camarades** (`_brut/camarade - Gestion chapitre 2 …` et sa version
-> `(B)`, déposée le 28 septembre 2026), pas des tiennes, avec les captures de
-> slides que le second a collées dans son document. C'est le cours de
+> `(B)`, déposée le 28 septembre 2026 ; la première complétée le 5 octobre
+> 2026), pas des tiennes, avec les captures de slides que le second a collées
+> dans son document. C'est le cours de
 > 2026-2027, même enseignante — mais pris de seconde main. Là où les deux
 > prises de notes disent la même chose, c'est solide ; là où elles divergent,
 > c'est dans *À vérifier*. Confronte-les aux slides dès qu'elles sont sur Moodle.
@@ -59,8 +60,9 @@ ajouts: 2
 5. La fonction **Financière**
 
 > [!note] Les cinq fonctions sont couvertes
-> La première prise de notes s'arrêtait à la production ; la seconde va jusqu'au
-> bout du chapitre. Les fonctions **Ressources Humaines** et **Financière** sont
+> La seconde prise de notes va jusqu'au bout du chapitre ; la première, dans sa
+> version complétée du 5 octobre 2026, couvre aussi la RH et la finance, plus
+> brièvement — les deux se recoupent désormais sur tout le chapitre. Les fonctions **Ressources Humaines** et **Financière** sont
 > aux § 4 et 5, et le chapitre se clôt sur les **prédominances successives des
 > fonctions** (§ 6).
 
@@ -492,6 +494,9 @@ et le **manager de proximité** :
 Grâce au chef comptable, le contrôleur de gestion peut être **plus efficace et
 efficient** : l'un fiabilise les données, l'autre s'en sert pour piloter.
 
+- **Efficace** : qui **atteint ses résultats**.
+- **Efficient** : qui atteint ses résultats **au moindre coût**.
+
 ### 5.3 Trois lectures complémentaires d'une seule vérité
 
 | Document | Ce qu'il lit | Ce qu'il montre |
@@ -511,6 +516,10 @@ La structure du **compte de résultat**, telle que la slide la déroule :
 − charges financières
 − impôts
 **= Résultat net (RN)**
+
+Le compte de résultat est un **flux** : il mesure **tout ce qui est entré ou
+sorti** sur la période. Le bilan, lui, dit ce que l'entreprise **possède** — et,
+au passif, d'où vient l'argent.
 
 ### 5.4 Un changement radical : le prix de revient objectif
 
@@ -602,6 +611,9 @@ du chapitre, de la production de masse à la saturation des marchés.
 | | |
 | **Marché non saturé** | Prix de revient + marge = **prix de vente** |
 | **Marché saturé** | Prix de vente − marge = **prix de revient objectif** |
+| | |
+| **Efficace** | **Atteint** ses résultats |
+| **Efficient** | Les atteint **au moindre coût** |
 
 ---
 
@@ -698,6 +710,7 @@ Dans le compte de résultat, que retire-t-on au résultat d'exploitation pour ob
 Qui est l'interlocuteur des banquiers pour les financements LMT ? ; Le RESPONSABLE FINANCIER ; gestion 12A
 Qui est l'interlocuteur des CAC avec le directeur financier ? ; Le CHEF COMPTABLE ; gestion 12A
 Comment agit le contrôleur de gestion ? ; Pas directement, mais PAR INFLUENCE — en interne, avec les directeurs opérationnels et le PDG ; gestion 12A
+Efficace ou efficient : lequel ajoute « au moindre coût » ? ; EFFICIENT — atteindre ses résultats au moindre coût · efficace, c'est seulement atteindre ses résultats ; gestion 12A
 Marché non saturé : comment s'obtient le prix de vente ? ; Prix de revient COMPLET + marge = prix de vente ; gestion 12A
 Marché saturé : comment s'obtient le prix de revient objectif ? ; Prix de VENTE − marge = prix de revient objectif · c'est la valeur perçue par le client qui fixe le prix ; gestion 12A
 Les trois investissements productifs ? ; Remplacement (maintien en état) · capacité · productivité ; gestion 12A
@@ -710,7 +723,7 @@ Quelle fonction prédomine à partir de la décennie 1980 ? ; La FINANCE / ÉCON
 
 *Méthode de révision, pas du cours — voir [[Methode - Comment reviser]].*
 
-- **59 cartes**, c'est beaucoup : découpe-les en cinq sessions, une par fonction
+- **60 cartes**, c'est beaucoup : découpe-les en cinq sessions, une par fonction
   (marketing, R&D, production, RH, finance). Le marketing pèse le plus lourd en
   vocabulaire, la finance en calcul.
 - **Le QCM de cette UE autorise plusieurs bonnes réponses et se note en tout ou
@@ -1034,6 +1047,14 @@ par question, **tout ou rien**. Coche mentalement toutes les lettres avant d'ouv
 >
 > **a, b et c** — d) décrit le **contrôleur de gestion**. → [[#5.2 Trois métiers de la fonction]]
 
+> [!question]- Une entreprise atteint son objectif de production, mais en dépassant largement son budget. Elle est :
+> a) efficace
+> b) efficiente
+> c) efficace et efficiente
+> d) ni efficace ni efficiente
+>
+> **a** — elle atteint ses résultats, donc elle est **efficace** ; elle ne le fait pas au moindre coût, donc elle n'est **pas efficiente**. → [[#5.2 Trois métiers de la fonction]]
+
 > [!question]- Les trois lectures complémentaires d'une seule vérité :
 > a) le compte de résultat lit la performance
 > b) le bilan lit le patrimoine
@@ -1117,6 +1138,34 @@ par question, **tout ou rien**. Coche mentalement toutes les lettres avant d'ouv
 > **Une figure ajoutée** — la **courbe d'expérience** (§ 3.4), découpée telle
 > quelle dans la capture de slide collée par ton camarade, recollée sur fond
 > blanc.
+
+> [!note]- Ce que la version complétée de la première prise de notes a apporté — 5 points
+> Ton camarade a complété ses notes (`_brut/axel/Chapitre 2.docx`, déposé le
+> 5 octobre 2026) : elles vont désormais jusqu'à la RH et la finance. Presque
+> tout **recoupe** la seconde prise de notes — ce qui rend ces deux parties
+> solides —, et trois points sont nouveaux.
+> La fiche passe de 59 à 60 cartes.
+>
+> **Ce qui est nouveau**
+> - La définition d'**efficace** (atteint ses résultats) et d'**efficient** (les
+>   atteint au moindre coût), là où la fiche n'avait que les deux mots (§ 5.2).
+>   Paire ajoutée à *À ne pas confondre*, une carte et une question de Contrôle.
+> - Le compte de résultat décrit comme un **flux** — « tout ce qui est entré ou
+>   sorti » (§ 5.3).
+> - Le bilan résumé par « tout ce que l'entreprise possède » — voir *À vérifier*.
+>
+> **Ce qui est désormais corroboré par deux camarades**
+> - La RH : d'une fonction administrative à la gestion du **capital humain**, les
+>   **risques psychosociaux**, le recrutement **quantitatif** et par l'**IA**, la
+>   montée vers de nouveaux postes, la fonction **partagée** (§ 4).
+> - La finance : la comptabilité qui **collecte et diffuse**, la finance qui
+>   **finance et étudie la rentabilité des investissements**, les **CAC**, le
+>   contrôleur qui cherche la **productivité**, le **prix de vente accepté sur le
+>   marché** et le **prix de valeur**, le risque de **produire à perte**,
+>   l'investissement de **remplacement** et ses lourds financements (§ 5).
+> - Les prédominances : la **capacité à vendre** dans les années 60, la **RH**
+>   dans les années 70, la **finance** depuis la mondialisation (§ 6). Cette
+>   note ne date pas l'essor de la finance ; la seconde dit décennie 1980.
 
 > [!info]- Ce que le cours de référence a précisé — 5 points
 > Corrections tirées de `L1/Introduction à la gestion/Diaporama de cours/Seances
@@ -1206,6 +1255,11 @@ par question, **tout ou rien**. Coche mentalement toutes les lettres avant d'ouv
 > - **Le diaporama a encore des contenus absents des deux notes** : les trois
 >   couches du produit (matériels, fonctionnels, symboliques), la carte de
 >   positionnement. L'enseignante les a-t-elle gardés cette année ?
+> - **Le bilan, « tout ce que l'entreprise possède » ?** C'est ainsi que la
+>   première note le résume. La seconde (et la slide qu'elle a collée) le lit en
+>   deux côtés : l'**actif**, ce que l'entreprise possède, et le **passif**, d'où
+>   vient l'argent (§ 5.3). La fiche garde les deux côtés ; vérifie sur les
+>   slides la définition attendue en copie.
 > - **Les slides de cette année** ne sont pas dans `eco gestion/fichier/`. Deux
 >   prises de notes se recoupent désormais, mais aucune source officielle ne
 >   les a confirmées.
