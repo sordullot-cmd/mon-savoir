@@ -131,6 +131,11 @@ git commit -m "condense: <chapitre> en deux pages"
 git push
 ```
 
+Sur le site (`/cours`), le chapitre affiche alors un bouton **« Fiche condensée
+(PDF) »** : il cherche `_condenses/<même nom que la fiche>.pdf`, d'où la règle
+du nom identique. Le site se met à jour au prochain `site.sh` (ou passage
+`/eco`) ; pour l'avoir tout de suite : `bash .claude/skills/eco/site.sh`.
+
 Un condensé se **refait** quand la fiche a changé (nouvelles slides, trous
 comblés) : `condense:` dans le frontmatter dit de quand il date, à comparer au
 `revu:` de la fiche.
