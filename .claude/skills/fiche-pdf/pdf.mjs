@@ -2,8 +2,10 @@
 /**
  * Rend une fiche condensée (markdown Obsidian) en PDF A4 imprimable.
  *
- *   node .claude/skills/condense/pdf.mjs "eco gestion/_condenses/<nom>.md"
+ *   node .claude/skills/fiche-pdf/pdf.mjs "eco gestion/_condenses/<nom>.md"
  *   → écrit <nom>.pdf à côté du .md, et affiche son chemin.
+ *
+ * La mise en forme (et ses règles) est décrite dans le SKILL.md voisin.
  *
  * Le markdown passe par le même moteur que le site (vault-gallery/scripts/
  * markdown.mjs) : callouts, formules KaTeX et ancres sont rendus à l'identique.
@@ -81,7 +83,8 @@ md = md
   // Wikilinks : leur texte, le papier ne suit pas les liens.
   .replace(/\[\[([^\]|]+)\|([^\]]+)\]\]/g, '$2')
   .replace(/\[\[(?:[^\]#]*#)?([^\]]+)\]\]/g, '$1')
-  .replace(/==([^=\n]+)==/g, '<mark>$1</mark>')
+  // Un `=` seul peut vivre dans le surligné (`==prix = coût + marge==`).
+  .replace(/==((?:[^=\n]|=(?!=))+?)==/g, '<mark>$1</mark>')
   // `~5 %` veut dire « environ » : en GFM, deux tildes simples barreraient le
   // texte entre eux. Seul `~~barré~~` garde son sens.
   .replace(/(^|[^~\\])~(?!~)/gm, '$1\\~')
@@ -92,15 +95,28 @@ const corps = marked.parse(md)
 
 const titre = fm.titre || (/^# (.+)$/m.exec(md)?.[1] ?? basename(entree, '.md'))
 const katexCss = pathToFileURL(join(SITE, 'node_modules/katex/dist/katex.min.css')).href
-const date = new Date().toLocaleDateString('fr-FR', { day: 'numeric', month: 'long', year: 'numeric' })
+// La date est celle du condensé (frontmatter `condense:`), pas celle du rendu :
+// relancer le script pour un réglage de style ne rajeunit pas le contenu.
+const jour = /^\d{4}-\d{2}-\d{2}$/.test(fm.condense || '') ? new Date(fm.condense + 'T12:00') : new Date()
+const date = jour.toLocaleDateString('fr-FR', { day: 'numeric', month: 'long', year: 'numeric' })
 const pied = [fm.matiere, `condensé le ${date}`].filter(Boolean).join(' · ')
+// `etat: en cours` : le chapitre n'est pas fini au cours, le PDF le dit en tête.
+const enCours = /^en cours$/i.test(fm.etat || '')
+const bandeau = enCours
+  ? `<p class="en-cours">Chapitre en cours — ce condensé s'arrête où en est le cours${fm.jusqua ? ` (${fm.jusqua.replace(/</g, '&lt;')})` : ''}, il sera complété.</p>`
+  : ''
+const entete = (fm.matiere || '').replace(/["\\]/g, '')
 
 const html = `<!doctype html>
 <html lang="fr"><head><meta charset="utf-8">
 <title>${titre.replace(/</g, '&lt;')}</title>
 <link rel="stylesheet" href="${katexCss}">
 <style>
-  @page { size: A4; margin: 11mm 12mm 13mm; }
+  @page {
+    size: A4; margin: 11mm 12mm 13mm;
+    @bottom-left { content: "${entete}"; font: 7.4pt -apple-system, Helvetica, sans-serif; color: #8a909c; }
+    @bottom-right { content: counter(page) " / " counter(pages); font: 7.4pt -apple-system, Helvetica, sans-serif; color: #8a909c; }
+  }
   :root {
     --encre: #16181d; --gris: #5d6370; --filet: #d9dce2; --fond: #f4f5f7;
     --alerte: #d92d5e; --prudence: #c2761a; --test: #10b981; --astuce: #0e8ba8; --resume: #1f2a44;
@@ -158,10 +174,14 @@ const html = `<!doctype html>
   .callout-resume { border-left-color: var(--resume); background: #eef1f7; }
   details summary::-webkit-details-marker { display: none; }
 
+  .en-cours {
+    margin: 0 0 2mm; padding: 1mm 2.6mm; border-radius: 2mm; font-size: 8.4pt;
+    background: #fdf3e4; color: #8a4f0c; border: 1px solid #f1d3a6;
+  }
   footer { margin-top: 4mm; padding-top: 1.4mm; border-top: 1px solid var(--filet); color: var(--gris); font-size: 7.6pt; }
 </style></head>
 <body>
-${corps}
+${corps.replace(/(<\/h1>\s*(?:<p>[\s\S]*?<\/p>)?)/, `$1${bandeau}`)}
 <footer>${pied}</footer>
 </body></html>`
 

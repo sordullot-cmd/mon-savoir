@@ -1,6 +1,6 @@
 ---
 name: condense
-description: Extrait d'un cours d'éco gestion (une fiche de `eco gestion/`, ou tout un cours) une FICHE DE RÉVISION CONDENSÉE de deux pages A4 au plus, et la sort en PDF prêt à imprimer. Garde ce qui tombe à l'examen — l'essentiel, les définitions exactes, les formules, les paires à ne pas confondre, les schémas à savoir refaire, les méthodes — et laisse le reste (contrôle, cartes, trous, notes de provenance). Ne touche jamais un chiffre, une formule, un nom d'auteur. À utiliser quand Sacha dit « fais-moi le condensé de tel chapitre », « une fiche de révision en PDF », « résume ce cours sur deux pages », « extrais le cours en condensé », « /condense ».
+description: Extrait d'un cours d'éco gestion (une fiche de `eco gestion/`, ou tout un cours) une FICHE DE RÉVISION CONDENSÉE de deux pages A4 au plus, et la sort en PDF prêt à imprimer. Garde ce qui tombe à l'examen — l'essentiel, les définitions exactes, les formules, les paires à ne pas confondre, les schémas à savoir refaire, les méthodes — et laisse le reste (contrôle, cartes, trous, notes de provenance). Ne touche jamais un chiffre, une formule, un nom d'auteur. Marche aussi sur un chapitre pas fini (bandeau « en cours »), et MET À JOUR le condensé quand le cours s'enrichit. À utiliser quand Sacha dit « fais-moi le condensé de tel chapitre », « une fiche de révision en PDF », « résume ce cours sur deux pages », « extrais le cours en condensé », « j'ai ajouté des choses au cours, mets à jour le PDF », « refais le condensé », « /condense ».
 ---
 
 # /condense — le cours en deux pages, en PDF
@@ -17,11 +17,39 @@ garde dans le classeur. Il ne remplace pas la fiche, il en sort.
 - **une fiche** (« le chapitre 2 de problèmes éco ») → un condensé ;
 - **un cours entier** (« toute l'UE 12A ») → un condensé par chapitre, puis un
   PDF qui les assemble (voir *Plusieurs chapitres*) ;
+- **tout** (« tous les cours ») → un condensé par fiche de `eco gestion/` qui
+  porte une `ue:` — pas le plan, le calendrier ni la méthode ;
 - **rien** → demander laquelle, en listant les fiches de `eco gestion/`
   (frontmatter `ue:`), celles de la période en cours en premier.
 
 Seules les fiches mises au propre se condensent : un brut de `_brut/` se passe
 d'abord par `/eco`.
+
+**Un chapitre pas fini se condense quand même** — c'est le cas normal en cours
+d'année. On condense ce qui est là, sans rien inventer pour la suite, et on
+le dit : `etat: en cours` et `jusqua: "<où s'arrête le cours>"` dans le
+frontmatter (bandeau orange sous le titre), et les parties annoncées mais pas
+encore faites tiennent en une ligne : `⏳ À venir : <titre de la partie>.`
+Le jour où le cours est fini, on retire `etat:` et `jusqua:`.
+
+## Mettre à jour un condensé
+
+Quand Sacha a ajouté au cours (nouvelle séance, slides, trou comblé) et dit
+« mets à jour le PDF » :
+
+1. Relire la fiche **entière** et le condensé existant ; repérer ce qui a
+   changé depuis la date `condense:` (`git log -p --since=<date> -- "<fiche>"`
+   aide).
+2. **Modifier le condensé, ne pas le réécrire** : insérer les nouveautés à
+   leur place dans le plan, remplacer les ⚠️ / ⏳ que le cours a comblés,
+   ajuster `jusqua:` (ou retirer `etat: en cours`). Ce qui n'a pas bougé
+   reste mot pour mot — Sacha a peut-être déjà annoté l'ancienne version.
+3. Si ça déborde des deux pages : couper ailleurs le moins utile à l'examen,
+   ne jamais tasser.
+4. `condense:` à la date du jour, re-rendre, regarder, commit + push, site.
+
+Le message de commit dit ce qui est entré : `condense: <chapitre> — ajout de
+<…>`.
 
 ## Lire avant d'écrire
 
@@ -54,6 +82,8 @@ hors du passage horaire de `/eco`, qui ne doit pas le « corriger »).
 source: "[[<nom de la fiche>]]"
 matiere: UE 13A · Problèmes économiques contemporains
 condense: 2026-10-06
+etat: en cours
+jusqua: "partie 2"
 ---
 
 # Marché du travail, emploi et chômage
@@ -69,6 +99,9 @@ UE 13A · chapitre 2 · écrit de 2 h
 | | |
 …
 ```
+
+`etat:` et `jusqua:` seulement si le chapitre n'est pas fini (pas de
+commentaire `#` sur ces lignes : le script lit la valeur telle quelle).
 
 **Pas de clé `ue:`** dans ce frontmatter : le site range en chapitre toute
 note de `eco gestion/` qui en porte une, et le condensé apparaîtrait en double
@@ -98,16 +131,16 @@ point marqué ❓ ou « à vérifier » dans la fiche reste marqué ❓.
 
 ## Sortir le PDF
 
+La mise en forme est celle du skill **`/fiche-pdf`** (charte, ce que chaque
+élément markdown donne sur papier, comment vérifier) :
+
 ```
-node .claude/skills/condense/pdf.mjs "eco gestion/_condenses/<nom>.md"
+node .claude/skills/fiche-pdf/pdf.mjs "eco gestion/_condenses/<nom>.md"
 ```
 
-Le script rend le markdown avec le moteur du site (callouts, KaTeX), résout
-les `![[schémas]]` dans le vault, imprime avec Chrome headless, et écrit le
-`.pdf` à côté du `.md`. Il affiche le nombre de pages : **plus de 2 → couper
-et relancer**. Puis **regarder le PDF** (Read sur le fichier) avant de le
-livrer : un schéma trop grand, un tableau coupé, ça se voit, ça ne se devine
-pas.
+Il affiche le nombre de pages : **plus de 2 → couper et relancer**. Puis
+**regarder le PDF** (vignette `qlmanage`, voir `/fiche-pdf`) avant de le
+livrer.
 
 Enfin `open` le PDF pour Sacha.
 
