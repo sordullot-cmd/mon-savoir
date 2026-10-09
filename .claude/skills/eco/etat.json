@@ -10,6 +10,16 @@
    "hash": "9c00625a5650",
    "integre": "2026-09-23 05:20"
   },
+  "eco gestion/_brut/audio - Gestion partie 3 business model.md": {
+   "fiche": "eco gestion/Gestion - Partie 3 Business model UE 12A.md",
+   "hash": "60c8bfba2fbe",
+   "integre": "2026-10-09 12:59"
+  },
+  "eco gestion/_brut/audio - Gestion seance 8 strategies business.md": {
+   "fiche": "eco gestion/Gestion - Partie 2 Strategies business UE 12A.md",
+   "hash": "d4c215fd2f9a",
+   "integre": "2026-10-09 12:59"
+  },
   "eco gestion/_brut/camarade - Gestion chapitre 1 introduction (B).md": {
    "fiche": "eco gestion/Gestion - Introduction.md",
    "hash": "b7d337cbf5c5",
@@ -103,10 +113,10 @@
  },
  "pages": {
   "eco gestion/00 - Plan L1 Angers.md": {
-   "fait": "compteurs 12A relus le 5 octobre (191 cartes, 47 trous ; total 441/95), lien vers la fiche Segmentation et croissance",
-   "hash": "d6fc7e0c5603",
-   "mots": 2564,
-   "passage": "2026-10-05 07:23",
+   "fait": "liens vers les deux fiches du 8 octobre",
+   "hash": "03142ef5f4dd",
+   "mots": 2582,
+   "passage": "2026-10-09 12:59",
    "source": null,
    "sources": [],
    "statut": null
@@ -202,6 +212,28 @@
     "_brut/camarade - Gestion partie 2 strategie (B).md"
    ],
    "statut": "à faire"
+  },
+  "eco gestion/Gestion - Partie 2 Strategies business UE 12A.md": {
+   "fait": "intégration de l'enregistrement audio du 8 octobre (voix de la prof seule) + diaporama séance 8",
+   "hash": "7fb46d114998",
+   "mots": 5694,
+   "passage": "2026-10-09 12:59",
+   "source": "_brut/audio - Gestion seance 8 strategies business.md",
+   "sources": [
+    "_brut/audio - Gestion seance 8 strategies business.md"
+   ],
+   "statut": "à faire"
+  },
+  "eco gestion/Gestion - Partie 3 Business model UE 12A.md": {
+   "fait": "intégration de l'enregistrement audio du 8 octobre, début de la partie 3, sans slides",
+   "hash": "ab352ad448b4",
+   "mots": 2485,
+   "passage": "2026-10-09 12:59",
+   "source": "_brut/audio - Gestion partie 3 business model.md",
+   "sources": [
+    "_brut/audio - Gestion partie 3 business model.md"
+   ],
+   "statut": "en cours"
   },
   "eco gestion/Methode - Comment reviser.md": {
    "fait": "relu après le passage en QCM du 22/09 : QCM 7 (pretesting) rééquilibré, la bonne réponse c) ne se trahit plus par sa longueur ; explication déplacée dans la réponse repliée",
