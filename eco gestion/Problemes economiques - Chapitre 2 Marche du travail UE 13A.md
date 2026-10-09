@@ -568,9 +568,11 @@ Pourquoi le chômage keynésien est-il dit involontaire ? ; Les individus veulen
 
 *Méthode de révision, pas du cours — voir [[Methode - Comment reviser]].*
 
-- **40 cartes** — les 24 des parties 1 et 2, puis 16 sur les théories et le
-  SMIC. En trois sessions plutôt qu'une : les concepts et les mesures (1.1 à
-  1.4), puis les inégalités, puis les théories et le SMIC.
+- **15 cartes** — les définitions et formules les plus importantes (le paquet
+  en comptait 40 avant le 9 octobre, 24 sur les parties 1 et 2 et 16 sur les
+  théories et le SMIC) : 11 sur les concepts et les mesures, 4 sur
+  les deux théories. Le reste — les inégalités, les PCS, le SMIC — se révise par
+  le bloc `Contrôle`, à la forme du QCM.
 - **Le bloc Méthode se révise le crayon à la main**, pas en le relisant :
   reprends le tableau Norvège/Espagne en masquant les trois dernières lignes et
   recalcule-les.
@@ -840,5 +842,5 @@ en 25-26 ; les deux derniers sont du savoir standard, sans source du cours.
 6. **§ 3.1** — la fin de la phrase « il en résulte … » : **une offre de travail
    croissante avec w**, le pendant de la demande décroissante que tu as notée.
 7. **§ 4.1** — le mot **« Interprofessionnel »** dans le développé du sigle
-   SMIC : tu avais noté « Salaire Minimum de Croissance ». La carte qui en sort
-   est taguée `complement`.
+   SMIC : tu avais noté « Salaire Minimum de Croissance ». Sa carte a été retirée
+   avec la réduction du paquet, le 9 octobre.
