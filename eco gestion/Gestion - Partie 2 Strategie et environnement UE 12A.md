@@ -476,8 +476,9 @@ Dans la chaîne de valeur de Porter, l'infrastructure de la firme est une activi
 
 *Méthode de révision, pas du cours — voir [[Methode - Comment reviser]].*
 
-- **32 cartes** (16 au dernier passage), en deux sessions : les points 1-2 (définition, démarche) puis
-  les points 3-4 (environnement externe, interne). La définition de la
+- **12 cartes** (32 avant le tri du 9 octobre, 16 encore avant), toutes à chaque séance : les
+  points 1-2 (définition, démarche) puis les points 3-4 (environnement externe,
+  interne). La définition de la
   stratégie se récite **à voix haute, au mot près** : c'est la question de cours
   type (« définissez, et expliquez à quoi ça sert »).
 - **Deux figures se refont de mémoire**, feuille blanche : la démarche en quatre
