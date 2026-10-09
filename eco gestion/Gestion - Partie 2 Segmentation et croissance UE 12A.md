@@ -498,8 +498,9 @@ Définis la croissance interne ; Mobiliser les ressources de l'entreprise pour a
 
 *Méthode de révision, pas du cours — voir [[Methode - Comment reviser]].*
 
-- **30 cartes**, en deux sessions : les §§ 1 à 4 (niveaux, segmentation, BCG,
-  SWOT) puis les §§ 5 et 6 (diversification, croissance).
+- **12 cartes** (30 avant le tri du 9 octobre), toutes à chaque séance : les
+  §§ 1 à 4 (niveaux, segmentation, BCG, SWOT) puis les §§ 5 et 6
+  (diversification, croissance).
 - **Trois figures se refont de mémoire** : la matrice BCG avec le sens de ses
   axes, les trois types de diversification, la courbe de vie.
 - **L'annale 2024 tire de cette fiche la moitié de son QCM et une question de
