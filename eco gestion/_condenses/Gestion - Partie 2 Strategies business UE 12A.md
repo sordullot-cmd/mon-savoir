@@ -8,6 +8,12 @@ condense: 2026-10-09
 
 UE 12A · partie 2, chapitre 4 · écrit de 2 h en trois parties
 
+> [!danger] 🎯 Ce qui va sûrement tomber
+> - **Domination par les coûts = volume de production important + coûts réduits** — QCM 2023 Q4, en tout ou rien.
+> - **Nommer la stratégie** — tableau de cas, 2023 partie 2 : BlaBlaCar → **océan bleu**, Hermès → **différenciation**, Skoda → **domination par les coûts** ❓.
+> - **Corporate / business** — 2024 partie 2 Q2 (Bouygues) : expliquer la stratégie corporate.
+> - **Effet d'expérience, différenciation** : dans le cours de 2021 et les slides de 2025 → définir + avantages et limites.
+
 > [!abstract] L'essentiel
 > - La **stratégie business** se définit **pour chaque DAS** ; son but : un **avantage concurrentiel durable**. Deux stratégies génériques (Porter) : **domination par les coûts** et **différenciation**.
 > - **Domination par les coûts** (coût-volume) : une offre **semblable à la concurrence**, moins chère ; marges faibles × gros volumes. Fondement : l'**effet d'expérience** (BCG) et l'**effet volume**.
@@ -15,16 +21,15 @@ UE 12A · partie 2, chapitre 4 · écrit de 2 h en trois parties
 > - Le **low cost** est une différenciation **par le bas** (valeur perçue **inférieure**), à ne pas confondre avec la domination par les coûts.
 > - **Océan bleu** (Kim et Mauborgne) : quitter l'**océan rouge** saturé pour **créer un nouveau marché**, en combinant différenciation **et** coûts bas.
 
-**Corporate strategy** : définie **au niveau global par la DG** (périmètre, synergies, portefeuille) · **business strategy** : **pour chacune des activités** (**DAS**) — l'objet de ce chapitre.
+🎯 **Corporate strategy** : définie **au niveau global par la DG** (périmètre, synergies, portefeuille) · **business strategy** : **pour chacune des activités** (**DAS**) — l'objet de ce chapitre.
 
 ## 1. La stratégie de domination par les coûts
 
-> **Coût-volume** : chercher à **dominer le marché par les coûts bas**.
+> 🎯 **Coût-volume** : chercher à **dominer le marché par les coûts bas**.
 
 - Quatre traits : **recherche de compétitivité** · **offre semblable à la concurrence** · **recherche d'efficience** · **diminution des coûts par un effet volume**.
 - Prix bas → **parts de marché élevées** · **marges faibles** × beaucoup de produits = **rentabilité acceptable**.
 - ==Offre **semblable** à la concurrence : **moins cher**, à qualité de service et de produit **égales**== (Leclerc rembourse la différence).
-- Économies **partout** : fournisseurs, **internaliser** sans intermédiaires (Free).
 
 > **L'effet d'expérience** : le **coût unitaire** d'un produit (mesuré en unités monétaires constantes) **décroît d'un pourcentage constant** (souvent compris **entre 20 et 30 %**) **à chaque fois que la production cumulée de ce produit est doublée**.
 
@@ -34,7 +39,6 @@ UE 12A · partie 2, chapitre 4 · écrit de 2 h en trois parties
 ![[gestion-courbe-d-experience.png|260]]
 
 - **Effet volume** = **optimisation des équipements** (plusieurs équipes, machine **24 h sur 24**) + **répartition des coûts fixes sur de grandes séries** (80 000 € : **80,00 €** l'unité pour 1 000, **20,00 €** pour 4 000).
-- **Ford T** : modèle unique, **premier exemple de standardisation**.
 
 | Avantages | Limites |
 | --- | --- |
@@ -46,7 +50,7 @@ Risquée sur un **marché saturé** et en **ralentissement économique**. Exempl
 
 > **La différenciation** : « la mise en évidence de **spécificités porteuses de valeur pour le client** et destinées à **distinguer l'offre d'une entreprise de celle de ses concurrents** » (**Kotler, Dubois, 2004**).
 
-- Un produit ou service **unique**, qui **justifie un prix premium** · **valeur perçue** plus élevée (Hermès : moins de ventes, **marge élevée**).
+- 🎯 Un produit ou service **unique**, qui **justifie un prix premium** · **valeur perçue** plus élevée (Hermès : moins de ventes, **marge élevée**).
 - **Trois leviers** : **l'innovation** (design, technologie) · **la qualité** · **l'image de marque**.
 
 | Avantages | Limites |
@@ -59,10 +63,6 @@ Risquée sur un **marché saturé** et en **ralentissement économique**. Exempl
 | --- | --- | --- |
 | **Cible large** | **1. Domination totale par les coûts** | **3. Différenciation** |
 | **Cible étroite** | **2. Focalisation / coût** sur un segment | **4. Focalisation / différenciation** sur un segment |
-
-| Sophistication | Épuration (low cost) |
-| --- | --- |
-| Offre **supérieure**, appuyée sur des **actifs spécifiques uniques** (savoir-faire, brevets, marques) · aviation d'affaires | Offre **très attractive en prix**, en **supprimant** des éléments **superflus** · easyJet, Ryanair |
 
 ==L'épuration n'est **pas** une stratégie de prix : elle réduit **à la fois les prix et la valeur perçue**, **sans sacrifier les marges**.==
 
@@ -79,7 +79,6 @@ Risquée sur un **marché saturé** et en **ralentissement économique**. Exempl
 | **Arbitrer entre valeur et coût** | **Concilier avantage de valeur et de prix** |
 
 - Exemples : **Netflix** (DVD → streaming) · **Uber** · **Cirque du Soleil** (sans animaux : coûts **plus bas** et valeur **plus élevée**) · **BlaBlaCar** · Nintendo et la Wii.
-- L'océan bleu **réduit les cinq forces** : rivalité (iPhone 2007) · entrants (**barrières**, Tesla) · fournisseurs (impression 3D) · clients (produit **unique**, Netflix) · substituts **obsolètes** (streaming / CD).
 
 | Stratégie | Avantages | Risques | Exemple |
 | --- | --- | --- | --- |
@@ -95,6 +94,4 @@ Risquée sur un **marché saturé** et en **ralentissement économique**. Exempl
 | | |
 | **Différenciation** (cadran 3) : **cible large** | **Focalisation** (cadrans 2 et 4) : **cible étroite** |
 
-**Classer une entreprise** : semblable et moins chère → **coûts** · épurée, valeur plus basse → **low cost** · unique et plus chère → **différenciation** · un seul segment → **focalisation** · marché créé, sans concurrent → **océan bleu**. Annale 2023 : **Skoda** → domination par les coûts, **Hermès** → différenciation, **BlaBlaCar** → océan bleu.
-
-⚠️ La troisième forme de différenciation de la vidéo (après sophistication et épuration) est inaudible dans les notes.
+🎯 **Classer une entreprise** : semblable et moins chère → **coûts** · épurée, valeur plus basse → **low cost** · unique et plus chère → **différenciation** · un seul segment → **focalisation** · marché créé, sans concurrent → **océan bleu**. Annale 2023 : **Skoda** → domination par les coûts ❓, **Hermès** → différenciation, **BlaBlaCar** → océan bleu.

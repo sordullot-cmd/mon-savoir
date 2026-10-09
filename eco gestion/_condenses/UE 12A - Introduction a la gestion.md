@@ -7,6 +7,13 @@ condense: 2026-10-09
 
 UE 12A · chapitre 1 (séances 1-2) · QCM + questions de cours + sujet de réflexion
 
+> [!danger] 🎯 Ce qui va sûrement tomber
+> - **Stratégique / opérationnel** — partie 3 de 2024 (Arkopharma) : nommer le niveau, puis ses caractéristiques reliées au texte.
+> - **RSE et développement durable** — partie 3 de 2023 (Friedman) : définir la RSE, puis une vingtaine de lignes structurées.
+> - 🟠 **ESS et finalités** — QCM 2024 Q1 et Q4, en tout ou rien : l'hôpital est public, l'association est à but non lucratif.
+> - 🟠 **Formelle / informelle, division verticale / horizontale** — QCM 2023 Q1 ❓ (bonne combinaison inconnue).
+> - 🟠 **Contextes et services** — QCM 2023 Q2 et 2024 Q5 : la gestion dépend du contexte ; le service ne se stocke pas.
+
 > [!abstract] L'essentiel
 > - Gérer = mobiliser des ressources (humaines, financières, matérielles, informationnelles) pour atteindre un objectif, sous contrainte de temps et d'argent — d'où l'obligation de pivoter.
 > - 2 niveaux de décision : stratégique (long terme, irréversible, affaire des actionnaires) et opérationnel (proche du terrain, réversible, affaire des cadres intermédiaires).
@@ -22,22 +29,21 @@ UE 12A · chapitre 1 (séances 1-2) · QCM + questions de cours + sujet de réfl
 
 ## 2. Les 3 types d'organisations
 
-| Organisations publiques | Entreprises (publiques ou privées) | ESS (à but non lucratif) |
+| Organisations publiques | Entreprises (publiques ou privées) | 🎯 ESS (à but non lucratif) |
 |---|---|---|
-| Ministères · organisation territoriale · **Sécurité sociale** · **Éducation nationale** · hôpitaux | Publiques : l'État détient **> 50 % du capital** · privées : la grande majorité | Associations (**loi 1901**) · coopératives · **mutuelles** · **syndicats** · **fondations** (loi du 31 juillet 2014) |
+| Ministères · organisation territoriale · **Sécurité sociale** · **Éducation nationale** · hôpitaux | Publiques : l'État détient **> 50 % du capital** · privées : la grande majorité | Associations (**loi 1901**) · ONG · coopératives · **mutuelles** · **syndicats** · **fondations** (loi du 31 juillet 2014) |
 
 - ==Publique ou privée : un seuil de **capital** (> 50 % à l'État), pas la mission.==
 - ❓ Public : « contrainte de **rentabilité** » (tes notes) ou « **équilibre budgétaire** » (slides) ?
-- **Emmaüs Solidarité** : **1,6 million d'associations actives** en **2025** ; elles doivent aussi **gérer des ressources rares** (dons, subventions, bénévoles).
 
 ## 3. Niveaux de gestion et stratégie
 
-- **Stratégique** : **long terme**, investissement long, **irréversible** ; objectifs, grandes orientations ; concerne les **actionnaires** ❓ *(« la direction » selon une synthèse)*.
-- **Opérationnel** : **cadres intermédiaires**, dans **leur secteur** ; décisions **fréquentes, réversibles, proches du terrain**.
+- 🎯 **Stratégique** : **long terme**, investissement long, **irréversible** ; objectifs, grandes orientations ; concerne les **actionnaires** ❓ *(« la direction » selon une synthèse)*.
+- 🎯 **Opérationnel** : **cadres intermédiaires**, dans **leur secteur** ; décisions **fréquentes, réversibles, proches du terrain**.
 
 > La **stratégie** est l'art de parvenir à son objectif malgré la volonté de l'autre, dans des circonstances éminemment variables.
 
-- **Napoléon à Waterloo** · **jeu de compétition télévisé** · **A. D. Chandler** : déterminer **les buts et les objectifs** à long terme, et choisir les actions et les ressources pour les atteindre.
+- **A. D. Chandler** : déterminer **les buts et les objectifs** à long terme, et choisir les actions et les ressources pour les atteindre.
 - **Chaîne de pilotage** : `réflexion stratégique → plan LMT → lettre de cadrage → BUDGET` · **fragmentation de la chaîne de valeur** : quelles étapes on garde, lesquelles on confie.
 
 ## 4. Le cycle de produit (ex. le smartphone)
@@ -54,47 +60,48 @@ UE 12A · chapitre 1 (séances 1-2) · QCM + questions de cours + sujet de réfl
 
 **Élargie (développement durable)** : + « **en préservant les ressources de la planète et en augmentant le bien-être de la population** ».
 
-> *Un mode de développement qui répond aux besoins du présent sans compromettre la capacité des générations futures à répondre aux leurs.* — **rapport Brundtland, 1987**
+> 🎯 *Un mode de développement qui répond aux besoins du présent sans compromettre la capacité des générations futures à répondre aux leurs.* — **rapport Brundtland, 1987**
 
 - Schéma des trois cercles : env. + social = **vivable** · éco. + social = **équitable** · éco. + env. = **viable** · les trois = **DURABLE**.
-- **Développement durable** : terme d'**économie** · **RSE** : terme de **gestion** = prise en compte des **effets sociaux et environnementaux** des activités de l'entreprise · Saint-Exupéry, **Patagonia**.
+- 🎯 **Développement durable** : terme d'**économie** · **RSE** : terme de **gestion** = prise en compte des **effets sociaux et environnementaux** des activités de l'entreprise · Saint-Exupéry, **Patagonia**.
 
 ## 6. Les structures de l'entreprise
 
-- **Formelle** : **l'organigramme**, division **verticale** et **horizontale** ; **règlements et procédures** = **structure d'autorité** · **Informelle** : liens **« fluides »** hors organigramme, **aux intérêts multiples** (ex. la place des étudiants en cours).
+- 🎯 **Formelle** : **l'organigramme**, division **verticale** et **horizontale** ; **règlements et procédures** = **structure d'autorité** · **Informelle** : liens **« fluides »** hors organigramme, **aux intérêts multiples** (ex. la place des étudiants en cours).
 - **Culture d'entreprise** : ensemble lié de manières de penser, de sentir et d'agir, plus ou moins formalisé et partagé par une pluralité de personnes. **Calori et al., 1989** : **conscient** (formule stratégique · pratiques de management · symboles) / **inconscient** (**valeurs** · **postulats de base**). Ex : le **vouvoiement**.
-- **Technologie** : matières premières + travail + moyens de production → **PROCESS** → production de biens et de services.
 
 ## 7. Classement : taille · secteur · statut
-
-~**5,2 millions d'entreprises**, hors agricole et financier (**Insee Focus n° 372, données 2023**) :
 
 | | MIC | PME hors MIC | ETI | GE |
 |---|---|---|---|---|
 | **Seuils** | < 10 salariés, 2 millions de CA | < 250 salariés, < 50 millions de CA | < 5 000 salariés | au-delà |
-| **Nombre** | ≈ 5 000 000 | 174 614 | 7 442 | 333 |
-| **% entreprises / effectifs (ETP)** | 96,3 % / 17 % | 3,4 % / 29 % | 0,14 % / 26 % | 0,006 % / 28 % |
 
 - **ETI < 1 500 M€** · **GE ≥ 5 000 salariés ou CA ≥ 1 500 M€** · peu de GE → **export** · le **CA** = indicateur **commercial**, **pas** de rentabilité.
-- **Secteurs** : **primaire 2,5 %** · **secondaire 20 %** (industrie 13,3 % + construction 6,7 %) · **tertiaire 76,1 %** · 4ᵉ secteur numérique / quaternaire (MTIC ❓ *NTIC ?*).
 - **EI** : 1 personne, **pas de personne morale distincte**, micro-entreprise ou EI classique → **IR** · **Société** : **personne morale**, patrimoine propre ; 1 associé EURL · SASU, plusieurs SARL · SAS · SA → **IS** en général ; responsabilité **limitée aux apports**.
 
 > **Personne morale** : entité juridique dotée d'une personnalité propre, indépendante des individus qui la composent.
 
 - **Loi du 14 février 2022** (en vigueur **15 mai 2022**) : l'**EIRL disparaît**, patrimoine personnel protégé **automatiquement**.
 - **Choisir un statut** : responsabilité **limitée au capital apporté** ? · **s'associer** ou **seul** ? → ==l'IR / IS **découle** du statut.==
+- 🎯 ❓ **Société de personnes / de capitaux** : tombé (QCM 2024 Q6), absent de tes notes — slide 30 à récupérer.
 
 ## 8. Les contextes de la gestion
 
 - **PME** : manque de **fonds propres** et de **trésorerie** (l'argent immédiatement disponible pour les dépenses quotidiennes) · **crise de croissance** · gestion ***intuitu personae***, peu de spécialistes fonctionnels, **stratégie de focalisation**.
 - **GE** : **gouvernance** = pouvoir **organisé et contrôlé** entre **actionnaires**, **dirigeants**, **organes de direction** · mondialisation · **RSE** · **Licorne** : startup valorisée à **plus d'un milliard de dollars**.
-- **Services** : **participation du client** · **Public** : **service public et équilibre budgétaire**, transposition **partielle** des outils, délégation au privé · **Associatif** : dons, subventions · **concurrence entre associations**.
+- 🎯 **Services** : **participation du client** · la coupe **ne se stocke pas** · **Public** : **service public et équilibre budgétaire**, transposition **partielle** des outils, délégation au privé · **Associatif** : dons, subventions · **concurrence entre associations**.
 
 <div style="break-before: page"></div>
 
 # Les principales fonctions de l'entreprise
 
 UE 12A · chapitre 2 · écrit de 2 h en trois parties · QCM en tout ou rien
+
+> [!danger] 🎯 Ce qui va sûrement tomber
+> - **Les 5 fonctions et le rôle de chacune** — partie 3 de 2024 (Arkopharma) : pour chaque fonction, son rôle + les faits du texte.
+> - **Les 4P** — QCM 2024 Q9 : Prix, Produit, Communication, Distribution ; « extensive » est un piège.
+> - **Push / pull** — QCM 2023 Q3 (« un cheval plus rapide », Henry Ford) : la copie notée a eu le point avec **pull**.
+> - **Incrémentale / rupture × produit / procédé** — QCM 2024 Q2 (table de jardin à parasol intégré) : deux axes, deux cases (incrémentale **et** produit).
 
 > [!abstract] L'essentiel
 > - Cinq fonctions : **marketing, R&D, production, ressources humaines, financière** — dominantes tour à tour.
@@ -108,13 +115,13 @@ UE 12A · chapitre 2 · écrit de 2 h en trois parties · QCM en tout ou rien
 
 Seconde définition (**Philip Kotler**) : **l'analyse, l'organisation, la planification et le contrôle** des activités, des stratégies et des ressources d'une entreprise, qui ont une **influence directe sur le client**, en vue de **satisfaire les désirs et les besoins de groupes de clients sélectionnés**, de façon **rentable**.
 
-Rôle (secteur marchand) : **créer de la valeur économique pour l'entreprise en créant de la valeur perçue pour le client**.
+🎯 Rôle (secteur marchand) : **créer de la valeur économique pour l'entreprise en créant de la valeur perçue pour le client**.
 
 **Processus d'achat** : facteurs **culturels** · **sociaux** (classe sociale) · **familiaux** · variables **individuelles** (âge, cycle de vie, profession, personnalité) · variables **environnementales** (économie, technologie) · **stimuli** (seul facteur **indépendant** de l'acheteur, ex. les soldes). ==La **part de marché du produit** n'impacte pas le processus d'achat.==
 
 Marketing stratégique = **S-C-P**, dans cet ordre : **segmentation** (découper en groupes homogènes) → **ciblage** (choisir les segments) → **positionnement** (l'image dans l'esprit du consommateur). Le prix et la distribution n'en sont pas : ce sont des P.
 
-**4P** : **Product** (produit) · **Price** (prix) · **Promotion** (promotion et publicité : **toute la communication**) · **Place** (**distribution**, pas « lieu »).
+🎯 **4P** : **Product** (produit) · **Price** (prix) · **Promotion** (promotion et publicité : **toute la communication**) · **Place** (**distribution**, pas « lieu »).
 
 | Distribution | | Circuit | |
 | --- | --- | --- | --- |
@@ -126,7 +133,7 @@ Marketing stratégique = **S-C-P**, dans cet ordre : **segmentation** (découper
 
 Publicité : **informative et persuasive** (informe) · **mécaniste** (**répète** un slogan, réaction automatique, ex. Carglass) · **suggestive** (**évocation** des images, mythes, fantasmes : parfum, lingerie) · **projective ou intégrative** (montrer son **appartenance** à un groupe).
 
-| **Push** — mix **distribution**, stratégie de **pression** | **Pull** — mix **communication**, stratégie d'**attraction** |
+| 🎯 **Push** — mix **distribution**, stratégie de **pression** | **Pull** — mix **communication**, stratégie d'**attraction** |
 | --- | --- |
 | **pousser le produit vers le client** (force de vente, réseau) | **tirer le client vers le produit** (communication, publicité, notoriété) |
 
@@ -136,18 +143,16 @@ Publicité : **informative et persuasive** (informe) · **mécaniste** (**répè
 
 Cinq cas d'innovation : **produit nouveau** (iPhone, vaccins) · **nouveau procédé** (fordisme, 1913) · **nouveau marché** pour un produit existant · **nouvelle organisation du travail** (Uber) · **nouvelles matières premières** ou sources d'énergie.
 
-- **Incrémentale** : amélioration **progressive** d'un produit, d'un service ou d'un procédé **déjà existant** → entretient et **fidélise** les clients acquis.
-- **De rupture** : **transformation radicale** qui change les usages, les modèles économiques et les marchés → **rend obsolètes** les solutions antérieures, **crée un marché nouveau**.
+- 🎯 **Incrémentale** : amélioration **progressive** d'un produit, d'un service ou d'un procédé **déjà existant** → entretient et **fidélise** les clients acquis.
+- 🎯 **De rupture** : **transformation radicale** qui change les usages, les modèles économiques et les marchés → **rend obsolètes** les solutions antérieures, **crée un marché nouveau**.
 
-Deux axes indépendants : l'**intensité** (rupture / incrémentale) et l'**objet** (**produit** : ce qu'on vend · **procédé** : la manière de produire). **iPhone** = rupture (crée les smartphones), **chaque nouvelle version** = incrémentale. Joindre **exploration et exploitation**. Blablacar : **stratégique** · BioNTech : **technologique de rupture** · Qwant : **stratégique technologique**.
-
-Recherche **fondamentale** (connaissance scientifique) → **appliquée** (jusqu'au **prototype**) → **R&D** (nouvelles innovations). **Techno push** : partir d'un produit existant pour l'améliorer ❓.
+🎯 Deux axes indépendants : l'**intensité** (rupture / incrémentale) et l'**objet** (**produit** : ce qu'on vend · **procédé** : la manière de produire). **iPhone** = rupture (crée les smartphones), **chaque nouvelle version** = incrémentale. Joindre **exploration et exploitation**.
 
 Enjeux : avantage concurrentiel durable · investissements lourds sans garantie (médicament : **1 à 2 milliards**) · cycle de vie raccourci · **brevet** · voies d'accès (interne, sous-traitance, licence, achat, coopération) · **crédit d'impôt recherche** (rembourse **30 %** des dépenses).
 
 ## 3. La fonction Production
 
-> La **production** est l'ensemble des activités qui permettent de transformer des **ressources (inputs)** en **biens et services (outputs)**.
+> 🎯 La **production** est l'ensemble des activités qui permettent de transformer des **ressources (inputs)** en **biens et services (outputs)**.
 
 Exigences : **Qualité · Coût · Délai** (QCD). Facteurs : **travail** · **capital fixe** (machines) · **capital circulant** (stocks, matières premières) · **capital financier** (trésorerie, capital social) · **ressources naturelles**.
 
@@ -157,19 +162,16 @@ $\text{Intensité capitalistique} = \dfrac{\text{Quantité de capital utilisé}}
 
 Gain de productivité : **baisser le prix de vente** = **compétitivité** · **accroître le profit unitaire** = **rentabilité**. Bénéficiaires : actionnaires (dividendes), salariés (salaires), consommateurs (prix).
 
-Atelier → **taylorisme** (et fordisme) → **toyotisme** (**flux tendu**) → **teslisme** (la **machine informe l'opérateur** qu'elle va tomber en panne). Saturation : marketing **moteur**, perte de l'**effet d'échelle**, **effet d'expérience réduit**, flexibilité, **polyvalence**, qualité, **unités de travail autonomes**. Maintenance **curative** ou **préventive**. Paradigmes ❓ : premier = **produire ce que l'on vend** · aujourd'hui = **vendre ce que l'on produit**.
-
 ## 4. La fonction Ressources Humaines
 
 - **Au départ** : **administrative** (contrat de travail, paie) · **aujourd'hui** : gestion du **« capital humain »** · enjeu : **risques psychosociaux** (RPS).
-- Trois missions : **recrutement** (qualitatif et quantitatif, IA) · **montée en compétences** · **motivation**.
-- Processus à trois **RH → manager → salarié** : les outils sont **élaborés par la DRH** mais **vivent grâce aux salariés et aux managers**.
+- 🎯 Trois missions : **recrutement** (qualitatif et quantitatif, IA) · **montée en compétences** · **motivation**.
 
 ## 5. La fonction Financière
 
-**Comptabilité** : **collecter, traiter / analyser, diffuser** l'information · **Finance** : **gérer** — financement, **rentabilité des investissements**.
+**Comptabilité** : **collecter, traiter / analyser, diffuser** l'information · 🎯 **Finance** : **gérer** — financement, **rentabilité des investissements**.
 
-**Responsable financier** : ressources financières, interlocuteur des **banquiers** (LMT), ingénierie financière · **Chef comptable** : règles et pièces comptables, documents mensuels, interlocuteur des **CAC** · **Contrôleur de gestion** : en interne, agit **par influence**. **Efficace** = atteint ses résultats · **efficient** = **au moindre coût**.
+**Efficace** = atteint ses résultats · **efficient** = **au moindre coût**.
 
 Trois lectures d'une seule vérité : **compte de résultat** = la **performance** (un **flux**) · **bilan** = le **patrimoine** (actif : ce qu'elle possède · passif : d'où vient l'argent) · **cash flow statement** = le **cash**.
 
@@ -177,8 +179,6 @@ Trois lectures d'une seule vérité : **compte de résultat** = la **performance
 
 - **Marché non saturé** (âge d'or, jusqu'en 1970) : **prix de revient complet + marge = prix de vente**.
 - **Marché saturé** (aujourd'hui) : **prix de vente − marge = prix de revient objectif** (cost target) · ==la valeur perçue par le client fixe le prix== · risque : **produire à perte**.
-
- Investissements **productifs** : remplacement · capacité · productivité · autres : sécurité · législation.
 
 ## 6. Les prédominances successives
 
@@ -190,6 +190,13 @@ Trois lectures d'une seule vérité : **compte de résultat** = la **performance
 
 UE 12A · partie 2, chapitre 1 · écrit de 2 h en trois parties ❓
 
+> [!danger] 🎯 Ce qui va sûrement tomber
+> - **5 (+1) forces de Porter** : 2023 Q6, QCM à **six** bonnes réponses (pièges : cours des actions, syndicats, « nouveaux marchés », environnement économique) · 2024 Q10, « à qui doit-on le modèle ? ».
+> - **PESTEL** : 2023 partie 2, tableau à remplir — au moins 4 éléments, **un exemple par lettre**.
+> - **FCS** : 2023 Q5, QCM (« les conditions de réussite sur un segment d'activité »).
+> - **Chaîne de valeur** : 2024 Q3, QCM — le piège du « service », activité **principale**.
+> - **Décision stratégique** : 2024 partie 3 (Arkopharma), niveau de gestion et caractéristiques, en rédaction.
+
 > [!abstract] L'essentiel
 > - La **stratégie** : l'ensemble des décisions qui orientent, **de façon déterminante et pour le long terme**, les activités et structures de l'organisation.
 > - La démarche en **quatre étapes** : diagnostic externe (**Facteurs Clefs de Succès**) → diagnostic interne (**Avantage Concurrentiel**) → choix fondé sur les **Compétences Distinctives** → déploiement opérationnel (budgets).
@@ -199,13 +206,11 @@ UE 12A · partie 2, chapitre 1 · écrit de 2 h en trois parties ❓
 
 ## 1. La notion de stratégie
 
-- **Origine** : deux racines grecques, « **stratos** » = **armée**, « **agô** » = **conduire** · Sun Tzu, *L'Art de la guerre*, 4e siècle av. J.-C. · réservé à l'armée, appliqué aux entreprises **dans les années 50 et 60**.
 - **Trois piliers** : la **création de valeur** · l'**affrontement concurrentiel** · le **choix du périmètre d'activité**.
 - Finalité : créer de la valeur pour **l'ensemble des parties prenantes** (salariés, clients, actionnaires, État) ; le **client** en est une des plus importantes.
 
 > **La stratégie** : « Ensemble des décisions qui visent à orienter de façon **déterminante** et pour le **long terme** les **activités et structures** de l'organisation, avec pour objectifs la **réponse aux attentes des parties prenantes**, l'obtention d'un **avantage concurrentiel** et la **création de valeur pour les clients**. »
 
-- Seconde définition de la slide : **mission** = les **finalités** · **vision** = l'orientation **à long terme** ; le but : un **avantage concurrentiel soutenable** pour les parties prenantes (*stakeholders*).
 - **Qui la fait ?** Le **dirigeant** : il **définit la mission**, **formule la stratégie**, **la met en œuvre** ; il a le **pouvoir décisionnel** ❓ et mobilise. Ex. **Henry Ford** : démocratiser l'automobile.
 
 ## 2. La démarche stratégique
@@ -220,12 +225,12 @@ UE 12A · partie 2, chapitre 1 · écrit de 2 h en trois parties ❓
 - **Micro-environnement** : **tout ce qui est en contact direct avec l'entreprise**, particulièrement **ses concurrents**, ses clients, fournisseurs, intermédiaires commerciaux, partenaires → **5 forces**.
 - Toujours se demander : **menace ou opportunité ?** (la croissance économique = une opportunité).
 
-**5 forces de Michael Porter** : **1** concurrents directs (rivalité) · **2** fournisseurs et **3** acheteurs (pouvoir de négociation) · **4** entrants potentiels (menace d'entrée) · **5** offreurs de substituts (produits **différents**, **même demande** — Fuze Tea, Lipton face à Coca-Cola) · **+ État**, qui pèse sur les 5 (ex. mesure protectionniste).
+🎯 **5 forces de Michael Porter** : **1** concurrents directs (rivalité) · **2** fournisseurs et **3** acheteurs (pouvoir de négociation) · **4** entrants potentiels (menace d'entrée) · **5** offreurs de substituts (produits **différents**, **même demande** — Fuze Tea, Lipton face à Coca-Cola) · **+ État**, qui pèse sur les 5 (ex. mesure protectionniste).
 Méthode : un **poids de 1 à 5** par force, **radar** de 0 à 5 ; intensité **faible** = **opportunité**, **forte** = **risque élevé**.
 
 ![[gestion-environnement-macro-micro.svg|180]] ![[gestion-cinq-forces-porter.svg|250]]
 
-| Pan du PESTEL | Ce qu'on y regarde |
+| 🎯 Pan du PESTEL | Ce qu'on y regarde |
 | --- | --- |
 | **Politique** | **Stabilité gouvernementale** · **politique fiscale** · commerce extérieur · protection sociale |
 | **Économique** | **Cycles économiques** · PNB · taux d'intérêt · politique monétaire · inflation · **mondialisation** |
@@ -241,7 +246,6 @@ Méthode : un **poids de 1 à 5** par force, **radar** de 0 à 5 ; intensité **
 - **Ressources** : **ce dont une organisation dispose** — humaines · financières · matérielles · immatérielles.
 - **Compétences** : **ce qu'une organisation sait faire** — humaines · organisationnelles · marketing et commerciales · opérationnelles et logistiques · technologiques.
 
-- Compétence = savoir **combiner différentes ressources** (« comme des briques ») · **compétence clef** = faire **mieux que les autres**.
 - **Porter** : la stratégie consiste à **obtenir et conserver un avantage concurrentiel** ; il **résulte de la valeur** créée pour les clients.
 
 > **Un avantage concurrentiel consiste en tout ce qui confère à une entreprise un avantage sur les entreprises concurrentes.**
@@ -249,21 +253,19 @@ Méthode : un **poids de 1 à 5** par force, **radar** de 0 à 5 ; intensité **
 - Deux façons de créer de la valeur : **prix inférieurs** aux concurrents · **avantages uniques** qui font **plus que compenser un prix plus élevé**. Ex. BYD et Tesla : la batterie.
 - Condition, en équation : **Coût de production + Marge = Valeur perçue par le client**.
 
-**Chaîne de valeur (M. Porter)**
+🎯 **Chaîne de valeur (M. Porter)**
 
 | Activités principales | Activités de soutien |
 | --- | --- |
-| Logistique interne · production · logistique externe · commercialisation · **services** (après-vente) ❓ | **Infrastructure de la firme** (direction, planification, contrôle, finance) · **RH** · **développement technologique** · **approvisionnements** |
+| Logistique interne · production · logistique externe · commercialisation · **services** (après-vente) | **Infrastructure de la firme** (direction, planification, contrôle, finance) · **RH** · **développement technologique** · **approvisionnements** |
 
-==Le service (après-vente) est une activité **principale**, pas de soutien== (à confirmer). **Make or buy** : je fais, ou je fais faire.
+==Le service (après-vente) est une activité **principale**, pas de soutien== (cours de 2021). **Make or buy** : je fais, ou je fais faire.
 
 > La **culture d'entreprise** est un **ensemble de références partagées** dans l'organisation, **construites tout au long de son histoire** en réponse aux **problèmes rencontrés** par l'entreprise. (« selon Morice » ❓)
 
-Composantes : culture nationale · sous-culture · **valeurs** · **symboles** · **mythes** · **rites** · **tabous** → **management** (cohérence du groupe, adaptation, motivation) → **performance**.
-
 ## 🔁 À ne pas confondre
 
-| **FCS** : partagés par tous · diagnostic externe (1re) · pour **être** sur le marché | **Avantage concurrentiel** : spécifique, défendable · diagnostic interne (2e) · pour **y gagner** |
+| 🎯 **FCS** : partagés par tous · diagnostic externe (1re) · pour **être** sur le marché | **Avantage concurrentiel** : spécifique, défendable · diagnostic interne (2e) · pour **y gagner** |
 | --- | --- |
 | **Entrants potentiels** (4) : nouveaux concurrents, même produit, barrières à l'entrée | **Substituts** (5) : produits différents, même demande |
 
@@ -274,6 +276,12 @@ Composantes : culture nationale · sous-culture · **valeurs** · **symboles** �
 UE 12A · partie 2 (suite) · écrit de 2 h en trois parties
 
 > [!warning] Chapitre en cours — ce condensé s'arrête où en est le cours (partie 6, la croissance externe par M & A).
+
+> [!danger] 🎯 Ce qui va sûrement tomber
+> - **Segmentation stratégique, DAS, corporate** : 2024 partie 2, Bouygues — analyser le groupe **en expliquant** les trois notions.
+> - **SWOT** : 2024 Q12, QCM (concurrent en faillite → **opportunité**) · 2023 partie 2, six faits à classer.
+> - **Diversification** : 2024 Q7, QCM (Virgin → **non liée**) · 2023 partie 2, une entreprise → une stratégie (Essilor → **spécialisation**, Michelin → **filière**).
+> - **Croissance** : 2024 Q8, QCM (hypermarchés en Chine → **interne** ; piège « conjointe ») · 2023 partie 2 (Nestlé → **externalisation**).
 
 > [!abstract] L'essentiel
 > - **Corporate strategy** (tout le groupe, portefeuille d'activités) · **business strategy** (un DAS : avantage concurrentiel).
@@ -286,7 +294,7 @@ UE 12A · partie 2 (suite) · écrit de 2 h en trois parties
 
 | Niveau | Où | Ce qu'on y décide |
 | --- | --- | --- |
-| **1. Corporate strategy** | **Au niveau global, par la DG** (siège du groupe) — **la totalité du périmètre stratégique** | **Relations avec les actionnaires et les parties prenantes** · **gestion du portefeuille d'activités** · **choix d'allocation des ressources** |
+| 🎯 **1. Corporate strategy** | **Au niveau global, par la DG** (siège du groupe) — **la totalité du périmètre stratégique** | **Relations avec les actionnaires et les parties prenantes** · **gestion du portefeuille d'activités** · **choix d'allocation des ressources** |
 | **2. Business strategy** | Chaque **DAS**, indépendamment des autres | **Créer un avantage concurrentiel** — l'**élaboration des tactiques pour battre les concurrents** |
 | **3. Stratégie opérationnelle** | Les fonctions : finance, marketing, opérations, RH, SI | La **définition des modes opératoires** pour mettre en œuvre les tactiques |
 
@@ -295,25 +303,23 @@ UE 12A · partie 2 (suite) · écrit de 2 h en trois parties
 
 ## 2. La segmentation stratégique et les DAS
 
-> La **segmentation stratégique** est une technique qui permet de **trier et regrouper** différentes activités de l'entreprise en **sous-ensembles homogènes**, appelés **domaines d'activités stratégiques (DAS)**, auxquels un **raisonnement stratégique** est applicable, c'est-à-dire des activités qui présentent une **combinaison unique de facteurs clés de succès**.
+> 🎯 La **segmentation stratégique** est une technique qui permet de **trier et regrouper** différentes activités de l'entreprise en **sous-ensembles homogènes**, appelés **domaines d'activités stratégiques (DAS)**, auxquels un **raisonnement stratégique** est applicable, c'est-à-dire des activités qui présentent une **combinaison unique de facteurs clés de succès**.
 
 - **Trois critères — Abell et Hammond** : **pour qui ?** → la **clientèle** · **quel besoin satisfait ?** → le **besoin satisfait** · **quel type de produit ?** → la **technologie**.
 - Découpage **en partie subjectif**, selon le **degré de détail** · ==Segmentation **marketing** ≠ stratégique== : elle va **plus loin dans le détail**, l'**adéquation entre un client et un prix**.
-- Ex. **LVMH** : **6 DAS** ❓, point commun **le luxe** · **Danone** : produits laitiers (n°1 mondial), eaux en bouteille (n°2), nutrition infantile (n°2), nutrition médicale (n°3).
 
 ## 3. Le cycle de vie des DAS et la matrice BCG
 
-![[gestion-cycle-de-vie-des-das.png|190]] ![[gestion-matrice-bcg.svg|210]]
+![[gestion-cycle-de-vie-des-das.png|125]] ![[gestion-matrice-bcg.svg|145]]
 
-- Cycle de vie : développement, **introduction**, **croissance**, **maturité**, **déclin**. **Intérêt de plusieurs DAS** : quand l'un est **en déclin**, un autre peut être **en croissance**.
-- **BCG** = *Boston Consulting Group*, au niveau **corporate** ; part de marché **forte à gauche**, croissance **forte en haut**. **Dilemme** : faut-il y aller, ou sortir du marché ? · **L'Oréal** : **Lancôme** star · **Men Expert** dilemme · **Maybelline, Garnier** vaches à lait · **Kérastase** poids mort.
+- **Intérêt de plusieurs DAS** : quand l'un est **en déclin**, un autre peut être **en croissance**.
+- **BCG** = *Boston Consulting Group*, au niveau **corporate** ; part de marché **forte à gauche**, croissance **forte en haut**.
 
 ## 4. Le modèle LCAG et le SWOT
 
 - **LCAG** = **Learned, Christensen, Andrews, Guth**, quatre professeurs de **Harvard** · aussi **SWOT** (*Strengths, Weaknesses, Opportunities, Threats*) / **FFOM**.
-- **Démarche séquentielle** (❓ 5 ou 6 étapes) : 1. **diagnostic externe** → 2. **diagnostic interne** → 3. possibilités d'action → 4. **valeurs de l'environnement** → 5. **valeurs des dirigeants** → 6. **formulation de la stratégie**.
 
-| | **Positif** | **Négatif** | Débouche sur |
+| 🎯 | **Positif** | **Négatif** | Débouche sur |
 | --- | --- | --- | --- |
 | **Interne** — l'entreprise | **Forces** | **Faiblesses** | les **capacités stratégiques de l'entreprise** |
 | **Externe** — l'environnement | **Opportunités** | **Menaces** | l'**attractivité stratégique de l'environnement** |
@@ -322,7 +328,7 @@ UE 12A · partie 2 (suite) · écrit de 2 h en trois parties
 
 ## 5. Spécialisation ou diversification
 
-> **Un seul métier** : la spécialisation consiste à **centrer toutes ses ressources et ses compétences dans un seul domaine d'activité stratégique**.
+> 🎯 **Un seul métier** : la spécialisation consiste à **centrer toutes ses ressources et ses compétences dans un seul domaine d'activité stratégique**.
 
 > **Diversification** = **répartir ses ressources entre différents domaines d'activité stratégique**.
 
@@ -331,17 +337,15 @@ UE 12A · partie 2 (suite) · écrit de 2 h en trois parties
 | **Spécialisation** | **Influencer le secteur** (leader de référence) · **avantage concurrentiel fort** (concentration) · **taille critique**, **maîtriser ses coûts** | **Vulnérabilité** si **demande saturée** · **produits de substitution** · **manque d'adaptation** · **passer à côté de nouvelles innovations** |
 | **Diversification** (ex. **Virgin**) | **Synergies** · **améliorer sa rentabilité** (domaines **en croissance**) · **limiter les risques** | **Investissement et financement élevés** · **dispersion** des ressources · **gestion plus complexe** |
 
-![[gestion-diversification-types.svg|170]]
+- 🎯 **Non liée** = **logique financière** : activités **sans lien** (Virgin, annale 2024) · **Verticale** = **logique de filière** : elles **se suivent dans une même filière** · **Horizontale** = **complémentarité autre** : elles **se complètent**, hors filière.
 
-- **Non liée** = **logique financière** : activités **sans lien** (Virgin, annale 2024) · **Verticale** = **logique de filière** : elles **se suivent dans une même filière** · **Horizontale** = **complémentarité autre** : elles **se complètent**, hors filière.
-
-**Verticale**, ex. **Michelin** et ses **plantations** d'hévéas (**60 à 70 %** de la production mondiale absorbée par l'industrie pneumatique) · **+** réduction des coûts fixes, baisse des **coûts de transaction** · **−** **réduction de sa flexibilité**, **barrières à la sortie**.
+🎯 **Verticale**, ex. **Michelin** et ses **plantations** d'hévéas · **+** réduction des coûts fixes, baisse des **coûts de transaction** · **−** **réduction de sa flexibilité**, **barrières à la sortie**.
 
 ## 6. Les voies de développement
 
-- **Externalisation** (*outsourcing*) : le **transfert d'activités vers un prestataire externe spécialisé**.
+- 🎯 **Externalisation** (*outsourcing*) : le **transfert d'activités vers un prestataire externe spécialisé**.
 
-> La **croissance interne** (= **croissance organique**) est une stratégie qui consiste à **mobiliser les ressources d'une entreprise pour assurer son développement** — se développer **par ses ressources propres**.
+> 🎯 La **croissance interne** (= **croissance organique**) est une stratégie qui consiste à **mobiliser les ressources d'une entreprise pour assurer son développement** — se développer **par ses ressources propres**.
 
 | | Avantages | Limites |
 | --- | --- | --- |
@@ -356,6 +360,12 @@ UE 12A · partie 2 (suite) · écrit de 2 h en trois parties
 
 UE 12A · partie 2, chapitre 4 · écrit de 2 h en trois parties
 
+> [!danger] 🎯 Ce qui va sûrement tomber
+> - **Domination par les coûts = volume de production important + coûts réduits** — QCM 2023 Q4, en tout ou rien.
+> - **Nommer la stratégie** — tableau de cas, 2023 partie 2 : BlaBlaCar → **océan bleu**, Hermès → **différenciation**, Skoda → **domination par les coûts** ❓.
+> - **Corporate / business** — 2024 partie 2 Q2 (Bouygues) : expliquer la stratégie corporate.
+> - **Effet d'expérience, différenciation** : dans le cours de 2021 et les slides de 2025 → définir + avantages et limites.
+
 > [!abstract] L'essentiel
 > - La **stratégie business** se définit **pour chaque DAS** ; son but : un **avantage concurrentiel durable**. Deux stratégies génériques (Porter) : **domination par les coûts** et **différenciation**.
 > - **Domination par les coûts** (coût-volume) : une offre **semblable à la concurrence**, moins chère ; marges faibles × gros volumes. Fondement : l'**effet d'expérience** (BCG) et l'**effet volume**.
@@ -363,16 +373,15 @@ UE 12A · partie 2, chapitre 4 · écrit de 2 h en trois parties
 > - Le **low cost** est une différenciation **par le bas** (valeur perçue **inférieure**), à ne pas confondre avec la domination par les coûts.
 > - **Océan bleu** (Kim et Mauborgne) : quitter l'**océan rouge** saturé pour **créer un nouveau marché**, en combinant différenciation **et** coûts bas.
 
-**Corporate strategy** : définie **au niveau global par la DG** (périmètre, synergies, portefeuille) · **business strategy** : **pour chacune des activités** (**DAS**) — l'objet de ce chapitre.
+🎯 **Corporate strategy** : définie **au niveau global par la DG** (périmètre, synergies, portefeuille) · **business strategy** : **pour chacune des activités** (**DAS**) — l'objet de ce chapitre.
 
 ## 1. La stratégie de domination par les coûts
 
-> **Coût-volume** : chercher à **dominer le marché par les coûts bas**.
+> 🎯 **Coût-volume** : chercher à **dominer le marché par les coûts bas**.
 
 - Quatre traits : **recherche de compétitivité** · **offre semblable à la concurrence** · **recherche d'efficience** · **diminution des coûts par un effet volume**.
 - Prix bas → **parts de marché élevées** · **marges faibles** × beaucoup de produits = **rentabilité acceptable**.
 - ==Offre **semblable** à la concurrence : **moins cher**, à qualité de service et de produit **égales**== (Leclerc rembourse la différence).
-- Économies **partout** : fournisseurs, **internaliser** sans intermédiaires (Free).
 
 > **L'effet d'expérience** : le **coût unitaire** d'un produit (mesuré en unités monétaires constantes) **décroît d'un pourcentage constant** (souvent compris **entre 20 et 30 %**) **à chaque fois que la production cumulée de ce produit est doublée**.
 
@@ -382,7 +391,6 @@ UE 12A · partie 2, chapitre 4 · écrit de 2 h en trois parties
 ![[gestion-courbe-d-experience.png|260]]
 
 - **Effet volume** = **optimisation des équipements** (plusieurs équipes, machine **24 h sur 24**) + **répartition des coûts fixes sur de grandes séries** (80 000 € : **80,00 €** l'unité pour 1 000, **20,00 €** pour 4 000).
-- **Ford T** : modèle unique, **premier exemple de standardisation**.
 
 | Avantages | Limites |
 | --- | --- |
@@ -394,7 +402,7 @@ Risquée sur un **marché saturé** et en **ralentissement économique**. Exempl
 
 > **La différenciation** : « la mise en évidence de **spécificités porteuses de valeur pour le client** et destinées à **distinguer l'offre d'une entreprise de celle de ses concurrents** » (**Kotler, Dubois, 2004**).
 
-- Un produit ou service **unique**, qui **justifie un prix premium** · **valeur perçue** plus élevée (Hermès : moins de ventes, **marge élevée**).
+- 🎯 Un produit ou service **unique**, qui **justifie un prix premium** · **valeur perçue** plus élevée (Hermès : moins de ventes, **marge élevée**).
 - **Trois leviers** : **l'innovation** (design, technologie) · **la qualité** · **l'image de marque**.
 
 | Avantages | Limites |
@@ -407,10 +415,6 @@ Risquée sur un **marché saturé** et en **ralentissement économique**. Exempl
 | --- | --- | --- |
 | **Cible large** | **1. Domination totale par les coûts** | **3. Différenciation** |
 | **Cible étroite** | **2. Focalisation / coût** sur un segment | **4. Focalisation / différenciation** sur un segment |
-
-| Sophistication | Épuration (low cost) |
-| --- | --- |
-| Offre **supérieure**, appuyée sur des **actifs spécifiques uniques** (savoir-faire, brevets, marques) · aviation d'affaires | Offre **très attractive en prix**, en **supprimant** des éléments **superflus** · easyJet, Ryanair |
 
 ==L'épuration n'est **pas** une stratégie de prix : elle réduit **à la fois les prix et la valeur perçue**, **sans sacrifier les marges**.==
 
@@ -427,7 +431,6 @@ Risquée sur un **marché saturé** et en **ralentissement économique**. Exempl
 | **Arbitrer entre valeur et coût** | **Concilier avantage de valeur et de prix** |
 
 - Exemples : **Netflix** (DVD → streaming) · **Uber** · **Cirque du Soleil** (sans animaux : coûts **plus bas** et valeur **plus élevée**) · **BlaBlaCar** · Nintendo et la Wii.
-- L'océan bleu **réduit les cinq forces** : rivalité (iPhone 2007) · entrants (**barrières**, Tesla) · fournisseurs (impression 3D) · clients (produit **unique**, Netflix) · substituts **obsolètes** (streaming / CD).
 
 | Stratégie | Avantages | Risques | Exemple |
 | --- | --- | --- | --- |
@@ -443,9 +446,7 @@ Risquée sur un **marché saturé** et en **ralentissement économique**. Exempl
 | | |
 | **Différenciation** (cadran 3) : **cible large** | **Focalisation** (cadrans 2 et 4) : **cible étroite** |
 
-**Classer une entreprise** : semblable et moins chère → **coûts** · épurée, valeur plus basse → **low cost** · unique et plus chère → **différenciation** · un seul segment → **focalisation** · marché créé, sans concurrent → **océan bleu**. Annale 2023 : **Skoda** → domination par les coûts, **Hermès** → différenciation, **BlaBlaCar** → océan bleu.
-
-⚠️ La troisième forme de différenciation de la vidéo (après sophistication et épuration) est inaudible dans les notes.
+🎯 **Classer une entreprise** : semblable et moins chère → **coûts** · épurée, valeur plus basse → **low cost** · unique et plus chère → **différenciation** · un seul segment → **focalisation** · marché créé, sans concurrent → **océan bleu**. Annale 2023 : **Skoda** → domination par les coûts ❓, **Hermès** → différenciation, **BlaBlaCar** → océan bleu.
 
 <div style="break-before: page"></div>
 
@@ -454,6 +455,10 @@ Risquée sur un **marché saturé** et en **ralentissement économique**. Exempl
 UE 12A · partie 3 · écrit de 2 h en trois parties
 
 > [!warning] Chapitre en cours — ce condensé s'arrête où en est le cours (le cas Apple, amphi du 8 octobre).
+
+> [!danger] 🎯 Ce qui va sûrement tomber
+> - **Qu'est-ce qu'un business model ? À quelles questions est-il supposé répondre ?** — 2024 partie 2 Q1, question de cours rédigée sur une vingtaine de lignes (la partie vaut 7 pts) : la définition **puis** les cinq questions, à structurer avec les trois dimensions (voir la méthode).
+> - **Le BFR en jours** (stockage + crédit clients − crédit fournisseurs) — 2023 Q7 et 2024 Q11, un calcul en jours : pas encore traité en cours, le syllabus le place à la séance 10 (⏳).
 
 > [!abstract] L'essentiel
 > - De nombreux acteurs — entreprise privée, association, administration publique — **créent de la valeur** ; la qualifier permet de qualifier la **performance** de l'organisation.
@@ -472,10 +477,10 @@ UE 12A · partie 3 · écrit de 2 h en trois parties
 
 ## 2. Le business model
 
-> Le **business model** — **modèle économique**, **modèle d'affaires** — **décrit précisément comment votre entreprise va gagner de l'argent**.
+> 🎯 Le **business model** — **modèle économique**, **modèle d'affaires** — **décrit précisément comment votre entreprise va gagner de l'argent**.
 
 - L'exemple du **prêt bancaire** : le banquier veut savoir **comment vous allez gagner de l'argent** ; la **valeur créée doit être supérieure à vos coûts**.
-- Les questions : **1** qu'allez-vous **vendre** (produit, service) ? · **2** auprès de **quels clients** ? · **3** dans **quel but** ? · **4** de **quelle manière** ? · **5** pour faire **quel bénéfice** ? → détailler son **modèle de création de valeur**.
+- 🎯 Les questions : **1** qu'allez-vous **vendre** (produit, service) ? · **2** auprès de **quels clients** ? · **3** dans **quel but** ? · **4** de **quelle manière** ? · **5** pour faire **quel bénéfice** ? → détailler son **modèle de création de valeur**.
 
 | Dimension | La question | Ce qu'elle décrit |
 | --- | --- | --- |

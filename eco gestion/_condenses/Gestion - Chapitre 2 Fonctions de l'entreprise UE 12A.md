@@ -1,12 +1,18 @@
 ---
 source: "[[Gestion - Chapitre 2 Fonctions de l'entreprise UE 12A]]"
 matiere: UE 12A · Introduction à la gestion
-condense: 2026-10-06
+condense: 2026-10-09
 ---
 
 # Les principales fonctions de l'entreprise
 
 UE 12A · chapitre 2 · écrit de 2 h en trois parties · QCM en tout ou rien
+
+> [!danger] 🎯 Ce qui va sûrement tomber
+> - **Les 5 fonctions et le rôle de chacune** — partie 3 de 2024 (Arkopharma) : pour chaque fonction, son rôle + les faits du texte.
+> - **Les 4P** — QCM 2024 Q9 : Prix, Produit, Communication, Distribution ; « extensive » est un piège.
+> - **Push / pull** — QCM 2023 Q3 (« un cheval plus rapide », Henry Ford) : la copie notée a eu le point avec **pull**.
+> - **Incrémentale / rupture × produit / procédé** — QCM 2024 Q2 (table de jardin à parasol intégré) : deux axes, deux cases (incrémentale **et** produit).
 
 > [!abstract] L'essentiel
 > - Cinq fonctions : **marketing, R&D, production, ressources humaines, financière** — dominantes tour à tour.
@@ -20,13 +26,13 @@ UE 12A · chapitre 2 · écrit de 2 h en trois parties · QCM en tout ou rien
 
 Seconde définition (**Philip Kotler**) : **l'analyse, l'organisation, la planification et le contrôle** des activités, des stratégies et des ressources d'une entreprise, qui ont une **influence directe sur le client**, en vue de **satisfaire les désirs et les besoins de groupes de clients sélectionnés**, de façon **rentable**.
 
-Rôle (secteur marchand) : **créer de la valeur économique pour l'entreprise en créant de la valeur perçue pour le client**.
+🎯 Rôle (secteur marchand) : **créer de la valeur économique pour l'entreprise en créant de la valeur perçue pour le client**.
 
 **Processus d'achat** : facteurs **culturels** · **sociaux** (classe sociale) · **familiaux** · variables **individuelles** (âge, cycle de vie, profession, personnalité) · variables **environnementales** (économie, technologie) · **stimuli** (seul facteur **indépendant** de l'acheteur, ex. les soldes). ==La **part de marché du produit** n'impacte pas le processus d'achat.==
 
 Marketing stratégique = **S-C-P**, dans cet ordre : **segmentation** (découper en groupes homogènes) → **ciblage** (choisir les segments) → **positionnement** (l'image dans l'esprit du consommateur). Le prix et la distribution n'en sont pas : ce sont des P.
 
-**4P** : **Product** (produit) · **Price** (prix) · **Promotion** (promotion et publicité : **toute la communication**) · **Place** (**distribution**, pas « lieu »).
+🎯 **4P** : **Product** (produit) · **Price** (prix) · **Promotion** (promotion et publicité : **toute la communication**) · **Place** (**distribution**, pas « lieu »).
 
 | Distribution | | Circuit | |
 | --- | --- | --- | --- |
@@ -38,7 +44,7 @@ Marketing stratégique = **S-C-P**, dans cet ordre : **segmentation** (découper
 
 Publicité : **informative et persuasive** (informe) · **mécaniste** (**répète** un slogan, réaction automatique, ex. Carglass) · **suggestive** (**évocation** des images, mythes, fantasmes : parfum, lingerie) · **projective ou intégrative** (montrer son **appartenance** à un groupe).
 
-| **Push** — mix **distribution**, stratégie de **pression** | **Pull** — mix **communication**, stratégie d'**attraction** |
+| 🎯 **Push** — mix **distribution**, stratégie de **pression** | **Pull** — mix **communication**, stratégie d'**attraction** |
 | --- | --- |
 | **pousser le produit vers le client** (force de vente, réseau) | **tirer le client vers le produit** (communication, publicité, notoriété) |
 
@@ -48,18 +54,16 @@ Publicité : **informative et persuasive** (informe) · **mécaniste** (**répè
 
 Cinq cas d'innovation : **produit nouveau** (iPhone, vaccins) · **nouveau procédé** (fordisme, 1913) · **nouveau marché** pour un produit existant · **nouvelle organisation du travail** (Uber) · **nouvelles matières premières** ou sources d'énergie.
 
-- **Incrémentale** : amélioration **progressive** d'un produit, d'un service ou d'un procédé **déjà existant** → entretient et **fidélise** les clients acquis.
-- **De rupture** : **transformation radicale** qui change les usages, les modèles économiques et les marchés → **rend obsolètes** les solutions antérieures, **crée un marché nouveau**.
+- 🎯 **Incrémentale** : amélioration **progressive** d'un produit, d'un service ou d'un procédé **déjà existant** → entretient et **fidélise** les clients acquis.
+- 🎯 **De rupture** : **transformation radicale** qui change les usages, les modèles économiques et les marchés → **rend obsolètes** les solutions antérieures, **crée un marché nouveau**.
 
-Deux axes indépendants : l'**intensité** (rupture / incrémentale) et l'**objet** (**produit** : ce qu'on vend · **procédé** : la manière de produire). **iPhone** = rupture (crée les smartphones), **chaque nouvelle version** = incrémentale. Joindre **exploration et exploitation**. Blablacar : **stratégique** · BioNTech : **technologique de rupture** · Qwant : **stratégique technologique**.
-
-Recherche **fondamentale** (connaissance scientifique) → **appliquée** (jusqu'au **prototype**) → **R&D** (nouvelles innovations). **Techno push** : partir d'un produit existant pour l'améliorer ❓.
+🎯 Deux axes indépendants : l'**intensité** (rupture / incrémentale) et l'**objet** (**produit** : ce qu'on vend · **procédé** : la manière de produire). **iPhone** = rupture (crée les smartphones), **chaque nouvelle version** = incrémentale. Joindre **exploration et exploitation**.
 
 Enjeux : avantage concurrentiel durable · investissements lourds sans garantie (médicament : **1 à 2 milliards**) · cycle de vie raccourci · **brevet** · voies d'accès (interne, sous-traitance, licence, achat, coopération) · **crédit d'impôt recherche** (rembourse **30 %** des dépenses).
 
 ## 3. La fonction Production
 
-> La **production** est l'ensemble des activités qui permettent de transformer des **ressources (inputs)** en **biens et services (outputs)**.
+> 🎯 La **production** est l'ensemble des activités qui permettent de transformer des **ressources (inputs)** en **biens et services (outputs)**.
 
 Exigences : **Qualité · Coût · Délai** (QCD). Facteurs : **travail** · **capital fixe** (machines) · **capital circulant** (stocks, matières premières) · **capital financier** (trésorerie, capital social) · **ressources naturelles**.
 
@@ -69,19 +73,16 @@ $\text{Intensité capitalistique} = \dfrac{\text{Quantité de capital utilisé}}
 
 Gain de productivité : **baisser le prix de vente** = **compétitivité** · **accroître le profit unitaire** = **rentabilité**. Bénéficiaires : actionnaires (dividendes), salariés (salaires), consommateurs (prix).
 
-Atelier → **taylorisme** (et fordisme) → **toyotisme** (**flux tendu**) → **teslisme** (la **machine informe l'opérateur** qu'elle va tomber en panne). Saturation : marketing **moteur**, perte de l'**effet d'échelle**, **effet d'expérience réduit**, flexibilité, **polyvalence**, qualité, **unités de travail autonomes**. Maintenance **curative** ou **préventive**. Paradigmes ❓ : premier = **produire ce que l'on vend** · aujourd'hui = **vendre ce que l'on produit**.
-
 ## 4. La fonction Ressources Humaines
 
 - **Au départ** : **administrative** (contrat de travail, paie) · **aujourd'hui** : gestion du **« capital humain »** · enjeu : **risques psychosociaux** (RPS).
-- Trois missions : **recrutement** (qualitatif et quantitatif, IA) · **montée en compétences** · **motivation**.
-- Processus à trois **RH → manager → salarié** : les outils sont **élaborés par la DRH** mais **vivent grâce aux salariés et aux managers**.
+- 🎯 Trois missions : **recrutement** (qualitatif et quantitatif, IA) · **montée en compétences** · **motivation**.
 
 ## 5. La fonction Financière
 
-**Comptabilité** : **collecter, traiter / analyser, diffuser** l'information · **Finance** : **gérer** — financement, **rentabilité des investissements**.
+**Comptabilité** : **collecter, traiter / analyser, diffuser** l'information · 🎯 **Finance** : **gérer** — financement, **rentabilité des investissements**.
 
-**Responsable financier** : ressources financières, interlocuteur des **banquiers** (LMT), ingénierie financière · **Chef comptable** : règles et pièces comptables, documents mensuels, interlocuteur des **CAC** · **Contrôleur de gestion** : en interne, agit **par influence**. **Efficace** = atteint ses résultats · **efficient** = **au moindre coût**.
+**Efficace** = atteint ses résultats · **efficient** = **au moindre coût**.
 
 Trois lectures d'une seule vérité : **compte de résultat** = la **performance** (un **flux**) · **bilan** = le **patrimoine** (actif : ce qu'elle possède · passif : d'où vient l'argent) · **cash flow statement** = le **cash**.
 
@@ -89,8 +90,6 @@ Trois lectures d'une seule vérité : **compte de résultat** = la **performance
 
 - **Marché non saturé** (âge d'or, jusqu'en 1970) : **prix de revient complet + marge = prix de vente**.
 - **Marché saturé** (aujourd'hui) : **prix de vente − marge = prix de revient objectif** (cost target) · ==la valeur perçue par le client fixe le prix== · risque : **produire à perte**.
-
- Investissements **productifs** : remplacement · capacité · productivité · autres : sécurité · législation.
 
 ## 6. Les prédominances successives
 

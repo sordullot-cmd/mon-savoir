@@ -10,6 +10,10 @@ jusqua: "le cas Apple, amphi du 8 octobre"
 
 UE 12A · partie 3 · écrit de 2 h en trois parties
 
+> [!danger] 🎯 Ce qui va sûrement tomber
+> - **Qu'est-ce qu'un business model ? À quelles questions est-il supposé répondre ?** — 2024 partie 2 Q1, question de cours rédigée sur une vingtaine de lignes (la partie vaut 7 pts) : la définition **puis** les cinq questions, à structurer avec les trois dimensions (voir la méthode).
+> - **Le BFR en jours** (stockage + crédit clients − crédit fournisseurs) — 2023 Q7 et 2024 Q11, un calcul en jours : pas encore traité en cours, le syllabus le place à la séance 10 (⏳).
+
 > [!abstract] L'essentiel
 > - De nombreux acteurs — entreprise privée, association, administration publique — **créent de la valeur** ; la qualifier permet de qualifier la **performance** de l'organisation.
 > - Le **business model** (modèle économique, modèle d'affaires) **décrit précisément comment l'entreprise va gagner de l'argent**.
@@ -27,10 +31,10 @@ UE 12A · partie 3 · écrit de 2 h en trois parties
 
 ## 2. Le business model
 
-> Le **business model** — **modèle économique**, **modèle d'affaires** — **décrit précisément comment votre entreprise va gagner de l'argent**.
+> 🎯 Le **business model** — **modèle économique**, **modèle d'affaires** — **décrit précisément comment votre entreprise va gagner de l'argent**.
 
 - L'exemple du **prêt bancaire** : le banquier veut savoir **comment vous allez gagner de l'argent** ; la **valeur créée doit être supérieure à vos coûts**.
-- Les questions : **1** qu'allez-vous **vendre** (produit, service) ? · **2** auprès de **quels clients** ? · **3** dans **quel but** ? · **4** de **quelle manière** ? · **5** pour faire **quel bénéfice** ? → détailler son **modèle de création de valeur**.
+- 🎯 Les questions : **1** qu'allez-vous **vendre** (produit, service) ? · **2** auprès de **quels clients** ? · **3** dans **quel but** ? · **4** de **quelle manière** ? · **5** pour faire **quel bénéfice** ? → détailler son **modèle de création de valeur**.
 
 | Dimension | La question | Ce qu'elle décrit |
 | --- | --- | --- |

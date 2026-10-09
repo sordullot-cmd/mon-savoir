@@ -72,6 +72,40 @@ Comment réviser`, `## À vérifier`, `## Ce que j'ai complété`, les callouts 
 provenance (« séance manquée », « cette fiche s'arrête au… »), les liens de
 navigation, le blabla d'introduction (« le chapitre, et ce qu'il annonce »).
 
+## Orienter vers ce qui va tomber
+
+Demandé par Sacha le 9 octobre 2026 : « que ces condensés soient basés sur ce
+qui va sûrement tomber aux partiels ». Le condensé ne garde donc pas tout le
+cours à égalité : il **pèse chaque notion à l'aune de l'examen**.
+
+Sources, dans cet ordre : la carte des priorités de la matière
+(`eco gestion/_priorites/UE <ue> - *.md`, faite par `/priorites` : niveaux 🔴
+🟠 🟡 ⚪ et preuves), les annales de `~/Documents/L1/<matière>/`, la section de
+la matière dans `eco gestion/Plan - Examen P1.md` (ou le plan de la période en
+cours). Pas de carte des priorités pour la matière → lancer `/priorites`
+d'abord.
+
+Trois choses en sortent :
+
+1. **Un encadré `> [!danger] 🎯 Ce qui va sûrement tomber`** juste sous le
+   sous-titre, avant « L'essentiel » : 3 à 5 lignes, une par notion 🔴 du
+   chapitre, chacune avec **la preuve** (« QCM 2024 Q2 », « partie 3 de 2023 »,
+   « dans toutes les versions du cours ») et **la forme de la question**
+   (QCM en tout ou rien, définir + à quoi ça sert, tableau de cas, calcul,
+   rédaction de vingt lignes). Un chapitre sans notion 🔴 : la ou les 🟠, en
+   le disant.
+2. **🎯 en tête de ligne** (ou dans la cellule) sur chaque définition, paire,
+   formule ou exemple **déjà tombé aux annales**. Rien d'autre ne le porte :
+   🎯 doit rester rare pour qu'il serve à quelque chose.
+3. **La place se prend sur le ⚪** : ce que la carte des priorités classe
+   secondaire (anecdotes, étymologie, historique, chiffres isolés, parties
+   d'une seule version du cours) sort du condensé en premier, avant de toucher
+   à une notion 🔴 ou 🟠. Les deux pages restent la limite.
+
+Ce que la preuve ne dit pas ne s'invente pas : une notion jamais tombée ne
+reçoit pas 🎯 parce qu'elle « pourrait » tomber. Une annale dont la réponse est
+incertaine reste marquée ❓.
+
 ## Écrire le condensé
 
 Fichier : `eco gestion/_condenses/<même nom que la fiche>.md` (le `_` le tient
