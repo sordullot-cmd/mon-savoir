@@ -108,7 +108,7 @@
   "eco gestion/_brut/introduction a l'economie.md": {
    "fiche": "eco gestion/Economie - Chapitre 1 Science economique.md",
    "hash": "08ac6c5774f3",
-   "integre": "2026-09-23 00:19"
+   "integre": "2026-10-09 13:18"
   }
  },
  "pages": {
@@ -137,10 +137,10 @@
    "statut": "confirmé"
   },
   "eco gestion/Economie - Chapitre 1 Science economique.md": {
-   "fait": "passage de contrôle après la mise en QCM : compteurs justes (131 cartes, 15 à vérifier, 6 ajouts) ; 7 QCM retournés vers d) « aucune » par un seul mot faussé (marge, 3 questions, hypothético-déductive, tendance, agrégées, rôles de l'État, production) : d) passe de 6 à 13 sur 74, plus proche des 6/20 de l'annale 2024-2025",
-   "hash": "8f3ef4053d09",
-   "mots": 20883,
-   "passage": "2026-09-23 00:19",
+   "fait": "passage de contrôle après la réduction à 25 cartes : compteur 131 → 25 corrigé dans la méthode de révision, tags annale2223/annale2425 nommés, renvoi mort vers le bloc 🧮 réparé ; carte demande individuelle ramenée au point sûr (corrigé D/A non tranché) ; 2 À vérifier ajoutés (énoncé 8 et contrainte budgétaire 2024-25), a_verifier 15 → 17",
+   "hash": "f359e582a55e",
+   "mots": 17750,
+   "passage": "2026-10-09 13:18",
    "source": "_brut/introduction a l'economie.md",
    "sources": [
     "_brut/introduction a l'economie.md"

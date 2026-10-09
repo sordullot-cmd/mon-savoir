@@ -12,7 +12,7 @@ statut: à faire
 coef: 3
 periode: 1
 revu: 2026-09-22
-a_verifier: 15
+a_verifier: 17
 cartes: 25
 ajouts: 6
 ---
@@ -774,9 +774,9 @@ Format d'import `Recto ; Verso ; Tags`. **Deux `;` par ligne, jamais plus** — 
 > Ce que les annales changent, c'est le **contenu** des réponses, pas la forme des cartes. L'épreuve est un **QCM d'1 h, une seule bonne réponse, +1 par bonne réponse et −0,5 par mauvaise** (`~/Documents/L1/Introduction à l_économie/Annales/`, sessions **2022-2023** et **2024-2025**), et les propositions y sont quatre phrases presque identiques. D'où deux choses au verso :
 > - **le mot qui tranche est en capitales** — TESTER et non expliquer, ORIENTER et non obliger, EXPLIQUER et non déterminer ;
 > - **la phrase voisine qu'il ne faut pas répondre** est nommée, parce qu'avec −0,5 une réponse « à peu près » coûte des points.
-> Les cartes taguées `annale` portent sur une question réellement tombée. Celles taguées `piege` sont celles où le sujet a piégé les candidats, souvent en faisant de « aucune des propositions n'est exacte » la bonne réponse — 6 fois sur 20 en 2024-2025.
+> Les cartes taguées `annale2223` ou `annale2425` portent sur une question réellement tombée. Celles taguées `piege` sont celles où le sujet a piégé les candidats, souvent en faisant de « aucune des propositions n'est exacte » la bonne réponse — 6 fois sur 20 en 2024-2025.
 >
-> **Le paquet est réduit aux 25 définitions et questions les plus importantes du chapitre** : les énoncés réellement tombés aux annales (dont 11 portent sur les chapitres 2 à 5, tag `horschap1`), plus le coût d'opportunité. La carte de la contrainte budgétaire lue sur un graphique est sortie : c'est un calcul à refaire (bloc 🧮), et sa réponse 2024-25 est contestée par la page de priorités (voir À vérifier).
+> **Le paquet est réduit aux 25 définitions et questions les plus importantes du chapitre** (il en comptait 131 avant le 9 octobre 2026, dont 26 questions déjà tombées) : les énoncés réellement tombés aux annales (dont 11 portent sur les chapitres 2 à 5, tag `horschap1`), plus le coût d'opportunité. La carte de la contrainte budgétaire lue sur un graphique est sortie : c'est un calcul à refaire, détaillé dans la page de priorités de l'UE 11A (§ 7), et sa réponse 2024-25 y est contestée (voir À vérifier).
 
 ```text
 Qu'étudie la science économique ? ; Comment les individus font des CHOIX et les conséquences de ces choix, en présence de ressources rares · ⚠ en 2024-2025 cette phrase n'était pas proposée, voir À vérifier ; eco 11A annale2425 averifier
@@ -795,7 +795,7 @@ Qu'appelle-t-on « économie positive » ? ; Une approche qui cherche à EXPLIQU
 Qu'appelle-t-on « économie normative » ? ; Une approche qui est à la BASE DES RECOMMANDATIONS de politique économique · elle ne parle ni de norme sociale ni de prévision ; eco 11A annale2223 piege
 Que représente une courbe d'indifférence ? ; Toutes les combinaisons de deux biens qui offrent au consommateur une satisfaction IDENTIQUE · pas optimale, et sans rapport avec la contrainte budgétaire ; eco 11A annale2425 horschap1
 Que représente la contrainte budgétaire ? ; Toutes les combinaisons de biens que le consommateur PEUT ACQUÉRIR en dépensant la totalité de son revenu · « peut acquérir », pas « va consommer », et sans maximisation ; eco 11A annale2223 piege horschap1
-Par quoi la courbe de demande individuelle est-elle déterminée ? ; Par les préférences des agents, leur contrainte budgétaire et les PRIX relatifs des biens · en 2024-2025 « prix » avait été remplacé par « disponibilité », et la bonne réponse devenait « aucune » ; eco 11A annale2425 piege horschap1
+Par quoi la courbe de demande individuelle est-elle déterminée ? ; Par les préférences des agents, leur contrainte budgétaire et les PRIX relatifs des biens · en 2024-2025 « prix » avait été remplacé par « disponibilité », proposition donc fausse · ⚠ le corrigé de cet énoncé n'est pas tranché, voir À vérifier ; eco 11A annale2425 piege horschap1 averifier
 Comment le consommateur choisit-il les combinaisons de biens qu'il consomme ? ; Pour que sa SATISFACTION soit la plus élevée possible · pas pour dépenser le moins possible, pas pour consommer le plus possible ; eco 11A annale2223 horschap1
 Comment le producteur détermine-t-il la quantité qu'il produit ? ; Pour que son PROFIT MARGINAL soit nul, c'est-à-dire Rm = Cm · pas pour minimiser son coût marginal, et pas en raisonnant en moyennes ; eco 11A annale2425 horschap1
 Qu'est-ce qu'un rendement croissant dans la production ? ; La PRODUCTION MARGINALE augmente avec l'embauche d'un nouveau travailleur · s'il est décroissant, elle diminue ; eco 11A annale2425 horschap1
@@ -813,7 +813,7 @@ Pierre met 10 min par paquet de bonbons et 15 min par tablette de chocolat, Luc 
 1. **Se tester, pas relire** — le bloc [[#✅ Contrôle]] ci-dessous, à voix haute, avant d'ouvrir la réponse. À une semaine : 61 % de rétention en se testant, 40 % en relisant.
 2. **Jusqu'à 3 rappels corrects** — une question n'est acquise qu'après **trois** réponses justes, à des jours d'écart.
 3. **Puis 3 réapprentissages espacés** — intervalle ≈ **10 à 20 % du délai** avant l'épreuve : à six semaines, tous les 4 à 8 jours.
-4. **Ce chapitre est un chapitre de vocabulaire** : rareté, coût d'opportunité, externalité, équilibre, défaillance de marché, anticipations. Les **131 cartes** du bloc 🃏 sont la partie la plus rentable — une question claire au recto, une seule réponse au verso, le mot qui tranche en capitales. Commence par les **26 questions déjà tombées** des deux premiers paquets.
+4. **Ce chapitre est un chapitre de vocabulaire** : rareté, coût d'opportunité, externalité, équilibre, défaillance de marché, anticipations. Les **25 cartes** du bloc 🃏 sont la partie la plus rentable — une question claire au recto, une seule réponse au verso, le mot qui tranche en capitales. Commence par les **14 du chapitre 1** (sans le tag `horschap1`), puis les 11 qui annoncent les chapitres 2 à 5.
 5. **Entrelace** avec [[Gestion - Introduction]] et [[Problemes economiques - Chapitre 1 Analyse economique UE 13A]] : les trois UE tombent en période 1, et alterner les matières dans une même session retient mieux que les enchaîner par blocs. Le calendrier des épreuves est dans [[Plan - Examen P1]].
 6. **Avant le prochain amphi** — lis les questions de Contrôle portant sur la partie non encore traitée et plante-toi : c'est du *pretesting*.
 
@@ -1454,6 +1454,8 @@ entre deux, ne réponds pas : ne rien cocher vaut mieux que se tromper.
 > - **« Prix sans fins »** (§ II.5) : tu as toi-même noté dans tes notes de chercher le vrai mot. J'ai mis **« rigides »**, marqué d'un plus vert — c'est le terme du cours de référence, mais ton prof a pu dire « **fixes** » ou « **visqueux** ». À confirmer.
 > - **QCM 2024-2025, énoncé 3 — « La science économique »** : aucune des trois propositions ne reprend la définition du cours, « étudie comment les individus font des **choix** et les conséquences de ces choix ». La copie coche **B** (« la manière dont les hommes organisent leurs efforts… »), la correction étudiante retient **C** (« s'intéresse aux interactions sociales en présence de ressources rares »), et la logique du cours mène à **D**. En 2022-2023, la définition du cours *était* proposée et c'était elle la réponse. **Demande au prof laquelle il retient** quand sa définition n'est pas dans la liste — c'est 1,5 point d'écart.
 > - **QCM 2022-2023, énoncé 5 — « Dans la vision libérale de l'économie »** : pas de corrigé sûr. D'après le cours c'est **B** (« la société connaît moins bien les objectifs que chaque individu pris séparément »), miroir exact de la vision planifiée. Les deux autres ajoutent une idée que le cours refuse : l'État qui privilégie l'individu, et l'**absence de règles du jeu** — alors que le cours insiste sur le fait que le rôle de l'État n'est pas négligeable. À confirmer en amphi.
+> - **QCM 2024-2025, énoncé 8 — « La courbe de demande individuelle »** : la copie coche **D** (« aucune »), mais **A** (« déterminée par la maximisation de l'utilité sous contrainte budgétaire ») colle aussi au cours. Ce qui est sûr : **B** est fausse, « disponibilité relative » au lieu de « prix relatifs ». La carte ne retient que ce point sûr — demande au prof s'il accepte A.
+> - **QCM 2024-2025, contrainte budgétaire sur un graphique** (E à 20 sur Qco, F à 15 sur Qci) : la copie coche **D** (« aucune »), mais la page de priorités de l'UE 11A (§ 7) calcule **A** — 540/27 = 20 et 540/36 = 15, la droite passe par E et F. Les deux valeurs s'opposent ; je ne tranche pas dans la fiche. C'est un chapitre 2 : à vérifier quand le prof le traitera.
 
 > [!success]- Ce que les notes de tes amis ont apporté — 9 points
 > Deux prises de notes du **même amphi, la même année** (`_brut/Copie de cours num3 eco.docx` et `_brut/Copie de Document sans titre.docx`) : c'est **le même cours que le tien**, donc leur contenu est fondu dans le corps **sans marque**, comme tes propres notes. Ces lignes disent seulement **ce qui a bougé** par rapport à ce que tu avais écrit.
