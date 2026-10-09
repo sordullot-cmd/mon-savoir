@@ -422,7 +422,7 @@ Les quatre règles du travail universitaire ? ; Résumé clair · problématique
 
 *Méthode de révision, pas du cours.* Le protocole complet et ses chiffres sont dans [[Methode - Comment reviser]].
 
-- **47 cartes** dans le bloc ci-dessus (cette ligne en annonçait encore 32, le compte d'avant les cartes des camarades) : c'est une fiche courte, tu peux la mettre entière en Anki en une session.
+- **12 cartes** dans le bloc ci-dessus, les définitions et questions les plus importantes (le paquet en comptait 47 avant le 9 octobre, 32 avant les cartes des camarades) : tu peux les mettre entières en Anki en une session. Le reste — les quatre intérêts, les exemples, les sources, le graphique — se révise par le bloc `Contrôle`.
 - **Se tester d'abord** : descends au bloc `Contrôle`, réponds à voix haute, ouvre la réponse ensuite. Ne relis pas la fiche avant.
 - **Entrelacer** avec [[Problemes economiques - Chapitre 1 Analyse economique UE 13A]] : les deux traitent le modèle, les hypothèses et la démarche scientifique, en deux vocabulaires différents. Les réviser ensemble révèle ce que tu confonds.
 - **Ce qui tombe** : un écrit d'1 h qui vaut 13 des 20 points, en période 1. Les listes numérotées de cette fiche (trois étapes, quatre intérêts, trois erreurs, quatre règles) sont le format même des questions courtes.
