@@ -680,9 +680,9 @@ Marché saturé : comment s'obtient le prix de revient objectif ? ; Prix de VENT
 
 *Méthode de révision, pas du cours — voir [[Methode - Comment reviser]].*
 
-- **60 cartes**, c'est beaucoup : découpe-les en cinq sessions, une par fonction
-  (marketing, R&D, production, RH, finance). Le marketing pèse le plus lourd en
-  vocabulaire, la finance en calcul.
+- **15 cartes**, les définitions et les questions qui comptent : passe-les
+  toutes à chaque session, elles couvrent les cinq fonctions. Le marketing pèse
+  le plus lourd en vocabulaire, la finance en calcul.
 - **Le QCM de cette UE autorise plusieurs bonnes réponses et se note en tout ou
   rien.** Réviser « à peu près » ne rapporte rien : pour chaque paire du bloc
   *À ne pas confondre*, sache dire **pourquoi l'autre est faux**.
