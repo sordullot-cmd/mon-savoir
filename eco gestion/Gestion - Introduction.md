@@ -613,7 +613,7 @@ Une usine automobile et un coiffeur : deux différences de gestion ? ; La voitur
 1. **Se tester, pas relire** — le bloc [[#✅ Contrôle]] ci-dessous, à voix haute, avant d'ouvrir la réponse. À une semaine : 61 % de rétention en se testant, 40 % en relisant.
 2. **Jusqu'à 3 rappels corrects** — une question n'est acquise qu'après **trois** réponses justes, pas une.
 3. **Puis 3 réapprentissages espacés** — intervalle ≈ **10 à 20 % du délai** avant l'épreuve : à six semaines, tous les 4 à 8 jours. Rétention à 1 mois : 68 % contre ~11 % sans.
-4. **Les cartes du bloc 🃏 partent dans Anki dès la première session** — l'épreuve est faite de **définitions** (voir l'encadré en tête de fiche), et c'est Anki qui tient l'espacement à ta place.
+4. **Les 15 cartes du bloc 🃏 partent dans Anki dès la première session**, et se passent toutes à chaque séance — l'épreuve est faite de **définitions** (voir l'encadré en tête de fiche), et c'est Anki qui tient l'espacement à ta place.
 5. **Entrelace** — révise cette fiche mélangée aux autres UE, pas en bloc : le jour de l'épreuve, les questions ne sont pas étiquetées (61 % contre 38 % au test).
 6. **Avant le prochain amphi** — lis les questions de Contrôle portant sur ce qui n'a pas encore été traité, et plante-toi : c'est du *pretesting*, et ça prépare l'écoute.
 
@@ -1187,6 +1187,6 @@ qu'après **trois** réponses justes à des jours d'écart — voir [[#🔄 Comm
 > - **Inputs → outputs** (§ 10c) — la boulangerie.
 > - **Les catégories de taille** (§ 11a) — du graphiste à son compte à Carrefour.
 > - **Biens contre services** (§ 12b) — l'usine automobile et le coiffeur.
-> - **17 cartes Anki** tirées de ces compléments, taguées `complement` pour que tu puisses les suspendre si ton prof ne les a pas traitées.
+> - **4 cartes Anki** tirées de ces compléments, taguées `complement` pour que tu puisses les suspendre si ton prof ne les a pas traitées.
 >
 > **Ce que je n'ai pas comblé, faute de pouvoir le deviner** : ce qui est resté sur ton cahier, les deux phrases coupées, le deuxième niveau de la culture d'entreprise, et les points essentiels au-delà du n° 1. Ils restent dans le bloc ci-dessus.
