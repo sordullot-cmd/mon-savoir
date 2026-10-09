@@ -13,7 +13,7 @@ coef: 3
 periode: 1
 revu: 2026-09-22
 a_verifier: 15
-cartes: 131
+cartes: 25
 ajouts: 6
 ---
 
@@ -776,214 +776,34 @@ Format d'import `Recto ; Verso ; Tags`. **Deux `;` par ligne, jamais plus** — 
 > - **la phrase voisine qu'il ne faut pas répondre** est nommée, parce qu'avec −0,5 une réponse « à peu près » coûte des points.
 > Les cartes taguées `annale` portent sur une question réellement tombée. Celles taguées `piege` sont celles où le sujet a piégé les candidats, souvent en faisant de « aucune des propositions n'est exacte » la bonne réponse — 6 fois sur 20 en 2024-2025.
 >
-> **Le paquet a été repris le 22 septembre : il passe de 134 à 131 cartes.** Si tu avais déjà importé la version précédente, réimporte celle-ci. Trois cartes sont parties — deux faisaient réviser des parts du PIB (19 % et 1 %) qui viennent du cours d'une autre année et pas du tien, la troisième (« qu'est-ce qu'une bonne question économique ? ») n'avait pas sa réponse dans la fiche. Neuf autres ont été refaites parce qu'elles disaient autre chose que le cours : le coefficient de l'exemple des révisions (6 contre **4**, pas contre 1), les **trois** raisons d'une erreur de décision, le résultat global qui **diffère** de la somme des comportements au lieu de lui être supérieur, la crise des subprimes ramenée à ce que ta fiche en dit — un choc qui déplace la tendance.
+> **Le paquet est réduit aux 25 définitions et questions les plus importantes du chapitre** : les énoncés réellement tombés aux annales (dont 11 portent sur les chapitres 2 à 5, tag `horschap1`), plus le coût d'opportunité. La carte de la contrainte budgétaire lue sur un graphique est sortie : c'est un calcul à refaire (bloc 🧮), et sa réponse 2024-25 est contestée par la page de priorités (voir À vérifier).
 
-### Les 20 questions tombées en 2024-2025
-
-Six portent sur les chapitres 2 à 5 (`horschap1`) : garde-les pour la suite du cours.
-
-```
+```text
+Qu'étudie la science économique ? ; Comment les individus font des CHOIX et les conséquences de ces choix, en présence de ressources rares · ⚠ en 2024-2025 cette phrase n'était pas proposée, voir À vérifier ; eco 11A annale2425 averifier
+Pourquoi même un milliardaire doit-il faire des choix ? ; Parce qu'il y a 24 HEURES dans une journée · le temps est la contrainte ultime, elle demeure même sans contrainte d'argent ; eco 11A annale2425
+Qu'est-ce que le coût d'opportunité d'un choix ? ; Ce à quoi on RENONCE en faisant ce choix · ce sont des euros NON déboursés ; eco 11A piege
+Qu'est-ce qu'une incitation ? ; Un signal qui permet d'ORIENTER les choix individuels · ni une punition quand on choisit mal, ni une obligation ; eco 11A annale2425 piege
+En quoi consiste une décision « à la marge » ? ; À comparer les coûts et les bénéfices de faire UN PEU PLUS d'une activité contre UN PEU MOINS d'une autre · pas une activité entière plutôt qu'une autre ; eco 11A annale2425 piege
+Sur quoi repose la vision planifiée ou socialiste de l'économie ? ; Sur LA SOCIÉTÉ, qui connaît mieux les objectifs à atteindre que chaque individu · d'où des décisions centralisées ; eco 11A annale2425
+Sur quoi repose la vision libérale de l'économie ? ; La société connaît MOINS BIEN les objectifs à atteindre que chaque individu pris séparément · ⚠ énoncé sans corrigé sûr, voir À vérifier ; eco 11A annale2223 averifier
+Quand existe-t-il une défaillance de marché ? ; Quand les décisions décentralisées échouent à allouer efficacement les ressources, par EXTERNALITÉ ou par POUVOIR DE MARCHÉ · l'information imparfaite ne fait pas partie des deux causes du cours ; eco 11A annale2425 piege
 Que permet un modèle mathématique en économie ? ; D'EXPLIQUER la réalité à l'aide d'hypothèses simplificatrices · il ne détermine pas ces hypothèses et ne teste pas des corrélations ; eco 11A annale2425 piege
 À quoi servent les données statistiques ? ; À TESTER les théories et à faire des prévisions · ni à les expliquer, ni à les invalider · et une corrélation n'explique jamais une causalité ; eco 11A annale2425 piege
-Qu'étudie la science économique ? ; Comment les individus font des CHOIX et les conséquences de ces choix, en présence de ressources rares · ⚠ en 2024-2025 cette phrase n'était pas proposée, voir À vérifier ; eco 11A annale2425 averifier
-Qu'appelle-t-on « économie positive » ? ; Une approche qui cherche à EXPLIQUER comment fonctionne l'économie · l'économie normative, elle, dit ce que l'économie DEVRAIT être ; eco 11A annale2425
-Sur quoi repose la vision planifiée ou socialiste de l'économie ? ; Sur LA SOCIÉTÉ, qui connaît mieux les objectifs à atteindre que chaque individu · d'où des décisions centralisées ; eco 11A annale2425
-Que représente une courbe d'indifférence ? ; Toutes les combinaisons de deux biens qui offrent au consommateur une satisfaction IDENTIQUE · pas optimale, et sans rapport avec la contrainte budgétaire ; eco 11A annale2425 horschap1
-Quand une économie est-elle en équilibre ? ; Quand les conséquences des actions entreprises par les agents sont conformes à leurs ANTICIPATIONS · le chapitre 1 le dit autrement : aucun individu ne peut améliorer sa situation en faisant quelque chose de différent ; eco 11A annale2425 horschap1
-Par quoi la courbe de demande individuelle est-elle déterminée ? ; Par les préférences des agents, leur contrainte budgétaire et les PRIX relatifs des biens · en 2024-2025 « prix » avait été remplacé par « disponibilité », et la bonne réponse devenait « aucune » ; eco 11A annale2425 piege horschap1
-Comment vérifier l'équation d'une contrainte budgétaire à partir d'un graphique ? ; Faire Qci = 0 pour lire l'ordonnée à l'origine, puis Qco = 0 pour lire l'abscisse · en 2024-2025 aucune des trois équations ne passait par les deux points ; eco 11A annale2425 piege horschap1
-Comment le producteur détermine-t-il la quantité qu'il produit ? ; Pour que son PROFIT MARGINAL soit nul, c'est-à-dire Rm = Cm · pas pour minimiser son coût marginal, et pas en raisonnant en moyennes ; eco 11A annale2425 horschap1
+Que signifie une corrélation négative entre deux variables ? ; Que les deux variables évoluent en SENS OPPOSÉ · surtout pas que l'une influence négativement l'autre, ce serait une causalité : en 2022-2023 la bonne réponse était « aucune » ; eco 11A annale2223 piege
 En quoi consiste une expérience naturelle en économie ? ; À utiliser des ÉVÈNEMENTS HISTORIQUES pour étudier les causalités entre variables · on ne construit pas les groupes, on les trouve ; eco 11A annale2425 piege
-Qu'est-ce qu'une incitation ? ; Un signal qui permet d'ORIENTER les choix individuels · ni une punition quand on choisit mal, ni une obligation ; eco 11A annale2425 piege
-Pourquoi même un milliardaire doit-il faire des choix ? ; Parce qu'il y a 24 HEURES dans une journée · le temps est la contrainte ultime, elle demeure même sans contrainte d'argent ; eco 11A annale2425
+Qu'appelle-t-on « économie positive » ? ; Une approche qui cherche à EXPLIQUER comment fonctionne l'économie · l'économie normative, elle, dit ce que l'économie DEVRAIT être ; eco 11A annale2425
+Qu'appelle-t-on « économie normative » ? ; Une approche qui est à la BASE DES RECOMMANDATIONS de politique économique · elle ne parle ni de norme sociale ni de prévision ; eco 11A annale2223 piege
+Que représente une courbe d'indifférence ? ; Toutes les combinaisons de deux biens qui offrent au consommateur une satisfaction IDENTIQUE · pas optimale, et sans rapport avec la contrainte budgétaire ; eco 11A annale2425 horschap1
+Que représente la contrainte budgétaire ? ; Toutes les combinaisons de biens que le consommateur PEUT ACQUÉRIR en dépensant la totalité de son revenu · « peut acquérir », pas « va consommer », et sans maximisation ; eco 11A annale2223 piege horschap1
+Par quoi la courbe de demande individuelle est-elle déterminée ? ; Par les préférences des agents, leur contrainte budgétaire et les PRIX relatifs des biens · en 2024-2025 « prix » avait été remplacé par « disponibilité », et la bonne réponse devenait « aucune » ; eco 11A annale2425 piege horschap1
+Comment le consommateur choisit-il les combinaisons de biens qu'il consomme ? ; Pour que sa SATISFACTION soit la plus élevée possible · pas pour dépenser le moins possible, pas pour consommer le plus possible ; eco 11A annale2223 horschap1
+Comment le producteur détermine-t-il la quantité qu'il produit ? ; Pour que son PROFIT MARGINAL soit nul, c'est-à-dire Rm = Cm · pas pour minimiser son coût marginal, et pas en raisonnant en moyennes ; eco 11A annale2425 horschap1
 Qu'est-ce qu'un rendement croissant dans la production ? ; La PRODUCTION MARGINALE augmente avec l'embauche d'un nouveau travailleur · s'il est décroissant, elle diminue ; eco 11A annale2425 horschap1
+Quand une économie est-elle en équilibre ? ; Quand les conséquences des actions entreprises par les agents sont conformes à leurs ANTICIPATIONS · le chapitre 1 le dit autrement : aucun individu ne peut améliorer sa situation en faisant quelque chose de différent ; eco 11A annale2425 horschap1
 Quand les conventions servent-elles à coordonner les individus ? ; Quand la COORDINATION entre agents est difficile · ni quand les intérêts divergent, ni pour minimiser les coûts : en 2024-2025 la bonne réponse était « aucune » ; eco 11A annale2425 piege horschap1
-Quand existe-t-il une défaillance de marché ? ; Quand les décisions décentralisées échouent à allouer efficacement les ressources, par EXTERNALITÉ ou par POUVOIR DE MARCHÉ · l'information imparfaite ne fait pas partie des deux causes du cours ; eco 11A annale2425 piege
-En quoi consiste une décision « à la marge » ? ; À comparer les coûts et les bénéfices de faire UN PEU PLUS d'une activité contre UN PEU MOINS d'une autre · pas une activité entière plutôt qu'une autre ; eco 11A annale2425 piege
-Pierre met 10 min par paquet de bonbons et 15 min par tablette de chocolat, Luc 5 min et 20 min : qui a quel avantage ? ; Luc a l'avantage ABSOLU et COMPARATIF sur les bonbons, coût d'opportunité 5/20 = 1/4 de tablette contre 10/15 = 2/3 pour Pierre · Pierre a l'avantage comparatif sur le chocolat ; eco 11A annale2425 horschap1
 Qu'est-ce que la théorie classique des marchés suppose, et pas la théorie moderne ? ; Que l'INFORMATION EST PARFAITE entre les agents · rationalité limitée et produits différenciés sont des apports de la théorie moderne ; eco 11A annale2425 horschap1
 Quand apparaît l'aléa moral ? ; Quand les co-contractants ont la possibilité de TRICHER SANS ÊTRE DÉTECTÉS · pas dès la signature d'un contrat ; eco 11A annale2425 horschap1
-```
-
-### Les questions tombées en 2022-2023 et absentes de l'autre sujet
-
-```
-Que signifie une corrélation négative entre deux variables ? ; Que les deux variables évoluent en SENS OPPOSÉ · surtout pas que l'une influence négativement l'autre, ce serait une causalité : en 2022-2023 la bonne réponse était « aucune » ; eco 11A annale2223 piege
-Sur quoi repose la vision libérale de l'économie ? ; La société connaît MOINS BIEN les objectifs à atteindre que chaque individu pris séparément · ⚠ énoncé sans corrigé sûr, voir À vérifier ; eco 11A annale2223 averifier
-Qu'appelle-t-on « économie normative » ? ; Une approche qui est à la BASE DES RECOMMANDATIONS de politique économique · elle ne parle ni de norme sociale ni de prévision ; eco 11A annale2223 piege
-Pourquoi chaque agent économique doit-il faire des choix ? ; Parce que le TEMPS et l'ARGENT sont rares · ce n'est pas l'abondance des biens disponibles qui crée le choix, c'est la rareté ; eco 11A annale2223
-Comment le consommateur choisit-il les combinaisons de biens qu'il consomme ? ; Pour que sa SATISFACTION soit la plus élevée possible · pas pour dépenser le moins possible, pas pour consommer le plus possible ; eco 11A annale2223 horschap1
-Que représente la contrainte budgétaire ? ; Toutes les combinaisons de biens que le consommateur PEUT ACQUÉRIR en dépensant la totalité de son revenu · « peut acquérir », pas « va consommer », et sans maximisation ; eco 11A annale2223 piege horschap1
-```
-
-### L'objet de la science économique
-
-```
-Quel est le dénominateur commun de tous les comportements humains, pour l'économiste ? ; Ils reposent tous sur des CHOIX · c'est ce qui autorise l'économie à s'intéresser à tous les comportements ; eco 11A
-Quelle est la cinquième notion clé du chapitre, au mot près ? ; La DISTRIBUTION des richesses ET des biens dans l'économie · pas « la distribution des biens » tout court ; eco 11A piege
-Quel type de science est l'économie ? ; Une science SOCIALE · d'où le coût et la difficulté de l'expérimentation, souvent remplacée par l'expérimentation naturelle ; eco 11A
-Quelles sont les trois questions que le cours pose sur les choix ? ; Pourquoi les individus doivent faire des choix · comment ils les font · à quoi ces choix aboutissent ; eco 11A
-```
-
-### Rareté, ressources, choix
-
-```
-Pourquoi les choix sont-ils nécessaires ? ; Parce que les RESSOURCES SONT RARES · rareté puis contrainte puis choix puis comportement global ; eco 11A
-Qu'est-ce qu'une ressource ? ; Tout ce qui peut être utilisé pour produire · la définition ne parle ni de marché ni de prix ; eco 11A
-Qu'est-ce que le capital physique ? ; Les machines et les bâtiments, qui DURENT · les biens intermédiaires, eux, disparaissent dans la production ; eco 11A piege
-Qu'est-ce qu'un bien intermédiaire ? ; Un bien qui DISPARAÎT dans la production · c'est ce qui le sépare du capital physique ; eco 11A piege
-Qu'est-ce que le capital humain ? ; Le niveau d'éducation et les compétences acquises, incorporées aux individus ; eco 11A
-Que recouvre « le travail » dans la liste des ressources, et quelle ressource est la contrainte ultime ? ; Le travail, c'est la FORCE DE TRAVAIL · la contrainte ultime, c'est le TEMPS, qui est une ressource à part dans la liste ; eco 11A
-```
-
-### Le coût d'opportunité
-
-```
-Qu'est-ce que le coût d'opportunité d'un choix ? ; Ce à quoi on RENONCE en faisant ce choix · ce sont des euros NON déboursés ; eco 11A piege
-Dans le « vrai coût des études », qu'est-ce qui relève du coût d'opportunité ? ; Le manque à gagner de ne pas travailler · les frais de scolarité et le loyer sont des frais monétaires ; eco 11A
-Pourquoi le temps passé devant un écran a-t-il un coût, pour l'économiste ? ; Parce que le TEMPS a une valeur économique · son coût d'opportunité, c'est ce à quoi on renonce pendant ce temps-là ; eco 11A
-Que devient le coût d'opportunité des études en période de forte croissance ? ; Il AUGMENTE, parce que les emplois sont nombreux et les salaires élevés · donc il y a moins d'étudiants ; eco 11A
-À quelle condition un choix est-il rationnel ? ; Quand le gain est SUPÉRIEUR au coût d'opportunité · pas au coût monétaire ; eco 11A piege
-```
-
-### Arbitrages, marge, incitations
-
-```
-Qu'est-ce qu'un choix en termes d'alternatives ? ; Un choix entre l'une OU l'autre activité : dormir ou aller en cours ; eco 11A
-Comment se tranche un choix en termes de « combien » ? ; En comparant le coût et le bénéfice de l'unité SUIVANTE · c'est le raisonnement à la marge ; eco 11A
-Dans l'exemple des révisions, quel rôle joue le coefficient 6 en comptabilité contre 4 en économie ? ; Celui d'une INCITATION · chaque point gagné en compta rapporte 6 contre 4, donc le temps de révision s'y déplace · à coefficients égaux, aucune incitation particulière ; eco 11A
-Qu'est-ce qu'un « nudge » ? ; Un coup de pouce : une incitation qui SUGGÈRE au lieu d'obliger ; eco 11A
-Pourquoi les marchés ont-ils tendance à être à l'équilibre ? ; Parce que les agents RÉPONDENT AUX INCITATIONS · c'est une tendance naturelle, pas une garantie ; eco 11A
-Quelle interaction existe-t-il toujours entre les producteurs et les individus ? ; Les producteurs satisfont les besoins en FOURNISSANT aux individus ce dont ils ont besoin ; eco 11A
-```
-
-### Interactions et équilibre
-
-```
-Qu'est-ce que commettre une erreur, pour l'économiste ? ; Échouer à optimiser une décision individuelle ; eco 11A
-Quelles sont les trois raisons des erreurs de décision ? ; Le manque d'informations pertinentes · une information fausse ou incomplète · les interactions avec les autres agents ; eco 11A
-Que devient le choix initial après les interactions sociales ? ; Il devient le choix effectif, qui DIFFÈRE du choix initial ; eco 11A
-À quoi conduit la coopération ? ; À la SPÉCIALISATION, donc à l'échange · chacun fournit aux autres ce qu'il produit et reçoit en échange ; eco 11A
-Quelle est la définition de l'équilibre donnée au chapitre 1 ? ; Aucun individu ne peut améliorer sa situation en faisant quelque chose de différent · au QCM, la formulation attendue est « les conséquences des actions sont conformes aux anticipations » ; eco 11A piege
-Trois caisses de supermarché, trois files inégales : comment savoir si c'est un équilibre ? ; Se demander si QUELQU'UN est incité à changer de comportement · si non, c'est un équilibre, même avec des files inégales ; eco 11A
-Dans un secteur en tension, les salaires montent : qu'est-ce que cela illustre ? ; Que les agents répondent aux incitations, donc que les marchés tendent vers l'équilibre · le salaire est l'incitation à travailler ; eco 11A
-```
-
-### Systèmes économiques et rôle de l'État
-
-```
-Qu'est-ce qu'un système économique ? ; La manière dont les ressources sont ORGANISÉES et DISTRIBUÉES pour subvenir aux besoins des agents ; eco 11A
-À quelles trois questions un système économique répond-il ? ; Quels biens et services produire · comment les produire · à qui les délivrer ; eco 11A
-Par quoi les agents doivent-ils être guidés pour réaliser les échanges les plus profitables ? ; Par des INCITATIONS · ils anticipent les besoins des autres par les anticipations, et sont organisés collectivement par la coordination ; eco 11A piege
-Comment les décisions sont-elles prises dans le système capitaliste ? ; De manière DÉCENTRALISÉE · chacun décide dans son intérêt personnel ; eco 11A
-« Économie de marché » veut-il dire « économie sans État » ? ; Non · le rôle de l'État n'est pas négligeable, il intervient dès qu'il y a une défaillance de marché ; eco 11A piege
-Qu'est-ce qu'une défaillance de marché ? ; Une situation où les décisions décentralisées échouent à allouer efficacement les ressources ; eco 11A
-Quelles sont les deux causes de défaillance de marché ? ; Les externalités · le pouvoir de marché ; eco 11A
-Qu'est-ce qu'une externalité ? ; Un effet du comportement d'un individu sur le bien-être des autres, qui n'est PAS pris en compte dans la décision individuelle · négative pour la pollution, positive dans l'autre sens ; eco 11A
-Qu'est-ce que le pouvoir de marché ? ; Le fait que certains agents exercent une influence importante sur les prix et/ou les quantités échangées ; eco 11A
-Qu'est-ce qu'un monopole ? ; UNE firme unique qui vend UN produit unique · en concurrence monopolistique, les firmes produisent des biens différenciés ; eco 11A piege
-Sur quoi repose le système économique planifié ? ; Sur LA SOCIÉTÉ, qui connaît mieux les objectifs que chaque individu séparément · l'État détermine les besoins, la production et l'allocation ; eco 11A
-Que dit la remarque du cours sur le devenir du système planifié ? ; Il finit généralement en RÉGIME TOTALITAIRE ; eco 11A
-```
-
-### Le tout n'est pas la somme des parties
-
-```
-Le résultat global de millions de comportements est-il la somme de ces comportements ? ; Non : il en DIFFÈRE · le tout n'est pas la somme des parties, et dans l'exemple du revenu il va même en sens inverse ; eco 11A piege
-Qu'est-ce que le paradoxe de l'épargne ? ; En micro, épargner finance l'investissement · en macro, l'épargne généralisée fait baisser la consommation totale, donc l'activité ; eco 11A
-Que se passe-t-il si tous les agents reçoivent 100 euros de plus ? ; Les prix montent et le pouvoir d'achat baisse · seul, celui qui reçoit 100 euros est bien plus riche : c'est tout l'écart entre micro et macro ; eco 11A piege
-En quoi se mesure le pouvoir d'achat ? ; En NOMBRE DE BIENS · W/P ; eco 11A
-Qu'illustre la crise des subprimes, dans la partie sur les prévisions ? ; Un choc qui modifie la TENDANCE elle-même · l'activité ne se contente pas d'osciller autour de la même droite, la droite se déplace ; eco 11A
-```
-
-### La méthode et les modèles
-
-```
-Quelle est la méthode de l'économie ? ; La méthode HYPOTHÉTICO-DÉDUCTIVE : poser des hypothèses, en déduire des résultats, les confronter aux évidences empiriques ; eco 11A
-Quels sont les deux outils de la méthode économique ? ; Les modèles mathématiques, qui simplifient · les données statistiques, qui testent ; eco 11A
-Qu'est-ce qu'un modèle mathématique ? ; Une représentation SIMPLIFIÉE de la réalité ; eco 11A
-Quelle étape de la méthode les modèles mathématiques constituent-ils ? ; La PREMIÈRE · la deuxième est le test par les données ; eco 11A
-À quoi sert un modèle, en deux temps ? ; À enlever la complexité du réel en se focalisant sur l'essentiel · à en déduire des implications théoriques, les prédictions du modèle ; eco 11A
-Quand une hypothèse simplificatrice est-elle acceptable ? ; Quand elle ne supprime pas ce qui est au cœur de la QUESTION POSÉE · ce n'est pas le réalisme qui en décide ; eco 11A piege
-Que dit l'analogie du plan de métro ? ; Les distances sont fausses et la forme de la ville n'est pas respectée, mais le plan permet à l'usager d'aller où il veut ; eco 11A
-Quel modèle répond à la question « comment est créée la richesse ? » ; Le modèle 2, ménages et entreprises · ils créent environ 80 % de la richesse, donc les simplifications sont acceptables ; eco 11A
-Quel modèle répond à la question « quel est le rôle de l'État dans la création de richesse ? » ; Le modèle 1, complet · le modèle 2 ne contient pas d'État ; eco 11A
-Qu'est-ce qu'une variable endogène ? ; Une variable déterminée PAR LE MODÈLE · c'est l'inconnue, ce que l'économiste cherche à expliquer ; eco 11A piege
-Qu'est-ce qu'une variable exogène ? ; Une variable déterminée EN DEHORS du modèle, et fixe · c'est une donnée du problème ; eco 11A piege
-```
-
-### Le marché de la pizza
-
-```
-Quelles sont les deux variables endogènes du marché de la pizza ? ; Q* la quantité d'équilibre · P* le prix d'équilibre ; eco 11A
-De quoi dépend la demande de pizza, et dans quel sens ? ; Pp (−) · Pref (+) · Y (+) · Pb (+) ; eco 11A
-De quoi dépend l'offre de pizza, et dans quel sens ? ; Pp (+) · Pi (−) · T (+) ; eco 11A
-Que se passe-t-il à l'équilibre du marché de la pizza ? ; Le prix s'ajuste pour égaliser offre et demande : Qd = Qo = Q* au prix P* ; eco 11A
-Qu'y a-t-il en abscisse et en ordonnée sur le graphique du marché de la pizza ? ; Les quantités en abscisse · le prix en ordonnée ; eco 11A
-Les agents deviennent fans de pizza : que deviennent P* et Q* ? ; Les deux AUGMENTENT · à prix inchangé la demande dépasse l'offre, puis le prix monte jusqu'au nouvel équilibre ; eco 11A
-Le prix des ingrédients augmente : quelle courbe bouge, et que deviennent P* et Q* ? ; L'OFFRE seule, car Pi est un input · P* augmente et Q* diminue · l'effet sur la demande est latent ; eco 11A
-Que veut dire « toute chose égale par ailleurs » face à un choc ? ; Que le prix ne bouge pas encore au moment du choc · le raisonnement de l'économiste est SÉQUENTIEL ; eco 11A
-Que veut dire « price taker » ? ; L'agent SUBIT le prix, il ne le fixe pas · c'est l'hypothèse de concurrence pure et parfaite ; eco 11A
-```
-
-### Données, corrélation, causalité
-
-```
-À partir de quoi les données statistiques sont-elles construites ? ; À partir de LA THÉORIE · c'est elle qui dit ce qu'on mesure et comment on le définit ; eco 11A piege
-Quels sont les deux rôles des données statistiques ? ; Tester la théorie · faire des prévisions ; eco 11A
-En quoi consiste le fait de tester une théorie ? ; À confronter les modèles à la réalité · c'est la deuxième étape de la démarche hypothético-déductive ; eco 11A
-Que se passe-t-il après la confrontation aux observations empiriques ? ; Soit validation empirique et le modèle est accepté · soit rejet des énoncés, et on révise les hypothèses ; eco 11A
-Qu'est-ce qu'une corrélation ? ; Une RELATION SYSTÉMATIQUE entre deux variables · positive dans le même sens, négative en sens opposé · jamais une causalité ; eco 11A piege
-Qu'est-ce qu'une variable omise ? ; Une variable laissée de côté qui pourrait expliquer la corrélation entre deux autres et être à l'origine de la cause ; eco 11A
-Les ventes de glaces et les noyades augmentent ensemble : pourquoi ? ; À cause d'une VARIABLE OMISE commune, la hausse des températures · corrélation sans causalité ; eco 11A
-Quel type de causalité relie le PIB et la consommation ? ; Une causalité BIDIRECTIONNELLE · ↑PIB → ↑revenu → ↑conso, et ↑conso → ↑dépenses → ↑production → ↑PIB ; eco 11A
-Entre éducation et salaire, pourquoi la causalité n'est-elle pas évidente ? ; Parce qu'elle est bidirectionnelle · plus d'éducation donne un meilleur salaire, mais un revenu élevé permet d'envoyer les enfants étudier ; eco 11A
-```
-
-### Expérimentation
-
-```
-Qu'est-ce qu'une expérimentation en économie ? ; Une méthode CONTRÔLÉE pour étudier les relations CAUSALES entre variables ; eco 11A
-Qu'est-ce que la randomisation, et à quoi sert-elle ? ; La division AU HASARD de l'échantillon entre groupe de traitement et groupe de contrôle · elle conserve leur homogénéité ; eco 11A
-Comment les deux groupes d'une expérimentation sont-ils traités ? ; De manière identique SAUF sur une dimension choisie intentionnellement ; eco 11A
-Quel est l'objet d'une expérimentation ? ; La DIFFÉRENCE entre les deux groupes ; eco 11A
-Quels sont les deux problèmes de l'expérimentation ? ; Le coût · la difficulté de mise en œuvre, c'est-à-dire la randomisation ; eco 11A
-Dans une expérimentation naturelle, qui est le groupe de contrôle ? ; Le comportement AVANT l'évènement · après l'évènement, c'est le groupe de traitement ; eco 11A
-Qu'est-ce qui sépare l'expérimentation naturelle de l'expérimentation en laboratoire ? ; La PROVENANCE DES DONNÉES : historiques et trouvées, au lieu d'être construites ; eco 11A piege
-Deux États voisins, un seul relève son salaire minimum : quelle méthode, et quel résultat ? ; Une expérimentation naturelle, un État traitement et un État contrôle · résultat : peu de différence sur le chômage ; eco 11A
-```
-
-### Prévisions, positive et normative, micro et macro
-
-```
-En quoi se décompose l'activité économique ? ; En CYCLES et en TENDANCE · les prévisions se lisent sur la tendance ; eco 11A
-Que fait l'économie normative ? ; Elle CONSEILLE les décideurs politiques · base de recommandation, elle suppose des critères et des objectifs ; eco 11A
-Pourquoi les économistes ne sont-ils pas d'accord entre eux ? ; À cause de leurs croyances et de leurs valeurs ; eco 11A
-Qu'étudie la microéconomie, et pour quoi faire ? ; Les comportements des unités de base — entreprise, ménage, individu · comprendre comment elles décident et ce qui les influence ; eco 11A
-Qu'étudie la macroéconomie, et pour quoi faire ? ; Le comportement de l'économie dans son ensemble, en variables AGRÉGÉES : consommation agrégée, chômage, inflation, PIB · dire ce qui se passe globalement ; eco 11A
-Que veut dire « macroéconomie microfondée » ? ; La macro se construit à partir des comportements individuels étudiés en micro · depuis les années 1980-1990 ; eco 11A
-Quels sont les deux actes économiques fondamentaux ? ; La consommation · la production ; eco 11A
-Qu'est-ce que la consommation ? ; L'acte qui consiste à utiliser les biens et services DIRECTEMENT pour satisfaire des besoins ; eco 11A piege
-Qu'est-ce que la production ? ; L'acte par lequel des ressources et/ou des biens sont TRANSFORMÉS en biens et services ; eco 11A piege
-Quel est l'objectif des ménages, et celui des entreprises ? ; Les ménages maximisent leur bien-être, satisfaction ou utilité · les entreprises maximisent leur profit ; eco 11A
-Quels sont les trois rôles de l'État dans le circuit ? ; Produire des biens et services · redistribuer le revenu par les taxes et les transferts · réglementer ; eco 11A
-À court terme, qui détermine l'activité, et pourquoi ? ; La DEMANDE de biens, parce que les prix sont rigides ; eco 11A
-À long terme, qui détermine l'activité, et pourquoi ? ; L'OFFRE de biens, parce que les prix sont flexibles ; eco 11A
-```
-
-### Les chiffres et les formules
-
-```
-Quelle part de la richesse est créée par la consommation des ménages ? ; 55 % ; eco 11A chiffres
-Quelle part de la richesse est créée par l'investissement des entreprises ? ; 25 % ; eco 11A chiffres
-Sur 100 euros de richesse créée, combien le sont par les ménages et les entreprises ? ; Environ 80 euros · d'où le choix du modèle 2 ; eco 11A chiffres
-Quelle est la formule du pouvoir d'achat ? ; W/P, exprimé en nombre de biens ; eco 11A chiffres
-Quel est le pouvoir d'achat pour W = 100 euros et P = 10 euros par bien ? ; 10 biens ; eco 11A chiffres
-Comment se décompose le revenu ? ; Y = T + C + S · impôts, consommation, épargne ; eco 11A chiffres
-Quelle est la formule du PIB ? ; PIB = C + I + G + X − Imp ; eco 11A chiffres
-Dans PIB = C + I + G + X − Imp, que vaut G, et pourquoi retranche-t-on Imp ? ; G = les dépenses de l'État · les importations ne sont pas de la richesse créée dans le pays ; eco 11A chiffres
-Quel est le PIB de la France en 2015, tel qu'il figure dans ton cahier ? ; 2 999,9 milliards d'euros · ⚠ trois autres valeurs circulent, voir À vérifier ; eco 11A chiffres averifier
-À qui doit-on l'expression « la main invisible » ? ; À Adam Smith ; eco 11A
+Pierre met 10 min par paquet de bonbons et 15 min par tablette de chocolat, Luc 5 min et 20 min : qui a quel avantage ? ; Luc a l'avantage ABSOLU et COMPARATIF sur les bonbons, coût d'opportunité 5/20 = 1/4 de tablette contre 10/15 = 2/3 pour Pierre · Pierre a l'avantage comparatif sur le chocolat ; eco 11A annale2425 horschap1
 ```
 
 ## 🔄 Comment réviser cette fiche

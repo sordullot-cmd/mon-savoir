@@ -357,6 +357,26 @@ avait trois causes, toutes corrigées ici : des cartes qui **récitent une liste
 des cartes qui **répètent un titre de section**, et des cartes qui ne
 correspondent à **aucune question réellement posée en examen**.
 
+### Peu de cartes : les définitions et questions les plus importantes
+
+**Règle posée par Sacha le 9 octobre 2026 : « il y a trop de cartes, fais des
+cartes pour les définitions / questions les plus importantes du cours ».** Les
+fiches en portaient 30 à 130 ; elles ont été ramenées à **10 à 15 par
+chapitre** (25 au plus pour 11A, le QCM au mot près). C'est un plafond, pas un
+objectif : une carte de plus en remplace une autre, elle ne s'ajoute pas.
+
+- On garde : les définitions à savoir au mot près, les paires à ne pas
+  confondre centrales, l'auteur d'un modèle attendu, le chiffre ou la formule
+  qu'on doit savoir — en premier ce qui est tombé aux annales et ce que la page
+  `_priorites/` classe 🔴 ou 🟠.
+- On ne fait pas de carte pour : un exemple, un détail, une liste secondaire,
+  deux cartes qui testent la même chose.
+- Les lignes vont **dans un bloc de code** (```text) sous `## 🃏 Cartes à
+  créer` : c'est ce que le site lit pour créer les cartes tout seul. Des lignes
+  nues hors bloc ne deviennent pas des cartes.
+- Le site n'affiche plus ce bloc sur la page du cours (ni le Contrôle, ni le
+  suivi, ni les marqueurs ➕) : il reste dans le markdown, c'est la source.
+
 ### D'abord lire les annales — c'est la source, pas le cours
 
 Avant d'écrire une seule carte, on ouvre les annales de la matière :

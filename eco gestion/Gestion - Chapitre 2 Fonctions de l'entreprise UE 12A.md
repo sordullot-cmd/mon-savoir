@@ -14,7 +14,7 @@ statut: à faire
 periode: 1
 revu: 2026-10-05
 a_verifier: 15
-cartes: 60
+cartes: 15
 ajouts: 2
 ---
 
@@ -656,66 +656,23 @@ Si le produit coûte aujourd'hui 44 € à fabriquer, il faut gagner 4 € par u
 
 `Recto ; Verso ; Tags`
 
-Définis le marketing, au mot près ; La stratégie d'ADAPTATION des organisations à des marchés concurrentiels, pour influencer le comportement des publics dont elles dépendent, par une offre PERÇUE et durablement SUPÉRIEURE à celle des concurrents ; gestion 12A
-À qui doit-on les définitions du marketing vues en cours ? ; À Philip KOTLER ; gestion 12A
-Quelle définition de Kotler dit ce que FAIT le marketing ? ; L'ANALYSE, l'ORGANISATION, la PLANIFICATION et le CONTRÔLE des activités, stratégies et ressources qui influencent directement le client · pour satisfaire de façon RENTABLE des groupes de clients sélectionnés ; gestion 12A
+```text
 Quel est le rôle du marketing dans le secteur marchand ? ; Créer de la VALEUR ÉCONOMIQUE pour l'entreprise en créant de la VALEUR PERÇUE pour le client ; gestion 12A
 Les trois étapes du marketing stratégique, dans l'ordre ? ; Segmentation, puis ciblage, puis positionnement — S-C-P ; gestion 12A
-Que fait la segmentation ? ; Elle DÉCOUPE le marché en groupes homogènes aux besoins proches — elle ne choisit rien ; gestion 12A
-Que fait le ciblage ? ; Il CHOISIT un ou plusieurs segments où concentrer les ressources ; gestion 12A
-Que définit le positionnement ? ; L'IMAGE que la marque veut occuper dans l'esprit du consommateur ; gestion 12A
 Les quatre composants du marketing mix ? ; Product, Price, Promotion, Place — produit, prix, promotion/publicité, distribution ; gestion 12A annale 2024
-Dans les 4P, que désigne « Place » ? ; La DISTRIBUTION — pas le lieu de vente ni l'emplacement ; gestion 12A
-Distribution intensive : principe et contrepartie ? ; Le MAXIMUM de points de vente · maximise le chiffre d'affaires mais coût de distribution élevé ; gestion 12A
-Distribution sélective ? ; Un nombre LIMITÉ de points de vente ; gestion 12A
-Distribution exclusive ? ; Un contrat d'EXCLUSIVITÉ entre le distributeur et l'entreprise ; gestion 12A
-Circuit de distribution court : combien d'intermédiaires ? ; UN — producteur, détaillant (centrale d'achat), client ; gestion 12A
-Circuit de distribution long : quels intermédiaires ? ; DEUX — le grossiste puis le détaillant ; gestion 12A
-Les trois leviers de la promotion ? ; Force de vente · merchandising · publicité ; gestion 12A
-Qu'est-ce que le merchandising ? ; Les techniques qui OPTIMISENT les surfaces d'exposition en point de vente et la présentation des produits ; gestion 12A
-Définis la publicité, au mot près ; Toute forme de communication NON INTERACTIVE utilisant un support PAYANT ; gestion 12A
-Publicité mécaniste : qu'est-ce qui la caractérise ? ; La RÉPÉTITION d'un message simple, d'un même slogan ; gestion 12A
-Publicité suggestive : sur quoi joue-t-elle ? ; Le pouvoir d'ÉVOCATION des images, une approche psychologique · la marque associée à des mythes ou des fantasmes ; gestion 12A
-Publicité projective ou intégrative : quel ressort ? ; Faire montrer son APPARTENANCE à un groupe ou à un style de vie par ce qu'on achète ; gestion 12A
+Distribution intensive, sélective, exclusive ? ; Intensive : le MAXIMUM de points de vente, maximise le chiffre d'affaires mais coût de distribution élevé · sélective : un nombre LIMITÉ de points de vente · exclusive : un contrat d'EXCLUSIVITÉ entre le distributeur et l'entreprise ; gestion 12A
 Marketing push contre marketing pull ? ; Push, on POUSSE le produit vers le consommateur par la promotion · pull, on ATTIRE le client vers le produit ; gestion 12A
-Stratégie push : composante de quel mix, et quel nom ? ; Du mix DISTRIBUTION · stratégie de PRESSION, par la force de vente et le réseau ; gestion 12A
-Stratégie pull : composante de quel mix, et quel nom ? ; Du mix COMMUNICATION · stratégie d'ATTRACTION, par la communication et la publicité ; gestion 12A
-Que dit Schumpeter de l'innovation ? ; Elle est la source essentielle de la dynamique économique · le progrès passe par la DESTRUCTION des activités obsolètes et la CRÉATION d'activités plus efficaces ; gestion 12A
-Uber organise la rencontre de l'offre et de la demande sans salarier les conducteurs : quel cas d'innovation chez Schumpeter ? ; Une nouvelle forme d'ORGANISATION DU TRAVAIL ; gestion 12A
-Conquérir un marché nouveau pour un produit existant, est-ce une innovation chez Schumpeter ? ; Oui — c'est le cas du NOUVEAU MARCHÉ, même si le produit ne change pas ; gestion 12A
+Publicité mécaniste, suggestive, projective : quel ressort pour chacune ? ; Mécaniste : la RÉPÉTITION d'un message simple, d'un même slogan · suggestive : le pouvoir d'ÉVOCATION des images, la marque associée à des mythes ou des fantasmes · projective ou intégrative : montrer son APPARTENANCE à un groupe ou à un style de vie par ce qu'on achète ; gestion 12A
 Définis l'innovation de rupture ; Une transformation RADICALE qui change les usages, les modèles économiques et les marchés · elle rend l'existant obsolète et crée un marché nouveau ; gestion 12A
 Définis l'innovation incrémentale ; Une amélioration PROGRESSIVE d'un produit, d'un service ou d'un procédé déjà existant · elle entretient et fidélise les clients acquis ; gestion 12A
-Pourquoi l'iPhone est-il une innovation de rupture ? ; Il crée la catégorie des smartphones et rend obsolètes les téléphones classiques ; gestion 12A
 Un produit existant devient plus pratique et moins encombrant : quel type d'innovation ? ; INCRÉMENTALE — l'existant est amélioré, les usages ne changent pas ; gestion 12A annale 2024
 Innovation de procédé : qu'est-ce qui change ? ; La MANIÈRE DE PRODUIRE, pas le produit — ex. le fordisme en 1913 et le travail à la chaîne ; gestion 12A
-Que vise la recherche fondamentale ? ; Faire progresser la CONNAISSANCE SCIENTIFIQUE — elle demande de lourds investissements ; gestion 12A
-Que produit la recherche appliquée ? ; Des inventions jusqu'au stade du PROTOTYPE ; gestion 12A
-Qu'est-ce que la logique « techno push » ? ; Partir d'un PRODUIT EXISTANT et chercher à l'améliorer, le service R&D à la manœuvre ; gestion 12A
-Définis la production ; L'ensemble des activités qui transforment des ressources, les INPUTS, en biens et services, les OUTPUTS ; gestion 12A
-Les trois exigences de la production ? ; Qualité, coût, délai — le triangle QCD ; gestion 12A
-Que dit la courbe d'expérience ? ; Plus on produit, plus on apprend · la productivité monte et les COÛTS UNITAIRES BAISSENT à mesure que la quantité produite augmente ; gestion 12A
-Qui peut profiter des gains de productivité ? ; Les actionnaires en dividendes · les salariés en salaires · les consommateurs en baisse de prix ; gestion 12A
+Définis la production, et ses trois exigences ; L'ensemble des activités qui transforment des ressources, les INPUTS, en biens et services, les OUTPUTS · qualité, coût, délai — le triangle QCD ; gestion 12A
+La fonction RH : d'où vient-elle, et quelles sont ses trois grandes missions ? ; D'une gestion ADMINISTRATIVE, contrat de travail et paie, à celle du « CAPITAL HUMAIN » aujourd'hui · recrutement, montée en compétences, motivation ; gestion 12A
 Un gain de productivité sert à baisser le prix de vente : quel choix fait l'entreprise ? ; La COMPÉTITIVITÉ — accroître le profit unitaire serait le choix de la RENTABILITÉ ; gestion 12A
-Courbe d'expérience : que met-on en abscisse ? ; La production CUMULÉE — et le coût unitaire en ordonnée ; gestion 12A
-Dans l'évolution de la production, quel régime précède le toyotisme ? ; Le TAYLORISME, avec le fordisme ; gestion 12A
-Qu'est-ce qui caractérise le toyotisme en production ? ; Le FLUX TENDU ; gestion 12A
-Qu'est-ce qui caractérise le teslisme en production ? ; La MACHINE INFORME l'opérateur qu'elle va tomber en panne ; gestion 12A
-D'où vient la fonction RH, et que gère-t-elle aujourd'hui ? ; D'une gestion ADMINISTRATIVE, contrat de travail et paie · aujourd'hui du « CAPITAL HUMAIN » ; gestion 12A
-Les trois grandes missions de la fonction RH ? ; Recrutement · montée en compétences · motivation ; gestion 12A
-Qui élabore les outils RH, et qui les fait vivre ? ; Élaborés par la DRH · ils vivent grâce aux SALARIÉS et aux MANAGERS ; gestion 12A
-Que signifie RPS ? ; Risques PSYCHOSOCIAUX ; gestion 12A
-Comptabilité et finance : un verbe pour la finance ? ; GÉRER — la comptabilité, elle, collecte, traite et diffuse ; gestion 12A
 Les trois lectures complémentaires d'une seule vérité ? ; Compte de résultat = PERFORMANCE · bilan = PATRIMOINE · cash flow statement = CASH ; gestion 12A
-Dans le compte de résultat, que retire-t-on au résultat d'exploitation pour obtenir le résultat net ? ; Les CHARGES FINANCIÈRES et les IMPÔTS ; gestion 12A
-Qui est l'interlocuteur des banquiers pour les financements LMT ? ; Le RESPONSABLE FINANCIER ; gestion 12A
-Qui est l'interlocuteur des CAC avec le directeur financier ? ; Le CHEF COMPTABLE ; gestion 12A
-Comment agit le contrôleur de gestion ? ; Pas directement, mais PAR INFLUENCE — en interne, avec les directeurs opérationnels et le PDG ; gestion 12A
-Efficace ou efficient : lequel ajoute « au moindre coût » ? ; EFFICIENT — atteindre ses résultats au moindre coût · efficace, c'est seulement atteindre ses résultats ; gestion 12A
-Marché non saturé : comment s'obtient le prix de vente ? ; Prix de revient COMPLET + marge = prix de vente ; gestion 12A
 Marché saturé : comment s'obtient le prix de revient objectif ? ; Prix de VENTE − marge = prix de revient objectif · c'est la valeur perçue par le client qui fixe le prix ; gestion 12A
-Les trois investissements productifs ? ; Remplacement (maintien en état) · capacité · productivité ; gestion 12A
-Quelle fonction prédomine dans la décennie 1960 ? ; La fonction COMMERCIALE — après la production au début du XXe siècle ; gestion 12A
-Quelle fonction prédomine à partir de la décennie 1980 ? ; La FINANCE / ÉCONOMIE — le retour des actionnaires avec la mondialisation ; gestion 12A
+```
 
 ---
 

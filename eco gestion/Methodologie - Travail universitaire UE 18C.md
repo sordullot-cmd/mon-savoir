@@ -14,7 +14,7 @@ statut: à faire
 periode: 1
 revu: 2026-09-10
 a_verifier: 11
-cartes: 47
+cartes: 12
 ajouts: 28
 ---
 
@@ -399,88 +399,21 @@ Format d'import : `Recto ; Verso ; Tags`. **Deux `;` par ligne, jamais plus** �
 
 > [!tip] Pourquoi ces cartes-là
 > **Aucune annale de cette UE n'existe dans `~/Documents/L1`** : il n'y a pas de dossier « Méthodologie ». Ces cartes s'appuient donc sur le seul repère sûr, le **barème que tu as noté** — examen final écrit d'**1 h pour 13 points** portant sur **les deux parties**, plus 7 points de recherche bibliographique et 1 à 2 points de test BU.
-> Une heure pour 13 points, c'est **du court** : des définitions, des distinctions, des exemples à replacer. D'où des cartes qui tiennent en une phrase, et surtout **une carte = un fait** : les anciennes cartes « les quatre intérêts du raisonnement hypothético-déductif ? » étaient impossibles à noter — on se plantait toujours sur le quatrième. Elles ont été découpées.
+> Une heure pour 13 points, c'est **du court** : le paquet ne garde que **les 12 définitions et questions les plus importantes du cours** — économie, rationalité, hypothèses et modèle, corrélation / causalité, les trois erreurs, les quatre règles du travail universitaire.
 
-**Définir**
-
-```
+```text
 L'économie, la définition du cours ? ; L'étude de l'allocation optimale des ressources rares ; 18C definition
 Individualisme méthodologique, les deux termes en jeu ? ; L'acteur et le système ; 18C definition
 Le modèle de comportement rationnel, que dit-il ? ; Que l'agent fait les meilleurs choix, en utilisant l'information de manière efficace ; 18C definition
 Rationalité limitée, définition ? ; On s'arrête à une solution SATISFAISANTE au lieu de chercher la meilleure ; 18C definition
-Biais systématique, définition ? ; Une erreur de jugement qui va toujours dans le même sens, donc prévisible ; 18C definition
+Rationalité limitée ou biais systématique ? ; La rationalité limitée arrête la recherche trop tôt · le biais systématique fausse le jugement toujours du même côté ; 18C piege
 Ceteris paribus, que veut dire l'expression ? ; Toutes choses égales par ailleurs ; 18C definition
 À quoi sert un modèle ? ; À donner une représentation simplifiée qui fait ressortir les éléments saillants, et qui a un pouvoir prédictif ; 18C definition
-Sur quoi repose un modèle ? ; Sur des hypothèses ; 18C definition
-```
-
-**Départager — les pièges de l'examen**
-
-```
-Corrélation et causalité : dans quel sens va l'implication ? ; La causalité implique la corrélation, JAMAIS l'inverse ; 18C piege
-Micro ou macro : le chômage d'un pays ? ; Macroéconomie ; 18C
-Micro ou macro : le choix d'un consommateur ? ; Microéconomie ; 18C
-Rationalité limitée ou biais systématique ? ; La rationalité limitée arrête la recherche trop tôt · le biais systématique fausse le jugement toujours du même côté ; 18C piege
-Deux économistes en désaccord avec la même méthode : qu'est-ce que ça révèle ? ; Que l'idéologie intervient dans le choix des hypothèses, pas que la méthode est mauvaise ; 18C piege
-```
-
-**Le raisonnement, étape par étape**
-
-```
 Le raisonnement hypothético-déductif, les trois étapes ? ; Hypothèses → modèle → prédiction ; 18C procedure
-Premier intérêt du raisonnement hypothético-déductif ? ; L'arbitrage entre parcimonie et pouvoir explicatif ; 18C
-Deuxième intérêt du raisonnement hypothético-déductif ? ; Traiter l'incertitude ; 18C
-Troisième intérêt du raisonnement hypothético-déductif ? ; Isoler les effets les uns des autres ; 18C
-Quatrième intérêt du raisonnement hypothético-déductif ? ; Distinguer le niveau individuel du niveau global ; 18C
 Les trois hypothèses de base en économie ? ; Ceteris paribus · la rationalité · le marché ; 18C
-Première erreur de raisonnement à connaître ? ; La variable manquante ou ignorée ; 18C
-Deuxième erreur de raisonnement à connaître ? ; La confusion des niveaux d'analyse ; 18C
-Troisième erreur de raisonnement à connaître ? ; La confusion entre corrélation et causalité ; 18C
-```
-
-**Classer un cas**
-
-```
-France et Allemagne dépensent autant pour la santé, mais l'Allemagne a moins de morts : qu'est-ce que ça montre ? ; Qu'une corrélation entre dépense et résultat ne suffit pas — il manque une variable ; 18C exemple
-La baisse de la TVA sur la restauration : quel résultat ? ; Ni baisse des prix ni embauches promises, seulement une meilleure marge ; 18C exemple
-Nationalisations et privatisations : pourquoi les conclusions divergent-elles ? ; Parce que l'évaluation du résultat dépend des hypothèses de départ ; 18C exemple
-Cite un débat économique du cours ; Les 35 heures · la TVA sur la restauration · les nationalisations et privatisations ; 18C exemple
-```
-
-**Le travail universitaire — ce qui rapporte les 7 points de biblio**
-
-```
+Corrélation et causalité : dans quel sens va l'implication ? ; La causalité implique la corrélation, JAMAIS l'inverse ; 18C piege
+Les trois erreurs de raisonnement à connaître ? ; La variable manquante ou ignorée · la confusion des niveaux d'analyse · la confusion entre corrélation et causalité ; 18C
 Les quatre règles du travail universitaire ? ; Résumé clair · problématique et hypothèses · graphique · sources précises ; 18C procedure
-À quoi servent ces règles ? ; À la crédibilité du travail et à l'information du lecteur ; 18C
-Quelle partie d'un travail est lue en premier ? ; Le résumé ; 18C
-Pourquoi écrire un résumé, en trois raisons ? ; Donner envie de lire · faire passer un message · montrer qu'on maîtrise le sujet ; 18C
-Une règle d'écriture d'un résumé ? ; Une idée principale par paragraphe ; 18C procedure
-Une erreur à ne jamais faire dans un résumé ? ; Le copié-collé — au même titre que les fautes d'orthographe et le « le professeur nous dit que… » ; 18C
-```
-
-**Le barème — il est tombable et il oriente les révisions**
-
-```
-Combien de points pour l'examen final ? ; 13 points, sur 1 heure ; 18C evaluation
-Combien de points pour la recherche bibliographique ? ; 7 points, bonus et malus compris ; 18C evaluation
-Combien de points pour le test de la BU ? ; 1 à 2 points ; 18C evaluation
-Sur quoi porte l'examen final ? ; Les deux parties du cours — raisonner en économiste, et réaliser un travail universitaire ; 18C evaluation
-```
-
-**Chercher, citer, montrer — les sous-sections venues des notes d'un camarade**
-
-```
-Quatre bonnes sources pour une recherche universitaire ? ; L'INSEE · les sites spécialisés · Google Scholar, CAIRN, Web of Science · les sources en anglais ; 18C
-Par où commencer une recherche bibliographique ? ; Par les références RÉCENTES, puis remonter ; 18C procedure
-Pourquoi cite-t-on ses sources ? ; Pour la TRAÇABILITÉ, le lien entre le texte et la bibliographie, et pour crédibiliser le travail ; 18C
-Dans quel ordre présente-t-on une bibliographie ? ; Par ordre ALPHABÉTIQUE des auteurs, ou par numéros dans l'ordre du texte ; 18C
-Que faut-il ajouter pour une source web sans auteur ? ; La DATE DE CONSULTATION, dans une webographie à part ; 18C
-Pourquoi le copié-collé pose-t-il problème dans une bibliographie ? ; Il casse l'uniformité des styles de citation ; 18C
-Les quatre points du niveau de précision d'une donnée ? ; Période · lieu · secteur · profil de consommateur ; 18C
-Les quatre points du format d'une donnée ? ; Unité de mesure · population concernée · échantillon ou ensemble · méthodologie de la collecte ; 18C
-Pourquoi faire un graphique ? ; Pour une SYNTHÈSE VISUELLE et pour mettre en évidence un résultat — ex. la courbe de Laffer ; 18C
-Que veut dire « compréhension autonome » pour un graphique ? ; Il doit pouvoir se lire SEUL, sans le texte qui l'accompagne ; 18C
-Quels choix fait-on en construisant un graphique ? ; Les informations principales à garder · le type de graphique · les échelles ; 18C procedure
 ```
 
 ---

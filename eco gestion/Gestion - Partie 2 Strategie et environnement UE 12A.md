@@ -15,7 +15,7 @@ coef: 3
 periode: 1
 revu: 2026-10-05
 a_verifier: 10
-cartes: 32
+cartes: 12
 ajouts: 1
 ---
 
@@ -455,38 +455,20 @@ concurrentielle à 4, fournisseurs et nouveaux entrants à 1.*
 
 `Recto ; Verso ; Tags`
 
-De quelles deux racines grecques vient le mot « stratégie » ? ; « STRATOS », l'armée, et « AGÔ », conduire ; gestion 12A
-Depuis quand applique-t-on la notion de stratégie aux entreprises ? ; Depuis les ANNÉES 50-60 — le terme était à la base réservé à l'armée ; gestion 12A
-Les trois piliers de la stratégie ? ; La création de valeur · l'affrontement concurrentiel · le choix du périmètre d'activité ; gestion 12A
+```text
 Définis la stratégie d'entreprise, au mot près ; L'ensemble des décisions qui visent à orienter, de façon DÉTERMINANTE et pour le LONG TERME, les activités et structures de l'organisation ; gestion 12A
-Les trois objectifs que la définition de la stratégie assigne aux décisions ? ; Répondre aux attentes des PARTIES PRENANTES · obtenir un AVANTAGE CONCURRENTIEL · créer de la VALEUR pour les clients ; gestion 12A
-Dans la définition de la stratégie, que désignent « mission » et « vision » ? ; Mission = les FINALITÉS de l'entreprise · vision = son orientation à LONG TERME ; gestion 12A
-Qui fait la stratégie d'entreprise, et quelles sont ses trois tâches ? ; Le DIRIGEANT — définir la mission, formuler la stratégie, la mettre en œuvre ; gestion 12A
-Première étape de la démarche stratégique, et ce qu'on y évalue ? ; L'analyse du macro-environnement, le DIAGNOSTIC EXTERNE · on y évalue les FACTEURS CLEFS DE SUCCÈS ; gestion 12A
-Deuxième étape de la démarche stratégique, et ce qu'on y évalue ? ; Le DIAGNOSTIC INTERNE · on y évalue l'AVANTAGE CONCURRENTIEL ; gestion 12A
-Sur quoi se fonde le choix de la stratégie, à la 3e étape ? ; Sur les COMPÉTENCES DISTINCTIVES — il débouche sur l'allocation des ressources ; gestion 12A
-Quatrième étape de la démarche stratégique ? ; Le DÉPLOIEMENT OPÉRATIONNEL, avec l'établissement des budgets ; gestion 12A
 Facteurs clefs de succès ou avantage concurrentiel : lequel est partagé par tous les concurrents ? ; Les FACTEURS CLEFS DE SUCCÈS — l'avantage concurrentiel est spécifique à une entreprise ; gestion 12A
 Définis le macro-environnement ; Les caractéristiques GÉNÉRALES de la société, qui peuvent influencer TOUTES les entreprises ; gestion 12A
 Définis le micro-environnement ; Tout ce qui est en CONTACT DIRECT avec l'entreprise, particulièrement ses CONCURRENTS ; gestion 12A
-La mondialisation relève de quel pan de l'analyse macro-environnementale ? ; ÉCONOMIQUE — avec les cycles, le PNB, les taux, la politique monétaire et l'inflation ; gestion 12A
-La distribution des revenus et la mobilité sociale relèvent de quel pan ? ; SOCIOCULTUREL — pas économique ; gestion 12A
 Une loi sur le retraitement des déchets relève de quel(s) pan(s) du PESTEL ? ; LÉGAL par sa nature, ÉCOLOGIQUE par son objet — en QCM tout ou rien, cocher les deux ; gestion 12A
-À qui doit-on le modèle des 5 forces ? ; À Michael PORTER ; gestion 12A annale 2024
-Le modèle des 5 forces analyse quel environnement ? ; Le MICRO-environnement — le macro s'analyse avec le PESTEL ; gestion 12A
+À qui doit-on le modèle des 5 forces, et quel environnement analyse-t-il ? ; À Michael PORTER · le MICRO-environnement — le macro s'analyse avec le PESTEL ; gestion 12A annale 2024
 Dans le modèle des 5 forces, quel acteur s'ajoute aux cinq forces et pèse sur chacune ? ; L'ÉTAT, les pouvoirs publics — ex. une mesure protectionniste ; gestion 12A annale 2024
 Qu'est-ce qu'un produit de substitution, au sens des 5 forces ? ; Un produit DIFFÉRENT qui répond à la MÊME demande ; gestion 12A
-Dans l'analyse des 5 forces, une force d'intensité faible représente… ? ; Une OPPORTUNITÉ pour développer un nouvel axe stratégique — une intensité forte est un risque élevé ; gestion 12A
 Ressource ou compétence : laquelle est « ce qu'une organisation sait faire » ? ; La COMPÉTENCE — la ressource est ce dont elle DISPOSE ; gestion 12A
-Quand une entreprise a-t-elle une compétence ? ; Quand elle sait COMBINER différentes ressources, comme des briques ; gestion 12A
-Qu'est-ce qu'une compétence clef ? ; Ce que l'entreprise est capable de faire MIEUX QUE LES AUTRES ; gestion 12A
-Selon Porter, en quoi consiste la stratégie ? ; À OBTENIR et CONSERVER un avantage concurrentiel dans un secteur d'activité ; gestion 12A
 Les deux façons de créer de la valeur pour obtenir un avantage concurrentiel ? ; Des PRIX INFÉRIEURS · ou des AVANTAGES UNIQUES qui font plus que compenser un prix plus élevé ; gestion 12A
-Coût de production + … = valeur perçue par le client ; La MARGE ; gestion 12A
 Dans la chaîne de valeur de Porter, la logistique interne et la logistique externe sont des activités… ? ; PRINCIPALES — avec la production et la commercialisation ; gestion 12A annale 2024
 Dans la chaîne de valeur de Porter, l'infrastructure de la firme est une activité… ? ; DE SOUTIEN — avec les RH, le développement technologique et les approvisionnements ; gestion 12A
-Que veut dire « make or buy » ? ; Faire soi-même ou FAIRE FAIRE ; gestion 12A
-Définis la culture d'entreprise ; Un ensemble de RÉFÉRENCES PARTAGÉES dans l'organisation, construites tout au long de son HISTOIRE en réponse aux problèmes rencontrés ; gestion 12A
+```
 
 ---
 

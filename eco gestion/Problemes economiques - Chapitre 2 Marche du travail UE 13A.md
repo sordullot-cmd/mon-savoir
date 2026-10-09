@@ -13,7 +13,7 @@ statut: à faire
 periode: 1
 revu: 2026-09-23
 a_verifier: 14
-cartes: 40
+cartes: 15
 ajouts: 7
 ---
 
@@ -544,46 +544,23 @@ indicateurs. **Le seul piège est le dénominateur.**
 
 `Recto ; Verso ; Tags`
 
+```text
 Qu'est-ce que le marché du travail, au mot près ? ; Le lieu de rencontre entre l'OFFRE et la DEMANDE de travail, et où se fixe le TAUX DE SALAIRE (w) ; pec 13A
-L'offre de travail vient de qui ? ; Des PERSONNES · côté emploi, c'est une demande d'emploi ; pec 13A
-La demande de travail vient de qui ? ; Des EMPLOYEURS · côté emploi, c'est une offre d'emploi ; pec 13A
-Que note-t-on w sur le marché du travail ? ; Le prix du travail, c'est-à-dire le taux de salaire ; pec 13A
-Quelle est la fonction économique du marché du travail ? ; COORDONNER l'offre et la demande de travail ; pec 13A
+L'offre et la demande de travail viennent de qui ? ; Offre : des PERSONNES, côté emploi c'est une demande d'emploi · Demande : des EMPLOYEURS, côté emploi c'est une offre d'emploi ; pec 13A
 Qui est « actif » au sens statistique ? ; Les actifs occupés ET les chômeurs (dits actifs inoccupés) ; pec 13A
 Qu'est-ce qui sépare un chômeur d'un inactif ? ; La RECHERCHE d'emploi, pas l'absence d'emploi ; pec 13A
-La population en âge de travailler, c'est quelle tranche ? ; Les 15-64 ans, par convention statistique ; pec 13A
-Quelle est la source de données de France Travail ? ; Les DEFM, Demandes d'Emploi en Fin de Mois ; pec 13A
-Quelle est la source de données de l'INSEE pour le chômage ? ; L'EEC, Enquête Emploi en Continu, réalisée mensuellement ; pec 13A
+Le chômeur au sens du BIT, les quatre critères ? ; Avoir 15 à 64 ans · n'avoir PAS TRAVAILLÉ DU TOUT pendant la semaine de référence · avoir fait des démarches de recherche le MOIS PRÉCÉDANT la semaine de référence · être disponible dans les DEUX SEMAINES ; pec 13A
 France Travail publie un chiffre à quelle fréquence ? ; MENSUELLE — l'INSEE publie des chiffres trimestriels ; pec 13A
 Quel seuil d'heures sépare les catégories B et C ? ; 78 heures de travail dans le mois — B en fait 78 ou moins, C davantage ; pec 13A
-Que recouvre la catégorie D de France Travail ? ; Sans emploi et NON tenu de rechercher — stage, maladie, reprise d'études ; pec 13A
-Une personne a travaillé une heure pendant la semaine de référence : est-elle chômeuse au sens du BIT ? ; NON · il faut n'avoir PAS TRAVAILLÉ DU TOUT pendant la semaine de référence ; pec 13A
-Sur quelle période le chômeur BIT doit-il avoir fait des démarches de recherche ? ; Le MOIS PRÉCÉDANT la semaine de référence ; pec 13A
-Sur quelle période porte le critère « n'a pas travaillé » au sens du BIT ? ; La SEMAINE DE RÉFÉRENCE choisie dans le mois d'enquête — pas le mois entier ; pec 13A
-Sous quel délai un chômeur BIT doit-il être disponible ? ; Dans les DEUX SEMAINES ; pec 13A
-Quelle part des chômeurs n'est pas inscrite à France Travail ? ; Près d'un sur quatre ; pec 13A
 Taux de chômage = … ; Nombre de chômeurs ÷ POPULATION ACTIVE ; pec 13A
 Taux de participation = … ; Population active ÷ population EN ÂGE DE TRAVAILLER ; pec 13A
 Taux d'emploi = … ; Actifs occupés ÷ population EN ÂGE DE TRAVAILLER ; pec 13A
 Chômeurs ÷ population totale, ça s'appelle comment ? ; La PART de chômage — surtout pas le taux de chômage ; pec 13A
-Que mesure le taux de chômage, et pourquoi n'est-il jamais nul ? ; La performance du marché du travail à allouer le travail · il reste toujours des personnes entre deux emplois ; pec 13A
-Pourquoi le taux de chômage des 15-24 ans est-il mécaniquement élevé ? ; 60 % d'entre eux sont inactifs, donc la population active au dénominateur est petite ; pec 13A
-Combien de groupes socioprofessionnels compte la nomenclature des PCS ? ; 6 ; pec 13A
-En CPP, que signifie l'hypothèse d'homogénéité du travail ? ; Une heure de travail équivaut à la MÊME CHOSE pour tout le monde ; pec 13A
-Dans l'offre de travail néoclassique, le ménage arbitre entre quoi et quoi ? ; Entre le TRAVAIL et le LOISIR ; pec 13A
-Qu'est-ce que la productivité marginale du travail ? ; La valeur de ce que produit une unité de travail SUPPLÉMENTAIRE dans l'entreprise ; pec 13A
 Dans le modèle néoclassique, quand l'employeur cesse-t-il d'embaucher ? ; Quand w > Pm · le salaire dépasse la productivité marginale du travail ; pec 13A
-La demande de travail néoclassique est-elle croissante ou décroissante avec w ? ; DÉCROISSANTE · plus w baisse, plus on peut embaucher des personnes moins productives ; pec 13A
 Pour les néoclassiques, quand y a-t-il chômage volontaire ? ; Quand le SALAIRE DE RÉSERVE est supérieur au salaire d'équilibre w* ; pec 13A
-Keynes raisonne à quel horizon, et dans quelle économie ? ; À COURT TERME, en économie FERMÉE ; pec 13A
-Chez Keynes, C = … ; c × R · la propension moyenne à consommer multipliée par le revenu ; pec 13A
-Chez Keynes, de quoi dépend le niveau de l'investissement ? ; Du TAUX D'INTÉRÊT et de la RENTABILITÉ ANTICIPÉE de l'investissement ; pec 13A
 Chez Keynes, qu'est-ce qui fixe le niveau de l'emploi ? ; La DEMANDE EFFECTIVE, via le niveau de production de B&S ; pec 13A
 Pourquoi le chômage keynésien est-il dit involontaire ? ; Les individus veulent travailler au salaire en vigueur, mais la DEMANDE DE TRAVAIL est insuffisante ; pec 13A
-En quelle année le salaire minimum apparaît-il en France ? ; 1950 ; pec 13A
-Quel était l'objectif initial du salaire minimum ? ; INCITER au travail ; pec 13A
-Que signifie le sigle SMIC ? ; Salaire Minimum INTERPROFESSIONNEL de Croissance ; pec 13A complement
-Selon les néoclassiques, un SMIC fixé sous w* a quel effet ? ; AUCUN · le prix plancher ne s'applique pas ; pec 13A
+```
 
 ---
 

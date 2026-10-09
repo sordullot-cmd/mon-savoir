@@ -18,7 +18,7 @@ coef: 3
 periode: 1
 revu: 2026-10-05
 a_verifier: 14
-cartes: 69
+cartes: 15
 ajouts: 28
 ---
 
@@ -586,106 +586,24 @@ Format d'import de **Anki - Formules et definitions C0-C1** : `Recto ; Verso ; T
 **Deux `;` par ligne, jamais plus** — à l'intérieur d'un champ, les éléments sont séparés par `·`.
 
 > [!tip] Pourquoi ces cartes-là
-> Elles sont taillées sur l'**annale 2024-2025 de Carole Vigeant** : 2 h, trois parties. Le **QCM** (6 pts, 0,5 pt par question, **tout ou rien**, plusieurs réponses possibles) donne surtout des **mini-cas à classer** — « Virgin dans la boisson, la musique, les librairies : quelle diversification ? » — et des **attributions d'auteur** (« à qui doit-on les 5 forces ? »). La **question de cours** (7 pts) demande de **définir *et* d'expliquer à quoi ça sert** (« qu'est-ce qu'un business model, et à quelles questions répond-il ? »).
-> D'où trois familles ci-dessous : **définir**, **classer un cas**, **attribuer**. Plus les chiffres, un par carte, parce que le QCM les oppose.
+> Les 15 définitions et questions les plus importantes du chapitre, celles qui tombent à l'examen (voir [[UE 12A - Introduction a la gestion|la page de priorités]]) : définitions au mot près et paires que le QCM oppose.
 
-**Définir — et dire à quoi ça sert**
-
-```
+```text
 Gestion, la définition du prof ? ; Action ou manière de gérer, d'administrer, d'organiser quelque chose, en mobilisant des ressources ; gestion 12A
-À quoi sert la gestion dans une organisation ? ; À déployer des ressources — quoi, qui, comment — pour atteindre les objectifs fixés par la direction ; gestion 12A
-La gestion ne concerne-t-elle que les entreprises ? ; Non : toute organisation, publique, privée ou de l'ESS, dès qu'un collectif poursuit un but commun ; gestion 12A
 Les trois points communs à toute organisation ? ; Un objectif · des individus qui se l'approprient · une structure qui oriente leur comportement ; gestion 12A
-Entreprise, la définition exacte du cours ? ; Une organisation animée par un projet décliné en stratégie, en politiques et en plans d'action, dont le but est de produire et de vendre des biens ou des services à des clients ou usagers, tout en réalisant un bénéfice ; gestion 12A
-Qu'ajoute la définition « développement durable » de l'entreprise ? ; En préservant les ressources de la planète et en augmentant le bien-être de la population ; gestion 12A
-Stratégie, la définition du cours ? ; L'art de parvenir à son objectif malgré la volonté de l'autre, dans des circonstances éminemment variables ; gestion 12A
-À quoi sert la chaîne de pilotage ? ; À faire descendre une intention du niveau stratégique au niveau opérationnel : réflexion stratégique → plan LMT → lettre de cadrage → budget ; gestion 12A
-Le développement durable, la définition du rapport Brundtland ? ; Un mode de développement qui répond aux besoins du présent sans compromettre la capacité des générations futures à répondre aux leurs ; gestion 12A
-RSE, définition ? ; La prise en charge par l'entreprise des conséquences sociales et environnementales de son activité, au-delà de ses obligations légales ; gestion 12A complement
-Structure formelle, définition ? ; L'organigramme : la division verticale (hiérarchique) et horizontale (par fonctions), avec son système de coordination ; gestion 12A
-Structure informelle, définition ? ; Les liens fluides hors organigramme — affinités, réseaux d'entraide, circuits d'information — aux intérêts multiples ; gestion 12A
-Culture d'entreprise, définition ? ; Un ensemble lié de manières de penser, de sentir et d'agir, plus ou moins formalisé, partagé par une pluralité de personnes ; gestion 12A
-L'entreprise comme système technique ? ; Elle transforme des inputs (matières premières, travail, moyens de production) en outputs, via un process ; gestion 12A
-Personne morale, définition ? ; Une entité juridique dotée d'une personnalité propre, indépendante des individus qui la composent ; gestion 12A
-À quoi reconnaît-on une personne morale immatriculée ? ; Une date de création, un capital, une forme juridique, un siège social, des numéros SIREN et SIRET ; gestion 12A complement
-Trésorerie, définition ? ; L'argent immédiatement disponible pour faire face aux dépenses quotidiennes ; gestion 12A
-Licorne, définition ? ; Une startup valorisée à plus d'un milliard de dollars, souvent issue de la tech ou de la finance ; gestion 12A
-Gouvernance, définition ? ; La manière dont le pouvoir est organisé et contrôlé entre les actionnaires, les dirigeants et les organes de direction ; gestion 12A
-Valeur ajoutée, la formule ? ; Production (chiffre d'affaires) − consommations intermédiaires ; gestion 12A complement
-Bénéfice, la formule ? ; Produits − charges — le chiffre d'affaires étant quantité vendue × prix unitaire ; gestion 12A complement
-Que veulent dire SARL, SAS et EURL ? ; Société à responsabilité limitée · société par actions SIMPLIFIÉE · entreprise unipersonnelle à responsabilité limitée ; gestion 12A complement
-Secteur quaternaire, définition ? ; Les activités liées aux technologies de l'information et de la communication : logiciels, conseil, recherche, presse ; gestion 12A complement
-```
-
-**Départager deux notions voisines** — c'est là que le QCM fait perdre des points
-
-```
+Entreprise, la définition exacte du cours — et ce qu'y ajoute la version « développement durable » ? ; Une organisation animée par un projet décliné en stratégie, en politiques et en plans d'action, dont le but est de produire et de vendre des biens ou des services à des clients ou usagers, tout en réalisant un bénéfice · version développement durable : en préservant les ressources de la planète et en augmentant le bien-être de la population ; gestion 12A
 Entreprise publique ou privée, le critère exact ? ; Publique si l'État détient PLUS DE 50 % du capital — c'est un seuil de détention, pas une mission ; gestion 12A
+Une mutuelle, un syndicat, une fondation : quelle famille ? ; L'ESS, les organisations à but non lucratif ; gestion 12A
 Stratégique ou opérationnel, qu'est-ce qui les sépare ? ; La réversibilité et la distance au terrain : irréversible et long terme contre réversible, fréquent et proche du terrain ; gestion 12A
 Qui décide au niveau stratégique, qui décide au niveau opérationnel ? ; Les actionnaires au stratégique · les cadres intermédiaires, dans leur seul secteur, à l'opérationnel ; gestion 12A
-Structure formelle ou informelle, qu'est-ce qui les sépare ? ; L'une est DÉCIDÉE et écrite, l'autre est CONSTATÉE ; gestion 12A
-Entreprise individuelle ou société, qu'est-ce qui les sépare ? ; L'existence d'une personne morale distincte — et donc le sort du patrimoine ; gestion 12A
+Le développement durable, la définition du rapport Brundtland ? ; Un mode de développement qui répond aux besoins du présent sans compromettre la capacité des générations futures à répondre aux leurs ; gestion 12A
+RSE, définition ? ; La prise en charge par l'entreprise des conséquences sociales et environnementales de son activité, au-delà de ses obligations légales ; gestion 12A complement
 Développement durable ou RSE ? ; Le développement durable est un concept macroéconomique · la RSE en est l'application concrète dans une entreprise ; gestion 12A complement
-Secteur ou branche ? ; Le secteur classe des ENTREPRISES selon leur activité principale · la branche classe des PRODUCTIONS d'un même produit ; gestion 12A complement
+Structure formelle ou informelle, qu'est-ce qui les sépare ? ; Formelle = DÉCIDÉE et écrite : l'organigramme, la division verticale (hiérarchique) et horizontale (par fonctions), avec son système de coordination · informelle = CONSTATÉE : les liens fluides hors organigramme — affinités, réseaux d'entraide, circuits d'information ; gestion 12A
+Entreprise individuelle ou société, qu'est-ce qui les sépare ? ; L'existence d'une personne morale distincte — et donc le sort du patrimoine ; gestion 12A
 Efficacité ou efficience ? ; L'efficacité demande si l'objectif est atteint · l'efficience demande à quel coût — on peut être efficace et inefficient ; gestion 12A complement
-Parts sociales ou actions ? ; La SARL émet des parts sociales, dont la cession est soumise à AGRÉMENT · la SAS et la SA émettent des actions librement cessibles ; gestion 12A complement
-Le chiffre d'affaires est-il un indicateur de rentabilité ? ; Non : c'est un indicateur COMMERCIAL, il mesure les ventes réalisées — pas, à lui seul, la rentabilité ; gestion 12A
-Le pilotage du cycle de produit est-il une cinquième étape ? ; Non : la direction générale et le contrôle de gestion sont TRANSVERSAUX aux quatre étapes — c'est le piège classique ; gestion 12A
-```
-
-**Classer un cas** — le format exact du QCM de l'annale
-
-```
-Le CHU d'Angers : quel type d'organisation ? ; Une organisation publique, fonction publique hospitalière ; gestion 12A
-Une mutuelle, un syndicat, une fondation : quelle famille ? ; L'ESS, les organisations à but non lucratif ; gestion 12A
-L'État détient 60 % du capital d'une entreprise : publique ou privée ? ; Publique — le seuil est de plus de 50 % ; gestion 12A
-« On arrête le catalogue papier » : stratégique ou opérationnel ? ; Stratégique — long terme, difficile à défaire, décidé en haut ; gestion 12A
-« Deux vendeurs de plus en caisse samedi » : stratégique ou opérationnel ? ; Opérationnel — le chef de rayon, cette semaine, réversible lundi ; gestion 12A
-Une marque de baskets fait fabriquer son modèle par un sous-traitant : quelle décision ? ; Un « buy » dans l'arbitrage make or buy, à l'étape CONCEVOIR du cycle de produit ; gestion 12A
-Une entreprise de 300 salariés et 100 millions de CA : quelle catégorie INSEE ? ; Une ETI — moins de 5 000 salariés, au-delà des seuils PME ; gestion 12A
-Un graphiste auto-entrepreneur : quel statut, quel impôt ? ; Entreprise individuelle en micro-entreprise, imposée à l'impôt sur le revenu ; gestion 12A
-Trois associés veulent lever des fonds : SARL ou SAS ? ; SAS — ses actions sont librement cessibles, la SARL soumet la cession des parts à agrément ; gestion 12A
-1 000 commandes livrées, mais en doublant l'équipe et en payant des heures supplémentaires ? ; Efficace mais pas efficient ; gestion 12A complement
-Emmaüs Solidarité face à la hausse du carburant : qu'est-ce que ça illustre ? ; Que les associations gèrent des ressources rares — dons, subventions, bénévoles — exactement comme une entreprise ; gestion 12A
+Seuils de taille : micro-entreprise, PME, ETI ? ; Micro : moins de 10 salariés et 2 millions d'euros de chiffre d'affaires · PME : moins de 250 salariés et moins de 50 millions d'euros de chiffre d'affaires · ETI : moins de 5 000 salariés ; gestion 12A chiffres
 Une usine automobile et un coiffeur : deux différences de gestion ? ; La voiture se stocke et s'exporte · la coupe ne se stocke pas et exige la présence du client pendant la production ; gestion 12A complement
-```
-
-**Attribuer** — auteur, texte ou loi, dans les deux sens
-
-```
-À qui doit-on la définition de la stratégie comme détermination des buts à long terme ? ; A. D. Chandler ; gestion 12A auteurs
-A. D. Chandler, pour quoi ? ; La stratégie : déterminer les buts et objectifs à long terme de l'entreprise, et choisir les actions et les ressources pour les atteindre ; gestion 12A auteurs
-D'où vient la définition du développement durable du cours ? ; Du rapport Brundtland, 1987 ; gestion 12A auteurs
-Qui distingue les deux niveaux de la culture d'entreprise ? ; Calori et al., 1989 — conscient (formule stratégique, pratiques, symboles) et inconscient (valeurs, postulats) ; gestion 12A auteurs
-À qui doit-on le découpage en trois secteurs d'activité ? ; Colin Clark et Jean Fourastié ; gestion 12A auteurs complement
-Quelle loi a supprimé l'EIRL, et pour la remplacer par quoi ? ; La loi du 14 février 2022 : un statut unique de l'entreprise individuelle, qui protège automatiquement le patrimoine personnel ; gestion 12A
-Quelle loi le cours cite-t-il pour les fondations ? ; La loi du 31 juillet 2014 ; gestion 12A
-Quelle loi permet la raison d'être et la société à mission ? ; La loi PACTE, 2019 ; gestion 12A complement
-```
-
-**Un chiffre par carte** — le QCM les oppose entre eux
-
-```
-Combien d'entreprises en France ? ; Environ 5,2 millions, hors agriculture et finance (Insee Focus n° 372, données 2023) ; gestion 12A chiffres
-Seuils de la micro-entreprise ? ; Moins de 10 salariés et 2 millions d'euros de chiffre d'affaires ; gestion 12A chiffres
-Seuils de la PME hors micro ? ; Moins de 250 salariés et moins de 50 millions d'euros de chiffre d'affaires ; gestion 12A chiffres
-Seuil de l'ETI ? ; Moins de 5 000 salariés ; gestion 12A chiffres
-Combien d'ETI en France ? ; 7 442 ; gestion 12A chiffres
-Part des micro-entreprises dans le nombre d'entreprises ? ; 96,3 % ; gestion 12A chiffres
-Part du secteur tertiaire ? ; 76,1 % ; gestion 12A chiffres
-Capital minimum d'une SA ? ; 37 000 euros ; gestion 12A chiffres complement
-Combien d'associations actives en France ? ; 1,6 million en 2025, avec des subventions publiques en baisse ; gestion 12A chiffres
-Combien d'entreprises créées par an en France ? ; Plus de 1,1 million, en large majorité des micro-entrepreneurs ; gestion 12A chiffres
-```
-
-**Texte à trou** — pour les formules et les mots qui font la note
-
-```
-Valeur ajoutée = production − … ? ; Les consommations intermédiaires ; gestion 12A complement
-Le cycle de produit, les quatre étapes dans l'ordre ? ; Concevoir · produire · vendre · administrer ; gestion 12A
-Les trois critères de classement des entreprises, dans l'ordre ? ; La taille · le secteur d'activité · le statut juridique ; gestion 12A
-Les deux questions à se poser pour choisir un statut juridique ? ; Ma responsabilité doit-elle être limitée à mon apport · vais-je m'associer ou entreprendre seul ; gestion 12A
-Les trois croisements du schéma du développement durable ? ; Environnement + social = vivable · économie + social = équitable · économie + environnement = viable ; gestion 12A
 ```
 
 ## 🔄 Comment réviser cette fiche

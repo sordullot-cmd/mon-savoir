@@ -15,7 +15,7 @@ coef: 3
 periode: 1
 revu: 2026-10-05
 a_verifier: 8
-cartes: 30
+cartes: 12
 ajouts: 1
 ---
 
@@ -477,36 +477,20 @@ un marché en croissance + + (haut) → dilemme.*
 
 `Recto ; Verso ; Tags`
 
+```text
 Corporate strategy ou business strategy : laquelle est définie au niveau global par la DG ? ; La CORPORATE strategy — la business strategy est définie pour chaque activité (DAS) ; gestion 12A
-Les trois rôles de la corporate strategy, d'après le schéma de la slide ? ; Relations avec les actionnaires et les parties prenantes · gestion du PORTEFEUILLE d'activités · choix d'ALLOCATION des ressources ; gestion 12A
-Quel est le rôle de la business strategy ? ; CRÉER UN AVANTAGE CONCURRENTIEL sur une activité ; gestion 12A
-Renault s'associe à Nissan : décision corporate ou business ? ; CORPORATE — elle engage la totalité du groupe ; gestion 12A
-Quel est le troisième niveau de stratégie, sous la corporate et la business strategy ? ; La STRATÉGIE OPÉRATIONNELLE — la définition des modes opératoires pour mettre en œuvre les tactiques ; gestion 12A
 Définis la segmentation stratégique ; Une technique qui permet de TRIER et REGROUPER les activités de l'entreprise en sous-ensembles HOMOGÈNES, les DAS, auxquels un raisonnement stratégique est applicable ; gestion 12A annale 2024
 Que veut dire DAS ? ; Domaine d'Activité Stratégique ; gestion 12A annale 2024
-Les trois critères de la segmentation stratégique ? ; La TECHNOLOGIE · le BESOIN satisfait · la CLIENTÈLE ; gestion 12A
-À qui doit-on les trois critères de la segmentation stratégique, d'après le cours ? ; À ABELL et HAMMOND ; gestion 12A
-Segmentation stratégique ou marketing : laquelle cherche l'adéquation entre un client et un prix ? ; La segmentation MARKETING — plus poussée que la stratégique ; gestion 12A
-Quel est le point commun des DAS de LVMH ? ; Le LUXE ; gestion 12A
-Pourquoi avoir plusieurs DAS, au regard du cycle de vie ? ; Quand un DAS est en DÉCLIN, un autre peut être en CROISSANCE ; gestion 12A
-Les phases du cycle de vie, après le développement ? ; Introduction · croissance · maturité · déclin ; gestion 12A
-Que veut dire BCG ? ; BOSTON CONSULTING GROUP ; gestion 12A
+Les trois critères de la segmentation stratégique, et à qui les doit-on ? ; La TECHNOLOGIE · le BESOIN satisfait · la CLIENTÈLE — d'après ABELL et HAMMOND ; gestion 12A
 Les deux axes de la matrice BCG ? ; La CROISSANCE DU MARCHÉ et la PART DE MARCHÉ ; gestion 12A
-Matrice BCG : part de marché faible, croissance du marché forte ? ; Un DILEMME — faut-il y aller, ou sortir du marché ? ; gestion 12A
 Matrice BCG : part de marché forte, croissance du marché faible ? ; Une VACHE À LAIT ; gestion 12A
-Dans la matrice BCG de L'Oréal, quelle case pour Kérastase ? ; POIDS MORTS — pénétration - - dans un marché en croissance - - ; gestion 12A
-Que désignent les lettres LCAG ? ; Les initiales de quatre professeurs de HARVARD : Learned, Christensen, Andrews, Guth ; gestion 12A
 Que veut dire SWOT, et son équivalent français ? ; Strengths, Weaknesses, Opportunities, Threats · FFOM ; gestion 12A
 Dans le SWOT, opportunités et menaces relèvent de quel diagnostic ? ; Du diagnostic EXTERNE — forces et faiblesses relèvent de l'interne ; gestion 12A annale 2024
-Dans le SWOT, le principal concurrent de l'entreprise fait faillite : c'est… ? ; Une OPPORTUNITÉ — un fait externe et favorable ; gestion 12A annale 2024
-Définis la spécialisation ; Centrer toutes ses ressources et ses compétences dans un SEUL domaine d'activité stratégique ; gestion 12A
-Définis la diversification ; RÉPARTIR ses ressources entre DIFFÉRENTS domaines d'activité stratégique ; gestion 12A
+Spécialisation ou diversification : définis les deux ; Spécialisation = centrer toutes ses ressources et ses compétences dans un SEUL domaine d'activité stratégique · diversification = RÉPARTIR ses ressources entre DIFFÉRENTS domaines d'activité stratégique ; gestion 12A
 Diversification verticale : quelle logique ? ; Une LOGIQUE DE FILIÈRE ; gestion 12A annale 2024
 Diversification non liée : quelle logique ? ; Une LOGIQUE FINANCIÈRE ; gestion 12A annale 2024
-Michelin investit dans des plantations de caoutchouc : quel type de diversification ? ; VERTICALE — DAS complémentaires en amont, dans la même filière ; gestion 12A
 Définis la croissance interne ; Mobiliser les ressources de l'entreprise pour assurer son développement — la croissance ORGANIQUE ; gestion 12A
-Des distributeurs construisent et financent eux-mêmes leurs nouveaux magasins : quelle croissance ? ; INTERNE — ils se développent par leurs ressources propres ; gestion 12A annale 2024
-Que veut dire M & A ? ; MERGER AND ACQUISITION, fusion-acquisition — la croissance externe ; gestion 12A
+```
 
 ---
 

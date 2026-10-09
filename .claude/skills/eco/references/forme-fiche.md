@@ -27,7 +27,8 @@ bloc déjà là ne se refait pas ; **un bloc sans matière ne se remplit pas**.
    présente dans la page. C'est là que les points se perdent en examen.
 6. **`## 🧮 Méthode`** — la procédure numérotée, si la page en contient une,
    suivie d'un exemple déroulé.
-7. **`## 🃏 Cartes à créer`** — format `Recto ; Verso ; Tags`, **deux `;` par
+7. **`## 🃏 Cartes à créer`** — **10 à 15 cartes au plus** (25 pour 11A), les
+   définitions et questions les plus importantes, dans un bloc ```text. Format `Recto ; Verso ; Tags`, **deux `;` par
    ligne et pas un de plus** (un `;` dans le verso casse l'import). Six types
    seulement — définition + fonction, discrimination, mini-cas, attribution,
    chiffre, texte à trou — et chacune doit ressembler à une question réellement

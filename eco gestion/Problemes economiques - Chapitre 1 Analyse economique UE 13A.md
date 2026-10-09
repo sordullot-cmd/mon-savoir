@@ -14,7 +14,7 @@ statut: à faire
 periode: 1
 revu: 2026-09-09
 a_verifier: 15
-cartes: 45
+cartes: 12
 ajouts: 9
 ---
 
@@ -419,83 +419,21 @@ Les deux premières **existaient avant le système capitaliste**, ainsi que le r
 Format d'import `Recto ; Verso ; Tags`. **Deux `;` par ligne, jamais plus** — à l'intérieur d'un champ, les éléments sont séparés par `·`.
 
 > [!tip] Pourquoi ces cartes-là
-> **Aucune annale officielle de cette UE n'est dans `~/Documents/L1`** — les QCM d'entraînement qui s'y trouvent ont été fabriqués par un étudiant, pas par le prof : ils donnent une idée du format, pas des questions.
-> Ces cartes s'appuient donc sur deux choses sûres. D'abord **le format que le prof a lui-même annoncé**, dans tes notes : écrit de 2 h, **QCM 30 %**, **questions de cours courtes 30 %** portant sur les *concepts, les mécanismes et l'analyse d'un graphique ou d'un tableau*, puis une **question de réflexion**. Ensuite la diapo **« à retenir du chapitre »** du millésime 2025-2026, qui est une liste d'objectifs d'examen : les deux définitions de la science économique, l'impérialisme économique *et comment l'expliquer*, la définition d'un modèle, l'explication d'un raisonnement TCEPA, ce qu'est une expérimentation.
-> Le prof insiste aussi sur un point que ces cartes appliquent : **le vocabulaire en couleur dans les diapos doit être réutilisé**, et une notion doit pouvoir s'expliquer à quelqu'un qui n'y connaît rien. D'où des versos qui donnent le mot exact **et** le mécanisme en une phrase.
+> Les 12 définitions et questions les plus importantes du chapitre — celles que la diapo « à retenir » et la page de priorités (🔴) désignent pour l'examen.
 
-**Définir — et expliquer le mécanisme**
-
-```
+```text
 La science économique, définition 1 ? ; La science qui étudie le comportement humain comme une relation entre des fins et des ressources rares ayant des usages alternatifs ; eco 13A
 La science économique, définition 2 ? ; Une science des choix — compatible avec la définition 1, puisque le temps est une ressource limitée ; eco 13A
-La science, définition du cours ? ; L'ensemble des connaissances obtenues par la méthode scientifique ; eco 13A
 Science : stock ou processus ? ; Les deux — un stock de connaissances PLUS le processus qui les crée ; eco 13A piege
-Sur quel principe repose la méthode scientifique ? ; Le principe de cause à effet : on explique les causes, ce n'est pas dû au hasard ; eco 13A
 Le modèle économique, définition ? ; Une construction intellectuelle qui représente et simplifie le réel, pour expliquer un phénomène précis par une ou plusieurs causes, en reposant sur des hypothèses ; eco 13A
-Pourquoi modéliser, en trois raisons ? ; Rendre la réalité moins complexe · faire ressortir les mécanismes fondamentaux · tenter de prévoir ; eco 13A
-TCEPA, que veut dire l'expression et à quoi sert-elle ? ; « Toutes choses égales par ailleurs » : isoler l'effet d'UNE cause quand un même effet en a plusieurs ; eco 13A
-L'expérimentation, son principe ? ; Vérifier qu'une cause, ou traitement, a bien l'effet supposé, en faisant varier une seule cause à la fois ; eco 13A
-Le PIB, définition ? ; La richesse créée sur un territoire sur une période donnée : la somme des valeurs ajoutées de toutes les entreprises du pays ; eco 13A
-Le PIB par tête, définition et intérêt ? ; Le PIB divisé par le nombre d'habitants — il indique la capacité à satisfaire les besoins de la population ; eco 13A
-Consommations intermédiaires, définition ? ; L'ensemble des éléments détruits ou transformés au cours du processus de production ; eco 13A
-Le capitalisme, définition ? ; Un système économique qui repose sur trois institutions complémentaires : la propriété privée, le marché, l'entreprise ; eco 13A
-Qu'est-ce qui caractérise l'entreprise capitaliste ? ; La détention du capital par un ou plusieurs individus · des employés rémunérés en échange de leur force de travail ; eco 13A complement
-Rapport interdécile, définition ? ; Le rapport entre le revenu plancher des 10 % les plus riches (D9) et le revenu plafond des 10 % les plus pauvres (D1) ; eco 13A complement
-Fait stylisé, définition ? ; Une régularité empirique simple et largement observée, qu'une théorie doit pouvoir expliquer ; eco 13A complement
-```
-
-**La démarche, étape par étape** — c'est la question de cours la plus probable
-
-```
 La démarche hypothético-déductive, les quatre étapes ? ; Questionnement → modèle théorique → hypothèses testables → confrontation au réel ; eco 13A
-Qu'est-ce qu'une hypothèse testable ? ; Une prédiction du modèle dont on doit pouvoir dire qu'elle est vraie ou fausse ; eco 13A
-D'où vient le caractère scientifique d'une découverte ? ; De la MANIÈRE dont elle est effectuée, pas de son contenu ; eco 13A piege
-Quelle condition rend une expérience scientifique ? ; Elle doit être reproductible ; eco 13A
+TCEPA, que veut dire l'expression et à quoi sert-elle ? ; « Toutes choses égales par ailleurs » : isoler l'effet d'UNE cause quand un même effet en a plusieurs ; eco 13A
 Groupe test et groupe témoin, la règle ? ; Même composition, sauf que le groupe test reçoit le traitement — une seule cause varie ; eco 13A
 Les 3 types d'expériences ? ; Contrôlées en laboratoire · naturelles · de terrain ; eco 13A
-Expérience naturelle, définition ? ; Celle où l'assignation au groupe test ou témoin tient à un événement politique ou historique ; eco 13A
-Comment réaliser la condition TCEPA, autrement que par l'expérimentation ? ; Par l'économétrie, qui travaille sur des bases de données — pas abordée dans ce cours ; eco 13A
-```
-
-**Le mot qui tranche**
-
-```
-Un même effet, combien de causes ? ; Plusieurs, simultanées — qui se renforcent, ou qui s'annulent, ou qui se compensent partiellement ; eco 13A piege
-Qu'est-ce que la science économique cherche à faire face à des causes multiples ? ; ISOLER l'effet de chaque cause ; eco 13A
+Le PIB, définition ? ; La richesse créée sur un territoire sur une période donnée : la somme des valeurs ajoutées de toutes les entreprises du pays ; eco 13A
 Le PIB est-il une bonne mesure du bien-être ? ; Imparfait mais utile : il ignore le non-marchand, et la destruction de richesse le fait AUGMENTER ; eco 13A piege
-Les économistes se contredisent-ils ? Est-ce disqualifiant ? ; Oui ils se contredisent, mais idéologie et science sont compatibles — c'est la réponse du cours à cette critique ; eco 13A piege
-L'impérialisme économique, qu'est-ce que c'est ? ; L'extension des sujets traités par les économistes, permise par la définition 2 — l'économie comme science des choix ; eco 13A
-L'impérialisme économique, les deux explications ? ; L'application des principes de l'analyse économique à tous les choix · la méthode scientifique appliquée à d'autres sujets ; eco 13A
-```
-
-**Classer un cas** — le format des questions de cours courtes
-
-```
-« La consommation augmente avec le salaire » : qu'est-ce qui manque à cette phrase ? ; « Toutes choses égales par ailleurs » — elle n'est vraie que si les autres causes ne bougent pas ; eco 13A
-Deux groupes de plantes, un exposé au soleil, l'autre non : quel dispositif ? ; Une expérience contrôlée — groupe test contre groupe témoin, une seule cause qui varie ; eco 13A
-Des tuteurs dans des écoles primaires indiennes, avec un groupe sans tuteur : quel type d'expérience ? ; Une expérience de terrain — les travaux d'Esther Duflo ; eco 13A
-Les allocations familiales et le taux de natalité : quel champ de l'économie ? ; L'économie de la famille et la démographie, un exemple d'impérialisme économique ; eco 13A
-Une boulangerie vend 200 000 euros de pain et achète 60 000 euros de farine et d'énergie : sa valeur ajoutée ? ; 140 000 euros — chiffre d'affaires moins consommations intermédiaires ; eco 13A complement
-Démolir un bâtiment puis le reconstruire : quel effet sur le PIB ? ; Il AUGMENTE — c'est l'une des deux critiques du PIB comme mesure du bien-être ; eco 13A piege
-```
-
-**Attribuer**
-
-```
-À qui doit-on la définition de l'économie comme relation entre des fins et des ressources rares ? ; Lionel Robbins, 1932 ; eco 13A auteurs complement
-Qui a appliqué l'analyse économique au mariage, à la délinquance et aux études ? ; Gary Becker, prix Nobel 1992, dans les années 60 ; eco 13A auteurs
-Esther Duflo, pour quoi ? ; Les expériences de terrain en économie de l'éducation — prix Nobel 2019 ; eco 13A auteurs complement
-```
-
-**Un fait par carte**
-
-```
-Les trois activités des économistes ? ; Prédire · comprendre le fonctionnement de l'économie · concevoir et évaluer les politiques publiques ; eco 13A
-Vers quoi convergent les trois activités des économistes ? ; Vers tout ce qui peut éclairer les décisions collectives — elles sont complémentaires ; eco 13A
-Les trois critiques faites aux économistes ? ; La contradiction · les prédictions erronées · l'idéologie plutôt que la science ; eco 13A
-Les trois questions de l'économie ? ; Quoi produire · à qui le fournir · comment produire ; eco 13A
-La rareté, de quel côté du marché ? ; Des deux : travail et matières premières côté producteur · contrainte budgétaire côté consommateur ; eco 13A
-Ce que le PIB ne compte pas ? ; Le travail domestique et le bénévolat · la qualité du temps libre et des relations · la qualité de l'environnement ; eco 13A
+Le capitalisme, définition ? ; Un système économique qui repose sur trois institutions complémentaires : la propriété privée, le marché, l'entreprise ; eco 13A
+L'impérialisme économique, les deux explications ? ; L'application des principes de l'analyse économique à tous les choix (Gary Becker, prix Nobel 1992, années 60 : mariage, délinquance, études) · la méthode scientifique appliquée à d'autres sujets ; eco 13A auteurs
 ```
 
 ## 🔄 Comment réviser cette fiche
