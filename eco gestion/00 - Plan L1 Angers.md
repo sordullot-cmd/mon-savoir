@@ -46,7 +46,7 @@ Les quatre UE de la **période 1** sont celles qui tombent en premier. Les quatr
 | UE      | Matière                             | Coef | Cartes | Trous | Fiche |
 |---|---|---|---|---|---|
 | **11A** | Introduction à l'économie           | 3    | 131    | 15    | [[Economie - Chapitre 1 Science economique]] |
-| **12A** | Introduction à la gestion           | 3    | 191    | 47    | [[Gestion - Introduction]] · [[Gestion - Chapitre 2 Fonctions de l'entreprise UE 12A]] · [[Gestion - Partie 2 Strategie et environnement UE 12A]] · [[Gestion - Partie 2 Segmentation et croissance UE 12A]] |
+| **12A** | Introduction à la gestion           | 3    | 191    | 47    | [[Gestion - Introduction]] · [[Gestion - Chapitre 2 Fonctions de l'entreprise UE 12A]] · [[Gestion - Partie 2 Strategie et environnement UE 12A]] · [[Gestion - Partie 2 Segmentation et croissance UE 12A]] · [[Gestion - Partie 2 Strategies business UE 12A]] · [[Gestion - Partie 3 Business model UE 12A]] |
 | **13A** | Problèmes économiques contemporains | —    | 71     | 23    | [[Problemes economiques - Chapitre 1 Analyse economique UE 13A]] · [[Problemes economiques - Chapitre 2 Marche du travail UE 13A]] |
 | **18C** | Méthodologie du travail universitaire | —  | 48     | 10    | [[Methodologie - Travail universitaire UE 18C]] |
 
