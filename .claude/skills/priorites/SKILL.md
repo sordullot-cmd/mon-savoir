@@ -174,6 +174,11 @@ git commit -m "priorites: <matière> — ce qui tombe, ce qui se laisse"
 git push
 ```
 
+Sur le site (`/cours`), la carte du cours et chacun de ses chapitres
+affichent alors un bouton **« Priorités + révision IA (PDF) »** : il cherche
+`_priorites/UE <ue> - *.pdf`, d'où le préfixe `UE <ue> - ` obligatoire dans le
+nom. Pour le publier tout de suite : `bash .claude/skills/eco/site.sh`.
+
 À refaire quand une annale arrive, quand un chapitre est fini en cours, ou à
 une semaine de l'examen pour recaler « L'ordre de travail » sur les jours qui
 restent.
