@@ -443,7 +443,7 @@ L'impérialisme économique, les deux explications ? ; L'application des princip
 1. **Se tester, pas relire** — le bloc [[#✅ Contrôle]] ci-dessous, à voix haute, avant d'ouvrir la réponse.
 2. **Jusqu'à 3 rappels corrects** — une question n'est acquise qu'après trois réponses justes, à des jours d'écart.
 3. **Puis des réapprentissages espacés** — intervalle ≈ **10 à 20 %** du délai avant l'épreuve : à six semaines, tous les 4 à 8 jours.
-4. **Ce chapitre est un chapitre de méthode et de vocabulaire**, pas de calcul : démarche hypothético-déductive, modèle, TCEPA, expérimentation, PIB. Les 38 cartes du bloc 🃏 couvrent presque tout ce qui peut tomber en QCM — c'est 30 % de la note.
+4. **Ce chapitre est un chapitre de méthode et de vocabulaire**, pas de calcul : démarche hypothético-déductive, modèle, TCEPA, expérimentation, PIB. Les **12 cartes** du bloc 🃏 sont les définitions et questions les plus importantes (le paquet en comptait 38 avant le 9 octobre) ; le reste — les exemples, les auteurs, les détails du PIB — se révise par le bloc `Contrôle`, à la forme du QCM qui vaut 30 % de la note.
 5. **Refais les six schémas de mémoire, sur feuille blanche.** Une question de cours courte peut demander la chaîne de la démarche scientifique ou celle du PIB.
 6. **Entrelace** avec la fiche d'introduction à l'économie (UE 11A) : les deux UE tombent en période 1 et se recouvrent sur la rareté, les choix et les modèles. L'examen ne dira pas de quel cours vient la question.
 7. **Applique le conseil du prof** : transforme chaque titre de section en question, et explique le vocabulaire à quelqu'un qui ne connaît rien.
