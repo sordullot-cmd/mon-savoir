@@ -144,14 +144,23 @@ les jours qui restent avant l'examen
 La règle d'écriture est celle des fiches : **une idée = une ligne**, gras sur
 le mot-clé, pas de phrase d'enchaînement, le tutoiement de Sacha.
 
+## L'annexe « Réviser avec une IA »
+
+Sacha envoie le PDF à une IA pour réviser avec elle. Après « Ce qui reste
+incertain », chaque page reçoit donc une annexe, après un saut de page : les
+instructions pour l'IA (sa source, sa méthode, le format de l'épreuve, les
+commandes), une banque de questions avec corrigés pour chaque notion 🔴 et 🟠,
+les schémas décrits en mots, les pièges et une grille de suivi. Le gabarit et
+ses règles sont dans **`references/annexe-ia.md`** : à lire avant de l'écrire.
+
 ## Sortir le PDF
 
 ```
 node .claude/skills/fiche-pdf/pdf.mjs "eco gestion/_priorites/<nom>.md"
 ```
 
-Pas de limite de pages, mais une page de priorités qui dépasse **quatre
-pages** n'a pas assez trié. Regarder la vignette (voir `/fiche-pdf`) avant de
+Pas de limite de pages, mais une carte des priorités qui dépasse **quatre
+pages** (annexe IA non comprise) n'a pas assez trié. Regarder la vignette (voir `/fiche-pdf`) avant de
 livrer.
 
 ## Après
