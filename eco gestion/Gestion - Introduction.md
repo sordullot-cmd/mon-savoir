@@ -610,7 +610,7 @@ Une usine automobile et un coiffeur : deux différences de gestion ? ; La voitur
 
 *Méthode de révision, pas du cours. Les études qui la fondent sont dans [[Methode - Comment reviser]].*
 
-1. **Se tester, pas relire** — le bloc [[#✅ Contrôle]] ci-dessous, à voix haute, avant d'ouvrir la réponse. À une semaine : 61 % de rétention en se testant, 40 % en relisant.
+1. **Se tester, pas relire** — le bloc [[#✅ Contrôle]] ci-dessous, à voix haute, avant d'ouvrir la réponse. À une semaine : 61 % de rétention en se testant, 40 % en relisant. Le QCM de cette UE a **le plus souvent une seule bonne réponse, parfois plusieurs — et alors c'est tout ou rien** : pour chaque proposition, sache dire **pourquoi elle est fausse**, pas seulement laquelle est juste.
 2. **Jusqu'à 3 rappels corrects** — une question n'est acquise qu'après **trois** réponses justes, pas une.
 3. **Puis 3 réapprentissages espacés** — intervalle ≈ **10 à 20 % du délai** avant l'épreuve : à six semaines, tous les 4 à 8 jours. Rétention à 1 mois : 68 % contre ~11 % sans.
 4. **Les 15 cartes du bloc 🃏 partent dans Anki dès la première session**, et se passent toutes à chaque séance — l'épreuve est faite de **définitions** (voir l'encadré en tête de fiche), et c'est Anki qui tient l'espacement à ta place.
@@ -626,11 +626,11 @@ QCM de l'épreuve : **le plus souvent une seule bonne réponse**, parfois plusie
 
 > [!question]- La gestion, c'est :
 > a) la direction d'une entreprise par ses actionnaires
-> b) l'action ou la manière de gérer, d'administrer, d'organiser quelque chose
+> b) l'action ou la manière de gérer, d'administrer, d'organiser quelque chose, en mobilisant des ressources
 > c) l'art de parvenir à son objectif malgré la volonté de l'autre
-> d) en mobilisant des ressources
+> d) l'action d'administrer les seules ressources financières d'une entreprise
 >
-> **b et d** — les deux moitiés de la définition, et les trois verbes : organiser · administrer · mobiliser des ressources. c) est la définition de la **stratégie**, pas de la gestion. → [[#1. Gérer, c'est mobiliser des ressources]]
+> **b)** — la définition entière, et les trois verbes : organiser · administrer · mobiliser des ressources. c) est la définition de la **stratégie**, pas de la gestion ; d) réduit la gestion à la finance et à l'entreprise, alors qu'elle mobilise toutes les ressources, dans toute organisation. → [[#1. Gérer, c'est mobiliser des ressources]]
 
 > [!question]- La gestion concerne :
 > a) toute forme d'organisation : administration, association, ONG, PME, grand groupe

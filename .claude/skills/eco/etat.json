@@ -23,17 +23,17 @@
   "eco gestion/_brut/camarade - Gestion chapitre 1 introduction (B).md": {
    "fiche": "eco gestion/Gestion - Introduction.md",
    "hash": "b7d337cbf5c5",
-   "integre": "2026-10-09 15:17"
+   "integre": "2026-10-11 17:17"
   },
   "eco gestion/_brut/camarade - Gestion chapitre 1 introduction (C).md": {
    "fiche": "eco gestion/Gestion - Introduction.md",
    "hash": "5b4893cd34e0",
-   "integre": "2026-10-09 15:17"
+   "integre": "2026-10-11 17:17"
   },
   "eco gestion/_brut/camarade - Gestion chapitre 1 introduction.md": {
    "fiche": "eco gestion/Gestion - Introduction.md",
    "hash": "2ea5809e3cfb",
-   "integre": "2026-10-09 15:17"
+   "integre": "2026-10-11 17:17"
   },
   "eco gestion/_brut/camarade - Gestion chapitre 2 fonctions de l'entreprise (B).md": {
    "fiche": "eco gestion/Gestion - Chapitre 2 Fonctions de l'entreprise UE 12A.md",
@@ -103,7 +103,7 @@
   "eco gestion/_brut/gestion.md": {
    "fiche": "eco gestion/Gestion - Introduction.md",
    "hash": "191100950174",
-   "integre": "2026-10-09 15:17"
+   "integre": "2026-10-11 17:17"
   },
   "eco gestion/_brut/introduction a l'economie.md": {
    "fiche": "eco gestion/Economie - Chapitre 1 Science economique.md",
@@ -176,10 +176,10 @@
    "statut": "à faire"
   },
   "eco gestion/Gestion - Introduction.md": {
-   "fait": "suit la réduction à 15 cartes : bloc de révision au bon compte, cartes de complément 17 → 4 dans le récapitulatif",
-   "hash": "88985ddefa73",
-   "mots": 14002,
-   "passage": "2026-10-09 15:17",
+   "fait": "Après la réécriture des QCM (une seule bonne réponse par défaut) : 48 questions relues contre le corps, réponses cohérentes ; la question « La gestion, c'est » ne coupe plus la définition en deux propositions ; le bloc de révision dit le nouveau format",
+   "hash": "1b8c63b4616e",
+   "mots": 14450,
+   "passage": "2026-10-11 17:17",
    "source": "_brut/gestion.md",
    "sources": [
     "_brut/gestion.md",
