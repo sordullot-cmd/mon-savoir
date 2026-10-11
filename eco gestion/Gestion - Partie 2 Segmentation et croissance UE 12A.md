@@ -501,6 +501,11 @@ Définis la croissance interne ; Mobiliser les ressources de l'entreprise pour a
 - **12 cartes** (30 avant le tri du 9 octobre), toutes à chaque séance : les
   §§ 1 à 4 (niveaux, segmentation, BCG, SWOT) puis les §§ 5 et 6
   (diversification, croissance).
+- **Le [[#✅ Contrôle]] à voix haute, avant d'ouvrir la réponse.** Le QCM de
+  cette UE a **le plus souvent une seule bonne réponse, parfois plusieurs — et
+  alors c'est tout ou rien** : pour chaque proposition, sache dire **pourquoi
+  elle est fausse** (business ou corporate ? interne ou externe ? spécialisation
+  ou diversification ?), pas seulement laquelle est juste.
 - **Trois figures se refont de mémoire** : la matrice BCG avec le sens de ses
   axes, les trois types de diversification, la courbe de vie.
 - **L'annale 2024 tire de cette fiche la moitié de son QCM et une question de
@@ -629,7 +634,7 @@ QCM de l'épreuve : **le plus souvent une seule bonne réponse**, parfois plusie
 > c) d'une opportunité
 > d) aucune des réponses ci-dessus
 >
-> **c** — question de l'annale 2024 : un fait **externe** et **favorable**. → [[#4.2 La matrice SWOT]]
+> **c)** — question de l'annale 2024 : un fait **externe** et **favorable**. → [[#4.2 La matrice SWOT]]
 
 > [!question]- Dans le SWOT de Lancôme, relèvent du diagnostic interne :
 > a) la forte notoriété
@@ -663,7 +668,7 @@ QCM de l'épreuve : **le plus souvent une seule bonne réponse**, parfois plusie
 > c) d'une diversification non liée (logique financière)
 > d) aucune des réponses ci-dessus
 >
-> **c** — question de l'annale 2024 : ces activités ne se suivent pas dans une filière et n'ont pas de lien entre elles. → [[#5.3 Trois types de diversification]]
+> **c)** — question de l'annale 2024 : ces activités ne se suivent pas dans une filière et n'ont pas de lien entre elles. → [[#5.3 Trois types de diversification]]
 
 > [!question]- Michelin qui investit dans des plantations de caoutchouc :
 > a) se diversifie verticalement
@@ -681,7 +686,7 @@ QCM de l'épreuve : **le plus souvent une seule bonne réponse**, parfois plusie
 > c) croissance conjointe
 > d) aucune des réponses ci-dessus
 >
-> **a** — question de l'annale 2024 : ils se développent seuls, par leurs ressources propres, comme Auchan dans le cours. → [[#6.1 La croissance interne]]
+> **a)** — question de l'annale 2024 : ils se développent seuls, par leurs ressources propres, comme Auchan dans le cours. → [[#6.1 La croissance interne]]
 
 > [!question]- La croissance interne :
 > a) est plus rapide que la croissance externe

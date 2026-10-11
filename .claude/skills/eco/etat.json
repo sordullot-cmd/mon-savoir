@@ -48,12 +48,12 @@
   "eco gestion/_brut/camarade - Gestion partie 2 segmentation et croissance (B).md": {
    "fiche": "eco gestion/Gestion - Partie 2 Segmentation et croissance UE 12A.md",
    "hash": "352e74a9b1ca",
-   "integre": "2026-10-09 16:20"
+   "integre": "2026-10-11 18:17"
   },
   "eco gestion/_brut/camarade - Gestion partie 2 segmentation et croissance.md": {
    "fiche": "eco gestion/Gestion - Partie 2 Segmentation et croissance UE 12A.md",
    "hash": "f55c1397811f",
-   "integre": "2026-10-09 16:20"
+   "integre": "2026-10-11 18:17"
   },
   "eco gestion/_brut/camarade - Gestion partie 2 strategie (B).md": {
    "fiche": "eco gestion/Gestion - Partie 2 Strategie et environnement UE 12A.md",
@@ -190,10 +190,10 @@
    "statut": "à faire"
   },
   "eco gestion/Gestion - Partie 2 Segmentation et croissance UE 12A.md": {
-   "fait": "suit la réduction à 12 cartes : le bloc de révision annonçait encore 30 cartes en deux sessions",
-   "hash": "52d8e20d434f",
-   "mots": 6432,
-   "passage": "2026-10-09 16:20",
+   "fait": "bloc de révision aligné sur le QCM à une seule bonne réponse par défaut, corrigés d'annale harmonisés",
+   "hash": "bbb9e5b25ae2",
+   "mots": 6538,
+   "passage": "2026-10-11 18:17",
    "source": "_brut/camarade - Gestion partie 2 segmentation et croissance.md",
    "sources": [
     "_brut/camarade - Gestion partie 2 segmentation et croissance.md",
