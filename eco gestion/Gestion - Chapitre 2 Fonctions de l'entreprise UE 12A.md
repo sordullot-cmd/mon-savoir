@@ -683,8 +683,9 @@ Marché saturé : comment s'obtient le prix de revient objectif ? ; Prix de VENT
 - **15 cartes**, les définitions et les questions qui comptent : passe-les
   toutes à chaque session, elles couvrent les cinq fonctions. Le marketing pèse
   le plus lourd en vocabulaire, la finance en calcul.
-- **Le QCM de cette UE autorise plusieurs bonnes réponses et se note en tout ou
-  rien.** Réviser « à peu près » ne rapporte rien : pour chaque paire du bloc
+- **Le QCM de cette UE a le plus souvent une seule bonne réponse, parfois
+  plusieurs — et alors c'est tout ou rien.** Réviser « à peu près » ne rapporte
+  rien : pour chaque paire du bloc
   *À ne pas confondre*, sache dire **pourquoi l'autre est faux**.
 - **Entraîne-toi sur des mini-cas**, pas sur des définitions seules : c'est la
   forme de l'annale. Prends un produit que tu connais et qualifie-le — rupture

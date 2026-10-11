@@ -38,12 +38,12 @@
   "eco gestion/_brut/camarade - Gestion chapitre 2 fonctions de l'entreprise (B).md": {
    "fiche": "eco gestion/Gestion - Chapitre 2 Fonctions de l'entreprise UE 12A.md",
    "hash": "c638063076b0",
-   "integre": "2026-10-09 14:18"
+   "integre": "2026-10-11 16:17"
   },
   "eco gestion/_brut/camarade - Gestion chapitre 2 fonctions de l'entreprise.md": {
    "fiche": "eco gestion/Gestion - Chapitre 2 Fonctions de l'entreprise UE 12A.md",
    "hash": "b896baa1751f",
-   "integre": "2026-10-09 14:18"
+   "integre": "2026-10-11 16:17"
   },
   "eco gestion/_brut/camarade - Gestion partie 2 segmentation et croissance (B).md": {
    "fiche": "eco gestion/Gestion - Partie 2 Segmentation et croissance UE 12A.md",
@@ -156,10 +156,10 @@
    "statut": "à faire"
   },
   "eco gestion/Gestion - Chapitre 2 Fonctions de l'entreprise UE 12A.md": {
-   "fait": "Après la réduction à 15 cartes : le bloc de révision ne parle plus de 60 cartes ni de cinq sessions ; cartes contrôlées (deux ; par ligne, bloc text lu par le site)",
-   "hash": "3176fd059ca3",
-   "mots": 10489,
-   "passage": "2026-10-09 14:18",
+   "fait": "Après la réécriture des QCM (une seule bonne réponse par défaut) : 47 questions relues, réponses cohérentes, 10 à plusieurs lettres ; le bloc de révision suit le nouveau format",
+   "hash": "e0d4e5e3c7c2",
+   "mots": 10903,
+   "passage": "2026-10-11 16:17",
    "source": "_brut/camarade - Gestion chapitre 2 fonctions de l'entreprise.md",
    "sources": [
     "_brut/camarade - Gestion chapitre 2 fonctions de l'entreprise.md",
