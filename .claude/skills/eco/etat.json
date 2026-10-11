@@ -58,12 +58,12 @@
   "eco gestion/_brut/camarade - Gestion partie 2 strategie (B).md": {
    "fiche": "eco gestion/Gestion - Partie 2 Strategie et environnement UE 12A.md",
    "hash": "594d091b146c",
-   "integre": "2026-10-09 17:17"
+   "integre": "2026-10-11 19:17"
   },
   "eco gestion/_brut/camarade - Gestion partie 2 strategie.md": {
    "fiche": "eco gestion/Gestion - Partie 2 Strategie et environnement UE 12A.md",
    "hash": "6d1972a46e82",
-   "integre": "2026-10-09 17:17"
+   "integre": "2026-10-11 19:17"
   },
   "eco gestion/_brut/camarade - MTU seance 1 (A).md": {
    "fiche": "eco gestion/Methodologie - Travail universitaire UE 18C.md",
@@ -202,10 +202,10 @@
    "statut": "à faire"
   },
   "eco gestion/Gestion - Partie 2 Strategie et environnement UE 12A.md": {
-   "fait": "bloc de révision aligné sur la réduction à 12 cartes (32 avant le tri du 9 octobre)",
-   "hash": "1cd3382c9ded",
-   "mots": 7161,
-   "passage": "2026-10-09 17:17",
+   "fait": "repasse après la reprise des QCM : déjà au propre, la méthode PESTEL (point 7) suit la règle une seule bonne réponse par défaut",
+   "hash": "5832dad93786",
+   "mots": 7396,
+   "passage": "2026-10-11 19:17",
    "source": "_brut/camarade - Gestion partie 2 strategie.md",
    "sources": [
     "_brut/camarade - Gestion partie 2 strategie.md",

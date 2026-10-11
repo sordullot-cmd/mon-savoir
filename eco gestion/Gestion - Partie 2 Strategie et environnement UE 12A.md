@@ -429,9 +429,10 @@ quel pan il touche.
    **socioculturel**.
 6. **Une découverte, un investissement technique, la R&D publique** →
    **technologique**.
-7. **Plusieurs réponses peuvent être justes** et le QCM est en tout ou rien :
-   une loi sur les déchets est **légale** par sa nature et **écologique** par son
-   objet — vérifie les deux avant de cocher.
+7. **Un fait peut toucher deux pans** — c'est l'un des rares cas où le QCM
+   attend plusieurs réponses, et il est alors en tout ou rien : une loi sur les
+   déchets est **légale** par sa nature et **écologique** par son objet —
+   vérifie les deux avant de cocher.
 8. **Termine par la question du cours** : cette variation est-elle une
    **menace** ou une **opportunité** pour l'entreprise ?
 
