@@ -247,24 +247,23 @@ Apple fabrique elle-même un nombre croissant de composants : quelle dimension d
 
 ## ✅ Contrôle
 
-QCM au format de l'épreuve : **plusieurs réponses peuvent être bonnes**, 0,5 point
-par question, **tout ou rien**.
+QCM de l'épreuve : **le plus souvent une seule bonne réponse**, parfois plusieurs — et c'est alors **tout ou rien**. 0,5 point par question.
 
 > [!question]- La performance globale d'une organisation, d'après la prof :
 > a) se réduit à la performance financière
-> b) résulte d'un équilibre entre plusieurs performances
-> c) inclut une performance sociale et environnementale
-> d) ne concerne que les entreprises privées
+> b) ne concerne que les entreprises privées
+> c) résulte d'un équilibre entre plusieurs performances : commerciale, financière, sociale, organisationnelle, environnementale
+> d) se limite aux performances commerciale et financière
 >
-> **b et c** — et elle concerne aussi les associations et les administrations publiques. → [[#1.1 La valeur et la performance]]
+> **c)** — a) et d) la réduisent à une ou deux de ses composantes ; b) oublie les associations et les administrations publiques. → [[#1.1 La valeur et la performance]]
 
-> [!question]- Le business model :
-> a) décrit comment l'entreprise va gagner de l'argent
-> b) est aussi appelé modèle économique ou modèle d'affaires
-> c) se limite à fixer le prix de vente
-> d) intéresse le banquier à qui l'on demande un prêt
+> [!question]- Le business model (modèle économique, modèle d'affaires) :
+> a) décrit précisément comment l'entreprise va gagner de l'argent
+> b) se limite à fixer le prix de vente
+> c) est l'outil de Porter du diagnostic interne
+> d) est la stratégie définie pour chaque DAS
 >
-> **a, b et d** — le prix n'est qu'un élément de l'équation de profit. → [[#2.1 La définition]]
+> **a)** — le prix n'est qu'un élément de l'équation de profit (b) ; c) est la chaîne de valeur, d) la business strategy. → [[#2.1 La définition]]
 
 > [!question]- Les trois dimensions du business model sont :
 > a) la proposition de valeur
@@ -292,19 +291,19 @@ par question, **tout ou rien**.
 
 > [!question]- Un business model innovant :
 > a) se copie aussi facilement qu'un produit
-> b) crée une barrière difficile à imiter
-> c) peut permettre de sortir d'un océan rouge
-> d) n'est possible que dans les services
+> b) n'est possible que dans les services
+> c) crée une barrière difficile à imiter
+> d) relève de l'innovation produit
 >
-> **b et c** — Apple et Netflix l'illustrent. → [[#3. Innover par le business model]]
+> **c)** — c'est le produit qui se copie facilement (a, d), pas la façon de gagner de l'argent ; Apple et Netflix l'illustrent, y compris pour sortir d'un océan rouge. → [[#3. Innover par le business model]]
 
 > [!question]- Apple a revu son business model parce que :
-> a) elle s'enfermait dans un océan rouge de surenchère technologique
-> b) son marché commençait à être saturé
-> c) elle n'avait plus de concurrents
-> d) elle faisait face à de gros concurrents, notamment chinois
+> a) elle n'avait plus de concurrents
+> b) elle voulait sous-traiter davantage sa production
+> c) elle voulait revenir aux seuls produits, sans services
+> d) elle s'enfermait dans un océan rouge de surenchère technologique, face à de gros concurrents, sur un marché saturé
 >
-> **a, b et d** — c'est l'inverse de c) : trop de concurrence. → [[#3.1 Le cas Apple]]
+> **d)** — c'est l'inverse de a) : trop de concurrence ; b) et c) inversent ce qu'elle a fait (réinternaliser, passer aux produits et services). → [[#3.1 Le cas Apple]]
 
 > [!question]- Apple qui réinternalise la fabrication de composants et vend en direct dans ses Apple Store modifie :
 > a) sa proposition de valeur

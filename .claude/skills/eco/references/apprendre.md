@@ -22,7 +22,7 @@ jusqu'au clic.
 
 **Tout le bloc est en QCM** (règle posée le 22 septembre 2026), et le QCM prend
 **la forme de l'épreuve de l'UE** : 11A quatre formulations très proches dont une
-seule bonne, 12A plusieurs bonnes réponses en tout ou rien, 13A et le reste trois
+seule bonne, 12A quatre propositions, une seule bonne le plus souvent et plusieurs seulement quand la question l'appelle (une question sur quatre au plus, tout ou rien), 13A et le reste trois
 propositions. Le tableau des formes est dans `references/forme-fiche.md`, bloc 9.
 
 Deux raisons de coller à l'épreuve : on s'entraîne dans la forme où l'on sera

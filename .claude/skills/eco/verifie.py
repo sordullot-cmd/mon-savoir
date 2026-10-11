@@ -70,6 +70,28 @@ CALLOUT_Q = re.compile(r"^> \[!question\]-\s*(.*)$", re.M)
 PROPOSITION = re.compile(r"^>\s*[a-f]\)\s+\S", re.M)
 
 
+def part_reponses_multiples(corps):
+    """(questions à plusieurs bonnes réponses, questions) du bloc Contrôle.
+
+    Depuis le 11 octobre 2026 : une seule bonne réponse par défaut, plusieurs
+    seulement quand la question l'appelle — une question sur quatre au plus.
+    """
+    titres = list(BLOC_CONTROLE.finditer(corps))
+    if not titres:
+        return 0, 0
+    bloc = corps[titres[-1].end():]
+    suite = re.search(r"^##\s+\S", bloc, re.M)
+    if suite:
+        bloc = bloc[:suite.start()]
+    # Seules les lignes en gras faites de lettres sont des réponses : « **c)** »,
+    # « **a et c** ». Les encadrés en gras du bloc ne comptent pas.
+    lettres = re.compile(r"^[a-f]\)?(\s*(,|et)\s*[a-f]\)?)*$")
+    reponses = [r.strip() for r in re.findall(r"^>\s*\*\*([^*]+)\*\*", bloc, re.M)
+                if lettres.match(r.strip())]
+    multiples = sum(1 for r in reponses if len(re.findall(r"\b[a-f]\b", r)) > 1)
+    return multiples, len(reponses)
+
+
 def questions_sans_qcm(corps):
     """Les questions du bloc Contrôle qui n'offrent pas de propositions.
 
@@ -446,6 +468,12 @@ def main():
                            "propositions a) b) c) : le bloc est en QCM depuis le "
                            "22 septembre 2026 — %s"
                            % (len(ouvertes), " · ".join(ouvertes[:3])))
+        multiples, total = part_reponses_multiples(c_ap)
+        if total >= 6 and multiples * 3 > total:
+            alertes.append("%d question(s) sur %d du bloc « Contrôle » ont "
+                           "plusieurs bonnes réponses : une seule par défaut, "
+                           "plusieurs seulement quand la question l'appelle "
+                           "(une sur quatre au plus)" % (multiples, total))
 
     # syntaxe
     if c_ap.count("```") % 2:

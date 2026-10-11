@@ -497,19 +497,17 @@ Dans la chaîne de valeur de Porter, l'infrastructure de la firme est une activi
 
 ## ✅ Contrôle
 
-QCM au format de l'épreuve : **plusieurs réponses peuvent être bonnes**, 0,5 point
-par question, **tout ou rien**. Coche mentalement toutes les lettres avant
-d'ouvrir — une seule peut suffire, ou les quatre.
+QCM de l'épreuve : **le plus souvent une seule bonne réponse**, parfois plusieurs — et c'est alors **tout ou rien**. 0,5 point par question.
 
 **La notion de stratégie**
 
 > [!question]- Le mot « stratégie » :
 > a) vient de deux racines grecques signifiant « armée » et « conduire »
 > b) vient d'une racine latine signifiant « décider »
-> c) était à la base réservé au domaine militaire
+> c) s'applique aux entreprises dès l'Antiquité, avec Sun Tzu
 > d) s'applique aux entreprises depuis le début du XIXe siècle
 >
-> **a et c** — « stratos » (armée) et « agô » (conduire) ; le terme n'est appliqué aux entreprises que dans les années 50-60, pas au XIXe siècle. → [[#1.1 L'origine du mot]]
+> **a)** — « stratos » (armée) et « agô » (conduire). Sun Tzu écrit sur la guerre : le terme, d'abord réservé à l'armée, n'est appliqué aux entreprises que dans les années 50-60. → [[#1.1 L'origine du mot]]
 
 > [!question]- Parmi les trois piliers de la stratégie, on compte :
 > a) l'affrontement concurrentiel
@@ -521,53 +519,53 @@ d'ouvrir — une seule peut suffire, ou les quatre.
 
 > [!question]- Aujourd'hui, la création de valeur visée par la stratégie profite :
 > a) aux seuls actionnaires
-> b) aux salariés
-> c) aux clients
-> d) à l'État
+> b) aux seuls clients, première des parties prenantes
+> c) à l'ensemble des parties prenantes : salariés, clients, actionnaires, État
+> d) aux seuls salariés
 >
-> **b, c et d** — elle vise **l'ensemble des parties prenantes**, actionnaires compris mais pas seulement eux. → [[#1.2 Les trois piliers de la stratégie]]
+> **c)** — elle vise **l'ensemble des parties prenantes**. Le client est l'une des plus importantes, mais pas la seule ; les actionnaires en sont, mais pas seulement eux. → [[#1.2 Les trois piliers de la stratégie]]
 
 > [!question]- Selon la définition du cours, la stratégie est un ensemble de décisions qui orientent les activités et structures de l'organisation :
-> a) de façon déterminante
-> b) pour le court terme
-> c) pour le long terme
-> d) de façon réversible et proche du terrain
+> a) de façon réversible et proche du terrain
+> b) de façon déterminante et pour le court terme
+> c) de façon réversible et pour le long terme
+> d) de façon déterminante et pour le long terme
 >
-> **a et c** — « de façon déterminante et pour le long terme ». Fréquentes, réversibles et proches du terrain, ce sont les décisions **opérationnelles**. → [[#1.3 La définition — à savoir au mot près]]
+> **d)** — « de façon déterminante et pour le long terme ». Réversibles et proches du terrain, ce sont les décisions **opérationnelles**. → [[#1.3 La définition — à savoir au mot près]]
 
-> [!question]- Les objectifs que la définition assigne à la stratégie sont :
+> [!question]- Lequel n'est PAS un objectif que la définition assigne à la stratégie ?
 > a) la réponse aux attentes des parties prenantes
 > b) la maximisation du chiffre d'affaires
 > c) l'obtention d'un avantage concurrentiel
 > d) la création de valeur pour les clients
 >
-> **a, c et d** — le chiffre d'affaires n'apparaît pas dans la définition : c'est la **valeur pour les clients** qui y figure. → [[#1.3 La définition — à savoir au mot près]]
+> **b)** — le chiffre d'affaires n'apparaît pas dans la définition : c'est la **valeur pour les clients** qui y figure. → [[#1.3 La définition — à savoir au mot près]]
 
 > [!question]- Dans la seconde définition de la slide :
-> a) la mission désigne les finalités de l'entreprise
-> b) la vision désigne l'orientation à long terme de l'entreprise
-> c) l'avantage concurrentiel recherché doit être soutenable
+> a) la vision désigne l'orientation à long terme de l'entreprise
+> b) la mission désigne l'orientation à long terme de l'entreprise
+> c) la vision désigne les finalités de l'entreprise
 > d) les parties prenantes sont aussi appelées *shareholders*
 >
-> **a, b et c** — le mot anglais de la slide est *stakeholders* (toutes les parties prenantes) ; les *shareholders* ne sont que les actionnaires. → [[#1.3 La définition — à savoir au mot près]]
+> **a)** — mission = **finalités**, vision = **orientation à long terme** : b) et c) inversent le couple. Le mot anglais de la slide est *stakeholders* ; les *shareholders* ne sont que les actionnaires. → [[#1.3 La définition — à savoir au mot près]]
 
 > [!question]- Qui fait la stratégie d'entreprise ?
-> a) le dirigeant, qui définit la mission
-> b) le dirigeant, qui formule la stratégie et la met en œuvre
-> c) les cadres intermédiaires, chargés du niveau opérationnel
-> d) les clients, première des parties prenantes
+> a) les cadres intermédiaires, chargés du niveau opérationnel
+> b) les clients, première des parties prenantes
+> c) le dirigeant, qui définit la mission, formule la stratégie et la met en œuvre
+> d) les salariés, que le dirigeant mobilise autour des objectifs
 >
-> **a et b** — c'est le dirigeant. Les clients sont une partie prenante très importante, mais ils ne décident pas la stratégie. → [[#1.4 Qui fait la stratégie d'entreprise ?]]
+> **c)** — c'est le dirigeant, qui a le pouvoir décisionnel. Les salariés sont mobilisés par lui ; les clients sont une partie prenante très importante, mais ils ne décident pas la stratégie. → [[#1.4 Qui fait la stratégie d'entreprise ?]]
 
 **La démarche stratégique**
 
-> [!question]- La première étape de la démarche stratégique :
-> a) est l'analyse du macro-environnement
-> b) est un diagnostic externe
-> c) sert à évaluer les facteurs clefs de succès
-> d) sert à évaluer l'avantage concurrentiel
+> [!question]- La première étape de la démarche stratégique, l'analyse du macro-environnement, sert à évaluer :
+> a) l'avantage concurrentiel
+> b) les compétences distinctives
+> c) les allocations de ressources
+> d) les facteurs clefs de succès
 >
-> **a, b et c** — l'avantage concurrentiel s'évalue à la **2e étape**, au diagnostic interne. → [[#2. La démarche stratégique]]
+> **d)** — c'est le diagnostic externe. L'avantage concurrentiel s'évalue à la **2e étape** (diagnostic interne) ; les compétences distinctives et l'allocation des ressources relèvent de la **3e**. → [[#2. La démarche stratégique]]
 
 > [!question]- Le choix d'une stratégie, à la 3e étape, est fondé sur :
 > a) les facteurs clefs de succès
@@ -578,30 +576,30 @@ d'ouvrir — une seule peut suffire, ou les quatre.
 > **b** — les FCS s'évaluent à la 1re étape, les budgets s'établissent à la 4e. → [[#2. La démarche stratégique]]
 
 > [!question]- Les facteurs clefs de succès :
-> a) sont les compétences que tout le monde doit posséder sur le marché
-> b) sont spécifiques à une seule entreprise
-> c) s'évaluent lors du diagnostic externe
+> a) sont les compétences que tout le monde doit posséder pour être présent sur le marché
+> b) sont spécifiques à une seule entreprise, et défendables
+> c) s'évaluent lors du diagnostic interne
 > d) débouchent sur l'allocation des ressources
 >
-> **a et c** — b) décrit l'**avantage concurrentiel** ; d) est ce qui découle de la 3e étape. → [[#2. La démarche stratégique]]
+> **a)** — b) décrit l'**avantage concurrentiel** ; les FCS s'évaluent au diagnostic **externe**, et l'allocation des ressources découle de la 3e étape. → [[#2. La démarche stratégique]]
 
 > [!question]- Le déploiement opérationnel :
-> a) est la dernière étape de la démarche stratégique
-> b) passe par l'établissement des budgets
-> c) précède le diagnostic interne
-> d) consiste à évaluer ses forces et ses faiblesses
+> a) précède le diagnostic interne
+> b) consiste à évaluer ses forces et ses faiblesses
+> c) est la dernière étape de la démarche, et passe par l'établissement des budgets
+> d) débouche sur l'allocation des ressources
 >
-> **a et b** — c'est la 4e étape. Évaluer ses forces et ses faiblesses sert à dégager les compétences distinctives, avant le choix de la stratégie. → [[#2. La démarche stratégique]]
+> **c)** — c'est la 4e étape. Évaluer ses forces et ses faiblesses sert à dégager les compétences distinctives, et l'allocation des ressources découle du choix de la stratégie, à la 3e. → [[#2. La démarche stratégique]]
 
 **L'environnement externe**
 
 > [!question]- Le macro-environnement :
-> a) regroupe les caractéristiques générales de la société
-> b) peut influencer toutes les entreprises
-> c) désigne tout ce qui est en contact direct avec l'entreprise
-> d) comprend d'abord les concurrents de l'entreprise
+> a) désigne tout ce qui est en contact direct avec l'entreprise
+> b) regroupe les caractéristiques générales de la société, qui peuvent influencer toutes les entreprises
+> c) comprend d'abord les concurrents de l'entreprise
+> d) correspond à l'environnement proche de l'entreprise
 >
-> **a et b** — c) et d) définissent le **micro-environnement**. → [[#3.1 Deux cercles autour de l'entreprise]]
+> **b)** — a), c) et d) décrivent le **micro-environnement**. → [[#3.1 Deux cercles autour de l'entreprise]]
 
 > [!question]- Font partie du micro-environnement de l'entreprise :
 > a) ses fournisseurs
@@ -612,20 +610,20 @@ d'ouvrir — une seule peut suffire, ou les quatre.
 > **a, b et d** — l'inflation est un facteur **économique** du macro-environnement : elle touche toutes les entreprises. → [[#3.1 Deux cercles autour de l'entreprise]]
 
 > [!question]- Dans le schéma de l'analyse de l'environnement :
-> a) l'entreprise est au centre
-> b) le macro-environnement entoure directement l'entreprise
-> c) le micro-environnement est emboîté entre l'entreprise et le macro-environnement
-> d) micro et macro-environnement sont deux cercles séparés
+> a) le macro-environnement entoure directement l'entreprise
+> b) micro et macro-environnement sont deux cercles séparés
+> c) le micro-environnement est le cercle extérieur
+> d) l'entreprise est au centre, entourée du micro-environnement, lui-même entouré du macro-environnement
 >
-> **a et c** — trois cercles emboîtés : entreprise, puis micro, puis macro. → [[#3.1 Deux cercles autour de l'entreprise]]
+> **d)** — trois cercles emboîtés : entreprise, puis micro, puis macro. Le micro touche l'entreprise, le macro est à l'extérieur. → [[#3.1 Deux cercles autour de l'entreprise]]
 
-> [!question]- Relèvent du pan économique du PESTEL :
-> a) l'inflation
+> [!question]- Relève du pan économique du PESTEL :
+> a) la mondialisation
 > b) la politique fiscale
-> c) la mondialisation
-> d) les taux d'intérêt
+> c) la distribution des revenus
+> d) les dépenses publiques de R&D
 >
-> **a, c et d** — la politique fiscale relève du pan **politique**, avec la stabilité gouvernementale. → [[#3.2 L'analyse du macro-environnement — le PESTEL]]
+> **a)** — la politique fiscale relève du pan **politique**, la distribution des revenus du **socioculturel**, la R&D publique du **technologique**. → [[#3.2 L'analyse du macro-environnement — le PESTEL]]
 
 > [!question]- Relèvent du pan socioculturel :
 > a) la démographie
@@ -643,13 +641,13 @@ d'ouvrir — une seule peut suffire, ou les quatre.
 >
 > **a et c** — la slide la range dans le pan **légal** ; comme tout le PESTEL, c'est du macro-environnement. → [[#3.2 L'analyse du macro-environnement — le PESTEL]]
 
-> [!question]- Pour l'entreprise, une période de croissance économique est :
+> [!question]- Selon l'exemple du cours, une période de croissance économique est pour l'entreprise :
 > a) une menace
 > b) une opportunité
 > c) un facteur du micro-environnement
-> d) un facteur du pan économique
+> d) un facteur du pan politique
 >
-> **b et d** — c'est l'exemple du cours : la croissance économique est une opportunité, et un facteur économique du macro-environnement. → [[#3.1 Deux cercles autour de l'entreprise]]
+> **b)** — c'est l'exemple du cours. La croissance est un facteur **économique** du **macro**-environnement, pas politique ni micro. → [[#3.1 Deux cercles autour de l'entreprise]]
 
 > [!question]- À qui doit-on le modèle des 5 (5 + 1) forces ?
 > a) Henry Mintzberg
@@ -659,13 +657,13 @@ d'ouvrir — une seule peut suffire, ou les quatre.
 >
 > **c** — question tombée telle quelle à l'annale 2024. Le BCG a donné son nom à une **matrice** (voir la suite de la partie 2). → [[#3.3 Le micro-environnement — le modèle des 5 forces de Porter]]
 
-> [!question]- Dans le modèle des 5 forces, on trouve :
+> [!question]- Lequel n'est PAS une des 5 forces de Porter ?
 > a) le pouvoir de négociation des fournisseurs
 > b) la menace des produits de substitution
-> c) l'évolution du PNB
-> d) la menace d'entrée de nouveaux concurrents
+> c) la menace d'entrée de nouveaux concurrents
+> d) l'évolution du PNB
 >
-> **a, b et d** — l'évolution du PNB est un facteur **économique** du PESTEL, donc du macro-environnement. → [[#3.3 Le micro-environnement — le modèle des 5 forces de Porter]]
+> **d)** — l'évolution du PNB est un facteur **économique** du PESTEL, donc du macro-environnement. → [[#3.3 Le micro-environnement — le modèle des 5 forces de Porter]]
 
 > [!question]- Pour Coca-Cola, Fuze Tea et Lipton représentent :
 > a) des concurrents directs
@@ -676,38 +674,38 @@ d'ouvrir — une seule peut suffire, ou les quatre.
 > **b et c** — c'est l'exemple de la slide : la force 5. Le concurrent direct de Coca-Cola, sur la slide, c'est Pepsi. → [[#3.3 Le micro-environnement — le modèle des 5 forces de Porter]]
 
 > [!question]- Dans l'analyse des 5 forces :
-> a) chaque force reçoit un poids de 1 à 5
-> b) une intensité faible représente une opportunité
-> c) une intensité forte représente un risque élevé
-> d) les pouvoirs publics n'ont aucune influence sur les forces
+> a) les pouvoirs publics forment la 5e force du modèle
+> b) une intensité forte représente une opportunité
+> c) une intensité faible représente une opportunité pour développer un nouvel axe stratégique
+> d) le poids 1 désigne la force la plus intense
 >
-> **a, b et c** — les pouvoirs publics influencent **les cinq forces** (ex. une mesure protectionniste) : c'est le « + 1 ». → [[#3.3 Le micro-environnement — le modèle des 5 forces de Porter]]
+> **c)** — une intensité forte est un **risque élevé**, et le poids 1 veut dire « très peu ». Les pouvoirs publics sont le « + 1 », à part : ils pèsent sur les cinq forces ; la 5e, ce sont les substituts. → [[#3.3 Le micro-environnement — le modèle des 5 forces de Porter]]
 
 **L'environnement interne**
 
 > [!question]- Le diagnostic interne s'appuie sur :
-> a) les ressources de l'entreprise
-> b) la chaîne de valeur
-> c) l'analyse PESTEL
-> d) le modèle des 5 forces
+> a) l'analyse PESTEL
+> b) le modèle des 5 forces
+> c) les facteurs clefs de succès
+> d) les ressources de l'entreprise et la chaîne de valeur
 >
-> **a et b** — le PESTEL et les 5 forces sont des outils du **diagnostic externe**. → [[#4.1 Ressources et compétences]]
+> **d)** — le PESTEL et les 5 forces sont des outils du **diagnostic externe**, qui débouche sur les FCS. → [[#4.1 Ressources et compétences]]
 
 > [!question]- Une compétence :
 > a) est ce dont une organisation dispose
-> b) est ce qu'une organisation sait faire
-> c) naît de la combinaison de différentes ressources
-> d) est dite « clef » quand l'entreprise fait mieux que les autres
+> b) est ce qu'une organisation sait faire, en combinant différentes ressources
+> c) est une brique : humaine, financière, matérielle ou immatérielle
+> d) est dite « clef » quand tous les concurrents doivent la posséder
 >
-> **b, c et d** — a) définit la **ressource**. → [[#4.1 Ressources et compétences]]
+> **b)** — a) et c) décrivent la **ressource**. La compétence clef, c'est faire **mieux que les autres** ; ce que tous doivent posséder, ce sont les FCS. → [[#4.1 Ressources et compétences]]
 
-> [!question]- Selon Porter, une entreprise crée de la valeur pour ses clients :
-> a) en pratiquant des prix inférieurs à ceux des concurrents
-> b) en fournissant des avantages uniques qui compensent un prix plus élevé
-> c) à condition que la valeur perçue par le client dépasse le coût supporté par la firme
-> d) uniquement en baissant ses coûts de production
+> [!question]- Selon Porter, pour créer de la valeur pour ses clients, une entreprise peut :
+> a) pratiquer des prix inférieurs, ou fournir des avantages uniques qui font plus que compenser un prix plus élevé
+> b) seulement pratiquer des prix inférieurs à ceux des concurrents
+> c) seulement fournir des avantages uniques, une meilleure qualité
+> d) fixer un prix tel que le coût de production plus la marge dépasse la valeur perçue par le client
 >
-> **a, b et c** — d) oublie la seconde voie, celle des avantages uniques. → [[#4.2 L'avantage concurrentiel]]
+> **a)** — il y a **deux façons**, pas une seule. Et la condition est l'inverse de d) : coût de production + marge = valeur perçue par le client. → [[#4.2 L'avantage concurrentiel]]
 
 > [!question]- La chaîne de la valeur de Porter :
 > a) identifie les activités principales et de soutien qui contribuent à la création de valeur
@@ -726,12 +724,12 @@ d'ouvrir — une seule peut suffire, ou les quatre.
 > **a, c et d** — la production est une activité **principale**. → [[#4.3 La chaîne de valeur (M. Porter)]]
 
 > [!question]- La culture d'entreprise :
-> a) est un ensemble de références partagées dans l'organisation
-> b) se construit tout au long de l'histoire de l'entreprise
-> c) a pour composantes notamment les valeurs, les mythes, les rites et les tabous
-> d) est fixée par le dirigeant le jour de la création de l'entreprise
+> a) est fixée par le dirigeant le jour de la création de l'entreprise
+> b) est un ensemble de références partagées, construites tout au long de l'histoire de l'entreprise en réponse aux problèmes rencontrés
+> c) a pour composantes les ressources et les compétences
+> d) se réduit à la culture nationale du pays de l'entreprise
 >
-> **a, b et c** — elle se construit **en réponse aux problèmes rencontrés**, au fil de l'histoire : d) est l'inverse. → [[#4.4 La culture d'entreprise]]
+> **b)** — elle se construit au fil de l'histoire, pas le jour de la création. Ses composantes sont la culture nationale, une sous-culture, les valeurs, symboles, mythes, rites et tabous : la culture nationale n'en est qu'une. → [[#4.4 La culture d'entreprise]]
 
 ---
 

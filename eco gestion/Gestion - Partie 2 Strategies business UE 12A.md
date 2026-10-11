@@ -451,19 +451,17 @@ L'océan bleu combine quelles deux stratégies ? ; La DIFFÉRENCIATION et les CO
 
 ## ✅ Contrôle
 
-QCM au format de l'épreuve : **plusieurs réponses peuvent être bonnes**, 0,5 point
-par question, **tout ou rien**. Coche mentalement toutes les lettres avant
-d'ouvrir.
+QCM de l'épreuve : **le plus souvent une seule bonne réponse**, parfois plusieurs — et c'est alors **tout ou rien**. 0,5 point par question.
 
 **Introduction**
 
 > [!question]- La business strategy :
 > a) est définie au niveau global par la DG
-> b) est définie pour chacune des activités (DAS) de l'organisation
-> c) vise un avantage concurrentiel durable
-> d) gère le portefeuille d'activités du groupe
+> b) gère le portefeuille d'activités du groupe
+> c) est définie pour chacune des activités (DAS) de l'organisation
+> d) organise les synergies entre les activités du groupe
 >
-> **b et c** — a) et d) décrivent la corporate strategy. → [[#Corporate strategy, business strategy — rappel]]
+> **c)** — elle se définit DAS par DAS ; a), b) et d) décrivent la corporate strategy. → [[#Corporate strategy, business strategy — rappel]]
 
 **La domination par les coûts**
 
@@ -476,20 +474,20 @@ d'ouvrir.
 > **a et c** — question de l'annale 2023. Une concurrence faible n'est pas un moyen mais, au mieux, une conséquence (les prix bas sont une barrière à l'entrée). → [[#1. La stratégie de domination par les coûts]]
 
 > [!question]- En domination par les coûts, l'offre est :
-> a) semblable à celle de la concurrence
-> b) épurée, avec une valeur perçue inférieure à la moyenne
-> c) unique, justifiant un prix premium
-> d) moins chère à qualité égale
+> a) épurée, avec une valeur perçue inférieure à la moyenne
+> b) unique, justifiant un prix premium
+> c) différente de celle de la concurrence, mais moins chère
+> d) semblable à celle de la concurrence, moins chère à qualité égale
 >
-> **a et d** — b) décrit le low cost, c) la différenciation. → [[#1. La stratégie de domination par les coûts]]
+> **d)** — l'offre reste semblable, seul le prix baisse ; a) décrit le low cost, b) la différenciation, et c) manque le point « subtil » : l'offre n'est pas différente. → [[#1. La stratégie de domination par les coûts]]
 
 > [!question]- L'effet d'expérience :
-> a) fait baisser le coût unitaire à chaque doublement de la production cumulée
-> b) a été conceptualisé par le Boston Consulting Group
-> c) fait baisser le coût unitaire d'un montant fixe en euros par unité produite
-> d) est souvent compris entre 20 et 30 %
+> a) fait baisser le coût unitaire d'un pourcentage constant (souvent 20 à 30 %) à chaque doublement de la production cumulée
+> b) fait baisser le coût unitaire d'un montant fixe en euros par unité produite
+> c) fait baisser le coût unitaire en répartissant les coûts fixes sur de grandes séries
+> d) a été conceptualisé par Michael Porter
 >
-> **a, b et d** — la baisse est un **pourcentage constant**, pas un montant fixe. → [[#1.1 Le fondement : l'effet d'expérience]]
+> **a)** — la baisse est un **pourcentage constant**, pas un montant fixe (b) ; c) est l'effet volume ; c'est le BCG, pas Porter, qui l'a conceptualisé. → [[#1.1 Le fondement : l'effet d'expérience]]
 
 > [!question]- Coût unitaire de 100 pour 10 unités, baisse de 15 % à chaque doublement. Pour 40 unités, le coût unitaire est de :
 > a) 70
@@ -500,54 +498,54 @@ d'ouvrir.
 > **b** — 100 × 0,85 = 85 (20 unités), puis 85 × 0,85 = 72,25 (40 unités). a) et d) retranchent 15 points à chaque fois au lieu de 15 %. → [[#1.1 Le fondement : l'effet d'expérience]]
 
 > [!question]- L'effet volume repose sur :
-> a) l'optimisation des équipements
-> b) la répartition des coûts fixes sur de grandes séries
-> c) l'augmentation de la valeur perçue
-> d) le fait de faire tourner les machines en continu, avec plusieurs équipes
+> a) l'augmentation de la valeur perçue
+> b) la baisse du coût unitaire à chaque doublement de la production cumulée
+> c) l'optimisation des équipements et la répartition des coûts fixes sur de grandes séries
+> d) la suppression des éléments de coût jugés superflus
 >
-> **a, b et d** — la valeur perçue relève de la différenciation. → [[#1.2 L'effet volume]]
+> **c)** — la formule de la slide ; a) relève de la différenciation, b) de l'effet d'expérience, d) de l'épuration. → [[#1.2 L'effet volume]]
 
-> [!question]- Limites de la domination par les coûts :
-> a) la guerre des prix et la baisse de rentabilité
-> b) l'évolution des produits ralentie
-> c) le risque d'innovation technologique brutale
-> d) les coûts importants en R & D et en communication
+> [!question]- Laquelle est une limite de la domination par les coûts ?
+> a) des coûts importants en R & D et en communication
+> b) un client parfois peu sensible à la différenciation
+> c) des prix bas qui font barrière à l'entrée des concurrents
+> d) la guerre des prix et la baisse de rentabilité
 >
-> **a, b et c** — d) est une limite de la différenciation. → [[#1.3 Avantages et limites]]
+> **d)** — a) et b) sont des limites de la différenciation ; c) est un avantage de la domination par les coûts, pas une limite. → [[#1.3 Avantages et limites]]
 
 **La différenciation**
 
 > [!question]- La différenciation, selon Kotler et Dubois (2004), c'est :
-> a) la mise en évidence de spécificités porteuses de valeur pour le client
+> a) la mise en évidence de spécificités porteuses de valeur pour le client, destinées à distinguer l'offre de celle des concurrents
 > b) une offre semblable à la concurrence, moins chère
-> c) distinguer l'offre d'une entreprise de celle de ses concurrents
-> d) supprimer les éléments de coût superflus
+> c) supprimer les éléments de coût superflus
+> d) créer un nouveau marché, sans concurrence
 >
-> **a et c** — b) est la domination par les coûts, d) l'épuration. → [[#2. La stratégie de différenciation]]
+> **a)** — b) est la domination par les coûts, c) l'épuration, d) l'océan bleu. → [[#2. La stratégie de différenciation]]
 
 > [!question]- Les leviers de différenciation cités par la prof :
-> a) l'innovation (design, technologie)
-> b) la qualité
-> c) l'image de marque
-> d) la baisse du prix
+> a) la baisse du prix
+> b) l'innovation (design, technologie)
+> c) la qualité
+> d) l'image de marque
 >
-> **a, b et c** — baisser le prix n'est pas un levier de différenciation. → [[#2. La stratégie de différenciation]]
+> **b, c et d** — baisser le prix n'est pas un levier de différenciation. → [[#2. La stratégie de différenciation]]
 
-> [!question]- Le low cost (Ryanair, Lidl) :
-> a) est une domination par les coûts
-> b) est une différenciation par le bas
-> c) offre une valeur perçue inférieure à la moyenne de l'industrie
-> d) offre une valeur perçue identique à la concurrence
+> [!question]- Le low cost (Ryanair, Lidl) est :
+> a) une domination par les coûts, à valeur perçue identique à la concurrence
+> b) une sophistication, appuyée sur des actifs spécifiques uniques
+> c) une différenciation par le bas, à valeur perçue inférieure à la moyenne de l'industrie
+> d) un océan bleu, sans concurrence
 >
-> **b et c** — la confusion avec la domination par les coûts est celle que la prof a signalée ; d) décrit justement la domination par les coûts. → [[#2.1 La différenciation par le bas : le low cost]]
+> **c)** — la confusion avec la domination par les coûts (a) est celle que la prof a signalée : là, la valeur perçue est identique ; b) est l'inverse de l'épuration. → [[#2.1 La différenciation par le bas : le low cost]]
 
-> [!question]- Limites de la stratégie de différenciation :
-> a) un client parfois peu sensible à la différenciation
-> b) le risque d'imitation par les concurrents
-> c) la guerre des prix
-> d) des coûts importants en R & D et en communication
+> [!question]- Laquelle est une limite de la stratégie de différenciation ?
+> a) le risque d'imitation par les concurrents
+> b) la guerre des prix
+> c) l'évolution des produits ralentie
+> d) le risque d'innovation technologique brutale
 >
-> **a, b et d** — la guerre des prix est le risque de la domination par les coûts. → [[#2.2 Avantages et limites]]
+> **a)** — b), c) et d) sont les limites de la domination par les coûts. → [[#2.2 Avantages et limites]]
 
 > [!question]- Dans la matrice de Porter, une entreprise qui se spécialise sur un segment étroit pour y apporter une offre unique est en :
 > a) domination totale par les coûts
@@ -559,11 +557,11 @@ d'ouvrir.
 
 > [!question]- La stratégie d'épuration :
 > a) est une simple stratégie de prix
-> b) réduit simultanément les prix et la valeur perçue de l'offre
-> c) supprime des éléments de coût jugés superflus
-> d) est illustrée par easyJet et Ryanair
+> b) propose une offre supérieure, appuyée sur des actifs spécifiques uniques
+> c) est illustrée par l'aviation d'affaires
+> d) réduit à la fois les prix et la valeur perçue, sans sacrifier les marges
 >
-> **b, c et d** — la vidéo le dit : « attention à ne pas la confondre avec une stratégie de prix ». → [[#2.4 Sophistication et épuration]]
+> **d)** — la vidéo le dit : « attention à ne pas la confondre avec une stratégie de prix » (a) ; b) et c) décrivent la sophistication. → [[#2.4 Sophistication et épuration]]
 
 **Les océans bleus**
 
@@ -577,11 +575,11 @@ d'ouvrir.
 
 > [!question]- L'océan bleu consiste à :
 > a) battre les concurrents pour préserver ses parts de marché
-> b) créer un nouveau marché, sans concurrence
-> c) concilier avantage de valeur et de prix
-> d) exploiter la demande existante
+> b) exploiter la demande existante
+> c) créer un nouveau marché, sans concurrence, en conciliant avantage de valeur et de prix
+> d) arbitrer entre valeur et coût
 >
-> **b et c** — a) et d) décrivent l'océan rouge. → [[#3. Au-delà des stratégies génériques : les océans bleus]]
+> **c)** — a), b) et d) décrivent l'océan rouge. → [[#3. Au-delà des stratégies génériques : les océans bleus]]
 
 > [!question]- Relèvent d'un océan bleu, d'après le cours :
 > a) Netflix, passé de la location de DVD au streaming
@@ -591,31 +589,31 @@ d'ouvrir.
 >
 > **a, b et d** — Leclerc est l'exemple de la domination par les coûts. → [[#3.1 Les exemples]]
 
-> [!question]- Le Cirque du Soleil, en supprimant les animaux :
-> a) a baissé ses coûts
-> b) a augmenté la valeur perçue
-> c) a choisi entre baisse des coûts et hausse de la valeur
-> d) illustre la combinaison différenciation + coûts bas
+> [!question]- Le Cirque du Soleil, en supprimant les animaux, illustre :
+> a) un arbitrage entre baisse des coûts et hausse de la valeur
+> b) la combinaison de coûts plus bas et d'une valeur perçue plus élevée
+> c) une domination par les coûts, à offre semblable à la concurrence
+> d) un low cost, à valeur perçue inférieure
 >
-> **a, b et d** — justement, il n'a **pas** eu à choisir : c'est ce qui fait l'océan bleu. → [[#3.1 Les exemples]]
+> **b)** — il n'a **pas** eu à choisir (a) : c'est ce qui fait l'océan bleu ; sa valeur perçue monte, ce qui exclut c) et d). → [[#3.1 Les exemples]]
 
-> [!question]- Selon la slide, l'innovation réduit les forces de Porter ainsi :
+> [!question]- Selon la slide, quel effet de l'innovation sur les forces de Porter est **faux** ?
 > a) rivalité : elle crée un avantage durable ou un monopole temporaire
 > b) nouveaux entrants : elle crée des barrières à l'entrée
 > c) clients : un produit unique leur donne plus de pouvoir
 > d) substituts : elle peut les rendre obsolètes
 >
-> **a, b et d** — un produit unique donne **moins** de pouvoir aux clients, car l'offre n'est plus substituable. → [[#3.2 L'océan bleu réduit les cinq forces]]
+> **c)** — un produit unique donne **moins** de pouvoir aux clients, car l'offre n'est plus substituable. → [[#3.2 L'océan bleu réduit les cinq forces]]
 
 **Le résumé**
 
-> [!question]- Dans le tableau de synthèse de la slide, les exemples sont :
-> a) Walmart pour la domination par les coûts
-> b) Apple pour la différenciation
-> c) Cirque du Soleil pour l'océan bleu
-> d) Hermès pour la domination par les coûts
+> [!question]- Dans le tableau de synthèse de la slide, quel exemple est bien placé ?
+> a) Walmart pour la différenciation
+> b) Apple pour la domination par les coûts
+> c) Hermès pour la domination par les coûts
+> d) Cirque du Soleil pour l'océan bleu
 >
-> **a, b et c** — Hermès est un exemple de différenciation. → [[#En résumé — le tableau de la slide 32]]
+> **d)** — Walmart illustre la domination par les coûts, Apple (comme Hermès) la différenciation. → [[#En résumé — le tableau de la slide 32]]
 
 ---
 

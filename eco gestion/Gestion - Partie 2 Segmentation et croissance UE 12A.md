@@ -517,19 +517,17 @@ Définis la croissance interne ; Mobiliser les ressources de l'entreprise pour a
 
 ## ✅ Contrôle
 
-QCM au format de l'épreuve : **plusieurs réponses peuvent être bonnes**, 0,5 point
-par question, **tout ou rien**. Coche mentalement toutes les lettres avant
-d'ouvrir.
+QCM de l'épreuve : **le plus souvent une seule bonne réponse**, parfois plusieurs — et c'est alors **tout ou rien**. 0,5 point par question.
 
 **Les niveaux de stratégie**
 
 > [!question]- La corporate strategy :
-> a) est définie au niveau global par la DG
-> b) concerne la totalité du périmètre stratégique de l'entreprise
-> c) vise à créer un avantage concurrentiel sur une seule activité
-> d) gère le portefeuille d'activités et l'allocation des ressources
+> a) est définie pour chacune des activités (DAS)
+> b) vise à créer un avantage concurrentiel sur une seule activité
+> c) gère le portefeuille d'activités et l'allocation des ressources
+> d) définit les modes opératoires des fonctions (finance, marketing, RH…)
 >
-> **a, b et d** — c) est le rôle de la **business strategy**. → [[#1.1 Corporate strategy et business strategy]]
+> **c)** — a) et b) décrivent la **business strategy**, d) la **stratégie opérationnelle**. → [[#1.1 Corporate strategy et business strategy]]
 
 > [!question]- Renault qui s'associe à Nissan illustre :
 > a) une décision de business strategy
@@ -539,39 +537,39 @@ d'ouvrir.
 >
 > **b et d** — elle engage tout le groupe : c'est du corporate, sous la forme d'un partenariat (coopération). → [[#1.1 Corporate strategy et business strategy]]
 
-> [!question]- Au niveau corporate, une activité peut faire l'objet :
-> a) d'une croissance interne
-> b) d'une croissance externe
-> c) d'une cession
-> d) de partenariats ou d'alliances
+> [!question]- Au niveau corporate, le désengagement d'une activité passe par :
+> a) une croissance interne
+> b) une croissance externe
+> c) des partenariats ou des alliances
+> d) une cession
 >
-> **a, b, c et d** — le développement (interne, externe, partenariats) ou le désengagement (cession). → [[#1.1 Corporate strategy et business strategy]]
+> **d)** — a), b) et c) sont les trois voies du **développement**, l'autre chemin. → [[#1.1 Corporate strategy et business strategy]]
 
 > [!question]- La stratégie opérationnelle :
 > a) se décide au siège du groupe
 > b) définit les modes opératoires pour mettre en œuvre les tactiques
-> c) concerne les fonctions : finance, marketing, RH…
+> c) élabore les tactiques pour battre les concurrents
 > d) choisit les activités et les marchés du groupe
 >
-> **b et c** — a) et d) décrivent la **corporate strategy**. → [[#1.2 Trois niveaux, en fait]]
+> **b)** — a) et d) décrivent la **corporate strategy**, c) la **business strategy**, qui conçoit les tactiques que l'opérationnel met en œuvre. → [[#1.2 Trois niveaux, en fait]]
 
-> [!question]- Parmi les quatre questions de la corporate strategy :
-> a) quel est le cœur d'activité de l'entreprise ?
-> b) quel prix fixer pour chaque client ?
+> [!question]- Laquelle N'EST PAS une des questions de la corporate strategy ?
+> a) quel prix fixer pour chaque client ?
+> b) quel est le cœur d'activité de l'entreprise ?
 > c) dans quelles activités investir, lesquelles abandonner ou céder ?
 > d) comment créer de la valeur au niveau du groupe grâce aux synergies ?
 >
-> **a, c et d** — b) relève du marketing, pas de la stratégie du groupe. → [[#1.3 Les quatre questions de la corporate strategy]]
+> **a)** — le prix par client relève du marketing, pas de la stratégie du groupe ; b), c) et d) sont trois des quatre questions. → [[#1.3 Les quatre questions de la corporate strategy]]
 
 **La segmentation stratégique**
 
 > [!question]- La segmentation stratégique :
-> a) regroupe les activités de l'entreprise en sous-ensembles homogènes
-> b) définit des domaines d'activité stratégique
-> c) cherche l'adéquation entre un client et un prix
-> d) regroupe des activités qui présentent une combinaison unique de facteurs clés de succès
+> a) cherche l'adéquation entre un client et un prix
+> b) découpe la clientèle de l'entreprise
+> c) regroupe les activités de l'entreprise en sous-ensembles homogènes, les DAS, qui présentent une combinaison unique de facteurs clés de succès
+> d) répartit les ressources entre différents domaines d'activité stratégique
 >
-> **a, b et d** — c) décrit la **segmentation marketing**. → [[#2.1 La définition]]
+> **c)** — a) et b) décrivent la **segmentation marketing** ; d) est la définition de la **diversification**. → [[#2.1 La définition]]
 
 > [!question]- Les critères de la segmentation stratégique sont :
 > a) la technologie
@@ -584,46 +582,46 @@ d'ouvrir.
 > [!question]- Le découpage en DAS :
 > a) est parfaitement objectif
 > b) est en partie subjectif
-> c) dépend du degré de détail choisi
+> c) est le même quel que soit le degré de détail choisi
 > d) est identique à la segmentation marketing
 >
-> **b et c** — et il ne faut justement pas le confondre avec la segmentation marketing. → [[#2.2 Les trois critères — Abell et Hammond]]
+> **b)** — il dépend au contraire du **degré de détail** choisi, et il ne faut pas le confondre avec la segmentation marketing. → [[#2.2 Les trois critères — Abell et Hammond]]
 
 **Le cycle de vie et la matrice BCG**
 
 > [!question]- Avoir plusieurs DAS permet :
-> a) de compenser le déclin d'un DAS par la croissance d'un autre
-> b) de supprimer le cycle de vie des produits
-> c) de justifier une diversification
-> d) d'être certain de n'avoir aucun poids mort
+> a) de supprimer le cycle de vie des produits
+> b) de justifier une spécialisation
+> c) d'être certain de n'avoir aucun poids mort
+> d) de compenser le déclin d'un DAS par la croissance d'un autre
 >
-> **a et c** — les produits ont toujours un cycle de vie ; plusieurs DAS l'étalent, ils ne le suppriment pas. → [[#3.1 Le cycle de vie]]
+> **d)** — plusieurs DAS étalent le cycle de vie, ils ne le suppriment pas ; et c'est l'argument de la **diversification**, pas de la spécialisation. → [[#3.1 Le cycle de vie]]
 
-> [!question]- Dans la matrice BCG :
-> a) un produit à forte part de marché sur un marché en forte croissance est une star
-> b) un produit à faible part de marché sur un marché en forte croissance est un poids mort
-> c) un produit à forte part de marché sur un marché à faible croissance est une vache à lait
-> d) le dilemme pose la question d'y aller ou de sortir du marché
+> [!question]- Dans la matrice BCG, un produit à forte part de marché sur un marché à faible croissance est :
+> a) une star
+> b) une vache à lait
+> c) un dilemme
+> d) un poids mort
 >
-> **a, c et d** — b) décrit un **dilemme** : le poids mort a une faible part sur un marché à **faible** croissance. → [[#3.2 La matrice BCG]]
+> **b)** — la star a aussi une forte part, mais sur un marché en **forte** croissance ; dilemme et poids mort ont une part de marché **faible**. → [[#3.2 La matrice BCG]]
 
-> [!question]- Dans la matrice BCG de L'Oréal présentée en cours :
-> a) Lancôme est une vedette
-> b) Men Expert est une vache à lait
-> c) Maybelline et Garnier sont des vaches à lait
-> d) Kérastase est un poids mort
+> [!question]- Dans la matrice BCG de L'Oréal présentée en cours, Men Expert est :
+> a) une vedette
+> b) une vache à lait
+> c) un dilemme
+> d) un poids mort
 >
-> **a, c et d** — Men Expert est un **dilemme** : pénétration faible, mais marché en croissance. → [[#3.2 La matrice BCG]]
+> **c)** — pénétration faible, mais marché en croissance. Lancôme est la vedette, Maybelline et Garnier les vaches à lait, Kérastase le poids mort. → [[#3.2 La matrice BCG]]
 
 **LCAG et SWOT**
 
 > [!question]- Le modèle LCAG :
-> a) doit son nom aux initiales de quatre professeurs de Harvard
-> b) est aussi appelé modèle SWOT
-> c) est l'un des plus anciens modèles stratégiques
-> d) a été créé par le Boston Consulting Group
+> a) a été créé par le Boston Consulting Group
+> b) commence par le diagnostic interne, forces et faiblesses
+> c) est l'un des modèles stratégiques les plus récents
+> d) doit son nom aux initiales de quatre professeurs de Harvard
 >
-> **a, b et c** — le BCG a donné son nom à la **matrice** BCG, pas au modèle de Harvard. → [[#4.1 Le modèle LCAG, ou modèle de Harvard]]
+> **d)** — le BCG a donné son nom à la **matrice** BCG ; la démarche commence par les **menaces et opportunités** (externe) ; c'est l'un des **plus anciens** modèles. → [[#4.1 Le modèle LCAG, ou modèle de Harvard]]
 
 > [!question]- Dans le SWOT, si le principal concurrent de l'entreprise est en faillite, il s'agit :
 > a) d'une menace
@@ -645,19 +643,19 @@ d'ouvrir.
 
 > [!question]- La spécialisation :
 > a) centre toutes les ressources et compétences sur un seul DAS
-> b) permet de bénéficier d'une taille critique et de maîtriser ses coûts
+> b) répartit les ressources entre différents DAS
 > c) protège l'entreprise d'une demande saturée
-> d) expose à la présence de produits de substitution
+> d) permet de mobiliser des synergies entre les activités
 >
-> **a, b et d** — c) est l'inverse : la spécialisation rend **vulnérable** à une demande saturée. → [[#5.1 La spécialisation]]
+> **a)** — b) et d) relèvent de la **diversification** ; c) est l'inverse : la spécialisation rend **vulnérable** à une demande saturée. → [[#5.1 La spécialisation]]
 
-> [!question]- Parmi les limites de la diversification :
-> a) un besoin de financement élevé pour chaque nouvelle activité
-> b) un risque de dispersion des ressources et des compétences
-> c) une gestion plus complexe
-> d) l'impossibilité de mobiliser des synergies
+> [!question]- Laquelle est une limite de la diversification ?
+> a) la mobilisation de synergies entre les activités
+> b) un besoin de financement élevé pour chaque nouvelle activité
+> c) la vulnérabilité face à une demande saturée
+> d) le risque de passer à côté de nouvelles innovations
 >
-> **a, b et c** — mobiliser des synergies est au contraire un **avantage** de la diversification. → [[#5.2 La diversification]]
+> **b)** — a) est un **avantage** de la diversification ; c) et d) sont des limites de la **spécialisation**. → [[#5.2 La diversification]]
 
 > [!question]- Le groupe Virgin exerça un temps son activité dans la boisson, les magasins de musique, les librairies, le multimédia. De quel type de diversification s'agissait-il ?
 > a) d'une diversification verticale (logique de filière)
@@ -671,9 +669,9 @@ d'ouvrir.
 > a) se diversifie verticalement
 > b) suit une logique de filière
 > c) se diversifie de façon non liée
-> d) s'expose à des barrières à la sortie
+> d) gagne en flexibilité
 >
-> **a, b et d** — des DAS complémentaires en amont, dans la même filière : il devient plus coûteux d'en supprimer un. → [[#5.3 Trois types de diversification]]
+> **a et b** — les deux faces de la diversification verticale : des DAS complémentaires en amont, dans la même filière. Elle **réduit** au contraire la flexibilité. → [[#5.3 Trois types de diversification]]
 
 **Les voies de développement**
 
@@ -686,20 +684,20 @@ d'ouvrir.
 > **a** — question de l'annale 2024 : ils se développent seuls, par leurs ressources propres, comme Auchan dans le cours. → [[#6.1 La croissance interne]]
 
 > [!question]- La croissance interne :
-> a) est aussi appelée croissance organique
-> b) renforce la culture d'entreprise
-> c) est plus rapide que la croissance externe
-> d) laisse à la concurrence le temps de s'organiser
+> a) est plus rapide que la croissance externe
+> b) passe par l'acquisition d'entreprises existantes
+> c) est aussi appelée croissance organique
+> d) affaiblit la culture d'entreprise
 >
-> **a, b et d** — sa limite principale est justement sa **lenteur**. → [[#6.1 La croissance interne]]
+> **c)** — sa limite principale est sa **lenteur** ; acquérir relève de la **croissance externe** ; elle **renforce** la culture d'entreprise. → [[#6.1 La croissance interne]]
 
 > [!question]- La croissance externe par M & A :
-> a) permet d'acquérir une activité clef en main
-> b) peut apporter une nouvelle technologie, donc un avantage concurrentiel
-> c) demande peu de capital
-> d) peut poser des problèmes sociaux en cas de réduction d'effectif
+> a) demande peu de capital
+> b) permet d'acquérir une activité clef en main
+> c) consiste à se développer seul, par ses ressources propres
+> d) facilite l'intégration de l'entreprise rachetée
 >
-> **a, b et d** — elle nécessite au contraire un **besoin en capital important**. → [[#6.2 La croissance externe par M & A]]
+> **b)** — elle demande un **capital important** et l'intégration est une de ses **difficultés** ; se développer seul, c'est la **croissance interne**. → [[#6.2 La croissance externe par M & A]]
 
 > [!question]- L'externalisation :
 > a) consiste à confier une activité à une entreprise extérieure

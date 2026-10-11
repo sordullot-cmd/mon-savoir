@@ -702,19 +702,17 @@ Marché saturé : comment s'obtient le prix de revient objectif ? ; Prix de VENT
 
 ## ✅ Contrôle
 
-QCM au format de l'épreuve : **plusieurs réponses peuvent être bonnes**, 0,5 point
-par question, **tout ou rien**. Coche mentalement toutes les lettres avant d'ouvrir
-— et ne te fie pas au nombre de lettres : une seule peut suffire, ou les quatre.
+QCM de l'épreuve : **le plus souvent une seule bonne réponse**, parfois plusieurs — et c'est alors **tout ou rien**. 0,5 point par question.
 
 **La fonction Marketing**
 
-> [!question]- Segmentation, ciblage, positionnement :
-> a) on ne cible qu'après avoir segmenté
-> b) segmenter, c'est choisir les segments où concentrer ses ressources
-> c) cibler, c'est choisir un ou plusieurs segments pour y concentrer ses ressources
-> d) positionner, c'est définir l'image que la marque veut occuper dans l'esprit du consommateur
+> [!question]- Segmentation, ciblage, positionnement — cibler, c'est :
+> a) découper le marché en groupes homogènes ayant des besoins proches
+> b) définir l'image que la marque veut occuper dans l'esprit du consommateur
+> c) choisir un ou plusieurs segments pour y concentrer ses ressources
+> d) choisir le prix et le canal de distribution du produit
 >
-> **a, c et d** — b) prête à la segmentation le travail du ciblage : segmenter, c'est **découper** le marché en groupes homogènes, pas choisir. → [[#1.3 La démarche marketing]]
+> **c)** — a) est la segmentation, b) le positionnement, qui encadrent le ciblage dans l'ordre S-C-P ; d) relève des 4P, donc de la mise en œuvre. → [[#1.3 La démarche marketing]]
 
 > [!question]- Parmi les objectifs du marketing stratégique, on compte :
 > a) le choix du prix
@@ -732,13 +730,13 @@ par question, **tout ou rien**. Coche mentalement toutes les lettres avant d'ouv
 >
 > **a, b et d** — c'est le QCM posé en séance : facteur social, variable individuelle, stimulus. La part de marché du produit ne pèse pas sur l'acheteur. → [[#1.2 Le comportement du consommateur]]
 
-> [!question]- Les 4P et leur piège de traduction :
-> a) Product, Price, Promotion, Place
-> b) *Place* désigne l'emplacement du point de vente
-> c) *Promotion* recouvre toute la communication et la publicité
-> d) *Promotion* se limite aux remises et opérations commerciales
+> [!question]- Les 4P et leur piège de traduction : laquelle est juste ?
+> a) *Place* désigne l'emplacement du point de vente
+> b) *Promotion* se limite aux remises et opérations commerciales
+> c) les 4P sont Product, Price, Promotion, Positionnement
+> d) *Promotion* recouvre toute la communication et la publicité
 >
-> **a et c** — les deux faux amis du mix : *Place* est la **distribution**, et *Promotion* ne se réduit pas aux réductions. → [[#1.4 Le marketing mix — les 4P]]
+> **d)** — les deux faux amis du mix : *Place* est la **distribution**, et *Promotion* ne se réduit pas aux réductions. Le quatrième P est *Place* ; le positionnement est une étape du marketing stratégique. → [[#1.4 Le marketing mix — les 4P]]
 
 > [!question]- Une marque signe avec un distributeur un contrat qui lui réserve la vente de ses produits. C'est :
 > a) une distribution intensive
@@ -749,12 +747,12 @@ par question, **tout ou rien**. Coche mentalement toutes les lettres avant d'ouv
 > **c** — le critère qui tranche est le **contrat d'exclusivité**. La sélective limite le nombre de points de vente sans ce contrat ; d) décrit l'intensive. → [[#1.5 Place — les trois stratégies de distribution]]
 
 > [!question]- La distribution intensive :
-> a) cherche le maximum de points de vente
-> b) maximise le chiffre d'affaires
-> c) a un coût de distribution faible
+> a) cherche le maximum de points de vente, et maximise le chiffre d'affaires
+> b) a un coût de distribution faible
+> c) se limite à un nombre restreint de points de vente
 > d) repose sur un contrat d'exclusivité
 >
-> **a et b** — sa contrepartie est au contraire un **coût de distribution élevé** ; d) est l'exclusive. → [[#1.5 Place — les trois stratégies de distribution]]
+> **a)** — sa contrepartie est au contraire un **coût de distribution élevé** ; c) est la sélective, d) l'exclusive. → [[#1.5 Place — les trois stratégies de distribution]]
 
 > [!question]- Relèvent de la promotion dans le cours :
 > a) la distribution sélective
@@ -772,37 +770,37 @@ par question, **tout ou rien**. Coche mentalement toutes les lettres avant d'ouv
 >
 > **a** — c) est le merchandising, d) la force de vente : les deux autres leviers de la promotion. → [[#1.6 Promotion — les trois leviers]]
 
-> [!question]- Une marque de parfum associe son produit à une scène onirique, sans rien dire du produit. Il s'agit :
-> a) d'une publicité suggestive
-> b) d'une publicité informative
-> c) elle s'appuie sur le pouvoir d'évocation des images et une approche psychologique
-> d) elle associe la marque à des mythes ou des fantasmes
+> [!question]- Une marque de parfum associe son produit à une scène onirique, sans rien dire du produit. Il s'agit d'une publicité :
+> a) informative et persuasive
+> b) mécaniste
+> c) suggestive
+> d) projective ou intégrative
 >
-> **a, c et d** — c'est l'exemple même du cours : le parfum et la lingerie. Une publicité informative dirait quelque chose du produit. → [[#1.6 Promotion — les trois leviers]]
+> **c)** — elle joue sur le pouvoir d'évocation des images et associe la marque à des mythes ou des fantasmes : l'exemple même du cours, le parfum et la lingerie. L'informative dirait quelque chose du produit, la mécaniste répète un slogan, la projective fait appartenir à un groupe. → [[#1.6 Promotion — les trois leviers]]
 
-> [!question]- Une marque de baskets montre des jeunes qui affichent leur bande en portant ses modèles. Il s'agit :
-> a) d'une publicité projective ou intégrative
-> b) d'une publicité mécaniste
-> c) elle incite le consommateur à montrer son appartenance à un groupe par ce qu'il achète
-> d) d'une publicité informative
+> [!question]- Une marque de baskets montre des jeunes qui affichent leur bande en portant ses modèles. Il s'agit d'une publicité :
+> a) mécaniste
+> b) projective ou intégrative
+> c) suggestive
+> d) informative
 >
-> **a et c** — le ressort est l'**appartenance**. La mécaniste répète un slogan, l'informative parle du produit. → [[#1.6 Promotion — les trois leviers]]
+> **b)** — le ressort est l'**appartenance** à un groupe, par ce qu'on achète. La mécaniste répète un slogan, la suggestive joue sur l'évocation et les mythes, l'informative parle du produit. → [[#1.6 Promotion — les trois leviers]]
 
 > [!question]- Le marketing push :
-> a) pousse le produit vers le consommateur
-> b) s'appuie sur la promotion
-> c) attire le client vers le produit
-> d) laisse le client venir de lui-même vers le produit
+> a) attire le client vers le produit
+> b) laisse le client venir de lui-même, grâce à la notoriété de la marque
+> c) s'appuie sur la communication et la publicité
+> d) pousse le produit vers le consommateur, par la force de vente et la promotion
 >
-> **a et b** — c) et d) décrivent le marketing **pull**, où le producteur attire le client. → [[#1.7 Du marketing push au marketing pull]]
+> **d)** — a), b) et c) décrivent le marketing **pull**, la stratégie d'attraction. → [[#1.7 Du marketing push au marketing pull]]
 
 > [!question]- La stratégie pull :
-> a) est une composante du mix communication
-> b) est une stratégie de pression
-> c) utilise la communication et la publicité
-> d) est une composante du mix distribution
+> a) est une stratégie de pression
+> b) est une composante du mix communication, et utilise la communication et la publicité
+> c) est une composante du mix distribution
+> d) s'appuie sur la force de vente et le réseau de distribution
 >
-> **a et c** — la pull est une stratégie d'**attraction** ; pression et mix distribution, c'est la **push**. → [[#1.7 Du marketing push au marketing pull]]
+> **b)** — la pull est une stratégie d'**attraction** ; pression, mix distribution, force de vente et réseau, c'est la **push**. → [[#1.7 Du marketing push au marketing pull]]
 
 > [!question]- Un fabricant vend à un grossiste, qui revend à des détaillants, qui vendent au client. C'est :
 > a) un circuit direct
@@ -814,13 +812,13 @@ par question, **tout ou rien**. Coche mentalement toutes les lettres avant d'ouv
 
 **La fonction Recherche & Développement**
 
-> [!question]- L'innovation selon Schumpeter :
-> a) le progrès économique passe par la destruction des activités obsolètes
-> b) et par la création d'activités nouvelles plus efficaces
-> c) le progrès passe par la protection des activités existantes
-> d) le cours désigne ce mécanisme par « création destructrice »
+> [!question]- L'innovation selon Schumpeter — le progrès économique passe par :
+> a) la destruction des activités obsolètes et la création d'activités nouvelles, plus efficaces
+> b) la protection des activités existantes
+> c) l'amélioration progressive de l'existant, sans rien faire disparaître
+> d) la création d'activités nouvelles, à côté d'activités anciennes qui demeurent
 >
-> **a, b et d** — c) retourne la thèse : l'ancien disparaît pour que le nouveau s'installe. → [[#2.1 L'innovation selon Schumpeter]]
+> **a)** — c'est ce que le cours appelle la « création destructrice » : l'ancien disparaît pour que le nouveau s'installe, ce que b), c) et d) refusent chacun à leur façon. → [[#2.1 L'innovation selon Schumpeter]]
 
 > [!question]- Uber organise la rencontre de l'offre et de la demande sans salarier les conducteurs. Chez Schumpeter, c'est :
 > a) un nouveau procédé de production
@@ -831,20 +829,20 @@ par question, **tout ou rien**. Coche mentalement toutes les lettres avant d'ouv
 > **b** — c'est l'exemple du cours pour ce cas d'innovation. → [[#2.1 L'innovation selon Schumpeter]]
 
 > [!question]- Le fordisme de 1913 et le travail à la chaîne illustrent :
-> a) une innovation de procédé
-> b) un changement de la manière de produire
-> c) une innovation de produit
-> d) l'utilisation de nouvelles matières premières
+> a) une innovation de produit
+> b) l'utilisation de nouvelles matières premières
+> c) une innovation de procédé — un changement de la manière de produire
+> d) un nouveau marché pour un produit existant
 >
-> **a et b** — ce qui change, c'est la **manière de produire**, pas ce qu'on vend. → [[#2.1 L'innovation selon Schumpeter]]
+> **c)** — ce qui change, c'est la **manière de produire**, pas ce qu'on vend : ce n'est donc pas une innovation de produit. → [[#2.1 L'innovation selon Schumpeter]]
 
-> [!question]- Innovation de rupture et innovation incrémentale :
-> a) la rupture crée un marché nouveau en rendant l'ancien obsolète
-> b) l'incrémentale rend obsolètes les solutions antérieures
-> c) elles sont complémentaires
-> d) l'incrémentale précède toujours la rupture
+> [!question]- Innovation de rupture et innovation incrémentale : laquelle est juste ?
+> a) l'incrémentale rend obsolètes les solutions antérieures
+> b) l'incrémentale précède toujours la rupture
+> c) la rupture vise d'abord les utilisateurs déjà acquis
+> d) elles sont complémentaires : la rupture ouvre un marché, l'incrémentale le tient dans la durée
 >
-> **a et c** — b) prête à l'incrémentale l'effet de la rupture : l'incrémentale **améliore** l'existant et fidélise les clients acquis. → [[#2.2 Rupture et incrémentale]]
+> **d)** — a) prête à l'incrémentale l'effet de la rupture, c) prête à la rupture le public de l'incrémentale : l'incrémentale **améliore** l'existant et fidélise les clients acquis, la rupture vise de **nouveaux** utilisateurs. → [[#2.2 Rupture et incrémentale]]
 
 > [!question]- Un fabricant rend sa table de jardin plus pratique en y intégrant un parasol. C'est une innovation :
 > a) incrémentale
@@ -854,13 +852,13 @@ par question, **tout ou rien**. Coche mentalement toutes les lettres avant d'ouv
 >
 > **a et c** — l'existant est amélioré, les usages ne changent pas ; et c'est ce qu'on vend qui change, pas la manière de le fabriquer. Deux axes, deux lettres. → [[#🧮 Méthode — qualifier une innovation dans un mini-cas]]
 
-> [!question]- L'iPhone :
-> a) est une innovation de rupture
-> b) crée la catégorie des smartphones
-> c) rend obsolètes les téléphones classiques
-> d) est une innovation incrémentale
+> [!question]- L'iPhone, selon le cours :
+> a) est une innovation de rupture : il crée la catégorie des smartphones et rend obsolètes les téléphones classiques
+> b) est une innovation incrémentale, qui fidélise les utilisateurs déjà acquis
+> c) est une innovation de procédé
+> d) conforte les fabricants de téléphones classiques déjà en place
 >
-> **a, b et c** — b) et c) sont précisément ce qui en fait une rupture. → [[#2.2 Rupture et incrémentale]]
+> **a)** — c'est **chaque nouvelle version**, ensuite, qui est une innovation incrémentale ; et une rupture rend obsolète l'ancien au lieu de conforter ceux qui sont en place. → [[#2.2 Rupture et incrémentale]]
 
 > [!question]- Grâce à un fournisseur, tu proposes un barbecue qui fait aussi plancha, moins encombrant que les produits combinés existants. C'est une innovation :
 > a) de rupture
@@ -878,39 +876,39 @@ par question, **tout ou rien**. Coche mentalement toutes les lettres avant d'ouv
 >
 > **a, b et d** — les coûts de la R&D sont au contraire « à risque » et **difficiles à mesurer**. → [[#2.4 Les enjeux de la R&D]]
 
-> [!question]- La recherche et la logique techno push :
-> a) la recherche fondamentale vise à faire progresser la connaissance scientifique et demande de lourds investissements
-> b) la recherche appliquée produit des inventions jusqu'au stade du prototype
-> c) la recherche fondamentale produit directement des innovations commercialisables
-> d) la logique techno push part d'un produit existant pour chercher à l'améliorer
+> [!question]- Les trois étages de la recherche et la logique techno push : laquelle est juste ?
+> a) la recherche fondamentale produit directement des innovations commercialisables
+> b) la recherche appliquée vise à faire progresser la connaissance scientifique
+> c) la recherche appliquée produit des inventions jusqu'au stade du prototype
+> d) dans la logique techno push, c'est le service marketing qui est à la manœuvre
 >
-> **a, b et d** — le passage de l'invention à l'innovation se joue au dernier étage, la R&D : c'est ce que c) court-circuite. → [[#2.3 Les trois étages de la recherche]]
+> **c)** — b) prête à l'appliquée le but de la **fondamentale** ; a) court-circuite le dernier étage, la R&D, où l'invention devient innovation ; en techno push, c'est le service **R&D** qui part d'un produit existant pour l'améliorer. → [[#2.3 Les trois étages de la recherche]]
 
-> [!question]- Les enjeux de la R&D :
-> a) elle crée un avantage concurrentiel durable
-> b) ses investissements sont lourds, mais le succès est assuré
-> c) le cycle de vie des produits se raccourcit
-> d) le crédit d'impôt recherche encourage l'innovation dans les entreprises
+> [!question]- Parmi les enjeux de la R&D, laquelle est juste ?
+> a) ses investissements sont lourds, mais le succès est assuré
+> b) elle crée un avantage concurrentiel durable, grâce à l'avance prise
+> c) le cycle de vie des produits s'allonge
+> d) elle reste cantonnée à un service, à l'écart du reste de l'entreprise
 >
-> **a, c et d** — l'investissement est lourd **sans savoir si ce sera un succès** : l'exemple du médicament. → [[#2.4 Les enjeux de la R&D]]
+> **b)** — l'investissement est lourd **sans savoir si ce sera un succès** (l'exemple du médicament), le cycle de vie des produits **se raccourcit**, et la R&D est **omniprésente**. → [[#2.4 Les enjeux de la R&D]]
 
 **La fonction Production**
 
 > [!question]- La production :
 > a) transforme des outputs en inputs
-> b) vise la qualité, le coût et le délai
-> c) est au cœur de la chaîne de valeur de l'entreprise
-> d) transforme des ressources en biens et services
+> b) est une fonction à part, sans lien avec les RH, le marketing et la finance
+> c) a pour trois exigences la performance, le patrimoine et le cash
+> d) transforme des ressources, les inputs, en biens et services, les outputs
 >
-> **b, c et d** — a) inverse le sens : les ressources sont les **inputs**, les biens et services les **outputs**. → [[#3.1 Définition]]
+> **d)** — a) inverse le sens ; la production est au cœur de la chaîne de valeur et s'articule avec les autres fonctions ; ses trois exigences sont **qualité, coût, délai** — c) donne les trois lectures de la finance. → [[#3.1 Définition]]
 
 > [!question]- Relèvent du capital circulant :
 > a) les machines et équipements
-> b) les stocks de marchandises
-> c) les matières premières
-> d) la trésorerie
+> b) la trésorerie
+> c) les stocks de marchandises et les matières premières
+> d) le travail, la main-d'œuvre
 >
-> **b et c** — les machines sont du capital **fixe**, la trésorerie du capital **financier**. → [[#3.2 Les facteurs de production]]
+> **c)** — les machines sont du capital **fixe**, la trésorerie du capital **financier**, et le travail est un facteur de production à part. → [[#3.2 Les facteurs de production]]
 
 > [!question]- Une entreprise gagne en productivité. La baisse du coût unitaire peut aller :
 > a) aux actionnaires — dividendes, hausse des profits
@@ -921,46 +919,46 @@ par question, **tout ou rien**. Coche mentalement toutes les lettres avant d'ouv
 > **a, b et c** — trois bénéficiaires possibles, et c'est un **arbitrage** entre eux : d) n'est pas dans le cours. → [[#3.5 Qui profite des gains de productivité ?]]
 
 > [!question]- La courbe d'expérience :
-> a) les coûts unitaires baissent à mesure que la quantité produite augmente
-> b) l'effet vient de l'apprentissage : plus on produit, plus on apprend
+> a) les coûts unitaires augmentent avec les volumes produits
+> b) les coûts unitaires baissent à mesure que la quantité produite augmente, parce que plus on produit, plus on apprend
 > c) l'effet vient des matières premières achetées moins cher
-> d) les coûts unitaires augmentent avec les volumes produits
+> d) elle place la production cumulée en ordonnée et le coût unitaire en abscisse
 >
-> **a et b** — l'effet vient de l'**apprentissage**, pas du prix des achats ; d) inverse la courbe. → [[#3.4 La productivité]]
+> **b)** — a) inverse la courbe ; l'effet vient de l'**apprentissage**, pas du prix des achats ; et les axes sont l'inverse de d) : coût unitaire en ordonnée, production cumulée en abscisse. → [[#3.4 La productivité]]
 
-> [!question]- Une entreprise répercute ses gains de productivité en baissant son prix de vente. Elle :
-> a) fait le choix de la compétitivité
-> b) fait le choix de la rentabilité
-> c) est mieux armée pour résister à la pression concurrentielle
-> d) cherche d'abord à satisfaire ses actionnaires
+> [!question]- Une entreprise répercute ses gains de productivité en baissant son prix de vente. Elle fait le choix :
+> a) de la compétitivité
+> b) de la rentabilité
+> c) de satisfaire d'abord ses actionnaires
+> d) d'accroître son profit unitaire
 >
-> **a et c** — satisfaire les actionnaires en accroissant le profit unitaire, c'est l'autre option : la **rentabilité**. → [[#3.4 La productivité]]
+> **a)** — elle est mieux armée pour résister à la pression concurrentielle. Accroître le profit unitaire pour satisfaire les actionnaires, c'est l'autre option : la **rentabilité**. → [[#3.4 La productivité]]
 
-> [!question]- L'évolution de la fonction production :
-> a) le toyotisme, c'est le flux tendu
-> b) le teslisme, c'est la machine qui informe l'opérateur qu'elle va tomber en panne
-> c) le toyotisme précède le taylorisme
-> d) le premier paradigme de la production est d'arriver à produire ce que l'on vend
+> [!question]- L'évolution de la fonction production : laquelle est juste ?
+> a) le toyotisme précède le taylorisme
+> b) le teslisme, c'est le flux tendu
+> c) le toyotisme, c'est le flux tendu, le juste-à-temps
+> d) le toyotisme, c'est la machine qui informe l'opérateur qu'elle va tomber en panne
 >
-> **a, b et d** — l'ordre est taylorisme (et fordisme), **puis** toyotisme, puis teslisme. → [[#3.6 L'évolution de la fonction production]]
+> **c)** — l'ordre est taylorisme (et fordisme), **puis** toyotisme, puis teslisme ; et la machine qui prévient de sa panne, c'est le **teslisme** : b) et d) échangent les deux. → [[#3.6 L'évolution de la fonction production]]
 
 > [!question]- Face à la saturation des marchés, la production connaît :
-> a) une perte de l'effet d'échelle, avec un nombre de références important
-> b) un effet d'expérience renforcé par des produits à durée de vie plus longue
-> c) la polyvalence du personnel, qui ne peut plus être un simple exécutant
-> d) des unités de travail autonomes, avec le transfert de compétences au terrain
+> a) un effet d'expérience renforcé par des produits à durée de vie plus longue
+> b) un effet d'échelle renforcé, avec peu de références
+> c) un personnel cantonné au rôle de simple exécutant
+> d) une perte de l'effet d'échelle, avec un nombre de références important
 >
-> **a, c et d** — la durée de vie des produits est au contraire **plus réduite**, ce qui **réduit** l'effet d'expérience. → [[#3.6 L'évolution de la fonction production]]
+> **d)** — la durée de vie des produits est au contraire **plus réduite**, ce qui **réduit** l'effet d'expérience ; et le personnel devient **polyvalent**, il ne peut plus être un simple exécutant. → [[#3.6 L'évolution de la fonction production]]
 
 **La fonction Ressources Humaines**
 
 > [!question]- La fonction RH :
-> a) était au départ une fonction administrative : contrat de travail et paie
-> b) gère aujourd'hui le « capital humain »
-> c) a pour grandes missions le recrutement, la montée en compétences et la motivation
-> d) a pour mission principale l'établissement des budgets
+> a) a pour mission principale l'établissement des budgets
+> b) gérait au départ le « capital humain », et est devenue une fonction administrative
+> c) a pour trois grandes missions le recrutement, la montée en compétences et la motivation
+> d) a pour missions de collecter, traiter et diffuser l'information
 >
-> **a, b et c** — les budgets ne sont pas une mission RH. → [[#4.1 De la gestion administrative au capital humain]]
+> **c)** — b) inverse l'histoire : la RH était d'abord **administrative** (contrat de travail et paie), elle gère aujourd'hui le capital humain ; d) est la comptabilité, et les budgets ne sont pas une mission RH. → [[#4.1 De la gestion administrative au capital humain]]
 
 > [!question]- Font partie des rôles de la GRH :
 > a) la concertation sociale
@@ -971,38 +969,38 @@ par question, **tout ou rien**. Coche mentalement toutes les lettres avant d'ouv
 > **a, b et d** — l'ordonnancement des factures fournisseurs est une tâche parfois confiée au **chef comptable**. → [[#4.2 Les rôles de la GRH]]
 
 > [!question]- Dans un processus RH :
-> a) les outils sont élaborés par la DRH
-> b) les outils vivent grâce aux salariés et aux managers
+> a) les outils sont élaborés par la DRH, mais vivent grâce aux salariés et aux managers
+> b) les outils sont élaborés par les managers, et vivent grâce à la DRH
 > c) le manager de proximité n'intervient pas
-> d) le processus se joue à trois : RH, manager, salarié
+> d) le processus se joue à deux : la DRH et le salarié
 >
-> **a, b et d** — le processus est justement **partagé** avec le manager de proximité. → [[#4.4 Les basics d'un processus RH : un processus à trois]]
+> **a)** — b) inverse les rôles ; le processus se joue **à trois** (RH, manager, salarié) et il est justement **partagé** avec le manager de proximité. → [[#4.4 Les basics d'un processus RH : un processus à trois]]
 
 **La fonction Financière**
 
-> [!question]- Comptabilité et finance :
-> a) la comptabilité collecte, traite et diffuse l'information
-> b) la finance gère
-> c) la finance étudie la rentabilité des investissements
-> d) la comptabilité assure le financement de l'entreprise
+> [!question]- Comptabilité et finance : laquelle est juste ?
+> a) la comptabilité assure le financement de l'entreprise
+> b) la comptabilité étudie la rentabilité des investissements
+> c) la finance collecte, traite et diffuse l'information
+> d) la finance assure le financement et étudie la rentabilité des investissements
 >
-> **a, b et c** — assurer le financement, c'est la **finance**. → [[#5.1 Comptabilité et finance]]
+> **d)** — la comptabilité **collecte, traite et diffuse** l'information ; la finance **gère**, et analyse les données de la comptabilité : a), b) et c) échangent les deux. → [[#5.1 Comptabilité et finance]]
 
 > [!question]- Le chef comptable :
-> a) applique les règles de la comptabilité à partir des pièces comptables
-> b) est l'interlocuteur des CAC avec le directeur financier
-> c) agit par influence auprès des directeurs opérationnels
-> d) sort mensuellement les documents économiques
+> a) agit par influence auprès des directeurs opérationnels
+> b) est l'interlocuteur des banquiers pour les financements LMT
+> c) applique les règles de la comptabilité à partir des pièces comptables
+> d) cherche en interne, avec le PDG, les sources d'économies
 >
-> **a, b et d** — agir par influence, c'est le **contrôleur de gestion**. → [[#5.2 Trois métiers de la fonction]]
+> **c)** — a) et d) décrivent le **contrôleur de gestion**, b) le **responsable financier**. → [[#5.2 Trois métiers de la fonction]]
 
 > [!question]- Le responsable financier :
-> a) est l'interlocuteur des banquiers pour les financements LMT
-> b) fait de l'ingénierie financière : émissions d'actions, d'obligations
-> c) s'occupe, de façon puriste, des ressources financières
-> d) connaît les rouages de l'entreprise et agit par influence
+> a) applique les règles de la comptabilité et sort mensuellement les documents économiques
+> b) est l'interlocuteur des banquiers pour les financements LMT (long et moyen terme)
+> c) connaît les rouages de l'entreprise et agit par influence
+> d) gère le contrat de travail et la paie
 >
-> **a, b et c** — d) décrit le **contrôleur de gestion**. → [[#5.2 Trois métiers de la fonction]]
+> **b)** — a) décrit le **chef comptable**, c) le **contrôleur de gestion**, d) la fonction RH à son origine. → [[#5.2 Trois métiers de la fonction]]
 
 > [!question]- Une entreprise atteint son objectif de production, mais en dépassant largement son budget. Elle est :
 > a) efficace
@@ -1012,29 +1010,29 @@ par question, **tout ou rien**. Coche mentalement toutes les lettres avant d'ouv
 >
 > **a** — elle atteint ses résultats, donc elle est **efficace** ; elle ne le fait pas au moindre coût, donc elle n'est **pas efficiente**. → [[#5.2 Trois métiers de la fonction]]
 
-> [!question]- Les trois lectures complémentaires d'une seule vérité :
-> a) le compte de résultat lit la performance
-> b) le bilan lit le patrimoine
-> c) le cash flow statement lit le cash
-> d) le bilan lit la performance
+> [!question]- Les trois lectures complémentaires d'une seule vérité : laquelle est juste ?
+> a) le bilan lit la performance
+> b) le compte de résultat lit le cash
+> c) le bilan lit le patrimoine
+> d) le cash flow statement lit la performance
 >
-> **a, b et c** — la performance est lue par le **compte de résultat**, pas par le bilan. → [[#5.3 Trois lectures complémentaires d'une seule vérité]]
+> **c)** — la performance est lue par le **compte de résultat**, le cash par le **cash flow statement**. → [[#5.3 Trois lectures complémentaires d'une seule vérité]]
 
-> [!question]- Dans le compte de résultat :
-> a) le résultat d'exploitation se calcule avant les charges financières
-> b) les impôts sont retirés avant le résultat d'exploitation
-> c) les frais de personnel sont retirés du chiffre d'affaires pour obtenir le REX
-> d) le résultat net est ce qui reste après les charges financières et les impôts
+> [!question]- Dans le compte de résultat : laquelle est juste ?
+> a) les impôts sont retirés avant le résultat d'exploitation
+> b) le résultat d'exploitation se calcule avant les charges financières et les impôts
+> c) les charges financières sont retirées avant le résultat d'exploitation
+> d) le résultat net se calcule avant les impôts
 >
-> **a, c et d** — les impôts viennent **après** le REX, avec les charges financières. → [[#5.3 Trois lectures complémentaires d'une seule vérité]]
+> **b)** — du chiffre d'affaires on retire achats, sous-traitance, frais de personnel et dotations pour obtenir le REX ; les charges financières et les impôts viennent **après**, et ce qui reste est le résultat net. → [[#5.3 Trois lectures complémentaires d'une seule vérité]]
 
 > [!question]- Sur un marché saturé :
-> a) prix de revient + marge = prix de vente
-> b) c'est la valeur perçue par le client qui détermine le prix de vente
-> c) prix de vente − marge = prix de revient objectif
-> d) l'entreprise court le risque de produire à perte
+> a) c'est le coût qui fixe le prix de vente
+> b) prix de revient complet + marge = prix de vente
+> c) l'entreprise ne court aucun risque de produire à perte
+> d) prix de vente − marge = prix de revient objectif
 >
-> **b, c et d** — a) est la règle de l'**âge d'or**, sur des marchés non saturés. → [[#5.4 Un changement radical : le prix de revient objectif]]
+> **d)** — a) et b) sont la règle de l'**âge d'or**, sur des marchés non saturés ; aujourd'hui, c'est la valeur perçue par le client qui fixe le prix, avec le risque de **produire à perte**. → [[#5.4 Un changement radical : le prix de revient objectif]]
 
 > [!question]- Relèvent des investissements productifs :
 > a) le remplacement (maintien en état)
@@ -1046,13 +1044,13 @@ par question, **tout ou rien**. Coche mentalement toutes les lettres avant d'ouv
 
 **Les prédominances successives des fonctions**
 
-> [!question]- Dans l'ordre des prédominances successives :
-> a) la production domine au début du XXe siècle
-> b) la fonction commerciale domine dans la décennie 1960
-> c) la finance domine dans la décennie 1970
-> d) les RH dominent dans la décennie 1970
+> [!question]- Dans l'ordre des prédominances successives, la décennie 1970 est celle :
+> a) des RH
+> b) de la production
+> c) de la fonction commerciale
+> d) de la finance / économie
 >
-> **a, b et d** — la finance / économie prédomine à partir de la décennie **1980**. → [[#6. Les prédominances successives des fonctions]]
+> **a)** — la production domine au début du XXe siècle, la fonction commerciale dans la décennie 1960, la finance / économie à partir de la décennie **1980**. → [[#6. Les prédominances successives des fonctions]]
 
 ---
 

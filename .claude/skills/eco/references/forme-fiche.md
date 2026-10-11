@@ -108,7 +108,7 @@ de cette licence disent déjà »). On s'entraîne dans la forme où l'on sera n
 | UE de la fiche | Propositions | Bonnes réponses | Ce qui fait la difficulté |
 | --- | --- | --- | --- |
 | **11A** Introduction à l'économie | 4 (`a` → `d`) | **une seule**, −0,5 par erreur | quatre formulations **très proches**, un mot change ; `d) aucune des propositions n'est exacte` revient souvent, et est parfois la bonne |
-| **12A** Introduction à la gestion | 4 (`a` → `d`) | **une ou plusieurs**, tout ou rien | mini-cas à classer, modèle à attribuer à son auteur |
+| **12A** Introduction à la gestion | 4 (`a` → `d`) | **une seule** le plus souvent ; plusieurs **seulement quand la question l'appelle vraiment** (voir plus bas), tout ou rien | mini-cas à classer, modèle à attribuer à son auteur |
 | **13A** Problèmes économiques | 3 (`a` → `c`) | une seule | concept, mécanisme, lecture d'un graphique ou d'un tableau |
 | Autre UE, ou fiche de méthode | 3 (`a` → `c`) | une seule | — |
 
@@ -131,13 +131,41 @@ ne pas répondre vaut mieux que répondre au hasard.
 > **c)** — elles **testent** la théorie et servent aux prévisions. Invalider n'est qu'un résultat possible du test ; expliquer, c'est le rôle du modèle. → [[#Pourquoi un cours d'introduction à l'économie]]
 ```
 
-### 12A — plusieurs bonnes réponses, tout ou rien
+### 12A — une bonne réponse le plus souvent, plusieurs quand c'est utile
+
+L'épreuve de 12A **autorise** plusieurs bonnes réponses ; elle ne les impose
+pas. Le 11 octobre 2026, Sacha a relevé que **9 questions sur 10** de ses
+fiches en avaient plusieurs : le QCM devenait un jeu de « tout cocher sauf
+l'absurde », et on n'apprend plus à **trancher** entre deux notions voisines.
+
+La règle : **une seule bonne réponse par défaut.** Plusieurs bonnes réponses
+**seulement** quand c'est ce que la notion demande :
+
+- une **liste** du cours dont il faut reconnaître les éléments (« lesquelles
+  sont des ressources de l'entreprise ? »), avec un intrus au moins ;
+- un **cas qui relève vraiment de deux catégories à la fois** (Virgin :
+  conglomérale *et* par croissance externe) ;
+- deux propositions qui sont **les deux faces d'une même définition**.
+
+Une seconde bonne réponse qui n'est qu'une **paraphrase** de la première, ou
+un fait vrai mais à côté de la question, n'en est pas une : c'est un
+distracteur à réécrire pour qu'il soit faux. Repère : **pas plus d'une
+question sur quatre** à plusieurs réponses dans le bloc — `verifie.py` le
+signale au-delà d'une sur trois.
 
 ```md
 ## ✅ Contrôle
 
-QCM de l'épreuve : **plusieurs réponses peuvent être bonnes**, et c'est **tout
-ou rien** — une seule oubliée, et la question vaut zéro.
+QCM de l'épreuve : **le plus souvent une seule bonne réponse**, parfois
+plusieurs — et c'est alors **tout ou rien**.
+
+> [!question]- Une entreprise de pneus rachète un réseau de garages qui monte ses pneus. C'est :
+> a) une diversification conglomérale
+> b) une intégration verticale en aval
+> c) une intégration verticale en amont
+> d) une spécialisation
+>
+> **b)** — elle descend la filière vers le client. c) serait le rachat d'un fournisseur de caoutchouc ; a) supposerait des métiers sans lien. → [[#L'intégration verticale]]
 
 > [!question]- Virgin, présent dans la boisson, la musique et les librairies, illustre :
 > a) une diversification conglomérale
