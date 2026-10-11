@@ -18,7 +18,7 @@
   "eco gestion/_brut/audio - Gestion seance 8 strategies business.md": {
    "fiche": "eco gestion/Gestion - Partie 2 Strategies business UE 12A.md",
    "hash": "d4c215fd2f9a",
-   "integre": "2026-10-09 12:59"
+   "integre": "2026-10-11 20:17"
   },
   "eco gestion/_brut/camarade - Gestion chapitre 1 introduction (B).md": {
    "fiche": "eco gestion/Gestion - Introduction.md",
@@ -214,10 +214,10 @@
    "statut": "à faire"
   },
   "eco gestion/Gestion - Partie 2 Strategies business UE 12A.md": {
-   "fait": "intégration de l'enregistrement audio du 8 octobre (voix de la prof seule) + diaporama séance 8",
-   "hash": "7fb46d114998",
-   "mots": 5694,
-   "passage": "2026-10-09 12:59",
+   "fait": "déjà au propre — relue après la refonte du QCM (une seule bonne réponse par défaut, 4 questions à réponses multiples sur 18) ; verifie.py ok, 14 cartes, 2 schémas présents",
+   "hash": "a9f64d512b59",
+   "mots": 5851,
+   "passage": "2026-10-11 20:17",
    "source": "_brut/audio - Gestion seance 8 strategies business.md",
    "sources": [
     "_brut/audio - Gestion seance 8 strategies business.md"
