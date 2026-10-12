@@ -21,7 +21,15 @@ if ! npm run --silent index >> "$LOG" 2>&1; then
   exit 0
 fi
 
-git add -A public/vault.json public/vault-notes.json public/vault-cartes.json public/media public/derived 2>> "$LOG"
+# « Tout le cours » en PDF, une matière par fichier (bouton des pages /cours).
+# Réimprimés seulement quand le texte des notes a bougé : un PDF porte sa date
+# d'impression, le refaire à chaque passage ferait un commit par heure.
+# Un échec n'empêche pas de pousser l'index : le PDF précédent reste en ligne.
+if ! git diff --quiet -- public/vault-notes.json || [ ! -d public/cours-pdf ]; then
+  npm run --silent pdf >> "$LOG" 2>&1 || echo "$(horo)  site : les PDF du cours ont echoue" >> "$LOG"
+fi
+
+git add -A public/vault.json public/vault-notes.json public/vault-cartes.json public/media public/derived public/cours-pdf 2>> "$LOG"
 if git diff --cached --quiet; then
   echo "$(horo)  site : rien n'a change" >> "$LOG"
   exit 0
